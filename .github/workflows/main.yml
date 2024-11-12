@@ -1,0 +1,57 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Set up Python environment to run MergeDataFiles.py
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    # Install Python dependencies (including pyyaml)
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install pyyaml
+        python MergeDataFiles/MergeDataFiles.py
+
+    # Copy the generated combined_metadata.json to StaticSiteGeneration
+    - name: Copy combined_metadata.json to StaticSiteGeneration
+      run: |
+        cp MergeDataFiles/combined_metadata.json StaticSiteGeneration/public/
+
+    # Set up Node.js environment to run npm commands
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    # Install npm dependencies
+    - name: Install npm dependencies
+      working-directory: StaticSiteGeneration
+      run: npm install
+
+    # Generate the static site
+    - name: Generate static site
+      working-directory: StaticSiteGeneration
+      run: npm run generate
+
+    # Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        publish_dir: StaticSiteGeneration/.output/public
+        github_token: ${{ secrets.GITHUB_TOKEN }}

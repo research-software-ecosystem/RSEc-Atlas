@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # This allows manual triggering of the workflow from the GitHub UI
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,9 +25,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install pyyaml  # Install pyyaml (and any other dependencies your script needs)
-        # If you have any additional dependencies in a requirements.txt, you can install them here as well
-        # pip install -r requirements.txt
+        python -m pip install pyyaml
         python MergeDataFiles/MergeDataFiles.py
 
     # Copy the generated combined_metadata.json to StaticSiteGeneration
@@ -39,7 +37,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'  # Upgrade Node.js to version 18+
+        node-version: '18'
 
     # Install npm dependencies
     - name: Install npm dependencies
@@ -50,11 +48,6 @@ jobs:
     - name: Generate static site
       working-directory: StaticSiteGeneration
       run: npm run generate
-
-    # Preview the static site (optional, only if needed for local hosting)
-    - name: Preview static site
-      working-directory: StaticSiteGeneration
-      run: npm run preview
 
     # (Optional) Deploy to GitHub Pages
     - name: Deploy to GitHub Pages

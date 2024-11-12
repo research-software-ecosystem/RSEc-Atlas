@@ -8,12 +8,6 @@ export default defineNuxtConfig({
     routes: [],
   },
 
-  nitro: {
-    prerender: {
-      routes: ["/404"],
-    },
-  },
-
   build: {
     transpile: ['vuetify']
   },

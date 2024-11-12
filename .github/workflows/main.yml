@@ -49,8 +49,9 @@ jobs:
       working-directory: StaticSiteGeneration
       run: npm run generate
 
-    # (Optional) Deploy to GitHub Pages
+    # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         publish_dir: StaticSiteGeneration/.output/public
+        github_token: ${{ secrets.GITHUB_TOKEN }}

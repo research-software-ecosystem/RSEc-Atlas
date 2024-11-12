@@ -4,6 +4,10 @@ export default defineNuxtConfig({
 
   ssr: false, // Enable SSR, which works for static site generation
 
+  app: {
+    baseURL: '/StudyProject/',
+  },
+
   generate: {
     routes: [],
   },

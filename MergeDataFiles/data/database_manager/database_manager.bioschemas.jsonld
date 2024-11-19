@@ -1,0 +1,183 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/database_manager",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N5372cc484af6413484f2e9971d868eff"
+        },
+        {
+          "@id": "_:N586b013c4e9340babed4bad6a92f1056"
+        },
+        {
+          "@id": "_:Nf90fb57fb275451ab6e08045b8994dde"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N6043822c98ab478b8a2e3dc9a1d7c58b"
+        },
+        {
+          "@id": "_:Ne35afc8070e14c42a17b69fa46afc4a3"
+        },
+        {
+          "@id": "_:Ne8e83c64e9354703b1d59f5e45c5098a"
+        },
+        {
+          "@id": "_:N63e27e443f4543398d593b9fefd1fcfb"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3489"
+        },
+        {
+          "@id": "edam:topic_3041"
+        }
+      ],
+      "sc:description": "Sequence database manager, including random database generation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0364"
+        },
+        {
+          "@id": "edam:operation_0367"
+        }
+      ],
+      "sc:name": "Database Manager",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://pappso.inra.fr/bioinfo/pdm/"
+      },
+      "sc:url": "http://pappso.inra.fr/bioinfo/pdm/"
+    },
+    {
+      "@id": "_:N5372cc484af6413484f2e9971d868eff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0957"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Database metadata"
+    },
+    {
+      "@id": "_:N586b013c4e9340babed4bad6a92f1056",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Nf90fb57fb275451ab6e08045b8994dde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N6043822c98ab478b8a2e3dc9a1d7c58b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0957"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Database metadata"
+    },
+    {
+      "@id": "_:Ne35afc8070e14c42a17b69fa46afc4a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0581"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Database"
+    },
+    {
+      "@id": "_:Ne8e83c64e9354703b1d59f5e45c5098a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1674"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence database cross-references"
+    },
+    {
+      "@id": "_:N63e27e443f4543398d593b9fefd1fcfb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1057"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence database name"
+    }
+  ]
+}

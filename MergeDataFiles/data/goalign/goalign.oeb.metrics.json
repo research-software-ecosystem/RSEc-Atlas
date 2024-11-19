@@ -1,0 +1,609 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:goalign/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT6414760S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:goalign/suite/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT6414760S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.3.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.3.7/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.2.8/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.2.9/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.3.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT6414760S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.3.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT6414760S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.3.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT6414760S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:goalign:0.3.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT6414760S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/goalign",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/evolbioinfo/goalign"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

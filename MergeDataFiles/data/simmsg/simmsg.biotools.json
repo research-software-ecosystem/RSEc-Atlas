@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-08-03T19:08:23Z",
+    "biotoolsCURIE": "biotools:simmsg",
+    "biotoolsID": "simmsg",
+    "credit": [
+        {
+            "email": "rcui@age.mpg.de",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://fish.raycui.com/wp/"
+        }
+    ],
+    "description": "The tool allows users to simulate hybrids from crossing two parental genomes, and run the MSG (Multiplexed Shotgun Genotyping) pipeline on these simulated hybrids to test the accuracy of the algorithm. It allows researchers to decide on various parameters before they conduct an MSG experiment.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/melop/simMSG/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Simulated gene expression data generation",
+                    "uri": "http://edamontology.org/operation_3566"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/melop/simMSG/",
+    "language": [
+        "Perl",
+        "Shell"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/simmsg-simulate-accuracy-of-msg-for-your-genome.html"
+        }
+    ],
+    "name": "simMSG",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2016 John Wiley & Sons Ltd.Hybridization between closely related species, whether naturally occurring or laboratory generated, is a useful tool for mapping the genetic basis of the phenotypic traits that distinguish species. The development of next-generation sequencing techniques has greatly improved our ability to assign ancestry to hybrid genomes. One such next-generation sequencing technique, multiplexed shotgun genotyping (or MSG), can be a powerful tool for genotyping hybrids. However, it is difficult a priori to predict the accuracy of MSG in natural hybrids because accuracy depends on ancestry tract length and number of ancestry informative markers. Here, we present a simulator, 'simMSG', that will allow researchers to design MSG experiments and show that in many cases MSG can accurately assign ancestry to hundreds of thousands of sites in the genomes of natural hybrids. The simMSG tool can be used to design experiments for diverse applications including QTL mapping, genotyping introgressed lines or admixture mapping.",
+                "authors": [
+                    {
+                        "name": "Andolfatto P."
+                    },
+                    {
+                        "name": "Cui R."
+                    },
+                    {
+                        "name": "Rosenthal G.G."
+                    },
+                    {
+                        "name": "Schumer M."
+                    }
+                ],
+                "citationCount": 3,
+                "date": "2016-01-01T00:00:00Z",
+                "journal": "Molecular Ecology Resources",
+                "title": "simMSG: An experimental design tool for high-throughput genotyping of hybrids"
+            },
+            "pmid": "26032857"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Simulation experiment",
+            "uri": "http://edamontology.org/topic_3524"
+        }
+    ],
+    "validated": 1
+}

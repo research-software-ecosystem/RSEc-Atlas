@@ -1,0 +1,129 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pysnptools:0.3.13/cmd/research.microsoft.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/?from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fredmond%2Fprojects%2Fmscompbio%2F&type=no-match"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/?from=https://research.microsoft.com/en-us/um/redmond/projects/mscompbio/&type=no-match"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/redirect/?ref=https://research.microsoft.com/en-us/um/redmond/projects/mscompbio/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pysnptools:0.3.9/cmd/research.microsoft.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/?from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fredmond%2Fprojects%2Fmscompbio%2F&type=no-match"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/?from=https://research.microsoft.com/en-us/um/redmond/projects/mscompbio/&type=no-match"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/redirect/?ref=https://research.microsoft.com/en-us/um/redmond/projects/mscompbio/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pysnptools",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/?from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fredmond%2Fprojects%2Fmscompbio%2F&type=no-match"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/?from=https://research.microsoft.com/en-us/um/redmond/projects/mscompbio/&type=no-match"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.microsoft.com/en-us/research/redirect/?ref=https://research.microsoft.com/en-us/um/redmond/projects/mscompbio/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,136 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2017-03-02T12:12:56Z",
+    "biotoolsCURIE": "biotools:metarep",
+    "biotoolsID": "metarep",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "metarep-support@jcvi.org",
+            "name": "Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "JCVI Metagenomics Reports.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/jcvi/METAREP/tree/master/doc"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/jcvi/METAREP/releases/tag/1.4.0-beta"
+        },
+        {
+            "type": "VM image",
+            "url": "ftp://ftp.jcvi.org/pub/software/metarep/vm/metarep-v1.2.0-i386.tgz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Sequence",
+                        "uri": "http://edamontology.org/data_2044"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/jcvi/METAREP",
+    "language": [
+        "Perl",
+        "R"
+    ],
+    "lastUpdate": "2020-06-16T10:55:20Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/jcvi/METAREP/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/jcvi/METAREP"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "METAREP",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "hmenager",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btq455",
+            "metadata": {
+                "abstract": "Summary: JCVI Metagenomics Reports (METAREP) is a Web 2.0 application designed to help scientists analyze and compare annotated metagenomics datasets. It utilizes Solr/Lucene, a high-performance scalable search engine, to quickly query large data collections. Furthermore, users can use its SQL-like query syntax to filter and refine datasets. METAREP provides graphical summaries for top taxonomic and functional classifications as well as a GO, NCBI Taxonomy and KEGG Pathway Browser. Users can compare absolute and relative counts of multiple datasets at various functional and taxonomic levels. Advanced comparative features comprise statistical tests as well as multidimensional scaling, heatmap and hierarchical clustering plots. Summaries can be exported as tab-delimited files, publication quality plots in PDF format. A data management layer allows collaborative data analysis and result sharing. © The Author(s) 2010. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Goll J."
+                    },
+                    {
+                        "name": "Li K."
+                    },
+                    {
+                        "name": "Methe B.A."
+                    },
+                    {
+                        "name": "Rusch D.B."
+                    },
+                    {
+                        "name": "Tanenbaum D.M."
+                    },
+                    {
+                        "name": "Thiagarajan M."
+                    },
+                    {
+                        "name": "Yooseph S."
+                    }
+                ],
+                "citationCount": 78,
+                "date": "2010-08-26T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "METAREP: JCVI metagenomics reports-an open source tool for high-performance comparative metagenomics"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.4.0-beta"
+    ]
+}

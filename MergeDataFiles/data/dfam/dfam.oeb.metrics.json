@@ -1,0 +1,156 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dfam/db/dfam.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/rs.3.rs-76062/v1",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "The Dfam Community Resource of Transposable Element Families, Sequence Models, and Genome Annotations",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dfam:2.0/cmd/null",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dfam:3.3/cmd/null",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dfam:3.7/cmd/null",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/dfam",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

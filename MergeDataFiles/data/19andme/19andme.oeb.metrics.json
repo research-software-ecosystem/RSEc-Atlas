@@ -1,0 +1,125 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:19andme/rest/19andme.covid19.mathematica.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/rs.3.rs-456971/v1",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Developing and validating an individual-level risk calculator for COVID-19 in the United States",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:19andme/web/19andme.covid19.mathematica.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/rs.3.rs-456971/v1",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Developing and validating an individual-level risk calculator for COVID-19 in the United States",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/19andme",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

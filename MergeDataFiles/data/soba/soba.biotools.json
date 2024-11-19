@@ -1,0 +1,94 @@
+{
+    "additionDate": "2017-03-25T22:23:26Z",
+    "biotoolsCURIE": "biotools:soba",
+    "biotoolsID": "soba",
+    "credit": [
+        {
+            "name": "GitHub Issues",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/The-Sequence-Ontology/SO-Ontologies/issues"
+        }
+    ],
+    "description": "Provides a simple statistical and graphical summary of an annotated genome. To be used by annotators and for genome comparison.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome annotation",
+                    "uri": "http://edamontology.org/operation_0362"
+                },
+                {
+                    "term": "Genome comparison",
+                    "uri": "http://edamontology.org/operation_3209"
+                },
+                {
+                    "term": "Ontology comparison",
+                    "uri": "http://edamontology.org/operation_3352"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.sequenceontology.org/cgi-bin/soba.cgi",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "SOBA: Sequence Ontology Bioinformatics Analysis",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The advent of cheaper, faster sequencing technologies has pushed the task of sequence annotation from the exclusive domain of large-scale multi-national sequencing projects to that of research laboratories and small consortia. The bioinformatics burden placed on these laboratories, some with very little programming experience can be daunting. Fortunately, there exist software libraries and pipelines designed with these groups in mind, to ease the transition from an assembled genome to an annotated and accessible genome resource. We have developed the Sequence Ontology Bioinformatics Analysis (SOBA) tool to provide a simple statistical and graphical summary of an annotated genome. We envisage its use during annotation jamborees, genome comparison and for use by developers for rapid feedback during annotation software development and testing. SOBA also provides annotation consistency feedback to ensure correct use of terminology within annotations, and guides users to add new terms to the Sequence Ontology when required. SOBA is available at http://www.sequenceontology.org/cgi-bin/soba.cgi. © The Author(s) 2010. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Eilbeck K."
+                    },
+                    {
+                        "name": "Fan G."
+                    },
+                    {
+                        "name": "Moore B."
+                    }
+                ],
+                "citationCount": 4,
+                "date": "2010-05-21T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "Soba: Sequence ontology bioinformatics analysis"
+            },
+            "pmid": "20494974"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Ontology and terminology",
+            "uri": "http://edamontology.org/topic_0089"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

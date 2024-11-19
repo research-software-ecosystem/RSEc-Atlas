@@ -1,0 +1,105 @@
+{
+    "additionDate": "2017-08-03T18:48:33Z",
+    "biotoolsCURIE": "biotools:looping",
+    "biotoolsID": "looping",
+    "credit": [
+        {
+            "email": "albalepore@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://circe.med.uniroma1.it/looping/contact.php"
+        },
+        {
+            "email": "marioabdelmessih@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://circe.med.uniroma1.it/looping/contact.php"
+        }
+    ],
+    "description": "Method based on the Random Forest automatic learning technique, designed to select structural templates for protein loops among a dataset of candidates.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://circe.med.uniroma1.it/looping/about.php"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://circe.med.uniroma1.it/looping/help.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein structure analysis",
+                    "uri": "http://edamontology.org/operation_2406"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://circe.med.uniroma1.it/looping/",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/looping-predicting-the-structure-of-protein-loops.html"
+        }
+    ],
+    "name": "LoopIng",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press. All rights reserved.Motivation: Predicting the structure of protein loops is very challenging, mainly because they are not necessarily subject to strong evolutionary pressure. This implies that, unlike the rest of the protein, standard homology modeling techniques are not very effective in modeling their structure. However, loops are often involved in protein function, hence inferring their structure is important for predicting protein structure as well as function. Results: We describe a method, LoopIng, based on the Random Forest automated learning technique, which, given a target loop, selects a structural template for it from a database of loop candidates. Compared to the most recently available methods, LoopIng is able to achieve similar accuracy for short loops (4-10 residues) and significant enhancements for long loops (11-20 residues). The quality of the predictions is robust to errors that unavoidably affect the stem regions when these are modeled. The method returns a confidence score for the predicted template loops and has the advantage of being very fast (on average: 1 min/loop).",
+                "authors": [
+                    {
+                        "name": "Lepore R."
+                    },
+                    {
+                        "name": "Messih M.A."
+                    },
+                    {
+                        "name": "Tramontano A."
+                    }
+                ],
+                "citationCount": 19,
+                "date": "2015-06-18T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "LoopIng: A template-based tool for predicting the structure of protein loops"
+            },
+            "pmid": "26249814"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        }
+    ],
+    "validated": 1
+}

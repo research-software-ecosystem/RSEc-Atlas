@@ -1,0 +1,76 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:nemo:2.3.51/cmd/nemo2.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nemo2.sourceforge.io/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://nemo2.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/nemo",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nemo2.sourceforge.io/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://nemo2.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

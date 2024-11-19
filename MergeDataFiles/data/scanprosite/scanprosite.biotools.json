@@ -1,0 +1,147 @@
+{
+    "additionDate": "2017-02-10T14:14:14Z",
+    "biotoolsCURIE": "biotools:scanprosite",
+    "biotoolsID": "scanprosite",
+    "credit": [
+        {
+            "name": "SIB Swiss Institute of Bioinformatics",
+            "typeEntity": "Institute"
+        },
+        {
+            "name": "Contact Form",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www.expasy.org/support"
+        }
+    ],
+    "description": "ScanProsite is a tool for detecting PROSITE signature matches in protein sequences. Users can also search protein databases for specific motifs.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://prosite.expasy.org/prosite_doc.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein feature detection",
+                    "uri": "http://edamontology.org/operation_3092"
+                },
+                {
+                    "term": "Sequence database search",
+                    "uri": "http://edamontology.org/operation_0338"
+                },
+                {
+                    "term": "Sequence feature detection",
+                    "uri": "http://edamontology.org/operation_0253"
+                },
+                {
+                    "term": "Sequence motif recognition",
+                    "uri": "http://edamontology.org/operation_0239"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://prosite.expasy.org/scanprosite/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "ScanProsite",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "SIB",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Many different software tools are available publicly to scan the PROSITE database of protein families. However, none of them, to our knowledge, wholly implements the PROSITE syntax, or satisfies all the rules for scanning a pattern against a sequence. We hereby propose a strict definition of how a PROSITE pattern is to be scanned against a sequence, and provide a reference implementation of a tool to scan PROSITE patterns, rules and profiles against protein sequences.",
+                "authors": [
+                    {
+                        "name": "Bairoch A."
+                    },
+                    {
+                        "name": "Gasteiger E."
+                    },
+                    {
+                        "name": "Gattiker A."
+                    }
+                ],
+                "citationCount": 369,
+                "date": "2002-01-01T00:00:00Z",
+                "journal": "Applied bioinformatics",
+                "title": "ScanProsite: a reference implementation of a PROSITE scanning tool."
+            },
+            "pmid": "15130850"
+        },
+        {
+            "metadata": {
+                "abstract": "ScanProsite - http://www.expasy.org/tools/scanprosite/ - is anewandimprovedversion of theweb-based tool for detecting PROSITE signature matches in protein sequences. For a number of PROSITE profiles, the tool now makes use of ProRules - context-dependent annotation templates - to detect functional and structural intra-domain residues. The detection of those features enhances the power of function prediction based on profiles. Both user-defined sequences and sequences from the UniProt Knowledgebase can be matched against custom patterns, or against PROSITE signatures. To improve response times, matches of sequences from UniProtKB against PROSITE signatures are now retrieved from a pre-computed match database. Several output modes are available including simple text views and a rich mode providing an interactive match and feature viewer with a graphical representation of results. © The Author 2006. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Bairoch A."
+                    },
+                    {
+                        "name": "Bulliard V."
+                    },
+                    {
+                        "name": "Gasteiger E."
+                    },
+                    {
+                        "name": "Gattiker A."
+                    },
+                    {
+                        "name": "Hulo N."
+                    },
+                    {
+                        "name": "Langendijk-Genevaux P.S."
+                    },
+                    {
+                        "name": "Sigrist C.J.A."
+                    },
+                    {
+                        "name": "de Castro E."
+                    }
+                ],
+                "citationCount": 959,
+                "date": "2006-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "ScanProsite: Detection of PROSITE signature matches and ProRule-associated functional and structural residues in proteins"
+            },
+            "pmid": "16845026"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene and protein families",
+            "uri": "http://edamontology.org/topic_0623"
+        },
+        {
+            "term": "Protein sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3510"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1
+}

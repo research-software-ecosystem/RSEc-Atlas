@@ -1,0 +1,109 @@
+{
+    "additionDate": "2018-07-21T11:06:31Z",
+    "biotoolsCURIE": "biotools:irprofiler",
+    "biotoolsID": "irprofiler",
+    "credit": [
+        {
+            "email": "chmaramis@med.auth.gr",
+            "name": "Christos Maramis",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "High throughput immune receptor profiling.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://irprofiler.med.auth.gr:8080/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Structure classification",
+                    "uri": "http://edamontology.org/operation_2996"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://irprofiler.med.auth.gr:8080/",
+    "homepage_status": 1,
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:59:00Z",
+    "license": "GPL-3.0",
+    "name": "IRProfiler",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "d.gabrielaitis",
+    "publication": [
+        {
+            "doi": "10.1186/s12859-018-2144-z",
+            "metadata": {
+                "abstract": "© 2018 The Author(s).Background: The study of the huge diversity of immune receptors, often referred to as immune repertoire profiling, is a prerequisite for diagnosis, prognostication and monitoring of hematological disorders. In the era of high-throughput sequencing (HTS), the abundance of immunogenetic data has revealed unprecedented opportunities for the thorough profiling of T-cell receptors (TR) and B-cell receptors (BcR). However, the volume of the data to be analyzed mandates for efficient and ease-to-use immune repertoire profiling software applications. Results: This work introduces Immune Repertoire Profiler (IRProfiler), a novel software pipeline that delivers a number of core receptor repertoire quantification and comparison functionalities on high-throughput TR and BcR sequencing data. Adopting 5 alternative clonotype definitions, IRProfiler implements a series of algorithms for 1) data filtering, 2) calculation of clonotype diversity and expression, 3) calculation of gene usage for the V and J subgroups, 4) detection of shared and exclusive clonotypes among multiple repertoires, and 5) comparison of gene usage for V and J subgroups among multiple repertoires. IRProfiler has been implemented as a toolbox of the Galaxy bioinformatics platform, comprising 6 tools. Theoretical and experimental evaluation has shown that the tools of IRProfiler are able to scale well with respect to the size of input dataset(s). IRProfiler has been utilized by a number of recently published studies concerning hematological disorders. Conclusion: IRProfiler is made freely available via 3 distribution channels, including the Galaxy Tool Shed. Despite being a new entry in a crowded ecosystem of immune repertoire profiling software, IRProfiler founds its added value on its support for alternative clonotype definitions in conjunction with a combination of properties stemming from its user-centric design, namely ease-of-use, ease-of-access, exploitability of the output data, and analysis flexibility.",
+                "authors": [
+                    {
+                        "name": "Chouvarda I."
+                    },
+                    {
+                        "name": "Gkoufas A."
+                    },
+                    {
+                        "name": "Hatzidimitriou A."
+                    },
+                    {
+                        "name": "Maglaveras N."
+                    },
+                    {
+                        "name": "Maramis C."
+                    },
+                    {
+                        "name": "Stalika E."
+                    },
+                    {
+                        "name": "Stamatopoulos K."
+                    },
+                    {
+                        "name": "Vardi A."
+                    }
+                ],
+                "citationCount": 5,
+                "date": "2018-04-18T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "IRProfiler - a software toolbox for high throughput immune receptor profiling"
+            },
+            "pmcid": "PMC5907363",
+            "pmid": "29669518"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Allergy, clinical immunology and immunotherapeutics",
+            "uri": "http://edamontology.org/topic_3400"
+        },
+        {
+            "term": "Membrane and lipoproteins",
+            "uri": "http://edamontology.org/topic_0820"
+        },
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        }
+    ],
+    "validated": 1
+}

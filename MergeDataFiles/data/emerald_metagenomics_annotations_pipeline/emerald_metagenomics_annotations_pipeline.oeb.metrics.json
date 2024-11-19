@@ -1,0 +1,72 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:emerald_metagenomics_annotations_pipeline/cmd/gitlab.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/rs.3.rs-1396476/v1",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A machine learning framework for discovery and enrichment of metagenomics metadata from open access publications",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/emerald_metagenomics_annotations_pipeline",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

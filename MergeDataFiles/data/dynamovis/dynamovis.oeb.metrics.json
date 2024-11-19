@@ -1,0 +1,99 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dynamovis/cmd/www.github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s40462-021-00291-5",
+                            "pmcid": "PMC8567714",
+                            "pmid": "34736518",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DynamoVis 1.0: an exploratory data visualization software for mapping movement in relation to internal and external factors.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/move-ucsb/DynamoVis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.github.com/move-ucsb/DynamoVis"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/dynamovis",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/move-ucsb/DynamoVis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.github.com/move-ucsb/DynamoVis"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

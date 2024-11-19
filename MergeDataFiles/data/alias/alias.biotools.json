@@ -1,0 +1,84 @@
+{
+    "additionDate": "2017-03-30T21:27:51Z",
+    "biotoolsCURIE": "biotools:alias",
+    "biotoolsID": "alias",
+    "description": "A tool for converting identifiers in which multiple aliases are used to refer to sequences. Also available as a stand-alone tool.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Protein sequence analysis",
+                    "uri": "http://edamontology.org/operation_2479"
+                },
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cbi.labri.fr/outils/alias/",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "name": "Alias",
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Summary: AliasServer provides services that facilitate the assembly of data or datasets that make use of different identifiers for refering to the same protein. This resource relies on a database which contains, for a given organism, a non-redundant list of protein sequences associated with a set of aliases. © Oxford University Press 2004; all rights reserved.",
+                "authors": [
+                    {
+                        "name": "Barre A."
+                    },
+                    {
+                        "name": "Goffard N."
+                    },
+                    {
+                        "name": "Iragne F."
+                    },
+                    {
+                        "name": "de Daruvar A."
+                    }
+                ],
+                "citationCount": 19,
+                "date": "2004-09-22T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "AliasServer: A web server to handle multiple aliases used to refer to proteins"
+            },
+            "pmid": "15059813"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Database management",
+            "uri": "http://edamontology.org/topic_3489"
+        },
+        {
+            "term": "Literature and language",
+            "uri": "http://edamontology.org/topic_3068"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        }
+    ],
+    "validated": 1
+}

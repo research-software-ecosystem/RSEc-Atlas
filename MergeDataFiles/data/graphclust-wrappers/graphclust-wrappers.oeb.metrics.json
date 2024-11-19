@@ -1,0 +1,767 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1.10/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1.11/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1.12/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1.7/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1.8/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1.9/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.1/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.2.0/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.3.0/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.3.1/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.5.0/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.5.1/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.5.2/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphclust-wrappers:0.6.0/cmd/www.bioinf.uni-freiburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210920S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/graphclust-wrappers",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

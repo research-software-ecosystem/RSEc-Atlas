@@ -1,0 +1,653 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mrbayes:3.2.6/cmd/nbisweden.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6809,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 43,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 117,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 261,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 391,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 474,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 509,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 668,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 700,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 869,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 879,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 909,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 983,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/sysbio/sys029",
+                            "pmcid": "PMC3329765",
+                            "pmid": "22357727",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space.",
+                            "year": 2012
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 8684,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 98,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 156,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 215,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 303,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 333,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 407,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 412,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 450,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 467,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 475,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 496,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 540,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 547,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 550,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 604,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 693,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 719,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 741,
+                                    "year": "2012"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/17.8.754",
+                            "pmid": "11524383",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MRBAYES: Bayesian inference of phylogenetic trees.",
+                            "year": 2001
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11838,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 41,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 41,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 205,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 208,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 249,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 314,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 460,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 519,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 569,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 613,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 698,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 811,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 827,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 918,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 920,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 942,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1046,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1099,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1243,
+                                    "year": "2012"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btg180",
+                            "pmid": "12912839",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MrBayes 3: Bayesian phylogenetic inference under mixed models.",
+                            "year": 2003
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mrbayes.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mrbayes/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1019047S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mrbayes:3.2.6/cmd/mrbayes.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mrbayes.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mrbayes/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mrbayes:3.2.7/cmd/mrbayes.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mrbayes.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mrbayes/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1019047S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mrbayes:3.2.7a/cmd/mrbayes.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mrbayes.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mrbayes/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1019047S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mrbayes",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mrbayes.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mrbayes/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1588179S"
+            }
+        }
+    }
+]

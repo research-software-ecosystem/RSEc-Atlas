@@ -1,0 +1,1651 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.10/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.11/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.12/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.6/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.7/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.8/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.6.9/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.7.0/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.10/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.11/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.12/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.13/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.14/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.15/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.16/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.17/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.18/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.19/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.20/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.5/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.6/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.7/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.8/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.2.9/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.1/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.10/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.2/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.6/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.7/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.8/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.3.9/cmd/deseqanalysis.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.4.3/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.4.4/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-deseqanalysis:0.5.0/cmd/r.acidgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/r-deseqanalysis",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

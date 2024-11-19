@@ -1,0 +1,342 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:virulencefinder/undefined/cge.cbs.dtu.dk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1128/jcm.01269-20",
+                            "pmcid": "PMC7512150",
+                            "pmid": "32669379",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "<i>In Silico</i> Genotyping of Escherichia coli Isolates for Extraintestinal Virulence Genes by Use of Whole-Genome Sequencing Data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://cge.cbs.dtu.dk/services/VirulenceFinder/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:virulencefinder:2.0.4/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 313,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 51,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 62,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 62,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 65,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1128/jcm.03617-13",
+                            "pmcid": "PMC3993690",
+                            "pmid": "24574290",
+                            "ref_count": 39,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1975"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1979"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1985"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://cge.cbs.dtu.dk/services/VirulenceFinder/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT41724066S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/virulencefinder",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://cge.cbs.dtu.dk/services/VirulenceFinder/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT41724066S"
+            }
+        }
+    }
+]

@@ -1,0 +1,89 @@
+{
+    "additionDate": "2017-08-03T18:35:32Z",
+    "biotoolsCURIE": "biotools:ace",
+    "biotoolsID": "ace",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/Sheikhizadeh"
+        }
+    ],
+    "description": "Corrects substitution errors in an Illumina archive using a k-mer trie.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/sheikhizadeh/ACE/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequencing error detection",
+                    "uri": "http://edamontology.org/operation_3195"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/sheikhizadeh/ACE/",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/ace-accurate-correction-of-errors-using-k-mer-tries.html"
+        }
+    ],
+    "name": "ACE",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015.Summary: The quality of high-throughput next-generation sequencing data significantly influences the performance and memory consumption of assembly and mapping algorithms. The most ubiquitous platform, Illumina, mainly suffers from substitution errors. We have developed a tool, ACE, based on K-mer tries to correct such errors. On real MiSeq and HiSeq Illumina archives, ACE yields higher gains in terms of coverage depth, outperforming state-of-the-art competitors in the majority of cases.",
+                "authors": [
+                    {
+                        "name": "De Ridder D."
+                    },
+                    {
+                        "name": "Sheikhizadeh S."
+                    }
+                ],
+                "citationCount": 9,
+                "date": "2015-10-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "ACE: Accurate correction of errors using K-mer tries"
+            },
+            "pmid": "26026137"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

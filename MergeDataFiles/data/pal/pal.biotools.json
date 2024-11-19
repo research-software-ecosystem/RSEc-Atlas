@@ -1,0 +1,93 @@
+{
+    "additionDate": "2017-08-03T18:53:31Z",
+    "biotoolsCURIE": "biotools:pal",
+    "biotoolsID": "pal",
+    "credit": [
+        {
+            "email": "shzhang@cs.ucf.edu",
+            "name": "Shaojie Zhang",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://genome.ucf.edu/"
+        }
+    ],
+    "description": "Implementation of an efficient algorithm to compute an optimal structural alignment of an RNA sequence against a genomic substring.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://genome.ucf.edu/PAL/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Prediction and recognition",
+                    "uri": "http://edamontology.org/operation_2423"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genome.ucf.edu/PAL/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/pal-1-31-pseudoknot-aligment-rna-sequences.html"
+        }
+    ],
+    "name": "PAL",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "In this paper, we address the problem of discovering novel non-coding RNA (ncRNA) using primary sequence, and secondary structure conservation, focusing on ncRNA families with pseudoknotted structures. Our main technical result is an efficient algorithm for computing an optimum structural alignment of an RNA sequence against a genomic substring. This algorithm has two applications. First, by scanning a genome, we can identify novel (homologous) pseudoknotted ncRNA, and second, we can infer the secondary structure of the target aligned sequence. We test an implementation of our algorithm (PAL) and show that it has near-perfect behavior for predicting the structure of many known pseudoknots. Additionally, it can detect the true homologs with high sensitivity and specificity in controlled tests. We also use PAL to search entire viral genome and mouse genome for novel homologs of some viral and eukaryotic pseudoknots, respectively. In each case, we have found strong support for novel homologs. © Mary Ann Liebert, Inc. 2008.",
+                "authors": [
+                    {
+                        "name": "Bafna V."
+                    },
+                    {
+                        "name": "Dost B."
+                    },
+                    {
+                        "name": "Han B."
+                    },
+                    {
+                        "name": "Zhang S."
+                    }
+                ],
+                "citationCount": 31,
+                "date": "2008-06-01T00:00:00Z",
+                "journal": "Journal of Computational Biology",
+                "title": "Structural alignment of pseudoknotted RNA"
+            },
+            "pmid": "18549303"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,1398 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.2.0/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.5.0/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.6.0/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.7.5/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.7.7/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.7.8/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.8/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.1/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.11/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.12/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.13/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.14/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.15/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.17/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.18/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.19/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.20/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.21/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.22/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.9.5/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.96.1/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan2:2.96/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/metaphlan2",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:metaphlan2:2.6.0.0/workflow/toolshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 90,
+                            "citations": [
+                                {
+                                    "count": 14,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 55,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.3589",
+                            "pmid": "26418763",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MetaPhlAn2 for enhanced metagenomic taxonomic profiling.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

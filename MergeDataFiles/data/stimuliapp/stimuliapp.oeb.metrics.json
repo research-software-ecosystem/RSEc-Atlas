@@ -1,0 +1,77 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:stimuliapp/undefined/www.stimuliapp.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.3758/s13428-020-01491-4",
+                            "pmcid": "PMC8219581",
+                            "pmid": "33037602",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "StimuliApp: Psychophysical tests on mobile devices.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.stimuliapp.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/stimuliapp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.stimuliapp.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

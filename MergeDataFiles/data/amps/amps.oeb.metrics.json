@@ -1,0 +1,147 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:amps/cmd/www.compbio.dundee.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 69,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "1996"
+                                }
+                            ],
+                            "doi": "10.1016/0076-6879(90)83027-7",
+                            "pmid": "2314284",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Protein multiple sequence alignment and flexible pattern matching.",
+                            "year": 1990
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/amps",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

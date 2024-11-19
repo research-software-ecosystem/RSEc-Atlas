@@ -1,0 +1,76 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:manoraa/web/manoraa.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.str.2021.09.004",
+                            "pmid": "34614393",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MANORAA: A machine learning platform to guide protein-ligand design by anchors and influential distances.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://manoraa.icbs.mahidol.ac.th/Manoraa/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/manoraa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://manoraa.icbs.mahidol.ac.th/Manoraa/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

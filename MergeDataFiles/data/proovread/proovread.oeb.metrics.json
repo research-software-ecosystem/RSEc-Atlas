@@ -1,0 +1,173 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:proovread/cmd/www.bioinfo.biozentrum.uni-wuerzburg.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 141,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 47,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu392",
+                            "pmcid": "PMC4609002",
+                            "pmid": "25015988",
+                            "ref_count": 26,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "proovread: large-scale high-accuracy PacBio correction through iterative short read consensus.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.biozentrum.uni-wuerzburg.de/bioinfo/groups/genomics/research/development_of_bioinformatical_tools/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT4073403S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/proovread",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.biozentrum.uni-wuerzburg.de/bioinfo/groups/genomics/research/development_of_bioinformatical_tools/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

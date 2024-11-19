@@ -1,0 +1,95 @@
+{
+    "additionDate": "2017-08-03T19:00:11Z",
+    "biotoolsCURIE": "biotools:snsa",
+    "biotoolsID": "snsa",
+    "credit": [
+        {
+            "email": "bsinfo@ipm.ir",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://bs.ipm.ac.ir/"
+        }
+    ],
+    "description": "A method to construct a supernetwork from partial trees based on simulated annealing.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://bs.ipm.ir/softwares/snsa/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree generation",
+                    "uri": "http://edamontology.org/operation_0323"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bs.ipm.ir/softwares/snsa/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/snsa-construct-supernetwork-from-partial-trees-based-on-simulated-annealing.html"
+        }
+    ],
+    "name": "SNSA",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Different partial phylogenetic trees can be derived from different sources of evidence and different methods. One important problem is to summarize these partial phylogenetic trees using a supernetwork. We propose a novel simulated annealing based method called SNSA which uses an optimization function to produce a simple network that still retains a great deal of phylogenetic information. We report the performance of this new method on real and simulated datasets. © 2012 Elsevier Inc.",
+                "authors": [
+                    {
+                        "name": "Eslahchi C."
+                    },
+                    {
+                        "name": "Hassanzadeh R."
+                    },
+                    {
+                        "name": "Sung W.-K."
+                    }
+                ],
+                "citationCount": 2,
+                "date": "2012-06-01T00:00:00Z",
+                "journal": "Molecular Phylogenetics and Evolution",
+                "title": "Constructing phylogenetic supernetworks based on simulated annealing"
+            },
+            "pmid": "22426435"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Simulation experiment",
+            "uri": "http://edamontology.org/topic_3524"
+        },
+        {
+            "term": "Systems biology",
+            "uri": "http://edamontology.org/topic_2259"
+        }
+    ],
+    "validated": 1
+}

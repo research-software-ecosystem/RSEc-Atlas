@@ -1,0 +1,389 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mosca",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-6037-4248"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nff3b83125bce4daeace7cf648b1bacf1"
+        },
+        {
+          "@id": "_:N35b85d9919ce412eaeebea3e4cff6c7e"
+        },
+        {
+          "@id": "_:N737768604b0d4a99b0a081de65ef8acf"
+        },
+        {
+          "@id": "_:Nc6cc022f88e9463589781876bebd0586"
+        },
+        {
+          "@id": "_:N284b66cf692d4f84ac2eda845cd796e1"
+        },
+        {
+          "@id": "_:N951e954e22364b99b5e4f0b6e2eb9023"
+        },
+        {
+          "@id": "_:Naf47662eabbc487584a502f6584fbb92"
+        },
+        {
+          "@id": "_:Na603dddc6edf471caaaa446b1d4d55ba"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nec897aea3ac648cdbe3e76568071972a"
+        },
+        {
+          "@id": "_:N83f0cab0aff44f34aa399bab12483a00"
+        },
+        {
+          "@id": "_:N51806c8618c8493cbad65f4345d6f59f"
+        },
+        {
+          "@id": "_:N512ea9c450414416bfaa11412992dbfb"
+        },
+        {
+          "@id": "_:Nd5c5fa4a331b45d08ab05e791725f066"
+        },
+        {
+          "@id": "_:N6b97a689045842df941624b901296070"
+        },
+        {
+          "@id": "_:N3cc7a7b04aaa4b04ba39138274485e3d"
+        },
+        {
+          "@id": "_:N4023c8a57db54879850fda671b58d043"
+        },
+        {
+          "@id": "_:N4d501e5dde504af6aa10da04ccf450f0"
+        },
+        {
+          "@id": "_:Ne35ec1c54984456ba6158c150594827f"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3941"
+        },
+        {
+          "@id": "edam:topic_3174"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:author": {
+        "@id": "http://orcid.org/0000-0002-2691-9950"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-3-319-98702-6_22"
+      },
+      "sc:description": "Meta-Omics Software for Community Analysis",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3192"
+        },
+        {
+          "@id": "edam:operation_3672"
+        },
+        {
+          "@id": "edam:operation_3800"
+        },
+        {
+          "@id": "edam:operation_0524"
+        },
+        {
+          "@id": "edam:operation_3282"
+        },
+        {
+          "@id": "edam:operation_0362"
+        },
+        {
+          "@id": "edam:operation_0327"
+        },
+        {
+          "@id": "edam:operation_3219"
+        },
+        {
+          "@id": "edam:operation_3929"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "MOSCA",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/iquasere/MOSCA/wiki/Partial-runs"
+        },
+        {
+          "@id": "https://github.com/iquasere/MOSCA/wiki/Installing-and-running-MOSCA"
+        },
+        {
+          "@id": "https://github.com/iquasere/MOSCA/wiki/Technical-documentation"
+        },
+        {
+          "@id": "https://github.com/iquasere/MOSCA/wiki/Parameters-of-MOSCA"
+        },
+        {
+          "@id": "https://github.com/iquasere/MOSCA/releases"
+        }
+      ],
+      "sc:softwareVersion": "1.3.6",
+      "sc:url": "https://github.com/iquasere/MOSCA"
+    },
+    {
+      "@id": "_:Nec897aea3ac648cdbe3e76568071972a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N83f0cab0aff44f34aa399bab12483a00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N51806c8618c8493cbad65f4345d6f59f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2711"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Genome report"
+    },
+    {
+      "@id": "_:N512ea9c450414416bfaa11412992dbfb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nd5c5fa4a331b45d08ab05e791725f066",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:N6b97a689045842df941624b901296070",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Quality control report"
+    },
+    {
+      "@id": "_:N3cc7a7b04aaa4b04ba39138274485e3d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N4023c8a57db54879850fda671b58d043",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:N4d501e5dde504af6aa10da04ccf450f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:Ne35ec1c54984456ba6158c150594827f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nff3b83125bce4daeace7cf648b1bacf1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N35b85d9919ce412eaeebea3e4cff6c7e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N737768604b0d4a99b0a081de65ef8acf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2019"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3620"
+      },
+      "sc:name": "Map data"
+    },
+    {
+      "@id": "_:Nc6cc022f88e9463589781876bebd0586",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N284b66cf692d4f84ac2eda845cd796e1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N951e954e22364b99b5e4f0b6e2eb9023",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Naf47662eabbc487584a502f6584fbb92",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:Na603dddc6edf471caaaa446b1d4d55ba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6037-4248",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-2691-9950",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-3-319-98702-6_22",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

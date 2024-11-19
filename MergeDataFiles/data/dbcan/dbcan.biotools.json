@@ -1,0 +1,124 @@
+{
+    "additionDate": "2017-03-25T16:30:04Z",
+    "biotoolsCURIE": "biotools:dbcan",
+    "biotoolsID": "dbcan",
+    "credit": [
+        {
+            "email": "xyn@bmb.uga.edu",
+            "name": "Ying Xu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://csbl.bmb.uga.edu/~xyn/"
+        }
+    ],
+    "description": "dbCAN provides automated carbohydrate-active enzyme signature domain-based annotation for a set of proteins. Each carbohydrate-active enzyme has an assigned signature domain.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://csbl.bmb.uga.edu/dbCAN/help.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Annotation",
+                    "uri": "http://edamontology.org/operation_0226"
+                },
+                {
+                    "term": "Genome annotation",
+                    "uri": "http://edamontology.org/operation_0362"
+                },
+                {
+                    "term": "Protein domain recognition",
+                    "uri": "http://edamontology.org/operation_0246"
+                },
+                {
+                    "term": "Protein feature detection",
+                    "uri": "http://edamontology.org/operation_3092"
+                },
+                {
+                    "term": "Protein fold recognition",
+                    "uri": "http://edamontology.org/operation_0303"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://csbl.bmb.uga.edu/dbCAN/annotate.php",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "dbCAN",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Carbohydrate-active enzymes (CAZymes) are very important to the biotech industry, particularly the emerging biofuel industry because CAZymes are responsible for the synthesis, degradation and modification of all the carbohydrates on Earth. We have developed a web resource, dbCAN (http://csbl.bmb.uga.edu/dbCAN/annotate.php), to provide a capability for automated CAZyme signature domain-based annotation for any given protein data set (e.g. proteins from a newly sequenced genome) submitted to our server. To accomplish this, we have explicitly defined a signature domain for every CAZyme family, derived based on the CDD (conserved domain database) search and literature curation. We have also constructed a hidden Markov model to represent the signature domain of each CAZyme family. These CAZyme family-specific HMMs are our key contribution and the foundation for the automated CAZyme annotation. © 2012 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Chen X."
+                    },
+                    {
+                        "name": "Mao F."
+                    },
+                    {
+                        "name": "Mao X."
+                    },
+                    {
+                        "name": "Xu Y."
+                    },
+                    {
+                        "name": "Yang J."
+                    },
+                    {
+                        "name": "Yin Y."
+                    }
+                ],
+                "citationCount": 918,
+                "date": "2012-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "DbCAN: A web resource for automated carbohydrate-active enzyme annotation"
+            },
+            "pmid": "22645317"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Carbohydrates",
+            "uri": "http://edamontology.org/topic_0152"
+        },
+        {
+            "term": "Enzymes",
+            "uri": "http://edamontology.org/topic_0821"
+        },
+        {
+            "term": "Gene and protein families",
+            "uri": "http://edamontology.org/topic_0623"
+        },
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1
+}

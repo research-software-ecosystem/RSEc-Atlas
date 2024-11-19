@@ -1,0 +1,216 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pagal/app/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "doi": "10.12688/f1000research.4952.2",
+                            "pmcid": "PMC4207245",
+                            "pmid": "25352981",
+                            "ref_count": 29,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1951"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1983"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "PAGAL - Properties and corresponding graphics of alpha helical structures in proteins.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pagal",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    }
+]

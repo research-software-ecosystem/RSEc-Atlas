@@ -1,0 +1,147 @@
+{
+    "additionDate": "2015-08-03T09:36:44Z",
+    "biotoolsCURIE": "biotools:lynx_multi-gene_annotations",
+    "biotoolsID": "lynx_multi-gene_annotations",
+    "credit": [
+        {
+            "name": "BioCatalogue",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Documentor"
+            ],
+            "url": "https://www.biocatalogue.org"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://lynx.ci.uchicago.edu/index.html"
+        }
+    ],
+    "description": "Programmatic access to the analytical tools (Enrichment Analysis, and Network-based gene prioritization) and annotations on the genes (integrated from over 35 databases).",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://lynx.ci.uchicago.edu/webservices.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://lynx.ci.uchicago.edu/webservices.html",
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://www.biocatalogue.org/services/3599"
+        }
+    ],
+    "name": "Lynx Multi-Gene Annotations",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioCatalogue",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkt1166",
+            "metadata": {
+                "abstract": "We have developed Lynx (http://lynx.ci.uchicago.edu) - a web-based database and a knowledge extraction engine, supporting annotation and analysis of experimental data and generation of weighted hypotheses on molecular mechanisms contributing to human phenotypes and disorders of interest. Its underlying knowledge base (LynxKB) integrates various classes of information from >35 public databases and private collections, as well as manually curated data from our group and collaborators. Lynx provides advanced search capabilities and a variety of algorithms for enrichment analysis and network-based gene prioritization to assist the user in extracting meaningful knowledge from LynxKB and experimental data, whereas its service-oriented architecture provides public access to LynxKB and its analytical tools via user-friendly web services and interfaces. © 2013 The Author(s). Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Balasubramanian S."
+                    },
+                    {
+                        "name": "Berrocal E."
+                    },
+                    {
+                        "name": "Bornigen D."
+                    },
+                    {
+                        "name": "Dave U."
+                    },
+                    {
+                        "name": "Feng B."
+                    },
+                    {
+                        "name": "Gilliam T.C."
+                    },
+                    {
+                        "name": "Maltsev N."
+                    },
+                    {
+                        "name": "Sulakhe D."
+                    },
+                    {
+                        "name": "Taylor A."
+                    },
+                    {
+                        "name": "Wang S."
+                    },
+                    {
+                        "name": "Xie B."
+                    },
+                    {
+                        "name": "Xu J."
+                    }
+                ],
+                "citationCount": 23,
+                "date": "2014-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "Lynx: A database and knowledge extraction engine for integrative medicine"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web API"
+    ],
+    "topic": [
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        },
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        },
+        {
+            "term": "Systems biology",
+            "uri": "http://edamontology.org/topic_2259"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

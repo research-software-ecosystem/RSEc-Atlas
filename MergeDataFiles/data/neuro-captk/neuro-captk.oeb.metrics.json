@@ -1,0 +1,106 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:neuro-captk/app/www.cbica.upenn.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/noajnl/vdaa128",
+                            "pmcid": "PMC7829474",
+                            "pmid": "33521638",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Multi-institutional noninvasive in vivo characterization of <i>IDH</i>, 1p/19q, and EGFRvIII in glioma using neuro-Cancer Imaging Phenomics Toolkit (neuro-CaPTk).",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.med.upenn.edu/cbica/captk"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.cbica.upenn.edu/captk"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.med.upenn.edu/cbica/captk/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.med.upenn.edu/cbica/captk"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/neuro-captk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.med.upenn.edu/cbica/captk"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.cbica.upenn.edu/captk"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.med.upenn.edu/cbica/captk/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.med.upenn.edu/cbica/captk"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

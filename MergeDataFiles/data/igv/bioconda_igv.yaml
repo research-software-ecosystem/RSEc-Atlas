@@ -1,0 +1,34 @@
+about:
+  home: http://www.broadinstitute.org/software/igv/home
+  license: MIT
+  license_family: MIT
+  license_file: license.txt
+  summary: 'Integrative Genomics Viewer. Fast, efficient, scalable visualization tool
+    for genomics
+
+    data and annotations.
+
+    '
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - None
+extra:
+  identifiers:
+  - biotools:igv
+package:
+  name: igv
+  version: 2.17.4
+requirements:
+  build:
+  - openjdk 17
+  run:
+  - openjdk 17
+source:
+  sha256: 1c42fcca6fcb17d6ca6eced4bc27075f45aed62d2f9cc0d6a149e69cc56113c0
+  url: https://github.com/igvteam/igv/archive/v2.17.4.tar.gz
+test:
+  commands:
+  - igv --version
+  - igv_hidpi --version

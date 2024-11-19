@@ -1,0 +1,122 @@
+{
+    "additionDate": "2015-12-06T15:18:29Z",
+    "biotoolsCURIE": "biotools:prophecy",
+    "biotoolsID": "prophecy",
+    "credit": [
+        {
+            "name": "bils.se",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://prophecy.lundberg.gu.se/Main.aspx?Mainmnu=ContactUs"
+        }
+    ],
+    "description": "Profiling of phenotypic characteristics in yeast.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://prophecy.lundberg.gu.se/Main.aspx?Mainmnu=home"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Keyword",
+                        "uri": "http://edamontology.org/data_0968"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Resource metadata",
+                        "uri": "http://edamontology.org/data_2337"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://prophecy.lundberg.gu.se/",
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "name": "PROPHECY",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mikael.borg@bils.se",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkl1029",
+            "metadata": {
+                "abstract": "Connecting genotype to phenotype is fundamental in biomedical research and in our understanding of disease. Phenomics - the large-scale quantitative phenotypic analysis of genotypes on a genome-wide scale - connects automated data generation with the development of novel tools for phenotype data integration, mining and visualization. Our yeast phenomics database PROPHECY is available at http://prophecy.lundberg.gu.se. Via phenotyping of 984 heterozygous diploids for all essential genes the genotypes analysed and presented in PROPHECY have been extended and now include all genes in the yeast genome. Further, phenotypic data from gene overexpression of 574 membrane spanning proteins has recently been included. To facilitate the interpretation of quantitative phenotypic data we have developed a new phenotype display option, the Comparative Growth Curve Display, where growth curve differences for a large number of mutants compared with the wild type are easily revealed. In addition, PROPHECY now offers a more informative and intuitive first-sight display of its phenotypic data via its new summary page. We have also extended the arsenal of data analysis tools to include dynamic visualization of phenotypes along individual chromosomes. PROPHECY is an initiative to enhance the growing field of phenome bioinformatics. © 2007 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Blomberg A."
+                    },
+                    {
+                        "name": "Davidsson P."
+                    },
+                    {
+                        "name": "Ericson E."
+                    },
+                    {
+                        "name": "Fernandez-Ricaud L."
+                    },
+                    {
+                        "name": "Glaab K."
+                    },
+                    {
+                        "name": "Kemp G.J.L."
+                    },
+                    {
+                        "name": "Nerman O."
+                    },
+                    {
+                        "name": "Nilsson F."
+                    },
+                    {
+                        "name": "Warringer J."
+                    }
+                ],
+                "citationCount": 19,
+                "date": "2007-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "PROPHECY - A yeast phenome database, update 2006"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Phenomics",
+            "uri": "http://edamontology.org/topic_3298"
+        }
+    ],
+    "validated": 1
+}

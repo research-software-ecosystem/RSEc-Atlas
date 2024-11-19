@@ -1,0 +1,101 @@
+{
+    "additionDate": "2017-03-30T21:27:38Z",
+    "biotoolsCURIE": "biotools:clotbase",
+    "biotoolsID": "clotbase",
+    "credit": [
+        {
+            "email": "clotbase@bicnirrh.res.in",
+            "name": "ClotBase Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A curated knowledgebase on the proteins that are involved in the blood coagulation pathway. It contains information on sequence, accession number, source, taxonomy, keywords, function, subcellular location, tissue specificity, associated diseases, mutation and links to external databases.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Molecular docking",
+                    "uri": "http://edamontology.org/operation_0478"
+                },
+                {
+                    "term": "Polymorphism detection",
+                    "uri": "http://edamontology.org/operation_3202"
+                },
+                {
+                    "term": "Protein modelling (mutation)",
+                    "uri": "http://edamontology.org/operation_0331"
+                },
+                {
+                    "term": "Sequence mutation and randomisation",
+                    "uri": "http://edamontology.org/operation_0367"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.clotbase.bicnirrh.res.in/",
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "name": "Clotbase",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "authors": [
+                    {
+                        "name": "Barai R.S."
+                    },
+                    {
+                        "name": "Idicula-Thomas S."
+                    },
+                    {
+                        "name": "Nilawe P."
+                    },
+                    {
+                        "name": "Sonawani A."
+                    }
+                ],
+                "citationCount": 2,
+                "date": "2010-08-05T00:00:00Z",
+                "journal": "Blood",
+                "title": "ClotBase: A knowledgebase on proteins involved in blood coagulation"
+            },
+            "pmid": "20688969"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Haematology",
+            "uri": "http://edamontology.org/topic_3408"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1
+}

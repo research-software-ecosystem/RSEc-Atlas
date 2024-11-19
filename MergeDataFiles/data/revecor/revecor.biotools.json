@@ -1,0 +1,102 @@
+{
+    "additionDate": "2018-04-22T10:13:49Z",
+    "biotoolsCURIE": "biotools:revecor",
+    "biotoolsID": "revecor",
+    "credit": [
+        {
+            "email": "yiluheihei@gmail.com",
+            "name": "Yang Cao",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "An implementation of the reverse ecology framework. Reverse ecology refers to the use of genomics to study ecology with no a priori assumptions about the organism(s) under consideration, linking organisms to their environment. It allows researchers to reconstruct the metabolic networks and study the ecology of poorly characterized microbial species from their genomic information, and has substantial potentials for microbial community ecological analysis.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://cran.r-project.org/web/packages/RevEcoR/RevEcoR.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Metabolic network modelling",
+                    "uri": "http://edamontology.org/operation_3660"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://cran.r-project.org/web/packages/RevEcoR/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "license": "GPL-2.0",
+    "name": "RevEcoR",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "d.gabrielaitis",
+    "publication": [
+        {
+            "doi": "10.1186/s12859-016-1088-4",
+            "metadata": {
+                "abstract": "© 2016 Cao et al.Background: All species live in complex ecosystems. The structure and complexity of a microbial community reflects not only diversity and function, but also the environment in which it occurs. However, traditional ecological methods can only be applied on a small scale and for relatively well-understood biological systems. Recently, a graph-theory-based algorithm called the reverse ecology approach has been developed that can analyze the metabolic networks of all the species in a microbial community, and predict the metabolic interface between species and their environment. Results: Here, we present RevEcoR, an R package and a Shiny Web application that implements the reverse ecology algorithm for determining microbe-microbe interactions in microbial communities. This software allows users to obtain large-scale ecological insights into species' ecology directly from high-throughput metagenomic data. The software has great potential for facilitating the study of microbiomes. Conclusions: RevEcoR is open source software for the study of microbial community ecology. The RevEcoR R package is freely available under the GNU General Public License v. 2.0 at http://cran.r-project.org/web/packages/RevEcoR/with the vignette and typical usage examples, and the interactive Shiny web application is available at http://yiluheihei.shinyapps.io/shiny-RevEcoR, or can be installed locally with the source code accessed from https://github.com/yiluheihei/shiny-RevEcoR.",
+                "authors": [
+                    {
+                        "name": "Bo X."
+                    },
+                    {
+                        "name": "Cao Y."
+                    },
+                    {
+                        "name": "Li F."
+                    },
+                    {
+                        "name": "Wang Y."
+                    },
+                    {
+                        "name": "Zheng X."
+                    }
+                ],
+                "citationCount": 12,
+                "date": "2016-07-29T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "RevEcoR: An R package for the reverse ecology analysis of microbiomes"
+            },
+            "pmcid": "PMC4965897",
+            "pmid": "27473172"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Ecology",
+            "uri": "http://edamontology.org/topic_0610"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Microbial ecology",
+            "uri": "http://edamontology.org/topic_3697"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "0.99.3"
+    ]
+}

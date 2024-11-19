@@ -1,0 +1,30 @@
+about:
+  home: http://bedops.readthedocs.io
+  license: GPLv2
+  summary: High-performance genomic feature operations.
+build:
+  number: 2
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:Bedops
+  - doi:10.1093/bioinformatics/bts277
+package:
+  name: bedops
+  version: 2.4.41
+requirements:
+  build:
+  - make
+  - None
+  run:
+  - samtools
+source:
+  sha256: 3b868c820d59dd38372417efc31e9be3fbdca8cf0a6b39f13fb2b822607d6194
+  url: https://github.com/bedops/bedops/archive/v2.4.41.tar.gz
+test:
+  commands:
+  - bedops --help
+  - gtf2bed --help

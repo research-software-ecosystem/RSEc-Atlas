@@ -1,0 +1,95 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ckttd/db/www.ckttdb.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1136/jitc-2020-001247",
+                            "pmcid": "PMC7592241",
+                            "pmid": "33109630",
+                            "ref_count": 2,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "Checkpoint therapeutic target database (CKTTD): the first comprehensive database for checkpoint targets and their modulators in cancer immunotherapy.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ckttdb.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ckttd",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ckttdb.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

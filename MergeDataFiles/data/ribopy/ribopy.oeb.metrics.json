@@ -1,0 +1,96 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ribopy/undefined/ribopy.readthedocs.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/855445",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "RiboFlow, RiboR and RiboPy: An ecosystem for analyzing ribosome profiling data at read length resolution",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.biorxiv.org/content/10.1101/855445v1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://biorxiv.org/lookup/doi/10.1101/855445"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.biorxiv.org/lookup/doi/10.1101/855445"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ribopy",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.biorxiv.org/content/10.1101/855445v1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://biorxiv.org/lookup/doi/10.1101/855445"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.biorxiv.org/lookup/doi/10.1101/855445"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

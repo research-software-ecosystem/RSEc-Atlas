@@ -1,0 +1,91 @@
+{
+    "additionDate": "2017-08-03T19:00:35Z",
+    "biotoolsCURIE": "biotools:ssamk",
+    "biotoolsID": "ssamk",
+    "credit": [
+        {
+            "email": "lkubatko@stat.osu.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.stat.osu.edu/~lkubatko/"
+        }
+    ],
+    "description": "The tool uses a stochastic search algorithm for estimation of maximum likelihood phylogenetic trees for morphological data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.stat.osu.edu/~lkubatko/software.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.stat.osu.edu/~lkubatko/software.html",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/ssamk-inference-maximum-likelihood-phylogenetic-trees-morphological-data.html"
+        }
+    ],
+    "name": "SSAMK",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Evolutionary biologists have adopted simple likelihood models for purposes of estimating ancestral states and evaluating character independence on specified phylogenies; however, for purposes of estimating phylogenies by using discrete morphological data, maximum parsimony remains the only option. This paper explores the possibility of using standard, well-behaved Markov models for estimating morphological phylogenies (including branch lengths) under the likelihood criterion. An important modification of standard Markov models involves making the likelihood conditional on characters being variable, because constant characters are absent in morphological data sets. Without this modification, branch lengths are often overestimated, resulting in potentially serious biases in tree topology selection. Several new avenues of research are opened by an explicitly model-based approach to phylogenetic analysis of discrete morphological data, including combined-data likelihood analyses (morphology + sequence data), likelihood ratio tests, and Bayesian analyses.",
+                "authors": [
+                    {
+                        "name": "Lewis P.O."
+                    }
+                ],
+                "citationCount": 1655,
+                "date": "2001-11-01T00:00:00Z",
+                "journal": "Systematic Biology",
+                "title": "A likelihood approach to estimating phylogeny from discrete morphological character data"
+            },
+            "pmid": "12116640"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        },
+        {
+            "term": "Statistics and probability",
+            "uri": "http://edamontology.org/topic_2269"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,64 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:seq2enz/web/www.scfbio-iitd.res.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.bbapap.2021.140721",
+                            "pmid": "34624539",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Seq2Enz: An application of mask BLAST methodology with a new chemical logic of amino acids for improved enzyme function prediction.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/seq2enz",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

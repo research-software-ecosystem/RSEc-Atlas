@@ -1,0 +1,82 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:drug-herb-interaction/db/drug-herb-interaction.netlify.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s12906-019-2731-1",
+                            "pmcid": "PMC6881993",
+                            "pmid": "31775730",
+                            "ref_count": 5,
+                            "refs": [
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "Constructing a bilingual website with validated database for Herb and Western medicine interactions using Ginseng, Ginkgo and Dong Quai as examples.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://drug-herb-interaction.netlify.app/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/drug-herb-interaction",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://drug-herb-interaction.netlify.app/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

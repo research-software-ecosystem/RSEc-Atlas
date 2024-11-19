@@ -1,0 +1,108 @@
+{
+    "additionDate": "2017-08-03T19:03:57Z",
+    "biotoolsCURIE": "biotools:vocs",
+    "biotoolsID": "vocs",
+    "credit": [
+        {
+            "email": "cupton@uvic.ca",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://athena.bioc.uvic.ca/about-us/"
+        }
+    ],
+    "description": "An easy-to-use Java GUI used to access the VBRC genome databases.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://virology.uvic.ca/virology-ca-tools/vocs/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence database search",
+                    "uri": "http://edamontology.org/operation_0338"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://virology.uvic.ca/virology-ca-tools/vocs/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/vocs-2-0-viral-orthologous-clusters.html"
+        }
+    ],
+    "name": "VOCS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Poxvirus Orthologous Clusters (POCs) is a JAVA client-server application which accesses an updated database containing all complete poxvirus genomes; it automatically groups orthologous genes into families based on BLASTP scores for assessment by a human database curator. POCs has a user-friendly interface permitting complex SQL queries to retrieve interesting groups of DNA and protein sequences as well as gene families for subsequent interrogation by a variety of integrated tools: BLASTP, BLASTX, TBLASTN, Jalview (multiple alignment), Dotlet (Dotplot), Laj (local alignment), and NAP (nucleotide to amino acid alignment). © Oxford University Press 2002.",
+                "authors": [
+                    {
+                        "name": "Ehlers A."
+                    },
+                    {
+                        "name": "Osborne J."
+                    },
+                    {
+                        "name": "Roper R.L."
+                    },
+                    {
+                        "name": "Slack S."
+                    },
+                    {
+                        "name": "Upton C."
+                    }
+                ],
+                "citationCount": 49,
+                "date": "2002-11-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Poxvirus Orthologous Clusters (POCs)"
+            },
+            "pmid": "12424130"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1
+}

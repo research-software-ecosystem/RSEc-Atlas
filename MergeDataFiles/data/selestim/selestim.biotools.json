@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-08-03T19:01:12Z",
+    "biotoolsCURIE": "biotools:selestim",
+    "biotoolsID": "selestim",
+    "credit": [
+        {
+            "email": "renaud.vitalis@inra.fr",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Software to detect signatures of selection from gene frequency data and measure the selection intensity.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://www1.montpellier.inra.fr/CBGP/software/selestim/files/SelEstim_1.1.7_manual.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www1.montpellier.inra.fr/CBGP/software/selestim/index.html",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/selestim-1-0-7-detecting-and-measuring-selection-from-gene-frequency-data.html"
+        }
+    ],
+    "name": "SelEstim",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The recent advent of high-throughput sequencing and genotyping technologies makes it possible to produce, easily and cost effectively, large amounts of detailed data on the genotype composition of populations. Detecting locus-specific effects may help identify those genes that have been, or are currently, targeted by natural selection. How best to identify these selected regions, loci, or single nucleotides remains a challenging issue. Here, we introduce a new model-based method, called SelEstim, to distinguish putative selected polymorphisms from the background of neutral (or nearly neutral) ones and to estimate the intensity of selection at the former. The underlying population genetic model is a diffusion approximation for the distribution of allele frequency in a population subdivided into a number of demes that exchange migrants. We use a Markov chain Monte Carlo algorithm for sampling from the joint posterior distribution of the model parameters, in a hierarchical Bayesian framework. We present evidence from stochastic simulations, which demonstrates the good power of SelEstim to identify loci targeted by selection and to estimate the strength of selection acting on these loci, within each deme. We also reanalyze a subset of SNP data from the Stanford HGDP-CEPH Human Genome Diversity Cell Line Panel to illustrate the performance of SelEstim on real data. In agreement with previous studies, our analyses point to a very strong signal of positive selection upstream of the LCT gene, which encodes for the enzyme lactase-phlorizin hydrolase and is associated with adult-type hypolactasia. The geographical distribution of the strength of positive selection across the Old World matches the interpolated map of lactase persistence phenotype frequencies, with the strongest selection coefficients in Europe and in the Indus Valley. © 2014 by the Genetics Society of America.",
+                "authors": [
+                    {
+                        "name": "Beaumont M.A."
+                    },
+                    {
+                        "name": "Dawson K.J."
+                    },
+                    {
+                        "name": "Gautier M."
+                    },
+                    {
+                        "name": "Vitalis R."
+                    }
+                ],
+                "citationCount": 40,
+                "date": "2014-01-01T00:00:00Z",
+                "journal": "Genetics",
+                "title": "Detecting and measuring selection from gene frequency data"
+            },
+            "pmid": "24361938"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA mutation",
+            "uri": "http://edamontology.org/topic_2533"
+        },
+        {
+            "term": "DNA polymorphism",
+            "uri": "http://edamontology.org/topic_2885"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        }
+    ],
+    "validated": 1
+}

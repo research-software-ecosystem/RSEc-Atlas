@@ -1,0 +1,95 @@
+{
+    "additionDate": "2017-08-03T18:45:23Z",
+    "biotoolsCURIE": "biotools:genoinfer",
+    "biotoolsID": "genoinfer",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.hhmi.org/scientists/vivian-g-cheung"
+        }
+    ],
+    "description": "Genotype inference method that reduces the number of genotyping reactions and increases the power of genome-wide association studies.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://genoinfer.sourceforge.net/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genoinfer.sourceforge.net/",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/genoinfer-0-4-genotype-inference.html"
+        }
+    ],
+    "name": "Genoinfer",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Our genotype inference method combines sparse marker data from a linkage scan and high-resolution SNP genotypes for several individuals to infer genotypes for related individuals. We illustrate the method's utility by inferring over 53 million SNP genotypes for 78 children in the Centre d'Etude du Polymorphisme Humain families. The method can be used to obtain high-density genotypes in different family structures, including nuclear families commonly used in complex disease gene mapping studies. © 2006 Nature Publishing Group.",
+                "authors": [
+                    {
+                        "name": "Abecasis G.R."
+                    },
+                    {
+                        "name": "Burdick J.T."
+                    },
+                    {
+                        "name": "Chen W.-M."
+                    },
+                    {
+                        "name": "Cheung V.G."
+                    }
+                ],
+                "citationCount": 104,
+                "date": "2006-09-04T00:00:00Z",
+                "journal": "Nature Genetics",
+                "title": "In silico method for inferring genotypes in pedigrees"
+            },
+            "pmid": "16921375"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genotype and phenotype",
+            "uri": "http://edamontology.org/topic_0625"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

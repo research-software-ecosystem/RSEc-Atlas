@@ -1,0 +1,76 @@
+{
+    "additionDate": "2017-01-13T13:15:57Z",
+    "biotoolsCURIE": "biotools:pybedtools",
+    "biotoolsID": "pybedtools",
+    "credit": [
+        {
+            "name": "GitHub Issues",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/daler/pybedtools/issues"
+        }
+    ],
+    "description": "Python extension to BEDTools that allows use of all BEDTools programs directly from Python, as well as feature-by-feature manipulation, automatic handling of temporary files, and more.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Read mapping",
+                    "uri": "http://edamontology.org/operation_3198"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://pypi.python.org/pypi/pybedtools",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:47Z",
+    "license": "GPL-2.0",
+    "maturity": "Mature",
+    "name": "Pybedtools",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "pybedtools is a flexible Python software library for manipulating and exploring genomic datasets in many common formats. It provides an intuitive Python interface that extends upon the popular BEDTools genome arithmetic tools. The library is well documented and efficient, and allows researchers to quickly develop simple, yet powerful scripts that enable complex genomic analyses. © The Author(s) 2011. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Dale R.K."
+                    },
+                    {
+                        "name": "Pedersen B.S."
+                    },
+                    {
+                        "name": "Quinlan A.R."
+                    }
+                ],
+                "citationCount": 155,
+                "date": "2011-12-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Pybedtools: A flexible Python library for manipulating genomic datasets and annotations"
+            },
+            "pmid": "21949271"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1
+}

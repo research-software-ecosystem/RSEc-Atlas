@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-08-03T18:50:01Z",
+    "biotoolsCURIE": "biotools:mpbind",
+    "biotoolsID": "mpbind",
+    "credit": [
+        {
+            "email": "PJiang@morgridge.org",
+            "name": "Peng Jiang",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.morgridge.net/upload/files/peng/Aptamer/MPBind.html"
+        }
+    ],
+    "description": "Meta-motif based statistical framework and pipeline to predict SELEX derived binding aptamers. Briefly, MPBind calculates four kinds of p-values (1-sided) for each motif, representing different features.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://www.morgridge.net/upload/files/peng/Aptamer/Download/MPBind_User%20Guide.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein-nucleic acid binding prediction",
+                    "uri": "http://edamontology.org/operation_0420"
+                },
+                {
+                    "term": "Sequence feature detection",
+                    "uri": "http://edamontology.org/operation_0253"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.morgridge.net/upload/files/peng/Aptamer/MPBind.html",
+    "language": [
+        "Python",
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/mpbind-2-1-predict-selex-derived-binding-aptamers.html"
+        }
+    ],
+    "name": "MPBind",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2014 The Author.Availability and implementation: MPBind software and documents are available at http://www.morgridge.net/MPBind.html. The human embryonic stem cells whole-cell SELEX-Seq data are available at http://www.morgridge.net/Aptamer/.Aptamers are 'synthetic antibodies' that can bind to target molecules with high affinity and specificity. Aptamers are chemically synthesized and their discovery can be performed completely in vitro, rather than relying on in vivo biological processes, making them wellsuited for high-throughput discovery. However, a large fraction of the most enriched aptamers in Systematic Evolution of Ligands by EXponential enrichment (SELEX) rounds display poor binding activity. Here, we present MPBind, a Meta-motif-based statistical framework and pipeline to Predict the Binding potential of SELEX-derived aptamers. Using human embryonic stem cell SELEX-Seq data, MPBind achieved high prediction accuracy for binding potential. Further analysis showed that MPBind is robust to both polymerase chain reaction amplification bias and incomplete sequencing of aptamer pools. These two biases usually confound aptamer analysis.",
+                "authors": [
+                    {
+                        "name": "Hou Z."
+                    },
+                    {
+                        "name": "Jiang P."
+                    },
+                    {
+                        "name": "Meyer S."
+                    },
+                    {
+                        "name": "Propson N.E."
+                    },
+                    {
+                        "name": "Soh H.T."
+                    },
+                    {
+                        "name": "Stewart R."
+                    },
+                    {
+                        "name": "Thomson J.A."
+                    }
+                ],
+                "citationCount": 29,
+                "date": "2014-09-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "MPBind: A Meta-motif-based statistical framework and pipeline to Predict Binding potential of SELEX-derived aptamers"
+            },
+            "pmid": "24872422"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1
+}

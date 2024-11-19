@@ -1,0 +1,170 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:eplant/db/bar.utoronto.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 17,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0015237",
+                            "pmcid": "PMC3018417",
+                            "pmid": "21249219",
+                            "ref_count": 75,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "ePlant and the 3D data display initiative: integrative systems biology on the world wide web.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/eplant",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

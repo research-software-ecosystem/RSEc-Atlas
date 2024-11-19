@@ -1,0 +1,169 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biotextquest/web/bioinformatics.med.uoc.gr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu524",
+                            "pmid": "25100685",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "BioTextQuest(+): a knowledge integration platform for literature mining and concept discovery.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.med.uoc.gr/biotextquest"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.med.uoc.gr/biotextquest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotextquest",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.med.uoc.gr/biotextquest"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.med.uoc.gr/biotextquest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,99 @@
+{
+    "additionDate": "2015-01-22T11:49:00Z",
+    "biotoolsCURIE": "biotools:tips",
+    "biotoolsID": "tips",
+    "credit": [
+        {
+            "email": "alba.lepore@uniroma1.it",
+            "name": "Rosalba Lepore",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "ELIXIR-ITA-SAPIENZA",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "This database collects predicted drug targets in 150 pathogen species. The structural details of the drug mode of binding are also provided. Predictions are made using the information coming from drug-target three-dimensional complexes and by exploiting the homology relationships of known drug targets with pathogen proteins. Predicted pathogen targets are further annotated with sequence, structural and functional information.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://circe.med.uniroma1.it/tips/help.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "note": "Database of therapeutic targets in pathogens and associated tools",
+            "operation": [
+                {
+                    "term": "Structure database search",
+                    "uri": "http://edamontology.org/operation_0339"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.biocomputing.it/tips",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "TiPs",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-ITA-SAPIENZA",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btt289",
+            "metadata": {
+                "abstract": "Motivation: The need for new drugs and new targets is particularly compelling in an era that is witnessing an alarming increase of drug resistance in human pathogens. The identification of new targets of known drugs is a promising approach, which has proven successful in several cases. Here, we describe a database that includes information on 5153 putative drug-target pairs for 150 human pathogens derived from available drug-target crystallographic complexes. © 2013 The Author 2013. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Lepore R."
+                    },
+                    {
+                        "name": "Tramontano A."
+                    },
+                    {
+                        "name": "Via A."
+                    }
+                ],
+                "citationCount": 1,
+                "date": "2013-07-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "TiPs: A database of therapeutic targets in pathogens and associated tools"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Cheminformatics",
+            "uri": "http://edamontology.org/topic_2258"
+        },
+        {
+            "term": "Model organisms",
+            "uri": "http://edamontology.org/topic_0621"
+        },
+        {
+            "term": "Structure analysis",
+            "uri": "http://edamontology.org/topic_0081"
+        }
+    ],
+    "validated": 1
+}

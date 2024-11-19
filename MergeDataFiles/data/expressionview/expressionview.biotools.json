@@ -1,0 +1,120 @@
+{
+    "additionDate": "2017-01-17T15:00:13Z",
+    "biotoolsCURIE": "biotools:expressionview",
+    "biotoolsID": "expressionview",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "csardi.gabor@gmail.com",
+            "name": "Gabor Csardi",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "R package that provides an interactive environment to explore biclusters identified in gene expression data. A sophisticated ordering algorithm is used to present the biclusters in a visually appealing layout. From this overview, the user can select individual biclusters and access all the biologically relevant data associated with it. The package is aimed to facilitate the collaboration between bioinformaticians and life scientists who are not familiar with the R language.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/ExpressionView.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/ExpressionView_1.26.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Clustering",
+                    "uri": "http://edamontology.org/operation_3432"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://www2.unil.ch/cbg/index.php?title=ExpressionView",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "license": "GPL-2.0",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/ExpressionView.html"
+        }
+    ],
+    "name": "ExpressionView",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btq334",
+            "metadata": {
+                "abstract": "Summary: ExpressionView is an R package that provides an interactive graphical environment to explore transcription modules identified in gene expression data. A sophisticated ordering algorithm is used to present the modules with the expression in a visually appealing layout that provides an intuitive summary of the results. From this overview, the user can select individual modules and access biologically relevant metadata associated with them. © The Author 2010. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Bergmann S."
+                    },
+                    {
+                        "name": "Csardi G."
+                    },
+                    {
+                        "name": "Kutalik Z."
+                    },
+                    {
+                        "name": "Luscher A."
+                    },
+                    {
+                        "name": "Peter B."
+                    },
+                    {
+                        "name": "de lachapelle A.M."
+                    }
+                ],
+                "citationCount": 4,
+                "date": "2010-07-29T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "ExpressionView-an interactive viewer for modules identified in gene expression data"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Desktop application",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.26.0"
+    ]
+}

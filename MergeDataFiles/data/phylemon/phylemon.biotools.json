@@ -1,0 +1,151 @@
+{
+    "additionDate": "2016-07-23T16:08:40Z",
+    "biotoolsCURIE": "biotools:phylemon",
+    "biotoolsID": "phylemon",
+    "collectionID": [
+        "ELIXIR-ES"
+    ],
+    "credit": [
+        {
+            "email": "babelomics@cipf.es",
+            "name": "babelomics@cipf.es  (Francisco García)",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Computational Genomics Department. Prince Felipe Research Center (CIPF)",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "cipf.es",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "http://bioinfo.cipf.es",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Suite of web-tools for molecular evolution, phylogenetics, phylogenomics and hypotheses testing. It is conceived as a response to the increasing demand of molecular sequence analyses for experts and non-experts users.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://phylemon.bioinfo.cipf.es/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "scapella"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data handling",
+                    "uri": "http://edamontology.org/operation_2409"
+                },
+                {
+                    "term": "Phylogenetic tree annotation",
+                    "uri": "http://edamontology.org/operation_0558"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://phylemon.bioinfo.cipf.es/",
+    "lastUpdate": "2018-12-10T12:58:53Z",
+    "name": "Phylemon",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "scapella",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkr408",
+            "metadata": {
+                "abstract": "Phylemon 2.0 is a new release of the suite of web tools for molecular evolution, phylogenetics, phylogenomics and hypotheses testing. It has been designed as a response to the increasing demand of molecular sequence analyses for experts and non-expert users. Phylemon 2.0 has several unique features that differentiates it from other similar web resources: (i) it offers an integrated environment that enables evolutionary analyses, format conversion, file storage and edition of results; (ii) it suggests further analyses, thereby guiding the users through the web server; and (iii) it allows users to design and save phylogenetic pipelines to be used over multiple genes (phylogenomics). Altogether, Phylemon 2.0 integrates a suite of 30 tools covering sequence alignment reconstruction and trimming; tree reconstruction, visualization and manipulation; and evolutionary hypotheses testing. © 2011 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Capella-Gutierrez S."
+                    },
+                    {
+                        "name": "Carbonell J."
+                    },
+                    {
+                        "name": "De Maria A."
+                    },
+                    {
+                        "name": "Dopazo H."
+                    },
+                    {
+                        "name": "Dopazo J."
+                    },
+                    {
+                        "name": "Gabaldon T."
+                    },
+                    {
+                        "name": "Huerta-Cepas J."
+                    },
+                    {
+                        "name": "Medina I."
+                    },
+                    {
+                        "name": "Pulido L."
+                    },
+                    {
+                        "name": "Sanchez R."
+                    },
+                    {
+                        "name": "Serra F."
+                    },
+                    {
+                        "name": "Tarraga J."
+                    }
+                ],
+                "citationCount": 135,
+                "date": "2011-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "Phylemon 2.0: A suite of web-tools for molecular evolution, phylogenetics, phylogenomics and hypotheses testing"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "Phylogenomics",
+            "uri": "http://edamontology.org/topic_0194"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "2"
+    ]
+}

@@ -1,0 +1,162 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:reffinder/app/blooge.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1007/s10142-023-01055-7",
+                            "pmid": "37060478",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "RefFinder: a web-based tool for comprehensively analyzing and identifying reference genes.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:reffinder/soap/blooge.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1007/s10142-023-01055-7",
+                            "pmid": "37060478",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "RefFinder: a web-based tool for comprehensively analyzing and identifying reference genes.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:reffinder:0.81/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/reffinder",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

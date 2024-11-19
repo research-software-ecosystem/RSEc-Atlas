@@ -1,0 +1,117 @@
+{
+    "additionDate": "2017-08-03T19:06:25Z",
+    "biotoolsCURIE": "biotools:intcomp",
+    "biotoolsID": "intcomp",
+    "credit": [
+        {
+            "email": "leo.lahti@iki.fi",
+            "name": "Leo Lahti",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://antagomir.github.io/"
+        }
+    ],
+    "description": "This R package provides a benchmarking tools for quantitative comparison of cancer gene detection algorithms based on integrative analysis of DNA copy number and gene expression data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://intcomp.r-forge.r-project.org/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Comparison",
+                    "uri": "http://edamontology.org/operation_2424"
+                },
+                {
+                    "term": "Gene expression analysis",
+                    "uri": "http://edamontology.org/operation_2495"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://intcomp.r-forge.r-project.org/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/intcomp-0-3-30-integrative-cancer-gene-detection-algorithms.html"
+        }
+    ],
+    "name": "intcomp",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "A variety of genome-wide profiling techniques are available to investigate complementary aspects of genome structure and function. Integrative analysis of heterogeneous data sources can reveal higher level interactions that cannot be detected based on individual observations. A standard integration task in cancer studies is to identify altered genomic regions that induce changes in the expression of the associated genes based on joint analysis of genome-wide gene expression and copy number profiling measurements. In this review, we highlight common approaches to genomic data integration and provide a transparent benchmarking procedure to quantitatively compare method performances in cancer gene prioritization. Algorithms, data sets and benchmarking results are available at http://intcomp.r-forge.r-project.org. © The Author 2012. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Bicciato S."
+                    },
+                    {
+                        "name": "Dugas M."
+                    },
+                    {
+                        "name": "Klein H."
+                    },
+                    {
+                        "name": "Lahti L."
+                    },
+                    {
+                        "name": "Schafer M."
+                    }
+                ],
+                "citationCount": 25,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Briefings in Bioinformatics",
+                "title": "Cancer gene prioritization by integrative analysis of mRNA expression and DNA copy number data: A comparative review"
+            },
+            "pmid": "22441573"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Microarray experiment",
+            "uri": "http://edamontology.org/topic_3518"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        }
+    ],
+    "validated": 1
+}

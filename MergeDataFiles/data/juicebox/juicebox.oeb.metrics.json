@@ -1,0 +1,313 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:juicebox/cmd/aidenlab.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 256,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 78,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1016/j.cels.2016.07.002",
+                            "pmcid": "PMC5846465",
+                            "pmid": "27467249",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "Juicer Provides a One-Click System for Analyzing Loop-Resolution Hi-C Experiments.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210427S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:juicebox/web/aidenlab.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 256,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 78,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1016/j.cels.2016.07.002",
+                            "pmcid": "PMC5846465",
+                            "pmid": "27467249",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "Juicer Provides a One-Click System for Analyzing Loop-Resolution Hi-C Experiments.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT210427S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/juicebox",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT446114S"
+            }
+        }
+    }
+]

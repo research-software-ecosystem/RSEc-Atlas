@@ -1,0 +1,105 @@
+{
+    "additionDate": "2017-03-27T11:53:40Z",
+    "biotoolsCURIE": "biotools:eduliss",
+    "biotoolsID": "eduliss",
+    "credit": [
+        {
+            "email": "m.walkinshaw@ed.ac.uk",
+            "name": "Malcolm D. Walkinshaw",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Database stores structural, physicochemical and pharmacophoric properties of small molecules. For each compound a single 3D conformer is stored along with over 1600 calculated descriptor values (molecular properties). A very efficient method for unique compound recognition is demonstrated by making use of small subgroups of the descriptors.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Molecular docking",
+                    "uri": "http://edamontology.org/operation_0478"
+                },
+                {
+                    "term": "Protein property calculation",
+                    "uri": "http://edamontology.org/operation_0250"
+                },
+                {
+                    "term": "Residue distance calculation",
+                    "uri": "http://edamontology.org/operation_2950"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://eduliss.bch.ed.ac.uk/",
+    "homepage_status": 1,
+    "language": [
+        "Java",
+        "SQL"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "EDULISS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We present the relational database EDULISS (EDinburgh University Ligand Selection System), which stores structural, physicochemical and pharmacophoric properties of small molecules. The database comprises a collection of over 4 million commercially available compounds from 28 different suppliers. A user-friendly web-based interface for EDULISS (available at http://eduliss .bch.ed.ac.uk/) has been established providing a number of data-mining possibilities. For each compound a single 3D conformer is stored along with over 1600 calculated descriptor values (molecular properties). A very efficient method for unique compound recognition, especially for a large scale database, is demonstrated by making use of small subgroups of the descriptors. Many of the shape and distance descriptors are held as pre-calculated bit strings permitting fast and efficient similarity and pharmacophore searches which can be used to identify families of related compounds for biological testing. Two ligand searching applications are given to demonstrate how EDULISS can be used to extract families of molecules with selected structural and biophysical features. © The Author(s) 2010.",
+                "authors": [
+                    {
+                        "name": "Hinton A.C."
+                    },
+                    {
+                        "name": "Hsin K.-Y."
+                    },
+                    {
+                        "name": "Morgan H.P."
+                    },
+                    {
+                        "name": "Shave S.R."
+                    },
+                    {
+                        "name": "Taylor P."
+                    },
+                    {
+                        "name": "Walkinshaw M.D."
+                    }
+                ],
+                "citationCount": 18,
+                "date": "2011-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "EDULISS: A small-molecule database with data-mining and pharmacophore searching capabilities"
+            },
+            "pmid": "21051336"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Biophysics",
+            "uri": "http://edamontology.org/topic_3306"
+        },
+        {
+            "term": "Data mining",
+            "uri": "http://edamontology.org/topic_3473"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        },
+        {
+            "term": "Structure analysis",
+            "uri": "http://edamontology.org/topic_0081"
+        }
+    ],
+    "validated": 1
+}

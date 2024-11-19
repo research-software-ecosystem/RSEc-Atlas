@@ -1,0 +1,167 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:morfmpm/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1186/s12859-019-3111-z",
+                            "pmcid": "PMC6819637",
+                            "pmid": "31660849",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "Computational prediction of MoRFs based on protein sequences and minimax probability machine.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31660849"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31660849/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/morfmpm",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31660849"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31660849/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    }
+]

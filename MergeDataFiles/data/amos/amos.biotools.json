@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-01-13T13:13:32Z",
+    "biotoolsCURIE": "biotools:amos",
+    "biotoolsID": "amos",
+    "credit": [
+        {
+            "email": "amos-help@lists.sourceforge.net",
+            "name": "AMOS team",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "AMOS is a Modular, Open-Source whole genome assembler.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://amos.sourceforge.net/wiki/index.php/AMOS"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Formatting",
+                    "uri": "http://edamontology.org/operation_0335"
+                },
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                },
+                {
+                    "term": "Sequence assembly validation",
+                    "uri": "http://edamontology.org/operation_3180"
+                },
+                {
+                    "term": "Sequence assembly visualisation",
+                    "uri": "http://edamontology.org/operation_3184"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://amos.sourceforge.net/",
+    "language": [
+        "C",
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "name": "AMOS",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "One of the most complex and computationally intensive tasks of genome sequence analysis is genome assembly. Even today, few centres have the resources, in both software and hardware, to assemble a genome from the thousands or millions of individual sequences generated in a whole-genome shotgun sequencing project. With the rapid growth in the number of sequenced genomes has come an increase in the number of organisms for which two or more closely related species have been sequenced. This has created the possibility of building a comparative genome assembly algorithm, which can assemble a newly sequenced genome by mapping it onto a reference genome. We describe here a novel algorithm for comparative genome assembly that can accurately assemble a typical bacterial genome in less than four minutes on a standard desktop computer. The software is available as part of the open-source AMOS project.",
+                "authors": [
+                    {
+                        "name": "Delcher A.L."
+                    },
+                    {
+                        "name": "Phillippy A."
+                    },
+                    {
+                        "name": "Pop M."
+                    },
+                    {
+                        "name": "Salzberg S.L."
+                    }
+                ],
+                "citationCount": 144,
+                "date": "2004-01-01T00:00:00Z",
+                "journal": "Briefings in bioinformatics",
+                "title": "Comparative genome assembly."
+            },
+            "pmid": "15383210"
+        }
+    ],
+    "toolType": [
+        "Suite"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        }
+    ],
+    "validated": 1
+}

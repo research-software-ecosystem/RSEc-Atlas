@@ -1,0 +1,75 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hahmir_db/db/www.hahmirdb.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.05.20.106872",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "HAHmiR.DB: A Server Platform For High Altitude Human miRNA-Gene Coregulatory Networks And Associated Regulatory-Circuits",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://hahmirdbenv.eba-empgtadx.ap-south-1.elasticbeanstalk.com/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/hahmir_db",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://hahmirdbenv.eba-empgtadx.ap-south-1.elasticbeanstalk.com/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

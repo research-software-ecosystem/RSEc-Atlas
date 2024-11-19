@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-01-13T13:13:53Z",
+    "biotoolsCURIE": "biotools:brca-diagnostic",
+    "biotoolsID": "brca-diagnostic",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "info-cbcb@umiacs.umd.edu",
+            "name": "Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A software for testing known mutations in BRCA1 and BRCA2 genes from a whole genome sequencing data.",
+    "editPermission": {
+        "authors": [
+            "ELIXIR-EE"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Polymorphism detection",
+                    "uri": "http://edamontology.org/operation_3202"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                },
+                {
+                    "term": "Sequence annotation",
+                    "uri": "http://edamontology.org/operation_0361"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.cbcb.umd.edu/software/BRCA-diagnostic/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:49Z",
+    "name": "BRCA-diagnostic",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We developed a computational screen that tests an individual's genome for mutations in the BRCA genes, despite the fact that both are currently protected by patents. © 2010 BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Pertea M."
+                    },
+                    {
+                        "name": "Salzberg S.L."
+                    }
+                ],
+                "citationCount": 12,
+                "date": "2010-10-07T00:00:00Z",
+                "journal": "Genome Biology",
+                "title": "Do-it-yourself genetic testing"
+            },
+            "pmid": "20932271"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        },
+        {
+            "term": "Personalised medicine",
+            "uri": "http://edamontology.org/topic_3577"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

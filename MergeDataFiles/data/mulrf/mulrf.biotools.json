@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-08-03T18:51:56Z",
+    "biotoolsCURIE": "biotools:mulrf",
+    "biotoolsID": "mulrf",
+    "credit": [
+        {
+            "email": "ruchic@ufl.edu",
+            "name": "Chaudhary R",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://genome.cs.iastate.edu/CBL/index.htm"
+        }
+    ],
+    "description": "Platform-independent software program designed to infer species trees from incongruent multi-copy gene trees using a generalization of the Robinson-Foulds (RF) distance to multi-labeled trees.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://genome.cs.iastate.edu/CBL/MulRF/Downloads/NewVersion/Manual.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree generation",
+                    "uri": "http://edamontology.org/operation_0323"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genome.cs.iastate.edu/CBL/MulRF/",
+    "language": [
+        "C++",
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/mulrf-1-2-phylogenetic-analysis-using-multi-copy-gene-trees.html"
+        }
+    ],
+    "name": "MulRF",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2014. Published by Oxford University Press. All rights reserved.MulRF is a platform-independent software package for phylogenetic analysis using multi-copy gene trees. It seeks the species tree that minimizes the Robinson-Foulds (RF) distance to the input trees using a generalization of the RF distance to multi-labeled trees. The underlying generic tree distance measure and fast running time make MulRF useful for inferring phylogenies from large collections of gene trees, in which multiple evolutionary processes as well as phylogenetic error may contribute to gene tree discord. MulRF implements several features for customizing the species tree search and assessing the results, and it provides a user-friendly graphical user interface (GUI) with tree visualization. The species tree search is implemented in C++ and the GUI in Java Swing.",
+                "authors": [
+                    {
+                        "name": "Burleigh J.G."
+                    },
+                    {
+                        "name": "Chaudhary R."
+                    },
+                    {
+                        "name": "Fernandez-Baca D."
+                    }
+                ],
+                "citationCount": 23,
+                "date": "2015-07-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "MulRF: A software package for phylogenetic analysis using multi-copy gene trees"
+            },
+            "pmid": "25273112"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Evolutionary biology",
+            "uri": "http://edamontology.org/topic_3299"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        }
+    ],
+    "validated": 1
+}

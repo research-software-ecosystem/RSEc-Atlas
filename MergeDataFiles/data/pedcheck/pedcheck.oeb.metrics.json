@@ -1,0 +1,239 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pedcheck:1.00/cmd/watson.hgen.pitt.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1264,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 65,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 75,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 85,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 96,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 104,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 108,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 115,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 138,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 140,
+                                    "year": "2009"
+                                }
+                            ],
+                            "doi": "10.1086/301904",
+                            "pmcid": "PMC1377228",
+                            "pmid": "9634505",
+                            "ref_count": 18,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1983"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                }
+                            ],
+                            "title": "PedCheck: a program for identification of genotype incompatibilities in linkage analysis.",
+                            "year": 1998
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://sites.pitt.edu/~weeks/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.pitt.edu/~weeks"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.pitt.edu/~weeks/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pedcheck",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://sites.pitt.edu/~weeks/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.pitt.edu/~weeks"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.pitt.edu/~weeks/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41592-018-0002-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/picky",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Chia-Lin Wei",
+      "bsc:input": [
+        {
+          "@id": "_:N91c738b3746c43e59bbfba3ceb538cf9"
+        },
+        {
+          "@id": "_:Nc5921858ea6c421a827ef623072f8730"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ncf5c9a01c05c4e77ab8fb61d7bfa7af0"
+        },
+        {
+          "@id": "_:Nb5af2a439cb54bc681034c4e333c0e8f"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_2640"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41592-018-0002-6"
+      },
+      "sc:description": "A pipeline for detecting structural variants from third generation long read sequencing data (works on Oxford Nanopore and PacBio).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_0253"
+        },
+        {
+          "@id": "edam:operation_3228"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Picky",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/TheJacksonLaboratory/Picky/wiki"
+      },
+      "sc:url": "https://github.com/TheJacksonLaboratory/Picky"
+    },
+    {
+      "@id": "_:N91c738b3746c43e59bbfba3ceb538cf9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:Nc5921858ea6c421a827ef623072f8730",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "_:Ncf5c9a01c05c4e77ab8fb61d7bfa7af0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Nb5af2a439cb54bc681034c4e333c0e8f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
+    }
+  ]
+}

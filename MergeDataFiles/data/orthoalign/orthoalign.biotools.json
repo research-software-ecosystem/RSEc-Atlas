@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-08-03T18:53:22Z",
+    "biotoolsCURIE": "biotools:orthoalign",
+    "biotoolsID": "orthoalign",
+    "credit": [
+        {
+            "email": "mabrouk@iro.umontreal.ca",
+            "name": "Nadia El-Mabrouk",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.iro.umontreal.ca/~mabrouk/"
+        }
+    ],
+    "description": "Software for the gene order alignment problem (alignment of orthologs), accounting for most genome-wide evolutionary events such as duplications, losses, rearrangements and substitutions.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.iro.umontreal.ca/~mabrouk/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.iro.umontreal.ca/~mabrouk/",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/orthoalign-gene-order-alignment.html"
+        }
+    ],
+    "name": "OrthoAlign",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 The Author 2015.OrthoAlign, an algorithm for the gene order alignment problem (alignment of orthologs), accounting for most genome-wide evolutionary events such as duplications, losses, rearrangements, and substitutions, was presented. OrthoAlign was used in a phylogenetic framework to infer the evolution of transfer RNA repertoires of 50 fully sequenced bacteria in the Bacillus genus. A prevalence of gene duplications and losses over rearrangement events was observed. The average rate of duplications inferred in Bacillus was 24 times lower than the one reported in Escherichia coli, whereas the average rates of losses and inversions were both 12 times lower. These rates were extremely low, suggesting a strong selective pressure acting on tRNA gene repertoires in Bacillus. An exhaustive analysis of the type, location, distribution, and length of evolutionary events was provided, together with ancestral configurations. OrthoAlign can be downloaded at: http://www.iro.umontreal.ca/∼mabrouk/.",
+                "authors": [
+                    {
+                        "name": "Benzaid B."
+                    },
+                    {
+                        "name": "El-Mabrouk N."
+                    },
+                    {
+                        "name": "Lang B.F."
+                    },
+                    {
+                        "name": "Tremblay-Savard O."
+                    }
+                ],
+                "citationCount": 9,
+                "date": "2015-01-01T00:00:00Z",
+                "journal": "Molecular Biology and Evolution",
+                "title": "Evolution of tRNA repertoires in bacillus inferred with OrthoAlign"
+            },
+            "pmid": "25660374"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Evolutionary biology",
+            "uri": "http://edamontology.org/topic_3299"
+        },
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Microbiology",
+            "uri": "http://edamontology.org/topic_3301"
+        },
+        {
+            "term": "Molecular biology",
+            "uri": "http://edamontology.org/topic_3047"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        }
+    ],
+    "validated": 1
+}

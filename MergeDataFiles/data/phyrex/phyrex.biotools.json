@@ -1,0 +1,95 @@
+{
+    "additionDate": "2017-08-03T18:55:52Z",
+    "biotoolsCURIE": "biotools:phyrex",
+    "biotoolsID": "phyrex",
+    "credit": [
+        {
+            "email": "roald@rossnes.org",
+            "name": "Roald Rossnes",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Program for reconstructing ancestral gene expression profiles and sequence data on a given phylogenetic tree. The program uses a Minimum Evolution algorithm to reconstruct the gene expression profiles and a combination of BaseML and ClustalW to reconstruct the ancestral sequences.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.rossnes.org/phyrex/doc.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree reconstruction",
+                    "uri": "http://edamontology.org/operation_3478"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.rossnes.org/phyrex/",
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/phyrex-1-1-reconstruction-continuous-character-trait-values-nodes-phylogenetic-trees.html"
+        }
+    ],
+    "name": "Phyrex",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Background: As genomes evolve after speciation, gene content, coding sequence, gene expression, and splicing all diverge with time from ancestors with close relatives. A minimum evolution general method for continuous character analysis in a phylogenetic perspective is presented that allows for reconstruction of ancestral character states and for measuring along branch evolution. Results: A software package for reconstruction of continuous character traits, like relative gene expression levels or alternative splice site usage data is presented and is available for download at http://www.rossnes.org/phyrex. This program was applied to a primate gene expression dataset to detect transcription factor binding sites that have undergone substitution, potentially having driven lineage-specific differences in gene expression. Conclusion: Systematic analysis of lineage-specific evolution is becoming the cornerstone of comparative genomics. New methods, like phyrex, extend the capabilities of comparative genomics by tracing the evolution of additional biomolecular processes. © 2005 Rossnes et al., licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Eidhammer I."
+                    },
+                    {
+                        "name": "Liberles D.A."
+                    },
+                    {
+                        "name": "Rossness R."
+                    }
+                ],
+                "citationCount": 10,
+                "date": "2005-05-27T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "Phylogenetic reconstruction of ancestral character states for gene expression and mRNA splicing data"
+            },
+            "pmid": "15921519"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        }
+    ],
+    "validated": 1
+}

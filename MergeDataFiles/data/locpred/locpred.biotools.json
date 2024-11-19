@@ -1,0 +1,102 @@
+{
+    "additionDate": "2017-08-03T18:48:09Z",
+    "biotoolsCURIE": "biotools:locpred",
+    "biotoolsID": "locpred",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.dsimb.inserm.fr/lang/fr/contact/"
+        }
+    ],
+    "description": "Tool for local structure prediction from protein sequence using a structural alphabet approach.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.dsimb.inserm.fr/~debrevern/TOOLS/LOCPRED/EXPL/index.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein structure prediction",
+                    "uri": "http://edamontology.org/operation_0474"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.dsimb.inserm.fr/~debrevern/TOOLS/LOCPRED/index.html",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/locpred-local-backbone-structure-prediction-of-proteins.html"
+        }
+    ],
+    "name": "LOCPRED",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "A statistical analysis of the PDB structures has led us to define a new set of small 3D structural prototypes called Protein Blocks (PBs). This structural alphabet includes 16 PBs, each one is defined by the (Φ, Ψ) dihedral angles of 5 consecutive residues. The amino acid distributions observed in sequence windows encompassing these PBs are used to predict by a Bayesian approach the local 3D structure of proteins from the sole knowledge of their sequences. LocPred is a software which allows the users to submit a protein sequence and performs a prediction in terms of PBs. The prediction results are given both textually and graphically. © 2004 - IOS Press and Bioinformation Systems e.V. and the authors. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Benros C."
+                    },
+                    {
+                        "name": "Etchebest C."
+                    },
+                    {
+                        "name": "Gautier R."
+                    },
+                    {
+                        "name": "Hazout S."
+                    },
+                    {
+                        "name": "Valadie H."
+                    },
+                    {
+                        "name": "de Brevern A.G."
+                    }
+                ],
+                "citationCount": 44,
+                "date": "2004-12-17T00:00:00Z",
+                "journal": "In Silico Biology",
+                "title": "Local backbone structure prediction of proteins"
+            },
+            "pmid": "15724288"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1
+}

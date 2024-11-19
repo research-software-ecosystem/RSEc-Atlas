@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0002-2323-0963",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.tools/meta-snp",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-2323-0963"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Na9108d466f1747559272fedb4e753d25"
+        },
+        {
+          "@id": "_:N74bb64c7c2f047e981ff09ac33b5f128"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nc84a57fdd9624dce90b37c932881e3eb"
+      },
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0123"
+        }
+      ],
+      "sc:author": {
+        "@id": "http://orcid.org/0000-0002-2323-0963"
+      },
+      "sc:citation": [
+        "pmcid:PMC3839641",
+        "pubmed:23819846"
+      ],
+      "sc:description": "Meta-predictor of disease causing variants.",
+      "sc:featureList": {
+        "@id": "edam:operation_3225"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Meta-SNP",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://snps.biofold.org/meta-snp/pages/help.html"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://snps.biofold.org/meta-snp"
+    },
+    {
+      "@id": "_:Na9108d466f1747559272fedb4e753d25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N74bb64c7c2f047e981ff09ac33b5f128",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2209"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mutation ID"
+    },
+    {
+      "@id": "_:Nc84a57fdd9624dce90b37c932881e3eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Disease report"
+    }
+  ]
+}

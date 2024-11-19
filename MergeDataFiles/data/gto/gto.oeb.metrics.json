@@ -1,0 +1,100 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gto/web/bioinformatics.ua.pt",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.01.07.882845",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "GTO: a toolkit to unify pipelines in genomic and proteomic research",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cobilab.github.io/gto/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://bioinformatics.ua.pt/gto"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cobilab.github.io/gto"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gto",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cobilab.github.io/gto/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://bioinformatics.ua.pt/gto"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cobilab.github.io/gto"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

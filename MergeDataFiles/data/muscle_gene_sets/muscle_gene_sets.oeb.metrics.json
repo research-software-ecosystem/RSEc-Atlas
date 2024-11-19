@@ -1,0 +1,183 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:muscle_gene_sets/ontology/www.sys-myo.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.1186/s13395-019-0196-z",
+                            "pmcid": "PMC6498474",
+                            "pmid": "31053169",
+                            "ref_count": 72,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "Muscle Gene Sets: a versatile methodological aid to functional genomics in the neuromuscular field.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sys-myo.com/muscle_gene_sets"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sys-myo.com/muscle_gene_sets/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/muscle_gene_sets",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sys-myo.com/muscle_gene_sets"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sys-myo.com/muscle_gene_sets/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

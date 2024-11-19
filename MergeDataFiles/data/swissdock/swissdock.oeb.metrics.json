@@ -1,0 +1,195 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:swissdock:1/web/www.swissdock.ch",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 326,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 47,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 61,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkr366",
+                            "pmcid": "PMC3125772",
+                            "pmid": "21624888",
+                            "ref_count": 38,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "SwissDock, a protein-small molecule docking web service based on EADock DSS.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.swissdock.ch/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/swissdock",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.swissdock.ch/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

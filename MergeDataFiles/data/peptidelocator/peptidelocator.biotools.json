@@ -1,0 +1,102 @@
+{
+    "additionDate": "2017-08-03T18:55:31Z",
+    "biotoolsCURIE": "biotools:peptidelocator",
+    "biotoolsID": "peptidelocator",
+    "credit": [
+        {
+            "email": "denis.shields@ucd.ie",
+            "name": "Denis C. Shields",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://bioinfo-casl.ucd.ie/shields/"
+        }
+    ],
+    "description": "For users interested in identifying bioactive peptides within a protein sequence. PeptideLocator was trained on a set of non-redundant protein sequences conatining known bioactive peptides.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://bioware.ucd.ie/~compass/biowareweb/Server_pages/biopred.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein sequence analysis",
+                    "uri": "http://edamontology.org/operation_2479"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioware.ucd.ie/~compass/biowareweb/Server_pages/biopred.php",
+    "lastUpdate": "2018-12-10T12:58:46Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/peptidelocator-identifies-bioactive-peptides-in-protein-sequences.html"
+        }
+    ],
+    "name": "PeptideLocator",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Peptides play important roles in signalling, regulation and immunity within an organism. Many have successfully been used as therapeutic products often mimicking naturally occurring peptides. Here we present PeptideLocator for the automated prediction of functional peptides in a protein sequence. We have trained a machine learning algorithm to predict bioactive peptides within protein sequences. PeptideLocator performs well on training data achieving an area under the curve of 0.92 when tested in 5-fold cross-validation on a set of 2202 redundancy reduced peptide containing protein sequences. It has predictive power when applied to antimicrobial peptides, cytokines, growth factors, peptide hormones, toxins, venoms and other peptides. It can be applied to refine the choice of experimental investigations in functional studies of proteins. PeptideLocator is freely available for academic users at http://bioware.ucd.ie/.",
+                "authors": [
+                    {
+                        "name": "Haslam N.J."
+                    },
+                    {
+                        "name": "Holton T.A."
+                    },
+                    {
+                        "name": "Mooney C."
+                    },
+                    {
+                        "name": "Pollastri G."
+                    },
+                    {
+                        "name": "Shields D.C."
+                    }
+                ],
+                "citationCount": 42,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Bioinformatics (Oxford, England)",
+                "title": "PeptideLocator: prediction of bioactive peptides in protein sequences."
+            },
+            "pmid": "23505299"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        }
+    ],
+    "validated": 1
+}

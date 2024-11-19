@@ -1,0 +1,750 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gcta:1.91.7beta/cmd/cnsgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2022,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 111,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 172,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 219,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 229,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 279,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 310,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 316,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1016/j.ajhg.2010.11.011",
+                            "pmcid": "PMC3014363",
+                            "pmid": "21167468",
+                            "ref_count": 36,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1949"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1950"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1975"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "GCTA: a tool for genome-wide complex trait analysis.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cnsgenomics.com/software/gcta/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://yanglab.westlake.edu.cn/software/gcta/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gcta:none/cmd/cnsgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2022,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 111,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 172,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 219,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 229,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 279,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 310,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 316,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1016/j.ajhg.2010.11.011",
+                            "pmcid": "PMC3014363",
+                            "pmid": "21167468",
+                            "ref_count": 36,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1949"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1950"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1975"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "GCTA: a tool for genome-wide complex trait analysis.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cnsgenomics.com/software/gcta/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://yanglab.westlake.edu.cn/software/gcta/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gcta:1.93.2beta/cmd/cnsgenomics.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2022,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 111,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 172,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 219,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 229,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 279,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 310,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 316,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1016/j.ajhg.2010.11.011",
+                            "pmcid": "PMC3014363",
+                            "pmid": "21167468",
+                            "ref_count": 36,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1949"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1950"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1975"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "GCTA: a tool for genome-wide complex trait analysis.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://yanglab.westlake.edu.cn/software/gcta/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gcta:1.94.1/cmd/yanglab.westlake.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2022,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 111,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 172,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 219,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 229,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 279,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 310,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 316,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1016/j.ajhg.2010.11.011",
+                            "pmcid": "PMC3014363",
+                            "pmid": "21167468",
+                            "ref_count": 36,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1949"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1950"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1975"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "GCTA: a tool for genome-wide complex trait analysis.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://yanglab.westlake.edu.cn/software/gcta/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gcta",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cnsgenomics.com/software/gcta/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://yanglab.westlake.edu.cn/software/gcta/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

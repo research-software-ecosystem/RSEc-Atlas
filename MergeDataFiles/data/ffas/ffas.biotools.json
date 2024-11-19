@@ -1,0 +1,113 @@
+{
+    "additionDate": "2017-02-10T14:14:32Z",
+    "biotoolsCURIE": "biotools:ffas",
+    "biotoolsID": "ffas",
+    "credit": [
+        {
+            "email": "f.f.a.s@burnham.org",
+            "name": "FFAS Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "The Fold & Function Assignment System (FFAS) takes an amino-acid sequence as input and generates a profile which is compared to several sets of sequence profiles including PDB, SCOP, and PFAM. Public metagenomic sequence data has been added to FFAS, so that the profile of a user's protein can be compared to 20 additional profile databases including several complete proteomes, etc.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://ffas.sanfordburnham.org/ffas-cgi/cgi/document.pl?ses=&rv=&lv="
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene expression profiling",
+                    "uri": "http://edamontology.org/operation_0314"
+                },
+                {
+                    "term": "Protein feature detection",
+                    "uri": "http://edamontology.org/operation_3092"
+                },
+                {
+                    "term": "Protein fold recognition",
+                    "uri": "http://edamontology.org/operation_0303"
+                },
+                {
+                    "term": "Sequence profile generation",
+                    "uri": "http://edamontology.org/operation_0296"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://ffas.godziklab.org",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "FFAS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The FFAS03 server provides a web interface to the third generation of the profile-profile alignment and fold-recognition algorithm of fold and function assignment system (FFAS) [L. Rychlewski, L. Jaroszewski, W. Li and A. Godzik (2000), Protein Sci., 9, 232-241]. Profile-profile algorithms use information present in sequences of homologous proteins to amplify the patterns defining the family. As a result, they enable detection of remote homologies beyond the reach of other methods. FFAS, initially developed in 2000, is consistently one of the best ranked fold prediction methods in the CAFASP and LiveBench competitions. It is also used by several fold-recognition consensus methods and meta-servers. The FFAS03 server accepts a user supplied protein sequence and automatically generates a profile, which is then compared with several sets of sequence profiles of proteins from PDB, COG, PFAM and SCOP. The profile databases used by the server are automatically updated with the latest structural and sequence information. The server provides access to the alignment analysis, multiple alignment, and comparative modeling tools. Access to the server is open for both academic and commercial researchers. The FFAS03 server is available at http://ffas.burnham.org. © 2005 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Godzik A."
+                    },
+                    {
+                        "name": "Jaroszewski L."
+                    },
+                    {
+                        "name": "Li W."
+                    },
+                    {
+                        "name": "Li Z."
+                    },
+                    {
+                        "name": "Rychlewski L."
+                    }
+                ],
+                "citationCount": 402,
+                "date": "2005-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "FFAS03: A server for profile-profile sequence alignments"
+            },
+            "pmid": "15980471"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

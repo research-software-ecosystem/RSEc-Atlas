@@ -1,0 +1,207 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:erne/suite/erne.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 126,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0085024",
+                            "pmcid": "PMC3871669",
+                            "pmid": "24376861",
+                            "ref_count": 48,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "An extensive evaluation of read trimming effects on Illumina NGS data analysis.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://erne.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:erne:2.1.1/cmd/erne.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://erne.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/erne",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://erne.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:thoraxe/undefined/www.lcqb.upmc.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.11.14.382820",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Assessing Conservation of Alternative Splicing with Evolutionary Splicing Graphs",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.lcqb.upmc.fr/ThorAxe/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/thoraxe",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.lcqb.upmc.fr/ThorAxe/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

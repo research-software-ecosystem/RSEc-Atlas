@@ -1,0 +1,178 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tfbsfinder/cmd/bits.iis.sinica.edu.tw",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 51,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2009"
+                                }
+                            ],
+                            "doi": "10.1073/pnas.0505874102",
+                            "pmcid": "PMC1224643",
+                            "pmid": "16157877",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2001"
+                                }
+                            ],
+                            "title": "Statistical methods for identifying yeast cell cycle transcription factors.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bits.iis.sinica.edu.tw/~TFBSfinder/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/tfbsfinder",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bits.iis.sinica.edu.tw/~TFBSfinder/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

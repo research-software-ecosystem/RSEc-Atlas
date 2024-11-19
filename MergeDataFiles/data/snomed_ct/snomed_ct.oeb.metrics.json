@@ -1,0 +1,171 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:snomed_ct/soap/www.snomed.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                }
+                            ],
+                            "pmid": "17911793",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A web-based SNOMED CT browser: distributed and real-time use of SNOMED CT during the clinical research process.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.snomed.org/snomed-ct/five-step-briefing"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.snomed.org/what-is-snomed-ct"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:snomed_ct/web/www.snomed.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                }
+                            ],
+                            "pmid": "17911793",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A web-based SNOMED CT browser: distributed and real-time use of SNOMED CT during the clinical research process.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.snomed.org/snomed-ct/five-step-briefing"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.snomed.org/what-is-snomed-ct"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/snomed_ct",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.snomed.org/snomed-ct/five-step-briefing"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.snomed.org/what-is-snomed-ct"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/clean_ngs",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:Ne4c2fcebe1f64661b5ed47ca797ed0ca"
+        },
+        {
+          "@id": "_:Nb11131af070b41eb8363b627d450c099"
+        },
+        {
+          "@id": "_:Ne13ce47676424bef9e87818aed469297"
+        },
+        {
+          "@id": "_:N6f77c5a492fd413da3967ed1ec26b3b7"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf6780b7a300c4b38ade4812c9d460ac5"
+        },
+        {
+          "@id": "_:N3bbae40b229643faa55de201eadb3afd"
+        },
+        {
+          "@id": "_:Nb9ebf78298264482a56e41642a6e0b80"
+        },
+        {
+          "@id": "_:N64db2e23cc564f8394f7085ad46d2f85"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        }
+      ],
+      "sc:description": "Use adapters definition file ADAPTER.txt and remove the adapters from the input read files. The program writes out the cleansed reads and the rejected reads. Nucleotides are also removed based on quality thresholds from the 5' and 3'.",
+      "sc:featureList": {
+        "@id": "edam:operation_3695"
+      },
+      "sc:name": "clean_ngs",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fodoppelt%2Fadapterremoval%2Fclean_ngs%2F0.7"
+      },
+      "sc:softwareVersion": "0.7",
+      "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/adapterremoval/clean_ngs/0.7"
+    },
+    {
+      "@id": "_:Nf6780b7a300c4b38ade4812c9d460ac5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N3bbae40b229643faa55de201eadb3afd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb9ebf78298264482a56e41642a6e0b80",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N64db2e23cc564f8394f7085ad46d2f85",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne4c2fcebe1f64661b5ed47ca797ed0ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb11131af070b41eb8363b627d450c099",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne13ce47676424bef9e87818aed469297",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N6f77c5a492fd413da3967ed1ec26b3b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:thrutracker/suite/www.sonarjamming.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.05.12.443854",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ThruTracker: Open-Source Software for 2-D and 3-D Animal Video Tracking",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sonarjamming.com/thrutracker"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sonarjamming.com/thrutracker/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sonarjamming.com/thrutracker"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/thrutracker",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sonarjamming.com/thrutracker"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sonarjamming.com/thrutracker/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sonarjamming.com/thrutracker"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

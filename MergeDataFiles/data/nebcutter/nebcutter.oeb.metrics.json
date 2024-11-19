@@ -1,0 +1,255 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nebcutter/web/tools.neb.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 181,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkg526",
+                            "pmcid": "PMC168933",
+                            "pmid": "12824395",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "NEBcutter: A program to cleave DNA with restriction enzymes.",
+                            "year": 2003
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 307,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://nc2.neb.com/NEBcutter2/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://nc3.neb.com/NEBcutter/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://biosso.neb.com/attach.php?host=nc3&token=0cd85eeb6eb99aa86eb0f0d0b567d43b81f67742cda1af94f22efce26f24f2d8&chk=0b73b4f8880b5f9b56d93be7267b687bcbbff833c&redirect=https%3A%2F%2Fnc3.neb.com%2FNEBcutter%2F"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://biosso.neb.com/attach.php?host=nc3&token=3b50cdcfcda5d346def34b0d001e5bb403e06f168c74557d758823f59227d145&chk=00a9bba2dbad77940b9bb39f3b7e077a839f6298c&redirect=https%3A%2F%2Fnc3.neb.com%2FNEBcutter%2F"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://biosso.neb.com/attach.php?host=nc3&token=94c85d296ee414e7d50d38ee0b79824976dd039a72df1a3ed2aa3518551ae0f8&chk=062ba76bd2b08d15b9c01b9e7c4bd5bc73912839e&redirect=https%3A%2F%2Fnc3.neb.com%2FNEBcutter%2F"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/?biosso_cookietest=1"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/?biosso_cookietest=1"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/?biosso_cookietest=1"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/nebcutter",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 307,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://nc2.neb.com/NEBcutter2/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://nc3.neb.com/NEBcutter/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://biosso.neb.com/attach.php?host=nc3&token=32ba384ce397157a06572d59dac29f8e65f20cfd70f29d9566260380b44ad58a&chk=0670b931db1f7345685f75d3e140803217ff66eb1&redirect=https%3A%2F%2Fnc3.neb.com%2FNEBcutter%2F"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://biosso.neb.com/attach.php?host=nc3&token=7ca8431249ee85a6cc7a2a71a613ff0ad93be7d7dd79241c6409509de53d8276&chk=053de46917ecbd53dbd0a62e3341f7115abd3a158&redirect=https%3A%2F%2Fnc3.neb.com%2FNEBcutter%2F"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://biosso.neb.com/attach.php?host=nc3&token=a67a9894d497b57694c77f1514e0ea061c0dd91361a0aff06c601c1299fe430a&chk=0eb03d71c75eeada626a40c01f4b5d094a9b4a609&redirect=https%3A%2F%2Fnc3.neb.com%2FNEBcutter%2F"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/?biosso_cookietest=1"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/?biosso_cookietest=1"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://nc3.neb.com/NEBcutter/?biosso_cookietest=1"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

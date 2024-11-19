@@ -1,0 +1,69 @@
+about:
+  dev_url: https://github.com/paulsengroup/hictkpy
+  doc_url: https://hictkpy.readthedocs.io/en/stable/
+  home: https://github.com/paulsengroup/hictkpy
+  license: MIT
+  license_file: LICENSE
+  summary: 'Python bindings for hictk: read and write .cool and .hic files directly
+    from Python'
+build:
+  number: 0
+  run_exports:
+  - None
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:hictkpy
+  - doi:10.5281/zenodo.8220300
+  recipe-maintainers:
+  - robomics
+  - jonnings
+package:
+  name: hictkpy
+  version: 1.0.0
+requirements:
+  build:
+  - None
+  - None
+  - cmake >=3.29
+  - conan >=2
+  - make
+  - eigen >=3.4
+  - fast_float >=6
+  - fmt >=11
+  - highfive >=2.9
+  - spdlog >=1.14
+  host:
+  - python
+  - pip
+  - hdf5 >=1.12
+  - libarrow >=16
+  - libdeflate >=1
+  - lld
+  - nanobind >=2
+  - numpy
+  - scikit-build-core >=0.10
+  - setuptools_scm
+  - zstd >=1.5
+  run:
+  - python
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+source:
+  sha256: a12c05cba9395ce39eb742b5d1e1a6e0cc0179a5b6981ae8a828ff9aee2c64ce
+  url: https://pypi.python.org/packages/source/h/hictkpy/hictkpy-1.0.0.tar.gz
+test:
+  imports:
+  - hictkpy
+  requires:
+  - pytest>=8
+  source_files:
+  - test/*

@@ -1,0 +1,161 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hbpred2.0/soap/lin-group.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 23,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.3934/mbe.2019123",
+                            "pmid": "31137222",
+                            "ref_count": 31,
+                            "refs": [
+                                {
+                                    "count": 31,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "Identification of hormone binding proteins based on machine learning methods.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hbpred2.0/web/lin-group.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 23,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.3934/mbe.2019123",
+                            "pmid": "31137222",
+                            "ref_count": 31,
+                            "refs": [
+                                {
+                                    "count": 31,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "Identification of hormone binding proteins based on machine learning methods.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/hbpred2.0",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

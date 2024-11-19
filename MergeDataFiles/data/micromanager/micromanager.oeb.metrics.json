@@ -1,0 +1,166 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:micromanager/plugin/valelab.ucsf.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 618,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 48,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 61,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 85,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 103,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1002/0471142727.mb1420s92",
+                            "pmcid": "PMC3065365",
+                            "pmid": "20890901",
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 3,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "Computer control of microscopes using µManager.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://micro-manager.org/wiki/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://valelab4.ucsf.edu/~MM/MMwiki/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://micro-manager.org/wiki/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/micromanager",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://micro-manager.org/wiki/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://valelab4.ucsf.edu/~MM/MMwiki/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://micro-manager.org/wiki/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

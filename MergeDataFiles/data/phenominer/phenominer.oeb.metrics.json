@@ -1,0 +1,181 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phenominer/db/phenominer.mml.cam.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/database/bav104",
+                            "pmcid": "PMC4622021",
+                            "pmid": "26507285",
+                            "ref_count": 51,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "PhenoMiner: from text to a database of phenotypes associated with OMIM diseases.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/phenominer",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

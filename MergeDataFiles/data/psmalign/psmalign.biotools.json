@@ -1,0 +1,86 @@
+{
+    "additionDate": "2017-08-03T18:54:52Z",
+    "biotoolsCURIE": "biotools:psmalign",
+    "biotoolsID": "psmalign",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://homepage.cs.latrobe.edu.au/ypchen/"
+        }
+    ],
+    "description": "Open source tool that performs pairwise RNA secondary structures alignment based on the conserved stem pattern discovered. It enables alignment of large structures, such as those in the 23S ribosomal RNA family. Arbitrary pseudoknots are also allowed.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://homepage.cs.latrobe.edu.au/ypchen/psmalign/supp_material%2003082015.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Structure alignment",
+                    "uri": "http://edamontology.org/operation_0295"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://homepage.cs.latrobe.edu.au/ypchen/psmalign/",
+    "lastUpdate": "2018-12-10T12:58:43Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/psmalign-progressive-stem-matching-alignment.html"
+        }
+    ],
+    "name": "PSMAlign",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press. All rights reserved.Motivation: The regulatory functions performed by non-coding RNAs are related to their 3D structures, which are, in turn, determined by their secondary structures. Pairwise secondary structure alignment gives insight into the functional similarity between a pair of RNA sequences. Numerous exact or heuristic approaches have been proposed for computational alignment. However, the alignment becomes intractable when arbitrary pseudoknots are allowed. Also, since non-coding RNAs are, in general, more conserved in structures than sequences, it is more effective to perform alignment based on the common structural motifs discovered. Results: We devised a method to approximate the true conserved stem pattern for a secondary structure pair, and constructed the alignment from it. Experimental results suggest that our method identified similar RNA secondary structures better than the existing tools, especially for large structures. It also successfully indicated the conservation of some pseudoknot features with biological significance. More importantly, even for large structures with arbitrary pseudoknots, the alignment can usually be obtained efficiently.",
+                "authors": [
+                    {
+                        "name": "Chen Y.-P.P."
+                    },
+                    {
+                        "name": "Chiu J.K.H."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2015-07-03T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Pairwise RNA secondary structure alignment with conserved stem pattern"
+            },
+            "pmid": "26275897"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

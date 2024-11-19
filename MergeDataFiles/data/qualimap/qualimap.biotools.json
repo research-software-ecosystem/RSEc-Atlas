@@ -1,0 +1,78 @@
+{
+    "additionDate": "2017-01-13T13:16:00Z",
+    "biotoolsCURIE": "biotools:qualimap",
+    "biotoolsID": "qualimap",
+    "credit": [
+        {
+            "name": "QualiMap Forum",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://groups.google.com/forum/#!forum/qualimap"
+        }
+    ],
+    "description": "Platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://qualimap.bioinfo.cipf.es/doc_html/index.html"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "ELIXIR-CZ",
+            "rlibouban"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequencing quality control",
+                    "uri": "http://edamontology.org/operation_3218"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://qualimap.bioinfo.cipf.es/",
+    "language": [
+        "Java",
+        "R"
+    ],
+    "lastUpdate": "2024-11-07T08:29:23.357270Z",
+    "name": "QualiMap",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/bts503",
+            "pmid": "22914218"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Data quality management",
+            "uri": "http://edamontology.org/topic_3572"
+        },
+        {
+            "term": "Functional genomics",
+            "uri": "http://edamontology.org/topic_0085"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1
+}

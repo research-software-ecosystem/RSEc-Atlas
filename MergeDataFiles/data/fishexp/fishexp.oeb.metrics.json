@@ -1,0 +1,75 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fishexp/db/bioinfo.njau.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.07.01.450804",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "FishExp: a comprehensive database and analysis platform for gene expression and alternative splicing of fish species",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 502,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinfo.njau.edu.cn/fishExp/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/fishexp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 502,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinfo.njau.edu.cn/fishExp/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

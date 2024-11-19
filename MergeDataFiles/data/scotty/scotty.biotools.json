@@ -1,0 +1,104 @@
+{
+    "additionDate": "2017-08-03T19:01:06Z",
+    "biotoolsCURIE": "biotools:scotty",
+    "biotoolsID": "scotty",
+    "credit": [
+        {
+            "email": "busbym@bc.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://marthlab.github.io/LabWebsite/"
+        }
+    ],
+    "description": "A tool to assist in the designing of RNA Seq experiments that have adequate power to detect differential expression at the level required to achieve experimental aims.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://scotty.genetics.utah.edu/help.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "RNA-Seq analysis",
+                    "uri": "http://edamontology.org/operation_3680"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://scotty.genetics.utah.edu/",
+    "language": [
+        "MATLAB"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/scotty-power-analysis-rna-seq-experiments.html"
+        }
+    ],
+    "name": "Scotty",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: A common question arises at the beginning of every experiment where RNA-Seq is used to detect differential gene expression between two conditions: How many reads should we sequence?Results: Scotty is an interactive web-based application that assists biologists to design an experiment with an appropriate sample size and read depth to satisfy the user-defined experimental objectives. This design can be based on data available from either pilot samples or publicly available datasets. © 2013 The Author Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Busby M.A."
+                    },
+                    {
+                        "name": "Grzeda K.R."
+                    },
+                    {
+                        "name": "Marth G.T."
+                    },
+                    {
+                        "name": "Miller C.A."
+                    },
+                    {
+                        "name": "Stewart C."
+                    }
+                ],
+                "citationCount": 76,
+                "date": "2013-03-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Scotty: A web tool for designing RNA-Seq experiments to measure differential gene expression"
+            },
+            "pmid": "23314327"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        },
+        {
+            "term": "RNA-Seq",
+            "uri": "http://edamontology.org/topic_3170"
+        }
+    ],
+    "validated": 1
+}

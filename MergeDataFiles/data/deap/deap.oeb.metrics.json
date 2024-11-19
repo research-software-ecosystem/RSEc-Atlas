@@ -1,0 +1,273 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:deap/script/doi.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 35,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pcbi.1002967",
+                            "pmcid": "PMC3597535",
+                            "pmid": "23516350",
+                            "ref_count": 67,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential expression analysis for pathways.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002967.s010&type=supplementary"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://journals.plos.org/plosone/doi?id=10.1371/journal.pcbi.1002967.s010"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://dx.plos.org/10.1371/journal.pcbi.1002967.s010"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20241116%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241116T022442Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=a9060171b9c4a5370ed777239ff10ac684eb5ff31d6764b374a7bbb9e7d757bfd32a075ab4be53541432f222bdadf4d570389ad210cb03a824c908f262e01225c904ddc1677ce83a41b30df0bdf22a049208a58175e8fd0523af52db2776f443d772caa293835139d564fc8963426595497dce343249de2fa5b25d1397246adbca9dcd2de91a809513f5d712305ea4c3c243e13c3256d2d6afa1cb3d89370a28d5e44812d5ae3d4df485bd90933469b9dfccc11e20b08e91f1db33f44d8873a1d2804f9d0b515008fe46d03dc6b39c34469eaff88e1cde636c4e3f9c8ec197461dca7e1bb4ce190f2f2d1f3631cab04e7d33480e88df9358370a192e4a091939"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:deap:1.0.2/cmd/www.github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/deap"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/deap",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002967.s010&type=supplementary"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://journals.plos.org/plosone/doi?id=10.1371/journal.pcbi.1002967.s010"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://dx.plos.org/10.1371/journal.pcbi.1002967.s010"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20241116%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241116T021143Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=98cb6f8c7e09c2ecaa4fe0088031b467232dbc2249b2fe305fba22da9513b25d6a1cd3f91851af866ba3f894f2456fa8946d557a0eb92798a894a4bd3f725c45ca840802f71f145948b547d211190e48390091be958e6bde0fee3667938cbc81b9a89c56c95706f554464ede5785434cbf69b14e451bff2f0b5fd02ddc1d9567ba3626209e7b407e8fb6b2c435293c11a2dffa3e2903fad76f06789fe979e7a66818abd7a1892573bfbe7fbdc2bdc496e97dd9d2191a2bc3f64a76f481a529014963f6e9f62ab64f8a7e8d2f30ad52dde61a5e06b5c858a834a06832464554b9dfeb1a0c0505ce221f0c6844cb9c4a805346f71274cf711f3c7cee5156837ffa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

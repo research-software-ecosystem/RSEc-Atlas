@@ -1,0 +1,216 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkz303",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/NGphylogeny.fr",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Frédéric Lemoine",
+      "bsc:input": [
+        {
+          "@id": "_:N6b3f2cbd67504eb5b140f23b46906d4b"
+        },
+        {
+          "@id": "_:N52f5cb0cb0a54e52a1aec40d79aecc2c"
+        },
+        {
+          "@id": "_:N669a79393780439e9c02ef3b00b907de"
+        },
+        {
+          "@id": "_:N088b76b85e2a4ede90fee30c21a3f8ff"
+        },
+        {
+          "@id": "_:N13ffc86a971742a59d6b2410f42c878f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nd867c027a5614364ba30f8e921826e17"
+        },
+        {
+          "@id": "_:N5444b2be475644618f9a333ae0bd422d"
+        },
+        {
+          "@id": "_:Nc9c393193be54183b3fc116552774242"
+        },
+        {
+          "@id": "_:N1f8923d70e3e46078dc27f3ae2c7ebf3"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Workflow",
+        "Bioinformatics portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3293"
+        }
+      ],
+      "sc:author": [
+        "Frédéric Lemoine",
+        "Damien Correia"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkz303"
+      },
+      "sc:contributor": [
+        "Fabien Mareuil",
+        "Vincent Lefort"
+      ],
+      "sc:description": "Free, simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2089"
+        },
+        {
+          "@id": "edam:operation_0540"
+        },
+        {
+          "@id": "edam:operation_0567"
+        },
+        {
+          "@id": "edam:operation_0492"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "NGphylogeny.fr",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://ngphylogeny.fr/documentation"
+      },
+      "sc:url": "https://ngphylogeny.fr/"
+    },
+    {
+      "@id": "_:N6b3f2cbd67504eb5b140f23b46906d4b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N52f5cb0cb0a54e52a1aec40d79aecc2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N669a79393780439e9c02ef3b00b907de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N088b76b85e2a4ede90fee30c21a3f8ff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N13ffc86a971742a59d6b2410f42c878f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Gene tree"
+    },
+    {
+      "@id": "_:Nd867c027a5614364ba30f8e921826e17",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N5444b2be475644618f9a333ae0bd422d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nc9c393193be54183b3fc116552774242",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Gene tree"
+    },
+    {
+      "@id": "_:N1f8923d70e3e46078dc27f3ae2c7ebf3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Gene tree"
+    }
+  ]
+}

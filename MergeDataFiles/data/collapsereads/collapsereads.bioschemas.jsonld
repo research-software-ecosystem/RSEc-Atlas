@@ -1,0 +1,185 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/collapsereads",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N6e15b86efec64b26920dcf7831f5775f"
+        },
+        {
+          "@id": "_:Nd863d21e55d94d6ba97f493ae2cdbef6"
+        },
+        {
+          "@id": "_:N5f4a44b31ff341c68c3bda7f47a842b7"
+        },
+        {
+          "@id": "_:Nbc310e62c7e1482cb1f202363096de9b"
+        },
+        {
+          "@id": "_:N9926474f3b244e8e9fdb275d0b620f98"
+        },
+        {
+          "@id": "_:Nfa79f54747ea4ecb8c331de4e4669309"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nf2da92e38ff640d386217a3de905f111"
+      },
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Merges two reads if they have exactly the same genomic coordinates.",
+      "sc:featureList": {
+        "@id": "edam:operation_0232"
+      },
+      "sc:name": "collapsereads",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/collapseReads/1.0.0"
+      },
+      "sc:softwareVersion": "1.0.0",
+      "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
+    },
+    {
+      "@id": "_:N6e15b86efec64b26920dcf7831f5775f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nd863d21e55d94d6ba97f493ae2cdbef6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5f4a44b31ff341c68c3bda7f47a842b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nbc310e62c7e1482cb1f202363096de9b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N9926474f3b244e8e9fdb275d0b620f98",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nfa79f54747ea4ecb8c331de4e4669309",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nf2da92e38ff640d386217a3de905f111",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

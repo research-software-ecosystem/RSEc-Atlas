@@ -1,0 +1,33 @@
+about:
+  home: http://satrap.cribi.unipd.it/cgi-bin/satrap.pl
+  license: file
+  license_file: LICENSE
+  summary: A SOLiD assembly translation program.
+build:
+  number: 6
+  skip: true
+extra:
+  identifiers:
+  - biotools:satrap
+  - doi:10.1371/journal.pone.0137436
+package:
+  name: satrap
+  version: 0.2
+requirements:
+  build:
+  - make
+  - None
+  - llvm-openmp
+  - libgomp
+  host: null
+  run: null
+source:
+  patches:
+  - 0001-Replace-hardcoded-g++.patch
+  sha256: da6df8262474074539275754872c20ef231d7f3cf810004f63ac4e7df4e3ab07
+  url:
+  - https://depot.galaxyproject.org/software/satrap/satrap_0.2_src_all.tar.gz
+  - http://satrap.cribi.unipd.it/download/SATRAP_v0.2.tar.gz
+test:
+  commands:
+  - satrap

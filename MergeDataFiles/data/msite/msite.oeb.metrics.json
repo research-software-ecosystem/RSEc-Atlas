@@ -1,0 +1,87 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:msite/cmd/biocomp.chem.uw.edu.pl",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.jsbmb.2010.04.006",
+                            "pmid": "20399855",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MSITE: a new computational tool for comparison of homological proteins in holo form.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://biocomp.chem.uw.edu.pl/tools/msite"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/msite",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://biocomp.chem.uw.edu.pl/tools/msite"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

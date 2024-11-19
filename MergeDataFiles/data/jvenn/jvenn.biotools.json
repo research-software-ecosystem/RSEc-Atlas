@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-08-03T19:06:33Z",
+    "biotoolsCURIE": "biotools:jvenn",
+    "biotoolsID": "jvenn",
+    "credit": [
+        {
+            "email": "support.genopole@toulouse.inra.fr",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://bioinfo.genotoul.fr/jvenn/index.html"
+        }
+    ],
+    "description": "Plug-in for the jQuery Javascript library. It is an integrative tool for comparing lists with Venn Diagrams.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://jvenn.toulouse.inra.fr/app/index.html"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://jvenn.toulouse.inra.fr/app/usermanual.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioinfo.genotoul.fr/jvenn/",
+    "language": [
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/jvenn-an-interactive-venn-diagram-viewer.html"
+        }
+    ],
+    "name": "jvenn",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2014 Bardou et al.; licensee BioMed Central Ltd.Background: Venn diagrams are commonly used to display list comparison. In biology, they are widely used to show the differences between gene lists originating from different differential analyses, for instance. They thus allow the comparison between different experimental conditions or between different methods. However, when the number of input lists exceeds four, the diagram becomes difficult to read. Alternative layouts and dynamic display features can improve its use and its readability.Results: jvenn is a new JavaScript library. It processes lists and produces Venn diagrams. It handles up to six input lists and presents results using classical or Edwards-Venn layouts. User interactions can be controlled and customized. Finally, jvenn can easily be embeded in a web page, allowing to have dynamic Venn diagrams.Conclusions: jvenn is an open source component for web environments helping scientists to analyze their data. The library package, which comes with full documentation and an example, is freely available at http://bioinfo.genotoul.fr/jvenn.",
+                "authors": [
+                    {
+                        "name": "Bardou P."
+                    },
+                    {
+                        "name": "Djemiel C."
+                    },
+                    {
+                        "name": "Escudie F."
+                    },
+                    {
+                        "name": "Klopp C."
+                    },
+                    {
+                        "name": "Mariette J."
+                    }
+                ],
+                "citationCount": 478,
+                "date": "2014-08-29T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "Jvenn: An interactive Venn diagram viewer"
+            },
+            "pmid": "25176396"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Statistics and probability",
+            "uri": "http://edamontology.org/topic_2269"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,195 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:t_coffee:11.0.8/cmd/www.tcoffee.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/Projects/tcoffee/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:t_coffee:11.0.8_1/workflow/toolshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1894,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 48,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 55,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 113,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 126,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 127,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 128,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 139,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 143,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 149,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 149,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 149,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 159,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4042",
+                            "pmid": "10964570",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/t_coffee",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

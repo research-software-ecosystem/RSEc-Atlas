@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-05-02T10:01:14Z",
+    "biotoolsCURIE": "biotools:primaclade",
+    "biotoolsID": "primaclade",
+    "credit": [
+        {
+            "email": "tkellogg@umsl.edu",
+            "name": "Michael D. Gadberry",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Accepts a multiple species nucleotide alignment file as input, iteratively runs the Primer3 application for each sequence, and then collates the results to identify a set of polymerase chain reaction (PCR) primers that will bind across the alignment.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://primaclade.org/introduction.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "PCR primer design",
+                    "uri": "http://edamontology.org/operation_0308"
+                },
+                {
+                    "term": "Primer removal",
+                    "uri": "http://edamontology.org/operation_3237"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://primaclade.org/cgi-bin/primaclade.cgi",
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "name": "Primaclade",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Summary: Primaclade is a web-based application that accepts a multiple species nucleotide alignment file as input and identifies a set of polymerase chain reaction (PCR) primers that will bind across the alignment. Primaclade iteratively runs the Primer3 application for each alignment sequence and collates the results. Primaclade creates an HTML results page that recaps the original alignment, provides a consensus sequence and lists primers for each alignment area, with primers color-coded to reflect the level of degeneracy in the primer. © The Author 2004. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Doust A.N."
+                    },
+                    {
+                        "name": "Gadberry M.D."
+                    },
+                    {
+                        "name": "Kellogg E.A."
+                    },
+                    {
+                        "name": "Malcomber S.T."
+                    }
+                ],
+                "citationCount": 102,
+                "date": "2005-04-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Primaclade - A flexible tool to find conserved PCR primers across multiple species"
+            },
+            "pmid": "15539448"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Nucleic acid sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3511"
+        },
+        {
+            "term": "PCR experiment",
+            "uri": "http://edamontology.org/topic_3519"
+        },
+        {
+            "term": "Probes and primers",
+            "uri": "http://edamontology.org/topic_0632"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

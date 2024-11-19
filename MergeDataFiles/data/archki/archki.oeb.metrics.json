@@ -1,0 +1,116 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:archki/soap/bioinf.uab.es",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 13,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                }
+                            ],
+                            "doi": "10.1002/prot.20136",
+                            "pmid": "15229886",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1983"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                }
+                            ],
+                            "title": "Classification of common functional loops of kinase super-families.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/archki",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

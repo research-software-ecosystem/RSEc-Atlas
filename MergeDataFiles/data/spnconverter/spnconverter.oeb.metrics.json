@@ -1,0 +1,101 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:spnconverter:1.0/cmd/www.picb.ac.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt421",
+                            "pmid": "23908262",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "SPNConverter: a new link between static and dynamic complex network analysis.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.picb.ac.cn/ClinicalGenomicNTW/SPNConverter.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/spnconverter",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.picb.ac.cn/ClinicalGenomicNTW/SPNConverter.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

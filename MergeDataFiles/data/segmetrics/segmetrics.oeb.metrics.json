@@ -1,0 +1,847 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:segmetrics/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true,
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 36,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2013"
+                                }
+                            ],
+                            "doi": "10.1109/isbi.2009.5193098",
+                            "pmcid": "PMC2901896",
+                            "pmid": "20628545",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1979"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "NUCLEAR SEGMENTATION IN MICROSCOPE CELL IMAGES: A HAND-SEGMENTED DATASET AND COMPARISON OF ALGORITHMS.",
+                            "year": 2009
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 83,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu080",
+                            "pmcid": "PMC4029039",
+                            "pmid": "24526711",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "A benchmark for comparison of cell tracking algorithms.",
+                            "year": 2014
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1023/a:1007975324482",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1109/icip.2003.1246871",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:segmetrics/lib/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true,
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 36,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2013"
+                                }
+                            ],
+                            "doi": "10.1109/isbi.2009.5193098",
+                            "pmcid": "PMC2901896",
+                            "pmid": "20628545",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1979"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "NUCLEAR SEGMENTATION IN MICROSCOPE CELL IMAGES: A HAND-SEGMENTED DATASET AND COMPARISON OF ALGORITHMS.",
+                            "year": 2009
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 83,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu080",
+                            "pmcid": "PMC4029039",
+                            "pmid": "24526711",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "A benchmark for comparison of cell tracking algorithms.",
+                            "year": 2014
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1023/a:1007975324482",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1109/icip.2003.1246871",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:0.11.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.0.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.2.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.2.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.2.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.2.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:segmetrics:1.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/segmetrics",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/BMCV/segmetrics"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

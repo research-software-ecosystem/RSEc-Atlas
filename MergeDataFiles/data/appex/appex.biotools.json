@@ -1,0 +1,104 @@
+{
+    "additionDate": "2017-08-03T18:35:52Z",
+    "biotoolsCURIE": "biotools:appex",
+    "biotoolsID": "appex",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.kribb.re.kr/eng/"
+        }
+    ],
+    "description": "Web-based platform to perform survival analysis, particularly, to support identifying molecular signatures significantly associated with cancer patients’ outcome. It provides various analysis methods to discover genes or any other molecules associated with survival of cancer patients.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.appex.kr/appex/document/appex_document.html#_Toc361763818"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Nucleic acid feature detection",
+                    "uri": "http://edamontology.org/operation_0415"
+                },
+                {
+                    "term": "Nucleic acid sequence analysis",
+                    "uri": "http://edamontology.org/operation_2478"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.appex.kr/appex/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/appex-1-0-analysis-platform-for-identification-of-prognostic-gene-expression-signature-in-cancer.html"
+        }
+    ],
+    "name": "APPEX",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2014. Published by Oxford University Press.Because cancer has heterogeneous clinical behaviors due to the progressive accumulation of multiple genetic and epigenetic alterations, the identification of robust molecular signatures for predicting cancer outcome is profoundly important. Here, we introduce the APPEX Web-based analysis platform as a versatile tool for identifying prognostic molecular signatures that predict cancer diversity. We incorporated most of statistical methods for survival analysis and implemented seven survival analysis workflows, including CoxSingle, CoxMulti, IntransSingle, IntransMulti, SuperPC, TimeRoc and multivariate. A total of 236 publicly available datasets were collected, processed and stored to support easy independent validation of prognostic signatures. Two case studies including disease recurrence and bladder cancer progression were described using different combinations of the seven workflows.",
+                "authors": [
+                    {
+                        "name": "Kim J.H."
+                    },
+                    {
+                        "name": "Kim S.-Y."
+                    },
+                    {
+                        "name": "Kim S.K."
+                    },
+                    {
+                        "name": "Kim W.-J."
+                    },
+                    {
+                        "name": "Yun S.-J."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2014-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "APPEX: Analysis platform for the identification of prognostic gene expression signatures in cancer"
+            },
+            "pmid": "25091586"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        },
+        {
+            "term": "Sequence composition, complexity and repeats",
+            "uri": "http://edamontology.org/topic_0157"
+        }
+    ],
+    "validated": 1
+}

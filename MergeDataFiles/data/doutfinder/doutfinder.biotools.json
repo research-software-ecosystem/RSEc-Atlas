@@ -1,0 +1,109 @@
+{
+    "additionDate": "2017-02-10T14:13:59Z",
+    "biotoolsCURIE": "biotools:doutfinder",
+    "biotoolsID": "doutfinder",
+    "credit": [
+        {
+            "email": "bioinfo.grp@imp.ac.at",
+            "name": "Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Tool for facilitating protein domain detection among remotely related protein sequences.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://mendel.imp.ac.at/dout/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein domain recognition",
+                    "uri": "http://edamontology.org/operation_0246"
+                },
+                {
+                    "term": "Protein feature detection",
+                    "uri": "http://edamontology.org/operation_3092"
+                },
+                {
+                    "term": "Protein fold recognition",
+                    "uri": "http://edamontology.org/operation_0303"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://mendel.imp.ac.at/dout/",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "DOUTfinder",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "DOUTfinder is a web-based tool facilitating protein domain detection among related protein sequences in the twilight zone of sequence similarity. The sequence set required for this analysis can be provided by the user or will be collected using PSI-BLAST if a single sequence is given as an input. The obtained sequence family is analyzed for known Pfam and SMART domains, and the thereby identified subsignificant domain similarities are evaluated further. Domains with several subthreshold hits in the query set are ranked based on a sum-score function and likely homologous domains are suggested according to established cut-offs. By providing a post-filtering procedure for subsignificant domain hits DOUTfinder allows the detection of non-trivial domain relationships and can thereby lead to new insights into the function and evolution of distantly related sequence families. DOUTfinder is available at http://mendel.imp.ac.at/dout/. © The Author 2006. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Eisenhaber F."
+                    },
+                    {
+                        "name": "Fritz R."
+                    },
+                    {
+                        "name": "Novatchkova M."
+                    },
+                    {
+                        "name": "Schleiffer A."
+                    },
+                    {
+                        "name": "Schneider G."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2006-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "DOUTfinder - Identification of distant domain outliers using subsignificant sequence similarity"
+            },
+            "pmid": "16844996"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Protein sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3510"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Sequence composition, complexity and repeats",
+            "uri": "http://edamontology.org/topic_0157"
+        }
+    ],
+    "validated": 1
+}

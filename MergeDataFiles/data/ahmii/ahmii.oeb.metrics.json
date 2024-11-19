@@ -1,0 +1,77 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ahmii/web/www.wdcm.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/nar/gkg523",
+                            "pmcid": "PMC168930",
+                            "pmid": "12824404",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "AHMII: Agent to Help Microbial Information Integration.",
+                            "year": 2003
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.wdcm.org/AHMII/ahmii.html"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ahmii",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.wdcm.org/AHMII/ahmii.html"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

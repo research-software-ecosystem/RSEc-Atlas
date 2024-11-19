@@ -1,0 +1,49 @@
+about:
+  dev_url: https://github.com/ucscGenomeBrowser/kent
+  doc_url: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+  home: https://hgdownload.cse.ucsc.edu/admin/exe/
+  license: Varies; see http://genome.ucsc.edu/license
+  summary: Extract summary information from a bigWig file.
+build:
+  number: 2
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:UCSC_Genome_Browser_Utilities
+  - doi:10.1093/bib/bbs038
+package:
+  name: ucsc-bigwigsummary
+  version: '469'
+requirements:
+  build:
+  - make
+  - None
+  - None
+  - binutils
+  host:
+  - libpng
+  - libuuid
+  - mysql-connector-c
+  - mariadb-connector-c
+  - libopenssl-static
+  - clangdev
+  - zlib
+  run:
+  - libpng
+  - libuuid
+  - mysql-connector-c
+  - mariadb-connector-c
+  - libopenssl-static
+  - zlib
+source:
+  patches:
+  - include.patch
+  - include.macos.patch
+  sha256: 3f95b26ccca854c965c05773481c269f2a0e6fb1906ae8a7fe2437c6ad543963
+  url: http://hgdownload.cse.ucsc.edu/admin/exe/userApps.archive/userApps.v469.src.tgz
+test:
+  commands:
+  - test -x ${PREFIX}/bin/bigWigSummary

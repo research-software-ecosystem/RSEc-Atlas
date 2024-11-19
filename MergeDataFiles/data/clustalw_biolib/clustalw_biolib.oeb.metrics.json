@@ -1,0 +1,469 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:clustalw_biolib:2.1./cmd/biolib.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11713,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 94,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 379,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 433,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 617,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 772,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 792,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 955,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1041,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1201,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1219,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1312,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1327,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1427,
+                                    "year": "2013"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btm404",
+                            "pmid": "17846036",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1992"
+                                }
+                            ],
+                            "title": "Clustal W and Clustal X version 2.0.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:clustalw_biolib:2.1./rest/biolib.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11713,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 94,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 379,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 433,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 617,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 772,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 792,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 955,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1041,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1201,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1219,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1312,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1327,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1427,
+                                    "year": "2013"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btm404",
+                            "pmid": "17846036",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1992"
+                                }
+                            ],
+                            "title": "Clustal W and Clustal X version 2.0.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:clustalw_biolib:2.1./web/biolib.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11713,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 94,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 379,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 433,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 617,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 772,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 792,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 955,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1041,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1201,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1219,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1312,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1327,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1427,
+                                    "year": "2013"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btm404",
+                            "pmid": "17846036",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1992"
+                                }
+                            ],
+                            "title": "Clustal W and Clustal X version 2.0.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/clustalw_biolib",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

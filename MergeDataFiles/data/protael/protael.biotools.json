@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-08-03T18:56:39Z",
+    "biotoolsCURIE": "biotools:protael",
+    "biotoolsID": "protael",
+    "credit": [
+        {
+            "email": "msedova@sbpdiscovery.org",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.godziklab.org/"
+        }
+    ],
+    "description": "Vvector graphics library for displaying various biological sequence related data on web pages.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://proteins.burnham.org:8080/Protael/docs/index.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein sequence analysis",
+                    "uri": "http://edamontology.org/operation_2479"
+                },
+                {
+                    "term": "Sequence visualisation",
+                    "uri": "http://edamontology.org/operation_0564"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://proteins.burnham.org:8080/Protael/",
+    "homepage_status": 1,
+    "language": [
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/protael-javascript-library-for-visualizing-biological-sequences-and-related-data.html"
+        }
+    ],
+    "name": "Protael",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 The Author 2015. Published by Oxford University Press. All rights reserved.Summary: Protael is a JavaScript library for creating interactive visualizations of biological sequences and various associated data. It allows users to generate high-quality vector graphics (SVG) and integrate it into web pages. Availability and implementation: Protael distribution, documentation and examples are freely available at http://protael.org; source code is hosted at https://github.com/sanshu/protaeljs.",
+                "authors": [
+                    {
+                        "name": "Godzik A."
+                    },
+                    {
+                        "name": "Jaroszewski L."
+                    },
+                    {
+                        "name": "Sedova M."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2016-02-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Protael: Protein data visualization library for the web"
+            },
+            "pmid": "26515826"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

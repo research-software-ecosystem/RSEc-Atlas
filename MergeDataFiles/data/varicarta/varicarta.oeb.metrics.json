@@ -1,0 +1,89 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:varicarta/undefined/varicarta.msl.ubc.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1002/aur.2236",
+                            "pmid": "31705629",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "VariCarta: A Comprehensive Database of Harmonized Genomic Variants Found in Autism Spectrum Disorder Sequencing Studies.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://varicarta.msl.ubc.ca/index"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://varicarta.msl.ubc.ca/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/varicarta",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://varicarta.msl.ubc.ca/index"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://varicarta.msl.ubc.ca/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

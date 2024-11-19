@@ -1,0 +1,193 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biorepository_portal_toolkit/app/eig.research.chop.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1186/s12864-016-2797-9",
+                            "pmcid": "PMC5001241",
+                            "pmid": "27535360",
+                            "ref_count": 61,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1976"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1979"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "The biorepository portal toolkit: an honest brokered, modular service oriented software tool set for biospecimen-driven translational research.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&scope=openid%20email%20profile&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&state=aWuWwxcjVPVolnqIdioyhTGWnKc&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&nonce=FzEUYm5Y1HCzb_3Pub2Rg7NL1h_iEz5IEW2dc8LUrLs"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S637910670%3A1731728028560446&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&ddm=1&nonce=FzEUYm5Y1HCzb_3Pub2Rg7NL1h_iEz5IEW2dc8LUrLs&o2v=2&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&response_type=code&scope=openid+email+profile&service=lso&state=aWuWwxcjVPVolnqIdioyhTGWnKc&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANM4GHu3Bm_RurItD6_8KTWjYpHPGElihUFcZdoa1aPpw1A3DaUv0u48Ib147bHp3tOmFprdCHdhv_lSJqgXK4XqQ_UN8b30jj5FKr-ib2hZE6ga8v5JtE68_i5ZKGBL-JN1comVVZfU3zV7Qo3P2FLy5FnUXjVwgj5TbDt54xB_tjOBR8KChhrZJDMJR6ioFYq8hIxjrrFr4qCM2EIme18haiEz0NehzP2yCxg1f_GGQqB-Nb5ZNehJbKDkaasIS7KYp3itlSYnhTIuQsWO3nOVrlv16bDPHsK1CYt9nWTJ1EHJERcb8FkCIjSOuRz19Zw3XobwhpM2Vd5ZJVXcSfuWIkWCb_WY2YIU_rE2aa4JmmULPfm3kiUhX6DTolpld3McIqNjQDjEecRORKYE6QZfSVNDeoAFVBuHKxJ9nOZ_QArf6hoQISm-QC5ERElHqZ1dWe0AxE2pIHBYZTi4a3sTDptyWotvX9Oxgo1GorbYfbe_wA%26flowName%3DGeneralOAuthFlow%26as%3DS637910670%253A1731728028560446%26client_id%3D239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Feig.research.chop.edu&rart=ANgoxccDu0FwxM-FGZwrAR11aJvGCEm7UpWIO2UiR5qrj3Ano-f-WBmR_yRxGYwzrTyydSUmeaNNrs73sFya36BqZLvDur63ynLFzaQBrghrMHsn_tD0v6U"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3851485S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biorepository_portal_toolkit",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&scope=openid%20email%20profile&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&state=ed5OcTvC44R_Jnr9bIpEiMMFSsM&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&nonce=Tx8JLO75Ha-cCaxHwr6VaZzf-K6bq2iZJnzWDUNK8I8"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S607649460%3A1731728027132646&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&ddm=1&nonce=Tx8JLO75Ha-cCaxHwr6VaZzf-K6bq2iZJnzWDUNK8I8&o2v=2&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&response_type=code&scope=openid+email+profile&service=lso&state=ed5OcTvC44R_Jnr9bIpEiMMFSsM&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANVgSKCrX8pKr6YIKQmtCLg-bgJQWRVz4PaDy6PZiVnn4FzWIUje-ia1c4T_0960AEe-L-p6tYuBSYnc4YNc_hZ1-iTkqdGN6oWFyw18qEkYvdLyG0LEy_b5DMMSX42i8IB58m5KC4jRtdibeyjnjjo8vUVJvyJOatHke3GwF-KHcIOdw-Vct9hQSRWb0AOVI76YiDSDOMbAJhy6iQbEBTYcGxSRp67CLYHzKLkbbjmvgN58SIsAiS26_qazjJgAA9IneHQlnl-kS5pAJI9izEIFkO-aDzuigc_-awHSYyJFK7fEeTXwqtBM_KdfEj4Z09QX5VOJ85qAQiz9bxc7OBr-8hyCLP5efhIyLjdO4R_TnhzZOziDWT2c7GXPQE1KCxxLobmtKIjHx_mJgSQg_A7IcfT7PkPiPbs1HI1fuCjimvW5CcU9P3RHr3GeItOpxEldBeJOXI74DFESw6dRvNAwxf0AwB4OEpq7ExRX747VlO9GYE%26flowName%3DGeneralOAuthFlow%26as%3DS607649460%253A1731728027132646%26client_id%3D239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Feig.research.chop.edu&rart=ANgoxceiXcDTnwKMy77Z1GBldGEkbDoDewK0R_MavAePrKLvmmvYPTbysFQDj1U0C6YssfSWYwTzbIf3TwOPwtgfUokmKs3p52KSm7mmNQ_dyLcQmjmChwY"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,147 @@
+{
+    "additionDate": "2015-01-29T15:46:57Z",
+    "biotoolsCURIE": "biotools:advanced_pdb_search",
+    "biotoolsID": "advanced_pdb_search",
+    "collectionID": [
+        "EBI Tools",
+        "PDBe Tools"
+    ],
+    "credit": [
+        {
+            "email": "gerard@ebi.ac.uk",
+            "name": "Gerard Kleywegt",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "EMBL-EBI",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www.ebi.ac.uk/pdbe/?tab=aboutus&subtab=contactus"
+        }
+    ],
+    "description": "Search the PDB.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ebi.ac.uk/pdbe-srv/view/search?search_type=advanced"
+        },
+        {
+            "type": [
+                "Terms of use"
+            ],
+            "url": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Structure database search",
+                    "uri": "http://edamontology.org/operation_0339"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Database search results",
+                        "uri": "http://edamontology.org/data_2080"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Protein structure report",
+                        "uri": "http://edamontology.org/data_1537"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Structure",
+                        "uri": "http://edamontology.org/data_0883"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ebi.ac.uk/pdbe-srv/view/search?search_type=advanced",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Helpdesk"
+            ],
+            "url": "https://www.ebi.ac.uk/pdbe/?tab=aboutus&subtab=contactus"
+        }
+    ],
+    "maturity": "Legacy",
+    "name": "Advanced PDB search",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "EMBL-EBI",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkv1352",
+            "metadata": {
+                "abstract": "© The Author(s) 2015.New technologies are revolutionising biological research and its applications by making it easier and cheaper to generate ever-greater volumes and types of data. In response, the services and infrastructure of the European Bioinformatics Institute (EMBL-EBI, www.ebi.ac.UK) are continually expanding: total disk capacity increases significantly every year to keep pace with demand (75 petabytes as of December 2015), and interoperability between resources remains a strategic priority. Since 2014 we have launched two new resources: the European Variation Archive for genetic variation data and EMPIAR for two-dimensional electron microscopy data, as well as a Resource Description Framework platform. We also launched the Embassy Cloud service, which allows users to run large analyses in a virtual environment next to EMBL-EBI's vast public data resources.",
+                "authors": [
+                    {
+                        "name": "Apweiler R."
+                    },
+                    {
+                        "name": "Bergman M.T."
+                    },
+                    {
+                        "name": "Birney E."
+                    },
+                    {
+                        "name": "Cochrane G."
+                    },
+                    {
+                        "name": "Cook C.E."
+                    },
+                    {
+                        "name": "Finn R.D."
+                    }
+                ],
+                "citationCount": 78,
+                "date": "2016-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "The European Bioinformatics Institute in 2016: Data growth and integration"
+            },
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "additionDate": "2018-05-28T14:33:49Z",
+    "biotoolsCURIE": "biotools:phylopdb",
+    "biotoolsID": "phylopdb",
+    "credit": [
+        {
+            "email": "pierre.peyret@udamail.fr",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Phylogenetic Oligonucleotide Probe Database. Provides a convivial and easy-to-use web interface to browse both regular and explorative 16S rRNA-targeted probes.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://g2im.u-clermont1.fr/phylopdb/help.php"
+        }
+    ],
+    "download": [
+        {
+            "note": "KASpOD 16S rDNA database",
+            "type": "Biological data",
+            "url": "http://g2im.u-clermont1.fr/phylopdb/PhylOPDb_16S_db_KASpOD.fas.zip"
+        },
+        {
+            "note": "PhylGrid 16S rDNA database",
+            "type": "Biological data",
+            "url": "http://g2im.u-clermont1.fr/phylopdb/PhylOPDb_16S_db_PhylGrid.fas.zip"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Microarray probe design",
+                    "uri": "http://edamontology.org/operation_0309"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "PCR primer design",
+                    "uri": "http://edamontology.org/operation_0308"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://g2im.u-clermont1.fr/phylopdb/help.php",
+    "language": [
+        "JavaScript",
+        "PHP",
+        "SQL"
+    ],
+    "lastUpdate": "2018-12-10T12:58:58Z",
+    "name": "PhylOPDb",
+    "owner": "aotamendi.1",
+    "publication": [
+        {
+            "doi": "10.1093/database/bau036",
+            "metadata": {
+                "abstract": "© The Author(s) 2014.In recent years, high-throughput molecular tools have led to an exponential growth of available 16S rRNA gene sequences. Incorporating such data, molecular tools based on target-probe hybridization were developed to monitor microbial communities within complex environments. Unfortunately, only a few 16S rRNA gene-targeted probe collections were described. Here, we present PhylOPDb, an online resource for a comprehensive phylogenetic oligonucleotide probe database. PhylOPDb provides a convivial and easy-to-use web interface to browse both regular and explorative 16S rRNA-targeted probes. Such probes set or subset could be used to globally monitor known and unknown prokaryotic communities through various techniques including DNA microarrays, polymerase chain reaction (PCR), fluorescent in situ hybridization (FISH), targeted gene capture or in silico rapid sequence identification. PhylOPDb contains 74003 25-mer probes targeting 2178 genera including Bacteria and Archaea.",
+                "authors": [
+                    {
+                        "name": "Abid A."
+                    },
+                    {
+                        "name": "Boucher D."
+                    },
+                    {
+                        "name": "Brugere J.-F."
+                    },
+                    {
+                        "name": "Denonfoux J."
+                    },
+                    {
+                        "name": "Gasc C."
+                    },
+                    {
+                        "name": "Hill D.R.C."
+                    },
+                    {
+                        "name": "Jaziri F."
+                    },
+                    {
+                        "name": "Mahul A."
+                    },
+                    {
+                        "name": "Parisot N."
+                    },
+                    {
+                        "name": "Peyret P."
+                    },
+                    {
+                        "name": "Peyretaillade E."
+                    },
+                    {
+                        "name": "Ribiere C."
+                    }
+                ],
+                "citationCount": 8,
+                "date": "2014-01-01T00:00:00Z",
+                "journal": "Database",
+                "title": "PhylOPDb: A 16S rRNA oligonucleotide probe database for prokaryotic identification"
+            },
+            "pmcid": "PMC4000467",
+            "pmid": "24771669"
+        }
+    ],
+    "toolType": [
+        "Database portal",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Microarray experiment",
+            "uri": "http://edamontology.org/topic_3518"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Probes and primers",
+            "uri": "http://edamontology.org/topic_0632"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,95 @@
+{
+    "additionDate": "2017-08-03T18:51:28Z",
+    "biotoolsCURIE": "biotools:microbegps",
+    "biotoolsID": "microbegps",
+    "credit": [
+        {
+            "email": "RenardB@rki.de",
+            "name": "Bernhard Y Renard",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.rki.de/EN/Content/Institute/DepartmentsUnits/JuniorGroups/JRG4.html?nn=2386920"
+        }
+    ],
+    "description": "Bioinformatics tool for the analysis of metagenomic sequencing data. The goal is to profile the composition of metagenomic communities as accurately as possible and present the results to the user in a convenient manner.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://sourceforge.net/projects/microbegps/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Community profiling",
+                    "uri": "http://edamontology.org/operation_3200"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://sourceforge.net/projects/microbegps/",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/microbegps-the-explorative-taxonomic-profiling-tool-for-metagenomic-data.html"
+        }
+    ],
+    "name": "MicrobeGPS",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 Lindner, Renard.Microbial community profiling identifies and quantifies organisms in metagenomic sequencing data using either reference based or unsupervised approaches. However, current reference based profiling methods only report the presence and abundance of single reference genomes that are available in databases. Since only a small fraction of environmental genomes is represented in genomic databases, these approaches entail the risk of false identifications and often suggest a higher precision than justified by the data. Therefore, we developed MicrobeGPS, a novel metagenomic profiling approach that overcomes these limitations. MicrobeGPS is the first method that identifies microbiota in the sample and estimates their genomic distances to known reference genomes. With this strategy, MicrobeGPS identifies organisms down to the strain level and highlights possibly inaccurate identifications when the correct reference genome is missing. We demonstrate on three metagenomic datasets with different origin that our approach successfully avoids misleading interpretation of results and additionally provides more accurate results than current profiling methods. Our results indicate that MicrobeGPS can enable reference based taxonomic profiling of complex and less characterized microbial communities. MicrobeGPS is open source and available from https://sourceforge.net/projects/microbegps/ as source code and binary distribution for Windows and Linux operating systems.",
+                "authors": [
+                    {
+                        "name": "Lindner M.S."
+                    },
+                    {
+                        "name": "Renard B.Y."
+                    }
+                ],
+                "citationCount": 17,
+                "date": "2015-02-02T00:00:00Z",
+                "journal": "PLoS ONE",
+                "title": "Metagenomic profiling of known unknown microbes with MicrobeGPS"
+            },
+            "pmid": "25643362"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Microbiology",
+            "uri": "http://edamontology.org/topic_3301"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ktop/web/riskcalc.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.eururo.2021.12.008",
+                            "pmid": "35000822",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Kidney Transplantation Outcome Predictions (KTOP): A Risk Prediction Tool for Kidney Transplants from Brain-dead Deceased Donors Based on a Large European Cohort.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ktop",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 500,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

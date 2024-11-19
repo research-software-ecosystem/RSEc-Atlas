@@ -1,0 +1,129 @@
+{
+    "additionDate": "2017-03-30T16:57:08Z",
+    "biotoolsCURIE": "biotools:biosystems",
+    "biotoolsID": "biosystems",
+    "credit": [
+        {
+            "email": "lewis.geer@nih.gov",
+            "name": "Lewis Y. Geer",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Database that centralizes and cross-links existing biological systems databases, increasing their utility and target audience by integrating their pathways and systems into NCBI resources. This integration allows users of NCBI's Entrez databases to quickly categorize proteins, genes and small molecules by metabolic pathway, disease state or other type.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://www.ncbi.nlm.nih.gov/Structure/biosystems/docs/biosystems_about.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Deposition",
+                    "uri": "http://edamontology.org/operation_3431"
+                },
+                {
+                    "term": "ID mapping",
+                    "uri": "http://edamontology.org/operation_3282"
+                },
+                {
+                    "term": "Metabolic network modelling",
+                    "uri": "http://edamontology.org/operation_3660"
+                },
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                },
+                {
+                    "term": "Relation extraction",
+                    "uri": "http://edamontology.org/operation_3625"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ncbi.nlm.nih.gov/biosystems",
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "BioSystems",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The NCBI BioSystems database, found at http://www.ncbi.nlm.nih.gov/biosystems/, centralizes and cross-links existing biological systems databases, increasing their utility and target audience by integrating their pathways and systems into NCBI resources. This integration allows users of NCBI's Entrez databases to quickly categorize proteins, genes and small molecules by metabolic pathway, disease state or other BioSystem type, without requiring time-consuming inference of biological relationships from the literature or multiple experimental datasets.",
+                "authors": [
+                    {
+                        "name": "Bryant S.H."
+                    },
+                    {
+                        "name": "Geer L.Y."
+                    },
+                    {
+                        "name": "Geer R.C."
+                    },
+                    {
+                        "name": "Han L."
+                    },
+                    {
+                        "name": "He J."
+                    },
+                    {
+                        "name": "He S."
+                    },
+                    {
+                        "name": "Liu C."
+                    },
+                    {
+                        "name": "Marchler-Bauer A."
+                    },
+                    {
+                        "name": "Shi W."
+                    }
+                ],
+                "citationCount": 473,
+                "date": "2009-10-23T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "The NCBI BioSystems database"
+            },
+            "pmid": "19854944"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Database management",
+            "uri": "http://edamontology.org/topic_3489"
+        },
+        {
+            "term": "Endocrinology and metabolism",
+            "uri": "http://edamontology.org/topic_3407"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        }
+    ],
+    "validated": 1
+}

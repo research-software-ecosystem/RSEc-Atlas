@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-08-03T19:04:13Z",
+    "biotoolsCURIE": "biotools:visualcna",
+    "biotoolsID": "visualcna",
+    "credit": [
+        {
+            "email": "gohlke@uni-duesseldorf.de",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://cpclab.uni-duesseldorf.de/"
+        }
+    ],
+    "description": "PyMOL plug-in for interactive Constraint Network Analysis and protein engineering for improving thermostability",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://cpclab.uni-duesseldorf.de/software"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Pathway or network analysis",
+                    "uri": "http://edamontology.org/operation_2497"
+                },
+                {
+                    "term": "Protein modelling",
+                    "uri": "http://edamontology.org/operation_0477"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cpclab.uni-duesseldorf.de/software",
+    "lastUpdate": "2018-12-10T12:58:46Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/visualcna-1-0-constraint-network-analysis-and-protein-engineering.html"
+        }
+    ],
+    "name": "VisualCNA",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press. All rights reserved.Summary: Constraint network analysis (CNA) is a graph theory-based rigidity analysis approach for linking a biomolecule's structure, flexibility, (thermo)stability and function. Results from CNA are highly information-rich and require intuitive, synchronized and interactive visualization for a comprehensive analysis. We developed VisualCNA, an easy-to-use PyMOL plug-in that allows setup of CNA runs and analysis of CNA results linking plots with molecular graphics representations. From a practical viewpoint, the most striking feature of VisualCNA is that it facilitates interactive protein engineering aimed at improving thermostability.",
+                "authors": [
+                    {
+                        "name": "Gohlke H."
+                    },
+                    {
+                        "name": "Mulnaes D."
+                    },
+                    {
+                        "name": "Rathi P.C."
+                    }
+                ],
+                "citationCount": 8,
+                "date": "2015-07-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "VisualCNA: A GUI for interactive constraint network analysis and protein engineering for improving thermostability"
+            },
+            "pmid": "25770091"
+        }
+    ],
+    "toolType": [
+        "Plug-in"
+    ],
+    "topic": [
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Molecular modelling",
+            "uri": "http://edamontology.org/topic_2275"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        }
+    ],
+    "validated": 1
+}

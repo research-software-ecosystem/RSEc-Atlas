@@ -1,0 +1,36 @@
+about:
+  home: https://github.com/friedlanderlab/mirtrace
+  licence_file: LICENCE
+  license: GPL-2.0
+  summary: "miRTrace is a new quality control and taxonomic tracing tool developed\
+    \ specifically for small RNA sequencing data (sRNA-Seq). \nEach sample is characterized\
+    \ by profiling sequencing quality, read length, sequencing depth and miRNA complexity\
+    \ and also the \namounts of miRNAs versus undesirable sequences (derived from\
+    \ tRNAs, rRNAs and sequencing artifacts). In addition to these routine \nquality\
+    \ control (QC) analyses, miRTrace can accurately and sensitively resolve taxonomic\
+    \ origins of small RNA-Seq data based on the \ncomposition of clade-specific miRNAs.\
+    \ This feature can be used to detect cross-clade contaminations in typical lab\
+    \ settings. It can \nalso be applied for more specific applications in forensics,\
+    \ food quality control and clinical diagnosis, for instance tracing the \norigins\
+    \ of meat products or detecting parasitic microRNAs in host serum.\n"
+build:
+  noarch: generic
+  number: 1
+extra:
+  identifiers:
+  - biotools:mirtrace
+  - doi:10.1186/s13059-018-1588-9
+package:
+  name: mirtrace
+  version: 1.0.1
+requirements:
+  host: null
+  run:
+  - openjdk >=8.0.144
+  - python
+source:
+  sha256: 952e9b07d7a16ee475652683e780ce3e6b9f8261a75c2154893f25ae5177b8cd
+  url: https://github.com/friedlanderlab/mirtrace/releases/download/v1.0.1/mirtrace-v1.0.1.zip
+test:
+  commands:
+  - mirtrace -v

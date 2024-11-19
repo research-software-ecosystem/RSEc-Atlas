@@ -1,0 +1,107 @@
+{
+    "additionDate": "2017-05-02T07:18:26Z",
+    "biotoolsCURIE": "biotools:modsubnetbiomident",
+    "biotoolsID": "modsubnetbiomident",
+    "credit": [
+        {
+            "email": "juris@ai.utoronto.ca",
+            "name": "Igor Jurisica",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Inferring the functions of longevity genes with modular subnetwork biomarkers of Caenorhabditis elegans aging. A method where the biomarkers are networks of genes selected based on age-dependent activity and a graph-theoretic property called modularity. These modular biomarkers are applied to assign novel aging-related functions to poorly characterized longevity genes.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.cs.utoronto.ca/~juris/data/GB10/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Enrichment analysis",
+                    "uri": "http://edamontology.org/operation_3501"
+                },
+                {
+                    "term": "Gene expression correlation",
+                    "uri": "http://edamontology.org/operation_3463"
+                },
+                {
+                    "term": "Gene prediction",
+                    "uri": "http://edamontology.org/operation_2454"
+                },
+                {
+                    "term": "Gene regulatory network analysis",
+                    "uri": "http://edamontology.org/operation_1781"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.cs.utoronto.ca/~juris/data/GB10/",
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "name": "Modular Subnetwork Biomarker Identification",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "A central goal of biogerontology is to identify robust gene-expression biomarkers of aging. Here we develop a method where the biomarkers are networks of genes selected based on age-dependent activity and a graph-theoretic property called modularity. Tested on Caenorhabditis elegans, our algorithm yields better biomarkers than previous methods - they are more conserved across studies and better predictors of age. We apply these modular biomarkers to assign novel aging-related functions to poorly characterized longevity genes. © 2010 Fortney et al.; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Fortney K."
+                    },
+                    {
+                        "name": "Jurisica I."
+                    },
+                    {
+                        "name": "Kotlyar M."
+                    }
+                ],
+                "citationCount": 35,
+                "date": "2010-02-03T00:00:00Z",
+                "journal": "Genome Biology",
+                "title": "Inferring the functions of longevity genes with modular subnetwork biomarkers of Caenorhabditis elegans aging"
+            },
+            "pmid": "20128910"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Biomarkers",
+            "uri": "http://edamontology.org/topic_3360"
+        },
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Geriatric medicine",
+            "uri": "http://edamontology.org/topic_3399"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,625 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:imgt_gene-db/db/www.imgt.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 144,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gku1056",
+                            "pmcid": "PMC4383898",
+                            "pmid": "25378316",
+                            "ref_count": 90,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "IMGT®, the international ImMunoGeneTics information system® 25 years on.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 180,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gki010",
+                            "pmcid": "PMC539964",
+                            "pmid": "15608191",
+                            "ref_count": 30,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2004"
+                                }
+                            ],
+                            "title": "IMGT/GENE-DB: a comprehensive database for human and mouse immunoglobulin and T cell receptor genes.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.imgt.org/genedb/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:imgt_gene-db/web/www.imgt.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 144,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gku1056",
+                            "pmcid": "PMC4383898",
+                            "pmid": "25378316",
+                            "ref_count": 90,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "IMGT®, the international ImMunoGeneTics information system® 25 years on.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 180,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gki010",
+                            "pmcid": "PMC539964",
+                            "pmid": "15608191",
+                            "ref_count": 30,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2004"
+                                }
+                            ],
+                            "title": "IMGT/GENE-DB: a comprehensive database for human and mouse immunoglobulin and T cell receptor genes.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.imgt.org/genedb/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/imgt_gene-db",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.imgt.org/genedb/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

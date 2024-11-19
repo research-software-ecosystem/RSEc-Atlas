@@ -1,0 +1,102 @@
+{
+    "additionDate": "2017-08-03T19:04:10Z",
+    "biotoolsCURIE": "biotools:viralmir",
+    "biotoolsID": "viralmir",
+    "credit": [
+        {
+            "email": "csb.yzu@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://csb.cse.yzu.edu.tw/"
+        }
+    ],
+    "description": "First public resource dedicated to identify the microRNA precursor in virus.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://csb.cse.yzu.edu.tw/viralmir/introduction.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "microRNA detection",
+                    "uri": "http://edamontology.org/operation_0463"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://csb.cse.yzu.edu.tw/viralmir/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/viralmir-identify-the-microrna-precursor-in-virus.html"
+        }
+    ],
+    "name": "ViralMir",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© Huang et al.; licensee BioMed Central Ltd.Background: microRNAs (miRNAs) play a vital role in development, oncogenesis, and apoptosis by binding to mRNAs to regulate the posttranscriptional level of coding genes in mammals, plants, and insects. Recent studies have demonstrated that the expression of viral miRNAs is associated with the ability of the virus to infect a host. Identifying potential viral miRNAs from experimental sequence data is valuable for deciphering virus-host interactions. Thus far, a specific predictive model for viral miRNA identification has yet to be developed. Methods and results: Here, we present ViralmiR for identifying viral miRNA precursors on the basis of sequencing and structural information. We collected 263 experimentally validated miRNA precursors (pre-miRNAs) from 26 virus species and generated sequencing fragments from virus and human genomes as the negative dataset. Support vector machine and random forest models were established using 54 features from RNA sequences and secondary structural information. The results show that ViralmiR achieved a balanced accuracy higher than 83%, which is superior to that of previously developed tools for identifying pre-miRNAs. Conclusions: The easy-to-use ViralmiR web interface has been provided as a helpful resource for researchers to use in analyzing and deciphering virus-host interactions.",
+                "authors": [
+                    {
+                        "name": "Chang T.-H."
+                    },
+                    {
+                        "name": "Huang K.-Y."
+                    },
+                    {
+                        "name": "Lee T.-Y."
+                    },
+                    {
+                        "name": "Teng Y.-C."
+                    }
+                ],
+                "citationCount": 14,
+                "date": "2015-01-21T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "ViralmiR: A support-vector-machine-based method for predicting viral microRNA precursors"
+            },
+            "pmid": "25708359"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Nucleic acid structure analysis",
+            "uri": "http://edamontology.org/topic_0097"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        }
+    ],
+    "validated": 1
+}

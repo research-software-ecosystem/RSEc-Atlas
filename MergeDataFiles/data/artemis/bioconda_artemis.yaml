@@ -1,0 +1,33 @@
+about:
+  home: http://sanger-pathogens.github.io/Artemis/
+  license: GPL-3.0
+  license_family: GPL
+  license_file: LICENSE
+  summary: A set of Java genome visualization tools including the Artemis genome browser
+    & annotation tool, ACT DNA sequence comparison viewer, DNA Plotter image generation
+    tool and the BamView BAM/CRAM file viewer.
+build:
+  noarch: generic
+  number: 0
+extra:
+  identifiers:
+  - biotools:artemis
+  maintainers: Pathogen Informatics, Wellcome Trust Sanger Institute
+  notes: 'The applications can be run using the following commands: art, act, dnaplotter
+    or bamview'
+package:
+  name: artemis
+  version: 18.2.0
+requirements:
+  host:
+  - openjdk >=9
+  run:
+  - openjdk >=9
+source:
+  sha256: b107953c80372e3fbc69f4c813dbb95aa0d67750955db16a5cc6cb3804355194
+  url: https://github.com/sanger-pathogens/Artemis/releases/download/v18.2.0/artemis-unix-release-18.2.0.zip
+test:
+  commands:
+  - art -h 2>&1 | grep Genome > /dev/null
+  requires:
+  - xorg-libxtst

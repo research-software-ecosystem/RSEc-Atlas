@@ -1,0 +1,118 @@
+{
+    "additionDate": "2016-03-04T16:59:44Z",
+    "biotoolsCURIE": "biotools:irefr",
+    "biotoolsID": "irefr",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "antoniocmora@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "R",
+            "typeEntity": "Consortium"
+        },
+        {
+            "name": "Antonio Mora",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Ian Donaldson",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "UiO",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "This tool allows the user to load any version of the consolidated protein interaction database \"iRefIndex\" and perform tasks such as: selecting databases, pmids, experimental methods, searching for specific proteins, separate binary interactions from complexes and polymers, generate complexes according to an algorithm that looks after possible binary-represented complexes, make general database statistics and create network graphs, among others.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://cran.r-project.org/web/packages/iRefR/index.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://cran.r-project.org/web/packages/iRefR/index.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://cran.r-project.org/web/packages/iRefR/index.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "license": "GPL-3.0",
+    "maturity": "Mature",
+    "name": "iRefIndex Manager (iRefR)",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "UiO",
+    "publication": [
+        {
+            "doi": "10.1186/1471-2105-12-455",
+            "metadata": {
+                "abstract": "Background: The iRefIndex addresses the need to consolidate protein interaction data into a single uniform data resource. iRefR provides the user with access to this data source from an R environment.Results: The iRefR package includes tools for selecting specific subsets of interest from the iRefIndex by criteria such as organism, source database, experimental method, protein accessions and publication identifier. Data may be converted between three representations (MITAB, edgeList and graph) for use with other R packages such as igraph, graph and RBGL.The user may choose between different methods for resolving redundancies in interaction data and how n-ary data is represented. In addition, we describe a function to identify binary interaction records that possibly represent protein complexes. We show that the user choice of data selection, redundancy resolution and n-ary data representation all have an impact on graphical analysis.Conclusions: The package allows the user to control how these issues are dealt with and communicate them via an R-script written using the iRefR package - this will facilitate communication of methods, reproducibility of network analyses and further modification and comparison of methods by researchers. © 2011 Mora and Donaldson; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Donaldson I.M."
+                    },
+                    {
+                        "name": "Mora A."
+                    }
+                ],
+                "citationCount": 23,
+                "date": "2011-11-24T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "IRefR: An R package to manipulate the iRefIndex consolidated protein interaction database"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.13"
+    ]
+}

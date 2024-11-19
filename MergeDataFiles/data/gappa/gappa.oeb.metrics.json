@@ -1,0 +1,1410 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gappa/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/647958",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Genesis and Gappa: Processing, Analyzing and Visualizing Phylogenetic (Placement) Data",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.8.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.8.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.3389/fbinf.2022.871393",
+                            "pmcid": "PMC9580882",
+                            "pmid": "36304302",
+                            "ref_count": 64,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Metagenomic Analysis Using Phylogenetic Placement-A Review of the First Decade.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.1.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.2.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.4.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.5.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.5.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.6.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.6.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.7.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.7.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gappa:0.8.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bty767",
+                            "pmcid": "PMC6449752",
+                            "pmid": "30169747",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Methods for automatic reference trees and multilevel phylogenetic placement.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gappa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/lczech/gappa"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5667961S"
+            }
+        }
+    }
+]

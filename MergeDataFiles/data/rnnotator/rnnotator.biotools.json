@@ -1,0 +1,130 @@
+{
+    "additionDate": "2017-01-13T13:16:08Z",
+    "biotoolsCURIE": "biotools:rnnotator",
+    "biotoolsID": "rnnotator",
+    "credit": [
+        {
+            "email": "DEGilbert@lbl.gov",
+            "name": "David Gilbert",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "JAMartin@lbl.gov",
+            "name": "Jeff Martin",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "XiandongMeng@lbl.gov",
+            "name": "Xiandong Meng",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "ZhongWang@lbl.gov",
+            "name": "Zhong Wang",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Automated software pipeline that generates transcript models by de novo assembly of RNA-Seq data without the need for a reference genome",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://sites.google.com/a/lbl.gov/rnnotator/announcements"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "De-novo assembly",
+                    "uri": "http://edamontology.org/operation_0524"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://sites.google.com/a/lbl.gov/rnnotator/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "name": "Rnnotator",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Background: Comprehensive annotation and quantification of transcriptomes are outstanding problems in functional genomics. While high throughput mRNA sequencing (RNA-Seq) has emerged as a powerful tool for addressing these problems, its success is dependent upon the availability and quality of reference genome sequences, thus limiting the organisms to which it can be applied.Results: Here, we describe Rnnotator, an automated software pipeline that generates transcript models by de novo assembly of RNA-Seq data without the need for a reference genome. We have applied the Rnnotator assembly pipeline to two yeast transcriptomes and compared the results to the reference gene catalogs of these organisms. The contigs produced by Rnnotator are highly accurate (95%) and reconstruct full-length genes for the majority of the existing gene models (54.3%). Furthermore, our analyses revealed many novel transcribed regions that are absent from well annotated genomes, suggesting Rnnotator serves as a complementary approach to analysis based on a reference genome for comprehensive transcriptomics.Conclusions: These results demonstrate that the Rnnotator pipeline is able to reconstruct full-length transcripts in the absence of a complete reference genome. © 2010 Martin et al; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Blow M."
+                    },
+                    {
+                        "name": "Bruno V.M."
+                    },
+                    {
+                        "name": "Fang Z."
+                    },
+                    {
+                        "name": "Martin J."
+                    },
+                    {
+                        "name": "Meng X."
+                    },
+                    {
+                        "name": "Sherlock G."
+                    },
+                    {
+                        "name": "Snyder M."
+                    },
+                    {
+                        "name": "Wang Z."
+                    },
+                    {
+                        "name": "Zhang T."
+                    }
+                ],
+                "citationCount": 155,
+                "date": "2010-11-24T00:00:00Z",
+                "journal": "BMC Genomics",
+                "title": "Rnnotator: An automated de novo transcriptome assembly pipeline from stranded RNA-Seq reads"
+            },
+            "pmid": "21106091"
+        }
+    ],
+    "toolType": [
+        "Workflow"
+    ],
+    "topic": [
+        {
+            "term": "RNA-Seq",
+            "uri": "http://edamontology.org/topic_3170"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

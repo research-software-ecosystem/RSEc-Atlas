@@ -1,0 +1,183 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:humir/soap/www.ccb.uni-saarland.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.3390/biom10111576",
+                            "pmcid": "PMC7699549",
+                            "pmid": "33233537",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "HumiR: Web Services, Tools and Databases for Exploring Human microRNA Data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://ccb-web.cs.uni-saarland.de/humir/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:humir/web/www.ccb.uni-saarland.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.3390/biom10111576",
+                            "pmcid": "PMC7699549",
+                            "pmid": "33233537",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "HumiR: Web Services, Tools and Databases for Exploring Human microRNA Data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://ccb-web.cs.uni-saarland.de/humir/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/humir",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://ccb-web.cs.uni-saarland.de/humir/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

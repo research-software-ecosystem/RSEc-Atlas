@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/pdbefold",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Michael Wainwright",
+      "bsc:input": {
+        "@id": "_:N4f365552a9ff4f8f958a39e2243f7fd7"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N460e0a4fb9874fa0b6cb88616a534100"
+        },
+        {
+          "@id": "_:N48b89ebd15014b6c9c7cff1ea6a5503a"
+        },
+        {
+          "@id": "_:N3c4cfbb4098b40d08afd6f7b559386fc"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0081"
+        }
+      ],
+      "sc:author": [
+        "Michael Wainwright",
+        "PDBe development team"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1107/S0907444904026460"
+      },
+      "sc:description": "Identification and comparison of similar proteins based on secondary structure.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0295"
+        },
+        {
+          "@id": "edam:operation_0360"
+        },
+        {
+          "@id": "edam:operation_0570"
+        }
+      ],
+      "sc:name": "PDBeFold",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://pdbe.org/fold"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://pdbe.org/fold"
+    },
+    {
+      "@id": "_:N460e0a4fb9874fa0b6cb88616a534100",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1481"
+      },
+      "sc:name": "Structure alignment (protein)"
+    },
+    {
+      "@id": "_:N48b89ebd15014b6c9c7cff1ea6a5503a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N3c4cfbb4098b40d08afd6f7b559386fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N4f365552a9ff4f8f958a39e2243f7fd7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1107/S0907444904026460",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

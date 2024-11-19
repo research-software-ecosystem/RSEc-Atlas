@@ -1,0 +1,178 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:virus_genotyping_tools/web/bioafrica.mrc.ac.za",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "tutorial": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 90,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkp455",
+                            "pmcid": "PMC2703899",
+                            "pmid": "19483099",
+                            "ref_count": 28,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                }
+                            ],
+                            "title": "A standardized framework for accurate, high-throughput genotyping of recombinant and non-recombinant viral sequences.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/virus_genotyping_tools",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

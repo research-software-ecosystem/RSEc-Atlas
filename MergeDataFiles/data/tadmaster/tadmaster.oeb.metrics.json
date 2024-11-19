@@ -1,0 +1,163 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tadmaster/cmd/tadmaster.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s12859-022-05020-2",
+                            "pmcid": "PMC9636664",
+                            "pmid": "36333787",
+                            "ref_count": 2,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "TADMaster: a comprehensive web-based tool for the analysis of topologically associated domains.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://biomlearn.uccs.edu/TADMaster"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://biomlearn.uccs.edu/TADMaster/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tadmaster/web/tadmaster.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s12859-022-05020-2",
+                            "pmcid": "PMC9636664",
+                            "pmid": "36333787",
+                            "ref_count": 2,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "TADMaster: a comprehensive web-based tool for the analysis of topologically associated domains.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://biomlearn.uccs.edu/TADMaster"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://biomlearn.uccs.edu/TADMaster/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/tadmaster",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://biomlearn.uccs.edu/TADMaster"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://biomlearn.uccs.edu/TADMaster/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

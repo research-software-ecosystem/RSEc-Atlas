@@ -1,0 +1,52 @@
+about:
+  description: 'A collection of utilities to work with FASTX (FASTA or FASTQ) files
+
+    that accept gzipped input.
+
+    Tools to interleave and deinterleave, to calculate stats, and extract
+
+    portions of sequence datasets.
+
+    '
+  docs: https://telatin.github.io/seqfu2
+  home: https://github.com/telatin/seqfu2/
+  license: GPL-3.0-only
+  license_file: LICENSE
+  summary: DNA sequence utilities
+build:
+  number: 0
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:seqfu
+  - doi:10.3390/bioengineering8050059
+  recipe-maintainers:
+  - telatin
+package:
+  name: seqfu
+  version: 1.22.3
+requirements:
+  build:
+  - None
+  - None
+  - nim >=2.0.0
+  - make
+  - zlib
+  host:
+  - zlib
+  - pcre
+  run:
+  - zlib
+  - pcre
+source:
+  sha256: 65c1090cafe0e760e68d15d450bccfd57c0a03d553fdabca26e2191f566fef62
+  url: https://github.com/telatin/seqfu2/archive/refs/tags/v1.22.3.tar.gz
+test:
+  commands:
+  - seqfu
+  - seqfu stats --help
+  - seqfu --version
+  - seqfu --version | grep '1.22.3'

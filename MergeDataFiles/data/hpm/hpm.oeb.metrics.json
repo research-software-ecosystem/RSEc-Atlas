@@ -1,0 +1,152 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hpm/cmd/www.cs.helsinki.fi",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 172,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2006"
+                                }
+                            ],
+                            "doi": "10.1126/science.1090010",
+                            "pmid": "15073379",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Characterization of a common susceptibility locus for asthma-related traits.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.cs.helsinki.fi/group/genetics/hpm.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/hpm",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.cs.helsinki.fi/group/genetics/hpm.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

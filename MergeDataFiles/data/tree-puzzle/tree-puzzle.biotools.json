@@ -1,0 +1,121 @@
+{
+    "additionDate": "2017-04-21T12:12:53Z",
+    "biotoolsCURIE": "biotools:tree-puzzle",
+    "biotoolsID": "tree-puzzle",
+    "credit": [
+        {
+            "email": "arndt.von.haeseler@univie.ac.at",
+            "name": "Arndt von Haeseler",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "heiko.schmidt@univie.ac.at",
+            "name": "Heiko A. Schmidt",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Tree-puzzle is a program that constructs phylogenetic trees from sequence alignments using the maximum likelihood method.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.tree-puzzle.de/#description"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree generation",
+                    "uri": "http://edamontology.org/operation_0323"
+                },
+                {
+                    "term": "Phylogenetic tree generation (maximum likelihood and Bayesian methods)",
+                    "uri": "http://edamontology.org/operation_0547"
+                },
+                {
+                    "term": "Phylogenetic tree generation (parsimony methods)",
+                    "uri": "http://edamontology.org/operation_0545"
+                },
+                {
+                    "term": "Phylogenetic tree generation (quartet methods)",
+                    "uri": "http://edamontology.org/operation_0548"
+                },
+                {
+                    "term": "Tree-based sequence alignment",
+                    "uri": "http://edamontology.org/operation_0499"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.tree-puzzle.de/",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2018-12-10T12:58:53Z",
+    "name": "TREE-PUZZLE",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "TREE-PUZZLE is a program package for quartet-based maximum-likelihood phylogenetic analysis (formerly PUZZLE, Strimmer and von Haeseler, Mol. Biol. Evol., 13, 964-969, 1996) that provides methods for reconstruction, comparison, and testing of trees and models on DNA as well as protein sequences. To reduce waiting time for larger datasets the tree reconstruction part of the software has been parallelized using message passing that runs on clusters of workstations as well as parallel computers.",
+                "authors": [
+                    {
+                        "name": "Schmidt H.A."
+                    },
+                    {
+                        "name": "Strimmer K."
+                    },
+                    {
+                        "name": "Vingron M."
+                    },
+                    {
+                        "name": "Von Haeseler A."
+                    }
+                ],
+                "citationCount": 2113,
+                "date": "2002-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "TREE-PUZZLE: Maximum likelihood phylogenetic analysis using quartets and parallel computing"
+            },
+            "pmid": "11934758"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

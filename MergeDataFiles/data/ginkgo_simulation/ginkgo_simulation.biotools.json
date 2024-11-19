@@ -1,0 +1,93 @@
+{
+    "additionDate": "2017-08-03T18:45:30Z",
+    "biotoolsCURIE": "biotools:ginkgo_simulation",
+    "biotoolsID": "ginkgo_simulation",
+    "credit": [
+        {
+            "email": "jeet@ku.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Agent-based forward-time simulation to produce gene genealogies and incidence (occurrence) data for multiple populations of multiple species in a spatially-explicit and environmentally-heterogenous framework.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://phylo.bio.ku.edu/ginkgo/running.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://phylo.bio.ku.edu/ginkgo/index.html",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:49Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/ginkgo-3-9-0-phylogeographical-evolution-simulator.html"
+        }
+    ],
+    "name": "Ginkgo",
+    "operatingSystem": [
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We present Ginkgo, a software package for agent-based, forward-time simulations of genealogies of multiple unlinked loci from diploid populations. Ginkgo simulates the evolution of one or more species on a spatially explicit landscape of cells. The user of the software can specify the geographical and environmental characteristics of the landscape, and these properties can change according to a prespecified schedule. The geographical elements modelled include the arrangement of cells and movement rates between particular cells. Each species has a function that can calculate a fitness score for any combination of an individual organism's phenotype and environmental characteristics. The user can control the number of fitness factors (the dimensionality of the cell-specific fitness factors and the individuals phenotypic vectors) and the weighting of each of these dimensions in the fitness calculation. Cell-specific fitness trait optima can be specified across the landscape to mimic differences in habitat. In addition to their differing fitness functions, species can differ in terms of their vagility and fecundity. Genealogies and occurrence data can be produced at any time during the simulation in NEXUS and ESRI Ascii Grid formats, respectively. © 2010 Blackwell Publishing Ltd.",
+                "authors": [
+                    {
+                        "name": "Holder M.T."
+                    },
+                    {
+                        "name": "Sukumaran J."
+                    }
+                ],
+                "citationCount": 1,
+                "date": "2011-03-01T00:00:00Z",
+                "journal": "Molecular Ecology Resources",
+                "title": "Ginkgo: Spatially-explicit simulator of complex phylogeographic histories"
+            },
+            "pmid": "21429145"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

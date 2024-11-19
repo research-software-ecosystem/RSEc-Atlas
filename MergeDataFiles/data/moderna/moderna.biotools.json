@@ -1,0 +1,121 @@
+{
+    "additionDate": "2015-08-03T09:37:02Z",
+    "biotoolsCURIE": "biotools:moderna",
+    "biotoolsID": "moderna",
+    "credit": [
+        {
+            "name": "BioCatalogue",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Documentor"
+            ],
+            "url": "https://www.biocatalogue.org"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://genesilico.pl/moderna/contact/"
+        }
+    ],
+    "description": "Program for comparative modeling of RNA 3D structures.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://genesilico.pl/moderna/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Nucleic acid sequence analysis",
+                    "uri": "http://edamontology.org/operation_2478"
+                },
+                {
+                    "term": "Nucleic acid structure analysis",
+                    "uri": "http://edamontology.org/operation_2481"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genesilico.pl/moderna/",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "license": "GPL-1.0",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://www.biocatalogue.org/services/2133"
+        }
+    ],
+    "name": "ModeRNA",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioCatalogue",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btr400",
+            "metadata": {
+                "abstract": "The diverse functional roles of non-coding RNA molecules are determined by their underlying structure. ModeRNA server is an online tool for RNA 3D structure modeling by the comparative approach, based on a template RNA structure and a user-dened target-template sequence alignment. It offers an option to search for potential templates, given the target sequence. The server also provides tools for analyzing, editing and formatting of RNA structure les. It facilitates the use of the ModeRNA software and offers new options in comparison to the standalone program. © The Author 2011. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Bujnicki J.M."
+                    },
+                    {
+                        "name": "Jeleniewicz J."
+                    },
+                    {
+                        "name": "Milanowska K."
+                    },
+                    {
+                        "name": "Puton T."
+                    },
+                    {
+                        "name": "Rother K."
+                    },
+                    {
+                        "name": "Rother M."
+                    }
+                ],
+                "citationCount": 35,
+                "date": "2011-09-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "ModeRNA server: An online tool for modeling RNA 3D structures"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web service"
+    ],
+    "topic": [
+        {
+            "term": "Nucleic acid structure analysis",
+            "uri": "http://edamontology.org/topic_0097"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "additionDate": "2017-12-18T00:10:49Z",
+    "biotoolsCURIE": "biotools:pconsfold",
+    "biotoolsID": "pconsfold",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://bioinfo.se/"
+        }
+    ],
+    "description": "Pipeline for protein folding using predicted contacts from PconsC and a Rosetta folding protocol.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/ElofssonLab/pcons-fold"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein structure prediction",
+                    "uri": "http://edamontology.org/operation_0474"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/ElofssonLab/pcons-fold",
+    "language": [
+        "MATLAB",
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/pconsfold-v1-0-pipeline-for-protein-folding-using-pconsc-and-rosetta.html"
+        }
+    ],
+    "name": "PconsFold",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btu458",
+            "metadata": {
+                "abstract": "Motivation: Recently it has been shown that the quality of protein contact prediction from evolutionary information can be improved significantly if direct and indirect information is separated. Given sufficiently large protein families, the contact predictions contain sufficient information to predict the structure of many protein families. However, since the first studies contact prediction methods have improved. Here, we ask how much the final models are improved if improved contact predictions are used. Results: In a small benchmark of 15 proteins, we show that the TMscores of top-ranked models are improved by on average 33% using PconsFold compared with the original version of EVfold. In a larger benchmark, we find that the quality is improved with 15-30% when using PconsC in comparison with earlier contact prediction methods. Further, using Rosetta instead of CNS does not significantly improve global model accuracy, but the chemistry of models generated with Rosetta is improved. © The Author 2014. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Elofsson A."
+                    },
+                    {
+                        "name": "Hayat S."
+                    },
+                    {
+                        "name": "Marks D.S."
+                    },
+                    {
+                        "name": "Michel M."
+                    },
+                    {
+                        "name": "Sander C."
+                    },
+                    {
+                        "name": "Skwark M.J."
+                    }
+                ],
+                "citationCount": 72,
+                "date": "2014-09-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "PconsFold: Improved contact predictions improve protein models"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Protein folding, stability and design",
+            "uri": "http://edamontology.org/topic_0130"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "v1.0"
+    ]
+}

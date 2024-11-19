@@ -1,0 +1,103 @@
+{
+    "additionDate": "2018-08-06T15:10:45Z",
+    "biotoolsCURIE": "biotools:sigtree",
+    "biotoolsID": "sigtree",
+    "credit": [
+        {
+            "email": "john.r.stevens@usu.edu",
+            "name": "John R. Stevens",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Provides tools to identify and visualize branches in a phylogenetic tree that are significantly responsive to some intervention, taking as primary inputs a phylogenetic tree (of class phylo) and a data frame (or matrix) of corresponding tip (OTU) labels and p-values.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://cran.r-project.org/web/packages/SigTree/SigTree.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://cran.r-project.org/web/packages/SigTree/index.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:59:01Z",
+    "license": "GPL-3.0",
+    "name": "SigTree",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "d.gabrielaitis",
+    "publication": [
+        {
+            "doi": "10.1016/j.csbj.2017.06.002",
+            "metadata": {
+                "abstract": "© 2017 The AuthorsMicrobial community analysis experiments to assess the effect of a treatment intervention (or environmental change) on the relative abundance levels of multiple related microbial species (or operational taxonomic units) simultaneously using high throughput genomics are becoming increasingly common. Within the framework of the evolutionary phylogeny of all species considered in the experiment, this translates to a statistical need to identify the phylogenetic branches that exhibit a significant consensus response (in terms of operational taxonomic unit abundance) to the intervention. We present the R software package SigTree, a collection of flexible tools that make use of meta-analysis methods and regular expressions to identify and visualize significantly responsive branches in a phylogenetic tree, while appropriately adjusting for multiple comparisons.",
+                "authors": [
+                    {
+                        "name": "Ganesan B."
+                    },
+                    {
+                        "name": "Jones T.R."
+                    },
+                    {
+                        "name": "Lefevre M."
+                    },
+                    {
+                        "name": "Stevens J.R."
+                    },
+                    {
+                        "name": "Weimer B.C."
+                    }
+                ],
+                "citationCount": 3,
+                "date": "2017-01-01T00:00:00Z",
+                "journal": "Computational and Structural Biotechnology Journal",
+                "title": "SigTree: A Microbial Community Analysis Tool to Identify and Visualize Significantly Responsive Branches in a Phylogenetic Tree"
+            },
+            "pmcid": "PMC5512180",
+            "pmid": "28748045"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Microbial ecology",
+            "uri": "http://edamontology.org/topic_3697"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Population genetics",
+            "uri": "http://edamontology.org/topic_3056"
+        }
+    ],
+    "validated": 1
+}

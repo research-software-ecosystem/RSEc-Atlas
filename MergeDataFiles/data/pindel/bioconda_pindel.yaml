@@ -1,0 +1,38 @@
+about:
+  home: http://gmt.genome.wustl.edu/packages/pindel/index.html
+  license: GPLv3
+  summary: Pindel can detect breakpoints of large deletions, medium sized insertions,
+    inversions, tandem duplications and other structural variants at single-based
+    resolution from next-gen sequence data
+build:
+  number: 11
+  run_exports:
+  - None
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:pindel
+package:
+  name: pindel
+  version: 0.2.5b9
+requirements:
+  build:
+  - None
+  - make
+  host:
+  - htslib
+  - zlib
+  run:
+  - htslib
+source:
+  patches:
+  - 0001-fix-abs-from-unsigned-substraction.patch
+  - htslib16.diff
+  sha256: d626260986270efce5a947d03785781c8fddfc922f41279cf9d4bd504c4e3690
+  url: https://github.com/genome/pindel/archive/b706fba.tar.gz
+test:
+  commands:
+  - pindel -h 2>&1 | grep "Pindel version"
+  - 'pindel2vcf  --help | grep Example:'

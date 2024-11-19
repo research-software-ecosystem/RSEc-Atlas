@@ -1,0 +1,91 @@
+{
+    "additionDate": "2017-08-03T18:57:07Z",
+    "biotoolsCURIE": "biotools:query_win",
+    "biotoolsID": "query_win",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://pbil.univ-lyon1.fr/members/mgouy/manolo.html"
+        }
+    ],
+    "description": "Retrieval program with a graphical user interface for ACNUC databases . It can query any ACNUC database, e.g., for nucleotide of protein sequences.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://pbil.univ-lyon1.fr/software/doclogi/docacnuc/acnucwin/acnwian/aquerywin.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://pbil.univ-lyon1.fr/software/query_win.html",
+    "lastUpdate": "2018-12-10T12:58:43Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/query_win-retrieval-program-graphical-user-interface-acnuc-databases.html"
+        }
+    ],
+    "name": "QUERY_WIN",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The ACNUC biological sequence database system provides powerful and fast query and extraction capabilities to a variety of nucleotide and protein sequence databases. The collection of ACNUC databases served by the Pôle Bio-Informatique Lyonnais includes the EMBL, GenBank, RefSeq and UniProt nucleotide and protein sequence databases and a series of other sequence databases that support comparative genomics analyses: HOVERGEN and HOGENOM containing families of homologous protein-coding genes from vertebrate and prokaryotic genomes, respectively; Ensembl and Genome Reviews for analyses of prokaryotic and of selected eukaryotic genomes. This report describes the main features of the ACNUC system and the access to ACNUC databases from any internet-connected computer. Such access was made possible by the definition of a remote ACNUC access protocol and the implementation of Application Programming Interfaces between the C, Python and R languages and this communication protocol. Two retrieval programs for ACNUC databases, Query_win, with a graphical user interface and raa_query, with a command line interface, are also described. Altogether, these bioinformatics tools provide users with either ready-to-use means of querying remote sequence databases through a variety of selection criteria, or a simple way to endow application programs with an extensive access to these databases. Remote access to ACNUC databases is open to all and fully documented (http://pbil.univ-lyon1.fr/databases/acnuc/acnuc.html). © 2007 Elsevier Masson SAS. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Delmotte S."
+                    },
+                    {
+                        "name": "Gouy M."
+                    }
+                ],
+                "citationCount": 25,
+                "date": "2008-04-01T00:00:00Z",
+                "journal": "Biochimie",
+                "title": "Remote access to ACNUC nucleotide and protein sequence databases at PBIL"
+            },
+            "pmid": "17825976"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Nucleic acids",
+            "uri": "http://edamontology.org/topic_0077"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

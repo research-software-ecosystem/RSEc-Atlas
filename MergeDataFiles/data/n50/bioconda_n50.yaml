@@ -1,0 +1,59 @@
+about:
+  description: 'a program to calculate size metrics of a FASTA (or FASTQ) file: minimum,
+    maximum, average length, N50, N75, N90 and the area of the Nx curve (auN).
+
+    Gzipped files are supported as input, and the output can be in compact, csv, tsv,
+    json or screen friendly format.
+
+    '
+  dev_url: https://github.com/quadram-institute-bioscience/seqfu/
+  doc_url: https://github.com/quadram-institute-bioscience/seqfu/wiki/n50
+  home: http://metacpan.org/pod/Proch::N50
+  license: mit
+  summary: calculate N50 from FASTA/FASTQ files, producing both machine and human
+    friendly outputs
+build:
+  noarch: generic
+  number: 0
+extra:
+  identifiers:
+  - biotools:n50
+  - doi:10.3390/bioengineering8050059
+  recipe-maintainers:
+  - telatin
+package:
+  name: n50
+  version: 1.5.8
+requirements:
+  build:
+  - make
+  host:
+  - perl
+  - perl-app-cpanminus
+  - perl-perlio-encoding
+  - perl-file-which
+  - perl-json-pp
+  - perl-fastx-reader >=1.8.0
+  - perl-getopt-long
+  - perl-exporter
+  - perl-text-asciitable
+  - perl-pod-usage
+  run:
+  - perl
+  - perl-perlio-encoding
+  - perl-file-which
+  - perl-getopt-long
+  - perl-json-pp
+  - perl-fastx-reader >=1.8.0
+  - perl-exporter
+  - perl-text-asciitable
+  - perl-pod-usage
+source:
+  sha256: ee720bc4a13689d179adbd3e1aaef16fcfcc85c0773f88a31e8e5c89085243d6
+  url: https://cpan.metacpan.org/authors/id/P/PR/PROCH/Proch-N50-1.5.8.tar.gz
+test:
+  commands:
+  - perl -e "use FASTX::Reader"
+  - perl -e "use Proch::N50"
+  files:
+  - test.fa

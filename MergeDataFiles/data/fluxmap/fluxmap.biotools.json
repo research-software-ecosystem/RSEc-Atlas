@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-08-03T18:43:35Z",
+    "biotoolsCURIE": "biotools:fluxmap",
+    "biotoolsID": "fluxmap",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://immersive-analytics.infotech.monash.edu/vanted/addons/fluxmap/copyright_contact.html"
+        }
+    ],
+    "description": "Easy to use tool for the advanced visualization of simulated or measured flux data in biological networks. Flux data import is achieved via a structured template basing on intuitive reaction equations. Flux data is mapped onto any network and visualized using edge thickness. Various visualization options and interaction possibilities enable comparison and visual analysis of complex experimental setups in an interactive way.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://immersive-analytics.infotech.monash.edu/vanted/addons/fluxmap/download_installation_tutorial.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Pathway or network visualisation",
+                    "uri": "http://edamontology.org/operation_3083"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://immersive-analytics.infotech.monash.edu/vanted/addons/fluxmap/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/fluxmap-1-13-visual-exploration-flux-distributions-biological-networks.html"
+        }
+    ],
+    "name": "FluxMap",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Background: The quantification of metabolic fluxes is gaining increasing importance in the analysis of the metabolic behavior of biological systems such as organisms, tissues or cells. Various methodologies (wetlab or drylab) result in sets of fluxes which require an appropriate visualization for interpretation by scientists. The visualization of flux distributions is a necessary prerequisite for intuitive flux data exploration in the context of metabolic networks.Results: We present FluxMap, a tool for the advanced visualization and exploration of flux data in the context of metabolic networks. The template-based flux data import assigns flux values and optional quality parameters (e. g. the confidence interval) to biochemical reactions. It supports the discrimination between mass and substance fluxes, such as C- or N-fluxes. After import, flux data mapping and network-based visualization allow the interactive exploration of the dataset. Various visualization options enable the user to adapt layout and network representation according to individual purposes.Conclusions: The Vanted add-on FluxMap comprises a comprehensive set of functionalities for visualization and advanced visual exploration of flux distributions in biological networks. It is available as a Java open source tool from http://www.vanted.org/fluxmap. © 2012 Rohn et al.; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Hartmann A."
+                    },
+                    {
+                        "name": "Junker A."
+                    },
+                    {
+                        "name": "Junker B.H."
+                    },
+                    {
+                        "name": "Rohn H."
+                    },
+                    {
+                        "name": "Schreiber F."
+                    }
+                ],
+                "citationCount": 26,
+                "date": "2012-05-01T00:00:00Z",
+                "journal": "BMC Systems Biology",
+                "title": "FluxMap: A VANTED add-on for the visual exploration of flux distributions in biological networks"
+            },
+            "pmid": "22548786"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Systems biology",
+            "uri": "http://edamontology.org/topic_2259"
+        }
+    ],
+    "validated": 1
+}

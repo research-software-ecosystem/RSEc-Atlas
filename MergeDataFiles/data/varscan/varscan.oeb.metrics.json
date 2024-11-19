@@ -1,0 +1,770 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:varscan/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 563,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 46,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 55,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 62,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 69,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 73,
+                                    "year": "2014"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp373",
+                            "pmcid": "PMC2734323",
+                            "pmid": "19542151",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "VarScan: variant detection in massively parallel sequencing of individual and pooled samples.",
+                            "year": 2009
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1612,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 75,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 154,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 158,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 186,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 235,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 247,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 248,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 256,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1101/gr.129684.111",
+                            "pmcid": "PMC3290792",
+                            "pmid": "22300766",
+                            "ref_count": 31,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.4.6/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.3.7/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.4.0/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.4.1/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.4.2/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.4.3/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:varscan:2.4.4/cmd/dkoboldt.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/varscan",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT27295S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:varscan:2.4.2/workflow/toolshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 842,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 67,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 128,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 162,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 193,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 207,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1101/gr.129684.111",
+                            "pmcid": "PMC3290792",
+                            "pmid": "22300766",
+                            "ref_count": 29,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

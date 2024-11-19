@@ -1,0 +1,193 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:worms:1/soap/www.marinespecies.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 72,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0051629",
+                            "pmcid": "PMC3541386",
+                            "pmid": "23505408",
+                            "ref_count": 136,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1785"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "Global coordination and standardisation in marine biodiversity through the World Register of Marine Species (WoRMS) and related databases.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.marinespecies.org/aphia.php?p=webservice"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/worms",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.marinespecies.org/aphia.php?p=webservice"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

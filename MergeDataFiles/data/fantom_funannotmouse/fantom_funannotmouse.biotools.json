@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-04-22T17:35:26Z",
+    "biotoolsCURIE": "biotools:fantom_funannotmouse",
+    "biotoolsID": "fantom_funannotmouse",
+    "credit": [
+        {
+            "email": "fantom-adm@gsc.riken.go.jp",
+            "name": "for inquiry to the FANTOM Administrative Office",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "fantom-adm@gsc.riken.go.jp",
+            "name": "questions or comments on Annotation or FANTOM system",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Functional annotations for RIKEN full-length cDNA clones.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://fantom.gsc.riken.jp/1/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene functional annotation",
+                    "uri": "http://edamontology.org/operation_3672"
+                },
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                },
+                {
+                    "term": "Genome annotation",
+                    "uri": "http://edamontology.org/operation_0362"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.gsc.riken.go.jp/e/FANTOM/",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "FANTOM - Functional Annotation of Mouse",
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The key to reliable annotation of a mammalian genome is broad characterisation of the transcriptional output, the transcriptome. FANTOM, the functional annotation of mouse cDNA, is a large-scale analysis of both the genome and the transcriptome of the mouse. In the early days of this work, the transcripts were characterised using our sophisticated methods. After the timely release of the first draft of mouse genome sequences, interesting information was obtained by its integration with these one-by-one annotations. Moreover, each transcript included its expression profile. Here, the two integrated annotation methods used by FANTOM are reviewed: one-by-one and categorised. One-by-one annotation refers to naming carried out based on well-known transcripts or its fragments using the top-down-style pipeline developed mostly by the FANTOM project. Categorised annotation, which refers to transcript grouping, not only helps naming of unknown transcripts, but will be the most utilised method for integration of the genome and the transcriptome from now on.",
+                "authors": [
+                    {
+                        "name": "Hayashizaki Y."
+                    },
+                    {
+                        "name": "Kanamori M."
+                    },
+                    {
+                        "name": "Katayama S."
+                    }
+                ],
+                "citationCount": 8,
+                "date": "2004-01-01T00:00:00Z",
+                "journal": "Briefings in bioinformatics",
+                "title": "Integrated analysis of the genome and the transcriptome by FANTOM."
+            },
+            "pmid": "15383211"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        },
+        {
+            "term": "Zoology",
+            "uri": "http://edamontology.org/topic_3500"
+        }
+    ],
+    "validated": 1
+}

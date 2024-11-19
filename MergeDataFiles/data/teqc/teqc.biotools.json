@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-01-17T15:03:55Z",
+    "biotoolsCURIE": "biotools:teqc",
+    "biotoolsID": "teqc",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "m.hummel@dkfz.de",
+            "name": "Manuela Hummel",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Target capture experiments combine hybridization-based (in solution or on microarrays) capture and enrichment of genomic regions of interest (e.g. the exome) with high throughput sequencing of the captured DNA fragments. This package provides functionalities for assessing and visualizing the quality of the target enrichment process, like specificity and sensitivity of the capture, per-target read coverage and so on.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/TEQC.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/TEQC_3.14.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Validation",
+                    "uri": "http://edamontology.org/operation_2428"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/TEQC.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "license": "GPL-2.0",
+    "name": "TEQC",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btr122",
+            "metadata": {
+                "abstract": "Summary: TEQC is an R/Bioconductor package for quality assessment of target enrichment experiments. Quality measures comprise specificity and sensitivity of the capture, enrichment, per-target read coverage and its relation to hybridization probe characteristics, coverage uniformity and reproducibility, and read duplicate analysis. Several diagnostic plots allow visual inspection of the data quality. © The Author 2011. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Bonnin S."
+                    },
+                    {
+                        "name": "Hummel M."
+                    },
+                    {
+                        "name": "Lowy E."
+                    },
+                    {
+                        "name": "Roma G."
+                    }
+                ],
+                "citationCount": 22,
+                "date": "2011-05-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "TEQC: An R package for quality control in target capture experiments"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Microarray experiment",
+            "uri": "http://edamontology.org/topic_3518"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "3.14.0"
+    ]
+}

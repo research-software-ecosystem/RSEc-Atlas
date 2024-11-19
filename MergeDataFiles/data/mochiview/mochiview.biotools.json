@@ -1,0 +1,103 @@
+{
+    "additionDate": "2017-01-13T13:15:30Z",
+    "biotoolsCURIE": "biotools:mochiview",
+    "biotoolsID": "mochiview",
+    "credit": [
+        {
+            "email": "ajohnson@cgl.ucsf.edu",
+            "name": "Alexander D. Johnson",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Hybrid genome browser and motif visualization/analysis/management desktop software.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.johnsonlab.ucsf.edu/mochi/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome visualisation",
+                    "uri": "http://edamontology.org/operation_3208"
+                },
+                {
+                    "term": "Sequence motif comparison",
+                    "uri": "http://edamontology.org/operation_0240"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://johnsonlab.ucsf.edu/sj/mochiview-start/",
+    "homepage_status": 1,
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "MochiView",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "doi": "10.1186/1741-7007-8-49",
+            "metadata": {
+                "abstract": "Background: As high-throughput technologies rapidly generate genome-scale data, it becomes increasingly important to visually integrate these data so that specific hypotheses can be formulated and tested.Results: We present MochiView, a platform-independent Java software that integrates browsing of genomic sequences, features, and data with DNA motif visualization and analysis in a visually-appealing and user-friendly application.Conclusions: While highly versatile, the software is particularly useful for organizing, exploring, and analyzing large genomic data sets, such as those from deep RNA sequencing, chromatin immunoprecipitation experiments (ChIP-Seq and ChIP-Chip), and transcriptional profiling. MochiView provides an extensive suite of utilities to identify and to explore connections between these data sets and short sequence motifs present in DNA or RNA. © 2010 Homann and Johnson; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Homann O.R."
+                    },
+                    {
+                        "name": "Johnson A.D."
+                    }
+                ],
+                "citationCount": 99,
+                "date": "2010-04-21T00:00:00Z",
+                "journal": "BMC Biology",
+                "title": "MochiView: Versatile software for genome browsing and DNA motif analysis"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "ChIP-on-chip",
+            "uri": "http://edamontology.org/topic_3179"
+        },
+        {
+            "term": "ChIP-seq",
+            "uri": "http://edamontology.org/topic_3169"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "RNA-Seq",
+            "uri": "http://edamontology.org/topic_3170"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1
+}

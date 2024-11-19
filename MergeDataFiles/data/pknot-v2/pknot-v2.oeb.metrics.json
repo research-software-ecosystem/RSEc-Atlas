@@ -1,0 +1,220 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pknot-v2/web/pknot.life.nctu.edu.tw",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 17,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gks592",
+                            "pmcid": "PMC3394322",
+                            "pmid": "22693223",
+                            "ref_count": 18,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "pKNOT v.2: the protein KNOT web server.",
+                            "year": 2012
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkm304",
+                            "pmcid": "PMC1933195",
+                            "pmid": "17526524",
+                            "ref_count": 21,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "pKNOT: the protein KNOT web server.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pknot-v2",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

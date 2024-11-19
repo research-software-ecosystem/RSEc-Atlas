@@ -1,0 +1,75 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:axon-analysis:1.0.0/lib/www.mathworks.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 4,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1523/jneurosci.1590-19.2019",
+                            "pmcid": "PMC6880463",
+                            "pmid": "31658988",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Tau Misfolding Efficiently Propagates between Individual Intact Hippocampal Neurons.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/axon-analysis",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

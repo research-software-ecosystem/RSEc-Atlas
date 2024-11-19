@@ -1,0 +1,44 @@
+about:
+  home: https://github.com/alexdobin/STAR
+  license: GPLv3
+  license_file: LICENSE
+  summary: An RNA-seq read aligner.
+build:
+  number: 2
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:star
+  - usegalaxy-eu:rna_starsolo
+  - usegalaxy-eu:rna_star
+  recipe-maintainers:
+  - mjsteinbaugh
+package:
+  name: star
+  version: 2.7.11b
+requirements:
+  build:
+  - None
+  - None
+  - make
+  - vim
+  host:
+  - htslib >=1.20
+  - zlib
+  run:
+  - htslib >=1.20
+  - zlib
+source:
+  patches:
+  - patches/0001-do-not-enforce-avx2.patch
+  - patches/0002-donotuse_own_htslib.patch
+  - patches/0003-create-simd-dispatch.patch
+  sha256: 3f65305e4112bd154c7e22b333dcdaafc681f4a895048fa30fa7ae56cac408e7
+  url: https://github.com/alexdobin/STAR/archive/2.7.11b.tar.gz
+test:
+  commands:
+  - STAR --version
+  - STARlong --version

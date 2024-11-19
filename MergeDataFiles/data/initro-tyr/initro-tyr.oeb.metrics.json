@@ -1,0 +1,185 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:initro-tyr/cmd/app.aporc.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 66,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0105018",
+                            "pmcid": "PMC4133382",
+                            "pmid": "25121969",
+                            "ref_count": 87,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "iNitro-Tyr: prediction of nitrotyrosine sites in proteins with general pseudo amino acid composition.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://app.aporc.org/iNitro-Tyr/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/initro-tyr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://app.aporc.org/iNitro-Tyr/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

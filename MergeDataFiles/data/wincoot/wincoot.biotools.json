@@ -1,0 +1,111 @@
+{
+    "additionDate": "2015-02-16T10:06:15Z",
+    "biotoolsCURIE": "biotools:wincoot",
+    "biotoolsID": "wincoot",
+    "collectionID": [
+        "Instruct"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "ccisb@stfc.ac.uk",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Instruct",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Windows version of Coot (Crystallographic Object)-Oriented Toolkit.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ysbl.york.ac.uk/~lohkamp/coot/wincoot.html"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "ELIXIR-EE"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "note": "For macromolecular model building, model completion and validation, particularly suitable for protein modelling using X-ray data. Coot displays maps and models and allows model manipulations such as idealization, real space refinement, manual rotation/translation, rigid-body fitting, ligand search, solvation, mutations, rotamers, Ramachandran plots, skeletonization, non-crystallographic symmetry and more.Interactive model (re)building with numerous tools. Internal validation tools as well as interaction with Molprobity. Download of PDB files and electron density maps.",
+            "operation": [
+                {
+                    "term": "3D profile generation",
+                    "uri": "http://edamontology.org/operation_0297"
+                },
+                {
+                    "term": "Protein modelling",
+                    "uri": "http://edamontology.org/operation_0477"
+                },
+                {
+                    "term": "Structure visualisation",
+                    "uri": "http://edamontology.org/operation_0570"
+                },
+                {
+                    "term": "Validation",
+                    "uri": "http://edamontology.org/operation_2428"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ysbl.york.ac.uk/~lohkamp/coot/wincoot.html",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "WinCoot",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "owner": "EMD",
+    "publication": [
+        {
+            "doi": "10.1107/S0907444904019158",
+            "metadata": {
+                "abstract": "CCP4mg is a project that aims to provide a general-purpose tool for structural biologists, providing tools for X-ray structure solution, structure comparison and analysis, and publication-quality graphics. The map-fitting tools are available as a stand-alone package, distributed as 'Coot'. © 2004 International Union of Crystallography - all rights reserved.",
+                "authors": [
+                    {
+                        "name": "Cowtan K."
+                    },
+                    {
+                        "name": "Emsley P."
+                    }
+                ],
+                "citationCount": 21119,
+                "date": "2004-12-01T00:00:00Z",
+                "journal": "Acta Crystallographica Section D: Biological Crystallography",
+                "title": "Coot: Model-building tools for molecular graphics"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Workbench"
+    ],
+    "topic": [
+        {
+            "term": "Structural biology",
+            "uri": "http://edamontology.org/topic_1317"
+        },
+        {
+            "term": "X-ray diffraction",
+            "uri": "http://edamontology.org/topic_2828"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "additionDate": "2017-09-29T02:59:31Z",
+    "biotoolsCURIE": "biotools:contourv1",
+    "biotoolsID": "contourv1",
+    "credit": [
+        {
+            "email": "s.srihari@uq.edu.au",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Sriganesh Srihari"
+        }
+    ],
+    "description": "Systematic tracking of dysregulated modules identifies novel genes in cancer.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://sites.google.com/site/contourv1/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Prediction and recognition",
+                    "uri": "http://edamontology.org/operation_2423"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://sites.google.com/site/contourv1/",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "CONTOURv1",
+    "owner": "sriganeshms",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: Deciphering the modus operandi of dysregulated cellular mechanisms in cancer is critical to implicate novel cancer genes and develop effective anti-cancer therapies. Fundamental to this is meticulous tracking of the behavior of core modules, including complexes and pathways across specific conditions in cancer.Results: Here, we performed a straightforward yet systematic identification and comparison of modules across pancreatic normal and cancer tissue conditions by integrating PPI, gene-expression and mutation data. Our analysis revealed interesting change-patterns in gene composition and expression correlation particularly affecting modules responsible for genome stability. Although in most cases these changes indicated impairment of essential functions (e.g. of DNA damage repair), in several other cases we noticed strengthening of modules possibly abetting cancer. Some of these compensatory modules showed switches in transcription regulation and recruitment of tumor inducers (e.g. SOX2 through overexpression). In-depth analysis revealed novel genes in pancreatic cancer, which showed susceptibility to copy-number alterations (e.g. for USP15 in 17 of 67 cases), supported by literature evidence for their involvement in other tumors (e.g. USP15 in glioblastoma). Two of the identified genes, YWHAE and DISC1, further supported the nexus between neural genes and pancreatic carcinogenesis. Extension of this assessment to BRCA1 and BRCA2 breast tumors showed specific differences even across the two sub-types and revealed novel genes involved therein (e.g. TRIM5 and NCOA6). © 2012 The Author.",
+                "authors": [
+                    {
+                        "name": "Ragan M.A."
+                    },
+                    {
+                        "name": "Srihari S."
+                    }
+                ],
+                "citationCount": 48,
+                "date": "2013-06-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Systematic tracking of dysregulated modules identifies novel genes in cancer"
+            },
+            "pmid": "23613489"
+        }
+    ],
+    "toolType": [
+        "Script"
+    ],
+    "topic": [
+        {
+            "term": "Computational biology",
+            "uri": "http://edamontology.org/topic_3307"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "v1"
+    ]
+}

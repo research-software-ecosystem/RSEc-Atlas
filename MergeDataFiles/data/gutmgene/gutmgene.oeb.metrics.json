@@ -1,0 +1,163 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gutmgene/db/bio-annotation.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkab786",
+                            "pmcid": "PMC8728193",
+                            "pmid": "34500458",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "gutMGene: a comprehensive database for target genes of gut microbes and microbial metabolites.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio-computing.hrbmu.edu.cn/gutmgene"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://bio-computing.hrbmu.edu.cn/gutmgene/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gutmgene/web/bio-annotation.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkab786",
+                            "pmcid": "PMC8728193",
+                            "pmid": "34500458",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "gutMGene: a comprehensive database for target genes of gut microbes and microbial metabolites.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio-computing.hrbmu.edu.cn/gutmgene"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://bio-computing.hrbmu.edu.cn/gutmgene/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gutmgene",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio-computing.hrbmu.edu.cn/gutmgene"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://bio-computing.hrbmu.edu.cn/gutmgene/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

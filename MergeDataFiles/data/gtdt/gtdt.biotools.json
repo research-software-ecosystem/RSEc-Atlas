@@ -1,0 +1,119 @@
+{
+    "additionDate": "2017-08-03T19:05:54Z",
+    "biotoolsCURIE": "biotools:gtdt",
+    "biotoolsID": "gtdt",
+    "credit": [
+        {
+            "email": "bingshan.li@vanderbilt.edu",
+            "name": "Bingshan Li",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www.vumc.org/cgg/contact"
+        }
+    ],
+    "description": "Implemented gene-based or group-wise TDT for rare variant aggregation analysis. Currently gTDT implemented haplotype-based tests for 6 models, M1-M6. It takes as input a ped file and a dat file that specify the relationships, and a VCF file that stores genotype data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://genome.sph.umich.edu/wiki/GTDT#Introduction"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Aggregation",
+                    "uri": "http://edamontology.org/operation_3436"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genome.sph.umich.edu/wiki/GTDT",
+    "lastUpdate": "2018-12-10T12:58:43Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/gtdt-0-01-a-group-wise-tdt-for-haplotype-based-association-testing-of-rare-variants-with-complex-disease.html"
+        }
+    ],
+    "name": "gTDT",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 The Author. Published by Oxford University Press.Motivation: A major focus of current sequencing studies for human genetics is to identify rare variants associated with complex diseases. Aside from reduced power of detecting associated rare variants, controlling for population stratification is particularly challenging for rare variants. Transmission/disequilibrium tests (TDT) based on family designs are robust to population stratification and admixture, and therefore provide an effective approach to rare variant association studies to eliminate spurious associations. To increase power of rare variant association analysis, gene-based collapsing methods become standard approaches for analyzing rare variants. Existing methods that extend this strategy to rare variants in families usually combine TDT statistics at individual variants and therefore lack the flexibility of incorporating other genetic models. Results: In this study, we describe a haplotype-based framework for group-wise TDT (gTDT) that is flexible to encompass a variety of genetic models such as additive, dominant and compound heterozygous (CH) (i.e. recessive) models as well as other complex interactions. Unlike existing methods, gTDT constructs haplotypes by transmission when possible and inherently takes into account the linkage disequilibrium among variants. Through extensive simulations we showed that type I error was correctly controlled for rare variants under all models investigated, and this remained true in the presence of population stratification. Under a variety of genetic models, gTDT showed increased power compared with the single marker TDT. Application of gTDT to an autism exome sequencing data of 118 trios identified potentially interesting candidate genes with CH rare variants.",
+                "authors": [
+                    {
+                        "name": "Chen R."
+                    },
+                    {
+                        "name": "Chen W."
+                    },
+                    {
+                        "name": "Cook E.H."
+                    },
+                    {
+                        "name": "Cox N.J."
+                    },
+                    {
+                        "name": "Li B."
+                    },
+                    {
+                        "name": "Li C."
+                    },
+                    {
+                        "name": "Sutcliffe J.S."
+                    },
+                    {
+                        "name": "Wei Q."
+                    },
+                    {
+                        "name": "Zhan X."
+                    },
+                    {
+                        "name": "Zhong X."
+                    }
+                ],
+                "citationCount": 8,
+                "date": "2015-05-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "A haplotype-based framework for group-wise transmission/disequilibrium tests for rare variant association analysis"
+            },
+            "pmid": "25568282"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Human genetics",
+            "uri": "http://edamontology.org/topic_3574"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        },
+        {
+            "term": "Population genetics",
+            "uri": "http://edamontology.org/topic_3056"
+        }
+    ],
+    "validated": 1
+}

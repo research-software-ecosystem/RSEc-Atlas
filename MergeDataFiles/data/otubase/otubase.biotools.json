@@ -1,0 +1,103 @@
+{
+    "additionDate": "2017-01-17T15:01:34Z",
+    "biotoolsCURIE": "biotools:otubase",
+    "biotoolsID": "otubase",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "danlbek@gmail.com",
+            "name": "Daniel Beck",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Provides a platform for Operational Taxonomic Unit based analysis.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/OTUbase.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/OTUbase_1.24.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/OTUbase.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "license": "Artistic-2.0",
+    "name": "OTUbase",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btr196",
+            "metadata": {
+                "abstract": "OTUbase is an R package designed to facilitate the analysis of operational taxonomic unit (OTU) data and sequence classification (taxonomic) data. Currently there are programs that will cluster sequence data into OTUs and/or classify sequence data into known taxonomies. However, there is a need for software that can take the summarized output of these programs and organize it into easily accessed and manipulated formats. OTUbase provides this structure and organization within R, to allow researchers to easily manipulate the data with the rich library of R packages currently available for additional analysis. © The Author 2011. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Beck D."
+                    },
+                    {
+                        "name": "Foster J.A."
+                    },
+                    {
+                        "name": "Settles M."
+                    }
+                ],
+                "citationCount": 11,
+                "date": "2011-06-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "OTUbase: An R infrastructure package for operational taxonomic unit data"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Data architecture, analysis and design",
+            "uri": "http://edamontology.org/topic_3365"
+        },
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.24.0"
+    ]
+}

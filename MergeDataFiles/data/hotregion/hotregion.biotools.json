@@ -1,0 +1,107 @@
+{
+    "additionDate": "2017-03-30T23:00:44Z",
+    "biotoolsCURIE": "biotools:hotregion",
+    "biotoolsID": "hotregion",
+    "credit": [
+        {
+            "email": "ecukuroglu@ku.edu.tr",
+            "name": "Engin Cukuroglu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Database of predicted hot spot clusters. Hot spots are energetically important residues at protein interfaces, clustered across the interface. HotRegion provides the hot region information of the interfaces by using predicted hot spot resides, and structural properties.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://prism.ccbb.ku.edu.tr/hotregion/tutorial.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Clustering",
+                    "uri": "http://edamontology.org/operation_3432"
+                },
+                {
+                    "term": "Molecular surface calculation",
+                    "uri": "http://edamontology.org/operation_0387"
+                },
+                {
+                    "term": "Protein binding site prediction",
+                    "uri": "http://edamontology.org/operation_2575"
+                },
+                {
+                    "term": "Residue interaction prediction",
+                    "uri": "http://edamontology.org/operation_0272"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://prism.ccbb.ku.edu.tr/hotregion/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "HotRegion",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Hot spots are energetically important residues at protein interfaces and they are not randomly distributed across the interface but rather clustered. These clustered hot spots form hot regions. Hot regions are important for the stability of protein complexes, as well as providing specificity to binding sites. We propose a database called HotRegion, which provides the hot region information of the interfaces by using predicted hot spot residues, and structural properties of these interface residues such as pair potentials of interface residues, accessible surface area (ASA) and relative ASA values of interface residues of both monomer and complex forms of proteins. Also, the 3D visualization of the interface and interactions among hot spot residues are provided. HotRegion is accessible at http://prism.ccbb.ku.edu.tr/hotregion. © The Author(s) 2011.",
+                "authors": [
+                    {
+                        "name": "Cukuroglu E."
+                    },
+                    {
+                        "name": "Gursoy A."
+                    },
+                    {
+                        "name": "Keskin O."
+                    }
+                ],
+                "citationCount": 75,
+                "date": "2012-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "HotRegion: A database of predicted hot spot clusters"
+            },
+            "pmid": "22080558"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Protein binding sites",
+            "uri": "http://edamontology.org/topic_3534"
+        },
+        {
+            "term": "Protein folding, stability and design",
+            "uri": "http://edamontology.org/topic_0130"
+        },
+        {
+            "term": "Protein structural motifs and surfaces",
+            "uri": "http://edamontology.org/topic_0166"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

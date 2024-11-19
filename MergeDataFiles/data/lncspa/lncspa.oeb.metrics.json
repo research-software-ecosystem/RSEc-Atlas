@@ -1,0 +1,165 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lncspa/db/bio-bigdata.hrbmu.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1158/0008-5472.can-19-2687",
+                            "pmid": "32193291",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "LncSpA: LncRNA Spatial Atlas of Expression across Normal and Cancer Tissues.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://bio-bigdata.hrbmu.edu.cn/LncSpA/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lncspa/soap/bio-bigdata.hrbmu.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1158/0008-5472.can-19-2687",
+                            "pmid": "32193291",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "LncSpA: LncRNA Spatial Atlas of Expression across Normal and Cancer Tissues.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://bio-bigdata.hrbmu.edu.cn/LncSpA/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/lncspa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://bio-bigdata.hrbmu.edu.cn/LncSpA/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

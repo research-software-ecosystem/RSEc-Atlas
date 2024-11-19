@@ -1,0 +1,171 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cansarchem/web/cansar.icr.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s13321-022-00606-7",
+                            "pmcid": "PMC9148294",
+                            "pmid": "35643512",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "canSAR chemistry registration and standardization pipeline.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cansar.icr.ac.uk/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cansarblack.icr.ac.uk"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cansar.ai/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cansarchem/workflow/cansar.icr.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s13321-022-00606-7",
+                            "pmcid": "PMC9148294",
+                            "pmid": "35643512",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "canSAR chemistry registration and standardization pipeline.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cansar.icr.ac.uk/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cansarblack.icr.ac.uk"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cansar.ai/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cansarchem",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cansar.icr.ac.uk/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cansarblack.icr.ac.uk"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cansar.ai/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

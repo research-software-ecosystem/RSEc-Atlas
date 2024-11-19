@@ -1,0 +1,139 @@
+{
+    "additionDate": "2016-05-17T10:18:06Z",
+    "biotoolsCURIE": "biotools:phenetic",
+    "biotoolsID": "phenetic",
+    "collectionID": [
+        "BIG N2N",
+        "UGent"
+    ],
+    "credit": [
+        {
+            "email": "kathleen.marchal@intec.ugent.be",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "ugent.be",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Infer the molecular mechanism driving your expression phenotype.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://bioinformatics.intec.ugent.be/phenetic/index.html#/info"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Gene ID",
+                        "uri": "http://edamontology.org/data_2295"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Gene expression data",
+                        "uri": "http://edamontology.org/data_2603"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Pathway or network",
+                        "uri": "http://edamontology.org/data_2600"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Gene to pathway mapping",
+                    "uri": "http://edamontology.org/operation_0533"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Gene report",
+                        "uri": "http://edamontology.org/data_0916"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Pathway or network",
+                        "uri": "http://edamontology.org/data_2600"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioinformatics.intec.ugent.be/phenetic/#/index",
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "name": "PheNetic",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "Katrijn.Vannerum@ugent.be",
+    "publication": [
+        {
+            "doi": "10.1039/c3mb25551d",
+            "metadata": {
+                "abstract": "At the present time, omics experiments are commonly used in wet lab practice to identify leads involved in interesting phenotypes. These omics experiments often result in unstructured gene lists, the interpretation of which in terms of pathways or the mode of action is challenging. To aid in the interpretation of such gene lists, we developed PheNetic, a decision theoretic method that exploits publicly available information, captured in a comprehensive interaction network to obtain a mechanistic view of the listed genes. PheNetic selects from an interaction network the sub-networks highlighted by these gene lists. We applied PheNetic to an Escherichia coli interaction network to reanalyse a previously published KO compendium, assessing gene expression of 27 E. coli knock-out mutants under mild acidic conditions. Being able to unveil previously described mechanisms involved in acid resistance demonstrated both the performance of our method and the added value of our integrated E. coli network. PheNetic is available at http://bioi.biw.kuleuven.be/~driesdm/phenetic/ . © The Royal Society of Chemistry 2013.",
+                "authors": [
+                    {
+                        "name": "Cloots L."
+                    },
+                    {
+                        "name": "De Maeyer D."
+                    },
+                    {
+                        "name": "De Raedt L."
+                    },
+                    {
+                        "name": "Marchal K."
+                    },
+                    {
+                        "name": "Renkens J."
+                    }
+                ],
+                "citationCount": 23,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Molecular BioSystems",
+                "title": "PheNetic: Network-based interpretation of unstructured gene lists in E. coli"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

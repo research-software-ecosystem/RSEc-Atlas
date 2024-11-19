@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-08-03T18:57:52Z",
+    "biotoolsCURIE": "biotools:rna-express",
+    "biotoolsID": "rna-express",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://rnaexpress.erc.monash.edu.au/contactus.php"
+        }
+    ],
+    "description": "A user friendly solution to extract and annotate biologically important transcripts from next generation RNA sequencing data. This approach complements existing gene annotation databases by ensuring all transcripts present in the sample are considered for further analysis.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://rnaexpress.erc.monash.edu.au/documentation.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "RNA-Seq analysis",
+                    "uri": "http://edamontology.org/operation_3680"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.rnaexpress.org/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/rna-express-1-4-2-extract-annotate-transcripts-generation-rna-sequencing-data.html"
+        }
+    ],
+    "name": "RNA-eXpress",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Next-generation sequencing is rapidly becoming the approach of choice for transcriptional analysis experiments. Substantial advances have been achieved in computational approaches to support these technologies. These approaches typically rely on existing transcript annotations, introducing a bias towards known genes, require specific experimental design and computational resources, or focus only on identification of splice variants (ignoring other biologically relevant transcribed features contained within the data that may be important for downstream analysis). Biologically relevant transcribed features also include large and small non-coding RNA, new transcription start sites, alternative promoters, RNA editing and processing of coding transcripts. Also, many existing solutions lack accessible interfaces required for wide scale adoption. We present a user-friendly, rapid and computation-efficient feature annotation framework (RNA-eXpress) that enables identification of transcripts and other genomic and transcriptional features independently of current annotations. RNA-eXpress accepts mapped reads in the standard binary alignment (BAM) format and produces a study-specific feature annotation in GTF format, comparison statistics, sequence extraction and feature counts. The framework is designed to be easily accessible while allowing advanced users to integrate new feature-identification algorithms through simple class extension, thus facilitating expansion to novel feature types or identification of study-specific feature types. © The Author 2013.",
+                "authors": [
+                    {
+                        "name": "Finkel A.M."
+                    },
+                    {
+                        "name": "Forster S.C."
+                    },
+                    {
+                        "name": "Gould J.A."
+                    },
+                    {
+                        "name": "Hertzog P.J."
+                    }
+                ],
+                "citationCount": 16,
+                "date": "2013-03-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "RNA-eXpress annotates novel transcript features in RNA-seq data"
+            },
+            "pmid": "23396121"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "RNA-Seq",
+            "uri": "http://edamontology.org/topic_3170"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

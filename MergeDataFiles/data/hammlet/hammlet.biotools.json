@@ -1,0 +1,105 @@
+{
+    "additionDate": "2017-08-03T18:46:14Z",
+    "biotoolsCURIE": "biotools:hammlet",
+    "biotoolsID": "hammlet",
+    "credit": [
+        {
+            "email": "john.wiedenhoeft@cs.rutgers.edu",
+            "name": "John Wiedenhoeft",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://bioinformatics.rutgers.edu/"
+        }
+    ],
+    "description": "Fast Forward-Backward Gibbs sampler for Bayesian inference on Hidden Markov Models (HMM). It uses the Haar wavelet transform to dynamically compress the data based on the current variance sample in each iteration.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://wiedenhoeft.github.io/HaMMLET/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data handling",
+                    "uri": "http://edamontology.org/operation_2409"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Statistical modelling",
+                    "uri": "http://edamontology.org/operation_3664"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioinformatics.rutgers.edu/Software/HaMMLET/",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/hammlet-fast-bayesian-hidden-markov-model-with-wavelet-compression.html"
+        }
+    ],
+    "name": "HaMMLET",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2016 Wiedenhoeft et al.By integrating Haar wavelets with Hidden Markov Models, we achieve drastically reduced running times for Bayesian inference using Forward-Backward Gibbs sampling. We show that this improves detection of genomic copy number variants (CNV) in array CGH experiments compared to the state-of-the-art, including standard Gibbs sampling. The method concentrates computational effort on chromosomal segments which are difficult to call, by dynamically and adaptively recomputing consecutive blocks of observations likely to share a copy number. This makes routine diagnostic use and re-analysis of legacy data collections feasible; to this end, we also propose an effective automatic prior. An open source software implementation of our method is available at http://schlieplab.org/Software/HaMMLET/ (DOI: 10.5281/zenodo.46262). This paper was selected for oral presentation at RECOMB 2016, and an abstract is published in the conference proceedings.",
+                "authors": [
+                    {
+                        "name": "Brugel E."
+                    },
+                    {
+                        "name": "Schliep A."
+                    },
+                    {
+                        "name": "Wiedenhoeft J."
+                    }
+                ],
+                "citationCount": 4,
+                "date": "2016-05-01T00:00:00Z",
+                "journal": "PLoS Computational Biology",
+                "title": "Fast Bayesian Inference of Copy Number Variants using Hidden Markov Models with Wavelet Compression"
+            },
+            "pmid": "27177143"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Statistics and probability",
+            "uri": "http://edamontology.org/topic_2269"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:memosys/cmd/icbi.at",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 4,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/database/bau004",
+                            "pmcid": "PMC3924767",
+                            "pmid": "24532766",
+                            "ref_count": 34,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "MEMOSys 2.0: an update of the bioinformatics database for genome-scale models and genomic data.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://icbi.i-med.ac.at/software/memosys/memosys.shtml"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/memosys",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://icbi.i-med.ac.at/software/memosys/memosys.shtml"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,94 @@
+{
+    "additionDate": "2018-08-10T12:33:20Z",
+    "biotoolsCURIE": "biotools:seekr",
+    "biotoolsID": "seekr",
+    "credit": [
+        {
+            "email": "ramaro@ucsd.edu",
+            "name": "Rommie E. Amaro",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Simulation Enabled Estimation of Kinetic Rates- A Computational Tool to Estimate Molecular Kinetics and its Application to Trypsin-Benzamidine Binding.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://amarolab.ucsd.edu/seekr/tutorial/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Enzyme kinetics calculation",
+                    "uri": "http://edamontology.org/operation_0334"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://amarolab.ucsd.edu/seekr/",
+    "lastUpdate": "2018-12-10T12:59:01Z",
+    "name": "SEEKR",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "d.gabrielaitis",
+    "publication": [
+        {
+            "doi": "10.1021/acs.jpcb.6b09388",
+            "metadata": {
+                "abstract": "© 2017 American Chemical Society.We present the Simulation Enabled Estimation of Kinetic Rates (SEEKR) package, a suite of open-source scripts and tools designed to enable researchers to perform multiscale computation of the kinetics of molecular binding, unbinding, and transport using a combination of molecular dynamics, Brownian dynamics, and milestoning theory. To demonstrate its utility, we compute the kon, koff, and ΔGbind for the protein trypsin with its noncovalent binder, benzamidine, and examine the kinetics and other results generated in the context of the new software, and compare our findings to previous studies performed on the same system. We compute a kon estimate of (2.1 ± 0.3) × 107 M-1 s-1, a koff estimate of 83 ± 14 s-1, and a ΔGbind of -7.4 ± 0.1 kcal·mol-1, all of which compare closely to the experimentally measured values of 2.9 × 107 M-1 s-1, 600 ± 300 s-1, and -6.71 ± 0.05 kcal·mol-1, respectively.",
+                "authors": [
+                    {
+                        "name": "Amaro R.E."
+                    },
+                    {
+                        "name": "Heyneman A.L."
+                    },
+                    {
+                        "name": "Jagger B.R."
+                    },
+                    {
+                        "name": "Votapka L.W."
+                    }
+                ],
+                "citationCount": 40,
+                "date": "2017-04-20T00:00:00Z",
+                "journal": "Journal of Physical Chemistry B",
+                "title": "SEEKR: Simulation Enabled Estimation of Kinetic Rates, A Computational Tool to Estimate Molecular Kinetics and Its Application to Trypsin-Benzamidine Binding"
+            },
+            "pmcid": "PMC5562489",
+            "pmid": "28191969"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Protein binding sites",
+            "uri": "http://edamontology.org/topic_3534"
+        },
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Simulation experiment",
+            "uri": "http://edamontology.org/topic_3524"
+        }
+    ],
+    "validated": 1
+}

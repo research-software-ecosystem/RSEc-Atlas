@@ -1,0 +1,54 @@
+{
+    "additionDate": "2018-11-29T16:20:15Z",
+    "biotoolsCURIE": "biotools:mothul_krona",
+    "biotoolsID": "mothul_krona",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/accaldwell/mothur_krona/issues"
+        }
+    ],
+    "description": "Converting mothur's taxonomy summaries into Krona-compatible XML files.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Formatting",
+                    "uri": "http://edamontology.org/operation_0335"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/accaldwell/mothur_krona",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:59:01Z",
+    "license": "BSD-2-Clause",
+    "name": "mothur_krona",
+    "owner": "aotamendi.1",
+    "toolType": [
+        "Script"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Phylogenomics",
+            "uri": "http://edamontology.org/topic_0194"
+        }
+    ],
+    "validated": 1
+}

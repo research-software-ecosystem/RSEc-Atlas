@@ -1,0 +1,175 @@
+{
+    "additionDate": "2015-01-22T11:28:31Z",
+    "biotoolsCURIE": "biotools:seaview",
+    "biotoolsID": "seaview",
+    "credit": [
+        {
+            "email": "mgouy@biomserv.uni-lyon1.fr",
+            "name": "Manolo Gouy",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "IFB ELIXIR-FR",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Multiplatform graphical user interface designed to facilitate alignment and phylogenic tree building from molecular sequences.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://doua.prabi.fr/main/index"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Phylogenetic tree",
+                        "uri": "http://edamontology.org/data_0872"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Sequence",
+                        "uri": "http://edamontology.org/data_2044"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Sequence alignment",
+                        "uri": "http://edamontology.org/data_0863"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Phylogenetic tree editing",
+                    "uri": "http://edamontology.org/operation_0326"
+                },
+                {
+                    "term": "Phylogenetic tree generation (from molecular sequences)",
+                    "uri": "http://edamontology.org/operation_0540"
+                },
+                {
+                    "term": "Phylogenetic tree visualisation",
+                    "uri": "http://edamontology.org/operation_0567"
+                },
+                {
+                    "term": "Sequence alignment editing",
+                    "uri": "http://edamontology.org/operation_3081"
+                },
+                {
+                    "term": "Sequence visualisation",
+                    "uri": "http://edamontology.org/operation_0564"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Phylogenetic tree",
+                        "uri": "http://edamontology.org/data_0872"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Phylogenetic tree image",
+                        "uri": "http://edamontology.org/data_1707"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Sequence alignment",
+                        "uri": "http://edamontology.org/data_0863"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Sequence alignment image",
+                        "uri": "http://edamontology.org/data_1711"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://doua.prabi.fr/software/seaview",
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://doua.prabi.fr/software/seaview"
+        }
+    ],
+    "name": "SeaView",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-FR",
+    "publication": [
+        {
+            "doi": "10.1093/molbev/msp259",
+            "metadata": {
+                "abstract": "We present SeaView version 4, a multiplatform program designed to facilitate multiple alignment and phylogenetic tree building from molecular sequence data through the use of a graphical user interface. SeaView version 4 combines all the functions of the widely used programs SeaView (in its previous versions) and Phylo-win, and expands them by adding network access to sequence databases, alignment with arbitrary algorithm, maximum-likelihood tree building with PhyML, and display, printing, and copy-to-clipboard of rooted or unrooted, binary or multifurcating phylogenetic trees. In relation to the wide present offer of tools and algorithms for phylogenetic analyses, SeaView is especially useful for teaching and for occasional users of such software. SeaView is freely available at http://pbil.univ-lyon1.fr/software/seaview.",
+                "authors": [
+                    {
+                        "name": "Gascuel O."
+                    },
+                    {
+                        "name": "Gouy M."
+                    },
+                    {
+                        "name": "Guindon S."
+                    }
+                ],
+                "citationCount": 3668,
+                "date": "2010-02-01T00:00:00Z",
+                "journal": "Molecular Biology and Evolution",
+                "title": "Sea view version 4: A multiplatform graphical user interface for sequence alignment and phylogenetic tree building"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "4"
+    ]
+}

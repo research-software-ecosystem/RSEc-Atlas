@@ -1,0 +1,67 @@
+about:
+  home: http://www.yandell-lab.org/software/maker.html
+  license: GPL3
+  license_file: LICENSE
+  summary: MAKER is a portable and easily configurable genome annotation pipeline.
+build:
+  number: 3
+extra:
+  container:
+    extended-base: true
+  identifiers:
+  - biotools:maker
+  - usegalaxy-eu:maker
+package:
+  name: maker
+  version: 3.01.03
+requirements:
+  build:
+  - None
+  host:
+  - perl
+  - perl-bioperl-core >=1.7.8
+  - perl-bit-vector
+  - perl-dbd-pg
+  - perl-dbd-sqlite
+  - perl-dbi
+  - perl-io-all
+  - perl-io-prompt
+  - perl-inline-c >=0.78
+  - perl-perlio-gzip
+  - perl-forks
+  - perl-perl-unsafe-signals
+  - mpich
+  run:
+  - augustus >=3.2.3
+  - blast 2.12.0
+  - exonerate
+  - evidencemodeler
+  - repeatmasker >=4.1.1
+  - rmblast 2.12.0
+  - snap
+  - snoscan
+  - perl
+  - perl-bioperl-core >=1.7.8
+  - perl-bit-vector
+  - perl-dbd-pg
+  - perl-dbd-sqlite
+  - perl-dbi
+  - perl-io-all
+  - perl-io-prompt
+  - perl-inline-c >=0.78
+  - perl-perlio-gzip
+  - perl-forks
+  - perl-perl-unsafe-signals
+  - mpich
+  - rapsearch
+  - trnascan-se
+  - postgresql
+source:
+  patches:
+  - repeatmasker_check.patch
+  - mpi_init.patch
+  sha256: f36cc7ef584c215955a4d9fdd46287a49f7508bbe59c6fe78d50e0c6e99192ae
+  url: http://weatherby.genetics.utah.edu/maker_downloads/static/maker-3.01.03.tgz
+test:
+  commands:
+  - maker --version

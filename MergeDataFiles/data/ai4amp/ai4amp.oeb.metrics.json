@@ -1,0 +1,141 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ai4amp/script/symbiosis.iis.sinica.edu.tw",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.12.17.423359",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "AI4AMP: Sequence-based antimicrobial peptides predictor using physicochemical properties-based encoding method and deep learning",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://axp.iis.sinica.edu.tw/AI4AMP/PC_6/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://symbiosis.iis.sinica.edu.tw/PC_6/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ai4amp/web/symbiosis.iis.sinica.edu.tw",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.12.17.423359",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "AI4AMP: Sequence-based antimicrobial peptides predictor using physicochemical properties-based encoding method and deep learning",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://axp.iis.sinica.edu.tw/AI4AMP/PC_6/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://symbiosis.iis.sinica.edu.tw/PC_6/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ai4amp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://axp.iis.sinica.edu.tw/AI4AMP/PC_6/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://symbiosis.iis.sinica.edu.tw/PC_6/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

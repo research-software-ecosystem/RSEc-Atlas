@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-01-13T13:14:36Z",
+    "biotoolsCURIE": "biotools:flexbar",
+    "biotoolsID": "flexbar",
+    "credit": [
+        {
+            "name": "Johannes Roehr",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/jtroehr"
+        }
+    ],
+    "description": "Flexible barcode and adapter removal. It demultiplexes barcoded runs and removes adapter sequences. Several adapter removal presets for Illumina libraries are included. Computes exact overlap alignments using SIMD and multicore parallelism. Moreover, trimming and filtering features are provided. It increases read mapping rates and improves genome as well as transcriptome assemblies.  The software supports data in fasta and fastq format from multiple sequencing platforms.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://github.com/seqan/flexbar/wiki"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Nucleic acid sequence",
+                        "uri": "http://edamontology.org/data_2977"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTA",
+                            "uri": "http://edamontology.org/format_1929"
+                        },
+                        {
+                            "term": "FASTQ",
+                            "uri": "http://edamontology.org/format_1930"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Primer removal",
+                    "uri": "http://edamontology.org/operation_3237"
+                },
+                {
+                    "term": "Read pre-processing",
+                    "uri": "http://edamontology.org/operation_3219"
+                },
+                {
+                    "term": "Sequence trimming",
+                    "uri": "http://edamontology.org/operation_3192"
+                },
+                {
+                    "term": "Validation",
+                    "uri": "http://edamontology.org/operation_2428"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/seqan/flexbar",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2019-05-17T02:15:46Z",
+    "license": "BSD-3-Clause",
+    "maturity": "Mature",
+    "name": "Flexbar",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "jtroehr",
+    "publication": [
+        {
+            "pmid": "24832523"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "3.5.0"
+    ]
+}

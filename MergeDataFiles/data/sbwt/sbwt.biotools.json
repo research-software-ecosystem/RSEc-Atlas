@@ -1,0 +1,116 @@
+{
+    "additionDate": "2017-08-03T19:08:13Z",
+    "biotoolsCURIE": "biotools:sbwt",
+    "biotoolsID": "sbwt",
+    "credit": [
+        {
+            "email": "juihunghung@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://jhhung.github.io/sBWT/"
+        }
+    ],
+    "description": "A Burrows–Wheeler transformation BWT based fast indexer/aligner specialized in parallelized indexing and searching for Next Generation Sequencing data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://jhhung.github.io/sBWT/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome indexing",
+                    "uri": "http://edamontology.org/operation_3211"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                },
+                {
+                    "term": "Sequence analysis",
+                    "uri": "http://edamontology.org/operation_2403"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://jhhung.github.io/sBWT/",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/sbwt-burrows-wheeler-transform-bwt-based-fast-indexeraligner.html"
+        }
+    ],
+    "name": "sBWT",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2016 The Author Published by Oxford University Press. All rights reserved.Motivation: The Full-text index in Minute space (FM-index) derived from the Burrows-Wheeler transform (BWT) is broadly used for fast string matching in large genomes or a huge set of sequencing reads. Several graphic processing unit (GPU) accelerated aligners based on the FM-index have been proposed recently; however, the construction of the index is still handled by central processing unit (CPU), only parallelized in data level (e.g. by performing blockwise suffix sorting in GPU), or not scalable for large genomes. Results: To fulfill the need for a more practical, hardware-parallelizable indexing and matching approach, we herein propose sBWT based on a BWT variant (i.e. Schindler transform) that can be built with highly simplified hardware-acceleration-friendly algorithms and still suffices accurate and fast string matching in repetitive references. In our tests, the implementation achieves significant speedups in indexing and searching compared with other BWT-based tools and can be applied to a variety of domains.",
+                "authors": [
+                    {
+                        "name": "Chang C.-H."
+                    },
+                    {
+                        "name": "Chou M.-T."
+                    },
+                    {
+                        "name": "Hong T.-W."
+                    },
+                    {
+                        "name": "Hung J.-H."
+                    },
+                    {
+                        "name": "Li Y.-L."
+                    },
+                    {
+                        "name": "Wu Y.-C."
+                    },
+                    {
+                        "name": "Yang C.-H."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2016-11-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "SBWT: Memory efficient implementation of the hardware-acceleration-friendly Schindler transform for the fast biological sequence mapping"
+            },
+            "pmid": "27412087"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

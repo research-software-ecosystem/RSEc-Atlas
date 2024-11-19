@@ -1,0 +1,206 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:brig/app/brig.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 813,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 89,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 91,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 120,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 122,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 157,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2164-12-402",
+                            "pmcid": "PMC3163573",
+                            "pmid": "21824423",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "BLAST Ring Image Generator (BRIG): simple prokaryote genome comparisons.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://brig.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/brig/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/brig",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://brig.sourceforge.net/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/brig/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

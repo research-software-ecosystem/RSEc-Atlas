@@ -1,0 +1,83 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pdeep3/undefined/pfind.ict.ac.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.09.13.295105",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "pDeep3: Towards More Accurate Spectrum Prediction with Fast Few-Shot Learning",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://pfind.ict.ac.cn/software/pDeep3"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://pfind.ict.ac.cn/software/pDeep3/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pdeep3",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://pfind.ict.ac.cn/software/pDeep3"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://pfind.ict.ac.cn/software/pDeep3/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

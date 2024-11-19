@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-02-10T11:35:55Z",
+    "biotoolsCURIE": "biotools:plasmapper",
+    "biotoolsID": "plasmapper",
+    "credit": [
+        {
+            "name": "Contact form",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://feedback.wishartlab.com/?site=plasmapper"
+        }
+    ],
+    "description": "Web server that automatically generates and annotates circular plasmid maps.  The tool has: a built in set of features that can be displayed (ie. RE sites, tags, ORFs, etc.), allows users to define custom features to display, contains a library of commonly used plasmids, and, generates nice looking images in a variety of output formats.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://wishart.biology.ualberta.ca/PlasMapper/index.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Mapping",
+                    "uri": "http://edamontology.org/operation_2429"
+                },
+                {
+                    "term": "Plasmid map drawing",
+                    "uri": "http://edamontology.org/operation_0578"
+                },
+                {
+                    "term": "Restriction map drawing",
+                    "uri": "http://edamontology.org/operation_0575"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://wishart.biology.ualberta.ca/PlasMapper/index.html",
+    "language": [
+        "C",
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "name": "PlasMapper",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "PlasMapper is a comprehensive web server that automatically generates and annotates high-quality circular plasmid maps. Taking only the plasmid/vector DNA sequence as input, PlasMapper uses sequence pattern matching and BLAST alignment to automatically identify and label common promoters, terminators, cloning sites, restriction sites, reporter genes, affinity tags, selectable marker genes, replication origins and open reading frames. PlasMapper then presents the identified features in textual form and as high-resolution, multicolored graphical output. The appearance and contents of the output can be customized in numerous ways using several supplied options. Further, PlasMapper images can be rendered in both rasterized (PNG and JPG) and vector graphics (SVG) formats to accommodate a variety of user needs or preferences. The images and textual output are of sufficient quality that they may be used directly in publications or presentations. The PlasMapper web server is freely accessible at http://wishart.biology.ualberta.ca/PlasMapper. © Oxford University Press 2004; all rights reserved.",
+                "authors": [
+                    {
+                        "name": "Dong X."
+                    },
+                    {
+                        "name": "Forsythe I.J."
+                    },
+                    {
+                        "name": "Stothard P."
+                    },
+                    {
+                        "name": "Wishart D.S."
+                    }
+                ],
+                "citationCount": 55,
+                "date": "2004-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "PlasMapper: A web server for drawing and auto-annotating plasmid maps"
+            },
+            "pmid": "15215471"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Imaging",
+            "uri": "http://edamontology.org/topic_3382"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Nucleic acid sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3511"
+        }
+    ],
+    "validated": 1
+}

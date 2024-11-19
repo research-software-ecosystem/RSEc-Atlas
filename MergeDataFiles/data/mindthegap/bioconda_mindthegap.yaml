@@ -1,0 +1,33 @@
+about:
+  home: https://github.com/GATB/mindthegap
+  licence_family: GNU 3.0+
+  license: AGPL-3.0-or-later
+  license_file: LICENSE
+  summary: MindTheGap performs detection and assembly of DNA insertion variants in
+    NGS read datasets with respect to a reference genome. MindTheGap can also be used
+    as a genome assembly finishing tool, it can fill the gaps between a set of input
+    contigs without any a priori on their relative order and orientation.
+build:
+  number: 3
+extra:
+  identifiers:
+  - biotools:mindthegap
+  - doi:10.1093/bioinformatics/btu545
+package:
+  name: mindthegap
+  version: 2.3.0
+requirements:
+  build:
+  - make
+  - None
+  - cmake
+  host:
+  - zlib
+  run:
+  - zlib
+source:
+  sha256: 588d1c0a7560a0fad657b9396c9cb85e4133ac2daa96fa9fe22866a0c0398ffc
+  url: https://github.com/GATB/mindthegap/releases/download/v2.3.0/mindthegap-v2.3.0-Source.tar.gz
+test:
+  commands:
+  - MindTheGap fill -help

@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-01-13T13:16:11Z",
+    "biotoolsCURIE": "biotools:rubioseq",
+    "biotoolsID": "rubioseq",
+    "credit": [
+        {
+            "name": "Contact form",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://rubioseq.bioinfo.cnio.es/contact"
+        }
+    ],
+    "description": "Primary and secondary analysis of resequencing projects by an integrated software suite of parallelized pipelines to detect exome variants (SNVs and CNVs) and to perform Bisulfite-seq analyses automatically.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3694642/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Variant calling",
+                    "uri": "http://edamontology.org/operation_3227"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://rubioseq.sourceforge.net/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:58Z",
+    "maturity": "Mature",
+    "name": "RUbioSeq",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: RUbioSeq has been developed to facilitate the primary and secondary analysis of re-sequencing projects by providing an integrated software suite of parallelized pipelines to detect exome variants (single-nucleotide variants and copy number variations) and to perform bisulfite-seq analyses automatically. RUbioSeq's variant analysis results have been already validated and published. © The Author 2013.",
+                "authors": [
+                    {
+                        "name": "Fernandez J.M."
+                    },
+                    {
+                        "name": "Gomez-Lopez G."
+                    },
+                    {
+                        "name": "Pisano D.G."
+                    },
+                    {
+                        "name": "Rubio-Camarillo M."
+                    },
+                    {
+                        "name": "Valencia A."
+                    }
+                ],
+                "citationCount": 31,
+                "date": "2013-07-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "RUbioSeq: A suite of parallelized pipelines to automate exome variation and bisulfite-seq analyses"
+            },
+            "pmid": "23630175"
+        }
+    ],
+    "toolType": [
+        "Suite",
+        "Workflow"
+    ],
+    "topic": [
+        {
+            "term": "Epigenetics",
+            "uri": "http://edamontology.org/topic_3295"
+        },
+        {
+            "term": "Exome sequencing",
+            "uri": "http://edamontology.org/topic_3676"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "3.8.1"
+    ]
+}

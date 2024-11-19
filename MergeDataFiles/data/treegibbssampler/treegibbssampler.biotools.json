@@ -1,0 +1,105 @@
+{
+    "additionDate": "2017-08-03T19:03:26Z",
+    "biotoolsCURIE": "biotools:treegibbssampler",
+    "biotoolsID": "treegibbssampler",
+    "credit": [
+        {
+            "email": "haihu@cs.ucf.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.cs.ucf.edu/~haihu/"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://hulab.ucf.edu/contact"
+        }
+    ],
+    "description": "Software for identifying motifs by simultaneously using the motif overrepresentation property and the motif evolutionary conservation property. It identifies motifs without depending on pre-aligned orthologous sequences, which makes it useful for the extraction of regulatory elements in multiple genomes of both closely related and distant species.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://hulab.ucf.edu/software"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence motif recognition",
+                    "uri": "http://edamontology.org/operation_0239"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://hulab.ucf.edu/software",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/treegibbssampler-identifying-conserved-motifs-aligning-orthologous-sequences.html"
+        }
+    ],
+    "name": "TreeGibbsSampler",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Summary: Tree Gibbs Sampler is a software for identifying motifs by simultaneously using the motif overrepresentation property and the motif evolutionary conservation property. It identifies motifs without depending on pre-aligned orthologous sequences, which makes it useful for the extraction of regulatory elements in multiple genomes of both closely related and distant species. © 2007 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Cai X."
+                    },
+                    {
+                        "name": "Hu H."
+                    },
+                    {
+                        "name": "Li X.S."
+                    }
+                ],
+                "citationCount": 2,
+                "date": "2007-08-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Tree gibbs sampler: Identifying conserved motifs without aligning orthologous sequences"
+            },
+            "pmid": "17540681"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Nucleic acid sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3511"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

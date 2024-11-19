@@ -1,0 +1,131 @@
+{
+    "additionDate": "2018-11-27T08:42:09Z",
+    "biotoolsCURIE": "biotools:mergeomics_pipeline",
+    "biotoolsID": "mergeomics_pipeline",
+    "credit": [
+        {
+            "email": "icestrike@ucla.edu",
+            "name": "Le Shu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Mergeomics is a computational pipeline consisting of independent modules that 1) leverage multi-omics association data to identify biological processes that are perturbed in disease, and 2) overlay the disease-associated processes onto molecular interaction networks to pinpoint hubs as potential key regulators.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://www.bioconductor.org/packages/devel/bioc/manuals/Mergeomics/man/Mergeomics.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Aggregation",
+                    "uri": "http://edamontology.org/operation_3436"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://www.bioconductor.org/packages/devel/bioc/html/Mergeomics.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:59:01Z",
+    "license": "GPL-3.0",
+    "name": "Mergeomics",
+    "operatingSystem": [
+        "Mac",
+        "Windows"
+    ],
+    "owner": "daniel_stefan",
+    "publication": [
+        {
+            "doi": "10.1186/s12864-016-3198-9",
+            "metadata": {
+                "abstract": "© 2016 The Author(s).Background: Complex diseases are characterized by multiple subtle perturbations to biological processes. New omics platforms can detect these perturbations, but translating the diverse molecular and statistical information into testable mechanistic hypotheses is challenging. Therefore, we set out to create a public tool that integrates these data across multiple datasets, platforms, study designs and species in order to detect the most promising targets for further mechanistic studies. Results: We developed Mergeomics, a computational pipeline consisting of independent modules that 1) leverage multi-omics association data to identify biological processes that are perturbed in disease, and 2) overlay the disease-associated processes onto molecular interaction networks to pinpoint hubs as potential key regulators. Unlike existing tools that are mostly dedicated to specific data type or settings, the Mergeomics pipeline accepts and integrates datasets across platforms, data types and species. We optimized and evaluated the performance of Mergeomics using simulation and multiple independent datasets, and benchmarked the results against alternative methods. We also demonstrate the versatility of Mergeomics in two case studies that include genome-wide, epigenome-wide and transcriptome-wide datasets from human and mouse studies of total cholesterol and fasting glucose. In both cases, the Mergeomics pipeline provided statistical and contextual evidence to prioritize further investigations in the wet lab. The software implementation of Mergeomics is freely available as a Bioconductor R package. Conclusion: Mergeomics is a flexible and robust computational pipeline for multidimensional data integration. It outperforms existing tools, and is easily applicable to datasets from different studies, species and omics data types for the study of complex traits.",
+                "authors": [
+                    {
+                        "name": "Byars S.G."
+                    },
+                    {
+                        "name": "Inouye M."
+                    },
+                    {
+                        "name": "Kettunen J."
+                    },
+                    {
+                        "name": "Kurt Z."
+                    },
+                    {
+                        "name": "Lusis A.J."
+                    },
+                    {
+                        "name": "Makinen V.-P."
+                    },
+                    {
+                        "name": "Orozco L.D."
+                    },
+                    {
+                        "name": "Pellegrini M."
+                    },
+                    {
+                        "name": "Ripatti S."
+                    },
+                    {
+                        "name": "Shu L."
+                    },
+                    {
+                        "name": "Tukiainen T."
+                    },
+                    {
+                        "name": "Yang X."
+                    },
+                    {
+                        "name": "Zhang B."
+                    },
+                    {
+                        "name": "Zhao Y."
+                    }
+                ],
+                "citationCount": 43,
+                "date": "2016-11-04T00:00:00Z",
+                "journal": "BMC Genomics",
+                "title": "Mergeomics: Multidimensional data integration to identify pathogenic perturbations to biological systems"
+            },
+            "pmcid": "PMC5097440",
+            "pmid": "27814671",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Data integration and warehousing",
+            "uri": "http://edamontology.org/topic_3366"
+        },
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.11.0"
+    ]
+}

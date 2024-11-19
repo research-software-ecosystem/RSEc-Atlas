@@ -1,0 +1,111 @@
+{
+    "additionDate": "2017-05-02T07:18:33Z",
+    "biotoolsCURIE": "biotools:lagan",
+    "biotoolsID": "lagan",
+    "credit": [
+        {
+            "email": "brudno@cs.toronto.edu",
+            "name": "Michael Brudno",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://lagan.stanford.edu/lagan_web/authors.shtml"
+        }
+    ],
+    "description": "Tools for genomic alignment. These include the MLAGAN multiple alignment tool, and Shuffle-LAGAN for alignment with rearrangements.. All three are based on the CHAOS local alignment tool and combine speed (regions up to several megabases can be aligned in minutes) with high accuracy.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://lagan.stanford.edu/lagan_web/about.shtml"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome alignment",
+                    "uri": "http://edamontology.org/operation_3182"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://lagan.stanford.edu/lagan_web/index.shtml",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/lagan-2-0-genomic-alignment.html"
+        }
+    ],
+    "name": "LAGAN",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "To compare entire genomes from different species, biologists increasingly need alignment methods that are efficient enough to handle long sequences, and accurate enough to correctly align the conserved biological features between distant species. We present LAGAN, a system for rapid global alignment of two homologous genomic sequences, and Multi-LAGAN, a system for multiple global alignment of genomic sequences. We tested our systems on a data set consisting of greater than 12 Mb of high-quality sequence from 12 vertebrate species. All the sequence was derived from the genomic region orthologous to an ∼1.5-Mb region on human chromosome 7q31.3. We found that both LAGAN and Multi-LAGAN compare favorably with other leading alignment methods in correctly aligning protein-coding exons, especially between distant homologs such as human and chicken, or human and fugu. Multi-LAGAN produced the most accurate alignments, while requiring just 75 minutes on a personal computer to obtain the multiple alignment of all 12 sequences. Multi-LAGAN is a practical method for generating multiple alignments of long genomic sequences at any evolutionary distance. Our systems are publicly available at http://lagan.stanford.edu.",
+                "authors": [
+                    {
+                        "name": "Batzoglou S."
+                    },
+                    {
+                        "name": "Brudno M."
+                    },
+                    {
+                        "name": "Cooper G.M."
+                    },
+                    {
+                        "name": "Davydov E."
+                    },
+                    {
+                        "name": "Do C.B."
+                    },
+                    {
+                        "name": "Green E.D."
+                    },
+                    {
+                        "name": "Kim M.F."
+                    },
+                    {
+                        "name": "Sidow A."
+                    }
+                ],
+                "citationCount": 800,
+                "date": "2003-04-01T00:00:00Z",
+                "journal": "Genome Research",
+                "title": "LAGAN and Multi-LAGAN: Efficient tools for large-scale multiple alignment of genomic DNA"
+            },
+            "pmid": "12654723"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Nucleic acid structure analysis",
+            "uri": "http://edamontology.org/topic_0097"
+        }
+    ],
+    "validated": 1
+}

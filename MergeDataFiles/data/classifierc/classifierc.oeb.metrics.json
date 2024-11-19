@@ -1,0 +1,275 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:classifierc/web/generatr.qub.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s12859-022-04641-x",
+                            "pmcid": "PMC8974006",
+                            "pmid": "35361119",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "classifieR a flexible interactive cloud-application for functional annotation of cancer transcriptomes.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/login"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/login"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=HQE_NxAu2mv9jvsLaDuJNvbx6l8uadD8Fq2w3Ws1bb8%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=QXmr0F6ejrtNZw5kfa9MbR4SxQYFgewxijJO_aTaUTg"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=NqoNo38-o01hvY5UEmMFGirs04aNguL-Bon_S9099Ks%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=iEPso06lm408Tr2wh2DzqhBc3UbFZIpUOneW4AprLHI"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SA5aURJWnpqR3NJYXRXbzR2a29JWnNmOWg2aHZyQzBPQ6FupWxvZ2luo3RpZNkgNEhnM0luVXRPcVVQNDZoUF93N0tycHFPMHRvNjNXeDmjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=iEPso06lm408Tr2wh2DzqhBc3UbFZIpUOneW4AprLHI"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.qub.ac.uk/login?iss=https%3A%2F%2Fgeneratr.eu.auth0.com%2F"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:classifierc/workbench/generatr.qub.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s12859-022-04641-x",
+                            "pmcid": "PMC8974006",
+                            "pmid": "35361119",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "classifieR a flexible interactive cloud-application for functional annotation of cancer transcriptomes.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/login"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/login"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=C-NC-f_imxzzHoxJgwSLsoYcaEKhDNRA-XEhdfeIhUo%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=21JMu8gsf9c46oYG-A6700yIOtkssSQKqYve2GYCjNc"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=WHPHq58XKQ0bl5oLanfeAOYpdeA8CBEiZ7dHpiUY9H8%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=sx3JILdemLOvhcHiEvXmA1bQ5czFR8dm5N82fgS1Ldg"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SB4bVA3aVVIaS1iVUhMaGljWUQ5bk01Sk9DR0NwaTc2caFupWxvZ2luo3RpZNkgY0pNNjlkaFp2dU81V3hqWWxzdUFaYWxlNXFIMVdPVnajY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=21JMu8gsf9c46oYG-A6700yIOtkssSQKqYve2GYCjNc"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.qub.ac.uk/login?iss=https%3A%2F%2Fgeneratr.eu.auth0.com%2F"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/classifierc",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/login"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/login"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://generatr.qub.ac.uk/oauth2/authorization/shinyproxy"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=adk0_VEduPk2F8OG53-m9HLup8rI52gChLNPyK76mSA%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=ZK08YRQj0_ion7x8roD-GtJAU5yxxZ1cYM2KRPdvidE"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=mI4ovZYeQF8EUMOM9ahy_pktnQawlty567Co1ipu72E%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=qdihBaBEUguY3aQJmKbuU-T4IzynSwMgG-5CqXd4BYs"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SA2RVpBVklnYm9MVXM1RzNpMWhqbHRqbTN6UXNHOVRKZqFupWxvZ2luo3RpZNkgbTBHVXVRSm9nd0NuMmVnUjVGdnkxcXJLTExTWjJCOGSjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=ZK08YRQj0_ion7x8roD-GtJAU5yxxZ1cYM2KRPdvidE"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://generatr.qub.ac.uk/login?iss=https%3A%2F%2Fgeneratr.eu.auth0.com%2F"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

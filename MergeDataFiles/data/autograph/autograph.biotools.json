@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-08-03T18:36:35Z",
+    "biotoolsCURIE": "biotools:autograph",
+    "biotoolsID": "autograph",
+    "credit": [
+        {
+            "email": "toma.derrien@gmail.com",
+            "name": "Derrien T",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www-recomgen.univ-rennes1.fr/doggy.html"
+        }
+    ],
+    "description": "Integrated web server for multi-species comparative genomic analysis. It is designed for constructing and visualizing synteny maps between two or three species, determination and display of macrosynteny and microsynteny relationships among species, and for highlighting evolutionary breakpoints.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://autograph.genouest.org/Tutorial.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome comparison",
+                    "uri": "http://edamontology.org/operation_3209"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://autograph.genouest.org/",
+    "language": [
+        "C",
+        "PHP",
+        "Perl",
+        "SQL"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/autograph-web-server-automating-visualizing-comparative-genome-maps.html"
+        }
+    ],
+    "name": "AutoGRAPH",
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "AutoGRAPH is an interactive web server for automatic multi-species comparative genomics analyses based on personal datasets or pre-inserted public datasets. This program automatically identifies conserved segments (CS) and breakpoint regions, assesses the conservation of marker/gene order between organisms, constructs synteny maps for two to three species and generates high-quality, interactive displays facilitating the identification of chromosomal rearrangements. AutoGRAPH can also be used for the integration and comparison of several types of genomic resources (meiotic maps, radiation hybrid maps and genome sequences) for a single species, making AutoGRAPH a versatile tool for comparative genomics analysis. © 2007 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Andre C."
+                    },
+                    {
+                        "name": "Derrien T."
+                    },
+                    {
+                        "name": "Galibert F."
+                    },
+                    {
+                        "name": "Hitte C."
+                    }
+                ],
+                "citationCount": 43,
+                "date": "2007-02-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "AutoGRAPH: An interactive web server for automating and visualizing comparative genome maps"
+            },
+            "pmid": "17145741"
+        }
+    ],
+    "toolType": [
+        "Web service"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        }
+    ],
+    "validated": 1
+}

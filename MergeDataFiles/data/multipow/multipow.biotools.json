@@ -1,0 +1,92 @@
+{
+    "additionDate": "2017-08-03T18:50:22Z",
+    "biotoolsCURIE": "biotools:multipow",
+    "biotoolsID": "multipow",
+    "credit": [
+        {
+            "email": "pkraft@hsph.harvard.edu",
+            "name": "Peter Kraft",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.hsph.harvard.edu/peter-kraft"
+        }
+    ],
+    "description": "Calculates the power for both joint and replication-based analysis of general multi-stage genetic association studies.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://www.hsph.harvard.edu/peter-kraft/software/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Design",
+                    "uri": "http://edamontology.org/operation_2430"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.hsph.harvard.edu/peter-kraft/software/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/multipow-2-2-power-multi-stage-genome-wide-association-studies.html"
+        }
+    ],
+    "name": "MULTIPOW",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Advances in high-throughput genotyping and a flood of data on human genetic variation from the Human Genome and HapMap projects have made genome-wide association studies technically feasible. However, researchers designing such studies face a number of challenges, including how to avoid subtle systematic biases and how to achieve sufficient statistical power to distinguish modest association signals from chance associations. In many situations, it remains prohibitively expensive to genotype all the desired samples using a genome-wide genotyping array, so multistage designs are an attractive cost-saving measure. Here, we review some of the basic design principles for genetic association studies, discuss the properties of fixed genome-wide and custom genotyping arrays as they relate to study design, and present a theoretical framework and practical tools for power calculations. We close with a discussion of the limitations of multistage designs. © 2008 Elsevier Inc. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Cox D.G."
+                    },
+                    {
+                        "name": "Kraft P."
+                    }
+                ],
+                "citationCount": 46,
+                "date": "2008-03-20T00:00:00Z",
+                "journal": "Advances in Genetics",
+                "title": "Study Designs for Genome-Wide Association Studies"
+            },
+            "pmid": "18358330"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "GWAS study",
+            "uri": "http://edamontology.org/topic_3517"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        }
+    ],
+    "validated": 1
+}

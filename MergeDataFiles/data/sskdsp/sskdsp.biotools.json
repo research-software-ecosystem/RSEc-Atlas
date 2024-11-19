@@ -1,0 +1,94 @@
+{
+    "additionDate": "2017-08-03T19:00:36Z",
+    "biotoolsCURIE": "biotools:sskdsp",
+    "biotoolsID": "sskdsp",
+    "credit": [
+        {
+            "email": "lei.xie@hunter.cuny.edu",
+            "name": "Lei Xie",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://compsci.hunter.cuny.edu/~leixie/"
+        }
+    ],
+    "description": "A scalable implementation of Single Source K Diverse Shortest Paths Algorithm.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://github.com/john525/Efficient-KSP-Search"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein folding analysis",
+                    "uri": "http://edamontology.org/operation_2415"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://compsci.hunter.cuny.edu/~leixie/sskdsp.html",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/sskdsp-single-source-k-diverse-shortest-paths-algorithm.html"
+        }
+    ],
+    "name": "SSKDSP",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2016 Wiley Periodicals, Inc.Protein structure prediction, when construed as a fold recognition problem, is one of the most important applications of similarity search in bioinformatics. A new protein-fold recognition method is reported which combines a single-source K diverse shortest path (SSKDSP) algorithm with Enrichment of Network Topological Similarity (ENTS) algorithm to search a graphic feature space generated using sequence similarity and structural similarity metrics. A modified, more efficient SSKDSP algorithm is developed to improve the performance of graph searching. The new implementation of the SSKDSP algorithm empirically requires 82% less memory and 61% less time than the current implementation, allowing for the analysis of larger, denser graphs. Furthermore, the statistical significance of fold ranking generated from SSKDSP is assessed using ENTS. The reported ENTS-SSKDSP algorithm outperforms original ENTS that uses random walk with restart for the graph search as well as other state-of-the-art protein structure prediction algorithms HHSearch and Sparks-X, as evaluated by a benchmark of 600 query proteins. The reported methods may easily be extended to other similarity search problems in bioinformatics and chemoinformatics. The SSKDSP software is available at http://compsci.hunter.cuny.edu/~leixie/sskdsp.html.",
+                "authors": [
+                    {
+                        "name": "Lhota J."
+                    },
+                    {
+                        "name": "Xie L."
+                    }
+                ],
+                "citationCount": 1,
+                "date": "2016-04-01T00:00:00Z",
+                "journal": "Proteins: Structure, Function and Bioinformatics",
+                "title": "Protein-fold recognition using an improved single-source K diverse shortest paths algorithm"
+            },
+            "pmid": "26800480"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1
+}

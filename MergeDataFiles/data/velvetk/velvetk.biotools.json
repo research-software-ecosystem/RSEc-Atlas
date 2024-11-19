@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-12-18T00:14:06Z",
+    "biotoolsCURIE": "biotools:velvetk",
+    "biotoolsID": "velvetk",
+    "credit": [
+        {
+            "email": "torsten.seemann@monash.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Estimate the best k-mer size to use for your Velvet de novo assembly. It needs two inputs: the estimated genome size, and all your sequence read files. The genome size can be supplied as as a number (eg. 3.5M) or as a FASTA file of a closely related genome.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.vicbioinformatics.com/documents.shtml"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.vicbioinformatics.com/software.velvetk.shtml",
+    "language": [
+        "Java",
+        "Ruby"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/velvetk-20120606-find-reasonable-k-mer-size-assemble-genome-reads-velvet.html"
+        }
+    ],
+    "name": "VelvetK",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/bts664",
+            "metadata": {
+                "abstract": "Velvet is a popular open-source de novo genome assembly software tool, which is run from the Unix command line. Most of the problems experienced by new users of Velvet revolve around constructing syntactically and semantically correct command lines, getting input files into acceptable formats and assessing the output. Here, we present Velvet Assembler Graphical User Environment (VAGUE), a multi-platform graphical front-end for Velvet. VAGUE aims to make sequence assembly accessible to a wider audience and to facilitate better usage amongst existing users of Velvet. © 2012 The Author. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Powell D.R."
+                    },
+                    {
+                        "name": "Seemann T."
+                    }
+                ],
+                "citationCount": 9,
+                "date": "2013-01-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "VAGUE: A graphical user interface for the Velvet assembler"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "20120606"
+    ]
+}

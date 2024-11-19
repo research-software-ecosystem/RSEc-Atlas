@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr268",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/clonality",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Irina Ostrovnaya",
+      "bsc:input": {
+        "@id": "_:N8439e8fb82694f8498d8e1bc190ab1f8"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N99f82a241dbe4eb3bb46782e5684ed1c"
+        },
+        {
+          "@id": "_:Ned2b7d44ad6a4e288a69bf6d1b50e4d0"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_2640"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr268"
+      },
+      "sc:description": "Statistical tests for clonality versus independence of tumors from the same patient based on their LOH or genomewide copy number profiles.",
+      "sc:featureList": {
+        "@id": "edam:operation_3196"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "Clonality",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/Clonality.html"
+      },
+      "sc:softwareVersion": "1.22.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/Clonality.html"
+    },
+    {
+      "@id": "_:N99f82a241dbe4eb3bb46782e5684ed1c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "_:Ned2b7d44ad6a4e288a69bf6d1b50e4d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N8439e8fb82694f8498d8e1bc190ab1f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence variations"
+    }
+  ]
+}

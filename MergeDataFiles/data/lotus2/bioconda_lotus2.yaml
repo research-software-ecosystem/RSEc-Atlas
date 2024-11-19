@@ -1,0 +1,56 @@
+about:
+  dev_url: https://github.com/hildebra/lotus2/
+  home: http://lotus2.earlham.ac.uk/
+  license: GPL-3.0-or-later
+  license_file: COPYING
+  summary: LotuS2 is a lightweight complete 16S/18S/ITS pipeline
+build:
+  noarch: generic
+  number: 1
+  run_exports:
+  - None
+extra:
+  identifiers:
+  - doi:10.1186/s40168-022-01365-1
+  - biotools:lotus2
+  recipe-maintainers:
+  - nsoranzo
+package:
+  name: lotus2
+  version: 2.34.1
+requirements:
+  run:
+  - r-base
+  - bioconductor-dada2
+  - bioconductor-phyloseq
+  - blast
+  - cd-hit
+  - clustalo
+  - fasttree
+  - hmmer >=3.1
+  - infernal
+  - iqtree
+  - itsx
+  - lambda >=3,<4
+  - lca >=0.25
+  - mafft
+  - minimap2
+  - perl
+  - perl-getopt-long
+  - pigz
+  - r-dplyr
+  - rdp_classifier
+  - rtk
+  - sdm ==2.18
+  - swarm
+  - unzip
+  - usearch >=12.0_beta,<13
+  - vsearch
+  - wget
+  - zip
+source:
+  sha256: fdda62d3ab02e37e160c0b1c36aeee43247838c271c99733be71d0bfbeb77419
+  url: https://github.com/hildebra/lotus2/archive/refs/tags/v2.34.1.tar.gz
+test:
+  commands:
+  - lotus2 -v

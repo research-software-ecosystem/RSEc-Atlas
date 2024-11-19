@@ -1,0 +1,186 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pitufo/cmd/sites.google.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 15,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pcbi.1000904",
+                            "pmcid": "PMC2936742",
+                            "pmid": "20838465",
+                            "ref_count": 23,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "Graph-based analysis of the metabolic exchanges between two co-resident intracellular symbionts, Baumannia cicadellinicola and Sulcia muelleri, with their insect host, Homalodisca coagulata.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/pitufosoftware&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/pitufosoftware&osid=1&passive=1209600&ifkv=AcMMx-fUMvdMdezN_X-gYbUcKQUWmh4qQY_nym8z4uAOijlnw0VCLbPvWFuJp7h1O4kEHqsMHz_eEg"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/pitufosoftware&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/pitufosoftware"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fpitufosoftware&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fpitufosoftware&ifkv=AcMMx-dmPOyCxueTZ8gzms3C3geyUPoPfykfpmPfZw-n9Rj1FDcduf-Ltp__XTInJyGm30TMXsnv2Q&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-416197175%3A1731725126757484&ddm=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/pitufosoftware"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fpitufosoftware"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pitufo",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/pitufosoftware"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fpitufosoftware"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

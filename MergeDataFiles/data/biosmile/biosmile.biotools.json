@@ -1,0 +1,113 @@
+{
+    "additionDate": "2017-02-14T09:36:45Z",
+    "biotoolsCURIE": "biotools:biosmile",
+    "biotoolsID": "biosmile",
+    "credit": [
+        {
+            "email": "hongjie@iis.sinica.edu.tw",
+            "name": "BIOSMILE Team",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "onlytaco@gmail.com",
+            "name": "BIOSMILE Team",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "sinyuhgs@iis.sinica.edu.tw",
+            "name": "BIOSMILE Team",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "thtsai@saturn.yzu.edu.tw",
+            "name": "BIOSMILE Team",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "BIOSMILE is a web-based NCBI PubMed  search tool. Users input keywords to be searched and BIOSMILE retrieves matching PubMed abstracts.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                },
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bws.iis.sinica.edu.tw/BWS/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "BIOSMILE",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "BIOSMILE web search (BWS), a web-based NCBI-PubMed search application, which can analyze articles for selected biomedical verbs and give users relational information, such as subject, object, location, manner, time, etc. After receiving keyword query input, BWS retrieves matching PubMed abstracts and lists them along with snippets by order of relevancy to protein-protein interaction. Users can then select articles for further analysis, and BWS will find and mark up biomedical relations in the text. The analysis results can be viewed in the abstract text or in table form. To date, BWS has been field tested by over 30 biologists and questionnaires have shown that subjects are highly satisfied with its capabilities and usability. BWS is accessible free of charge at http://bioservices.cse.yzu.edu.tw/BWS.",
+                "authors": [
+                    {
+                        "name": "Dai H.J."
+                    },
+                    {
+                        "name": "Hsu W.L."
+                    },
+                    {
+                        "name": "Huang C.H."
+                    },
+                    {
+                        "name": "Lin R.T."
+                    },
+                    {
+                        "name": "Tsai R.T."
+                    }
+                ],
+                "citationCount": 8,
+                "date": "2008-01-01T00:00:00Z",
+                "journal": "Nucleic acids research",
+                "title": "BIOSMILE web search: a web application for annotating biomedical entities and relations."
+            },
+            "pmid": "18515840"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        }
+    ],
+    "validated": 1
+}

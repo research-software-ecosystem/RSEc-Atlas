@@ -1,0 +1,227 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dolphinnext/suite/dolphinnext.umassmed.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "pmcid": "PMC6938066",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DolphinNext: A Graphical User Interface for Distributed Data Processing of High Throughput Genomics",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dolphinnext/web/dolphinnext.umassmed.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "pmcid": "PMC6938066",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DolphinNext: A Graphical User Interface for Distributed Data Processing of High Throughput Genomics",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/dolphinnext",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vpipe/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://viafoundry.umassmed.edu/vsso/api/v1/oauth/check?redirect_original=https://viafoundry.umassmed.edu/vpipe&redirect_uri=https://viafoundry.umassmed.edu/vpipe/php/receivetoken.php&response_type=code&client_id=vpipe-c45df5fhj&scope=offline_access"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

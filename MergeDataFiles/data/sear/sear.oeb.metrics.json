@@ -1,0 +1,501 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sear/cmd/www.github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0133492",
+                            "pmcid": "PMC4510569",
+                            "pmid": "26197475",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "Search Engine for Antimicrobial Resistance: A Cloud Compatible Pipeline and Web Interface for Rapidly Detecting Antimicrobial Resistance Genes Directly from Sequence Data.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/will-rowe/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://github.com/wpmr2/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.github.com/wpmr2/SEAR"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sear/db/www.github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0133492",
+                            "pmcid": "PMC4510569",
+                            "pmid": "26197475",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "Search Engine for Antimicrobial Resistance: A Cloud Compatible Pipeline and Web Interface for Rapidly Detecting Antimicrobial Resistance Genes Directly from Sequence Data.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/will-rowe/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://github.com/wpmr2/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.github.com/wpmr2/SEAR"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sear/web/www.github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pone.0133492",
+                            "pmcid": "PMC4510569",
+                            "pmid": "26197475",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "Search Engine for Antimicrobial Resistance: A Cloud Compatible Pipeline and Web Interface for Rapidly Detecting Antimicrobial Resistance Genes Directly from Sequence Data.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/will-rowe/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://github.com/wpmr2/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.github.com/wpmr2/SEAR"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sear",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/will-rowe/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://github.com/wpmr2/SEAR"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.github.com/wpmr2/SEAR"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

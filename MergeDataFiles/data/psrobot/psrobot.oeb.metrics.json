@@ -1,0 +1,167 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:psrobot/web/omicslab.genetics.ac.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "faq": true,
+                "general": true,
+                "help": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 134,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gks554",
+                            "pmcid": "PMC3394341",
+                            "pmid": "22693224",
+                            "ref_count": 48,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "PsRobot: a web-based plant small RNA meta-analysis toolbox.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/psrobot",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,249 @@
+{
+    "additionDate": "2015-11-08T14:38:34Z",
+    "biotoolsCURIE": "biotools:dasir",
+    "biotoolsID": "dasir",
+    "collectionID": [
+        "Bioconductor"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "ricard.illa@irbbarcelona.org",
+            "name": "Ricard Illa",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "ricard.illa@irbbarcelona.org",
+            "name": "Ricard Illa",
+            "typeRole": [
+                "Support"
+            ]
+        },
+        {
+            "name": "Anna Mantsoki",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "BioConductor",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "Oscar Flores",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "R package for programmatic retrieval of information from DAS servers.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/DASiR.html"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "ELIXIR-EE"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Data reference",
+                        "uri": "http://edamontology.org/data_2093"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Identifier",
+                        "uri": "http://edamontology.org/data_0842"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Annotation",
+                    "uri": "http://edamontology.org/operation_0226"
+                },
+                {
+                    "term": "Data handling",
+                    "uri": "http://edamontology.org/operation_2409"
+                },
+                {
+                    "term": "Service management",
+                    "uri": "http://edamontology.org/operation_3760"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Database search results",
+                        "uri": "http://edamontology.org/data_2080"
+                    },
+                    "format": [
+                        {
+                            "term": "Textual format",
+                            "uri": "http://edamontology.org/format_2330"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Ontology data",
+                        "uri": "http://edamontology.org/data_2353"
+                    },
+                    "format": [
+                        {
+                            "term": "Graph format",
+                            "uri": "http://edamontology.org/format_3617"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.bioconductor.org/packages//2.13/bioc/html/DASiR.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://bioconductor.org/"
+        }
+    ],
+    "name": "DASiR",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioConductor",
+    "publication": [
+        {
+            "doi": "10.1038/nmeth.3252",
+            "metadata": {
+                "abstract": "Bioconductor is an open-source, open-development software project for the analysis and comprehension of high-throughput data in genomics and molecular biology. The project aims to enable interdisciplinary research, collaboration and rapid development of scientific software. Based on the statistical programming language R, Bioconductor comprises 934 interoperable packages contributed by a large, diverse community of scientists. Packages cover a range of bioinformatic and statistical applications. They undergo formal initial review and continuous automated testing. We present an overview for prospective users and contributors.",
+                "authors": [
+                    {
+                        "name": "Anders S."
+                    },
+                    {
+                        "name": "Bravo H.C."
+                    },
+                    {
+                        "name": "Carey V.J."
+                    },
+                    {
+                        "name": "Carlson M."
+                    },
+                    {
+                        "name": "Carvalho B.S."
+                    },
+                    {
+                        "name": "Davis S."
+                    },
+                    {
+                        "name": "Gatto L."
+                    },
+                    {
+                        "name": "Gentleman R."
+                    },
+                    {
+                        "name": "Girke T."
+                    },
+                    {
+                        "name": "Gottardo R."
+                    },
+                    {
+                        "name": "Hahne F."
+                    },
+                    {
+                        "name": "Hansen K.D."
+                    },
+                    {
+                        "name": "Huber W."
+                    },
+                    {
+                        "name": "Irizarry R.A."
+                    },
+                    {
+                        "name": "Lawrence M."
+                    },
+                    {
+                        "name": "Love M.I."
+                    },
+                    {
+                        "name": "MaCdonald J."
+                    },
+                    {
+                        "name": "Morgan M."
+                    },
+                    {
+                        "name": "Obenchain V."
+                    },
+                    {
+                        "name": "Oles A.K."
+                    },
+                    {
+                        "name": "Pages H."
+                    },
+                    {
+                        "name": "Reyes A."
+                    },
+                    {
+                        "name": "Shannon P."
+                    },
+                    {
+                        "name": "Smyth G.K."
+                    },
+                    {
+                        "name": "Tenenbaum D."
+                    },
+                    {
+                        "name": "Waldron L."
+                    }
+                ],
+                "citationCount": 1410,
+                "date": "2015-01-01T00:00:00Z",
+                "journal": "Nature Methods",
+                "title": "Orchestrating high-throughput genomic analysis with Bioconductor"
+            },
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Plug-in"
+    ],
+    "topic": [
+        {
+            "term": "Computer science",
+            "uri": "http://edamontology.org/topic_3316"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.10.0"
+    ]
+}

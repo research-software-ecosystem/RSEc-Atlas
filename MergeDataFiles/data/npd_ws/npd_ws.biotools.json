@@ -1,0 +1,97 @@
+{
+    "additionDate": "2015-08-03T09:36:30Z",
+    "biotoolsCURIE": "biotools:npd_ws",
+    "biotoolsID": "npd_ws",
+    "credit": [
+        {
+            "name": "BioCatalogue",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Documentor"
+            ],
+            "url": "https://www.biocatalogue.org"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://npd.hgu.mrc.ac.uk/user/faqs"
+        }
+    ],
+    "description": "This service provides various ways to retrieve information from The Nuclear Protein Database.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://npd.hgu.mrc.ac.uk/user/services"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://npd.hgu.mrc.ac.uk/user/services",
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://www.biocatalogue.org/services/2062"
+        }
+    ],
+    "name": "NPD WS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioCatalogue",
+    "publication": [
+        {
+            "doi": "10.1093/emboj/21.6.1248",
+            "metadata": {
+                "abstract": "Bridging the gap between the number of gene sequences in databases and the number of gene products that have been functionally characterized in any way is a major challenge for biology. A key characteristic of proteins, which can begin to elucidate their possible functions, is their subcellular location. A number of experimental approaches can reveal the subcellular localization of proteins in mammalian cells. However, genome databases now contain predicted sequences for a large number of potentially novel proteins that have yet to be studied in any way, let alone have their subcellular localization determined. Here we ask whether using bioinformatics tools to analyse the sequence of proteins whose subnuclear localizations have been determined can reveal characteristics or signatures that might allow us to predict localization for novel protein sequences.",
+                "authors": [
+                    {
+                        "name": "Bickmore W.A."
+                    },
+                    {
+                        "name": "Sutherland H.G.E."
+                    }
+                ],
+                "citationCount": 55,
+                "date": "2002-03-15T00:00:00Z",
+                "journal": "EMBO Journal",
+                "title": "Addressing protein localization within the nucleus"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web API"
+    ],
+    "topic": [
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

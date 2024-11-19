@@ -1,0 +1,91 @@
+{
+    "additionDate": "2017-08-03T18:51:29Z",
+    "biotoolsCURIE": "biotools:microtaxi",
+    "biotoolsID": "microtaxi",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://metagenomics.iiserb.ac.in/microtaxi/team.php"
+        }
+    ],
+    "description": "Uses an taxon-specific gene based approach and provides an alternate valuable methodology to carry out the taxonomic classification of newly sequenced or existing bacterial genomes.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://metagenomics.iiserb.ac.in/microtaxi/tutorial.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://metagenomics.iiserb.ac.in/microtaxi/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/microtaxi-microbial-taxonomic-identification-and-classification-server.html"
+        }
+    ],
+    "name": "Microtaxi",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 Gupta and Sharma; licensee BioMed Central.Background: The correct taxonomic assignment of bacterial genomes is a primary and challenging task. With the availability of whole genome sequences, the gene content based approaches appear promising in inferring the bacterial taxonomy. The complete genome sequencing of a bacterial genome often reveals a substantial number of unique genes present only in that genome which can be used for its taxonomic classification. Results: In this study, we have proposed a comprehensive method which uses the taxon-specific genes for the correct taxonomic assignment of existing and new bacterial genomes. The taxon-specific genes identified at each taxonomic rank have been successfully used for the taxonomic classification of 2,342 genomes present in the NCBI genomes, 36 newly sequenced genomes, and 17 genomes for which the complete taxonomy is not yet known. This approach has been implemented for the development of a tool 'Microtaxi' which can be used for the taxonomic assignment of complete bacterial genomes. Conclusion: The taxon-specific gene based approach provides an alternate valuable methodology to carry out the taxonomic classification of newly sequenced or existing bacterial genomes.",
+                "authors": [
+                    {
+                        "name": "Gupta A."
+                    },
+                    {
+                        "name": "Sharma V.K."
+                    }
+                ],
+                "citationCount": 13,
+                "date": "2015-05-20T00:00:00Z",
+                "journal": "BMC Genomics",
+                "title": "Using the taxon-specific genes for the taxonomic classification of bacterial genomes"
+            },
+            "pmid": "25990029"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Microbiology",
+            "uri": "http://edamontology.org/topic_3301"
+        },
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ],
+    "validated": 1
+}

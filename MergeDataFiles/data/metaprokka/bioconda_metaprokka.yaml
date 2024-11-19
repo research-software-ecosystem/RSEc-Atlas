@@ -1,0 +1,37 @@
+about:
+  dev_url: https://github.com/telatin/metaprokka
+  home: https://github.com/telatin/metaprokka
+  license: GPL-3.0-only
+  license_family: GPL
+  license_file: LICENSE
+  summary: A fork of Prokka using Prodigal-GV for phage annotation and metagenome/metavirome
+    tweaks
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - None
+extra:
+  identifiers:
+  - biotools:metaprokka
+package:
+  name: metaprokka
+  version: 1.15.0
+requirements:
+  host:
+  - perl
+  - prokka =1.14.6
+  - perl-bioperl >=1.7.2
+  run:
+  - perl
+  - prokka =1.14.6
+  - prodigal-gv >=2.11.0
+  - perl-fastx-reader >=1.11.0
+source:
+  sha256: 2faf2759520681335f039d37186916ebf8a5dfc9cb90e67286371535afe2f561
+  url: https://github.com/telatin/metaprokka/archive/v1.15.0.tar.gz
+test:
+  commands:
+  - metaprokka --listdb
+  - metaprokka --version 2>&1 | grep 1.15.0
+  - prokka-gv --verison 2>&1  | grep 1.15.0

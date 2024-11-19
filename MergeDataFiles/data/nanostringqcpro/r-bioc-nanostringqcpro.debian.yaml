@@ -1,0 +1,32 @@
+package: r-bioc-nanostringqcpro
+distribution: debian
+release: bookworm
+component: main
+version: 1.30.0
+source: r-bioc-nanostringqcpro
+homepage: https://bioconductor.org/packages/NanoStringQCPro/
+license: unknown
+blend: debian-med
+description_md5: ee8fee9f4de4c76d9993356e0990d7fb
+registries:
+- entry: nanostringqcpro
+  name: bio.tools
+- entry: bioconductor-nanstringqcpro
+  name: conda:bioconda
+popcon:
+- insts: 14
+  olde: 10
+  recent: 2
+  vote: 2
+descr:
+- package: r-bioc-nanostringqcpro
+  description: Behandling og QA for NanoString mRNA-udtryksdata
+  long_description: " NanoStringQCPro tilbyder et sæt af kvalitetsmålinger, der kan
+    bruges til at vurdere kvaliteten af NanoString mRNA-genudtryksdata - dvs. for
+    at identificere outlier probes og outlier samples. Tilbyder også forskellige baggrundssubtraktion
+    og normaliseringsfremgangsmåder for disse data. Det viser forslag for flagning
+    af samples/probes og et nemt delbart kontrolresultat i html-kvalitet.\n"
+  release: bookworm
+  description_md5: ee8fee9f4de4c76d9993356e0990d7fb
+  license: unknown
+  blend: debian-med

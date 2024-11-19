@@ -1,0 +1,41 @@
+about:
+  home: https://sourceforge.net/projects/plek
+  license: GNU GPL v3
+  license_family: GPL
+  license_file: ''
+  summary: Predictor of long non-coding RNAs and mRNAs based on k-mer scheme.
+build:
+  number: 8
+  skip: true
+extra:
+  identifiers:
+  - biotools:plek
+package:
+  name: plek
+  version: '1.2'
+requirements:
+  build:
+  - None
+  - None
+  host:
+  - python
+  run:
+  - python
+source:
+  patches:
+  - dos2unix.patch
+  sha256: 6b6962376aeb3340916b58273cbd96d80aff57596cfafd25c665005cccd070bc
+  url: https://sourceforge.net/projects/plek/files/PLEK.1.2.tar.gz
+test:
+  commands:
+  - PLEK | grep "PLEK" > /dev/null
+  - PLEK_spsn | grep "PLEK_spsn" > /dev/null
+  - svm-predict | grep "svm-predict" > /dev/null
+  - svm-scale | grep "svm-scale" > /dev/null
+  - svm-train | grep "svm-train" > /dev/null
+  - PLEK.py | grep "PLEK.py" > /dev/null
+  - PLEKModelling.py | grep "PLEKModelling.py" > /dev/null
+  - svm-easy.py | grep "svm-easy.py" > /dev/null
+  - svm_grid_modelling.py | grep "grid.py" > /dev/null
+  - svm_grid_modelling_singlet.py | grep "grid.py" > /dev/null
+  - svm-subset.py | grep "svm-subset.py" > /dev/null

@@ -1,0 +1,31 @@
+about:
+  home: https://github.com/pezmaster31/bamtools
+  license: MIT
+  summary: C++ API & command-line toolkit for working with BAM data
+build:
+  number: 5
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:bamtools
+package:
+  name: bamtools
+  version: 2.5.2
+requirements:
+  build:
+  - None
+  - cmake
+  - make
+  host:
+  - zlib
+  run: null
+source:
+  sha256: 4d8b84bd07b673d0ed41031348f10ca98dd6fa6a4460f9b9668d6f1d4084dfc8
+  url: https://github.com/pezmaster31/bamtools/archive/v2.5.2.tar.gz
+test:
+  commands:
+  - bamtools --help

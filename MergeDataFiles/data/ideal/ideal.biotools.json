@@ -1,0 +1,126 @@
+{
+    "additionDate": "2017-03-30T23:00:05Z",
+    "biotoolsCURIE": "biotools:ideal",
+    "biotoolsID": "ideal",
+    "credit": [
+        {
+            "email": "sfukuchi@maebashi-it.ac.jp",
+            "name": "Satoshi Fukuchi",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/contact.html"
+        }
+    ],
+    "description": "Collection of experimentally verified intrinsically disordered proteins (IDPs) or intrinsically disordered regions (IDRs). Manually curated annotations on IDPs in locations, structures, and functional sites such as protein binding regions and posttranslational modification sites.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/help_main.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Post-translation modification site prediction",
+                    "uri": "http://edamontology.org/operation_0417"
+                },
+                {
+                    "term": "Protein feature detection",
+                    "uri": "http://edamontology.org/operation_3092"
+                },
+                {
+                    "term": "Protein secondary structure prediction (coils)",
+                    "uri": "http://edamontology.org/operation_0470"
+                },
+                {
+                    "term": "Text annotation",
+                    "uri": "http://edamontology.org/operation_3778"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/",
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "IDEAL",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "IDEAL, Intrinsically Disordered proteins with Extensive Annotations and Literature (http://www. ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/), is a collection of knowledge on experimentally verified intrinsically disordered proteins. IDEAL contains manual annotations by curators on intrinsically disordered regions, interaction regions to other molecules, post-translational modification sites, references and structural domain assignments. In particular, IDEAL explicitly describes protean segments that can be transformed from a disordered state to an ordered state. Since in most cases they can act as molecular recognition elements upon binding of partner proteins, IDEAL provides a data resource for functional regions of intrinsically disordered proteins. The information in IDEAL is provided on a user-friendly graphical view and in a computer-friendly XML format. © The Author(s) 2011.",
+                "authors": [
+                    {
+                        "name": "Amemiya T."
+                    },
+                    {
+                        "name": "Fukuchi S."
+                    },
+                    {
+                        "name": "Hiroaki H."
+                    },
+                    {
+                        "name": "Hosoda K."
+                    },
+                    {
+                        "name": "Koike R."
+                    },
+                    {
+                        "name": "Murakami S.D."
+                    },
+                    {
+                        "name": "Nobe Y."
+                    },
+                    {
+                        "name": "Ota M."
+                    },
+                    {
+                        "name": "Sakamoto S."
+                    }
+                ],
+                "citationCount": 63,
+                "date": "2012-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "IDEAL: Intrinsically disordered proteins with extensive annotations and literature"
+            },
+            "pmid": "22067451"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Protein binding sites",
+            "uri": "http://edamontology.org/topic_3534"
+        },
+        {
+            "term": "Protein disordered structure",
+            "uri": "http://edamontology.org/topic_3538"
+        },
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Protein modifications",
+            "uri": "http://edamontology.org/topic_0601"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,89 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phagepromoter/web/www.bit.do",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz580",
+                            "pmid": "31359029",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Predicting promoters in phage genomes using PhagePromoter.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bit.do/phagepromoter"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://galaxy.bio.di.uminho.pt/?tool_id=get_proms&version=0.1.0&__identifer=4u05obc3o5w"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/phagepromoter",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bit.do/phagepromoter"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://galaxy.bio.di.uminho.pt/?tool_id=get_proms&version=0.1.0&__identifer=4u05obc3o5w"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

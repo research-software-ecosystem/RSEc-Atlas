@@ -1,0 +1,140 @@
+{
+    "additionDate": "2017-02-14T09:35:40Z",
+    "biotoolsCURIE": "biotools:idt_scitools",
+    "biotoolsID": "idt_scitools",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://eu.idtdna.com/pages/about/contact-us"
+        }
+    ],
+    "description": "Suite of online tools for the analysis and design of DNA and RNA oligomers. Tools include those for selection of PCR primers, antisense oligonucleotides, or sequences for RNA interference, as well as tools for calculation of secondary structures.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://eu.idtdna.com/pages/tools"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "PCR primer design",
+                    "uri": "http://edamontology.org/operation_0308"
+                },
+                {
+                    "term": "Primer and probe design",
+                    "uri": "http://edamontology.org/operation_2419"
+                },
+                {
+                    "term": "RNA secondary structure alignment",
+                    "uri": "http://edamontology.org/operation_0502"
+                },
+                {
+                    "term": "RNA secondary structure analysis",
+                    "uri": "http://edamontology.org/operation_2439"
+                },
+                {
+                    "term": "Structure visualisation",
+                    "uri": "http://edamontology.org/operation_0570"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.idtdna.com/SciTools/SciTools.aspx",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "IDT SciTools",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "DNA and RNA oligomers are used in a myriad of diverse biological and biochemical experiments. These oligonucleotides are designed to have unique biophysical, chemical and hybridization properties. We have created an integrated set of bioinformatics tools that predict the properties of native and chemically modified nucleic acids and assist in their design. Researchers can select PCR primers, probes and antisense oligonucleotides, find the most suitable sequences for RNA interference, calculate stable secondary structures, and evaluate the potential for two sequences to interact. The latest, most accurate thermodynamic algorithms and models are implemented. This free software is available at http://www.idtdna.com/SciTools/SciTools.aspx.",
+                "authors": [
+                    {
+                        "name": "Almabrazi H.G."
+                    },
+                    {
+                        "name": "Dawson R.B."
+                    },
+                    {
+                        "name": "Garretson J."
+                    },
+                    {
+                        "name": "Lin Y."
+                    },
+                    {
+                        "name": "Manthey J.A."
+                    },
+                    {
+                        "name": "McEntaggart N.O."
+                    },
+                    {
+                        "name": "McQuisten K.A."
+                    },
+                    {
+                        "name": "Owczarzy R."
+                    },
+                    {
+                        "name": "Pedersen K.F."
+                    },
+                    {
+                        "name": "Peek A.S."
+                    },
+                    {
+                        "name": "Sailor C.A."
+                    },
+                    {
+                        "name": "Tataurov A.V."
+                    },
+                    {
+                        "name": "Wu Y."
+                    }
+                ],
+                "citationCount": 236,
+                "date": "2008-01-01T00:00:00Z",
+                "journal": "Nucleic acids research",
+                "title": "IDT SciTools: a suite for analysis and design of nucleic acid oligomers."
+            },
+            "pmid": "18440976"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Nucleic acid structure analysis",
+            "uri": "http://edamontology.org/topic_0097"
+        },
+        {
+            "term": "Probes and primers",
+            "uri": "http://edamontology.org/topic_0632"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-amap:0.8_14/cmd/mulcyber.toulouse.inra.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 401,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://projects.pages.mia.inra.fr/auth?domain=http://mulcyber.toulouse.inra.fr&state=Ndym11hBdPichU9-xKpPag=="
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/r-amap",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 401,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://projects.pages.mia.inra.fr/auth?domain=http://mulcyber.toulouse.inra.fr&state=lui5pOaseWrXaHPrWivdVQ=="
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

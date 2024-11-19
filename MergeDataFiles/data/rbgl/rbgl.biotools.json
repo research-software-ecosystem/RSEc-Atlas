@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-01-17T15:04:16Z",
+    "biotoolsCURIE": "biotools:rbgl",
+    "biotoolsID": "rbgl",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "maintainer@bioconductor.org",
+            "name": "BioConductor Package Maintainer",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A fairly extensive and comprehensive interface to the graph algorithms contained in the BOOST library.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/RBGL.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/RBGL_1.50.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/RBGL.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "license": "Artistic-2.0",
+    "link": [
+        {
+            "type": [
+                "Mirror"
+            ],
+            "url": "http://www.bioconductor.org"
+        }
+    ],
+    "name": "RBGL",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/bth458",
+            "metadata": {
+                "abstract": "Summary: In this paper, we review the central concepts and implementations of tools for working with network structures in Bioconductor. Interfaces to open source resources for visualization (AT&T Graphviz) and network algorithms (Boost) have been developed to support analysis of graphical structures in genomics and computational biology. © Oxford University Press 2004; all rights reserved.",
+                "authors": [
+                    {
+                        "name": "Carey V.J."
+                    },
+                    {
+                        "name": "Gentleman R."
+                    },
+                    {
+                        "name": "Gentry J."
+                    },
+                    {
+                        "name": "Whalen E."
+                    }
+                ],
+                "citationCount": 63,
+                "date": "2005-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Network structures and algorithms in Bioconductor"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.50.0"
+    ]
+}

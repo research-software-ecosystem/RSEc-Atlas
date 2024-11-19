@@ -1,0 +1,469 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:taxonomy_krona_chart:2.0.0/web/galaxy.pasteur.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 49,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu135",
+                            "pmcid": "PMC4071203",
+                            "pmid": "24618473",
+                            "ref_count": 30,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Orione, a web-based framework for NGS analysis in microbiology.",
+                            "year": 2014
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 952,
+                            "citations": [
+                                {
+                                    "count": 29,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 150,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 196,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 213,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 273,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkw343",
+                            "pmcid": "PMC4987906",
+                            "pmid": "27137889",
+                            "ref_count": 21,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update.",
+                            "year": 2016
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.7490/f1000research.1114334.1",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fodoppelt%2Fkronatools%2Ftaxonomy_krona_chart%2F2.0.0"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:taxonomy_krona_chart:0.4.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:taxonomy_krona_chart:2.6.1/workflow/toolshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 31,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu135",
+                            "pmcid": "PMC4071203",
+                            "pmid": "24618473",
+                            "ref_count": 26,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Orione, a web-based framework for NGS analysis in microbiology.",
+                            "year": 2014
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 176,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-12-385",
+                            "pmcid": "PMC3190407",
+                            "pmid": "21961884",
+                            "ref_count": 16,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Interactive metagenomic visualization in a Web browser.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/taxonomy_krona_chart",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fodoppelt%2Fkronatools%2Ftaxonomy_krona_chart%2F2.0.0"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

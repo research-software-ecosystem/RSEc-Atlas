@@ -1,0 +1,100 @@
+{
+    "additionDate": "2017-12-18T00:09:30Z",
+    "biotoolsCURIE": "biotools:motifregressor",
+    "biotoolsID": "motifregressor",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://liulab.dfci.harvard.edu/"
+        }
+    ],
+    "description": "MOTIFREGRESSOR for discovering sequence motifs upstream of genes that undergo expression changes in a given condition. The method combines the advantages of matrix-based motif finding and oligomer motif-expression regression analysis, resulting in high sensitivity and specificity. MOTIF REGRESSOR is particularly effective in discovering expression-mediating motifs of medium to long width with multiple degenerate positions.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Regression",
+                    "uri": "http://edamontology.org/operation_3659"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Regression analysis",
+                    "uri": "http://edamontology.org/operation_3659"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.math.umass.edu/~conlon/mr.html",
+    "language": [
+        "Perl",
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/motifregressor-find-dna-sequence-motifs.html"
+        }
+    ],
+    "name": "MotifRegressor",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1073/pnas.0630591100",
+            "metadata": {
+                "abstract": "We propose MOTIF REGRESSOR for discovering sequence motifs upstream of genes that undergo expression changes in a given condition. The method combines the advantages of matrix-based motif finding and oligomer motif-expression regression analysis, resulting in high sensitivity and specificity. MOTIF REGRESSOR is particularly effective in discovering expression-mediating motifs of medium to long width with multiple degenerate positions. When applied to Saccharomyces cerevisiae, MOTIF REGRESSOR identified the ROX1 and YAP1 motifs from Rox1p and Yap1p overexpression experiments, respectively; predicted that Gcn4p may have increased activity in YAP1 deletion mutants; reported a group of motifs (including GCN4, PHO4, MET4, STRE, USR1, RAP1, M3A, and M3B) that may mediate the transcriptional response to amino acid starvation; and found all of the known cell-cycle regulation motifs from 18 expression microarrays over two cell cycles.",
+                "authors": [
+                    {
+                        "name": "Conlon E.M."
+                    },
+                    {
+                        "name": "Lieb J.D."
+                    },
+                    {
+                        "name": "Liu J.S."
+                    },
+                    {
+                        "name": "Liu X.S."
+                    }
+                ],
+                "citationCount": 269,
+                "date": "2003-03-18T00:00:00Z",
+                "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+                "title": "Integrating regulatory motif discovery and genome-wide expression analysis"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1
+}

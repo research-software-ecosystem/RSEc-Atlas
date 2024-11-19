@@ -1,0 +1,262 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rapsearch/cmd/omics.informatics.indiana.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": false,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 61,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-12-159",
+                            "pmcid": "PMC3113943",
+                            "pmid": "21575167",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1985"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "RAPSearch: a fast protein similarity search tool for short reads.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://omics.informatics.indiana.edu/mg/RAPSearch2/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rapsearch:2.24/cmd/omics.informatics.indiana.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://omics.informatics.indiana.edu/mg/RAPSearch2/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/rapsearch",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://omics.informatics.indiana.edu/mg/RAPSearch2/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

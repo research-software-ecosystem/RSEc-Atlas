@@ -1,0 +1,47 @@
+package: r-bioc-impute
+distribution: debian
+release: sid
+component: main
+version: 1.78.0
+source: r-bioc-impute
+homepage: https://bioconductor.org/packages/impute/
+license: unknown
+blend: debian-med
+description_md5: 66b3e6b35a247ab9668a0eb5a82de2e8
+registries:
+- entry: OMICS_31016
+  name: OMICtools
+- entry: impute
+  name: bio.tools
+- entry: bioconductor-impute
+  name: conda:bioconda
+popcon:
+- insts: 67
+  olde: 52
+  recent: 7
+  vote: 8
+descr:
+- package: r-bioc-impute
+  description: imputazione per dati di microarray
+  long_description: " Pacchetto R che fornisce una funzione per eseguire l'imputazione
+    per dati\n di microarray (attualmente solo KNN).\n"
+  release: sid
+  description_md5: 66b3e6b35a247ab9668a0eb5a82de2e8
+  license: unknown
+  blend: debian-med
+- package: r-bioc-impute
+  description: Imputation for microarray data
+  long_description: " R package which provide a function to perform imputation for\n
+    microarray data (currently KNN only).\n"
+  release: sid
+  description_md5: 66b3e6b35a247ab9668a0eb5a82de2e8
+  license: unknown
+  blend: debian-med
+- package: r-bioc-impute
+  description: Imputering for microarray-data
+  long_description: " R-pakke som tilbyder en funktion til at udføre imputering for\n
+    microarray-data (i øjeblikket kun KNN).\n"
+  release: sid
+  description_md5: 66b3e6b35a247ab9668a0eb5a82de2e8
+  license: unknown
+  blend: debian-med

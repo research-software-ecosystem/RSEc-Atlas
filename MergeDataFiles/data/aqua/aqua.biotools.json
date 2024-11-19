@@ -1,0 +1,98 @@
+{
+    "additionDate": "2017-08-03T18:35:54Z",
+    "biotoolsCURIE": "biotools:aqua",
+    "biotoolsID": "aqua",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.nmr.chem.uu.nl/Main/index.php"
+        }
+    ],
+    "description": "Suite of programs for Analyzing the QUAlity of biomolecular structures that were determined via NMR spectroscopy.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://code.google.com/archive/p/aquad/source/default/source"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein geometry validation",
+                    "uri": "http://edamontology.org/operation_1844"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://code.google.com/archive/p/aquad/",
+    "language": [
+        "C",
+        "Fortran"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/aqua-3-2-analyze-quality-biomolecular-structures.html"
+        }
+    ],
+    "name": "AQUA",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The AQUA and PROCHECK-NMR programs provide a means of validating the geometry and restraint violations of an ensemble of protein structures solved by solution NMR. The outputs include a detailed breakdown of the restraint violations, a number of plots in PostScript format and summary statistics. These various analyses indicate both the degree of agreement of the model structures with the experimental data, and the quality of their geometrical properties. They are intended to be of use both to support ongoing NMR structure determination and in the validation of the final results. © 1996 ESCOM Science Publishers B.V.",
+                "authors": [
+                    {
+                        "name": "Kaptein R."
+                    },
+                    {
+                        "name": "Laskowski R.A."
+                    },
+                    {
+                        "name": "MacArthur M.W."
+                    },
+                    {
+                        "name": "Rullmann J.A.C."
+                    },
+                    {
+                        "name": "Thornton J.M."
+                    }
+                ],
+                "citationCount": 4115,
+                "date": "1996-01-01T00:00:00Z",
+                "journal": "Journal of Biomolecular NMR",
+                "title": "AQUA and PROCHECK-NMR: Programs for checking the quality of protein structures solved by NMR"
+            },
+            "pmid": "9008363"
+        }
+    ],
+    "toolType": [
+        "Suite"
+    ],
+    "topic": [
+        {
+            "term": "NMR",
+            "uri": "http://edamontology.org/topic_0593"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        }
+    ],
+    "validated": 1
+}

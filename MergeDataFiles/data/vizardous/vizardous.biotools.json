@@ -1,0 +1,116 @@
+{
+    "additionDate": "2017-08-03T19:04:15Z",
+    "biotoolsCURIE": "biotools:vizardous",
+    "biotoolsID": "vizardous",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.fz-juelich.de/ibg/ibg-1/EN/Research/SystemsBiotechnology/modsim/modsim_node.html"
+        }
+    ],
+    "description": "Software for the evaluation of single-cell experiments. While its core functionality is the visualization of time-resolved, single-cell but also population data, it can be used for the automated/scripted analysis of data as well.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://github.com/modsim/vizardous/blob/master/doc/Vizardous-Manual.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Single particle analysis",
+                    "uri": "http://edamontology.org/operation_3457"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/modsim/vizardous",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/vizardous-analysis-of-microbial-populations-with-single-cell-resolution.html"
+        }
+    ],
+    "name": "Vizardous",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press. All rights reserved.Motivation: Single cell time-lapse microscopy is a powerful method for investigating heterogeneous cell behavior. Advances in microfluidic lab-on-a-chip technologies and live-cell imaging render the parallel observation of the development of individual cells in hundreds of populations possible. While image analysis tools are available for cell detection and tracking, biologists are still confronted with the challenge of exploring and evaluating this data. Results: We present the software tool Vizardous that assists scientists with explorative analysis and interpretation tasks of single cell data in an interactive, configurable and visual way. With Vizardous, lineage tree drawings can be augmented with various, time-resolved cellular characteristics. Associated statistical moments bridge the gap between single cell and the population-average level.",
+                "authors": [
+                    {
+                        "name": "Azzouzi C.E."
+                    },
+                    {
+                        "name": "Grunberger A."
+                    },
+                    {
+                        "name": "Helfrich S."
+                    },
+                    {
+                        "name": "Kohlheyer D."
+                    },
+                    {
+                        "name": "Noh K."
+                    },
+                    {
+                        "name": "Probst C."
+                    },
+                    {
+                        "name": "Seiffarth J."
+                    },
+                    {
+                        "name": "Wiechert W."
+                    }
+                ],
+                "citationCount": 8,
+                "date": "2015-06-18T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Vizardous: Interactive analysis of microbial populations with single cell resolution"
+            },
+            "pmid": "26261223"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Biological imaging",
+            "uri": "http://edamontology.org/topic_3383"
+        },
+        {
+            "term": "Cell biology",
+            "uri": "http://edamontology.org/topic_2229"
+        },
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        }
+    ],
+    "validated": 1
+}

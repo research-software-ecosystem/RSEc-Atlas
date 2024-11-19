@@ -1,0 +1,92 @@
+{
+    "additionDate": "2017-08-03T18:36:51Z",
+    "biotoolsCURIE": "biotools:bfc",
+    "biotoolsID": "bfc",
+    "credit": [
+        {
+            "name": "Heng Li",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://lh3lh3.users.sourceforge.net/"
+        }
+    ],
+    "description": "Standalone high-performance tool for correcting sequencing errors from Illumina sequencing data. It is specifically designed for high-coverage whole-genome human data, though also performs well for small genomes.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/lh3/bfc"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequencing error detection",
+                    "uri": "http://edamontology.org/operation_3195"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/lh3/bfc",
+    "language": [
+        "C",
+        "C++",
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/bfc-high-performance-error-correction-for-illumina-resequencing-data.html"
+        }
+    ],
+    "name": "BFC",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press.Summary: BFC is a free, fast and easy-to-use sequencing error corrector designed for Illumina short reads. It uses a non-greedy algorithm but still maintains a speed comparable to implementations based on greedy methods. In evaluations on real data, BFC appears to correct more errors with fewer overcorrections in comparison to existing tools. It particularly does well in suppressing systematic sequencing errors, which helps to improve the base accuracy of de novo assemblies.",
+                "authors": [
+                    {
+                        "name": "Li H."
+                    }
+                ],
+                "citationCount": 88,
+                "date": "2015-02-06T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "BFC: Correcting Illumina sequencing errors"
+            },
+            "pmid": "25953801"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        },
+        {
+            "term": "Whole genome sequencing",
+            "uri": "http://edamontology.org/topic_3673"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,158 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/genomicinteractions",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        "Malcolm Perry",
+        "Liz Ing-Simmons"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N1043d0e501664987ae915b260ffee51a"
+        },
+        {
+          "@id": "_:Na6767c6fef1f43e0b7c2d71dbd860a18"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nd8b751490a6d4aa891fac19570e91f82"
+        },
+        {
+          "@id": "_:N21ece4248f51487e94fbd833d3c88c17"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12864-015-2140-x"
+      },
+      "sc:description": "R package for handling Genomic interaction data, such as ChIA-PET/Hi-C, annotating genomic features with interaction information and producing various plots/statistics.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0362"
+        },
+        {
+          "@id": "edam:operation_2949"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "GenomicInteractions",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/GenomicInteractions.html"
+      },
+      "sc:softwareVersion": "1.8.1",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/GenomicInteractions.html"
+    },
+    {
+      "@id": "_:Nd8b751490a6d4aa891fac19570e91f82",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N21ece4248f51487e94fbd833d3c88c17",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N1043d0e501664987ae915b260ffee51a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:Na6767c6fef1f43e0b7c2d71dbd860a18",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12864-015-2140-x",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

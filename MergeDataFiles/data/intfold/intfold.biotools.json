@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-02-14T09:35:42Z",
+    "biotoolsCURIE": "biotools:intfold",
+    "biotoolsID": "intfold",
+    "credit": [
+        {
+            "email": "l.j.mcguffin@reading.ac.uk",
+            "name": "Dr Liam J. McGuffin",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Integrated web resource for protein folding recognition, 3D model quality assessment, intrinsic disorder prediction, domain prediction and ligand binding site prediction.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.reading.ac.uk/bioinf/IntFOLD/IntFOLD_help.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein binding site prediction",
+                    "uri": "http://edamontology.org/operation_2575"
+                },
+                {
+                    "term": "Protein fold recognition",
+                    "uri": "http://edamontology.org/operation_0303"
+                },
+                {
+                    "term": "Protein folding analysis",
+                    "uri": "http://edamontology.org/operation_2415"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.reading.ac.uk/bioinf/IntFOLD/",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "IntFOLD",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The IntFOLD server is a novel independent server that integrates several cutting edge methods for the prediction of structure and function from sequence. Our guiding principles behind the server development were as follows: (i) to provide a simple unified resource that makes our prediction software accessible to all and (ii) to produce integrated output for predictions that can be easily interpreted. The output for predictions is presented as a simple table that summarizes all results graphically via plots and annotated 3D models. The raw machine readable data files for each set of predictions are also provided for developers, which comply with the Critical Assessment of Methods for Protein Structure Prediction (CASP) data standards. The server comprises an integrated suite of five novel methods: nFOLD4, for tertiary structure prediction; ModFOLD 3.0, for model quality assessment; DISOclust 2.0, for disorder prediction; DomFOLD 2.0 for domain prediction; and FunFOLD 1.0, for ligand binding site prediction. Predictions from the IntFOLD server were found to be competitive in several categories in the recent CASP9 experiment. The IntFOLD server is available at the following web site: http://www.reading.ac.uk/bioinf/IntFOLD/. © 2011 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Buenavista M.T."
+                    },
+                    {
+                        "name": "McGuffin L.J."
+                    },
+                    {
+                        "name": "Roche D.B."
+                    },
+                    {
+                        "name": "Tetchner S.J."
+                    }
+                ],
+                "citationCount": 79,
+                "date": "2011-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "The IntFOLD server: An integrated web resource for protein fold recognition, 3D model quality assessment, intrinsic disorder prediction, domain prediction and ligand binding site prediction"
+            },
+            "pmid": "21459847"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Nucleic acid sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3511"
+        },
+        {
+            "term": "Protein binding sites",
+            "uri": "http://edamontology.org/topic_3534"
+        },
+        {
+            "term": "Protein folding, stability and design",
+            "uri": "http://edamontology.org/topic_0130"
+        },
+        {
+            "term": "Protein folds and structural domains",
+            "uri": "http://edamontology.org/topic_0736"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

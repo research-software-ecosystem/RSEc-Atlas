@@ -1,0 +1,208 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0001-7484-6031",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-1669-6482",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13007-018-0345-0",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/dinar",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-1669-6482"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N6c0e4c3bbdb447d19522a5e62f1184d4"
+        },
+        {
+          "@id": "_:N0f6a9b2ccb3947e3a5a49b7594b476fc"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N0315ba96c6cf46a9bbf35908dcf4115f"
+        },
+        {
+          "@id": "_:Nd545ed7709a447308871bbc8b21fddef"
+        },
+        {
+          "@id": "_:N3d4c3c4b052e40af841bd680a8147ea2"
+        },
+        {
+          "@id": "_:N5533f710fed243f89059d85db72f3418"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:author": {
+        "@id": "http://orcid.org/0000-0002-1669-6482"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13007-018-0345-0"
+      },
+      "sc:contributor": {
+        "@id": "https://orcid.org/0000-0001-7484-6031"
+      },
+      "sc:description": "Differential Network Analysis in R. Reveals hidden patterns of plant signaling dynamics. DiNAR presents three main functions: dynamic visualisation of complex multi-conditional experiments, identification of strong differential interactions, and recall of latent effects that are present in multi-conditional experiments. Furthermore, it can manage other background knowledge networks in combination with experimental dataset of interest such as transcriptomics, proteomics, metabolomics.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_3927"
+        },
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_0571"
+        },
+        {
+          "@id": "edam:operation_3925"
+        },
+        {
+          "@id": "edam:operation_3744"
+        },
+        {
+          "@id": "edam:operation_3083"
+        },
+        {
+          "@id": "edam:operation_3926"
+        },
+        {
+          "@id": "edam:operation_3432"
+        },
+        {
+          "@id": "edam:operation_3928"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "DiNAR",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/NIB-SI/DiNAR"
+      },
+      "sc:softwareVersion": "3",
+      "sc:url": "https://github.com/NIB-SI/DiNAR"
+    },
+    {
+      "@id": "_:N6c0e4c3bbdb447d19522a5e62f1184d4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N0f6a9b2ccb3947e3a5a49b7594b476fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N0315ba96c6cf46a9bbf35908dcf4115f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nd545ed7709a447308871bbc8b21fddef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2984"
+      },
+      "sc:name": "Pathway or network report"
+    },
+    {
+      "@id": "_:N3d4c3c4b052e40af841bd680a8147ea2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N5533f710fed243f89059d85db72f3418",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    }
+  ]
+}

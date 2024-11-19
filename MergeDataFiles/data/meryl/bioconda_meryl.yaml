@@ -1,0 +1,38 @@
+about:
+  dev_url: https://github.com/marbl/meryl
+  doc_url: https://github.com/marbl/meryl
+  home: https://github.com/marbl/meryl
+  license: Public Domain
+  summary: meryl is a multi-threaded, multi-process, out-of-core k-mer counter
+build:
+  number: 0
+  run_exports:
+  - None
+extra:
+  identifiers:
+  - biotools:meryl
+  - usegalaxy-eu:meryl
+  - doi:10.1186/s13059-020-02134-9
+package:
+  name: meryl
+  version: 1.4.1
+requirements:
+  build:
+  - None
+  - make
+  host:
+  - llvm-openmp
+  - libgomp
+source:
+  patches:
+  - 0001-Do-not-bail-out-for-Clang-on-macOS.patch
+  - 0002-macos-cmath.patch
+  sha256: adaa713b8cd9151db2a08e7eadd8114d16bf91dae0d191674b75d7be72bdd53d
+  url: https://github.com/marbl/meryl/releases/download/v1.4.1/meryl-1.4.1.tar.xz
+test:
+  commands:
+  - 'meryl 2>&1 | grep "usage: meryl"'
+  - 'meryl-analyze 2>&1 | grep "usage: meryl-analyze"'
+  - 'meryl-import 2>&1 | grep "usage: meryl-import"'
+  - 'meryl-lookup 2>&1 | grep "usage: meryl-lookup"'
+  - 'meryl-simple 2>&1 | grep "usage: meryl-simple"'

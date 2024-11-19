@@ -1,0 +1,46 @@
+about:
+  home: https://github.com/voutcn/megahit
+  license: GPL-3.0
+  license_family: GPL
+  license_file: LICENSE
+  summary: 'MEGAHIT: An ultra-fast single-node solution for large and complex
+
+    metagenomics assembly via succinct de Bruijn graph'
+build:
+  number: 5
+  run_exports:
+  - None
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:megahit
+  - doi:10.1093/bioinformatics/btv033
+package:
+  name: megahit
+  version: 1.2.9
+requirements:
+  build:
+  - make
+  - cmake
+  - None
+  - None
+  - llvm-openmp
+  host:
+  - zlib
+  - llvm-openmp
+  run:
+  - zlib
+  - llvm-openmp
+  - python
+source:
+  patches:
+  - linux-aarch64-support-pr-368.patch
+  sha256: 09026eb07cc4e2d24f58b0a13f7a826ae8bb73da735a47cb1cbe6e4693118852
+  url: https://github.com/voutcn/megahit/archive/v1.2.9.tar.gz
+test:
+  commands:
+  - megahit --test || (echo "error log:" && cat /tmp/megahit_test_*/log && exit 1)
+  - megahit --test --kmin-1pass || (echo "error log:" && cat /tmp/megahit_test_*/log
+    && exit 1)

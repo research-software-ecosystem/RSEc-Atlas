@@ -1,0 +1,2146 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:synergyfinder:1.0.0/web/www.synergyfinder.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 20,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1007/978-1-4939-7493-1_17",
+                            "pmcid": "PMC6383747",
+                            "pmid": "29344898",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "Methods for High-throughput Drug Combination Screening and Synergy Scoring.",
+                            "year": 2018
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.synergyfinder.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:synergyfinder:1.0.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 20,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1007/978-1-4939-7493-1_17",
+                            "pmcid": "PMC6383747",
+                            "pmid": "29344898",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "Methods for High-throughput Drug Combination Screening and Synergy Scoring.",
+                            "year": 2018
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/synergyfinder.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:synergyfinder:1.0.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 20,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1007/978-1-4939-7493-1_17",
+                            "pmcid": "PMC6383747",
+                            "pmid": "29344898",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "Methods for High-throughput Drug Combination Screening and Synergy Scoring.",
+                            "year": 2018
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/synergyfinder.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.0.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/synergyfinder.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.10.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.10.2/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.2.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.5/bioc/html/synergyfinder.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.4.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/synergyfinder.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.6.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/bioc/html/synergyfinder.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:1.8.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:2.0.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:2.2.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:2.4.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:2.4.10/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:3.0.3/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:3.10.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:3.2.2/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:3.6.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:synergyfinder:3.8.2/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx162",
+                            "pmcid": "PMC5554616",
+                            "pmid": "28379339",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1939"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/synergyfinder",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.synergyfinder.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

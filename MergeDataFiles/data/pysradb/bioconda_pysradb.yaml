@@ -1,0 +1,49 @@
+about:
+  description: Python package for retrieving metadata and downloading datasets from
+    SRA/ENA/GEO
+  dev_url: https://github.com/saketkc/pysradb
+  doc_url: https://saketkc.github.io/pysradb
+  home: https://github.com/saketkc/pysradb
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Python package for retrieving metadata and downloading datasets from SRA/ENA/GEO
+build:
+  entry_points:
+  - pysradb=pysradb.cli:parse_args
+  noarch: python
+  number: 0
+  run_exports:
+  - None
+  script: -m pip install . --no-deps --no-build-isolation --no-cache-dir -vvv
+extra:
+  identifiers:
+  - biotools:pysradb
+  - doi:10.12688/f1000research.18676.1
+  recipe-maintainers:
+  - saketkc
+package:
+  name: pysradb
+  version: 2.2.2
+requirements:
+  host:
+  - python >=3.7
+  - pip
+  - hatchling
+  run:
+  - python >=3.7
+  - lxml >=4.6.3
+  - pandas >=1.3.2
+  - requests >=2.26.0
+  - requests-ftp >=0.3.1
+  - tqdm >=4.62.1
+  - xmltodict >=0.12.0
+source:
+  sha256: 0ae451361dfcc6c19c240285942aa761f6f89de9a6022215040329c021638f70
+  url: https://pypi.io/packages/source/p/pysradb/pysradb-2.2.2.tar.gz
+test:
+  commands:
+  - pysradb | grep "Query NGS metadata"
+  imports:
+  - pysradb
+  - pysradb.sradb

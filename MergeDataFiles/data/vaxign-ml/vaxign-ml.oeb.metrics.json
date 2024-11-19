@@ -1,0 +1,176 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:vaxign-ml/undefined/www.violinet.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btaa119",
+                            "pmcid": "PMC7214037",
+                            "pmid": "32096826",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "Vaxign-ML: supervised machine learning reverse vaccinology model for improved prediction of bacterial protective antigens.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://violinet.org/vaxign/vaxign-ml/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://violinet.org/vaxign/vaxign-ml"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/vaxign-ml",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://violinet.org/vaxign/vaxign-ml/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://violinet.org/vaxign/vaxign-ml"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

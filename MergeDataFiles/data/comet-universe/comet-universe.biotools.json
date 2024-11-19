@@ -1,0 +1,109 @@
+{
+    "additionDate": "2017-05-16T12:57:21Z",
+    "biotoolsCURIE": "biotools:comet-universe",
+    "biotoolsID": "comet-universe",
+    "credit": [
+        {
+            "email": "comet2@gobics.de",
+            "name": "CoMet Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "CoMet is a web server for comparative metagenomics, and is particularly suited for analysis of large collections of metagenomic short read data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://comet2.gobics.de/Help.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene expression profiling",
+                    "uri": "http://edamontology.org/operation_0314"
+                },
+                {
+                    "term": "Genome annotation",
+                    "uri": "http://edamontology.org/operation_0362"
+                },
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://comet.gobics.de",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "CoMet",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkr388",
+            "metadata": {
+                "abstract": "Analyzing the functional potential of newly sequenced genomes and metagenomes has become a common task in biomedical and biological research. With the advent of high-throughput sequencing technologies comparative metagenomics opens the way to elucidate the genetically determined similarities and differences of complex microbial communities. We developed the web server 'CoMet' (http://comet.gobics.de), which provides an easy-to-use comparative metagenomics platform that is well-suitable for the analysis of large collections of metagenomic short read data. CoMet combines the ORF finding and subsequent assignment of protein sequences to Pfam domain families with a comparative statistical analysis. Besides comprehensive tabular data files, the CoMet server also provides visually interpretable output in terms of hierarchical clustering and multi-dimensional scaling plots and thus allows a quick overview of a given set of metagenomic samples. © 2011 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Asshauer K.P."
+                    },
+                    {
+                        "name": "Lingner T."
+                    },
+                    {
+                        "name": "Meinicke P."
+                    },
+                    {
+                        "name": "Schreiber F."
+                    }
+                ],
+                "citationCount": 40,
+                "date": "2011-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "CoMet - A web server for comparative functional profiling of metagenomes"
+            },
+            "pmcid": "PMC3125781",
+            "pmid": "21622656"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene and protein families",
+            "uri": "http://edamontology.org/topic_0623"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Microbial ecology",
+            "uri": "http://edamontology.org/topic_3697"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        }
+    ],
+    "validated": 1
+}

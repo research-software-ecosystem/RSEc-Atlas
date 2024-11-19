@@ -1,0 +1,74 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:args-osp/web/args-osp.herokuapp.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/femsec/fiaa107",
+                            "pmid": "32472933",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "Online searching platform for the antibiotic resistome in bacterial tree of life and global habitats.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/args-osp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

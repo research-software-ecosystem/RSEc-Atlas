@@ -1,0 +1,102 @@
+{
+    "additionDate": "2018-05-19T17:17:56Z",
+    "biotoolsCURIE": "biotools:rs-webpredictor",
+    "biotoolsID": "rs-webpredictor",
+    "credit": [
+        {
+            "email": "brenec@rpi.edu",
+            "name": "Curt M. Breneman",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Server for predicting CYP-mediated sites of metabolism on drug-like molecules.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://reccr.chem.rpi.edu/wiki/index.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Metabolic network modelling",
+                    "uri": "http://edamontology.org/operation_3660"
+                },
+                {
+                    "term": "Protein feature detection",
+                    "uri": "http://edamontology.org/operation_3092"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://reccr.chem.rpi.edu/Software/RS-WebPredictor/",
+    "lastUpdate": "2018-12-10T12:58:58Z",
+    "name": "RS-WebPredictor",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "migle_sur",
+    "publication": [
+        {
+            "doi": "10.1093/BIOINFORMATICS/BTS705",
+            "metadata": {
+                "abstract": "Regioselectivity-WebPredictor (RS-WebPredictor) is a server that predicts isozyme-specific cytochrome P450 (CYP)-mediated sites of metabolism (SOMs) on drug-like molecules. Predictions may be made for the promiscuous 2C9, 2D6 and 3A4 CYP isozymes, as well as CYPs 1A2, 2A6, 2B6, 2C8, 2C19 and 2E1. RS-WebPredictor is the first freely accessible server that predicts the regioselectivity of the last six isozymes. Server execution time is fast, taking on average 2s to encode a submitted molecule and 1s to apply a given model, allowing for high-throughput use in lead optimization projects.Availability: RS-WebPredictor is accessible for free use at http://reccr.chem.rpi.edu/ Software/RS-WebPredictor. © 2013 The Author.",
+                "authors": [
+                    {
+                        "name": "Bergeron C."
+                    },
+                    {
+                        "name": "Breneman C.M."
+                    },
+                    {
+                        "name": "Huang T.-W."
+                    },
+                    {
+                        "name": "Joshua Swamidass S."
+                    },
+                    {
+                        "name": "Rydberg P."
+                    },
+                    {
+                        "name": "Zaretzki J."
+                    }
+                ],
+                "citationCount": 36,
+                "date": "2013-02-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "RS-WebPredictor: A server for predicting CYP-mediated sites of metabolism on drug-like molecules"
+            },
+            "pmcid": "PMC3570214",
+            "pmid": "23242264"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Drug development",
+            "uri": "http://edamontology.org/topic_3373"
+        },
+        {
+            "term": "Drug metabolism",
+            "uri": "http://edamontology.org/topic_3375"
+        },
+        {
+            "term": "Protein targeting and localisation",
+            "uri": "http://edamontology.org/topic_0140"
+        }
+    ],
+    "validated": 1
+}

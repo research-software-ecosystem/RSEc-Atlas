@@ -1,0 +1,84 @@
+{
+    "additionDate": "2017-02-10T14:15:11Z",
+    "biotoolsCURIE": "biotools:ltr_finder",
+    "biotoolsID": "ltr_finder",
+    "credit": [
+        {
+            "email": "xuzh@fudan.edu.cn",
+            "name": "Webmaster",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "LTR_Finder (Long Terminal Repeat Finder) is an efficient program for finding full-length LTR retrotransposons in genome sequences.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Repeat sequence analysis",
+                    "uri": "http://edamontology.org/operation_0237"
+                },
+                {
+                    "term": "Repeat sequence detection",
+                    "uri": "http://edamontology.org/operation_0379"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://tlife.fudan.edu.cn/ltr_finder/",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:53Z",
+    "name": "LTR_Finder",
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Long terminal repeat retrotransposons (LTR elements) are ubiquitous eukaryotic transposable elements. They play important roles in the evolution of genes and genomes. Ever-growing amount of genomic sequences of many organisms present a great challenge to fast identifying them. That is the first and indispensable step to study their structure, distribution, functions and other biological impacts. However, until today, tools for efficient LTR retrotransposon discovery are very limited. Thus, we developed LTR-FINDER web server. Given DNA sequences, it predicts locations and structure of full-length LTR retrotransposons accurately by considering common structural features. LTR-FINDER is a system capable of scanning large-scale sequences rapidly and the first web server for ab initio LTR retrotransposon finding. We illustrate its usage and performance on the genome of Saccharomyces cerevisiae. The web server is freely accessible at http://tlife.fudan. edu.cn/ltr-finder/. © 2007 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Wang H."
+                    },
+                    {
+                        "name": "Xu Z."
+                    }
+                ],
+                "citationCount": 691,
+                "date": "2007-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "LTR-FINDER: An efficient tool for the prediction of full-length LTR retrotransposons"
+            },
+            "pmid": "17485477"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Sequence composition, complexity and repeats",
+            "uri": "http://edamontology.org/topic_0157"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        },
+        {
+            "term": "Whole genome sequencing",
+            "uri": "http://edamontology.org/topic_3673"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,577 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nichenet/lib/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "training_material": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 24,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1016/j.immuni.2019.08.017",
+                            "pmcid": "PMC6876284",
+                            "pmid": "31561945",
+                            "ref_count": 43,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1876"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1892"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Stellate Cells, Hepatocytes, and Endothelial Cells Imprint the Kupffer Cell Identity on Monocytes Colonizing the Liver Macrophage Niche.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 19,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/s41592-019-0667-5",
+                            "pmid": "31819264",
+                            "ref_count": 51,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "NicheNet: modeling intercellular communication by linking ligands to target genes.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT951410S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nichenet:1.0.0/lib/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 24,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1016/j.immuni.2019.08.017",
+                            "pmcid": "PMC6876284",
+                            "pmid": "31561945",
+                            "ref_count": 43,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1876"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1892"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Stellate Cells, Hepatocytes, and Endothelial Cells Imprint the Kupffer Cell Identity on Monocytes Colonizing the Liver Macrophage Niche.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 19,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/s41592-019-0667-5",
+                            "pmid": "31819264",
+                            "ref_count": 51,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "NicheNet: modeling intercellular communication by linking ligands to target genes.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT951410S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/nichenet",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT951410S"
+            }
+        }
+    }
+]

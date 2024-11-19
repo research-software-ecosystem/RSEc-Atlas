@@ -1,0 +1,109 @@
+{
+    "additionDate": "2017-04-21T12:12:40Z",
+    "biotoolsCURIE": "biotools:joy",
+    "biotoolsID": "joy",
+    "credit": [
+        {
+            "email": "joy@mizuguchilab.org",
+            "name": "JOY Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "JOY is a program for displaying 3D structural information in a multiple sequence alignment.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://mizuguchilab.org/joy/joyman.htm"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                },
+                {
+                    "term": "Tree-based sequence alignment",
+                    "uri": "http://edamontology.org/operation_0499"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://mizuguchilab.org/joy/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "JOY",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: JOY is a program to annotate protein sequence alignments with three-dimensional (3D) structural features. It was developed to display 3D structural information in a sequence alignment and to help understand the conservation of amino acids in their specific local environment. Results: The JOY representation now constitutes an essential part of the two databases of protein structure alignments: HOMSTRAD (http://www-cryst.bioc.cam.ac.uk/~homstrad) and CAMPASS (http://www-cryst.bioc.cam.ac.uk/~campass). It has also been successfully used for identifying distant evolutionary relationships. Availability: The program can be obtained via anonymous ftp from torsa.bioc.cam.ac.uk from the directory /pub/joy/. The address for the JOY server is http://www-cryst.bioc.cam.ac.uk/cgi-bin/joy.cgi. Contact: kenji@@@cryst.bioc.cam.ac.uk.",
+                "authors": [
+                    {
+                        "name": "Blundell T.L."
+                    },
+                    {
+                        "name": "Deane C.M."
+                    },
+                    {
+                        "name": "Johnson M.S."
+                    },
+                    {
+                        "name": "Mizuguchi K."
+                    },
+                    {
+                        "name": "Overington J.P."
+                    }
+                ],
+                "citationCount": 348,
+                "date": "1998-10-20T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "JOY: Protein sequence-structure representation and analysis"
+            },
+            "pmid": "9730927"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Nucleic acid structure analysis",
+            "uri": "http://edamontology.org/topic_0097"
+        },
+        {
+            "term": "Protein structural motifs and surfaces",
+            "uri": "http://edamontology.org/topic_0166"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

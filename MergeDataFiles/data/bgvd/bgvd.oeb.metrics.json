@@ -1,0 +1,91 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bgvd/db/animal.nwsuaf.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/802223",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "The Bovine Genome Variation Database (BGVD): Integrated Web-database for Bovine Sequencing Variations and Selective Signatures",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://animal.nwsuaf.edu.cn/code/index.php/BosVar/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://animal.nwsuaf.edu.cn/code/index.php/BosVar"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://animal.nwsuaf.edu.cn/code/index.php/BosVar/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bgvd",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://animal.nwsuaf.edu.cn/code/index.php/BosVar/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://animal.nwsuaf.edu.cn/code/index.php/BosVar"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://animal.nwsuaf.edu.cn/code/index.php/BosVar/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

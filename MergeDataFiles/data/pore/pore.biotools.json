@@ -1,0 +1,109 @@
+{
+    "additionDate": "2017-08-03T19:07:54Z",
+    "biotoolsCURIE": "biotools:pore",
+    "biotoolsID": "pore",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://sourceforge.net/p/rpore/mailman/?source=navbar"
+        }
+    ],
+    "description": "R package that enables users to manipulate, organize, summarise and visualize MinION nanopore sequencing data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/mw55309/poRe_docs"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence visualisation",
+                    "uri": "http://edamontology.org/operation_0564"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://sourceforge.net/p/rpore/wiki/Home/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/pore-0-5-an-r-package-to-enable-visualisation-of-nanopore-sequencing-data.html"
+        }
+    ],
+    "name": "poRe",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2014 The Author. Published by Oxford University Press.Motivation: The Oxford Nanopore MinION device represents a unique sequencing technology. As a mobile sequencing device powered by the USB port of a laptop, the MinION has huge potential applications. To enable these applications, the bioinformatics community will need to design and build a suite of tools specifically for MinION data. Results: Here we present poRe, a package for R that enables users to manipulate, organize, summarize and visualize MinION nanopore sequencing data. As a package for R, poRe has been tested on Windows, Linux and MacOSX. Crucially, the Windows version allows users to analyse MinION data on the Windows laptop attached to the device. Availability and implementation: poRe is released as a package for R at http://sourceforge.net/projects/rpore/. A tutorial and further information are available at https://sourceforge.net/p/rpore/wiki/Home/ Contact: Supplementary information: Supplementary data are available at Bioinformatics online.",
+                "authors": [
+                    {
+                        "name": "Blaxter M."
+                    },
+                    {
+                        "name": "Gharbi K."
+                    },
+                    {
+                        "name": "Risse J."
+                    },
+                    {
+                        "name": "Santoyo-Lopez J."
+                    },
+                    {
+                        "name": "Talbot R."
+                    },
+                    {
+                        "name": "Thomson M."
+                    },
+                    {
+                        "name": "Watson M."
+                    }
+                ],
+                "citationCount": 58,
+                "date": "2015-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "PoRe: An R package for the visualization and analysis of nanopore sequencing data"
+            },
+            "pmid": "25173419"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

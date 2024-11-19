@@ -1,0 +1,86 @@
+{
+    "additionDate": "2017-02-10T14:14:30Z",
+    "biotoolsCURIE": "biotools:pathway_explorer",
+    "biotoolsID": "pathway_explorer",
+    "description": "Tool for visualizing high throughput expression data simultaneously with biological pathway data available from KEGG, BioCarta, and GenMAPP.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene expression profile pathway mapping",
+                    "uri": "http://edamontology.org/operation_0533"
+                },
+                {
+                    "term": "Gene expression profiling",
+                    "uri": "http://edamontology.org/operation_0314"
+                },
+                {
+                    "term": "Network simulation",
+                    "uri": "http://edamontology.org/operation_3562"
+                },
+                {
+                    "term": "Pathway or network analysis",
+                    "uri": "http://edamontology.org/operation_2497"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://pathwayexplorer.genome.tugraz.at/",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:39Z",
+    "name": "Pathway Explorer",
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "While generation of high-throughput expression data is becoming routine, the fast, easy, and systematic presentation and analysis of these data in a biological context is still an obstacle. To address this need, we have developed PathwayExplorer, which maps expression profiles of genes or proteins simultaneously onto major, currently available regulatory, metabolic and cellular pathways from KEGG, BioCarta and GenMAPP. PathwayExplorer is a platform-independent web server application with an optional standalone Java application using a SOAP (simple object access protocol) interface. Mapped pathways are ranked for the easy selection of the pathway of interest, displaying all available genes of this pathway with their expression profiles in a selectable and intuitive color code. Pathway maps produced can be downloaded as PNG, JPG or as high-resolution vector graphics SVG. The web service is freely available at https://pathwayexplorer.genome.tugraz.at; the standalone client can be downloaded at http://genome.tugraz.at. © 2005 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Hackl H."
+                    },
+                    {
+                        "name": "Hartler J."
+                    },
+                    {
+                        "name": "Mlecnik B."
+                    },
+                    {
+                        "name": "Sanchez-Cabo F."
+                    },
+                    {
+                        "name": "Scheideler M."
+                    },
+                    {
+                        "name": "Trajanoski Z."
+                    }
+                ],
+                "citationCount": 101,
+                "date": "2005-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "PathwayExplorer: Web service for visualizing high-throughput expression data on biological pathways"
+            },
+            "pmid": "15980551"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

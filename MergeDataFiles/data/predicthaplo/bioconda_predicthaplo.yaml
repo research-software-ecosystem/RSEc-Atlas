@@ -1,0 +1,31 @@
+about:
+  home: https://github.com/cbg-ethz/PredictHaplo
+  license: GPLv3
+  license_file: COPYING
+  summary: This software aims at reconstructing haplotypes from next-generation sequencing
+    data.
+build:
+  number: 5
+  script:
+  - make
+  - mkdir -p $PREFIX/bin
+  - cp predicthaplo $PREFIX/bin/
+extra:
+  identifiers:
+  - biotools:PredictHaplo
+package:
+  name: predicthaplo
+  version: 2.1.4
+requirements:
+  build:
+  - None
+  - make
+  host:
+  - libblas
+  - liblapack
+source:
+  sha256: a67bd7b5bb09adf90ed23eefd3ae8f612d4d1411a77f7b1122809596f78baf25
+  url: https://github.com/cbg-ethz/PredictHaplo/archive/2.1.4.tar.gz
+test:
+  commands:
+  - predicthaplo --help

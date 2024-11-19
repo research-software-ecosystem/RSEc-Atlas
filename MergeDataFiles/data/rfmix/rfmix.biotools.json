@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-08-03T18:57:47Z",
+    "biotoolsCURIE": "biotools:rfmix",
+    "biotoolsID": "rfmix",
+    "credit": [
+        {
+            "email": "bmaples@stanford.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Apowerful discriminative modeling approach that is faster (~30×) and more accurate than existing methods. It is capable of learning from the admixed samples themselves to boost performance and autocorrect phasing errors. RFMix shows high sensitivity and specificity in simulated Hispanics/Latinos and African Americans and admixed Europeans, Africans, and Asians.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://sites.google.com/site/rfmixlocalancestryinference/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Ancestral reconstruction",
+                    "uri": "http://edamontology.org/operation_3745"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://sites.google.com/site/rfmixlocalancestryinference/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/rfmix-20140407-a-discriminative-method-for-local-ancestry-inference.html"
+        }
+    ],
+    "name": "RFMix",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Local-ancestry inference is an important step in the genetic analysis of fully sequenced human genomes. Current methods can only detect continental-level ancestry (i.e., European versus African versus Asian) accurately even when using millions of markers. Here, we present RFMix, a powerful discriminative modeling approach that is faster (∼30×) and more accurate than existing methods. We accomplish this by using a conditional random field parameterized by random forests trained on reference panels. RFMix is capable of learning from the admixed samples themselves to boost performance and autocorrect phasing errors. RFMix shows high sensitivity and specificity in simulated Hispanics/Latinos and African Americans and admixed Europeans, Africans, and Asians. Finally, we demonstrate that African Americans in HapMap contain modest (but nonzero) levels of Native American ancestry (∼0.4%). © 2013 The American Society of Human Genetics.",
+                "authors": [
+                    {
+                        "name": "Bustamante C.D."
+                    },
+                    {
+                        "name": "Gravel S."
+                    },
+                    {
+                        "name": "Kenny E.E."
+                    },
+                    {
+                        "name": "Maples B.K."
+                    }
+                ],
+                "citationCount": 266,
+                "date": "2013-08-08T00:00:00Z",
+                "journal": "American Journal of Human Genetics",
+                "title": "RFMix: A discriminative modeling approach for rapid and robust local-ancestry inference"
+            },
+            "pmid": "23910464"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Human genetics",
+            "uri": "http://edamontology.org/topic_3574"
+        },
+        {
+            "term": "Population genetics",
+            "uri": "http://edamontology.org/topic_3056"
+        },
+        {
+            "term": "Whole genome sequencing",
+            "uri": "http://edamontology.org/topic_3673"
+        }
+    ],
+    "validated": 1
+}

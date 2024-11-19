@@ -1,0 +1,118 @@
+{
+    "additionDate": "2017-08-03T19:03:07Z",
+    "biotoolsCURIE": "biotools:targetatpsite",
+    "biotoolsID": "targetatpsite",
+    "credit": [
+        {
+            "email": "h19891007@126.com",
+            "name": "Jun Hu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "njyudj@njust.edu.cn",
+            "name": "Dong-Jun Yu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Full-featured GUI application for targeting protein-ATP binding residues in protein sequences, consisting of two parts of local client and remote server.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.csbio.sjtu.edu.cn/bioinf/targetATP/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein binding site prediction",
+                    "uri": "http://edamontology.org/operation_2575"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.csbio.sjtu.edu.cn/bioinf/targetATP/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:58Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/targetatpsite-predicting-protein-atp-binding-site.html"
+        }
+    ],
+    "name": "TargetATPsite",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Understanding the interactions between proteins and ligands is critical for protein function annotations and drug discovery. We report a new sequence-based template-free predictor (TargetATPsite) to identify the Adenosine-5′- triphosphate (ATP) binding sites with machine-learning approaches. Two steps are implemented in TargetATPsite: binding residues and pockets predictions, respectively. To predict the binding residues, a novel image sparse representation technique is proposed to encode residue evolution information treated as the input features. An ensemble classifier constructed based on support vector machines (SVM) from multiple random under-samplings is used as the prediction model, which is effective for dealing with imbalance phenomenon between the positive and negative training samples. Compared with the existing ATP-specific sequence-based predictors, TargetATPsite is featured by the second step of possessing the capability of further identifying the binding pockets from the predicted binding residues through a spatial clustering algorithm. Experimental results on three benchmark datasets demonstrate the efficacy of TargetATPsite. © 2013 Wiley Periodicals, Inc.",
+                "authors": [
+                    {
+                        "name": "Hu J."
+                    },
+                    {
+                        "name": "Huang Y."
+                    },
+                    {
+                        "name": "Qi Y."
+                    },
+                    {
+                        "name": "Shen H.-B."
+                    },
+                    {
+                        "name": "Tang Z.-M."
+                    },
+                    {
+                        "name": "Yang J.-Y."
+                    },
+                    {
+                        "name": "Yu D.-J."
+                    }
+                ],
+                "citationCount": 54,
+                "date": "2013-04-30T00:00:00Z",
+                "journal": "Journal of Computational Chemistry",
+                "title": "TargetATPsite: A template-free method for ATP-binding sites prediction with residue evolution image sparse representation and classifier ensemble"
+            },
+            "pmid": "23288787"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Protein binding sites",
+            "uri": "http://edamontology.org/topic_3534"
+        },
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

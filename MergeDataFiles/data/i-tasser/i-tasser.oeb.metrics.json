@@ -1,0 +1,1031 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:i-tasser/cmd/zhanglab.ccmb.med.umich.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1016/j.crmeth.2021.100014",
+                            "pmcid": "PMC8336924",
+                            "pmid": "34355210",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Folding non-homologous proteins by coupling deep-learning contact maps with I-TASSER assembly simulations.",
+                            "year": 2021
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 259,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 36,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 65,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkv342",
+                            "pmcid": "PMC4489253",
+                            "pmid": "25883148",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "I-TASSER server: new development for protein structure and function predictions.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1313,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 220,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 240,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 277,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 302,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.3213",
+                            "pmcid": "PMC4428668",
+                            "pmid": "25549265",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "The I-TASSER Suite: protein structure and function prediction.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2337,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 109,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 130,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 199,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 208,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 215,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 253,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 267,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 271,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 312,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 337,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2010.5",
+                            "pmcid": "PMC2849174",
+                            "pmid": "20360767",
+                            "ref_count": 75,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2007"
+                                }
+                            ],
+                            "title": "I-TASSER: a unified platform for automated protein structure and function prediction.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhanggroup.org/I-TASSER/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:i-tasser/web/zhanglab.ccmb.med.umich.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1016/j.crmeth.2021.100014",
+                            "pmcid": "PMC8336924",
+                            "pmid": "34355210",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Folding non-homologous proteins by coupling deep-learning contact maps with I-TASSER assembly simulations.",
+                            "year": 2021
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 259,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 36,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 65,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkv342",
+                            "pmcid": "PMC4489253",
+                            "pmid": "25883148",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "I-TASSER server: new development for protein structure and function predictions.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1313,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 220,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 240,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 277,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 302,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.3213",
+                            "pmcid": "PMC4428668",
+                            "pmid": "25549265",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "The I-TASSER Suite: protein structure and function prediction.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2337,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 109,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 130,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 199,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 208,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 215,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 253,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 267,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 271,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 312,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 337,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2010.5",
+                            "pmcid": "PMC2849174",
+                            "pmid": "20360767",
+                            "ref_count": 75,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2007"
+                                }
+                            ],
+                            "title": "I-TASSER: a unified platform for automated protein structure and function prediction.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhanggroup.org/I-TASSER/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:i-tasser:1.16.20/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 159,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 39,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1038/nbt.3109",
+                            "pmid": "25574629",
+                            "ref_count": 19,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "PeptideShaker enables reanalysis of MS-derived proteomics data sets.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1804257S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/i-tasser",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhanggroup.org/I-TASSER/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

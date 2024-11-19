@@ -1,0 +1,83 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcgene/db/soft.bioinfo-minzhao.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/rs.3.rs-269016/v1",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Online database for brain cancer-implicated genes: exploring the subtype-specific mechanisms of brain cancer",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinfo-minzhao.org/soft/bcgene/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://soft.bioinfo-minzhao.org/bcgene/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bcgene",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinfo-minzhao.org/soft/bcgene/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://soft.bioinfo-minzhao.org/bcgene/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

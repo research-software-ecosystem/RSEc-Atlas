@@ -1,0 +1,34 @@
+about:
+  home: http://lsg.algolab.eu
+  license: GPL-3
+  license_file: COPYING
+  summary: LightStringGraphs (LSG) is an external memory string graph construction
+    tool.
+build:
+  number: 6
+  skip: true
+extra:
+  identifiers:
+  - biotools:lightstringgraph
+  - doi:10.1007/978-3-662-44753-6_23
+package:
+  name: lightstringgraph
+  version: 0.4.0
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - boost
+  run:
+  - boost
+source:
+  patches:
+  - Makefile.patch
+  sha256: 7a1530b147269b285875687fecaecbfd4d94c3db04d33ddeb1d0624547317b00
+  url: https://github.com/AlgoLab/LightStringGraph/archive/v0.4.0.tar.gz
+test:
+  commands:
+  - graph2asqg 2>&1 | grep Usage
+  - lsg 2>&1 | grep Usage
+  - redbuild 2>&1 | grep Usage

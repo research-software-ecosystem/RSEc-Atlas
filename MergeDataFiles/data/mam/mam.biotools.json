@@ -1,0 +1,97 @@
+{
+    "additionDate": "2017-02-10T14:15:35Z",
+    "biotoolsCURIE": "biotools:mam",
+    "biotoolsID": "mam",
+    "description": "Takes a multiple alignment of genomic sequences as input and calculates the locations of exons, common repeat elements and unique regions based on user-selected programs/information. The graphical display also allows users to focus an assessment of sequence variation on the identified regions.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome alignment",
+                    "uri": "http://edamontology.org/operation_3182"
+                },
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                },
+                {
+                    "term": "Tree-based sequence alignment",
+                    "uri": "http://edamontology.org/operation_0499"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://compbio.cs.sfu.ca/MAM.htm",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:40Z",
+    "name": "MaM",
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "MaM is a software tool that processes and manipulates multiple alignments of genomic sequence. MaM computes the exact location of common repeat elements, exons and unique regions within aligned genomics sequences using a variety of user identified programs, databases and/or tables. The program can extract subalignments, corresponding to these various regions of DNA to be analyzed independently or in conjunction with other elements of genomic DNA. Graphical displays further allow an assessment of sequence variation throughout these different regions of the aligned sequence, providing separate displays for their repeat, non-repeat and coding portions of genomic DNA. The program should facilitate the phylogenetic analysis and processing of different portions of genomic sequence as part of large-scale sequencing efforts. MaM source code is freely available for non-commercial use at http:// compbio.cs.sfu.ca/MAM.htm; and the web interface WebMaM is hosted at http://atgc.lirmm.fr/mam. © 2005 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Alkan C."
+                    },
+                    {
+                        "name": "Bailey J.A."
+                    },
+                    {
+                        "name": "Buard J."
+                    },
+                    {
+                        "name": "Eichler E.E."
+                    },
+                    {
+                        "name": "Lethiec F."
+                    },
+                    {
+                        "name": "Sahinalp S.C."
+                    },
+                    {
+                        "name": "Tuzun E."
+                    }
+                ],
+                "citationCount": 5,
+                "date": "2005-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "Manipulating multiple sequence alignments via MaM and WebMaM"
+            },
+            "pmid": "15980474"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence composition, complexity and repeats",
+            "uri": "http://edamontology.org/topic_0157"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,2760 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:comet:2023.01.2/app/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "citation": true,
+                "general": true,
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 363,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 43,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 44,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1002/pmic.201200439",
+                            "pmid": "23148064",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Comet: an open-source MS/MS sequence database search tool.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:comet:2023.01.2/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "citation": true,
+                "general": true,
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 363,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 43,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 44,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1002/pmic.201200439",
+                            "pmid": "23148064",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Comet: an open-source MS/MS sequence database search tool.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:comet:2016.01.2/app/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "citation": true,
+                "general": true,
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 363,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 43,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 44,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1002/pmic.201200439",
+                            "pmid": "23148064",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Comet: an open-source MS/MS sequence database search tool.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:comet:2016.01.2/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "citation": true,
+                "general": true,
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 363,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 43,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 44,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1002/pmic.201200439",
+                            "pmid": "23148064",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Comet: an open-source MS/MS sequence database search tool.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:1.18.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2016013/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2018012/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2018013/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2018014/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2019010/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2019011/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2019012/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2019013/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2019014/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:comet:2019015/cmd/comet-ms.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1007/s13361-015-1179-x",
+                            "pmcid": "PMC4607604",
+                            "pmid": "26115965",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1914"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "A deeper look into Comet--implementation and features.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/comet",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://comet-ms.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

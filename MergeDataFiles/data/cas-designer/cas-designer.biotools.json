@@ -1,0 +1,98 @@
+{
+    "additionDate": "2017-08-03T18:39:19Z",
+    "biotoolsCURIE": "biotools:cas-designer",
+    "biotoolsID": "cas-designer",
+    "credit": [
+        {
+            "email": "rgenome.webmaster@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://gel.snu.ac.kr/"
+        }
+    ],
+    "description": "This software provides all possible RGEN targets in the given input sequence (e.g. exon), with the useful information including potential off-target numbers within 2nt mismatches and optional 3nt bulge via Cas-OFFinder, and out-of-frame scores via Microhomology-predictor.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.rgenome.net/cas-designer/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence editing",
+                    "uri": "http://edamontology.org/operation_0231"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://rgenome.net/cas-designer/",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/cas-designer-a-bulge-allowed-quick-guide-rna-designer-for-crisprcas-derived-rgens.html"
+        }
+    ],
+    "name": "Cas-Designer",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press. All rights reserved.We present Cas-Designer, a user-friendly program to aid researchers in choosing appropriate target sites in a gene of interest for type II CRISPR/Cas-derived RNA-guided endonucleases, which are now widely used for biomedical research and biotechnology. Cas-Designer rapidly provides the list of all possible guide RNA sequences in a given input DNA sequence and their potential off-target sites including bulge-type sites in a genome of choice. In addition, the program assigns an out-of-frame score to each target site to help users choose appropriate sites for gene knockout. Cas-Designer shows the results in an interactive table and provides user-friendly filter functions.",
+                "authors": [
+                    {
+                        "name": "Bae S."
+                    },
+                    {
+                        "name": "Kim J.-S."
+                    },
+                    {
+                        "name": "Park J."
+                    }
+                ],
+                "citationCount": 145,
+                "date": "2015-07-03T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Cas-Designer: A web-based tool for choice of CRISPR-Cas9 target sites"
+            },
+            "pmid": "26358729"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        }
+    ],
+    "validated": 1
+}

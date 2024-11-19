@@ -1,0 +1,79 @@
+{
+    "additionDate": "2017-08-03T18:50:10Z",
+    "biotoolsCURIE": "biotools:msi",
+    "biotoolsID": "msi",
+    "credit": [
+        {
+            "email": "faheem@email.unc.edu",
+            "name": "Faheem Mitha",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.cs.duke.edu/~emonson/MSI_Site/index.html"
+        }
+    ],
+    "description": "Ongoing project aimed at the development of software for the computational simulation of spatial processes in immunity. The software is an open source development project; there are several options for acquiring the program, including the complete source code, or just pre-built binaries.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://users.cs.duke.edu/~emonson/MSI_Site/tutorials.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Modelling and simulation",
+                    "uri": "http://edamontology.org/operation_2426"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.cs.duke.edu/~emonson/MSI_Site/index.html",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:49Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/msi-multiscale-systems-immunology.html"
+        }
+    ],
+    "name": "MSI",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "pmid": "18442405"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Cell biology",
+            "uri": "http://edamontology.org/topic_2229"
+        },
+        {
+            "term": "Immunology",
+            "uri": "http://edamontology.org/topic_0804"
+        },
+        {
+            "term": "Systems biology",
+            "uri": "http://edamontology.org/topic_2259"
+        }
+    ],
+    "validated": 1
+}

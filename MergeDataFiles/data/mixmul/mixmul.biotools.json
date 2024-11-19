@@ -1,0 +1,86 @@
+{
+    "additionDate": "2017-12-18T00:08:50Z",
+    "biotoolsCURIE": "biotools:mixmul",
+    "biotoolsID": "mixmul",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.csjfann.ibms.sinica.edu.tw/"
+        }
+    ],
+    "description": "MIXMUL (Mixture of Weighted Multinomial) procedure is a convenient haplotype inference tool for mixed data to estimate haplotype frequencies accurately and output the most likely reconstructed haplotype pairs of each subject in the estimation.",
+    "documentation": [
+        {
+            "type": [
+                "Terms of use"
+            ],
+            "url": "http://www.csjfann.ibms.sinica.edu.tw/EAG/program/programlist.htm"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Haplotype inference",
+                    "uri": "http://edamontology.org/operation_0487"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.csjfann.ibms.sinica.edu.tw/eag/programlist/MIXMUL/MIXMUL.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/mixmul-estimating-haplotype-frequencies-reconstructing-haplotypes-mixed-genotype-data.html"
+        }
+    ],
+    "name": "MIXMUL",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1186/1423-0127-16-52",
+            "metadata": {
+                "abstract": "Background. In many studies, researchers may recruit samples consisting of independent trios and unrelated individuals. However, most of the currently available haplotype inference methods do not cope well with these kinds of mixed data sets. Methods. We propose a general and simple methodology using a mixture of weighted multinomial (MIXMUL) approach that combines separate haplotype information from unrelated individuals and independent trios for haplotype inference to the individual level. Results. The new MIXMUL procedure improves over existing methods in that it can accurately estimate haplotype frequencies from mixed data sets and output probable haplotype pairs in optimized reconstruction outcomes for all subjects that have contributed to estimation. Simulation results showed that this new MIXMUL procedure competes well with the EM-based method, i.e. FAMHAP, under a few assumed scenarios. Conclusion. The results showed that MIXMUL can provide accurate estimates similar to those haplotype frequencies obtained from FAMHAP and output the probable haplotype pairs in the most optimal reconstruction outcome for all subjects that have contributed to estimation. If available data consist of combinations of unrelated individuals and independent trios, the MIXMUL procedure can be used to estimate the haplotype frequencies accurately and output the most likely reconstructed haplotype pairs of each subject in the estimation. © 2009 Lin and Fann; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Fann C.S.J."
+                    },
+                    {
+                        "name": "Lin C.-P."
+                    }
+                ],
+                "date": "2009-08-12T00:00:00Z",
+                "journal": "Journal of Biomedical Science",
+                "title": "A novel tool for individual haplotype inference using mixed data"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        }
+    ],
+    "validated": 1
+}

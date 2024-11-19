@@ -1,0 +1,37 @@
+about:
+  dev_url: https://github.com/jhkorhonen/MOODS
+  doc_url: https://github.com/jhkorhonen/MOODS/wiki
+  home: https://www.cs.helsinki.fi/group/pssmfind
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: COPYING.GPLv3
+  summary: 'MOODS: Motif Occurrence Detection Suite'
+build:
+  number: 2
+  run_exports:
+  - None
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:MOODS
+  - doi:10.1109/TCBB.2009.35
+package:
+  name: moods
+  version: 1.9.4.2
+requirements:
+  build:
+  - None
+  host:
+  - python
+  - pip
+  run:
+  - python
+source:
+  sha256: e694e37c7487286801bffcda3e0576157960007919dd5ceb8b5a1626dc2968e1
+  url: https://pypi.io/packages/source/m/mira-moods/mira-moods-1.9.4.2.tar.gz
+test:
+  imports:
+  - MOODS.scan

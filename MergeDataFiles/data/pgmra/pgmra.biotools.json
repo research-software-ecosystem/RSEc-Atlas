@@ -1,0 +1,127 @@
+{
+    "additionDate": "2017-03-25T17:07:51Z",
+    "biotoolsCURIE": "biotools:pgmra",
+    "biotoolsID": "pgmra",
+    "credit": [
+        {
+            "email": "igor@decsai.ugr.es",
+            "name": "Igor Zwir",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "javier.arnedo@decsai.ugr.es",
+            "name": "Javier Arnedo",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "PGMRA is a web server for phenotype-genotype relationship detection.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://phop.ugr.es/fenogeno/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                },
+                {
+                    "term": "Genotyping",
+                    "uri": "http://edamontology.org/operation_3196"
+                },
+                {
+                    "term": "Haplotype mapping",
+                    "uri": "http://edamontology.org/operation_0487"
+                },
+                {
+                    "term": "SNP detection",
+                    "uri": "http://edamontology.org/operation_0484"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://phop.ugr.es/fenogeno",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "PGMRA",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "It has been proposed that single nucleotide polymorphisms (SNPs) discovered by genome-wide association studies (GWAS) account for only a small fraction of the genetic variation of complex traits in human population. The remaining unexplained variance or missing heritability is thought to be due to marginal effects of many loci with small effects and has eluded attempts to identify its sources. Combination of different studies appears to resolve in part this problem. However, neither individual GWAS nor meta-analytic combinations thereof are helpful for disclosing which genetic variants contribute to explain a particular phenotype. Here, we propose that most of the missing heritability is latent in the GWAS data, which conceals intermediate phenotypes. To uncover such latent information, we propose the PGMRA server that introduces phenomics--the full set of phenotype features of an individual--to identify SNP-set structures in a broader sense, i.e. causally cohesive genotype-phenotype relations. These relations are agnostically identified (without considering disease status of the subjects) and organized in an interpretable fashion. Then, by incorporating a posteriori the subject status within each relation, we can establish the risk surface of a disease in an unbiased mode. This approach complements-instead of replaces-current analysis methods. The server is publically available at http://phop.ugr.es/fenogeno.",
+                "authors": [
+                    {
+                        "name": "Arnedo J."
+                    },
+                    {
+                        "name": "Cloninger C.R."
+                    },
+                    {
+                        "name": "Romero-Zaliz R."
+                    },
+                    {
+                        "name": "Svrakic D."
+                    },
+                    {
+                        "name": "Zwir I."
+                    },
+                    {
+                        "name": "de Erausquin G.A."
+                    },
+                    {
+                        "name": "del Val C."
+                    }
+                ],
+                "citationCount": 18,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Nucleic acids research",
+                "title": "PGMRA: a web server for (phenotype x genotype) many-to-many relation analysis in GWAS."
+            },
+            "pmid": "23761451"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA polymorphism",
+            "uri": "http://edamontology.org/topic_2885"
+        },
+        {
+            "term": "GWAS study",
+            "uri": "http://edamontology.org/topic_3517"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Genotype and phenotype",
+            "uri": "http://edamontology.org/topic_0625"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        }
+    ],
+    "validated": 1
+}

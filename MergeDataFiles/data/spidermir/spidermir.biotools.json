@@ -1,0 +1,136 @@
+{
+    "additionDate": "2017-01-17T15:03:37Z",
+    "biotoolsCURIE": "biotools:spidermir",
+    "biotoolsID": "spidermir",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "claudia.cava@ibfm.cnr.it",
+            "name": "Claudia Cava",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Aims: i) Facilitate the network open-access data retrieval from GeneMania data, ii) prepare the data with appropriate gene nomenclature, iii) integration of miRNA data in a specific network, iv) provide different standard analyses and v) allow the user to visualize the results. In more detail, the package provides multiple methods for query, prepare and download network data, and the integration with validated and predicted miRNA data, the use of standard analysis and visualization methods.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/SpidermiR.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/SpidermiR_1.4.4.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene regulatory network analysis",
+                    "uri": "http://edamontology.org/operation_1781"
+                },
+                {
+                    "term": "Pathway or network analysis",
+                    "uri": "http://edamontology.org/operation_2497"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/SpidermiR.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Mirror"
+            ],
+            "url": "https://github.com/claudiacava/SpidermiR"
+        }
+    ],
+    "name": "SpidermiR",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.3390/ijms18020274",
+            "metadata": {
+                "abstract": "© 2017 by the authors; licensee MDPI, Basel, Switzerland.Gene Regulatory Networks (GRNs) control many biological systems, but how such network coordination is shaped is still unknown. GRNs can be subdivided into basic connections that describe how the network members interact e.g., co-expression, physical interaction, co-localization, genetic influence, pathways, and shared protein domains. The important regulatory mechanisms of these networks involve miRNAs. We developed an R/Bioconductor package, namely SpidermiR, which offers an easy access to both GRNs and miRNAs to the end user, and integrates this information with differentially expressed genes obtained from The Cancer Genome Atlas. Specifically, SpidermiR allows the users to: (i) query and download GRNs and miRNAs from validated and predicted repositories; (ii) integrate miRNAs with GRNs in order to obtain miRNA–gene–gene and miRNA–protein–protein interactions, and to analyze miRNA GRNs in order to identify miRNA–gene communities; and (iii) graphically visualize the results of the analyses. These analyses can be performed through a single interface and without the need for any downloads. The full data sets are then rapidly integrated and processed locally.",
+                "authors": [
+                    {
+                        "name": "Bertoli G."
+                    },
+                    {
+                        "name": "Bontempi G."
+                    },
+                    {
+                        "name": "Castiglioni I."
+                    },
+                    {
+                        "name": "Cava C."
+                    },
+                    {
+                        "name": "Colaprico A."
+                    },
+                    {
+                        "name": "Graudenzi A."
+                    },
+                    {
+                        "name": "Mauri G."
+                    },
+                    {
+                        "name": "Noushmehr H."
+                    },
+                    {
+                        "name": "Olsen C."
+                    },
+                    {
+                        "name": "Silva T.C."
+                    }
+                ],
+                "citationCount": 33,
+                "date": "2017-02-01T00:00:00Z",
+                "journal": "International Journal of Molecular Sciences",
+                "title": "SpidermiR: An R/bioconductor package for integrative analysis with miRNA data"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Gene regulation",
+            "uri": "http://edamontology.org/topic_0204"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.4.4"
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "additionDate": "2017-01-13T13:14:40Z",
+    "biotoolsCURIE": "biotools:fusionseq",
+    "biotoolsID": "fusionseq",
+    "credit": [
+        {
+            "email": "asbmg@gersteinlab.org",
+            "name": "Mark B Gerstein",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Identifies fusion transcripts from paired end RNA-Seq data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://archive.gersteinlab.org/proj/rnaseq/fusionseq/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence alignment analysis",
+                    "uri": "http://edamontology.org/operation_0258"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://rnaseq.gersteinlab.org/fusionseq/",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "license": "CC-BY-NC-4.0",
+    "maturity": "Mature",
+    "name": "FusionSeq",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We have developed FusionSeq to identify fusion transcripts from paired-end RNA-sequencing. FusionSeq includes filters to remove spurious candidate fusions with artifacts, such as misalignment or random pairing of transcript fragments, and it ranks candidates according to several statistics. It also has a module to identify exact sequences at breakpoint junctions. FusionSeq detected known and novel fusions in a specially sequenced calibration data set, including eight cancers with and without known rearrangements. © 2010 Sboner et al.; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Chee M.S."
+                    },
+                    {
+                        "name": "Chen D.Z."
+                    },
+                    {
+                        "name": "Demichelis F."
+                    },
+                    {
+                        "name": "Gerstein M.B."
+                    },
+                    {
+                        "name": "Habegger L."
+                    },
+                    {
+                        "name": "Kitabayashi N."
+                    },
+                    {
+                        "name": "Moss B.J."
+                    },
+                    {
+                        "name": "Pflueger D."
+                    },
+                    {
+                        "name": "Rozowsky J.S."
+                    },
+                    {
+                        "name": "Rubin M.A."
+                    },
+                    {
+                        "name": "Sboner A."
+                    },
+                    {
+                        "name": "Terry S."
+                    },
+                    {
+                        "name": "Tewari A.K."
+                    }
+                ],
+                "citationCount": 121,
+                "date": "2010-10-21T00:00:00Z",
+                "journal": "Genome Biology",
+                "title": "FusionSeq: A modular framework for finding gene fusions by analyzing paired-end RNA-sequencing data"
+            },
+            "pmid": "20964841"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Gene structure",
+            "uri": "http://edamontology.org/topic_0114"
+        },
+        {
+            "term": "RNA-Seq",
+            "uri": "http://edamontology.org/topic_3170"
+        }
+    ],
+    "validated": 1
+}

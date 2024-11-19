@@ -1,0 +1,120 @@
+{
+    "additionDate": "2017-08-03T18:52:04Z",
+    "biotoolsCURIE": "biotools:multiz",
+    "biotoolsID": "multiz",
+    "credit": [
+        {
+            "email": "rch8@psu.edu",
+            "name": "Dr. Ross Hardison",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://globin.bx.psu.edu/html/contact.html"
+        }
+    ],
+    "description": "Computer program which builds a threaded blockset under the assumption that all matching segments occur in the same order and orientation in the given sequences; inversions and duplications are not addressed.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.bx.psu.edu/miller_lab/dist/tba_howto.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.bx.psu.edu/miller_lab/",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/multiz-tba-20090121-multi-sequence-aligner-package.html"
+        }
+    ],
+    "name": "Multiz",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We define a \"threaded blockset,\" which is a novel generalization of the classic notion of a multiple alignment. A new computer program called TBA (for \"threaded blockset aligner\") builds a threaded blockset under the assumption that all matching segments occur in the same order and orientation in the given sequences; inversions and duplications are not addressed. TBA is designed to be appropriate for aligning many, but by no means all, megabase-sized regions of multiple mammalian genomes. The output of TBA can be projected onto any genome chosen as a reference, thus guaranteeing that different projections present consistent predictions of which genomic positions are orthologous. This capability is illustrated using a new visualization tool to view TBA-generated alignments of vertebrate Hox clusters from both the mammalian and fish perspectives. Experimental evaluation of alignment quality, using a program that simulates evolutionary change in genomic sequences, indicates that TBA is more accurate than earlier programs. To perform the dynamic-programming alignment step, TBA runs a stand-alone program called MULTIZ, which can be used to align highly rearranged or incompletely sequenced genomes. We describe our use of MULTIZ to produce the whole-genome multiple alignments at the Santa Cruz Genome Browser. © 2004 by Cold Spring Harbor Laboratory Press.",
+                "authors": [
+                    {
+                        "name": "Baertsch R."
+                    },
+                    {
+                        "name": "Blanchette M."
+                    },
+                    {
+                        "name": "Clawson H."
+                    },
+                    {
+                        "name": "Elnitski L."
+                    },
+                    {
+                        "name": "Green E.D."
+                    },
+                    {
+                        "name": "Haussler D."
+                    },
+                    {
+                        "name": "Kent W.J."
+                    },
+                    {
+                        "name": "Miller W."
+                    },
+                    {
+                        "name": "Riemer C."
+                    },
+                    {
+                        "name": "Rosenbloom K."
+                    },
+                    {
+                        "name": "Roskin K.M."
+                    },
+                    {
+                        "name": "Smith A.F.A."
+                    }
+                ],
+                "citationCount": 843,
+                "date": "2004-04-01T00:00:00Z",
+                "journal": "Genome Research",
+                "title": "Aligning multiple genomic sequences with the threaded blockset aligner"
+            },
+            "pmid": "15060014"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1
+}

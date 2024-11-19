@@ -1,0 +1,51 @@
+about:
+  dev_url: https://github.com/Parsoa/SVDSS
+  doc_url: https://github.com/Parsoa/SVDSS/blob/v2.0.0/README.md
+  home: https://github.com/Parsoa/SVDSS
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Structural Variant Discovery from Sample-specific Strings.
+build:
+  number: 0
+  run_exports:
+  - None
+  skip: true
+extra:
+  identifiers:
+  - biotools:svdss
+  - doi:10.1038/s41592-022-01674-1
+  recipe-maintainers:
+  - ldenti
+package:
+  name: svdss
+  version: 2.0.0
+requirements:
+  build:
+  - None
+  - None
+  - make
+  - automake
+  - autoconf
+  - libtool
+  - cmake
+  - git
+  host:
+  - libgomp
+  - llvm-openmp
+  - htslib
+  - gsl
+  - zlib
+  - bzip2
+  - xz
+  run:
+  - libgomp
+  - llvm-openmp
+  - samtools >=1.9
+  - bcftools >=1.9
+source:
+  sha256: 825324dbdd70474b2a527925a25dea94b597ef579dee117645f285d678985652
+  url: https://github.com/Parsoa/SVDSS/archive/refs/tags/v2.0.0.tar.gz
+test:
+  commands:
+  - SVDSS --version

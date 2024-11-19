@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0003-2388-6046",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu161",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/massir",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "http://orcid.org/0000-0003-2388-6046"
+      },
+      "bsc:input": {
+        "@id": "_:Nfd5a5ea415ce405ab75b0e20ff165b3c"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N376a33b0a31e425296823a6a58d9342a"
+        },
+        {
+          "@id": "_:N4e3e6789c62d4ebca05ca297287f2a39"
+        },
+        {
+          "@id": "_:Nb98c239ddb204e6dbd85deba7e88a10a"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu161"
+        },
+        "pubmed:24659105",
+        "pmcid:PMC4080740"
+      ],
+      "sc:description": "Predicts the sex of samples in gene expression microarray datasets.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "massiR",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/massiR.html"
+      },
+      "sc:softwareVersion": "1.10.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/massiR.html"
+    },
+    {
+      "@id": "_:Nfd5a5ea415ce405ab75b0e20ff165b3c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N376a33b0a31e425296823a6a58d9342a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N4e3e6789c62d4ebca05ca297287f2a39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Nb98c239ddb204e6dbd85deba7e88a10a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Score"
+    }
+  ]
+}

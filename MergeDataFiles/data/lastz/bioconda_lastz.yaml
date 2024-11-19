@@ -1,0 +1,30 @@
+about:
+  home: http://www.bx.psu.edu/~rsharris/lastz/
+  license: MIT
+  summary: LASTZ is a program for aligning DNA sequences, a pairwise aligner.
+build:
+  number: 1
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:lastz
+package:
+  name: lastz
+  version: 1.04.22
+requirements:
+  build:
+  - make
+  - None
+  run: null
+source:
+  patches:
+  - makefile.patch
+  sha256: 4c829603ba4aed7ddf64255b528cd88850e4557382fca29580d3576c25c5054a
+  url: https://github.com/lastz/lastz/archive/refs/tags/1.04.22.tar.gz
+test:
+  commands:
+  - lastz --version 2>&1 | grep 1.04.22 > /dev/null

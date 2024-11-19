@@ -1,0 +1,49 @@
+about:
+  home: https://github.com/steineggerlab/foldmason
+  license: GPL-3
+  license_family: GPL
+  license_file: LICENSE.md
+  summary: Multiple Protein Structure Alignment at Scale with FoldMason
+build:
+  number: 0
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:foldmason
+  recipe-maintainers:
+  - gamcil
+  - milot-mirdita
+  - martin-steinegger
+package:
+  name: foldmason
+  version: 1.763a428
+requirements:
+  build:
+  - None
+  - None
+  - None
+  - cmake
+  - make
+  - llvm-openmp
+  - libgomp
+  host:
+  - perl
+  - gawk
+  - zlib
+  - bzip2
+  run:
+  - aria2
+  - wget
+  - gawk
+  - zlib
+  - bzip2
+source:
+  sha256: 5ecae4918bd2a555e760a3518342cea3fbba8efee17d0de021c68d823c57dc39
+  url: https://github.com/steineggerlab/foldmason/archive/1-763a428.tar.gz
+test:
+  commands:
+  - foldmason > /dev/null

@@ -1,0 +1,25 @@
+about:
+  home: http://www.usadellab.org/cms/?page=trimmomatic
+  license: GPLv3
+  summary: A flexible read trimming tool for Illumina NGS data
+build:
+  noarch: generic
+  number: 2
+extra:
+  identifiers:
+  - biotools:trimmomatic
+  - usegalaxy-eu:trimmomatic
+  - doi:10.1093/bioinformatics/btu170
+package:
+  name: trimmomatic
+  version: '0.39'
+requirements:
+  run:
+  - openjdk
+  - python
+source:
+  sha256: 2f97e3a237378d55c221abfc38e4b11ea232c8a41d511b8b4871f00c0476abca
+  url: http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+test:
+  commands:
+  - trimmomatic -version

@@ -1,0 +1,53 @@
+about:
+  home: https://github.com/steineggerlab/foldseek
+  license: GPL-3
+  license_family: GPL
+  license_file: LICENSE.md
+  summary: 'Foldseek: fast and accurate protein structure search'
+build:
+  number: 1
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1038/s41587-023-01773-0
+  - doi:10.1038/s41586-023-06510-w
+  - doi:10.1101/2024.04.14.589414
+  - biotools:foldseek
+  recipe-maintainers:
+  - milot-mirdita
+  - martin-steinegger
+package:
+  name: foldseek
+  version: 9.427df8a
+requirements:
+  build:
+  - None
+  - None
+  - None
+  - cmake
+  - make
+  - llvm-openmp
+  - libgomp
+  host:
+  - perl
+  - gawk
+  - zlib
+  - bzip2
+  run:
+  - aria2
+  - wget
+  - gawk
+  - zlib
+  - bzip2
+source:
+  patches:
+  - fix-rust-1.79.patch
+  sha256: b17d2d85b49a8508f79ffd8b15e54afc5feef5f3fb0276a291141ca5dbbbe8bc
+  url: https://github.com/steineggerlab/foldseek/archive/9-427df8a.tar.gz
+test:
+  commands:
+  - foldseek > /dev/null

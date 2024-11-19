@@ -1,0 +1,98 @@
+{
+    "additionDate": "2017-08-03T18:50:31Z",
+    "biotoolsCURIE": "biotools:masc",
+    "biotoolsID": "masc",
+    "credit": [
+        {
+            "email": "theodore.j.perkins@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.perkinslab.ca/"
+        }
+    ],
+    "description": "Perl implementation of our MaSC approach to estimating fragment length from short-read high-throughput sequencing data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.perkinslab.ca/sites/perkinslab.ca/files/README_0.TXT"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Nucleic acid sequence analysis",
+                    "uri": "http://edamontology.org/operation_2478"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.perkinslab.ca/Software.html",
+    "homepage_status": 1,
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/masc-mappability-sensitive-cross-correlation.html"
+        }
+    ],
+    "name": "MaSC",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: Reliable estimation of the mean fragment length for next-generation short-read sequencing data is an important step in next-generation sequencing analysis pipelines, most notably because of its impact on the accuracy of the enriched regions identified by peak-calling algorithms. Although many peak-calling algorithms include a fragment-length estimation subroutine, the problem has not been adequately solved, as demonstrated by the variability of the estimates returned by different algorithms.Results: In this article, we investigate the use of strand cross-correlation to estimate mean fragment length of single-end data and show that traditional estimation approaches have mixed reliability. We observe that the mappability of different parts of the genome can introduce an artificial bias into cross-correlation computations, resulting in incorrect fragment-length estimates. We propose a new approach, called mappability-sensitive cross-correlation (MaSC), which removes this bias and allows for accurate and reliable fragment-length estimation. We analyze the computational complexity of this approach, and evaluate its performance on a test suite of NGS datasets, demonstrating its superiority to traditional cross-correlation analysis.Availability: An open-source Perl implementation of our approach is available at http://www.perkinslab.ca/Software.html. © 2013 The Author.",
+                "authors": [
+                    {
+                        "name": "Palidwor G.A."
+                    },
+                    {
+                        "name": "Perkins T.J."
+                    },
+                    {
+                        "name": "Porter C.J."
+                    },
+                    {
+                        "name": "Ramachandran P."
+                    }
+                ],
+                "citationCount": 22,
+                "date": "2013-02-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "MaSC: Mappability-sensitive cross-correlation for estimating mean fragment length of single-end short-read sequencing data"
+            },
+            "pmid": "23300135"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,42 @@
+about:
+  dev_url: https://github.com/DecodeGenetics/Ratatosk
+  doc_url: https://github.com/DecodeGenetics/Ratatosk/blob/v0.9.0/README.md
+  home: https://github.com/DecodeGenetics/Ratatosk
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Hybrid error correction of long reads using colored de Bruijn graphs.
+build:
+  number: 1
+  run_exports:
+  - None
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:ratatosk
+  - doi:10.1186/s13059-020-02244-4
+package:
+  name: ratatosk
+  version: 0.9.0
+requirements:
+  build:
+  - None
+  - make
+  - cmake
+  host:
+  - zlib
+source:
+- patches:
+  - cmakelists.patch
+  sha256: d9e9575516aaebc8aa84f9bc0daab74e16d73501d57df15d5d0f600cebda3d63
+  url: https://github.com/DecodeGenetics/Ratatosk/archive/refs/tags/v0.9.0.tar.gz
+- folder: Bifrost
+  sha256: e1b2491328b0cc1a32e433a8a9780f05547fa4b8d674b58abdda9ac8809f5341
+  url: https://github.com/pmelsted/bifrost/archive/refs/tags/v1.3.5.tar.gz
+test:
+  commands:
+  - Ratatosk --help
+  - Ratatosk correct --help
+  - Ratatosk index --help

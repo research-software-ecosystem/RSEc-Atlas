@@ -1,0 +1,198 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0003-3139-3700",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9677-5078",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.tools/predictsnp",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "PredictSNP team",
+      "bsc:input": {
+        "@id": "_:N541cee17920849b08c22bbc10f37e2ab"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nade842eca1ea44cfbb508ef5b3b5a094"
+        },
+        {
+          "@id": "_:Nb2b325ff50364bab99e3cf3a50c9fb74"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3063"
+        }
+      ],
+      "sc:author": [
+        "Antonin Pavelka",
+        "Ondrej Salanda",
+        {
+          "@id": "https://orcid.org/0000-0001-9989-2720"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3139-3700"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1003440"
+      },
+      "sc:contributor": [
+        "Eric D. Wieben",
+        "Grant Agency of the Czech Republic",
+        "Ministry of Education of the Czech Republic",
+        "European Regional Development Fund",
+        "Brno University of Technology",
+        {
+          "@id": "https://orcid.org/0000-0001-9677-5078"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8718-7493"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7848-8216"
+        },
+        "European Social Fund"
+      ],
+      "sc:description": "A consensus classifier that combines six of the top performing tools for the prediction of the effects of mutation on protein function. The obtained results are provided together with annotations extracted from the Protein Mutant Database and the UniProt database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0331"
+      },
+      "sc:funder": [
+        "Grant Agency of the Czech Republic",
+        "European Regional Development Fund",
+        "Ministry of Education of the Czech Republic",
+        "Brno University of Technology",
+        "European Social Fund"
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Proprietary",
+      "sc:name": "PredictSNP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": [
+        "Masaryk University, Brno, Czech Republic",
+        "International Centre for Clinical Research, Brno, Czech Republic",
+        "ELIXIR-CZ",
+        "Mayo Clinic, Rochester, New York, United States of America",
+        "Loschmidt Laboratories",
+        "Brno University of Technology, Brno, Czech Republic"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://loschmidt.chemi.muni.cz/predictsnp1/docs/USER_GUIDE.pdf"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://loschmidt.chemi.muni.cz/predictsnp1"
+    },
+    {
+      "@id": "_:N541cee17920849b08c22bbc10f37e2ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:Nade842eca1ea44cfbb508ef5b3b5a094",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Nb2b325ff50364bab99e3cf3a50c9fb74",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8718-7493",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9989-2720",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1003440",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "schema:Person"
+    }
+  ]
+}

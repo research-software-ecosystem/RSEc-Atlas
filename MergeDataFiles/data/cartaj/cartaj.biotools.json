@@ -1,0 +1,107 @@
+{
+    "additionDate": "2017-08-03T18:39:17Z",
+    "biotoolsCURIE": "biotools:cartaj",
+    "biotoolsID": "cartaj",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://cartaj.lri.fr/"
+        }
+    ],
+    "description": "This software automatically predicts the topological family of any RNA three-way junction, given only the information from the secondary structure: the sequence and the canonical Watson–Crick pairings.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://cartaj.lri.fr/tutorial.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Structure classification",
+                    "uri": "http://edamontology.org/operation_2996"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cartaj.lri.fr/",
+    "language": [
+        "Ruby"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/cartaj-r14-classification-of-rna-threeway-junctions.html"
+        }
+    ],
+    "name": "Cartaj",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We present an algorithm for automatically predicting the topological family of any RNA three-way junction, given only the information from the secondary structure: the sequence and the Watson-Crick pairings. The parameters of the algorithm have been determined on a data set of 33 three-way junctions whose 3D conformation is known. We applied the algorithm on 53 other junctions and compared the predictions to the real shape of those junctions. We show that the correct answer is selected out of nine possible configurations 64 of the time. Additionally, these results are noticeably improved if homology information is used. The resulting software, Cartaj, is available online and downloadable (with source) at: http://cartaj.lri.fr. © 2012 Elsevier Ltd.",
+                "authors": [
+                    {
+                        "name": "Barth D."
+                    },
+                    {
+                        "name": "Denise A."
+                    },
+                    {
+                        "name": "Lamiable A."
+                    },
+                    {
+                        "name": "Quessette F."
+                    },
+                    {
+                        "name": "Vial S."
+                    },
+                    {
+                        "name": "Westhof E."
+                    }
+                ],
+                "citationCount": 15,
+                "date": "2012-04-01T00:00:00Z",
+                "journal": "Computational Biology and Chemistry",
+                "title": "Automated prediction of three-way junction topological families in RNA secondary structures"
+            },
+            "pmid": "22326420"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Web service"
+    ],
+    "topic": [
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

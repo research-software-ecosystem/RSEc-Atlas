@@ -1,0 +1,65 @@
+about:
+  home: https://catchenlab.life.illinois.edu/stacks/
+  license: GPL
+  license_file: LICENSE
+  summary: Stacks is a software pipeline for building loci from RAD-seq
+build:
+  number: 0
+  run_exports:
+  - None
+  skip: true
+extra:
+  identifiers:
+  - biotools:Stacks
+  - doi:10.1111/mec.12354
+package:
+  name: stacks
+  version: 2.65
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - zlib
+  - openmp
+  run:
+  - perl
+  - perl-bioperl-core
+  - perl-file-spec
+  - perl-file-temp
+  - perl-posix
+  - python >=3
+  - velvet
+  - samtools
+  - zlib
+  - openmp
+  - r-base >=4
+source:
+  patches:
+  - at.patch
+  - kmer_exit.patch
+  - limits.patch
+  sha256: ffd6bd3d6295ab9c89cc451f385d37cd1d47a77019c3d305f31202a2b895e2ea
+  url: https://catchenlab.life.illinois.edu/stacks/source/stacks-2.65.tar.gz
+test:
+  commands:
+  - cstacks 2>&1 | grep -Fq 'cstacks 2.65'
+  - gstacks 2>&1 | grep -Fq 'gstacks 2.65'
+  - sstacks 2>&1 | grep -Fq 'sstacks 2.65'
+  - ustacks 2>&1 | grep -Fq 'ustacks 2.65'
+  - phasedstacks 2>&1 | grep -Fq 'phasedstacks 2.65'
+  - populations 2>&1 | grep -Fq 'populations 2.65'
+  - process_radtags 2>&1 | grep -Fq 'process_radtags 2.65'
+  - process_shortreads 2>&1 | grep -Fq 'process_shortreads 2.65'
+  - clone_filter 2>&1 | grep -Fq 'clone_filter 2.65'
+  - kmer_filter 2>&1 | grep -Fq 'kmer_filter 2.65'
+  - stacks-dist-extract 2>&1 | grep -q Usage
+  - tsv2bam 2>&1 | grep -Fq 'tsv2bam 2.65'
+  - convert_stacks.pl 2>&1 | grep -Fq 'convert_stacks.pl _VERSION_'
+  - denovo_map.pl -h 2>&1 | grep -Fq 'denovo_map.pl 2.65'
+  - extract_interpop_chars.pl -h 2>&1 | grep -Fq 'extract-interpop-chars.pl'
+  - stacks-integrate-alignments 2>&1 | grep -Fq usage
+  - ref_map.pl 2>&1 | grep -Fq 'ref_map.pl 2.65'
+  - stacks-count-reads-per-sample-per-locus 2>&1 | grep -Fq usage
+  - stacks-hist2d-loci-samples-coverage 2>&1 | grep -Fq usage
+  - stacks-samtools-tview 2>&1 | grep -Fq usage

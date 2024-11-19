@@ -1,0 +1,288 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/npre.2011.6107",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/gatk_realigner_target_creator",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N20856d9b500d431a86581df2fcf54151"
+        },
+        {
+          "@id": "_:Nf2630440ab8d4e139fa71e245126ef81"
+        },
+        {
+          "@id": "_:N1c77311d75cf46d6b7b45085b7bb3be2"
+        },
+        {
+          "@id": "_:N6c9f1d9e62944f24b2dae6162d90586e"
+        },
+        {
+          "@id": "_:N363eb39e0cfb40e0a5b5b753d8b46461"
+        },
+        {
+          "@id": "_:N917c76190cd144a7a64c518114702d7f"
+        },
+        {
+          "@id": "_:Nf0beb5d6d87f4f439cae4712b1a92725"
+        },
+        {
+          "@id": "_:N942c8de0d8ea49da858b8aa3c4842a00"
+        },
+        {
+          "@id": "_:N0dd93d4cafb7434385e5398c7f1208e0"
+        },
+        {
+          "@id": "_:N5b4bfdeb5a634b2bb584e112ffb7cb07"
+        },
+        {
+          "@id": "_:Nef1ce356765b4e4890400e12a5395b78"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nea0724090d6d472aa14a4b04bb8d5b84"
+        },
+        {
+          "@id": "_:N0d0c9dc29ff94a83a085dba68f8dccbc"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3168"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/npre.2011.6107"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Realigner Target Creator for use in local realignment.",
+      "sc:featureList": {
+        "@id": "edam:operation_0495"
+      },
+      "sc:name": "gatk_realigner_target_creator",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_indels_RealignerTargetCreator.php"
+      },
+      "sc:softwareVersion": "2.4-9",
+      "sc:url": "https://software.broadinstitute.org/gatk/"
+    },
+    {
+      "@id": "_:N20856d9b500d431a86581df2fcf54151",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3016"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nf2630440ab8d4e139fa71e245126ef81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N1c77311d75cf46d6b7b45085b7bb3be2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N6c9f1d9e62944f24b2dae6162d90586e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N363eb39e0cfb40e0a5b5b753d8b46461",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N917c76190cd144a7a64c518114702d7f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nf0beb5d6d87f4f439cae4712b1a92725",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N942c8de0d8ea49da858b8aa3c4842a00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N0dd93d4cafb7434385e5398c7f1208e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3016"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5b4bfdeb5a634b2bb584e112ffb7cb07",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Nef1ce356765b4e4890400e12a5395b78",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nea0724090d6d472aa14a4b04bb8d5b84",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N0d0c9dc29ff94a83a085dba68f8dccbc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

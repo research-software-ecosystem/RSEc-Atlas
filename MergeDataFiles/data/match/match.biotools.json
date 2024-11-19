@@ -1,0 +1,119 @@
+{
+    "additionDate": "2017-02-10T11:34:05Z",
+    "biotoolsCURIE": "biotools:match",
+    "biotoolsID": "match",
+    "credit": [
+        {
+            "email": "webmaster@gene-regulation.com",
+            "name": "Webmaster",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Weight matrix-based tool which searches for putative transcription factor binding sites (TFBS) in DNA sequences. Registration at the site is free and is required to use it.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://gene-regulation.com/Match_command_line.txt"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "DNA transcription",
+                    "uri": "http://edamontology.org/operation_0372"
+                },
+                {
+                    "term": "Genome comparison",
+                    "uri": "http://edamontology.org/operation_3209"
+                },
+                {
+                    "term": "Target-Decoy",
+                    "uri": "http://edamontology.org/operation_3649"
+                },
+                {
+                    "term": "Transcription factor binding site prediction",
+                    "uri": "http://edamontology.org/operation_0445"
+                },
+                {
+                    "term": "Transcriptional regulatory element prediction",
+                    "uri": "http://edamontology.org/operation_0438"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.gene-regulation.com/pub/programs.html#match",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "Match",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Match™ is a weight matrix-based tool for searching putative transcription factor binding sites in DNA sequences. Match™ is closely interconnected and distributed together with the TRANSFAC® database. In particular, Match™ uses the matrix library collected in TRANSFAC® and therefore provides the possibility to search for a great variety of different transcription factor binding sites. Several sets of optimised matrix cut-off values are built in the system to provide a variety of search modes of different stringency. The user may construct and save his/her specific user profiles which are selected subsets of matrices including default or user-defined cut-off values. Furthermore a number of tissue-specific profiles are provided that were compiled by the TRANSFAC® team. A public version of the Match™ tool is available at: http://www.gene-regulation.com/pub/programs. html#match. The same program with a different web interface can be found at http://compel.bionet.nsc.ru/Match/Match.html. An advanced version of the tool called Match™ Professional is available at http://www.biobase.de.",
+                "authors": [
+                    {
+                        "name": "Cheremushkin E."
+                    },
+                    {
+                        "name": "Gossling E."
+                    },
+                    {
+                        "name": "Kel A.E."
+                    },
+                    {
+                        "name": "Kel-Margoulis O.V."
+                    },
+                    {
+                        "name": "Reuter I."
+                    },
+                    {
+                        "name": "Wingender E."
+                    }
+                ],
+                "citationCount": 850,
+                "date": "2003-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "MATCH™: A tool for searching transcription factor binding sites in DNA sequences"
+            },
+            "pmid": "12824369"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "DNA binding sites",
+            "uri": "http://edamontology.org/topic_3125"
+        },
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Nucleic acid sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3511"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1
+}

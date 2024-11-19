@@ -1,0 +1,871 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:igvtools/cmd/software.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2672,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 91,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 245,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 368,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 405,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 425,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbs017",
+                            "pmcid": "PMC3603213",
+                            "pmid": "22517427",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT102839S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:igvtools/plugin/software.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2672,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 91,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 245,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 368,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 405,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 425,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbs017",
+                            "pmcid": "PMC3603213",
+                            "pmid": "22517427",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT102839S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:igvtools:none/cmd/software.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2672,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 91,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 245,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 368,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 405,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 425,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbs017",
+                            "pmcid": "PMC3603213",
+                            "pmid": "22517427",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT102839S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:igvtools:none/plugin/software.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2672,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 91,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 245,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 257,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 368,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 405,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 425,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbs017",
+                            "pmcid": "PMC3603213",
+                            "pmid": "22517427",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT102839S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:igvtools:2.3.16/cmd/www.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://software.broadinstitute.org/software/igv"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.broadinstitute.org/igv/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:igvtools:2.3.48/cmd/www.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://software.broadinstitute.org/software/igv"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.broadinstitute.org/igv/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:igvtools:2.3.93/cmd/www.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://software.broadinstitute.org/software/igv"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.broadinstitute.org/igv/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:igvtools:2.5.3/cmd/www.broadinstitute.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://software.broadinstitute.org/software/igv"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.broadinstitute.org/igv/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/igvtools",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://igv.org/doc/desktop/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,1280 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dastool/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.7/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastool:1.1.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 89,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1038/s41564-018-0171-1",
+                            "pmcid": "PMC6786971",
+                            "pmid": "29807988",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Recovery of genomes from metagenomes via a dereplication, aggregation and scoring strategy.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/dastool",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

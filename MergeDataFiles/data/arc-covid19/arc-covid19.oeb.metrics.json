@@ -1,0 +1,90 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:arc-covid19/web/arc.epfl.ch",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.3389/fpubh.2021.607677",
+                            "pmcid": "PMC7921781",
+                            "pmid": "33665184",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ARC: An Open Web-Platform for Request/Supply Matching for a Prioritized and Controlled COVID-19 Response.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://arc.epfl.ch/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://arc.epfl.ch/start/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/arc-covid19",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://arc.epfl.ch/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://arc.epfl.ch/start/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

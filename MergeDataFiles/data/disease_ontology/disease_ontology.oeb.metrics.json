@@ -1,0 +1,340 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:disease_ontology/web/disease-ontology.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 296,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 36,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 47,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkr972",
+                            "pmcid": "PMC3245088",
+                            "pmid": "22080554",
+                            "ref_count": 29,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Disease Ontology: a backbone for disease semantic integration.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://disease-ontology.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:disease_ontology/db/disease-ontology.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 296,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 36,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 47,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkr972",
+                            "pmcid": "PMC3245088",
+                            "pmid": "22080554",
+                            "ref_count": 29,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Disease Ontology: a backbone for disease semantic integration.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://disease-ontology.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/disease_ontology",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://disease-ontology.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

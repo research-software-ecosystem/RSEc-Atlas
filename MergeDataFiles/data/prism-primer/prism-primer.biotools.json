@@ -1,0 +1,102 @@
+{
+    "additionDate": "2017-08-03T18:56:17Z",
+    "biotoolsCURIE": "biotools:prism-primer",
+    "biotoolsID": "prism-primer",
+    "credit": [
+        {
+            "email": "nlennon@broadinstitute.org",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.broadinstitute.org/"
+        }
+    ],
+    "description": "Set of algorithms designed specifically to create degenerate primers for the amplification and sequencing of short viral genomes while maintaining sample population diversity.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://www.broadinstitute.org/viral-genomics/prism"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "PCR primer design",
+                    "uri": "http://edamontology.org/operation_0308"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/prism",
+    "lastUpdate": "2018-12-10T12:58:46Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/prism-primer-selection-matching-amplification-viral-genomes.html"
+        }
+    ],
+    "name": "PriSM",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Summary: PriSM is a set of algorithms designed to select and match degenerate primer pairs for the amplification of viral genomes. The design of panels of hundreds of primer pairs takes just hours using this program, compared with days using a manual approach. PriSM allows for rapid in silico optimization of primers for downstream applications such as sequencing. As a validation, PriSM was used to create an amplification primer panel for human immunodeficiency virus (HIV) Clade B. © The Author 2010. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Allen T.M."
+                    },
+                    {
+                        "name": "Birren B.W."
+                    },
+                    {
+                        "name": "Henn M.R."
+                    },
+                    {
+                        "name": "Lennon N.J."
+                    },
+                    {
+                        "name": "Ryan E.M."
+                    },
+                    {
+                        "name": "Yu Q."
+                    }
+                ],
+                "citationCount": 9,
+                "date": "2011-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "PriSM: A primer selection and matching tool for amplification and sequencing of viral genomes"
+            },
+            "pmid": "21068001"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Probes and primers",
+            "uri": "http://edamontology.org/topic_0632"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        },
+        {
+            "term": "Virology",
+            "uri": "http://edamontology.org/topic_0781"
+        }
+    ],
+    "validated": 1
+}

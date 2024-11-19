@@ -1,0 +1,107 @@
+{
+    "additionDate": "2017-01-13T13:16:00Z",
+    "biotoolsCURIE": "biotools:quake",
+    "biotoolsID": "quake",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "dkelley@fas.harvard.edu",
+            "name": "David R. Kelley",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A program for detecting and correcting errors in next generation sequencing reads.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://www.cbcb.umd.edu/software/quake/manual.html"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "ELIXIR-EE"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Optimisation and refinement",
+                    "uri": "http://edamontology.org/operation_2425"
+                },
+                {
+                    "term": "Sequence editing",
+                    "uri": "http://edamontology.org/operation_0231"
+                },
+                {
+                    "term": "Sequencing error detection",
+                    "uri": "http://edamontology.org/operation_3195"
+                },
+                {
+                    "term": "Sequencing quality control",
+                    "uri": "http://edamontology.org/operation_3218"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.cbcb.umd.edu/software/quake",
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "name": "Quake",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We introduce Quake, a program to detect and correct errors in DNA sequencing reads. Using a maximum likelihood approach incorporating quality values and nucleotide specific miscall rates, Quake achieves the highest accuracy on realistically simulated reads. We further demonstrate substantial improvements in de novo assembly and SNP detection after using Quake. Quake can be used for any size project, including more than one billion human reads, and is freely available as open source software from http://www.cbcb.umd.edu/software/quake. © 2010 Kelley et al.; licensee BioMed Central Ltd.",
+                "authors": [
+                    {
+                        "name": "Kelley D.R."
+                    },
+                    {
+                        "name": "Salzberg S.L."
+                    },
+                    {
+                        "name": "Schatz M.C."
+                    }
+                ],
+                "citationCount": 401,
+                "date": "2010-11-29T00:00:00Z",
+                "journal": "Genome Biology",
+                "title": "Quake: Quality-aware detection and correction of sequencing errors"
+            },
+            "pmid": "21114842"
+        }
+    ],
+    "toolType": [
+        "Workflow"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        },
+        {
+            "term": "Statistics and probability",
+            "uri": "http://edamontology.org/topic_2269"
+        }
+    ],
+    "validated": 1
+}

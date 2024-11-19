@@ -3,3 +3,6 @@ venv
 
 # PyCharm files
 .idea
+
+# Problematic Files
+MergeDataFiles/data/prn

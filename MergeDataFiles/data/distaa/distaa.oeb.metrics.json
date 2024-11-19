@@ -1,0 +1,84 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:distaa/web/andromeda.matf.bg.ac.rs",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.compbiolchem.2019.107130",
+                            "pmid": "31593887",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DistAA: Database of amino acid distances in proteins and web application for statistical review of distances.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31593887"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31593887/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/distaa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31593887"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31593887/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

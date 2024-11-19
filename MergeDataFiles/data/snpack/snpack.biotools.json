@@ -1,0 +1,97 @@
+{
+    "additionDate": "2016-03-03T16:34:28Z",
+    "biotoolsCURIE": "biotools:snpack",
+    "biotoolsID": "snpack",
+    "credit": [
+        {
+            "email": "francesco.sambo@dei.unipd.it",
+            "name": "Francesco Sambo",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.dei.unipd.it/~sambofra"
+        },
+        {
+            "name": "ELIXIR-ITA-PADOVA",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "C++ library with novel algorithms and a novel file format for compressing and retrieving SNP data, specifically designed for large-scale association studies. The algorithm is based on two main ideas: (i) compress linkage disequilibrium blocks in terms of differences with a reference SNP and (ii) compress reference SNPs exploiting information on their call rate and minor allele frequency.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://sysbiobig.dei.unipd.it/?q=Software#SNPack"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "note": "SNPack is a C++ library with novel algorithms and a novel file format for compressing and retrieving SNP data, specifically designed for large-scale association studies.",
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://sysbiobig.dei.unipd.it/?q=Software#SNPack",
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "license": "GPL-3.0",
+    "name": "SNPack",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "ELIXIR-ITA-PADOVA",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btu495",
+            "metadata": {
+                "abstract": "© The Author 2014. Published by Oxford University Press.Motivation: The increasing interest in rare genetic variants and epistatic genetic effects on complex phenotypic traits is currently pushing genome-wide association study design towards datasets of increasing size, both in the number of studied subjects and in the number of genotyped single nucleotide polymorphisms (SNPs). This, in turn, is leading to a compelling need for new methods for compression and fast retrieval of SNP data. Results: We present a novel algorithm and file format for compressing and retrieving SNP data, specifically designed for large-scale association studies. Our algorithm is based on two main ideas: (i) compress linkage disequilibrium blocks in terms of differences with a reference SNP and (ii) compress reference SNPs exploiting information on their call rate and minor allele frequency. Tested on two SNP datasets and compared with several state-of-the-art software tools, our compression algorithm is shown to be competitive in terms of compression rate and to outperform all tools in terms of time to load compressed data.",
+                "authors": [
+                    {
+                        "name": "Cobelli C."
+                    },
+                    {
+                        "name": "Di Camillo B."
+                    },
+                    {
+                        "name": "Sambo F."
+                    },
+                    {
+                        "name": "Toffolo G."
+                    }
+                ],
+                "citationCount": 4,
+                "date": "2014-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Compression and fast retrieval of SNP data"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.0"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "additionDate": "2018-05-04T18:21:41Z",
+    "biotoolsCURIE": "biotools:crusview",
+    "biotoolsID": "crusview",
+    "credit": [
+        {
+            "email": "xwang1@cals.arizona.edu",
+            "name": "Xiangfeng (Bryan) Wang",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Visualization platform for comparative genomics analyses in Brassicaceae species.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.cmbb.arizona.edu/CrusView/manual.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome comparison",
+                    "uri": "http://edamontology.org/operation_3209"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.cmbb.arizona.edu/?page_id=250",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "name": "CrusView",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "d.gabrielaitis",
+    "publication": [
+        {
+            "doi": "10.1104/PP.113.219444",
+            "metadata": {
+                "abstract": "In plants and animals, chromosomal breakage and fusion events based on conserved syntenic genomic blocks lead to conserved patterns of karyotype evolution among species of the same family. However, karyotype information has not been well utilized in genomic comparison studies. We present CrusView, a Java-based bioinformatic application utilizing Standard Widget Toolkit/Swing graphics libraries and a SQLite database for performing visualized analyses of comparative genomics data in Brassicaceae (crucifer) plants. Compared with similar software and databases, one of the unique features of CrusView is its integration of karyotype information when comparing two genomes. This feature allows users to perform karyotype-based genome assembly and karyotype-assisted genome synteny analyses with preset karyotype patterns of the Brassicaceae genomes. Additionally, CrusView is a local program, which gives its users high flexibility when analyzing unpublished genomes and allows users to upload self-defined genomic information so that they can visually study the associations between genome structural variations and genetic elements, including chromosomal rearrangements, genomic macrosynteny, gene families, high-frequency recombination sites, and tandem and segmental duplications between related species. This tool will greatly facilitate karyotype, chromosome, and genome evolution studies using visualized comparative genomics approaches in Brassicaceae species. © 2013 American Society of Plant Biologists. All Rights Reserved.",
+                "authors": [
+                    {
+                        "name": "Chen H."
+                    },
+                    {
+                        "name": "Wang X."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2013-09-01T00:00:00Z",
+                "journal": "Plant Physiology",
+                "title": "CrusView: A java-based visualization platform for comparative genomics analyses in Brassicaceae species"
+            },
+            "pmcid": "PMC3762655",
+            "pmid": "23898041"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Evolutionary biology",
+            "uri": "http://edamontology.org/topic_3299"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Plant biology",
+            "uri": "http://edamontology.org/topic_0780"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,93 @@
+{
+    "additionDate": "2017-08-03T18:37:40Z",
+    "biotoolsCURIE": "biotools:biotapestry",
+    "biotoolsID": "biotapestry",
+    "credit": [
+        {
+            "email": "biotapestry@systemsbiology.org",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://shmulevich.systemsbiology.net/"
+        }
+    ],
+    "description": "Interactive tool for building, visualizing, and simulating genetic regulatory networks. It is designed around the concept of a developmental network model, and is intended to deal with large scale models with consistency and clarity. It is capable of representing systems that exhibit increasing complexity over time.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.biotapestry.org/#documentation"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Network simulation",
+                    "uri": "http://edamontology.org/operation_3562"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.biotapestry.org/",
+    "language": [
+        "Java",
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/biotapestry-5-0-2-genetic-regulatory-networks-tool.html"
+        }
+    ],
+    "name": "BioTapestry",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "BioTapestry is an open source, freely available software tool that has been developed to handle the-challenges of modeling genetic regulatory networks (GRNs). Using BioTapestry, a researcher can-construct a network model and use it to visualize and understand the dynamic behavior of a complex, spatially and temporally distributed GRN. Here we provide a step-by-step example of a way to use BioTapestry to build a GRN model and discuss some common issues that can arise during this process. © 2012 Springer Science+Business Media, LLC.",
+                "authors": [
+                    {
+                        "name": "Longabaugh W.J.R."
+                    }
+                ],
+                "citationCount": 46,
+                "date": "2012-01-01T00:00:00Z",
+                "journal": "Methods in Molecular Biology",
+                "title": "BioTapestry: A tool to visualize the dynamic properties of gene regulatory networks"
+            },
+            "pmid": "21938637"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Systems biology",
+            "uri": "http://edamontology.org/topic_2259"
+        }
+    ],
+    "validated": 1
+}

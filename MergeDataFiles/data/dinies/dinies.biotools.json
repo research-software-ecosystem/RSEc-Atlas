@@ -1,0 +1,122 @@
+{
+    "additionDate": "2017-05-16T12:28:16Z",
+    "biotoolsCURIE": "biotools:dinies",
+    "biotoolsID": "dinies",
+    "credit": [
+        {
+            "name": "Feedback Form",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.genome.jp/feedback/"
+        }
+    ],
+    "description": "Tool based on Supervised analysis enables the prediction of potential interactions between drug molecules and target proteins, based on drug data and omics-scale protein data. The users can use any data as the input, as long as they are represented as the tab-delimited matrices or profiles.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.genome.jp/tools/dinies/help.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Pathway or network comparison",
+                    "uri": "http://edamontology.org/operation_0277"
+                },
+                {
+                    "term": "Pathway or network prediction",
+                    "uri": "http://edamontology.org/operation_3439"
+                },
+                {
+                    "term": "Pathway or network visualisation",
+                    "uri": "http://edamontology.org/operation_3083"
+                },
+                {
+                    "term": "Protein fold recognition",
+                    "uri": "http://edamontology.org/operation_0303"
+                },
+                {
+                    "term": "Protein interaction network analysis",
+                    "uri": "http://edamontology.org/operation_0276"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.genome.jp/tools/dinies/",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "DINIES",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gku337",
+            "metadata": {
+                "abstract": "DINIES (drug-target interaction network inference engine based on supervised analysis) is a web server for predicting unknown drug-target interaction networks from various types of biological data (e.g. chemical structures, drug side effects, amino acid sequences and protein domains) in the framework of supervised network inference. The originality of DINIES lies in prediction with state-of-the-art machine learning methods, in the integration of heterogeneous biological data and in compatibility with the KEGG database. The DINIES server accepts any 'profiles' or precalculated similarity matrices (or 'kernels') of drugs and target proteins in tab-delimited file format. When a training data set is submitted to learn a predictive model, users can select either known interaction information in the KEGG DRUG database or their own interaction data. The user can also select an algorithm for supervised network inference, select various parameters in the method and specify weights for heterogeneous data integration. The server can provide integrative analyses with useful components in KEGG, such as biological pathways, functional hierarchy and human diseases. DINIES (http://www.genome.jp/tools/dinies/) is publicly available as one of the genome analysis tools in GenomeNet. © 2014 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Goto S."
+                    },
+                    {
+                        "name": "Kanehisa M."
+                    },
+                    {
+                        "name": "Kotera M."
+                    },
+                    {
+                        "name": "Moriya Y."
+                    },
+                    {
+                        "name": "Sawada R."
+                    },
+                    {
+                        "name": "Yamanishi Y."
+                    }
+                ],
+                "citationCount": 76,
+                "date": "2014-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "DINIES: Drug-target interaction network inference engine based on supervised analysis"
+            },
+            "pmcid": "PMC4086078",
+            "pmid": "24838565"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Drug discovery",
+            "uri": "http://edamontology.org/topic_3336"
+        },
+        {
+            "term": "Machine learning",
+            "uri": "http://edamontology.org/topic_3474"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Protein interactions",
+            "uri": "http://edamontology.org/topic_0128"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,101 @@
+{
+    "additionDate": "2017-08-03T19:03:59Z",
+    "biotoolsCURIE": "biotools:vseams",
+    "biotoolsID": "vseams",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/ollyburren"
+        }
+    ],
+    "description": "Pipeline for investigating whether a set of gene/genomic intervals is enriched for genome wide association study (GWAS) p-values for a particular trait.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/ollyburren/vseams/wiki"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Enrichment analysis",
+                    "uri": "http://edamontology.org/operation_3501"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/ollyburren/vseams/wiki",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/vseams-0-1-variant-set-enrichment-analysis-using-multivariate-sampling.html"
+        }
+    ],
+    "name": "VSEAMS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2014. Published by Oxford University Press.Motivation: Genome-wide association studies (GWAS) have identified many loci implicated in disease susceptibility. Integration of GWAS summary statistics (P-values) and functional genomic datasets should help to elucidate mechanisms. Results: We extended a non-parametric SNP set enrichment method to test for enrichment of GWAS signals in functionally defined loci to a situation where only GWAS P-values are available. The approach is implemented in VSEAMS, a freely available software pipeline. We use VSEAMS to identify enrichment of type 1 diabetes (T1D) GWAS associations near genes that are targets for the transcription factors IKZF3, BATF and ESRRA. IKZF3 lies in a known T1D susceptibility region, while BATF and ESRRA overlap other immune disease susceptibility regions, validating our approach and suggesting novel avenues of research for T1D.",
+                "authors": [
+                    {
+                        "name": "Burren O.S."
+                    },
+                    {
+                        "name": "Guo H."
+                    },
+                    {
+                        "name": "Wallace C."
+                    }
+                ],
+                "citationCount": 7,
+                "date": "2014-12-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "VSEAMS: A pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes"
+            },
+            "pmid": "25170024"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "GWAS study",
+            "uri": "http://edamontology.org/topic_3517"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1
+}

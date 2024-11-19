@@ -1,0 +1,310 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:scrwl:4.0/cmd/dunbrack.fccc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 509,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 41,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 64,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 66,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 67,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1002/prot.22488",
+                            "pmcid": "PMC2885146",
+                            "pmid": "19603484",
+                            "ref_count": 68,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1935"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1983"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2005"
+                                }
+                            ],
+                            "title": "Improved prediction of protein side-chain conformations with SCWRL4.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/scrwl",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://dunbrack.fccc.edu/lab/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

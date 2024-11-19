@@ -1,0 +1,1102 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:t-coffee:1/web/www.ebi.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2995,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 98,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 124,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 144,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 155,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 157,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 182,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 184,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 194,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 197,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 198,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 209,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 213,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4042",
+                            "pmid": "10964570",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1993"
+                                }
+                            ],
+                            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/Tools/msa/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:t-coffee:13.45.0.4846264/cmd/www.tcoffee.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2995,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 98,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 124,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 144,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 155,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 157,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 182,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 184,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 194,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 197,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 198,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 209,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 213,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4042",
+                            "pmid": "10964570",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1993"
+                                }
+                            ],
+                            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/Projects/tcoffee/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:t-coffee:11.00.8cbe486/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2995,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 98,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 124,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 144,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 155,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 157,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 182,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 184,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 194,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 197,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 198,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 209,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 213,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4042",
+                            "pmid": "10964570",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1993"
+                                }
+                            ],
+                            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/Projects/tcoffee/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:t-coffee:12.00.7fb08c2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2995,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 98,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 124,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 144,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 155,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 157,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 182,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 184,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 194,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 197,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 198,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 209,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 213,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4042",
+                            "pmid": "10964570",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1993"
+                                }
+                            ],
+                            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/Projects/tcoffee/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:t-coffee:13.39.0.d675aed/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2995,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 50,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 98,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 124,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 144,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 155,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 157,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 182,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 184,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 194,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 197,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 198,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 209,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 213,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4042",
+                            "pmid": "10964570",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1993"
+                                }
+                            ],
+                            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/Projects/tcoffee/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/t-coffee",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": true,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tcoffee.org/Projects/tcoffee/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.tcoffee.org/Projects/tcoffee/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

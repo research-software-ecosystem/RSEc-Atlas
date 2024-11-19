@@ -1,0 +1,95 @@
+{
+    "additionDate": "2017-08-03T18:50:33Z",
+    "biotoolsCURIE": "biotools:macclade",
+    "biotoolsID": "macclade",
+    "credit": [
+        {
+            "email": "clade@arizona.edu",
+            "name": "David Maddison",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://macclade.org/authors.html"
+        }
+    ],
+    "description": "Computer program for phylogenetic analysis. Its analytical strength is in studies of character evolution. It also provides many tools for entering and editing data and phylogenies, and for producing tree diagrams and charts.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://macclade.org/download.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://macclade.org/index.html",
+    "language": [
+        "C",
+        "Pascal"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/macclade-4-08a-phylogenetic-analysis.html"
+        }
+    ],
+    "name": "MacClade",
+    "operatingSystem": [
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Computer programs for phylogenetic analysis have been important tools in sys-tematics and evolutionary biology, but most have been designed primarily for the reconstruction of phylogenetic trees and not the interpretation of patterns of character evolution. Described here is the computer program MacClade, designed for interactive analysis of character evolution and phylogeny. For a given tree and a matrix of character data, MacClade displays its reconstruction of character evolution by shading the branches of the tree to indicate ancestral states. Trees can be manipulated, for instance by picking up and moving branches. Assumptions underlying the reconstruction of character evolution can be varied extensively. With these manipulations and MacClade’s graphical feedback, one can explore the relationships among phylogenetic trees, character data, assumptions, and interpretations of character evolution. MacClade has extensive facilities for editing data, displaying various summaries of character evolution in charts and diagrams, and printing. © 1989 S. Karger AG, Basel.",
+                "authors": [
+                    {
+                        "name": "Maddison D.R."
+                    },
+                    {
+                        "name": "Maddison W.P."
+                    }
+                ],
+                "citationCount": 132,
+                "date": "1989-01-01T00:00:00Z",
+                "journal": "Folia Primatologica",
+                "title": "Interactive analysis of phylogeny and character evolution using the computer program macclade"
+            },
+            "pmid": "2606395"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Evolutionary biology",
+            "uri": "http://edamontology.org/topic_3299"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,156 @@
+{
+    "additionDate": "2015-01-29T15:47:40Z",
+    "biotoolsCURIE": "biotools:decode",
+    "biotoolsID": "decode",
+    "collectionID": [
+        "EBI Tools"
+    ],
+    "credit": [
+        {
+            "email": "training@ebi.ac.uk",
+            "name": "Training",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "EMBL-EBI",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.ebi.ac.uk/support/"
+        }
+    ],
+    "description": "Change the letters of your name to the closest DNA bases, search every one of 168,297 protein sequences from 8826 animals, plants and microorganisms and return to you, the protein that contains the closest match to the letters of your name.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ebi.ac.uk/cgi-bin/decode/decode.cgi"
+        },
+        {
+            "type": [
+                "Terms of use"
+            ],
+            "url": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence similarity search",
+                    "uri": "http://edamontology.org/operation_0346"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ebi.ac.uk/cgi-bin/decode/decode.cgi",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Helpdesk"
+            ],
+            "url": "http://www.ebi.ac.uk/support/"
+        }
+    ],
+    "name": "deCODE",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "EMBL-EBI",
+    "publication": [
+        {
+            "doi": "10.1038/ng917",
+            "metadata": {
+                "abstract": "Determination of recombination rates across the human genome has been constrained by the limited resolution and accuracy of existing genetic maps and the draft genome sequence. We have genotyped 5, 136 microsatellite markers for 146 families, with a total of 1, 257 meiotic events, to build a high-resolution genetic map meant to: (i) improve the genetic order of polymorphic markers; (ii) improve the precision of estimates of genetic distances; (iii) correct portions of the sequence assembly and SNP map of the human genome; and (iv) build a map of recombination rates. Recombination rates are significantly correlated with both cytogenetic structures (staining intensity of G bands) and sequence (GC content, CpG motifs and poly(A)/poly(T) stretches). Maternal and paternal chromosomes show many differences in locations of recombination maxima. We detected systematic differences in recombination rates between mothers and between gametes from the same mother, suggesting that there is some underlying component determined by both genetic and environmental factors that affects maternal recombination rates.",
+                "authors": [
+                    {
+                        "name": "Barnard J."
+                    },
+                    {
+                        "name": "Frigge M.L."
+                    },
+                    {
+                        "name": "Gudbjartsson D.F."
+                    },
+                    {
+                        "name": "Gudjonsson S.A."
+                    },
+                    {
+                        "name": "Gulcher J.R."
+                    },
+                    {
+                        "name": "Hallbeck B."
+                    },
+                    {
+                        "name": "Jonsdottir G.M."
+                    },
+                    {
+                        "name": "Kong A."
+                    },
+                    {
+                        "name": "Masson G."
+                    },
+                    {
+                        "name": "Palsson S.T."
+                    },
+                    {
+                        "name": "Richardsson B."
+                    },
+                    {
+                        "name": "Sainz J."
+                    },
+                    {
+                        "name": "Shlien A."
+                    },
+                    {
+                        "name": "Sigurdardottir S."
+                    },
+                    {
+                        "name": "Stefansson K."
+                    },
+                    {
+                        "name": "Thorgeirsson T.E."
+                    }
+                ],
+                "citationCount": 1328,
+                "date": "2002-01-01T00:00:00Z",
+                "journal": "Nature Genetics",
+                "title": "A high-resolution recombination map of the human genome"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

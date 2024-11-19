@@ -1,0 +1,73 @@
+package: uc-echo
+distribution: debian
+release: sid
+component: main
+version: '1.12'
+source: uc-echo
+homepage: https://uc-echo.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 2b8d605b1e0d9655e1b24a1bc58abf3f
+topics:
+- Data management
+- Sequencing
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - Text
+    - FASTQ
+  output:
+  - data: Sequence
+    formats:
+    - FASTQ
+  function:
+  - Sequencing quality control
+registries:
+- entry: OMICS_01102
+  name: OMICtools
+- entry: SCR_011851
+  name: SciCrunch
+- entry: echo
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.111351.110
+popcon:
+- insts: 26
+  olde: 21
+  recent: 2
+  vote: 3
+descr:
+- package: uc-echo
+  description: algoritmo a correzione di errore progettato per letture corte per NGS
+  long_description: " ECHO è un algoritmo a correzione di errore progettato per letture
+    corte per\n le piattaforme di sequenziamento di prossima generazione come Genome\n
+    Analyzer II di Illumina. L'algoritmo usa un'infrastruttura Bayesiana per\n migliorare
+    la qualità delle letture in un insieme di dati fornito impiegando\n una stima
+    del massimo a posteriori.\n"
+  release: sid
+  description_md5: 2b8d605b1e0d9655e1b24a1bc58abf3f
+  license: unknown
+  blend: debian-med
+- package: uc-echo
+  description: error correction algorithm designed for short-reads from NGS
+  long_description: " ECHO is an error correction algorithm designed for short-reads\n
+    from next-generation sequencing platforms such as Illumina's\n Genome Analyzer
+    II. The algorithm uses a Bayesian framework to\n improve the quality of the reads
+    in a given data set by employing\n maximum a posteriori estimation.\n"
+  release: sid
+  description_md5: 2b8d605b1e0d9655e1b24a1bc58abf3f
+  license: unknown
+  blend: debian-med
+- package: uc-echo
+  description: Fejlkorrektionsalgoritme designet for kort-læsninger fra NGS
+  long_description: " ECHO er en algoritme til fejlkorrektioner designet for kort-læsninger
+    fra\n næstegenerations sekvensplatforme såsom Illuninas Genome Analyzer II.\n
+    Algoritmen bruger en bayesiansk ramme til at forbedre kvaliteten af\n læsningerne
+    i et givent datasæt ved at anvende maksimal a\n posteriori-estimering.\n"
+  release: sid
+  description_md5: 2b8d605b1e0d9655e1b24a1bc58abf3f
+  license: unknown
+  blend: debian-med

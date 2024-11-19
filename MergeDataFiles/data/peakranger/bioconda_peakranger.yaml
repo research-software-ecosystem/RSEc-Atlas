@@ -1,0 +1,34 @@
+about:
+  home: http://ranger.sourceforge.net
+  license: Artistic License 2.0
+  license_file: COPYING
+  summary: PeakRanger is a multi-purporse software suite for analyzing next-generation
+    sequencing (NGS) data.
+build:
+  number: 9
+  skip: true
+extra:
+  identifiers:
+  - biotools:peakranger
+package:
+  name: peakranger
+  version: 1.18
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - boost-cpp
+  - zlib
+  run:
+  - boost-cpp
+  - zlib
+  - r-base
+source:
+  md5: 4b47352ee3200096f2ee8745a436b559
+  patches:
+  - makefile.patch
+  url: http://downloads.sourceforge.net/project/ranger/Source%20codes/PeakRanger-1.18-src.zip
+test:
+  commands:
+  - peakranger nr --version

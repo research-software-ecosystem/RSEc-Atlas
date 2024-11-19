@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-01-17T14:56:47Z",
+    "biotoolsCURIE": "biotools:rdgidb",
+    "biotoolsID": "rdgidb",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "thomas.thurnherr@bsse.ethz.ch",
+            "name": "Thomas Thurnherr",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Wrapper for the Drug Gene Interaction Database. For simplicity, its query function and output resembles the user interface and results format provided on the DGIdb website.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/rDGIdb.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/rDGIdb_1.0.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                },
+                {
+                    "term": "Loading",
+                    "uri": "http://edamontology.org/operation_1812"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/rDGIdb.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "license": "MIT",
+    "name": "rDGIdb",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.12688/f1000research.9357.1",
+            "metadata": {
+                "abstract": "© 2016 Thurnherr T et al. Annotation and interpretation of DNA aberrations identified through next-generation sequencing is becoming an increasingly important task. Even more so in the context of data analysis pipelines for medical applications, where genomic aberrations are associated with phenotypic and clinical features. Here we describe a workflow to identify potential gene targets in aberrated genes or pathways and their corresponding drugs. To this end, we provide the R/Bioconductor package rDGIdb, an R wrapper to query the drug-gene interaction database (DGIdb). DGIdb accumulates drug-gene interaction data from 15 different source databases and allows filtering on different levels. The rDGIdb package makes these resources and tools available to R users. Moreover, DGIdb queries can be automated through incorporation of the rDGIdb package into NGS sequencing pipelines.",
+                "authors": [
+                    {
+                        "name": "Beerenwinkel N."
+                    },
+                    {
+                        "name": "Singer F."
+                    },
+                    {
+                        "name": "Stekhoven D.J."
+                    },
+                    {
+                        "name": "Thurnherr T."
+                    }
+                ],
+                "citationCount": 2,
+                "date": "2016-01-01T00:00:00Z",
+                "journal": "F1000Research",
+                "title": "Genomic variant annotation workflow for clinical applications"
+            },
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Compound libraries and screening",
+            "uri": "http://edamontology.org/topic_3343"
+        },
+        {
+            "term": "Drug discovery",
+            "uri": "http://edamontology.org/topic_3336"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.0.0"
+    ]
+}

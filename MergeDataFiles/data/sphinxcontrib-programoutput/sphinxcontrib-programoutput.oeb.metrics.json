@@ -1,0 +1,84 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:sphinxcontrib-programoutput:0.8/cmd/sphinxcontrib-programoutput.readthedocs.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://sphinxcontrib-programoutput.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sphinxcontrib-programoutput.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sphinxcontrib-programoutput.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sphinxcontrib-programoutput",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://sphinxcontrib-programoutput.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sphinxcontrib-programoutput.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sphinxcontrib-programoutput.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:segsrgan/undefined/pypi.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.compbiomed.2020.103755",
+                            "pmid": "32421654",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "SegSRGAN: Super-resolution and segmentation using generative adversarial networks - Application to neonatal brain MRI.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pypi.org/project/SegSRGAN"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://pypi.org/project/SegSRGAN/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/segsrgan",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pypi.org/project/SegSRGAN"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://pypi.org/project/SegSRGAN/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

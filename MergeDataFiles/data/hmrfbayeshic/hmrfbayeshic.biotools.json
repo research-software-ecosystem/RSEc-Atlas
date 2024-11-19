@@ -1,0 +1,140 @@
+{
+    "additionDate": "2017-08-03T18:46:02Z",
+    "biotoolsCURIE": "biotools:hmrfbayeshic",
+    "biotoolsID": "hmrfbayeshic",
+    "credit": [
+        {
+            "email": "ming.hu@nyumc.org",
+            "name": "Ming Hu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.unc.edu/~yunmli/index.html"
+        },
+        {
+            "email": "xuzheng@email.unc.edu",
+            "name": "Zheng Xu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.unc.edu/~yunmli/index.html"
+        },
+        {
+            "email": "yunli@med.unc.edu",
+            "name": "Yun Li",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.unc.edu/~yunmli/index.html"
+        }
+    ],
+    "description": "Hidden Markov random field based Bayesian peak caller to identify long range chromatin interactions from Hi-C data.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://www.unc.edu/~yunmli/HMRFBayesHiC/tutorial.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Peak calling",
+                    "uri": "http://edamontology.org/operation_3222"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.unc.edu/~yunmli/HMRFBayesHiC/",
+    "homepage_status": 2,
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/hmrfbayeshic-a-hidden-markov-random-field-based-bayesian-method-for-the-detection-of-long-range-chromosomal-interactions-in-hi-c-data.html"
+        }
+    ],
+    "name": "HMRFBayesHiC",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press.Motivation: Advances in chromosome conformation capture and next-generation sequencing technologies are enabling genome-wide investigation of dynamic chromatin interactions. For example, Hi-C experiments generate genome-wide contact frequencies between pairs of loci by sequencing DNA segments ligated from loci in close spatial proximity. One essential task in such studies is peak calling, that is, detecting non-random interactions between loci from the two-dimensional contact frequency matrix. Successful fulfillment of this task has many important implications including identifying long-range interactions that assist interpreting a sizable fraction of the results from genome-wide association studies. The task - distinguishing biologically meaningful chromatin interactions from massive numbers of random interactions - poses great challenges both statistically and computationally. Model-based methods to address this challenge are still lacking. In particular, no statistical model exists that takes the underlying dependency structure into consideration. Results: In this paper, we propose a hidden Markov random field (HMRF) based Bayesian method to rigorously model interaction probabilities in the two-dimensional space based on the contact frequency matrix. By borrowing information from neighboring loci pairs, our method demonstrates superior reproducibility and statistical power in both simulation studies and real data analysis.",
+                "authors": [
+                    {
+                        "name": "Chen M."
+                    },
+                    {
+                        "name": "Furey T.S."
+                    },
+                    {
+                        "name": "Hu M."
+                    },
+                    {
+                        "name": "Jin F."
+                    },
+                    {
+                        "name": "Li Y."
+                    },
+                    {
+                        "name": "Qin Z."
+                    },
+                    {
+                        "name": "Sullivan P.F."
+                    },
+                    {
+                        "name": "Xu Z."
+                    },
+                    {
+                        "name": "Zhang G."
+                    }
+                ],
+                "citationCount": 23,
+                "date": "2016-03-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "A hidden Markov random field-based Bayesian method for the detection of long-range chromosomal interactions in Hi-C data"
+            },
+            "pmid": "26543175"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "DNA structural variation",
+            "uri": "http://edamontology.org/topic_3175"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Structure analysis",
+            "uri": "http://edamontology.org/topic_0081"
+        }
+    ],
+    "validated": 1
+}

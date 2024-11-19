@@ -1,0 +1,275 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:blockbuster/cmd/hoffmann.bioinf.uni-leipzig.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 73,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp419",
+                            "pmid": "19584066",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                }
+                            ],
+                            "title": "Evidence for human microRNA-offset RNAs in small RNA sequencing data.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:blockbuster:0.0.1.1/cmd/hoffmann.bioinf.uni-leipzig.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/blockbuster",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:blockbuster:0.1.2/workflow/toolshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 49,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp419",
+                            "pmid": "19584066",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Evidence for human microRNA-offset RNAs in small RNA sequencing data.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

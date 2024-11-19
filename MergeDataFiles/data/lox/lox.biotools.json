@@ -1,0 +1,94 @@
+{
+    "additionDate": "2017-08-03T18:48:10Z",
+    "biotoolsCURIE": "biotools:lox",
+    "biotoolsID": "lox",
+    "credit": [
+        {
+            "name": "Townsend Lab",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://medicine.yale.edu/lab/townsend"
+        }
+    ],
+    "description": "Program that employs Markov Chain Monte Carlo to estimate level of expression from census sequencing data sets with multiple treatments or samples.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://medicine.yale.edu/lab/townsend/sand/LOXTutorial_203634_284_24790.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene expression analysis",
+                    "uri": "http://edamontology.org/operation_2495"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://medicine.yale.edu/lab/townsend/sand/index.aspx#page1",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/lox-1-8beta-inferring-level-expression-diverse-methods-census-sequencing.html"
+        }
+    ],
+    "name": "LOX",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Summary: We present LOX (Level Of eXpression) that estimates the Level Of gene eXpression from high-throughput-expressed sequence datasets with multiple treatments or samples. Unlike most analyses, LOX incorporates a gene bias model that facilitates integration of diverse transcriptomic sequencing data that arises when transcriptomic data have been produced using diverse experimental methodologies. LOX integrates overall sequence count tallies normalized by total expressed sequence count to provide expression levels for each gene relative to all treatments as well as Bayesian credible intervals. © The Author 2010. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Lopez-Giraldez F."
+                    },
+                    {
+                        "name": "Townsend J.P."
+                    },
+                    {
+                        "name": "Zhang Z."
+                    }
+                ],
+                "citationCount": 21,
+                "date": "2010-06-10T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "LOX: Inferring level of expression from diverse methods of census sequencing"
+            },
+            "pmid": "20538728"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

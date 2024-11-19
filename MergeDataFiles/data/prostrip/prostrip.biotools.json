@@ -1,0 +1,94 @@
+{
+    "additionDate": "2017-08-03T18:56:29Z",
+    "biotoolsCURIE": "biotools:prostrip",
+    "biotoolsID": "prostrip",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://cluster.physics.iisc.ernet.in/prostrip/"
+        }
+    ],
+    "description": "Web server to find the similar structural repeats in a three-dimensional protein structure.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://cluster.physics.iisc.ernet.in/prostrip/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein structure analysis",
+                    "uri": "http://edamontology.org/operation_2406"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cluster.physics.iisc.ernet.in/prostrip/",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/prostrip-find-similar-structural-repeats-in-three-dimensional-protein-structures.html"
+        }
+    ],
+    "name": "ProSTRIP",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The occurrence of similar structural repeats in a protein structure has evolved through gene duplication. These repeats act as a structural building block and form more than one compact structural and functional unit called a repeat domain. The protein families comprising similar structural repeats are mainly involved in protein-protein interactions as well as binding to other ligand molecules. The identification of internal sequence repeats in the primary structure is not sufficient for the analysis of structural repeats. Thus, a new method called ProSTRIP has been developed using dynamic programming to find the similar structural repeats in a three-dimensional protein structure. The detection of these repeats is made by calculating the protein backbone Cα angles. An internet computing server is also created by implementing this method and enables graphical visualization of the results. It can be freely accessed at http://cluster.physics.iisc.ernet.in/prostrip/. © 2010 Elsevier Ltd. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Basu R."
+                    },
+                    {
+                        "name": "Sabarinathan R."
+                    },
+                    {
+                        "name": "Sekar K."
+                    }
+                ],
+                "citationCount": 21,
+                "date": "2010-04-01T00:00:00Z",
+                "journal": "Computational Biology and Chemistry",
+                "title": "ProSTRIP: A method to find similar structural repeats in three-dimensional protein structures"
+            },
+            "pmid": "20430700"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Molecular modelling",
+            "uri": "http://edamontology.org/topic_2275"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,97 @@
+{
+    "additionDate": "2017-08-03T19:06:39Z",
+    "biotoolsCURIE": "biotools:linksnps",
+    "biotoolsID": "linksnps",
+    "credit": [
+        {
+            "email": "eriko.sasaki@gmi.oeaw.ac.at",
+            "name": "Eriko Sasaki",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "innan_hideki@soken.ac.jp",
+            "name": "Hideki Innan",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.sendou.soken.ac.jp/esb/innan/InnanLab/"
+        }
+    ],
+    "description": "SNP detection tool with haplotype information from an individual sample.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.sendou.soken.ac.jp/esb/innan/InnanLab/software.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Haplotype mapping",
+                    "uri": "http://edamontology.org/operation_0487"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "SNP detection",
+                    "uri": "http://edamontology.org/operation_0484"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.sendou.soken.ac.jp/esb/innan/InnanLab/software.html",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2019-02-08T09:52:59Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/linksnps-1-0-beta-snp-detection-haplotype-reconstruction.html"
+        }
+    ],
+    "maturity": "Emerging",
+    "name": "linkSNPs 1.0 beta",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "pmid": "23728796"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA polymorphism",
+            "uri": "http://edamontology.org/topic_2885"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

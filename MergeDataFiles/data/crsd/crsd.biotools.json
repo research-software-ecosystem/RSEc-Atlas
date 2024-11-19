@@ -1,0 +1,97 @@
+{
+    "additionDate": "2017-02-10T14:15:18Z",
+    "biotoolsCURIE": "biotools:crsd",
+    "biotoolsID": "crsd",
+    "description": "Microarray analysis pipeline aimed at the discovery of motifs involved in gene regulation including microRNA signatures and transcription factor binding sites (TFBS).",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Regulatory element prediction",
+                    "uri": "http://edamontology.org/operation_0438"
+                },
+                {
+                    "term": "Sequence motif discovery",
+                    "uri": "http://edamontology.org/operation_0238"
+                },
+                {
+                    "term": "Transcription factor binding site prediction",
+                    "uri": "http://edamontology.org/operation_0445"
+                },
+                {
+                    "term": "Transcriptional regulatory element prediction",
+                    "uri": "http://edamontology.org/operation_0438"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://140.120.213.10:8080/crsd/main/home.jsp",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "name": "CRSD",
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Transcription factors (TFs) and microRNAs play important roles in the regulation of human gene expression, and the study of their combinatory regulations of gene expression is a new research field. We constructed a comprehensive web server, the composite regulatory signature database (CRSD), that can be applied in investigating complex regulatory behaviors involving gene expression signatures (GESs), microRNA regulatory signatures (MRSs) and TF regulatory signatures (TRSs). Six well-known and large-scale databases, including the human UniGene, mature microRNAs, putative promoter, TRANSFAC, pathway and Gene Ontology (GO) databases, were integrated to provide the comprehensive analysis in CRSD. Two new genome-wide databases, of MRSs and TRSs, were also constructed and further integrated into CRSD. To accomplish the microarray data analysis at one go, several methods, including microarray data pretreatment, statistical and clustering analysis, iterative enrichment analysis and motif discovery, were closely integrated in the web server, which has not been the case in previous studies. Our implementation showed that the published literature could demonstrate the results of genome-wide enrichment analysis. We conclude that CRSD is a powerful and useful bioinformatic web server and may provide new insights into gene regulation networks. CRSD and the online tutorial are publicly available at http://biochip.nchu.edu.tw/crsd1/. © The Author 2006. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Chang P.-C."
+                    },
+                    {
+                        "name": "Chen H.-Y."
+                    },
+                    {
+                        "name": "Chen J.J.W."
+                    },
+                    {
+                        "name": "Chen W.-S.E."
+                    },
+                    {
+                        "name": "Lin C.-C."
+                    },
+                    {
+                        "name": "Liu C.-C."
+                    },
+                    {
+                        "name": "Yang P.-C."
+                    }
+                ],
+                "citationCount": 36,
+                "date": "2006-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "CRSD: A comprehensive web server for composite regulatory signature discovery"
+            },
+            "pmid": "16845073"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Gene regulation",
+            "uri": "http://edamontology.org/topic_0204"
+        },
+        {
+            "term": "Microarray experiment",
+            "uri": "http://edamontology.org/topic_3518"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,227 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku465",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/triplexrna",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Andrea Bagnacani",
+      "bsc:input": [
+        {
+          "@id": "_:Ne91750a633ac42a3a373698f35aca054"
+        },
+        {
+          "@id": "_:Nbffa6a0defa743b2b706e8f8b9c108cb"
+        },
+        {
+          "@id": "_:N47c75b111da04c9993a301fbbf6368d8"
+        },
+        {
+          "@id": "_:Na1247f3583894036bd15d4e3dc5e7984"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Na142ca940057491fb70860640675c644"
+        },
+        {
+          "@id": "_:Nbadf088d8eed45488de314753c5e9eef"
+        },
+        {
+          "@id": "_:N1d0bcdaab112465a9cedd29dd41f3b80"
+        },
+        {
+          "@id": "_:N57c84489e01e453e8bae2c9e27fe8732"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0099"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku465"
+      },
+      "sc:description": "Database of cooperating miRNAs and their mutual targets which enables researchers explore novel patterns in gene regulation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3083"
+        },
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_3184"
+        }
+      ],
+      "sc:name": "TriplexRNA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://triplexrna.org/"
+      },
+      "sc:url": "https://triplexrna.org"
+    },
+    {
+      "@id": "_:Ne91750a633ac42a3a373698f35aca054",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:Nbffa6a0defa743b2b706e8f8b9c108cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2355"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "RNA family identifier"
+    },
+    {
+      "@id": "_:N47c75b111da04c9993a301fbbf6368d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2342"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Pathway or network name"
+    },
+    {
+      "@id": "_:Na1247f3583894036bd15d4e3dc5e7984",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:Na142ca940057491fb70860640675c644",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2166"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_1457"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Sequence composition plot"
+    },
+    {
+      "@id": "_:Nbadf088d8eed45488de314753c5e9eef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N1d0bcdaab112465a9cedd29dd41f3b80",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N57c84489e01e453e8bae2c9e27fe8732",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Database search results"
+    }
+  ]
+}

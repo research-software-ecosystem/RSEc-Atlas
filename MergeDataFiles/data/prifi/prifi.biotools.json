@@ -1,0 +1,109 @@
+{
+    "additionDate": "2017-02-10T11:35:02Z",
+    "biotoolsCURIE": "biotools:prifi",
+    "biotoolsID": "prifi",
+    "credit": [
+        {
+            "email": "jakobf@birc.au.dk",
+            "name": "Jakob Fredslund",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "PriFi is a tool for designing and evaluating primer pairs based on the input of a DNA sequence alignment, useful for the PCR amplification of homologs.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://services.birc.au.dk/prifi/prifi_troubleshooting.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Bisulfite mapping",
+                    "uri": "http://edamontology.org/operation_3186"
+                },
+                {
+                    "term": "PCR primer design",
+                    "uri": "http://edamontology.org/operation_0308"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://services.birc.au.dk/prifi/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "PriFi",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Using a comparative approach, the web program PriFi (http://cgi-www.daimi.au.dk/cgi-chili/PriFi/main) designs pairs of primers useful for PCR amplification of genomic DNA in species where prior sequence information is not available. The program works with an alignment of DNA sequences from phylogenetically related species and outputs a list of possibly degenerate primer pairs fulfilling a number of criteria, such that the primers have a maximal probability of amplifying orthologous sequences in other phylogenetically related species. Operating on a genome-wide scale, PriFi automates the first steps of a procedure for developing general markers serving as common anchor loci across species. To accommodate users with special preferences, configuration settings and criteria can be customized. © 2005 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Fredslund J."
+                    },
+                    {
+                        "name": "Madsen L.H."
+                    },
+                    {
+                        "name": "Sandal N."
+                    },
+                    {
+                        "name": "Schauser L."
+                    },
+                    {
+                        "name": "Stougaard J."
+                    }
+                ],
+                "citationCount": 80,
+                "date": "2005-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "PriFi: Using a multiple alignment of related sequences to find primers for amplification of homologs"
+            },
+            "pmid": "15980525"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Nucleic acid sites, features and motifs",
+            "uri": "http://edamontology.org/topic_3511"
+        },
+        {
+            "term": "Probes and primers",
+            "uri": "http://edamontology.org/topic_0632"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

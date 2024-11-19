@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ygeno.2013.07.011",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/alientrimmer",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Alexis Criscuolo",
+      "bsc:input": [
+        {
+          "@id": "_:N6828cedff5004ad6a9ef347eb343e4cc"
+        },
+        {
+          "@id": "_:N736befe299f5494a923801b102a3cb89"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nec546b250c50435ba3bb6898fbb130ea"
+      },
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": "Alexis Criscuolo",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/j.ygeno.2013.07.011"
+        },
+        "pubmed:24860597",
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        "pubmed:23912058"
+      ],
+      "sc:description": "Trimming and clipping FASTQ-formatted read files.",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "AlienTrimmer",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "Institut Pasteur",
+        "Bioinformatics and Biostatistics Hub"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://research.pasteur.fr/en/software/alientrimmer/"
+      },
+      "sc:softwareVersion": "0.4.0",
+      "sc:url": "https://research.pasteur.fr/en/software/alientrimmer/"
+    },
+    {
+      "@id": "_:N6828cedff5004ad6a9ef347eb343e4cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "_:N736befe299f5494a923801b102a3cb89",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "_:Nec546b250c50435ba3bb6898fbb130ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence (raw)"
+    }
+  ]
+}

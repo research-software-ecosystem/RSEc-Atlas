@@ -1,0 +1,30 @@
+about:
+  home: https://github.com/GATB/minia
+  license: file
+  license_file: LICENSE
+  summary: Minia is a short-read assembler based on a de Bruijn graph, capable of
+    assembling a human genome on a desktop computer in a day.
+build:
+  number: 3
+  skip: true
+extra:
+  identifiers:
+  - biotools:minia
+package:
+  name: minia
+  version: 3.2.6
+requirements:
+  build:
+  - make
+  - None
+  - cmake
+  host:
+  - zlib
+  run:
+  - zlib
+source:
+  sha256: e078854c92d6683d984c8010023e8e0ae2c83fd01d75350d29874b0fa00cef0f
+  url: https://github.com/GATB/minia/releases/download/v3.2.6/minia-v3.2.6-Source.tar.gz
+test:
+  commands:
+  - minia -help

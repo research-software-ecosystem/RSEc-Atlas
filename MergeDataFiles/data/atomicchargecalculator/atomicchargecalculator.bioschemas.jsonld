@@ -1,0 +1,172 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/atomicchargecalculator",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        "Crina Maria Ionescu",
+        "David Sehnal",
+        "Primary Contact"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Nef805079f7714faf867b098edaebec2b"
+        },
+        {
+          "@id": "_:Ncca4827ab9e0443a947fe973efc191d6"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N52910d56e0d14870ad54873b63a4c5a6"
+        },
+        {
+          "@id": "_:N5fd1393bb60048bd8c2b76816c91cf78"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_3332"
+        },
+        {
+          "@id": "edam:topic_0081"
+        }
+      ],
+      "sc:author": "David Sehnal",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13321-015-0099-x"
+      },
+      "sc:contributor": [
+        "Crina Maria Ionescu",
+        "Stanislav Geidl",
+        "Lukáš Pravda"
+      ],
+      "sc:description": "A web application for the calculation and analysis of atomic charges in both large biomolecular complexes and small drug-like molecules.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_2480"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "AtomicChargeCalculator",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "ELIXIR-CZ",
+        "Masaryk University, Brno, Czech Republic"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.jcheminf.com/content/7/1/50/citation"
+        },
+        {
+          "@id": "http://webchem.ncbr.muni.cz/Wiki/ChargeCalculator:UserManual"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://ncbr.muni.cz/ACC"
+    },
+    {
+      "@id": "_:N52910d56e0d14870ad54873b63a4c5a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2085"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Structure report"
+    },
+    {
+      "@id": "_:N5fd1393bb60048bd8c2b76816c91cf78",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    },
+    {
+      "@id": "_:Nef805079f7714faf867b098edaebec2b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:Ncca4827ab9e0443a947fe973efc191d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13321-015-0099-x",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

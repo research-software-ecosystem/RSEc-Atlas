@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-12-18T00:09:24Z",
+    "biotoolsCURIE": "biotools:micropilot",
+    "biotoolsID": "micropilot",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.embl.de/almf/almf_services/hc_screeing/index.html"
+        }
+    ],
+    "description": "The Micropilot software from EMBL is a computer program that can rapidly learn what a scientist is looking for in an experiment and then take over the laborious and time-consuming task, automatically performing complex microscopy experiments when it detects cells with interesting features.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Image analysis",
+                    "uri": "http://edamontology.org/operation_3443"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.embl.de/almf/almf_services/hc_screeing/micropilot/",
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/micropilot-v094-automation-fluorescence-microscopy-based-imaging.html"
+        }
+    ],
+    "name": "Micropilot",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1038/nmeth.1558",
+            "metadata": {
+                "abstract": "Quantitative microscopy relies on imaging of large cell numbers but is often hampered by time-consuming manual selection of specific cells. The 'Micropilot' software automatically detects cells of interest and launches complex imaging experiments including three-dimensional multicolor time-lapse or fluorescence recovery after photobleaching in live cells. In three independent experimental setups this allowed us to statistically analyze biological processes in detail and is thus a powerful tool for systems biology. © 2011 Nature America, Inc. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Bulkescher J."
+                    },
+                    {
+                        "name": "Conrad C."
+                    },
+                    {
+                        "name": "Edelstein A."
+                    },
+                    {
+                        "name": "Ellenberg J."
+                    },
+                    {
+                        "name": "Liebel U."
+                    },
+                    {
+                        "name": "Pepperkok R."
+                    },
+                    {
+                        "name": "Sieckmann F."
+                    },
+                    {
+                        "name": "Tan T.H."
+                    },
+                    {
+                        "name": "Verissimo F."
+                    },
+                    {
+                        "name": "Walter T."
+                    },
+                    {
+                        "name": "Wunsche A."
+                    }
+                ],
+                "citationCount": 89,
+                "date": "2011-03-01T00:00:00Z",
+                "journal": "Nature Methods",
+                "title": "Micropilot: Automation of fluorescence microscopy-based imaging for systems biology"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Imaging",
+            "uri": "http://edamontology.org/topic_3382"
+        },
+        {
+            "term": "Microscopy",
+            "uri": "http://edamontology.org/topic_3382"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "v094"
+    ]
+}

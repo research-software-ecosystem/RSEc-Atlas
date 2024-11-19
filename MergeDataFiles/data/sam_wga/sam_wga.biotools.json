@@ -1,0 +1,115 @@
+{
+    "additionDate": "2017-05-02T10:01:04Z",
+    "biotoolsCURIE": "biotools:sam_wga",
+    "biotoolsID": "sam_wga",
+    "credit": [
+        {
+            "email": "rwarren@bcgsc.ca",
+            "name": "SAM Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "SAM is a Whole Genome Assembly (WGA) Management and Visualization Tool. It provides a generic platform for manipulating, analyzing and viewing WGA data, regardless of input type.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.bcgsc.ca/platform/bioinfo/software/sam/samTalk8jan04.ppt/view"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome assembly",
+                    "uri": "http://edamontology.org/operation_0525"
+                },
+                {
+                    "term": "Mapping assembly",
+                    "uri": "http://edamontology.org/operation_0523"
+                },
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                },
+                {
+                    "term": "Sequence assembly validation",
+                    "uri": "http://edamontology.org/operation_3180"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.bcgsc.ca/platform/bioinfo/software/sam",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "name": "SAM - Sequence Assembly Manager",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We have designed and implemented a system to manage whole genome shotgun sequences and whole genome sequence assembly data flow. The Sequence Assembly Manager (SAM) consists primarily of a MySQL relational database and Perl applications designed to easily manipulate and coordinate the analysis of sequence information and to view and report genome assembly progress through its Common Gateway Interface (CGI) web interface. The application includes a tool to compare sequence assemblies to fingerprint maps that has been used successfully to improve and validate both maps and sequence assemblies of the Rhodococcus sp. RHA1 and Cryptococcus neoformans WM276 genomes.",
+                "authors": [
+                    {
+                        "name": "Butterfield Y.S."
+                    },
+                    {
+                        "name": "Jones S.J.M."
+                    },
+                    {
+                        "name": "Marra M.A."
+                    },
+                    {
+                        "name": "Morin R.D."
+                    },
+                    {
+                        "name": "Siddiqui A.S."
+                    },
+                    {
+                        "name": "Warren R.L."
+                    }
+                ],
+                "citationCount": 6,
+                "date": "2005-01-01T00:00:00Z",
+                "journal": "BioTechniques",
+                "title": "Management and visualization of whole genome shotgun assemblies using SAM"
+            },
+            "pmid": "15945370"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        },
+        {
+            "term": "Whole genome sequencing",
+            "uri": "http://edamontology.org/topic_3673"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,32 @@
+about:
+  home: http://csg.sph.umich.edu/abecasis/merlin
+  license: OpenSource
+  license_file: LICENSE.twister
+  summary: MERLIN uses sparse trees to represent gene flow in pedigrees and is a fast
+    pedigree analysis package
+build:
+  number: 7
+extra:
+  identifiers:
+  - biotools:Merlin
+  - doi:10.1038/ng786
+package:
+  name: merlin
+  version: 1.1.2
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - zlib
+  run:
+  - zlib
+source:
+  patches:
+  - 0001-Append-CFLAGS.patch
+  - 0002-Use-same-owner-for-tar-extract.patch
+  sha256: aa3c087b1c717209389705bf2ace4c24884575014a561dff250c0be93fe1e411
+  url: http://csg.sph.umich.edu/abecasis/merlin/download/merlin-1.1.2.tar.gz
+test:
+  commands:
+  - merlin | grep MERLIN

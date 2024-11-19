@@ -1,0 +1,298 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:redfly/db/redfly.ccr.buffalo.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 52,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2009"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkm876",
+                            "pmcid": "PMC2238825",
+                            "pmid": "18039705",
+                            "ref_count": 26,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2006"
+                                }
+                            ],
+                            "title": "REDfly 2.0: an integrated database of cis-regulatory modules and transcription factor binding sites in Drosophila.",
+                            "year": 2008
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 111,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2013"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkq999",
+                            "pmcid": "PMC3013816",
+                            "pmid": "20965965",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "REDfly v3.0: toward a comprehensive database of transcriptional regulatory elements in Drosophila.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 50,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2008"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti794",
+                            "pmid": "16303794",
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                }
+                            ],
+                            "title": "REDfly: a Regulatory Element Database for Drosophila.",
+                            "year": 2006
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/redfly",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,32 @@
+about:
+  home: https://github.com/BGI-shenzhen/LDBlockShow
+  license: MIT
+  license_file: LICENSE
+  summary: a tool for showing linkage disequilibrium heatmaps from variant call format
+    (VCF) files
+build:
+  number: 3
+extra:
+  identifiers:
+  - biotools:ldblockshow
+package:
+  name: ldblockshow
+  version: 1.4
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - perl
+  - zlib
+  run:
+  - perl
+  - perl-svg
+  - plink
+  - zlib
+source:
+  sha256: b54395a3e494e7d211f8807cbd70a76dc6de826d7e7d8b376a15bf069987d142
+  url: https://github.com/BGI-shenzhen/LDBlockShow/archive/v1.40.tar.gz
+test:
+  commands:
+  - 'LDBlockShow 2>&1 | grep ''Usage: LDBlockShow'''

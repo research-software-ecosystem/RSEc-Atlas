@@ -1,0 +1,117 @@
+{
+    "additionDate": "2017-01-13T13:16:22Z",
+    "biotoolsCURIE": "biotools:seqsphere",
+    "biotoolsID": "seqsphere",
+    "credit": [
+        {
+            "name": "Contact Form",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.ridom.de/feedback/"
+        }
+    ],
+    "description": "This software is designed for distributed work-groups (client/server model) and allows automatic processing, assembling and analyzing NGS (e.g., Illumina, Ion Torrent or PacBio) and Sanger capillary-electrophoresis sequence data. It provides with an easy and automated microbial analysis; enabling your lab to employ whole genome microbial typing (cgMLST or MLST+), traditional MLST or eMLST/rMLST sequencing projects.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ridom.de/seqsphere/tutorials/index.shtml"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Read mapping",
+                    "uri": "http://edamontology.org/operation_3198"
+                },
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                },
+                {
+                    "term": "Variant calling",
+                    "uri": "http://edamontology.org/operation_3227"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ridom.de/seqsphere/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "maturity": "Mature",
+    "name": "SeqSphere+",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "authors": [
+                    {
+                        "name": "Albersmeier A."
+                    },
+                    {
+                        "name": "Goesmann A."
+                    },
+                    {
+                        "name": "Harmsen D."
+                    },
+                    {
+                        "name": "John U."
+                    },
+                    {
+                        "name": "Junemann S."
+                    },
+                    {
+                        "name": "Kalinowski J."
+                    },
+                    {
+                        "name": "Mellmann A."
+                    },
+                    {
+                        "name": "Prior K."
+                    },
+                    {
+                        "name": "Sedlazeck F.J."
+                    },
+                    {
+                        "name": "Stoye J."
+                    },
+                    {
+                        "name": "Von Haeseler A."
+                    }
+                ],
+                "citationCount": 209,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Nature Biotechnology",
+                "title": "Updating benchtop sequencing performance comparison"
+            },
+            "pmid": "23563421"
+        }
+    ],
+    "toolType": [
+        "Workbench"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "Microbiology",
+            "uri": "http://edamontology.org/topic_3301"
+        }
+    ],
+    "validated": 1
+}

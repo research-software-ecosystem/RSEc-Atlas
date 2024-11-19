@@ -1,0 +1,114 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gvcftools:0.17.0/cmd/sites.google.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home&osid=1&passive=1209600&ifkv=AcMMx-fFbY_idkVl2y-12kgOb0_4eKiwBuhe0A3yPfrrEv7qtGIfmVDYXcQxN3nNaxsaxaJp3uDj2w"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fgvcftools%2Fhome&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fgvcftools%2Fhome&ifkv=AcMMx-fNla0RM4b4hKK57DndbkeauPNYDjhy0SQ_a1EBPpWcnSVHPWK_mj7kWwoY55xKWAeVae-6rQ&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-868548709%3A1731730840390830&ddm=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fgvcftools%2Fhome"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT13208723S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gvcftools",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home&osid=1&passive=1209600&ifkv=AcMMx-eVSdmD0yr-m69cL_NfLy38vYUaDO9ZdCCJmUcgBKc1PUGpXzk2m0CF6T3CIKM4M0Ihhpbe"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/gvcftools/home"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fgvcftools%2Fhome&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fgvcftools%2Fhome&ifkv=AcMMx-eb3lfdD54VQ6d4EVBgjwU_89IB_unff1CbNNG1LC3w9TBhkrNS-s15JmilStSBMONJN90X&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1658244021%3A1731730906117033&ddm=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fgvcftools%2Fhome"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,75 @@
+about:
+  dev_url: https://github.com/galaxyproject/galaxy
+  doc_url: https://docs.galaxyproject.org
+  home: https://galaxyproject.org
+  license: AFL-3.0
+  license_file: LICENSE
+  summary: The Galaxy models, datatype framework, and datatype implementations.
+build:
+  entry_points:
+  - galaxy-build-objects=galaxy.model.store.build_objects:main
+  - galaxy-load-objects=galaxy.model.store.load_objects:main
+  - galaxy-manage-db=galaxy.model.orm.scripts:manage_db
+  - galaxy-prune-histories=galaxy.model.scripts:prune_history_table
+  noarch: python
+  number: 0
+  run_exports:
+  - None
+  script: -m pip install . --no-deps --no-build-isolation --no-cache-dir -vvv
+extra:
+  identifiers:
+  - biotools:galaxy
+  - doi:10.1093/nar/gky379
+  recipe-maintainers:
+  - bernt-matthias
+package:
+  name: galaxy-data
+  version: 24.1.3
+requirements:
+  host:
+  - pip
+  - python >=3.8
+  - setuptools
+  run:
+  - python >=3.8
+  - galaxy-files >=24.1
+  - galaxy-objectstore >=24.1
+  - galaxy-schema >=24.1
+  - galaxy-tool-util >=24.1
+  - galaxy-util >=24.1
+  - alembic
+  - alembic-utils
+  - bdbag >=1.6.3
+  - bx-python
+  - dnspython
+  - galaxy_sequence_utils
+  - h5grove >=1.2.1
+  - h5py
+  - isa-rwval >=0.10.10
+  - python-isal
+  - markupsafe
+  - mrcfile
+  - msal
+  - numpy
+  - parsley
+  - pycryptodome
+  - pydantic >=2.7.4
+  - email-validator
+  - pysam >=0.21
+  - python-magic
+  - social-auth-core ==4.0.3
+  - sqlalchemy >=2.0,<2.1
+  - tifffile
+  - typing-extensions
+  - webob
+source:
+  sha256: e5f32420a9fd33ea4fb896dcbbbb754a4be23f39c48d3a196aac2bde1d70d53a
+  url: https://pypi.io/packages/source/g/galaxy-data/galaxy_data-24.1.3.tar.gz
+test:
+  imports:
+  - galaxy
+  - galaxy.exceptions
+  - galaxy.model
+  - galaxy.datatypes.dataproviders
+  - galaxy.quota
+  - galaxy.security

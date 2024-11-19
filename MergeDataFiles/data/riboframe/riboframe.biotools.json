@@ -1,0 +1,90 @@
+{
+    "additionDate": "2018-03-30T14:54:58Z",
+    "biotoolsCURIE": "biotools:riboframe",
+    "biotoolsID": "riboframe",
+    "credit": [
+        {
+            "email": "matteo.ramazzotti@unifi.it",
+            "name": "Matteo Ramazzotti",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "ELIXIR-ITA-FIRENZE"
+        }
+    ],
+    "description": "It is a novel method for microbial profiling based on the identification and classification of 16S rRNA sequences in non targeted metagenomics datasets. Reads overlapping the 16S rRNA genes are identified using Hidden Markov Models and a taxonomic assignment is obtained by naive Bayesian classification. All reads identified as ribosomal are coherently positioned in the 16S rRNA gene, allowing the use of the topology of the gene to instruct the abundance analysis.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Sequence trace",
+                        "uri": "http://edamontology.org/data_0924"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTA-like (text)",
+                            "uri": "http://edamontology.org/format_2200"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Taxonomy",
+                        "uri": "http://edamontology.org/data_3028"
+                    },
+                    "format": [
+                        {
+                            "term": "Textual format",
+                            "uri": "http://edamontology.org/format_2330"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioserver2.sbsc.unifi.it/bioinfo/riboframe.html",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:59Z",
+    "maturity": "Emerging",
+    "name": "RiboFrame",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "MatteoRamazzotti",
+    "publication": [
+        {
+            "pmid": "26635865"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.1"
+    ]
+}

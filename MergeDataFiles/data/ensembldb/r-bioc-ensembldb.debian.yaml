@@ -1,0 +1,63 @@
+package: r-bioc-ensembldb
+distribution: debian
+release: sid
+component: main
+version: 2.28.1
+source: r-bioc-ensembldb
+homepage: https://bioconductor.org/packages/ensembldb/
+license: unknown
+blend: debian-med
+description_md5: 8193c0347bf158b238c1f1ab9ad7a963
+registries:
+- entry: ensembldb
+  name: bio.tools
+- entry: bioconductor-ensembldb
+  name: conda:bioconda
+popcon:
+- insts: 145
+  olde: 122
+  recent: 6
+  vote: 17
+descr:
+- package: r-bioc-ensembldb
+  description: utilità per GNU R per creare e usare un database di annotazioni basato
+    su Ensembl
+  long_description: " Il pacchetto fornisce funzioni per creare ed usare database/pacchetti
+    di\n annotazioni relative a trascritti. Le annotazioni per i database sono\n ottenute
+    direttamente da Ensembl usando la sua API Perl. Le funzionalità e\n i dati sono
+    simili a quelli dei pacchetti TxDb dal pacchetto\n GenomicFeatures, ma oltre a
+    recuperare tutti i modelli e annotazioni per\n geni/trascritti dal database, il
+    pacchetto ensembldb fornisce anche\n un'infrastruttura per filtri che permette
+    di recuperare annotazioni per\n voci specifiche come geni codificati su una regione
+    di cromosoma o modelli\n di trascritti di geni lincRNA.\n"
+  release: sid
+  description_md5: 8193c0347bf158b238c1f1ab9ad7a963
+  license: unknown
+  blend: debian-med
+- package: r-bioc-ensembldb
+  description: GNU R utilities to create and use an Ensembl based annotation database
+  long_description: " The package provides functions to create and use transcript
+    centric\n annotation databases/packages. The annotation for the databases are\n
+    directly fetched from Ensembl using their Perl API. The functionality\n and data
+    is similar to that of the TxDb packages from the\n GenomicFeatures package, but,
+    in addition to retrieve all\n gene/transcript models and annotations from the
+    database, the ensembldb\n package provides also a filter framework allowing to
+    retrieve\n annotations for specific entries like genes encoded on a chromosome\n
+    region or transcript models of lincRNA genes.\n"
+  release: sid
+  description_md5: 8193c0347bf158b238c1f1ab9ad7a963
+  license: unknown
+  blend: debian-med
+- package: r-bioc-ensembldb
+  description: GNU R-redskaber til at oprette og bruge en Ensembl-baseret annotationsdatabase
+  long_description: " Denne pakke tilbyder funktioner til at oprette og bruge transkript
+    centreret annotationsdatabaser og -pakker. Annotationen for databaserne er direkte
+    hentet fra Ensembl via deres Perl-API. Funktionaliteten og data svarer til TxDb-pakker
+    fra pakken GenomicFeatures, men, udover at hente alle gen/transkript-modeller
+    og -annotationer fra databasen tilbyder pakken ensembldb også en filterramme til
+    at hente annotationer for specifikke elementer såsom gener kodet på en kromosomregion
+    eller transkriptmodeller for lincRNA-gener.\n"
+  release: sid
+  description_md5: 8193c0347bf158b238c1f1ab9ad7a963
+  license: unknown
+  blend: debian-med

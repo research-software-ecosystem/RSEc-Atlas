@@ -1,0 +1,122 @@
+{
+    "additionDate": "2017-08-03T18:36:15Z",
+    "biotoolsCURIE": "biotools:allosite",
+    "biotoolsID": "allosite",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://mdl.shsmu.edu.cn/AST/module/about/contact.jsp"
+        }
+    ],
+    "description": "Tool for the prediction of allosteric sites in proteins.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://mdl.shsmu.edu.cn/AST/module/help/help.jsp"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein binding site prediction",
+                    "uri": "http://edamontology.org/operation_2575"
+                },
+                {
+                    "term": "Protein sequence analysis",
+                    "uri": "http://edamontology.org/operation_2479"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://mdl.shsmu.edu.cn/AST/",
+    "language": [
+        "Java",
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/allosite-1-06-prediction-of-allosteric-sites-in-protein.html"
+        }
+    ],
+    "name": "Allosite",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: The use of allosteric modulators as preferred therapeutic agents against classic orthosteric ligands has colossal advantages, including higher specificity, fewer side effects and lower toxicity. Therefore, the computational prediction of allosteric sites in proteins is receiving increased attention in the field of drug discovery. Allosite is a newly developed automatic tool for the prediction of allosteric sites in proteins of interest and is now available through a web server. © The Author 2013.",
+                "authors": [
+                    {
+                        "name": "Chen Z."
+                    },
+                    {
+                        "name": "Hou T."
+                    },
+                    {
+                        "name": "Huang W."
+                    },
+                    {
+                        "name": "Huang Z."
+                    },
+                    {
+                        "name": "Liu X."
+                    },
+                    {
+                        "name": "Liu Y."
+                    },
+                    {
+                        "name": "Lu S."
+                    },
+                    {
+                        "name": "Luo Y."
+                    },
+                    {
+                        "name": "Mou L."
+                    },
+                    {
+                        "name": "Zhang J."
+                    },
+                    {
+                        "name": "Zhao Y."
+                    }
+                ],
+                "citationCount": 92,
+                "date": "2013-09-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Allosite: A method for predicting allosteric sites"
+            },
+            "pmid": "23842804"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ],
+    "validated": 1
+}

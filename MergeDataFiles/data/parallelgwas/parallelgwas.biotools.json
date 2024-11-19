@@ -1,0 +1,78 @@
+{
+    "additionDate": "2017-08-03T18:55:06Z",
+    "biotoolsCURIE": "biotools:parallelgwas",
+    "biotoolsID": "parallelgwas",
+    "credit": [
+        {
+            "email": "kazumisawa@riken.jp",
+            "name": "Kazuharu Misawa",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://emu.src.riken.jp/"
+        }
+    ],
+    "description": "Developing parallel computing tools for genome-wide association studies.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://osdn.net/projects/parallelgwas/wiki/FrontPage"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Haplotype mapping",
+                    "uri": "http://edamontology.org/operation_0487"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://en.osdn.jp/projects/parallelgwas/",
+    "lastUpdate": "2019-02-07T17:55:42Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/parahaplo-tools-for-haplotype-based-whole-genome-association-study-using-parallel-computing.html"
+        }
+    ],
+    "name": "parallelGWAS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "pmid": "21609440"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "GWAS study",
+            "uri": "http://edamontology.org/topic_3517"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genotype and phenotype",
+            "uri": "http://edamontology.org/topic_0625"
+        }
+    ],
+    "validated": 1
+}

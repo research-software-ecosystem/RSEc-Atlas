@@ -1,0 +1,96 @@
+{
+    "additionDate": "2017-08-03T18:39:13Z",
+    "biotoolsCURIE": "biotools:cake",
+    "biotoolsID": "cake",
+    "credit": [
+        {
+            "email": "rm8@sanger.ac.uk",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.sanger.ac.uk/research/projects/experimentalcancergenetics/"
+        }
+    ],
+    "description": "Bioinformatics software pipeline that integrates four publicly available somatic variant-calling algorithms to identify single nucleotide variants with higher sensitivity and accuracy than any one algorithm alone.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://cakesomatic.sourceforge.net/Cake_User_Guide.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cakesomatic.sourceforge.net/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/cake-1-0-somatic-mutation-discovery.html"
+        }
+    ],
+    "name": "Cake",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Summary: We have developed Cake, a bioinformatics software pipeline that integrates four publicly available somatic variant-calling algorithms to identify single nucleotide variants with higher sensitivity and accuracy than any one algorithm alone. Cake can be run on a high-performance computer cluster or used as a stand-alone application.Availabilty: Cake is open-source and is available from http://cakesomatic.sourceforge.net/Contact: Supplementary Information: Supplementary data are available at Bioinformatics online. © 2013 The Author(s) 2013. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Adams D.J."
+                    },
+                    {
+                        "name": "Rashid M."
+                    },
+                    {
+                        "name": "Robles-Espinoza C.D."
+                    },
+                    {
+                        "name": "Rust A.G."
+                    }
+                ],
+                "citationCount": 22,
+                "date": "2013-09-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Cake: A bioinformatics pipeline for the integrated analysis of somatic variants in cancer genomes"
+            },
+            "pmid": "23803469"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,30 @@
+about:
+  home: https://algolab.github.io/shark/
+  license: GPL-3.0-or-later
+  license_file: LICENSE
+  summary: Mapping-free filtering of useless RNA-Seq reads
+build:
+  number: 4
+extra:
+  identifiers:
+  - biotools:shark
+package:
+  name: shark
+  version: 1.2.0
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - zlib
+  - sdsl-lite
+  run:
+  - zlib
+source:
+  patches:
+  - shark.Makefile.patch
+  sha256: 28ae35cd1246737726ba7828d39dab569b97fdb212ea8ae84dd68c859ade3575
+  url: https://github.com/AlgoLab/shark/archive/v1.2.0.tar.gz
+test:
+  commands:
+  - shark -h

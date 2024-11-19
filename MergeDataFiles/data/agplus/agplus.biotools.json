@@ -1,0 +1,94 @@
+{
+    "additionDate": "2017-08-03T19:04:57Z",
+    "biotoolsCURIE": "biotools:agplus",
+    "biotoolsID": "agplus",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/kazumits/agplus"
+        }
+    ],
+    "description": "Simple command-line tool that enables rapid and flexible production of text tables tailored for aggregation plots from which users can easily design multiple groups based on user-definitions such as regulatory regions or transcription initiation sites.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/kazumits/agplus"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Aggregation",
+                    "uri": "http://edamontology.org/operation_3436"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/kazumits/agplus",
+    "language": [
+        "Ruby",
+        "Shell"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/agplus-rapid-and-flexible-tool-for-aggregation-plots.html"
+        }
+    ],
+    "name": "agplus",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 The Author.Aggregation plots are frequently used to evaluate signal distributions at user-interested points in ChIP-Seq data analysis. agplus, a new and simple command-line tool, enables rapid and flexible generation of text tables tailored for aggregation plots from which users can easily design multiple groups based on user-definitions such as regulatory regions or transcription initiation sites.",
+                "authors": [
+                    {
+                        "name": "Maehara K."
+                    },
+                    {
+                        "name": "Ohkawa Y."
+                    }
+                ],
+                "citationCount": 9,
+                "date": "2015-07-31T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Agplus: A rapid and flexible tool for aggregation plots"
+            },
+            "pmid": "25995229"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Gene regulation",
+            "uri": "http://edamontology.org/topic_0204"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1
+}

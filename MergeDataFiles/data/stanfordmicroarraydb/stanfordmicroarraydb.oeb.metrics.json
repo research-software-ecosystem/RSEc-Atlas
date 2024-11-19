@@ -1,0 +1,393 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:stanfordmicroarraydb/web/genome-www5.stanford.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 57,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2011"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkn786",
+                            "pmcid": "PMC2686537",
+                            "pmid": "18953035",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                }
+                            ],
+                            "title": "Implementation of GenePattern within the Stanford Microarray Database.",
+                            "year": 2009
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 91,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2007"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gki006",
+                            "pmcid": "PMC539960",
+                            "pmid": "15608265",
+                            "ref_count": 8,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                }
+                            ],
+                            "title": "The Stanford Microarray Database accommodates additional microarray platforms and data formats.",
+                            "year": 2005
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 93,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2008"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkl1019",
+                            "pmcid": "PMC1781111",
+                            "pmid": "17182626",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "The Stanford Microarray Database: implementation of new analysis tools and open source release of software.",
+                            "year": 2007
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 143,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2005"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkg078",
+                            "pmcid": "PMC165525",
+                            "pmid": "12519956",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                }
+                            ],
+                            "title": "The Stanford Microarray Database: data access and quality assessment tools.",
+                            "year": 2003
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/stanfordmicroarraydb",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

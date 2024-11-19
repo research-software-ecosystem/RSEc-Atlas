@@ -1,0 +1,96 @@
+{
+    "additionDate": "2017-12-18T00:05:05Z",
+    "biotoolsCURIE": "biotools:cellmix",
+    "biotoolsID": "cellmix",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://web.cbio.uct.ac.za/"
+        }
+    ],
+    "description": "CellMix , an R package that incorporates most state-of-the-art deconvolution methods, into an intuitive and extendible framework, providing a single entry point to explore, assess and disentangle gene expression data from heterogeneous samples.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://web.cbio.uct.ac.za/~renaud/CRAN/web/CellMix/_MAN.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Deconvolution",
+                    "uri": "http://edamontology.org/operation_3629"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://web.cbio.uct.ac.za/~renaud/CRAN/web/CellMix/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/cellmix-1-6-1-gene-expression-deconvolution.html"
+        }
+    ],
+    "name": "CellMix",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btt351",
+            "metadata": {
+                "abstract": "Summary: Gene expression data are typically generated from heterogeneous biological samples that are composed of multiple cell or tissue types, in varying proportions, each contributing to global gene expression. This heterogeneity is a major confounder in standard analysis such as differential expression analysis, where differences in the relative proportions of the constituent cells may prevent or bias the detection of cell-specific differences. Computational deconvolution of global gene expression is an appealing alternative to costly physical sample separation techniques and enables a more detailed analysis of the underlying biological processes at the cell-type level. To facilitate and popularize the application of such methods, we developed CellMix, an R package that incorporates most state-of-the-art deconvolution methods, into an intuitive and extendible framework, providing a single entry point to explore, assess and disentangle gene expression data from heterogeneous samples. Availability and Implementation: The CellMix package builds on R/BioConductor and is available from http://web.cbio.uct.ac.za/ ∼renaud/CRAN/web/CellMix. It is currently being submitted to BioConductor. The package's vignettes notably contain additional information, examples and references. © 2013 The Author.",
+                "authors": [
+                    {
+                        "name": "Gaujoux R."
+                    },
+                    {
+                        "name": "Seoighe C."
+                    }
+                ],
+                "citationCount": 115,
+                "date": "2013-09-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "CellMix: A comprehensive toolbox for gene expression deconvolution"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "samples",
+            "uri": "http://edamontology.org/topic_3277"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.6.2"
+    ]
+}

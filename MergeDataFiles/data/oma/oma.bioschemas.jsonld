@@ -1,0 +1,130 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1158",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/oma",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Christophe Dessimoz",
+      "bsc:input": [
+        {
+          "@id": "_:N125c808b64754588b5c2553206155638"
+        },
+        {
+          "@id": "_:N7e75ba6f579843f18970254adc3bf72b"
+        },
+        {
+          "@id": "_:Nf5b45e03c5dc417bb323f317c1cafacd"
+        },
+        {
+          "@id": "_:N44643670e9954265a9a8116b798c9290"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Desktop application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_3299"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC4383958",
+        "pubmed:25399418",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku1158"
+        }
+      ],
+      "sc:description": "Project that aims to identify orthologs among publicly available, complete genomes. With many hundreds of genomes analyzed to date, it is one of the largest projects of its kind.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "OMA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "SIB",
+      "sc:softwareHelp": {
+        "@id": "https://omabrowser.org/oma/about/"
+      },
+      "sc:url": "http://omabrowser.org/oma/home/"
+    },
+    {
+      "@id": "_:N125c808b64754588b5c2553206155638",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N7e75ba6f579843f18970254adc3bf72b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:Nf5b45e03c5dc417bb323f317c1cafacd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3671"
+      },
+      "sc:name": "Text"
+    },
+    {
+      "@id": "_:N44643670e9954265a9a8116b798c9290",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+    "additionDate": "2016-07-04T08:06:28Z",
+    "biotoolsCURIE": "biotools:precog",
+    "biotoolsID": "precog",
+    "cost": "Free of charge (with restrictions)",
+    "credit": [
+        {
+            "email": "luciano.fernandez@marine.gu.se",
+            "name": "Luciano Fernandez",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "email": "luciano.fernandez@marine.gu.se",
+            "name": "Luciano Fernandez",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "BILS",
+            "typeEntity": "Consortium"
+        },
+        {
+            "name": "Department of Marine Sciences",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "gu.se",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "Anders Blomberg",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Jonas Warringer",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Martin Zackrisson",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Olga Kourtchenko",
+            "typeRole": [
+                "Contributor"
+            ]
+        }
+    ],
+    "description": "Tool developed to automate visualization, analysis and exploration of complex and highly resolved microbial growth data, as well as standardized extraction of the fitness components it contains. It is hope that this tool will promote simplicity, transparency and standardization in microbial growth phenomics, and provide a portal with the standalone software and online tools so that other microbiology labs can easily upload, assess and visualize their growth data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://precog.lundberg.gu.se/Pages/Content/GettingStarted"
+        }
+    ],
+    "download": [
+        {
+            "type": "Binaries",
+            "url": "http://precog.lundberg.gu.se/PrecogInstall/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "note": "visualization, analysis and exploration of complex and highly resolved microbial growth data",
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://precog.lundberg.gu.se/",
+    "language": [
+        "C#"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/Endimion75/PRECOG"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "PRECOG",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "owner": "xferlu@gu.se",
+    "publication": [
+        {
+            "doi": "10.1186/s12859-016-1134-2",
+            "metadata": {
+                "abstract": "© 2016 The Author(s).Background: Phenomics is a field in functional genomics that records variation in organismal phenotypes in the genetic, epigenetic or environmental context at a massive scale. For microbes, the key phenotype is the growth in population size because it contains information that is directly linked to fitness. Due to technical innovations and extensive automation our capacity to record complex and dynamic microbial growth data is rapidly outpacing our capacity to dissect and visualize this data and extract the fitness components it contains, hampering progress in all fields of microbiology. Results: To automate visualization, analysis and exploration of complex and highly resolved microbial growth data as well as standardized extraction of the fitness components it contains, we developed the software PRECOG (PREsentation and Characterization Of Growth-data). PRECOG allows the user to quality control, interact with and evaluate microbial growth data with ease, speed and accuracy, also in cases of non-standard growth dynamics. Quality indices filter high- from low-quality growth experiments, reducing false positives. The pre-processing filters in PRECOG are computationally inexpensive and yet functionally comparable to more complex neural network procedures. We provide examples where data calibration, project design and feature extraction methodologies have a clear impact on the estimated growth traits, emphasising the need for proper standardization in data analysis. Conclusions: PRECOG is a tool that streamlines growth data pre-processing, phenotypic trait extraction, visualization, distribution and the creation of vast and informative phenomics databases.",
+                "authors": [
+                    {
+                        "name": "Blomberg A."
+                    },
+                    {
+                        "name": "Fernandez-Ricaud L."
+                    },
+                    {
+                        "name": "Kourtchenko O."
+                    },
+                    {
+                        "name": "Warringer J."
+                    },
+                    {
+                        "name": "Zackrisson M."
+                    }
+                ],
+                "citationCount": 21,
+                "date": "2016-06-23T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "PRECOG: A tool for automated extraction and visualization of fitness components in microbial growth phenomics"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Desktop application",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Phenomics",
+            "uri": "http://edamontology.org/topic_3298"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.0.0.16"
+    ]
+}

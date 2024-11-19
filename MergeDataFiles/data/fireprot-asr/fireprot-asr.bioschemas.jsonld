@@ -1,0 +1,191 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0003-3139-3700",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.tools/fireprot-asr",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "FireProt ASR team",
+      "bsc:input": {
+        "@id": "_:Nb6c7b83ef2114514915ab23af6158327"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N19b8075608484bbe961a8e592082f0c2"
+        },
+        {
+          "@id": "_:N067cacaae9a24abb8351fb6eb8c1d1d5"
+        },
+        {
+          "@id": "_:N92e48158e6e24257890254c26cee4b13"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3293"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3139-3700"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9373-7930"
+        }
+      ],
+      "sc:contributor": [
+        {
+          "@id": "https://orcid.org/0000-0002-7848-8216"
+        },
+        "Rayyan Khan",
+        {
+          "@id": "https://orcid.org/0000-0002-6803-0340"
+        }
+      ],
+      "sc:description": "FireProt-ASR is a web server for an automated calculation of ancestral sequences. Fireprot-ASR allows you to perform ancestral sequence reconstruction starting from a single protein sequence. The pipeline first compiles a dataset of catalytically similar protein sequences, aligns them, construct their phylogenetic tree, and then reconstruct ancestral nodes. It also allows user to input their own data and start from a different point in the pipeline.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0346"
+        },
+        {
+          "@id": "edam:operation_3478"
+        },
+        {
+          "@id": "edam:operation_0492"
+        },
+        {
+          "@id": "edam:operation_3745"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Proprietary",
+      "sc:name": "FireProt ASR",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": [
+        "Masaryk University, Brno, Czech Republic",
+        "Loschmidt Laboratories",
+        "Brno University of Technology, Brno, Czech Republic",
+        "ELIXIR-CZ",
+        "International Centre for Clinical Research, Brno, Czech Republic"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://loschmidt.chemi.muni.cz/fireprotasr/?action=help&"
+        },
+        {
+          "@id": "https://loschmidt.chemi.muni.cz/fireprotasr/?action=example&"
+        },
+        {
+          "@id": "https://loschmidt.chemi.muni.cz/fireprotasr/?action=terms&"
+        }
+      ],
+      "sc:softwareVersion": "1.1",
+      "sc:url": "https://loschmidt.chemi.muni.cz/fireprotasr/"
+    },
+    {
+      "@id": "_:Nb6c7b83ef2114514915ab23af6158327",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N19b8075608484bbe961a8e592082f0c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N067cacaae9a24abb8351fb6eb8c1d1d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1984"
+      },
+      "sc:name": "Protein sequence alignment"
+    },
+    {
+      "@id": "_:N92e48158e6e24257890254c26cee4b13",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9373-7930",
+      "@type": "schema:Person"
+    }
+  ]
+}

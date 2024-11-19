@@ -1,0 +1,32 @@
+about:
+  home: https://github.com/pmelsted/KmerStream
+  license: free software license
+  summary: Streaming algorithm for computing kmer statistics for massive genomics
+    datasets
+build:
+  number: 5
+extra:
+  identifiers:
+  - biotools:kmerstream
+  - doi:10.1093/bioinformatics/btu713
+package:
+  name: kmerstream
+  version: 1.1
+requirements:
+  build:
+  - make
+  - None
+  host:
+  - zlib
+  run:
+  - python
+  - zlib
+  - scipy
+source:
+  md5: d3a9b488074694cf058a93f5b8bdaf2c
+  url: https://github.com/pmelsted/KmerStream/archive/v1.1.tar.gz
+test:
+  commands:
+  - KmerStream 2>&1 | grep "KmerStream 1.1"
+  - KmerStreamJoin 2>&1 | grep "KmerStreamJoin 1.1"
+  - KmerStreamEstimate.py 2>&1 | grep "estimate.py TSV-FILE"

@@ -1,0 +1,1803 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:degseq:1.28.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/DEGseq.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:degseq:1.28.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/DEGseq.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.30.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.5/bioc/html/DEGseq.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.32.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/DEGseq.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.34.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/bioc/html/DEGseq.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.36.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.38.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.40.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.42.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.44.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.46.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.48.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.52.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.54.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:degseq:1.56.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1179,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 58,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 101,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 112,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 123,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 169,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 177,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp612",
+                            "pmid": "19855105",
+                            "ref_count": 13,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                }
+                            ],
+                            "title": "DEGseq: an R package for identifying differentially expressed genes from RNA-seq data.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/degseq",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/DEGseq.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

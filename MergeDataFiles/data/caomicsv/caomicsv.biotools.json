@@ -1,0 +1,107 @@
+{
+    "additionDate": "2017-01-17T15:05:41Z",
+    "biotoolsCURIE": "biotools:caomicsv",
+    "biotoolsID": "caomicsv",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "hzhang@mail.nih.gov",
+            "name": "Henry Zhang",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Package that provides methods to visualize multi-dimentional cancer genomics data including of patient information, gene expressions, DNA methylations, DNA copy number variations, and SNP/mutations in matrix layout or network layout.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/caOmicsV.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/caOmicsV_1.4.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome visualisation",
+                    "uri": "http://edamontology.org/operation_3208"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/caOmicsV.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "license": "GPL-2.0",
+    "name": "caOmicsV",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.1186/s12859-016-0989-6",
+            "metadata": {
+                "abstract": "� 2016 Zhang et al.Background: Translational genomics research in cancers, e.g., International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), has generated large multidimensional datasets from high-throughput technologies. Data analysis at multidimensional level will greatly benefit clinical applications of genomic information in diagnosis, prognosis and therapeutics of cancers. To help, tools to effectively visualize integrated multidimensional data are important for understanding and describing the relationship between genomic variations and cancers. Results: We implemented the R package, caOmicsV, to provide methods under R environment to visualize multidimensional cancer genomic data in two layouts: matrix layout and combined biological network and circular layout. Both layouts support to display sample information, gene expression (e.g., RNA and miRNA), DNA methylation, DNA copy number variations, and summarized data. A set of supplemental functions are included in the caOmicsV package to help users in generation of plot data sets from multiple genomic datasets with given gene names and sample names. Default plot methods for both layouts for easy use are also implemented. Conclusion: caOmicsV package provides an easy and flexible way to visualize integrated multidimensional cancer genomic data under R environment.",
+                "authors": [
+                    {
+                        "name": "Davis S.R."
+                    },
+                    {
+                        "name": "Meltzer P.S."
+                    },
+                    {
+                        "name": "Zhang H."
+                    }
+                ],
+                "citationCount": 2,
+                "date": "2016-01-01T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "CaOmicsV: An R package for visualizing multidimensional cancer genomic data"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.4.0"
+    ]
+}

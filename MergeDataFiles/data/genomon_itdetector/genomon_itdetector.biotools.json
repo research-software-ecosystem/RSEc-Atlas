@@ -1,0 +1,118 @@
+{
+    "additionDate": "2017-08-03T18:45:28Z",
+    "biotoolsCURIE": "biotools:genomon_itdetector",
+    "biotoolsID": "genomon_itdetector",
+    "credit": [
+        {
+            "email": "kchiba@hgc.jp",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "yshira@hgc.jp",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Software package for internal tandem duplication detection from cancer genome sequencing data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/ken0-1n/Genomon-ITDetector/blob/master/README.md"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Repeat sequence detection",
+                    "uri": "http://edamontology.org/operation_0379"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/ken0-1n/Genomon-ITDetector",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/genomon-itdetector-detecting-internal-tandem-duplication-from-genome-sequence-data.html"
+        }
+    ],
+    "name": "Genomon ITDetector",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2014 © Crown copyright 2014.Summary: Somatic internal tandem duplications (ITDs) are known to play important roles in cancer pathogenesis. Although recent advances in high-throughput sequencing technologies have enabled genome-wide detection of various types of genomic mutations, including single nucleotide variants, indels and structural variations, only a few studies have focused on ITDs. We have developed an analytical tool called 'Genomon ITDetector' for genome-wide detection of somatic ITDs. After evaluating the sensitivity and precision of the proposed approach using synthetic data, we have demonstrated that it can successfully detect not only common ITDs involving FLT3, but also a number of ITDs affecting other putative driver genes in acute myeloid leukemia exome sequencing data. Availability and implementaion: Genomon ITDetector is freely available at https://github.com/ken0-1n/Genomon-ITDetector Contact: or yshira@hgc.jp Supplementary information: Supplementary data are available at Bioinformatics online.",
+                "authors": [
+                    {
+                        "name": "Chiba K."
+                    },
+                    {
+                        "name": "Imoto S."
+                    },
+                    {
+                        "name": "Miyano S."
+                    },
+                    {
+                        "name": "Nagata Y."
+                    },
+                    {
+                        "name": "Ogawa S."
+                    },
+                    {
+                        "name": "Shiraishi Y."
+                    },
+                    {
+                        "name": "Yoshida K."
+                    }
+                ],
+                "citationCount": 14,
+                "date": "2015-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Genomon ITDetector: A tool for somatic internal tandem duplication detection from cancer genome sequencing data"
+            },
+            "pmid": "25192740"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "DNA mutation",
+            "uri": "http://edamontology.org/topic_2533"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

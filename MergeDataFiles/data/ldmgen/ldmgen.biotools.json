@@ -1,0 +1,96 @@
+{
+    "additionDate": "2017-08-03T18:47:53Z",
+    "biotoolsCURIE": "biotools:ldmgen",
+    "biotoolsID": "ldmgen",
+    "credit": [
+        {
+            "email": "hongyu.zhao@yale.edu",
+            "name": "Hongyu Zhao",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://zhaocenter.org/"
+        }
+    ],
+    "description": "Program to mapping the disease gene (including location and confidence interval) by using multisite genotype data of case-control studies.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://zhaocenter.org/software/#Genetic_Linkage_Analysis"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genetic mapping",
+                    "uri": "http://edamontology.org/operation_0282"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://zhaocenter.org/software/#Genetic_Linkage_Analysis",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/ldmgen-ld-mapping-genotype-data.html"
+        }
+    ],
+    "name": "LDMgen",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Linkage disequilibrium mapping has proven a powerful tool for locating disease genes. Although all existing linkage disequilibrium mapping methods implicitly assume that individual haplotypes can be inferred, only genotypes are directly observable in practice, and haplotypes cannot always be uniquely resolved based on genotype data. In this article, we propose a likelihood-based linkage disequilibrium mapping approach to analyzing multilocus genotype data arising from case-control studies. Results from extensive simulation studies suggest that this approach may be a useful tool to fine map disease genes using case-control data. © 2002 Wiley-Liss, Inc.",
+                "authors": [
+                    {
+                        "name": "Zhang S."
+                    },
+                    {
+                        "name": "Zhao H."
+                    }
+                ],
+                "citationCount": 2,
+                "date": "2002-01-10T00:00:00Z",
+                "journal": "Genetic Epidemiology",
+                "title": "Linkage disequilibrium mapping with genotype data"
+            },
+            "pmid": "11754474"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genotype and phenotype",
+            "uri": "http://edamontology.org/topic_0625"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        }
+    ],
+    "validated": 1
+}

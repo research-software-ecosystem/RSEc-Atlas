@@ -1,0 +1,48 @@
+about:
+  dev_url: https://github.com/bredelings/BAli-Phy/
+  home: http://www.bali-phy.org
+  license: GPL2
+  summary: Phylogenetics - Bayesian estimation of phylogenies and multiple sequence
+    alignments.
+build:
+  number: 1
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1093/bioinformatics/btab129
+  - biotools:bali-phy
+package:
+  name: bali-phy
+  version: 4.0beta15
+requirements:
+  build:
+  - None
+  - meson >=1.1.0
+  - ninja
+  - pkg-config
+  host:
+  - eigen >=3.3.7
+  - boost-cpp >=1.83.0
+  - glib
+  - cairo
+  - pandoc
+  run:
+  - eigen >=3.3.7
+  - boost-cpp >=1.83.0
+  - glib
+  - cairo
+  - pandoc
+  - gnuplot
+  - r-base
+  - perl
+  - python
+source:
+  sha256: 4d1b6f08dee5bb359a13a4e2913129fd1f6e0ddb36350c7f8851f583192b4a94
+  url: https://github.com/bredelings/bali-phy/archive/4.0-beta15.tar.gz
+test:
+  commands:
+  - bali-phy help

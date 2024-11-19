@@ -1,0 +1,112 @@
+{
+    "additionDate": "2017-08-03T18:54:46Z",
+    "biotoolsCURIE": "biotools:prsice",
+    "biotoolsID": "prsice",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.pauloreilly.info/"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://kclpure.kcl.ac.uk/portal/en/persons/jack-euesden(972d61b2-89c6-4777-8969-7d88b0c0ece5).html"
+        }
+    ],
+    "description": "Software package for calculating, applying, evaluating and plotting the results of polygenic risk scores.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://prsice.info/PRSice_MANUAL_v1.25.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                },
+                {
+                    "term": "Statistical modelling",
+                    "uri": "http://edamontology.org/operation_3664"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://prsice.info/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/prsice-v1-2-polygenic-risk-score-software.html"
+        }
+    ],
+    "name": "PRSice",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 The Author. Published by Oxford University Press.A polygenic risk score (PRS) is a sum of trait-associated alleles across many genetic loci, typically weighted by effect sizes estimated from a genome-wide association study. The application of PRS has grown in recent years as their utility for detecting shared genetic aetiology among traits has become appreciated; PRS can also be used to establish the presence of a genetic signal in underpowered studies, to infer the genetic architecture of a trait, for screening in clinical trials, and can act as a biomarker for a phenotype. Here we present the first dedicated PRS software, PRSice ('precise'), for calculating, applying, evaluating and plotting the results of PRS. PRSice can calculate PRS at a large number of thresholds (\"high resolution\") to provide the best-fit PRS, as well as provide results calculated at broad P-value thresholds, can thin Single Nucleotide Polymorphisms (SNPs) according to linkage disequilibrium and P-value or use all SNPs, handles genotyped and imputed data, can calculate and incorporate ancestry-informative variables, and can apply PRS across multiple traits in a single run. We exemplify the use of PRSice via application to data on schizophrenia, major depressive disorder and smoking, illustrate the importance of identifying the best-fit PRS and estimate a P-value significance threshold for high-resolution PRS studies.",
+                "authors": [
+                    {
+                        "name": "Euesden J."
+                    },
+                    {
+                        "name": "Lewis C.M."
+                    },
+                    {
+                        "name": "O'Reilly P.F."
+                    }
+                ],
+                "citationCount": 552,
+                "date": "2015-05-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "PRSice: Polygenic Risk Score software"
+            },
+            "pmid": "25550326"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA polymorphism",
+            "uri": "http://edamontology.org/topic_2885"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Population genetics",
+            "uri": "http://edamontology.org/topic_3056"
+        },
+        {
+            "term": "Statistics and probability",
+            "uri": "http://edamontology.org/topic_2269"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,89 @@
+{
+    "additionDate": "2024-02-13T15:27:57.571212Z",
+    "biotoolsCURIE": "biotools:Sage-proteomics",
+    "biotoolsID": "Sage-proteomics",
+    "description": "Sage is a proteomics database search engine to match tandem mass spectra to peptides. Sage also performs retention time prediction, quantificaiton and FDR control.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://sage-docs.vercel.app/docs"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Mass spectrum",
+                        "uri": "http://edamontology.org/data_0943"
+                    },
+                    "format": [
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Protein sequence",
+                        "uri": "http://edamontology.org/data_2976"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTA",
+                            "uri": "http://edamontology.org/format_1929"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Peptide identification",
+                    "uri": "http://edamontology.org/operation_3631"
+                },
+                {
+                    "term": "Retention time prediction",
+                    "uri": "http://edamontology.org/operation_3633"
+                },
+                {
+                    "term": "Validation",
+                    "uri": "http://edamontology.org/operation_2428"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Peptide identification",
+                        "uri": "http://edamontology.org/data_0945"
+                    },
+                    "format": [
+                        {
+                            "term": "TSV",
+                            "uri": "http://edamontology.org/format_3475"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/lazear/sage",
+    "lastUpdate": "2024-10-02T12:18:34.142607Z",
+    "license": "MIT",
+    "name": "Sage",
+    "owner": "n.m.palmblad@lumc.nl",
+    "publication": [
+        {
+            "doi": "10.1021/acs.jproteome.3c00486",
+            "pmid": "37819886",
+            "type": [
+                "Primary"
+            ]
+        }
+    ]
+}

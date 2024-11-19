@@ -1,0 +1,62 @@
+package: sga
+distribution: debian
+release: sid
+component: main
+version: 0.10.15
+source: sga
+homepage: https://github.com/jts/sga
+license: unknown
+blend: debian-med
+description_md5: 4551d08cc0a7516892fb0af250b69e37
+registries:
+- entry: OMICS_00028
+  name: OMICtools
+- entry: SCR_001982
+  name: SciCrunch
+- entry: SGA
+  name: bio.tools
+- entry: sga
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.126953.111
+popcon:
+- insts: 27
+  olde: 23
+  recent: 2
+  vote: 2
+descr:
+- package: sga
+  description: assemblatore de novo di genoma che usa grafi di stringhe
+  long_description: " L'obiettivo principale di SGA è di essere molto efficiente in
+    termini di\n memoria, il che è raggiunto usando una rappresentazione compressa
+    delle\n letture di sequenze di DNA.\n .\n SGA è un assemblatore de novo per letture
+    di sequenze di DNA. È basato\n sulla formulazione di assemblaggio di grafi di
+    stringhe di Gene Myers e usa\n l'FM-index/trasformata di Burrows-Wheeler per trovare
+    in maniera\n efficiente le sovrapposizioni tra letture di sequenze.\n"
+  release: sid
+  description_md5: 4551d08cc0a7516892fb0af250b69e37
+  license: unknown
+  blend: debian-med
+- package: sga
+  description: de novo genome assembler that uses string graphs
+  long_description: " The major goal of SGA is to be very memory efficient, which
+    is achieved by\n using a compressed representation of DNA sequence reads.\n .\n
+    SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers'\n
+    string graph formulation of assembly and uses the FM-index/Burrows-Wheeler\n transform
+    to efficiently find overlaps between sequence reads.\n"
+  release: sid
+  description_md5: 4551d08cc0a7516892fb0af250b69e37
+  license: unknown
+  blend: debian-med
+- package: sga
+  description: De novo-genomsamler som bruger strenggrafer
+  long_description: " Hovedformålet med SGA er at være meget hukommelseseffektivt,
+    hvilket opnås\n ved at bruge en komprimeret repræsentation af DNA-sekvenslæsninger.\n
+    .\n SGA er en novo-samler for DNS-sekvenslæsninger. Programmet er baseret\n på
+    Gene Myers' strenggrafformulation af samling og bruger\n FM-index/Burrows-Wheeler-transform
+    til effektivt at finde overlapninger\n mellem sekvenslæsninger.\n"
+  release: sid
+  description_md5: 4551d08cc0a7516892fb0af250b69e37
+  license: unknown
+  blend: debian-med

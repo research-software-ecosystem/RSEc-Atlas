@@ -1,0 +1,111 @@
+{
+    "additionDate": "2017-12-18T00:07:35Z",
+    "biotoolsCURIE": "biotools:helixcorr",
+    "biotoolsID": "helixcorr",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://frishman.wzw.tum.de/"
+        }
+    ],
+    "description": "HelixCorr is a software to predict correlated mutations specifically for the transmembrane parts of membrane proteins. It includes predictions obtained by several individual prediction algorithms and combines them to a consensus prediction.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://webclu.bio.wzw.tum.de/helixcorr/instructions.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Prediction",
+                    "uri": "http://edamontology.org/operation_2423"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Protein sequence analysis",
+                    "uri": "http://edamontology.org/operation_2479"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://webclu.bio.wzw.tum.de/helixcorr/index.html",
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/helixcorr-20080511-predict-interacting-transmembrane-helices.html"
+        }
+    ],
+    "name": "HelixCorr",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btm515",
+            "metadata": {
+                "abstract": "Motivation: The analysis of co-evolving residues has been exhaustively evaluated for the prediction of intramolecular amino acid contacts in soluble proteins. Although a variety of different methods for the detection of these co-evolving residues have been developed, the fraction of correctly predicted contacts remained insufficient for their reliable application in the construction of structural models. Membrane proteins, which constitute between one-fourth and one-third of all proteins in an organism, were only considered in few individual case studies. Results: We present the first general study of correlated mutations in α-helical membrane proteins. Using seven different prediction algorithms, we extracted co-evolving residues for 14 membrane proteins having a solved 3D structure. On average, distances between correlated pairs of residues lying on different transmembrane segments were found to be significantly smaller compared to a random prediction. Covariation of residues was frequently found in direct sequence neighborhood to helix-helix contacts. Based on the results obtained from individual prediction methods, we constructed a consensus prediction for every protein in the dataset that combines obtained correlations from different prediction algorithms and simultaneously removes likely false positives. Using this consensus prediction, 53% of all predicted residue pairs were found within one helix turn of an observed helix-helix contact. Based on the combination of co-evolving residues detected with the four best prediction algorithms, interacting helices could be predicted with a specificity of 83% and sensitivity of 42%. © The Author 2007. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Ben-Tal N."
+                    },
+                    {
+                        "name": "Fleishman S."
+                    },
+                    {
+                        "name": "Frishman D."
+                    },
+                    {
+                        "name": "Fuchs A."
+                    },
+                    {
+                        "name": "Kalman M."
+                    },
+                    {
+                        "name": "Martin-Galiano A.J."
+                    }
+                ],
+                "citationCount": 53,
+                "date": "2007-12-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Co-evolving residues in membrane proteins"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Membrane and lipoproteins",
+            "uri": "http://edamontology.org/topic_0820"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "20081105"
+    ]
+}

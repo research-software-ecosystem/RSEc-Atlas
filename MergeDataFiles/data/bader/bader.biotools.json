@@ -1,0 +1,204 @@
+{
+    "additionDate": "2017-01-17T14:55:05Z",
+    "biotoolsCURIE": "biotools:bader",
+    "biotoolsID": "bader",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "a.neudecker@arcor.de",
+            "name": "Andreas Neudecker",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "For RNA sequencing count data, this tool fits a Bayesian hierarchical model. Its algorithm returns the posterior probability of differential expression for each gene between two groups A and B. The joint posterior distribution of the variables in the model can be returned in the form of posterior samples, which can be used for further down-stream analyses such as gene set enrichment.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/html/BADER.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://bioconductor/packages/release/bioc/src/contrib/BADER_1.12.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Nucleic acid report",
+                        "uri": "http://edamontology.org/data_2084"
+                    },
+                    "format": [
+                        {
+                            "term": "Textual format",
+                            "uri": "http://edamontology.org/format_2330"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Differential gene expression analysis",
+                    "uri": "http://edamontology.org/operation_3223"
+                },
+                {
+                    "term": "RNA-seq read count analysis",
+                    "uri": "http://edamontology.org/operation_3563"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Score",
+                        "uri": "http://edamontology.org/data_1772"
+                    },
+                    "format": [
+                        {
+                            "term": "Textual format",
+                            "uri": "http://edamontology.org/format_2330"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/BADER.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "license": "GPL-2.0",
+    "name": "BADER",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "bioconductor_import",
+    "publication": [
+        {
+            "doi": "10.1038/nmeth.3252",
+            "metadata": {
+                "abstract": "Bioconductor is an open-source, open-development software project for the analysis and comprehension of high-throughput data in genomics and molecular biology. The project aims to enable interdisciplinary research, collaboration and rapid development of scientific software. Based on the statistical programming language R, Bioconductor comprises 934 interoperable packages contributed by a large, diverse community of scientists. Packages cover a range of bioinformatic and statistical applications. They undergo formal initial review and continuous automated testing. We present an overview for prospective users and contributors.",
+                "authors": [
+                    {
+                        "name": "Anders S."
+                    },
+                    {
+                        "name": "Bravo H.C."
+                    },
+                    {
+                        "name": "Carey V.J."
+                    },
+                    {
+                        "name": "Carlson M."
+                    },
+                    {
+                        "name": "Carvalho B.S."
+                    },
+                    {
+                        "name": "Davis S."
+                    },
+                    {
+                        "name": "Gatto L."
+                    },
+                    {
+                        "name": "Gentleman R."
+                    },
+                    {
+                        "name": "Girke T."
+                    },
+                    {
+                        "name": "Gottardo R."
+                    },
+                    {
+                        "name": "Hahne F."
+                    },
+                    {
+                        "name": "Hansen K.D."
+                    },
+                    {
+                        "name": "Huber W."
+                    },
+                    {
+                        "name": "Irizarry R.A."
+                    },
+                    {
+                        "name": "Lawrence M."
+                    },
+                    {
+                        "name": "Love M.I."
+                    },
+                    {
+                        "name": "MaCdonald J."
+                    },
+                    {
+                        "name": "Morgan M."
+                    },
+                    {
+                        "name": "Obenchain V."
+                    },
+                    {
+                        "name": "Oles A.K."
+                    },
+                    {
+                        "name": "Pages H."
+                    },
+                    {
+                        "name": "Reyes A."
+                    },
+                    {
+                        "name": "Shannon P."
+                    },
+                    {
+                        "name": "Smyth G.K."
+                    },
+                    {
+                        "name": "Tenenbaum D."
+                    },
+                    {
+                        "name": "Waldron L."
+                    }
+                ],
+                "citationCount": 1410,
+                "date": "2015-01-01T00:00:00Z",
+                "journal": "Nature Methods",
+                "title": "Orchestrating high-throughput genomic analysis with Bioconductor"
+            },
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "RNA-Seq",
+            "uri": "http://edamontology.org/topic_3170"
+        },
+        {
+            "term": "Statistics and probability",
+            "uri": "http://edamontology.org/topic_2269"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.12.0"
+    ]
+}

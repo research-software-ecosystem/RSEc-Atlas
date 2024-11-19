@@ -1,0 +1,109 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lmme/plugin/www.cls.uni-konstanz.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/bioinformatics/btab335",
+                            "pmid": "33970212",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Visual exploration of large metabolic models.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cls.uni-konstanz.de/software/lmme"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cls.uni-konstanz.de/software/lmme/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.cls.uni-konstanz.de/software/lmme"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://cls.uni-konstanz.de/software/lmme/overview/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/lmme",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cls.uni-konstanz.de/software/lmme"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://cls.uni-konstanz.de/software/lmme/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.cls.uni-konstanz.de/software/lmme"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://cls.uni-konstanz.de/software/lmme/overview/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,106 @@
+{
+    "additionDate": "2017-03-30T22:04:21Z",
+    "biotoolsCURIE": "biotools:prosplicer",
+    "biotoolsID": "prosplicer",
+    "credit": [
+        {
+            "email": "damay@db.csie.ncu.edu.tw",
+            "name": "ProSplicer Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Database which stores alternative splicing information generated from EST, mRNA and protein alignments with genomic sequence; text-based queries and graphical views of putative splice variants.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://prosplicer.mbc.nctu.edu.tw/about/prosplicer.htm"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "EST assembly",
+                    "uri": "http://edamontology.org/operation_0526"
+                },
+                {
+                    "term": "Sequence merging",
+                    "uri": "http://edamontology.org/operation_0232"
+                },
+                {
+                    "term": "Sequence tag mapping",
+                    "uri": "http://edamontology.org/operation_0527"
+                },
+                {
+                    "term": "Splicing model analysis",
+                    "uri": "http://edamontology.org/operation_2499"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://prosplicer.mbc.nctu.edu.tw/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "ProSplicer",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "ProSplicer is a database of putative alternative splicing information derived from the alignment of proteins, mRNA sequences and expressed sequence tags (ESTs) against human genomic DNA sequences. Proteins, mRNA and ESTs provide valuable evidence that can reveal splice variants of genes. The alternative splicing information in the database can help users investigate the alternative splicing and tissue-specific expression of genes.",
+                "authors": [
+                    {
+                        "name": "Horng J.T."
+                    },
+                    {
+                        "name": "Huang H.D."
+                    },
+                    {
+                        "name": "Lee C.C."
+                    },
+                    {
+                        "name": "Liu B.J."
+                    }
+                ],
+                "citationCount": 34,
+                "date": "2003-01-01T00:00:00Z",
+                "journal": "Genome biology",
+                "title": "ProSplicer: a database of putative alternative splicing information derived from protein, mRNA and expressed sequence tag sequence data."
+            },
+            "pmid": "12702210"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Protein variants",
+            "uri": "http://edamontology.org/topic_3120"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "RNA splicing",
+            "uri": "http://edamontology.org/topic_3320"
+        }
+    ],
+    "validated": 1
+}

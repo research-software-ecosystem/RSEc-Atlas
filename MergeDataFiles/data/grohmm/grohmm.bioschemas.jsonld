@@ -1,0 +1,243 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/grohmm",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        "Venkat Malladi",
+        "Tulip Nandu",
+        "Anusha Nagari",
+        "W. Lee Kraus"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N64a5af43e72c4423aeafc3e9298ef5f7"
+        },
+        {
+          "@id": "_:Nfceb25bd0d44434d8023eccb654357ab"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ncbc8331dac0444ff88620423b50c47e0"
+        },
+        {
+          "@id": "_:Nab372eb0f9434023b7cb3dc80afd5f19"
+        },
+        {
+          "@id": "_:Nbd1cf5203e6c4c8a8587d823e2381f97"
+        },
+        {
+          "@id": "_:N1ee633c191d14683b4a66f404fa7aa6e"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-015-0656-3"
+        },
+        "pubmed:26173492",
+        "pmcid:PMC4502638"
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0002-1999-7125"
+      },
+      "sc:description": "A pipeline for the analysis of GRO-seq data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2478"
+        },
+        {
+          "@id": "edam:operation_0415"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "groHMM",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/groHMM.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/groHMM.html"
+    },
+    {
+      "@id": "_:N64a5af43e72c4423aeafc3e9298ef5f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nfceb25bd0d44434d8023eccb654357ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Ncbc8331dac0444ff88620423b50c47e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3005"
+        },
+        {
+          "@id": "edam:format_3006"
+        }
+      ],
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "_:Nab372eb0f9434023b7cb3dc80afd5f19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nbd1cf5203e6c4c8a8587d823e2381f97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3005"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N1ee633c191d14683b4a66f404fa7aa6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0656-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-1999-7125",
+      "@type": "schema:Person"
+    }
+  ]
+}

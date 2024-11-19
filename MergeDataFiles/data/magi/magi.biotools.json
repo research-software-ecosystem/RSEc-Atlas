@@ -1,0 +1,104 @@
+{
+    "additionDate": "2017-08-03T18:48:44Z",
+    "biotoolsCURIE": "biotools:magi",
+    "biotoolsID": "magi",
+    "credit": [
+        {
+            "email": "braphael@cs.princeton.edu",
+            "name": "Raphael Lab, Princeton University",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://compbio.cs.brown.edu/"
+        }
+    ],
+    "description": "Publicly available web application to explore and annotate cancer genomics data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://magi.brown.edu/#db-chooser"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Annotation",
+                    "uri": "http://edamontology.org/operation_0226"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://magi.brown.edu/",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/magi-mutation-annotation-genome-interpretation.html"
+        }
+    ],
+    "name": "MAGI",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "authors": [
+                    {
+                        "name": "Gramazio C.C."
+                    },
+                    {
+                        "name": "Hu J."
+                    },
+                    {
+                        "name": "Laidlaw D.H."
+                    },
+                    {
+                        "name": "Leiserson M.D.M."
+                    },
+                    {
+                        "name": "Raphael B.J."
+                    },
+                    {
+                        "name": "Wu H.-T."
+                    }
+                ],
+                "citationCount": 14,
+                "date": "2015-01-01T00:00:00Z",
+                "journal": "Nature Methods",
+                "title": "MAGI: Visualization and collaborative annotation of genomic aberrations"
+            },
+            "pmid": "26020500"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        }
+    ],
+    "validated": 1
+}

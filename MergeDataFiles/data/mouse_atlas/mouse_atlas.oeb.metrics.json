@@ -1,0 +1,178 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mouse_atlas/db/www.mouseatlas.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 70,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2007"
+                                }
+                            ],
+                            "doi": "10.1073/pnas.0509455102",
+                            "pmcid": "PMC1311911",
+                            "pmid": "16352711",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2004"
+                                }
+                            ],
+                            "title": "A mouse atlas of gene expression: large-scale digital gene-expression profiles from precisely defined developing C57BL/6J mouse tissues and cells.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.mouseatlas.org"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.mouseatlas.org/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mouse_atlas",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.mouseatlas.org"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.mouseatlas.org/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

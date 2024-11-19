@@ -1,0 +1,99 @@
+{
+    "additionDate": "2017-01-13T13:16:07Z",
+    "biotoolsCURIE": "biotools:ribopicker",
+    "biotoolsID": "ribopicker",
+    "credit": [
+        {
+            "email": "redwards@mail.sdsu.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://edwards.sdsu.edu/research/"
+        }
+    ],
+    "description": "A tool to automatically identify and efficiently remove rRNA-like sequences from metatranscriptomic datasets. The tool was designed to process longer-read datasets (150+bp read length), but works on 100+bp reads too.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://ribopicker.sourceforge.net/manual.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Filtering",
+                    "uri": "http://edamontology.org/operation_3695"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://ribopicker.sourceforge.net/",
+    "lastUpdate": "2018-12-10T12:58:44Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/ribopicker-0-4-3-identification-removal-rrna-like-sequences.html"
+        }
+    ],
+    "name": "riboPicker",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Here, we present riboPicker, a robust framework for the rapid, automated identification and removal of ribosomal RNA sequences from metatranscriptomic datasets. The results can be exported for subsequent analysis, and the databases used for the web-based version are updated on a regular basis. riboPicker categorizes rRNA-like sequences and provides graphical visualizations and tabular outputs of ribosomal coverage, alignment results and taxonomic classifications. © The Author(s) 2011. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Edwards R."
+                    },
+                    {
+                        "name": "Lim Y.W."
+                    },
+                    {
+                        "name": "Schmieder R."
+                    }
+                ],
+                "citationCount": 132,
+                "date": "2012-02-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Identification and removal of ribosomal RNA sequences from metatranscriptomes"
+            },
+            "pmid": "22155869"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        }
+    ],
+    "validated": 1
+}

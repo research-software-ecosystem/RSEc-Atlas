@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti325",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/hovergen",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Laurent Duret",
+      "bsc:input": [
+        {
+          "@id": "_:N9296a032e785405ca6cdd580af283c07"
+        },
+        {
+          "@id": "_:Nf7b092f815ac41739b38f6ec3f09fd7a"
+        },
+        {
+          "@id": "_:N47a1a68c8c9242619a6b1024ee8bd04e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nda823ae35b584e82808eeab811a393cd"
+        },
+        {
+          "@id": "_:Nc9adef82b840478081f34ece56251af5"
+        },
+        {
+          "@id": "_:N57f1c24bd76046829cd46b6801f7bafe"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0194"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bti325"
+      },
+      "sc:description": "This database allows selection of sets of homologous genes among vertebrate species, and visualisation of multiple alignments and phylogenetic trees. It is particularly useful for comparative sequence analysis, phylogeny and molecular evolution studies or more generally, for an overall view of what is known about a peculiar gene family.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Homologous vertebrate genes database (HOVERGEN)",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://pbil.univ-lyon1.fr/databases/hovergen.php"
+      },
+      "sc:url": "http://pbil.univ-lyon1.fr/databases/hovergen.html"
+    },
+    {
+      "@id": "_:N9296a032e785405ca6cdd580af283c07",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nf7b092f815ac41739b38f6ec3f09fd7a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N47a1a68c8c9242619a6b1024ee8bd04e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nda823ae35b584e82808eeab811a393cd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nc9adef82b840478081f34ece56251af5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N57f1c24bd76046829cd46b6801f7bafe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence record"
+    }
+  ]
+}

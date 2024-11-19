@@ -1,0 +1,98 @@
+{
+    "additionDate": "2017-08-03T19:08:22Z",
+    "biotoolsCURIE": "biotools:simdef",
+    "biotoolsID": "simdef",
+    "credit": [
+        {
+            "email": "ahmad.pgh@dal.ca",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "An efficient method for measuring semantic similarity of GO terms using their GO definitions.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://iwera.ir/~ahmad/dal/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Document similarity calculation",
+                    "uri": "http://edamontology.org/operation_3278"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://iwera.ir/~ahmad/dal/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/simdef-definition-based-semantic-similarity-measure-of-go-terms-for-functional-similarity-analysis-of-genes.html"
+        }
+    ],
+    "name": "simDEF",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press.Motivation: Measures of protein functional similarity are essential tools for function prediction, evaluation of protein-protein interactions (PPIs) and other applications. Several existing methods perform comparisons between proteins based on the semantic similarity of their GO terms; however, these measures are highly sensitive to modifications in the topological structure of GO, tend to be focused on specific analytical tasks and concentrate on the GO terms themselves rather than considering their textual definitions. Results: We introduce simDEF, an efficient method for measuring semantic similarity of GO terms using their GO definitions, which is based on the Gloss Vector measure commonly used in natural language processing. The simDEF approach builds optimized definition vectors for all relevant GO terms, and expresses the similarity of a pair of proteins as the cosine of the angle between their definition vectors. Relative to existing similarity measures, when validated on a yeast reference database, simDEF improves correlation with sequence homology by up to 50%, shows a correlation improvement >4% with gene expression in the biological process hierarchy of GO and increases PPI predictability by > 2.5% in F1 score for molecular function hierarchy.",
+                "authors": [
+                    {
+                        "name": "Beiko R.G."
+                    },
+                    {
+                        "name": "Matwin S."
+                    },
+                    {
+                        "name": "Pesaranghader A."
+                    },
+                    {
+                        "name": "Sokolova M."
+                    }
+                ],
+                "citationCount": 13,
+                "date": "2016-05-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "SimDEF: Definition-based semantic similarity measure of gene ontology terms for functional similarity analysis of genes"
+            },
+            "pmid": "26708333"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Natural language processing",
+            "uri": "http://edamontology.org/topic_0218"
+        },
+        {
+            "term": "Ontology and terminology",
+            "uri": "http://edamontology.org/topic_0089"
+        }
+    ],
+    "validated": 1
+}

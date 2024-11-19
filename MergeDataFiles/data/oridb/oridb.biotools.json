@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-03-30T23:00:38Z",
+    "biotoolsCURIE": "biotools:oridb",
+    "biotoolsID": "oridb",
+    "credit": [
+        {
+            "email": "conrad.nieduszynski@nottingham.ac.uk",
+            "name": "Conrad A. Nieduszynski",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "DNA origin of replication database: contains genome-wide mapping studies. Databases available for yeast Saccharomyces cervisiae and S. pombe.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://cerevisiae.oridb.org/help.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "DNA mapping",
+                    "uri": "http://edamontology.org/operation_2520"
+                },
+                {
+                    "term": "Haplotype mapping",
+                    "uri": "http://edamontology.org/operation_0487"
+                },
+                {
+                    "term": "ID mapping",
+                    "uri": "http://edamontology.org/operation_3282"
+                },
+                {
+                    "term": "Mapping",
+                    "uri": "http://edamontology.org/operation_2429"
+                },
+                {
+                    "term": "Sequence tagged site (STS) mapping",
+                    "uri": "http://edamontology.org/operation_2871"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.oridb.org/index.php",
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "OriDB",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "OriDB (http://www.oridb.org/) is a database containing collated genome-wide mapping studies of confirmed and predicted replication origin sites. The original database collated and curated Saccharomyces cerevisiae origin mapping studies. Here, we report that the OriDB database and web site have been revamped to improve user accessibility to curated data sets, to greatly increase the number of curated origin mapping studies, and to include the collation of replication origin sites in the fission yeast Schizosaccharomyces pombe. The revised database structure underlies these improvements and will facilitate further expansion in the future. The updated OriDB for S. cerevisiae is available at http://cerevisiae.oridb.org/ and for S. pombe at http://pombe.oridb.org/. © The Author(s) 2011. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Muller C.A."
+                    },
+                    {
+                        "name": "Nieduszynska S.R."
+                    },
+                    {
+                        "name": "Nieduszynski C.A."
+                    },
+                    {
+                        "name": "Siow C.C."
+                    }
+                ],
+                "citationCount": 93,
+                "date": "2012-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "OriDB, the DNA replication origin database updated and extended"
+            },
+            "pmid": "22121216"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Experimental design and studies",
+            "uri": "http://edamontology.org/topic_3678"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Model organisms",
+            "uri": "http://edamontology.org/topic_0621"
+        }
+    ],
+    "validated": 1
+}

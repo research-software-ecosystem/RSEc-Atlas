@@ -1,0 +1,27 @@
+about:
+  dev_url: https://github.com/beast-dev/beast-mcmc
+  home: http://beast.bio.ed.ac.uk
+  license: LGPL-2.1
+  license_family: GPL
+  summary: BEAST is a cross-platform program for Bayesian analysis of molecular sequences
+    using MCMC
+build:
+  noarch: generic
+  number: 2
+extra:
+  identifiers:
+  - biotools:beast
+  - doi:10.1093/molbev/mss075
+package:
+  name: beast
+  version: 1.10.4
+requirements:
+  run:
+  - openjdk
+  - beagle-lib
+source:
+  sha256: be652c4d55953f7c6c7a9d3eb3de203c77dc380e81ad81cfe0492408990c36a8
+  url: https://github.com/beast-dev/beast-mcmc/releases/download/v1.10.4/BEASTv1.10.4.tgz
+test:
+  commands:
+  - beast -version

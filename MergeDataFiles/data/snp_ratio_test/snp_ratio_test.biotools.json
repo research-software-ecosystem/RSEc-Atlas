@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-08-03T19:00:04Z",
+    "biotoolsCURIE": "biotools:snp_ratio_test",
+    "biotoolsID": "snp_ratio_test",
+    "credit": [
+        {
+            "email": "codushlaine@gmail.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://sites.google.com/a/codushlaine.com/colm-o-dushlaine/home"
+        }
+    ],
+    "description": "This can assess significance of enrichment of significant associations in genome-wide association studies. Tests can be applied to pathways such as KEGG/GO, or user-defined pathways to test specific hypotheses.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://sourceforge.net/projects/snpratiotest/?source=navbar"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Statistical calculation",
+                    "uri": "http://edamontology.org/operation_2238"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://sourceforge.net/projects/snpratiotest/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/snp-ratio-test-v3-pathway-analysis-genome-wide-association-datasets.html"
+        }
+    ],
+    "name": "SNP ratio test",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "We present a tool that assesses the enrichment of significant associations from genome-wide association studies (GWAS) in a pathway context. The SNP ratio test (SRT) compares the proportion of significant to all SNPs within genes that are part of a pathway and computes an empirical P-value based on comparisons to ratios in datasets where the assignment of case/control status has been randomized. We applied the SRT to a Parkinson's disease GWAS dataset, using the KEGG database, revealing significance for Parkinson's disease and related pathways. © The Author 2009. Published by Oxford University Press. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Corvin A."
+                    },
+                    {
+                        "name": "Gill M."
+                    },
+                    {
+                        "name": "Heron E.A."
+                    },
+                    {
+                        "name": "Kenny E."
+                    },
+                    {
+                        "name": "Morris D.W."
+                    },
+                    {
+                        "name": "O'Dushlaine C."
+                    },
+                    {
+                        "name": "Segurado R."
+                    }
+                ],
+                "citationCount": 116,
+                "date": "2009-10-20T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "The SNP ratio test: Pathway analysis of genome-wide association datasets"
+            },
+            "pmid": "19620097"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA polymorphism",
+            "uri": "http://edamontology.org/topic_2885"
+        },
+        {
+            "term": "GWAS study",
+            "uri": "http://edamontology.org/topic_3517"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        }
+    ],
+    "validated": 1
+}

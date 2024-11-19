@@ -1,0 +1,100 @@
+{
+    "additionDate": "2015-08-03T09:35:33Z",
+    "biotoolsCURIE": "biotools:mview_api_ebi",
+    "biotoolsID": "mview_api_ebi",
+    "credit": [
+        {
+            "name": "BioCatalogue",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Documentor"
+            ],
+            "url": "https://www.biocatalogue.org"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.ebi.ac.uk/support/"
+        }
+    ],
+    "description": "Re-format the results of a sequence database search (BLAST, FASTA, etc) or a multiple alignment (MSF, PIR, CLUSTAL, etc) adding optional HTML markup to control colouring and web page layout.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ebi.ac.uk/Tools/webservices/services/msa/mview_rest"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ebi.ac.uk/Tools/webservices/services/msa/mview_rest",
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://www.biocatalogue.org/services/3136"
+        }
+    ],
+    "name": "Mview API (EBI)",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioCatalogue",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/14.4.380",
+            "metadata": {
+                "abstract": "Summary: MView is a tool for converting the results of a sequence database search into the form of a coloured multiple alignment of hits stacked against the query. Alternatively, an existing multiple alignment can be processed. In either case, the output is simply HTML, so the result is platform independent and does not require a separate application or applet to be loaded. Availability: Free from http://www.sander.ebi.ac.uk/mview/ subject to copyright restrictions. Contact: brown@@@ebi.ac.uk.",
+                "authors": [
+                    {
+                        "name": "Brown N.P."
+                    },
+                    {
+                        "name": "Leroy C."
+                    },
+                    {
+                        "name": "Sander C."
+                    }
+                ],
+                "citationCount": 214,
+                "date": "1998-01-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "MView: A web-compatible database search or multiple alignment viewer"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web API"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

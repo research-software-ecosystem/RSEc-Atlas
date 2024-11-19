@@ -1,0 +1,91 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:boolspace:v1/script/sites.google.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "pmid": "24166654",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/boolspace/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/boolspace/&osid=1&passive=1209600&ifkv=AcMMx-e0-vtjJJ0fnGLgj1jk1LReyhW3aJ5rTU52LD9n6GqPEYQX-QaDhsu4VmoZ88GwAUvlvp8b8Q"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/boolspace/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/boolspace/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fboolspace%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fboolspace%2F&ifkv=AcMMx-dXMRveWW6rxbakDvkYW-Mm4zC5JkysMm_7Zfz4au7E0nFwlazxaQ_RUWX-_rvvi_1Ct3cvvg&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1711569768%3A1731725074460561&ddm=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fboolspace%2F"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/boolspace",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fboolspace%2F"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

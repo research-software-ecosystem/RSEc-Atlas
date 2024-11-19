@@ -1,0 +1,102 @@
+{
+    "additionDate": "2017-08-03T19:07:17Z",
+    "biotoolsCURIE": "biotools:mlrho",
+    "biotoolsID": "mlrho",
+    "credit": [
+        {
+            "email": "haubold@evolbio.mpg.de",
+            "name": "Haubold B",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://guanine.evolbio.mpg.de/homePage/index.html"
+        }
+    ],
+    "description": "Takes as input a file with assembled reads from a single diploid individual and returns maximum likelihood estimates of the population mutation rate, , the sequencing error , the zygosity correlation, and the population recombination rate.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://guanine.evolbio.mpg.de/mlRho/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Statistical inference",
+                    "uri": "http://edamontology.org/operation_3658"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://guanine.evolbio.mpg.de/mlRho/",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/mlrho-2-0-estimate-population-mutation-recombination-rates-shotgun-sequenced-diploid-genomes.html"
+        }
+    ],
+    "name": "mlRho",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Improvements in sequencing technology over the past 5 years are leading to routine application of shotgun sequencing in the fields of ecology and evolution. However, the theory to estimate evolutionary parameters from these data is still being worked out. Here we present an extension and implementation of part of this theory, mlRho. This program can efficiently compute the following three maximum likelihood estimators based on shotgun sequence data obtained from single diploid individuals: the population mutation rate (4N eμ), the sequencing error rate, and the population recombination rate (4Nec). We demonstrate the accuracy of mlRho by applying it to simulated data sets. In addition, we analyse the genomes of the sea squirt Ciona intestinalis and the water flea Daphnia pulex. Ciona intestinalis is an obligate outcrosser, while D. pulex is a cyclic parthenogen, and we discuss how these contrasting life histories are reflected in our parameter estimates. The program mlRho is freely available from http://guanine.evolbio.mpg.de/mlRho. © 2010 Blackwell Publishing Ltd.",
+                "authors": [
+                    {
+                        "name": "Haubold B."
+                    },
+                    {
+                        "name": "Lynch M."
+                    },
+                    {
+                        "name": "Pfaffelhuber P."
+                    }
+                ],
+                "citationCount": 48,
+                "date": "2010-03-01T00:00:00Z",
+                "journal": "Molecular Ecology",
+                "title": "MlRho - A program for estimating the population mutation and recombination rates from shotgunsequenced diploid genomes"
+            },
+            "pmid": "20331786"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "DNA replication and recombination",
+            "uri": "http://edamontology.org/topic_3127"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Population genetics",
+            "uri": "http://edamontology.org/topic_3056"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

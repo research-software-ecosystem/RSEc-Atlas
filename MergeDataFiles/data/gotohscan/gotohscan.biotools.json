@@ -1,0 +1,96 @@
+{
+    "additionDate": "2017-12-18T00:07:17Z",
+    "biotoolsCURIE": "biotools:gotohscan",
+    "biotoolsID": "gotohscan",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.bioinf.uni-leipzig.de/~jana/"
+        }
+    ],
+    "description": "The GotohScan program is a search tool that finds shorter sequences (usually genes) in large database sequences (chromosomes, genomes, ..)by computing all semi-global alignments.  Thus, the query sequence is never truncated or split into subsequences, but always mapped to the database over its complete length. The alignment is computed via the Gotoh-alignment algorithm using affine gap costs.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.bioinf.uni-leipzig.de/Software/GotohScan/README"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene finding",
+                    "uri": "http://edamontology.org/operation_2454"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Global alignment",
+                    "uri": "http://edamontology.org/operation_0496"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Query",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Search",
+                    "uri": "http://edamontology.org/operation_2421"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.bioinf.uni-leipzig.de/Software/GotohScan/",
+    "lastUpdate": "2018-12-10T12:58:57Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/gotohscan-2-0-gene-finding-semi-global-alignment.html"
+        }
+    ],
+    "name": "GotohScan",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Chromosomes",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequences",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "2.0"
+    ]
+}

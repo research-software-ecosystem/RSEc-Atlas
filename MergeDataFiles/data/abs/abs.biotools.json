@@ -1,0 +1,139 @@
+{
+    "additionDate": "2015-09-11T18:13:56Z",
+    "biotoolsCURIE": "biotools:abs",
+    "biotoolsID": "abs",
+    "collectionID": [
+        "DRCAT"
+    ],
+    "credit": [
+        {
+            "email": "eblanco@imim.es",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "DRCAT",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Documentor"
+            ]
+        },
+        {
+            "name": "Genome BioInformatics Research Lab",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Annotated regulatory binding sites from orthologous promoters.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://genome.crg.es/datasets/abs2005/docs.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "ABS ID",
+                        "uri": "http://edamontology.org/data_2741"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Gene name",
+                        "uri": "http://edamontology.org/data_2299"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Transcription factor identifier",
+                        "uri": "http://edamontology.org/data_1077"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Nucleic acid features",
+                        "uri": "http://edamontology.org/data_1276"
+                    },
+                    "format": [
+                        {
+                            "term": "HTML",
+                            "uri": "http://edamontology.org/format_2331"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genome.imim.es/datasets/abs2005/",
+    "lastUpdate": "2018-12-10T12:58:49Z",
+    "license": "GPL-2.0",
+    "name": "ABS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "DRCAT",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkj116",
+            "metadata": {
+                "abstract": "Information about the genomic coordinates and the sequence of experimentally identified transcription factor binding sites is found scattered under a variety of diverse formats. The availability of standard collections of such high-quality data is important to design, evaluate and improve novel computational approaches to identify binding motifs on promoter sequences from related genes. ABS (http://genome.imim.es/datasets/abs2005/index.html) is a public database of known binding sites identified in promoters of orthologous vertebrate genes that have been manually curated from bibliography. We have annotated 650 experimental binding sites from 68 transcription factors and 100 orthologous target genes in human, mouse, rat or chicken genome sequences. Computational predictions and promoter alignment information are also provided for each entry. A simple and easy-to-use web interface facilitates data retrieval allowing different views of the information. In addition, the release 1.0 of ABS includes a customizable generator of artificial datasets based on the known sites contained in the collection and an evaluation tool to aid during the training and the assessment of motif-finding programs.",
+                "authors": [
+                    {
+                        "name": "Alba M.M."
+                    },
+                    {
+                        "name": "Blanco E."
+                    },
+                    {
+                        "name": "Farre D."
+                    },
+                    {
+                        "name": "Guigo R."
+                    },
+                    {
+                        "name": "Messeguer X."
+                    }
+                ],
+                "citationCount": 52,
+                "date": "2006-01-01T00:00:00Z",
+                "journal": "Nucleic acids research",
+                "title": "ABS: a database of Annotated regulatory Binding Sites from orthologous promoters."
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1
+}

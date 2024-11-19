@@ -1,0 +1,268 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-0296-2452",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.tools/neemp",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0002-0296-2452"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N7016739eda06485d977bc23ce02b432d"
+        },
+        {
+          "@id": "_:N16c4eb2566684e7a9f712d47591dc276"
+        },
+        {
+          "@id": "_:N00d12bfaac8e4ff3a621a57696c604be"
+        },
+        {
+          "@id": "_:N549bfc15a2d743d4878d821b0c96b7de"
+        },
+        {
+          "@id": "_:N58a23f5f88c246288cb5f8f9db52853e"
+        },
+        {
+          "@id": "_:Ne9ccf33ed43645d0b4ebf4ab35b06fbe"
+        },
+        {
+          "@id": "_:N141875bff5964c02845747971931909b"
+        },
+        {
+          "@id": "_:Nf8ac27653cfd4a75aa0850e10e62944a"
+        },
+        {
+          "@id": "_:N6026486a40794239bd77fc5ce189b4d7"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nfd44e853b5324f44801bc5188721ab45"
+        },
+        {
+          "@id": "_:Nab2258c8f765408b96f82210ef90fff7"
+        },
+        {
+          "@id": "_:N3476fb4ff6b34ce4ba5f8a9e53ac5036"
+        },
+        {
+          "@id": "_:N4af8bcceda614c89aed832c9e0adcee2"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3332"
+      },
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0002-0296-2452"
+      },
+      "sc:citation": [
+        "pubmed:27803746",
+        "pmcid:PMC5067907",
+        {
+          "@id": "https://doi.org/10.1186/s13321-016-0171-1"
+        }
+      ],
+      "sc:description": "Main function is to perform EEM parameterization. Can be used to efficiently compute EEM charges, validate them against QM ones and to compute the parameter coverage.",
+      "sc:featureList": {
+        "@id": "edam:operation_3438"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "NEEMP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": [
+        "National Centre for Biomolecular Research, Masaryk University, Brno",
+        "Central European Institute of Technology, Brno",
+        "ELIXIR-CZ"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://webchem.ncbr.muni.cz/Wiki/NEEMP:UserManual"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://ncbr.muni.cz/neemp"
+    },
+    {
+      "@id": "_:N7016739eda06485d977bc23ce02b432d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    },
+    {
+      "@id": "_:N16c4eb2566684e7a9f712d47591dc276",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N00d12bfaac8e4ff3a621a57696c604be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N549bfc15a2d743d4878d821b0c96b7de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N58a23f5f88c246288cb5f8f9db52853e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:Ne9ccf33ed43645d0b4ebf4ab35b06fbe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N141875bff5964c02845747971931909b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nf8ac27653cfd4a75aa0850e10e62944a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N6026486a40794239bd77fc5ce189b4d7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    },
+    {
+      "@id": "_:Nfd44e853b5324f44801bc5188721ab45",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nab2258c8f765408b96f82210ef90fff7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    },
+    {
+      "@id": "_:N3476fb4ff6b34ce4ba5f8a9e53ac5036",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N4af8bcceda614c89aed832c9e0adcee2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13321-016-0171-1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

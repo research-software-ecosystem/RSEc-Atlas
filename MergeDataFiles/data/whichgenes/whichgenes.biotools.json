@@ -1,0 +1,105 @@
+{
+    "additionDate": "2017-02-14T09:36:10Z",
+    "biotoolsCURIE": "biotools:whichgenes",
+    "biotoolsID": "whichgenes",
+    "credit": [
+        {
+            "email": "dgpena@uvigo.es",
+            "name": "Daniel González Peña",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "riverola@uvigo.es",
+            "name": "Florentino Fernández Riverola",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "WhichGenes is a web based tool for gathering, building, storing and exporting gene sets with application to gene set enrichment analysis. The user may export a gene set in any desired output format with multiple gene identifiers.",
+    "documentation": [
+        {
+            "type": [
+                "API documentation"
+            ],
+            "url": "http://www.whichgenes.org/api/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Differential gene expression analysis",
+                    "uri": "http://edamontology.org/operation_3223"
+                },
+                {
+                    "term": "Gene set testing",
+                    "uri": "http://edamontology.org/operation_3224"
+                },
+                {
+                    "term": "Gene-set enrichment analysis",
+                    "uri": "http://edamontology.org/operation_2436"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.whichgenes.org/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2018-12-10T12:58:53Z",
+    "name": "WhichGenes",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "WhichGenes is a web-based interactive gene set building tool offering a very simple interface to extract always-updated gene lists from multiple databases and unstructured biological data sources. While the user can specify new gene sets of interest by following a simple four-step wizard, the tool is able to run several queries in parallel. Every time a new set is generated, it is automatically added to the private gene-set cart and the user is notified by an e-mail containing a direct link to the new set stored in the server. WhichGenes provides functionalities to edit, delete and rename existing sets as well as the capability of generating new ones by combining previous existing sets (intersection, union and difference operators). The user can export his sets configuring the output format and selecting among multiple gene identifiers. In addition to the user-friendly environment, WhichGenes allows programmers to access its functionalities in a programmatic way through a Representational State Transfer web service. WhichGenes front-end is freely available at http://www.whichgenes.org/api/.",
+                "authors": [
+                    {
+                        "name": "Fdez-Riverola F."
+                    },
+                    {
+                        "name": "Glez-Pena D."
+                    },
+                    {
+                        "name": "Gomez-Lopez G."
+                    },
+                    {
+                        "name": "Pisano D.G."
+                    }
+                ],
+                "citationCount": 23,
+                "date": "2009-08-04T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "WhichGenes: A web-based tool for gathering, building, storing and exporting gene sets with application in gene set enrichment analysis"
+            },
+            "pmid": "19406925"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Zoology",
+            "uri": "http://edamontology.org/topic_3500"
+        }
+    ],
+    "validated": 1
+}

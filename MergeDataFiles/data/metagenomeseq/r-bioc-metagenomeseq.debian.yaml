@@ -1,0 +1,57 @@
+package: r-bioc-metagenomeseq
+distribution: debian
+release: sid
+component: main
+version: 1.46.0
+source: r-bioc-metagenomeseq
+homepage: https://bioconductor.org/packages/metagenomeSeq/
+license: unknown
+blend: debian-med
+description_md5: 94464de5c2c71a4dfa0ee8df6ad57e97
+registries:
+- entry: OMICS_07813
+  name: OMICtools
+- entry: metagenomeseq
+  name: bio.tools
+- entry: metagenomeseq
+  name: conda:bioconda
+popcon:
+- insts: 41
+  olde: 33
+  recent: 4
+  vote: 4
+descr:
+- package: r-bioc-metagenomeseq
+  description: analisi statistiche per GNU R per sequenziamento sparso ad alte prestazioni
+  long_description: " MetagenomeSeq è progettato per determinare caratteristiche (che
+    siano OTU\n (Unità Tassonomiche Operative), specie, ecc.) che hanno differenze
+    di\n abbondanza tra due o più gruppi di campioni multipli. metagenomeSeq è\n progettato
+    per affrontare gli effetti sia della normalizzazione sia del\n sotto-campionamento
+    di comunità microbiche sul rilevamento di associazione\n di malattie e su test
+    di correlazione di caratteristiche.\n"
+  release: sid
+  description_md5: 94464de5c2c71a4dfa0ee8df6ad57e97
+  license: unknown
+  blend: debian-med
+- package: r-bioc-metagenomeseq
+  description: GNU R statistical analysis for sparse high-throughput sequencing
+  long_description: " MetagenomeSeq is designed to determine features (be it Operational\n
+    Taxanomic Unit (OTU), species, etc.) that are differentially abundant\n between
+    two or more groups of multiple samples. metagenomeSeq is\n designed to address
+    the effects of both normalization and under-sampling\n of microbial communities
+    on disease association detection and the\n testing of feature correlations.\n"
+  release: sid
+  description_md5: 94464de5c2c71a4dfa0ee8df6ad57e97
+  license: unknown
+  blend: debian-med
+- package: r-bioc-metagenomeseq
+  description: GNU R-statistisk analyse for tynd høj-gennemløb sekventering
+  long_description: " MetagenomeSeq er designet til at bestemme funktioner (det være
+    Operational Taxanomic Unit (OTU), arter, etc.) der er differentieret rigeligt
+    mellem to eller flere grupper af flere prøver. MetagenomeSeq er designet til at
+    adressere effekterne af både normalisering og under-sampling af mikrobielle samfund
+    for registrering af sygdomsassociation og test af funktionskorrelationer.\n"
+  release: sid
+  description_md5: 94464de5c2c71a4dfa0ee8df6ad57e97
+  license: unknown
+  blend: debian-med

@@ -1,0 +1,67 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/scopus",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.scopus.com/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3D669b178cf8a543308a186a6ab2f0c819&state=autoLogin%7CtxId%3DCF020F4A14E99E9381085B546A802806.i-0fff83aa208c3b4f5%3A0&authType=SINGLE_SIGN_IN&prompt=none&client_id=SCOPUS"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3D86a028cb300af34981101c7f26374a0d&state=autoLogin%7CtxId%3D9E183CB2F3220288584CAD7BFEA0E560.i-05e916d0f887fe11a%3A0&authType=SINGLE_SIGN_IN&prompt=none&client_id=SCOPUS"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/authredirect.uri?edit.scft=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/authredirect.uri?edit.scft=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/authredirect.uri?txGid=669b178cf8a543308a186a6ab2f0c819&code=-ZIHMC-GsUDY5nr-6c-KjpiPFzz3v_m_z4QY-gM5&state=autoLogin%7CtxId%3DCF020F4A14E99E9381085B546A802806.i-0fff83aa208c3b4f5%3A0"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/authredirect.uri?txGid=86a028cb300af34981101c7f26374a0d&code=Cpp2KYNYWgiMX6inuBQSssCcTzdkX1xaMukmJiET&state=autoLogin%7CtxId%3D9E183CB2F3220288584CAD7BFEA0E560.i-05e916d0f887fe11a%3A0"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/home.uri?edit.scft=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/standard/cookieRequired.uri"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/standard/cookieRequired.uri"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

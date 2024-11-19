@@ -1,0 +1,138 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gopubmed/web/www.gopubmed.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 170,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gki470",
+                            "pmcid": "PMC1160231",
+                            "pmid": "15980585",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                }
+                            ],
+                            "title": "GoPubMed: exploring PubMed with the Gene Ontology.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gopubmed",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

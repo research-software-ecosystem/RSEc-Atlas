@@ -1,0 +1,139 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mash_explorer/cmd/ge.crb.wisc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 4,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.1021/acs.jproteome.0c00469",
+                            "pmcid": "PMC7728713",
+                            "pmid": "32786689",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "MASH Explorer: A Universal Software Environment for Top-Down Proteomics.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://labs.wisc.edu/gelab/MASH_Explorer/index.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://labs.wisc.edu/gelab/MASH_Explorer/index.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://labs.wisc.edu/gelab/MASH_Explorer/index.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mash_explorer",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://labs.wisc.edu/gelab/MASH_Explorer/index.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://labs.wisc.edu/gelab/MASH_Explorer/index.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://labs.wisc.edu/gelab/MASH_Explorer/index.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

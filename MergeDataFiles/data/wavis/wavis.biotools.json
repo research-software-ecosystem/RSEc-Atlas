@@ -1,0 +1,109 @@
+{
+    "additionDate": "2017-02-10T11:34:17Z",
+    "biotoolsCURIE": "biotools:wavis",
+    "biotoolsID": "wavis",
+    "credit": [
+        {
+            "email": "zikar@img.cas.cz",
+            "name": "Webmaster",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "The Web Alignment Visualization Server (WAViS) provides various web tools to enhance the presentation of amino acid or nucleotide multiple sequence alignments.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://wavis.img.cas.cz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                },
+                {
+                    "term": "Tree-based sequence alignment",
+                    "uri": "http://edamontology.org/operation_0499"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://wavis.img.cas.cz/",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "name": "WAViS",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Web Alignment Visualization Server contains a set of web-tools designed for quick generation of publication-quality color figures of multiple alignments of nucleotide or amino acids sequences. It can be used for identification of conserved regions and gaps within many sequences using only common web browsers. The server is accessible at http://wavis.img.cas.cz. © Oxford University Press 2004; all rights reserved.",
+                "authors": [
+                    {
+                        "name": "Paces J."
+                    },
+                    {
+                        "name": "Paces V."
+                    },
+                    {
+                        "name": "Paclicek A."
+                    },
+                    {
+                        "name": "Zika R."
+                    }
+                ],
+                "citationCount": 3,
+                "date": "2004-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "WAViS server for handling, visualization and presentation of multiple alignments of nucleotide or amino acids sequences"
+            },
+            "pmid": "15215348"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1
+}

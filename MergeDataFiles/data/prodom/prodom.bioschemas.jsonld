@@ -1,0 +1,203 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/28.1.267",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/prodom",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nee5c0133c1574225892bb48da23ca36c"
+        },
+        {
+          "@id": "_:N920c1d45eac14aa2b1958b5d0395d8b7"
+        },
+        {
+          "@id": "_:N76ff8fc4bdb144258f112803f1f5bb7a"
+        },
+        {
+          "@id": "_:N69ef1710ed3845209e549f6c2610ba4a"
+        },
+        {
+          "@id": "_:N0729311704384019b3317ec9511fc680"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N5637d073364f4a11ae4b59446c16dab0"
+        },
+        {
+          "@id": "_:N4ecf7cc24fac4706a3cf930f2cdc21fe"
+        },
+        {
+          "@id": "_:N46c775920e0c4f1bad8638133e38d7ef"
+        },
+        {
+          "@id": "_:N26e3a3aa9d0f49cabab1d5e34e46520a"
+        },
+        {
+          "@id": "_:Nf4e22767d1ba455fb3b85ac0b53e9cbe"
+        }
+      ],
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0736"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/28.1.267"
+      },
+      "sc:description": "A comprehensive set of protein domain families automatically generated from the UniProt Knowledge Database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "ProDom protein domain database",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://prodom.prabi.fr/prodom/current/documentation/help.php"
+      },
+      "sc:url": "http://prodom.prabi.fr/prodom/current/html/home.php"
+    },
+    {
+      "@id": "_:N5637d073364f4a11ae4b59446c16dab0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:N4ecf7cc24fac4706a3cf930f2cdc21fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N46c775920e0c4f1bad8638133e38d7ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:N26e3a3aa9d0f49cabab1d5e34e46520a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:Nf4e22767d1ba455fb3b85ac0b53e9cbe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nee5c0133c1574225892bb48da23ca36c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:N920c1d45eac14aa2b1958b5d0395d8b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:N76ff8fc4bdb144258f112803f1f5bb7a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:N69ef1710ed3845209e549f6c2610ba4a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:N0729311704384019b3317ec9511fc680",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    }
+  ]
+}

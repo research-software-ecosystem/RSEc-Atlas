@@ -1,0 +1,95 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ppms/app/sites.google.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/guofeics/ppms-online-document&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/guofeics/ppms-online-document&osid=1&passive=1209600&ifkv=AcMMx-d4v37-PWjWnSNWsCtWbnS60BJSOz48SFKnNFzZRwnBF6L_mBlCeRJZGiz-hAwEBSgLyjJ-"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/guofeics/ppms-online-document&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/guofeics/ppms-online-document"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fguofeics%2Fppms-online-document&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fguofeics%2Fppms-online-document&ifkv=AcMMx-cmp1Dzfd5-ogMTMDeZq2It1NL-h9z7KhRG6wp-nw3Ga3O-nR2aR7eWWd4mT5pPxdCca41R&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1512266909%3A1731733645101954&ddm=1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fguofeics%2Fppms-online-document"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ppms",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fguofeics%2Fppms-online-document"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

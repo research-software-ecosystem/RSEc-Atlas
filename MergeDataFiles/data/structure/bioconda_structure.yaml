@@ -1,0 +1,30 @@
+about:
+  home: https://web.stanford.edu/group/pritchardlab/structure.html
+  license: MIT
+  summary: The program structure is a free software package for using multi-locus
+    genotype data to investigate population structure. Its uses include inferring
+    the presence of distinct populations, assigning individuals to populations, studying
+    hybrid zones, identifying migrants and admixed individuals, and estimating population
+    allele frequencies in situations where many individuals are migrants or admixed.
+    It can be applied to most of the commonly-used genetic markers, including SNPS,
+    microsatellites, RFLPs and AFLPs.
+build:
+  number: 6
+extra:
+  identifiers:
+  - biotools:Structure
+package:
+  name: structure
+  version: 2.3.4
+requirements:
+  build:
+  - make
+  - None
+  host: null
+  run: null
+source:
+  md5: 4e0591678cdbfe79347d272b5dceeda1
+  url: https://web.stanford.edu/group/pritchardlab/structure_software/release_versions/v2.3.4/structure_kernel_source.tar.gz
+test:
+  commands:
+  - structure | grep -F 'Version 2.3.4'

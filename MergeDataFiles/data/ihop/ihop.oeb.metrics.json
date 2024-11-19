@@ -1,0 +1,342 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ihop/web/www.ihop-net.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 62,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2009"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkm298",
+                            "pmcid": "PMC1933131",
+                            "pmid": "17485473",
+                            "ref_count": 19,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2005"
+                                }
+                            ],
+                            "title": "iHOP web services.",
+                            "year": 2007
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 94,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2008"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti1142",
+                            "pmid": "16204114",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Implementing the iHOP concept for navigation of biomedical literature.",
+                            "year": 2005
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 216,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2009"
+                                }
+                            ],
+                            "doi": "10.1038/ng0704-664",
+                            "pmid": "15226743",
+                            "ref_count": 8,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "A gene network for navigating the literature.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.wikigenes.org"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ihop",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.wikigenes.org"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

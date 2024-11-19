@@ -1,0 +1,25 @@
+about:
+  home: https://github.com/zhengchangsulab/ProSampler
+  license: GPLv3
+  summary: An ultra-fast motif finding program in large ChIP-seq datasets.
+build:
+  number: 0
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:prosampler
+package:
+  name: prosampler
+  version: 1.5
+requirements:
+  build:
+  - None
+source:
+  sha256: ae75dad4133a5f2d6da487118a3e8e5bcbfc361821edb72c7c36b966419d6187
+  url: https://github.com/zhengchangsulab/ProSampler/raw/master/PROSMPLER_v1.5.tar.gz
+test:
+  commands:
+  - ProSampler -h 2>&1 | grep "Usage"

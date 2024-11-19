@@ -1,0 +1,26 @@
+about:
+  home: https://ccb.jhu.edu/software/glimmer/index.shtml
+  license: Custom
+  license_file: LICENSE
+  summary: Glimmer is a system for finding genes in microbial DNA
+build:
+  number: 7
+  skip: true
+extra:
+  identifiers:
+  - biotools:glimmer
+  - doi:10.1093/bioinformatics/btm009
+package:
+  name: glimmer
+  version: 3.02
+requirements:
+  build:
+  - make
+  - None
+  - None
+source:
+  md5: 344d012ae12596de905866fe9eb7f16c
+  url: https://ccb.jhu.edu/software/glimmer/glimmer302b.tar.gz
+test:
+  commands:
+  - glimmer3 | cat

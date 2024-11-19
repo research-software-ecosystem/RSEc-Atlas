@@ -1,0 +1,102 @@
+{
+    "additionDate": "2017-08-03T18:52:12Z",
+    "biotoolsCURIE": "biotools:nam",
+    "biotoolsID": "nam",
+    "credit": [
+        {
+            "email": "alenxav@gmail.com",
+            "name": "Alencar Xavier",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://cran.r-project.org/web/packages/NAM/index.html"
+        }
+    ],
+    "description": "R package that allows user to take into account prior information regarding population stratification to relax the linkage phase assumption of current methods.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://cran.r-project.org/web/packages/NAM/NAM.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Linkage analysis",
+                    "uri": "http://edamontology.org/operation_0283"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://cran.r-project.org/web/packages/NAM/index.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/nam-nested-association-mapping-analysis.html"
+        }
+    ],
+    "name": "NAM",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© The Author 2015. Published by Oxford University Press. All rights reserved.Motivation: Mixed linear models provide important techniques for performing genome-wide association studies. However, current models have pitfalls associated with their strong assumptions. Here, we propose a new implementation designed to overcome some of these pitfalls using an empirical Bayes algorithm. Results: Here we introduce NAM, an R package that allows user to take into account prior information regarding population stratification to relax the linkage phase assumption of current methods. It allows markers to be treated as a random effect to increase the resolution, and uses a sliding-window strategy to increase power and avoid double fitting markers into the model.",
+                "authors": [
+                    {
+                        "name": "Muir W.M."
+                    },
+                    {
+                        "name": "Rainey K.M."
+                    },
+                    {
+                        "name": "Xavier A."
+                    },
+                    {
+                        "name": "Xu S."
+                    }
+                ],
+                "citationCount": 34,
+                "date": "2015-06-18T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "NAM: Association studies in multiple populations"
+            },
+            "pmid": "26243017"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "GWAS study",
+            "uri": "http://edamontology.org/topic_3517"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Population genetics",
+            "uri": "http://edamontology.org/topic_3056"
+        }
+    ],
+    "validated": 1
+}

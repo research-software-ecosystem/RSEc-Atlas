@@ -1,0 +1,95 @@
+{
+    "additionDate": "2017-02-10T11:35:02Z",
+    "biotoolsCURIE": "biotools:dialign",
+    "biotoolsID": "dialign",
+    "credit": [
+        {
+            "email": "layal@gobics.de",
+            "name": "layal@gobics.de",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Multiple alignment program which assembles a global sequence alignment from gap-free local pairwise alignments. This method could be especially useful when comparing large sequences that have only local similarities.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://dialign.gobics.de/anchor/manual"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Global alignment",
+                    "uri": "http://edamontology.org/operation_0496"
+                },
+                {
+                    "term": "Local alignment",
+                    "uri": "http://edamontology.org/operation_0495"
+                },
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Pairwise sequence alignment",
+                    "uri": "http://edamontology.org/operation_0491"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://dialign.gobics.de",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "DIALIGN",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "DIALIGN is an established tool for multiple sequence alignment that is particularly useful to detect local homologies in sequences with low overall similarity. In recent years, various versions of the program have been developed, some of which are fully automated, whereas others are able to accept user-specified external information. In this article, we review some versions of the program that are available through 'Göttingen Bioinformatics Compute Server'. In addition to previously described implementations, we present a new release of DIALIGN called 'DIALIGN-PFAM', which uses hits to the PFAM database for improved protein alignment. Our software is available through http://dialign.gobics.de/.",
+                "authors": [
+                    {
+                        "name": "Al Ait L."
+                    },
+                    {
+                        "name": "Morgenstern B."
+                    },
+                    {
+                        "name": "Yamak Z."
+                    }
+                ],
+                "citationCount": 34,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Nucleic acids research",
+                "title": "DIALIGN at GOBICS--multiple sequence alignment using various sources of external information."
+            },
+            "pmid": "23620293"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        }
+    ],
+    "validated": 1
+}

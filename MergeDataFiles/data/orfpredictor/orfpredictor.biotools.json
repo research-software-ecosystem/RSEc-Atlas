@@ -1,0 +1,94 @@
+{
+    "additionDate": "2017-02-10T14:13:55Z",
+    "biotoolsCURIE": "biotools:orfpredictor",
+    "biotoolsID": "orfpredictor",
+    "credit": [
+        {
+            "email": "xmin@ysu.edu",
+            "name": "X. (Jack) Min",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "OrfPredictor is designed for prediction of Open Reading Frames (ORFs) and coding regions of a batch of EST or cDNA sequences.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://bioinformatics.ysu.edu/tools/OrfPredictor.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Coding region prediction",
+                    "uri": "http://edamontology.org/operation_0436"
+                },
+                {
+                    "term": "EST assembly",
+                    "uri": "http://edamontology.org/operation_0526"
+                },
+                {
+                    "term": "Genetic code prediction",
+                    "uri": "http://edamontology.org/operation_0489"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioinformatics.ysu.edu/tools/OrfPredictor.html",
+    "lastUpdate": "2018-12-10T12:58:55Z",
+    "name": "OrfPredictor",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "OrfPredictor is a web server designed for identifying protein-coding regions in expressed sequence tag (EST)-derived sequences. For query sequences with a hit in BLASTX, the program predicts the coding regions based on the translation reading frames identified in BLASTX alignments, otherwise, it predicts the most probable coding region based on the intrinsic signals of the query sequences. The output is the predicted peptide sequences in the FASTA format, and a definition line that includes the query ID, the translation reading frame and the nucleotide positions where the coding region begins and ends. OrfPredictor facilitates the annotation of EST-derived sequences, particularly, for large-scale EST projects. OrfPredictor is available at https:// fungalgenome.concordia.ca/tools/OrfPredictor.html. © 2005 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Butler G."
+                    },
+                    {
+                        "name": "Min X.J."
+                    },
+                    {
+                        "name": "Storms R."
+                    },
+                    {
+                        "name": "Tsang A."
+                    }
+                ],
+                "citationCount": 295,
+                "date": "2005-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "OrfPredictor: Predicting protein-coding regions in EST-derived sequences"
+            },
+            "pmid": "15980561"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

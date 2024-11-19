@@ -1,0 +1,216 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:caverdock:1.1/cmd/loschmidt.chemi.muni.cz",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1109/tcbb.2019.2907492",
+                            "pmid": "30932844",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "CaverDock: A Novel Method for the Fast Analysis of Ligand Transport.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz386",
+                            "pmid": "31077297",
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "CaverDock: a molecular docking-based tool to analyse ligand transport through protein tunnels and channels.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:caverdock:1.0/cmd/loschmidt.chemi.muni.cz",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1109/tcbb.2019.2907492",
+                            "pmid": "30932844",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "CaverDock: A Novel Method for the Fast Analysis of Ligand Transport.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz386",
+                            "pmid": "31077297",
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "CaverDock: a molecular docking-based tool to analyse ligand transport through protein tunnels and channels.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/caverdock",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

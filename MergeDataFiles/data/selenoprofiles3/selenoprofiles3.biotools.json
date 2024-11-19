@@ -1,0 +1,142 @@
+{
+    "additionDate": "2016-04-22T14:37:38Z",
+    "biotoolsCURIE": "biotools:selenoprofiles3",
+    "biotoolsID": "selenoprofiles3",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "didac.santesmasses@crg.eu",
+            "name": "Didac Santesmasses & Marco Mariotti",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Lab Roderic Guigo Group",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "Marco Mariotti",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "crg.eu",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "Didac Santesmasses",
+            "typeRole": [
+                "Contributor"
+            ]
+        }
+    ],
+    "description": "Pipeline for profile-based protein finding in genomes.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://big.crg.cat/services/selenoprofiles"
+        }
+    ],
+    "download": [
+        {
+            "type": "Binaries",
+            "url": "http://genome.crg.es/~mmariotti/selenoprofiles_manual.pdf"
+        },
+        {
+            "type": "Source code",
+            "url": "http://genome.crg.es/~mmariotti/selenoprofiles_3_installation.tar"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    }
+                }
+            ],
+            "note": "Provided one or more protein alignments, it scans a target genome (or any other nucleotide database) and reports the gene structures of homologous genes. It can be used to easily characterize any protein family of interest across a massive amount of sequenced genomes, allowing a finely tuned filtering of results. Or it can be used with comprehensive sets of input profiles, in order to completely annotate by homology one or more genomes.",
+            "operation": [
+                {
+                    "term": "Genome annotation",
+                    "uri": "http://edamontology.org/operation_0362"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Nucleic acid features",
+                        "uri": "http://edamontology.org/data_1276"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://big.crg.cat/services/selenoprofiles",
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/marco-mariotti/selenoprofiles"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Selenoprofiles3",
+    "owner": "francisco.camara@crg.eu",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btq516",
+            "metadata": {
+                "abstract": "Motivation: Selenoproteins are a group of proteins that contain selenocysteine (Sec), a rare amino acid inserted co-translationally into the protein chain. The Sec codon is UGA, which is normally a stop codon. In selenoproteins, UGA is recoded to Sec in presence of specific features on selenoprotein gene transcripts. Due to the dual role of the UGA codon, selenoprotein prediction and annotation are difficult tasks, and even known selenoproteins are often misannotated in genome databases. Results: We present an homology-based in silico method to scan genomes for members of the known eukaryotic selenoprotein families: selenoprofiles. The core of the method is a set of manually curated highly reliable multiple sequence alignments of selenoprotein families, which are used as queries to scan genomic sequences. Results of the scan are processed through a number of steps, to produce highly accurate predictions of selenoprotein genes with little or no human intervention. Selenoprofiles is a valuable tool for bioinformatic characterization of eukaryotic selenoproteomes, and can complement genome annotation pipelines. © The Author(s) 2010. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Guigo R."
+                    },
+                    {
+                        "name": "Mariotti M."
+                    }
+                ],
+                "citationCount": 34,
+                "date": "2010-11-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Selenoprofiles: Profile-based scanning of eukaryotic genome sequences for selenoprotein genes"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "3.0"
+    ]
+}

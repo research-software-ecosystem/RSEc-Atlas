@@ -1,0 +1,44 @@
+about:
+  dev_url: https://github.com/pjedge/longshot
+  doc_url: https://github.com/pjedge/longshot/blob/v(( version }}/README.md
+  home: https://github.com/pjedge/longshot
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Diploid SNV caller for error-prone reads.
+build:
+  number: 2
+  run_exports:
+  - None
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1038/s41467-019-12493-y
+  - biotools:longshot
+package:
+  name: longshot
+  version: 1.0.0
+requirements:
+  build:
+  - None
+  - None
+  - None
+  - pkg-config
+  - clangdev
+  - cmake
+  - make
+  host:
+  - zlib
+  - xz
+  - clangdev
+source:
+  patches:
+  - update-rust-htslib.patch
+  sha256: f6981892beb966eef40986c46928301dec1fef38591cc291e00a546f9866c5e2
+  url: https://github.com/pjedge/longshot/archive/v1.0.0.tar.gz
+test:
+  commands:
+  - longshot --help
+  - longshot --version

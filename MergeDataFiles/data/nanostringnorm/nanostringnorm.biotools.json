@@ -1,0 +1,110 @@
+{
+    "additionDate": "2017-08-03T18:52:37Z",
+    "biotoolsCURIE": "biotools:nanostringnorm",
+    "biotoolsID": "nanostringnorm",
+    "credit": [
+        {
+            "email": "Paul.Boutros@oicr.on.ca",
+            "name": "Paul Boutros",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://labs.oicr.on.ca/boutros-lab/home"
+        }
+    ],
+    "description": "Set of tools for normalizing, diagnostics and visualization of NanoString nCounter data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://cran.r-project.org/web/packages/NanoStringNorm/NanoStringNorm.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Standardisation and normalisation",
+                    "uri": "http://edamontology.org/operation_3435"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://cran.r-project.org/web/packages/NanoStringNorm/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/nanostringnorm-normalize-nanostring-mirna-and-mrna-data.html"
+        }
+    ],
+    "name": "NanoStringNorm",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: The NanoString nCounter Platform is a new and promising technology for measuring nucleic acid abundances. It has several advantages over PCR-based techniques, including avoidance of amplification, direct sequence interrogation and digital detection for absolute quantification. These features minimize aspects of experimental error and hold promise for dealing with challenging experimental conditions such as archival formalin-fixed paraffin-embedded samples. However, systematic inter-sample technical artifacts caused by variability in sample preservation, bio-molecular extraction and platform fluctuations must be removed to ensure robust data.Results: To facilitate this process and to address these issues for NanoString datasets, we have written a pre-processing package called NanoStringNorm in the R statistical language. Key features include an extensible environment for method comparison and new algorithm development, integrated gene and sample diagnostics, and facilitated downstream statistical analysis. The package is open-source, is available through the CRAN package repository, includes unit-tests to ensure numerical accuracy, and provides visual and numeric diagnostics. © The Author(s) 2012. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Boutros P.C."
+                    },
+                    {
+                        "name": "Chu K."
+                    },
+                    {
+                        "name": "Liu F."
+                    },
+                    {
+                        "name": "Waggott D."
+                    },
+                    {
+                        "name": "Wouters B.G."
+                    },
+                    {
+                        "name": "Yin S."
+                    }
+                ],
+                "citationCount": 143,
+                "date": "2012-06-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "NanoStringNorm: An extensible R package for the pre-processing of nanostring mRNA and miRNA data"
+            },
+            "pmid": "22513995"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "RNA",
+            "uri": "http://edamontology.org/topic_0099"
+        }
+    ],
+    "validated": 1
+}

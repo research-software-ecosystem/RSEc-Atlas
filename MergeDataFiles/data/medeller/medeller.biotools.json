@@ -1,0 +1,107 @@
+{
+    "additionDate": "2017-08-03T18:49:11Z",
+    "biotoolsCURIE": "biotools:medeller",
+    "biotoolsID": "medeller",
+    "credit": [
+        {
+            "email": "deane@stats.ox.ac.uk",
+            "name": "Charlotte Deane",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.stats.ox.ac.uk/~deane/Contact.php"
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.stats.ox.ac.uk/research/proteins"
+        }
+    ],
+    "description": "A MP(Membrane proteins)-specific homology-based coordinate generation method,  which is optimized to build highly reliable core models.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://opig.stats.ox.ac.uk/webapps/medeller/help.pl?app=MEDELLER"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein modelling",
+                    "uri": "http://edamontology.org/operation_0477"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://opig.stats.ox.ac.uk/webapps/medeller/home.pl?app=MEDELLER",
+    "language": [
+        "Java",
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:49Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/medeller-homology-based-coordinate-generation-membrane-proteins.html"
+        }
+    ],
+    "name": "MEDELLER",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: Membrane proteins (MPs) are important drug targets but knowledge of their exact structure is limited to relatively few examples. Existing homology-based structure prediction methods are designed for globular, water-soluble proteins. However, we are now beginning to have enough MP structures to justify the development of a homology-based approach specifically for them. Results: We present a MP-specific homology-based coordinate generation method, MEDELLER, which is optimized to build highly reliable core models. The method outperforms the popular structure prediction programme Modeller on MPs. The comparison of the two methods was performed on 616 target-template pairs of MPs, which were classified into four test sets by their sequence identity. Across all targets, MEDELLER gave an average backbone root mean square deviation (RMSD) of 2.62 Å versus 3.16 Å for Modeller. On our 'easy' test set, MEDELLER achieves an average accuracy of 0.93 Å backbone RMSD versus 1.56 Å for Modeller. © The Author(s) 2010. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Deane C.M."
+                    },
+                    {
+                        "name": "Kelm S."
+                    },
+                    {
+                        "name": "Shi J."
+                    }
+                ],
+                "citationCount": 78,
+                "date": "2010-11-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "MEDELLER: Homology-based coordinate generation for membrane proteins"
+            },
+            "pmid": "20926421"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Membrane and lipoproteins",
+            "uri": "http://edamontology.org/topic_0820"
+        },
+        {
+            "term": "Molecular modelling",
+            "uri": "http://edamontology.org/topic_2275"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1
+}

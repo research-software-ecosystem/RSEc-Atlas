@@ -1,0 +1,389 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:orthomcl/undefined/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 173,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1002/0471250953.bi0612s35",
+                            "pmcid": "PMC3196566",
+                            "pmid": "21901743",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                }
+                            ],
+                            "title": "Using OrthoMCL to assign proteins to OrthoMCL-DB groups or to cluster proteomes into new ortholog groups.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2623,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 74,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 117,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 150,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 154,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 172,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 231,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 271,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 274,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 311,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 335,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 338,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1101/gr.1224503",
+                            "pmcid": "PMC403725",
+                            "pmid": "12952885",
+                            "ref_count": 53,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1970"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "0"
+                                }
+                            ],
+                            "title": "OrthoMCL: identification of ortholog groups for eukaryotic genomes.",
+                            "year": 2003
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://orthomcl.org/orthomcl/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT4016402S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:orthomcl:2.0.9/cmd/orthomcl.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://orthomcl.org/orthomcl/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/orthomcl",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://orthomcl.org/orthomcl/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT4016402S"
+            }
+        }
+    }
+]

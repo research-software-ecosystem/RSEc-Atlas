@@ -1,0 +1,210 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq028",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/swissvar",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N4224bfb4c986463086f422e370d3686b"
+        },
+        {
+          "@id": "_:Nbdcca2c8e5884c1c9d866a5317f42e5f"
+        },
+        {
+          "@id": "_:N97e52e0014ea439baf3623a17a74879e"
+        },
+        {
+          "@id": "_:N7ef9eb47760f42ffbd0c932de411c5ca"
+        },
+        {
+          "@id": "_:Nbadbab80e32f41daad8bf22ac67efe03"
+        },
+        {
+          "@id": "_:N883998bc89ab4684a1769296a7586110"
+        },
+        {
+          "@id": "_:N26a164a7bc0c44f48944d522cc6dcb5f"
+        },
+        {
+          "@id": "_:N2c41a5f109bb434791739e001d39bf65"
+        },
+        {
+          "@id": "_:N1cba07ce8a15442984dfa3e81eb0b80d"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N8fb0163c51714ac0be1ca30683f3e1c7"
+      },
+      "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3120"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btq028"
+        },
+        "pubmed:20106818",
+        "pmcid:PMC2832822"
+      ],
+      "sc:description": "A portal to search variants (polymorphism) in UniProt Knowledgebase (UniProtKB) entries, and gives direct access to manual annotation on the genotype-phenotype relationship of each specific variant based on literature, as well as pre-computed information (such as conservation scores and a list of structural features when available) to help assess the effect of the variant.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0349"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:name": "SwissVar",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "SIB Swiss Institute of Bioinformatics",
+      "sc:softwareHelp": {
+        "@id": "https://swissvar.expasy.org/cgi-bin/swissvar/documentation"
+      },
+      "sc:url": "http://swissvar.expasy.org/"
+    },
+    {
+      "@id": "_:N4224bfb4c986463086f422e370d3686b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2099"
+      },
+      "sc:name": "Name"
+    },
+    {
+      "@id": "_:Nbdcca2c8e5884c1c9d866a5317f42e5f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1153"
+      },
+      "sc:name": "OMIM ID"
+    },
+    {
+      "@id": "_:N97e52e0014ea439baf3623a17a74879e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N7ef9eb47760f42ffbd0c932de411c5ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Nbadbab80e32f41daad8bf22ac67efe03",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N883998bc89ab4684a1769296a7586110",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1150"
+      },
+      "sc:name": "Disease ID"
+    },
+    {
+      "@id": "_:N26a164a7bc0c44f48944d522cc6dcb5f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1177"
+      },
+      "sc:name": "MeSH concept ID"
+    },
+    {
+      "@id": "_:N2c41a5f109bb434791739e001d39bf65",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N1cba07ce8a15442984dfa3e81eb0b80d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N8fb0163c51714ac0be1ca30683f3e1c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Protein features"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+    "additionDate": "2017-12-18T00:10:58Z",
+    "biotoolsCURIE": "biotools:phylotu",
+    "biotoolsID": "phylotu",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://docpollard.org/index.html"
+        }
+    ],
+    "description": "Identifies microbial operational taxonomic units (OTUs) from metagenomic data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/sharpton/PhylOTU"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/sharpton/PhylOTU",
+    "language": [
+        "C++",
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/phylotu-phylogenetic-clustering-of-metagenomic-sequences-into-otus.html"
+        }
+    ],
+    "name": "PhylOTU",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Microbiology",
+            "uri": "http://edamontology.org/topic_3301"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        }
+    ],
+    "validated": 1
+}

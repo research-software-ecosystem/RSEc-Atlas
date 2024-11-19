@@ -1,0 +1,94 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:zinc20/undefined/zinc20.docking.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1021/acs.jcim.0c00675",
+                            "pmcid": "PMC8284596",
+                            "pmid": "33118813",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ZINC20-A Free Ultralarge-Scale Chemical Database for Ligand Discovery.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zinc20.docking.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/zinc20",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zinc20.docking.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

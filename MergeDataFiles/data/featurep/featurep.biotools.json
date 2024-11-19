@@ -1,0 +1,141 @@
+{
+    "additionDate": "2015-05-04T12:18:09Z",
+    "biotoolsCURIE": "biotools:featurep",
+    "biotoolsID": "featurep",
+    "cost": "Free of charge (with restrictions)",
+    "credit": [
+        {
+            "email": "hnielsen@cbs.dtu.dk",
+            "name": "Henrik Nielsen",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "CBS",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Comparative analysis of protein sequences derived from the same transcript by alternative splicing, genome variation data (SNPs) or protein families from one or more organisms.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.cbs.dtu.dk/services/EPipe/instructions.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Sequence",
+                        "uri": "http://edamontology.org/data_2044"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTA",
+                            "uri": "http://edamontology.org/format_1929"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Sequence comparison",
+                    "uri": "http://edamontology.org/operation_2451"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Sequence report",
+                        "uri": "http://edamontology.org/data_2955"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Protein features",
+                        "uri": "http://edamontology.org/data_1277"
+                    },
+                    "format": [
+                        {
+                            "term": "Textual format",
+                            "uri": "http://edamontology.org/format_2330"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cbs.dtu.dk/services/EPipe/",
+    "lastUpdate": "2018-12-10T12:58:49Z",
+    "license": "Other",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://cbs.dtu.dk/services"
+        }
+    ],
+    "maturity": "Emerging",
+    "name": "FeatureP",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "CBS",
+    "publication": [
+        {
+            "doi": "10.1016/j.sbi.2010.03.008",
+            "metadata": {
+                "abstract": "Protein annotation provides a condensed and systematic view on the function of individual proteins. It has traditionally dealt with sorting proteins into functional categories, which for example has proven to be successful for the comparison of different species. However, if we are to understand the differences between many individuals of the same species. - humans in particular. - the focus needs be on the functional impact of individual residue variation. To fulfil the promises of personal genomics, we need to start asking not only what is in a genome but also how millions of small differences between individual genomes affect protein function and in turn human health. © 2010 Elsevier Ltd.",
+                "authors": [
+                    {
+                        "name": "Blicher T."
+                    },
+                    {
+                        "name": "Brunak S."
+                    },
+                    {
+                        "name": "Gupta R."
+                    },
+                    {
+                        "name": "Jensen L.J."
+                    },
+                    {
+                        "name": "Wesolowska A."
+                    }
+                ],
+                "date": "2010-06-01T00:00:00Z",
+                "journal": "Current Opinion in Structural Biology",
+                "title": "Protein annotation in the era of personal genomics"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application",
+        "Web service"
+    ],
+    "topic": [
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "0.983"
+    ]
+}

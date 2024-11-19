@@ -1,0 +1,151 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:3dmol/app/3dmol.csb.pitt.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1021/acs.jchemed.0c00579",
+                            "pmcid": "PMC9416521",
+                            "pmid": "36035779",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "The 3Dmol.js learning environment: a classroom response system for 3D chemical structures.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 86,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btu829",
+                            "pmcid": "PMC4393526",
+                            "pmid": "25505090",
+                            "ref_count": 5,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "3Dmol.js: molecular visualization with WebGL.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/3dmol",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

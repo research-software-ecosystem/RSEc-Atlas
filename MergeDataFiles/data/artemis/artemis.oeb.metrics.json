@@ -1,0 +1,826 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:artemis/app/www.sanger.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 347,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 43,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 47,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 49,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 61,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr703",
+                            "pmcid": "PMC3278759",
+                            "pmid": "22199388",
+                            "ref_count": 40,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Artemis: an integrated platform for visualization and analysis of high-throughput sequence-based experimental data.",
+                            "year": 2012
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 365,
+                            "citations": [
+                                {
+                                    "count": 11,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 39,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 46,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 51,
+                                    "year": "2012"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn529",
+                            "pmcid": "PMC2606163",
+                            "pmid": "18845581",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                }
+                            ],
+                            "title": "Artemis and ACT: viewing, annotating and comparing sequences stored in a relational database.",
+                            "year": 2008
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 87,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2008"
+                                }
+                            ],
+                            "doi": "10.1093/bib/4.2.124",
+                            "pmid": "12846394",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Viewing and annotating sequence data with Artemis.",
+                            "year": 2003
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1853,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 48,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 67,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 68,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 91,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 135,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 142,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 143,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 143,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 147,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 164,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 164,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 181,
+                                    "year": "2014"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/16.10.944",
+                            "pmid": "11120685",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Artemis: sequence visualization and annotation.",
+                            "year": 2000
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/artemis",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2420390S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:artemis:18.0.1/cmd/sanger-pathogens.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2420390S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:artemis:18.0.2/cmd/sanger-pathogens.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2420390S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:artemis:18.0.3/cmd/sanger-pathogens.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2420390S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:artemis:18.1.0/cmd/sanger-pathogens.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2420390S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:artemis:18.2.0/cmd/sanger-pathogens.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/science/tools/artemis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.sanger.ac.uk/tool/artemis/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.sanger.ac.uk/tool/artemis/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2420390S"
+            }
+        }
+    }
+]

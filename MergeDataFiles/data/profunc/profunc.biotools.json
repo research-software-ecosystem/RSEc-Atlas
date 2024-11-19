@@ -1,0 +1,155 @@
+{
+    "additionDate": "2015-01-29T15:47:24Z",
+    "biotoolsCURIE": "biotools:profunc",
+    "biotoolsID": "profunc",
+    "collectionID": [
+        "EBI Tools",
+        "Thornton Tools"
+    ],
+    "credit": [
+        {
+            "email": "roman@ebi.ac.uk",
+            "name": "Roman Laskowski",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "roman@ebi.ac.uk",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "EMBL-EBI",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "Roman Laskowski",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Thornton Group",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "James Watson",
+            "typeRole": [
+                "Contributor"
+            ]
+        }
+    ],
+    "description": "Protein function prediction.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?doc=TRUE&pdbcode=n/a&profunc=TRUE&template=doc_index.html"
+        },
+        {
+            "type": [
+                "Terms of use"
+            ],
+            "url": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Protein structure",
+                        "uri": "http://edamontology.org/data_1460"
+                    },
+                    "format": [
+                        {
+                            "term": "PDB",
+                            "uri": "http://edamontology.org/format_1476"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Protein function prediction",
+                    "uri": "http://edamontology.org/operation_1777"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Protein structure report",
+                        "uri": "http://edamontology.org/data_1537"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ebi.ac.uk/thornton-srv/databases/profunc",
+    "lastUpdate": "2018-12-10T12:58:50Z",
+    "name": "ProFunc",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "EMBL-EBI",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gki414",
+            "metadata": {
+                "abstract": "ProFunc (http://www.ebi.ac.uk/thornton-srv/databases/ProFunc) is a web server for predicting the likely function of proteins whose 3D structure is known but whose function is not. Users submit the coordinates of their structure to the server in PDB format. ProFunc makes use of both existing and novel methods to analyse the protein's sequence and structure identifying functional motifs or close relationships to functionally characterized proteins. A summary of the analyses provides an at-a-glance view of what each of the different methods has found. More detailed results are available on separate pages. Often where one method has failed to find anything useful another may be more forthcoming. The server is likely to be of most use in structural genomics where a large proportion of the proteins whose structures are solved are of hypothetical proteins of unknown function. However, it may also find use in a comparative analysis of members of large protein families. It provides a convenient compendium of sequence and structural information that often hold vital functional clues to be followed up experimentally. © 2005 Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Laskowski R.A."
+                    },
+                    {
+                        "name": "Thornton J.M."
+                    },
+                    {
+                        "name": "Watson J.D."
+                    }
+                ],
+                "citationCount": 465,
+                "date": "2005-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "ProFunc: A server for predicting protein function from 3D structure"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Function analysis",
+            "uri": "http://edamontology.org/topic_1775"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

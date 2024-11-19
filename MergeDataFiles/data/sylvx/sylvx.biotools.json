@@ -1,0 +1,104 @@
+{
+    "additionDate": "2017-08-03T19:02:21Z",
+    "biotoolsCURIE": "biotools:sylvx",
+    "biotoolsID": "sylvx",
+    "credit": [
+        {
+            "email": "francois.chevenet@ird.fr",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.ibc-montpellier.fr/"
+        }
+    ],
+    "description": "A reconciliation viewer which implements classical phylogenetic graphic operators (swapping, highlighting, etc.) and new methods to ease interpretation and comparison of reconciliations (multiple maps, moving, shrinking sub-reconciliations).",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.sylvx.org/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.sylvx.org/",
+    "lastUpdate": "2018-12-10T12:58:45Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/sylvx-a-viewer-for-phylogenetic-tree-reconciliations.html"
+        }
+    ],
+    "name": "SylvX",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2015 The Author 2015. Published by Oxford University Press.Motivation: Reconciliation methods aim at recovering the evolutionary processes that shaped the history of a given gene family including events such as duplications, transfers and losses by comparing the discrepancies between the topologies of the associated gene and species trees. These methods are also used in the framework of host/parasite studies to recover co-diversification scenarios including co-speciation events, host-switches and extinctions. These evolutionary processes can be graphically represented as nested trees. These interconnected graphs can be visually messy and hard to interpret, and despite the fact that reconciliations are increasingly used, there is a shortage of tools dedicated to their graphical management. Here we present SylvX, a reconciliation viewer which implements classical phylogenetic graphic operators (swapping, highlighting, etc.) and new methods to ease interpretation and comparison of reconciliations (multiple maps, moving, shrinking sub-reconciliations). Availability and implementation: SylvX is an open source, cross-platform, standalone editor available for Windows and Unix-like systems including OSX. It is publicly available at www.sylvx.org.",
+                "authors": [
+                    {
+                        "name": "Berry V."
+                    },
+                    {
+                        "name": "Chevenet F."
+                    },
+                    {
+                        "name": "Doyon J.-P."
+                    },
+                    {
+                        "name": "Jacox E."
+                    },
+                    {
+                        "name": "Jousselin E."
+                    },
+                    {
+                        "name": "Scornavacca C."
+                    }
+                ],
+                "citationCount": 11,
+                "date": "2016-02-15T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "SylvX: A viewer for phylogenetic tree reconciliations"
+            },
+            "pmid": "26515823"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Evolutionary biology",
+            "uri": "http://edamontology.org/topic_3299"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        }
+    ],
+    "validated": 1
+}

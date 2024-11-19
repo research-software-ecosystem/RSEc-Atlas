@@ -1,0 +1,86 @@
+{
+    "additionDate": "2017-01-13T13:16:33Z",
+    "biotoolsCURIE": "biotools:snp-o-matic",
+    "biotoolsID": "snp-o-matic",
+    "credit": [
+        {
+            "email": "mm6@sanger.ac.uk",
+            "name": "SNP-o-matic Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Fast, memory-efficient and stringent read mapping tool offering a variety of analytical output functions, with an emphasis on genotyping.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://snpomatic.sourceforge.net/snpomatic_manual.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genotyping",
+                    "uri": "http://edamontology.org/operation_3196"
+                },
+                {
+                    "term": "Read mapping",
+                    "uri": "http://edamontology.org/operation_3198"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://snpomatic.sourceforge.net/",
+    "language": [
+        "C",
+        "C++"
+    ],
+    "lastUpdate": "2018-12-10T12:58:54Z",
+    "name": "SNP-o-matic",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Motivation: High throughput sequencing technologies generate large amounts of short reads. Mapping these to a reference sequence consumes large amounts of processing time and memory, and read mapping errors can lead to noisy or incorrect alignments. SNP-o-matic is a fast, memory-efficient and stringent read mapping tool offering a variety of analytical output functions, with an emphasis on genotyping. © 2009 The Author(s).",
+                "authors": [
+                    {
+                        "name": "Kwiatkowski D.P."
+                    },
+                    {
+                        "name": "Manske H.M."
+                    }
+                ],
+                "citationCount": 18,
+                "date": "2009-09-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "SNP-o-matic"
+            },
+            "pmid": "19574284"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

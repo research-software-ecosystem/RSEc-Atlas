@@ -1,0 +1,85 @@
+{
+    "additionDate": "2017-05-02T07:18:23Z",
+    "biotoolsCURIE": "biotools:genesplicer",
+    "biotoolsID": "genesplicer",
+    "credit": [
+        {
+            "email": "mpertea@jhu.edu",
+            "name": "GeneSplicer team",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A fast, flexible system for detecting splice sites in the genomic DNA of various eukaryotes. The system has been trained and tested successfully on Plasmodium falciparum (malaria), Arabidopsis thaliana, human, Drosophila, and rice.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Gene prediction",
+                    "uri": "http://edamontology.org/operation_2454"
+                },
+                {
+                    "term": "Splice site prediction",
+                    "uri": "http://edamontology.org/operation_0433"
+                },
+                {
+                    "term": "Splicing model analysis",
+                    "uri": "http://edamontology.org/operation_2499"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cbcb.umd.edu/software/GeneSplicer/",
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "GeneSplicer",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "GeneSplicer is a new, flexible system for detecting splice sites in the genomic DNA of various eukaryotes. The system has been tested successfully using DNA from two reference organism: the model plant Arabidopsis thaliana and human. It was compared to six programs representing the leading splice site detectors for each of these species: NetPlantGene, NetGene2, HSPL, NNSplice, GENIO and SpliceView. In each case GeneSplicer performed comparably to the best alternative, in terms of both accuracy and computational efficiency.",
+                "authors": [
+                    {
+                        "name": "Lin X."
+                    },
+                    {
+                        "name": "Pertea M."
+                    },
+                    {
+                        "name": "Salzberg S.L."
+                    }
+                ],
+                "citationCount": 392,
+                "date": "2001-03-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "GeneSplicer: A new computational method for splice site prediction"
+            },
+            "pmid": "11222768"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Plant biology",
+            "uri": "http://edamontology.org/topic_0780"
+        },
+        {
+            "term": "RNA splicing",
+            "uri": "http://edamontology.org/topic_3320"
+        }
+    ],
+    "validated": 1
+}

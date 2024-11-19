@@ -1,0 +1,415 @@
+{
+    "additionDate": "2016-08-16T14:15:56Z",
+    "biotoolsCURIE": "biotools:brassica_genome",
+    "biotoolsID": "brassica_genome",
+    "credit": [
+        {
+            "email": "Dave.Edwards@uq.edu.au",
+            "name": "Australia",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "Dave.Edwards@uq.edu.au",
+            "name": "Australia",
+            "typeRole": [
+                "Support"
+            ]
+        },
+        {
+            "name": "unimelb.edu.au",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "This resource hosts Brassica genome databases. B. rapa genome browser: including comprehensive annotation of the repeat fraction of the genome using the genome viewer GBrowse2. B. oleracea pan genome browser: including SNPs and functional annotation of genes. BlastGbrowse: A portal for blasting a query sequence to B. rapa and B. oleracea pan genome and allow conveniently link hits to the above Genome Browsers.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.brassicagenome.net/index.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "note": "genome browser and BlastBrowser",
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.brassicagenome.net/details.php",
+    "lastUpdate": "2018-12-10T12:58:52Z",
+    "name": "Brassica Genome",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mv.schneider@unimelb.edu.au",
+    "publication": [
+        {
+            "doi": "10.1038/ng.919",
+            "metadata": {
+                "abstract": "We report the annotation and analysis of the draft genome sequence of Brassica rapa accession Chiifu-401-42, a Chinese cabbage. We modeled 41,174 protein coding genes in the B. rapa genome, which has undergone genome triplication. We used Arabidopsis thaliana as an outgroup for investigating the consequences of genome triplication, such as structural and functional evolution. The extent of gene loss (fractionation) among triplicated genome segments varies, with one of the three copies consistently retaining a disproportionately large fraction of the genes expected to have been present in its ancestor. Variation in the number of members of gene families present in the genome may contribute to the remarkable morphological plasticity of Brassica species. The B. rapa genome sequence provides an important resource for studying the evolution of polyploid genomes and underpins the genetic improvement of Brassica oil and vegetable crops. © 2011 Nature America, Inc. All rights reserved.",
+                "authors": [
+                    {
+                        "name": "Abe H."
+                    },
+                    {
+                        "name": "Bai Y."
+                    },
+                    {
+                        "name": "Bancroft I."
+                    },
+                    {
+                        "name": "Batley J."
+                    },
+                    {
+                        "name": "Belcram H."
+                    },
+                    {
+                        "name": "Berkman P.J."
+                    },
+                    {
+                        "name": "Bonnema G."
+                    },
+                    {
+                        "name": "Cai Q."
+                    },
+                    {
+                        "name": "Chalhoub B."
+                    },
+                    {
+                        "name": "Cheng F."
+                    },
+                    {
+                        "name": "Cheng S."
+                    },
+                    {
+                        "name": "Choi S.-R."
+                    },
+                    {
+                        "name": "Conant G."
+                    },
+                    {
+                        "name": "Deng J."
+                    },
+                    {
+                        "name": "Drou N."
+                    },
+                    {
+                        "name": "Du Y."
+                    },
+                    {
+                        "name": "Duran C."
+                    },
+                    {
+                        "name": "Edwards D."
+                    },
+                    {
+                        "name": "Fan W."
+                    },
+                    {
+                        "name": "Fang L."
+                    },
+                    {
+                        "name": "Fraser F."
+                    },
+                    {
+                        "name": "Freeling M."
+                    },
+                    {
+                        "name": "Geng C."
+                    },
+                    {
+                        "name": "Guo H."
+                    },
+                    {
+                        "name": "Hatakeyama K."
+                    },
+                    {
+                        "name": "Hayward A."
+                    },
+                    {
+                        "name": "Hirakawa H."
+                    },
+                    {
+                        "name": "Hua W."
+                    },
+                    {
+                        "name": "Huang Q."
+                    },
+                    {
+                        "name": "Huang S."
+                    },
+                    {
+                        "name": "Huang S."
+                    },
+                    {
+                        "name": "Jin H."
+                    },
+                    {
+                        "name": "Jin M."
+                    },
+                    {
+                        "name": "Just J."
+                    },
+                    {
+                        "name": "Kim J.-S."
+                    },
+                    {
+                        "name": "Kim J.A."
+                    },
+                    {
+                        "name": "King G.J."
+                    },
+                    {
+                        "name": "Koh C."
+                    },
+                    {
+                        "name": "Kwon S.-J."
+                    },
+                    {
+                        "name": "Lassalle G."
+                    },
+                    {
+                        "name": "Lee T.-H."
+                    },
+                    {
+                        "name": "Li B."
+                    },
+                    {
+                        "name": "Li F."
+                    },
+                    {
+                        "name": "Li J."
+                    },
+                    {
+                        "name": "Li J."
+                    },
+                    {
+                        "name": "Li R."
+                    },
+                    {
+                        "name": "Li X."
+                    },
+                    {
+                        "name": "Li Y."
+                    },
+                    {
+                        "name": "Li Z."
+                    },
+                    {
+                        "name": "Liao Y."
+                    },
+                    {
+                        "name": "Lim Y."
+                    },
+                    {
+                        "name": "Lin C."
+                    },
+                    {
+                        "name": "Links M.G."
+                    },
+                    {
+                        "name": "Liu B."
+                    },
+                    {
+                        "name": "Liu B."
+                    },
+                    {
+                        "name": "Liu S."
+                    },
+                    {
+                        "name": "Meng J."
+                    },
+                    {
+                        "name": "Min J."
+                    },
+                    {
+                        "name": "Mu D."
+                    },
+                    {
+                        "name": "Mun J.-H."
+                    },
+                    {
+                        "name": "Narusaka Y."
+                    },
+                    {
+                        "name": "Park B.-S."
+                    },
+                    {
+                        "name": "Parkin I.A.P."
+                    },
+                    {
+                        "name": "Paterson A.H."
+                    },
+                    {
+                        "name": "Peng C."
+                    },
+                    {
+                        "name": "Pires J.C."
+                    },
+                    {
+                        "name": "Poulain J."
+                    },
+                    {
+                        "name": "Qiu Y."
+                    },
+                    {
+                        "name": "Ramchiary N."
+                    },
+                    {
+                        "name": "Sato S."
+                    },
+                    {
+                        "name": "Sharpe A.G."
+                    },
+                    {
+                        "name": "Shen D."
+                    },
+                    {
+                        "name": "Song C."
+                    },
+                    {
+                        "name": "Soumpourou E."
+                    },
+                    {
+                        "name": "Sun R."
+                    },
+                    {
+                        "name": "Sun S."
+                    },
+                    {
+                        "name": "Tabata S."
+                    },
+                    {
+                        "name": "Tan X."
+                    },
+                    {
+                        "name": "Tang H."
+                    },
+                    {
+                        "name": "Tong C."
+                    },
+                    {
+                        "name": "Trick M."
+                    },
+                    {
+                        "name": "Wang B."
+                    },
+                    {
+                        "name": "Wang H."
+                    },
+                    {
+                        "name": "Wang H."
+                    },
+                    {
+                        "name": "Wang H."
+                    },
+                    {
+                        "name": "Wang J."
+                    },
+                    {
+                        "name": "Wang J."
+                    },
+                    {
+                        "name": "Wang J."
+                    },
+                    {
+                        "name": "Wang L."
+                    },
+                    {
+                        "name": "Wang X."
+                    },
+                    {
+                        "name": "Wang X."
+                    },
+                    {
+                        "name": "Wang Y."
+                    },
+                    {
+                        "name": "Wang Y."
+                    },
+                    {
+                        "name": "Wang Z."
+                    },
+                    {
+                        "name": "Wang Z."
+                    },
+                    {
+                        "name": "Weisshaar B."
+                    },
+                    {
+                        "name": "Wu J."
+                    },
+                    {
+                        "name": "Wu K."
+                    },
+                    {
+                        "name": "Xiong Z."
+                    },
+                    {
+                        "name": "Xu J."
+                    },
+                    {
+                        "name": "Xu X."
+                    },
+                    {
+                        "name": "Yin Y."
+                    },
+                    {
+                        "name": "Yu J."
+                    },
+                    {
+                        "name": "Zhang S."
+                    },
+                    {
+                        "name": "Zhang S."
+                    },
+                    {
+                        "name": "Zhang Z."
+                    },
+                    {
+                        "name": "Zhao M."
+                    },
+                    {
+                        "name": "Zhao X."
+                    },
+                    {
+                        "name": "Zhou H."
+                    }
+                ],
+                "citationCount": 1340,
+                "date": "2011-10-01T00:00:00Z",
+                "journal": "Nature Genetics",
+                "title": "The genome of the mesopolyploid crop species Brassica rapa"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Biology",
+            "uri": "http://edamontology.org/topic_3070"
+        }
+    ],
+    "validated": 1
+}

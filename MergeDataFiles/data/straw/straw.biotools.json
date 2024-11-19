@@ -1,0 +1,117 @@
+{
+    "additionDate": "2017-03-25T17:07:53Z",
+    "biotoolsCURIE": "biotools:straw",
+    "biotoolsID": "straw",
+    "credit": [
+        {
+            "email": "lliu@uga.edu",
+            "name": "Liang Liu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "STRAW is a web server of workflows for reconstruction of phylogenies of species using 3 species tree methods: MP-EST, STAR, and NJst.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://bioinformatics.publichealth.uga.edu/SpeciesTreeAnalysis/Help/index.php"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic species tree construction",
+                    "uri": "http://edamontology.org/operation_0544"
+                },
+                {
+                    "term": "Phylogenetic tree distances calculation",
+                    "uri": "http://edamontology.org/operation_0557"
+                },
+                {
+                    "term": "Phylogenetic tree generation (minimum distance methods)",
+                    "uri": "http://edamontology.org/operation_0546"
+                },
+                {
+                    "term": "Phylogenetic tree reconstruction",
+                    "uri": "http://edamontology.org/operation_3478"
+                },
+                {
+                    "term": "Species frequency estimation",
+                    "uri": "http://edamontology.org/operation_3221"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioinformatics.publichealth.uga.edu/SpeciesTreeAnalysis/",
+    "language": [
+        "C",
+        "Java",
+        "PHP",
+        "Perl",
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "name": "STRAW",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The coalescent methods for species tree reconstruction are increasingly popular because they can accommodate coalescence and multilocus data sets. Herein, we present STRAW, a web server that offers workflows for reconstruction of phylogenies of species using three species tree methods-MP-EST, STAR and NJst. The input data are a collection of rooted gene trees (for STAR and MP-EST methods) or unrooted gene trees (for NJst). The output includes the estimated species tree, modified Robinson-Foulds distances between gene trees and the estimated species tree and visualization of trees to compare gene trees with the estimated species tree. The web sever is available at http://bioinformatics.publichealth.uga.edu/SpeciesTreeAnalysis/.",
+                "authors": [
+                    {
+                        "name": "Glenn T.C."
+                    },
+                    {
+                        "name": "Liu L."
+                    },
+                    {
+                        "name": "Ruan Z."
+                    },
+                    {
+                        "name": "Shaw T.I."
+                    }
+                ],
+                "citationCount": 83,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Nucleic acids research",
+                "title": "STRAW: Species TRee Analysis Web server."
+            },
+            "pmid": "23661681"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        },
+        {
+            "term": "Pathology",
+            "uri": "http://edamontology.org/topic_0634"
+        },
+        {
+            "term": "Phylogenomics",
+            "uri": "http://edamontology.org/topic_0194"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        }
+    ],
+    "validated": 1
+}

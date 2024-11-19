@@ -1,0 +1,112 @@
+{
+    "additionDate": "2017-03-30T23:01:18Z",
+    "biotoolsCURIE": "biotools:nucleardb",
+    "biotoolsID": "nucleardb",
+    "credit": [
+        {
+            "email": "vriend@cmbi.ru.nl",
+            "name": "Gert Vriend",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A molecular-class information system that collects, combines, validates and stores large amounts of data on Nuclear Hormone Receptors (NHRs). Contains data on sequences, ligand binding constants and mutations. In addition, many different types of computationally derived data are stored such as multiple sequence alignments and homology models.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                },
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Protein modelling",
+                    "uri": "http://edamontology.org/operation_0477"
+                },
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                },
+                {
+                    "term": "Validation",
+                    "uri": "http://edamontology.org/operation_2428"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.receptors.org/nucleardb/",
+    "homepage_status": 1,
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "name": "NucleaRDB",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-EE",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "The NucleaRDB is a Molecular Class-Specific Information System that collects, combines, validates and disseminates large amounts of heterogeneous data on nuclear hormone receptors. It contains both experimental and computationally derived data. The data and knowledge present in the NucleaRDB can be accessed using a number of different interactive and programmatic methods and query systems. A nuclear hormone receptor-specific PDF reader interface is available that can integrate the contents of the NucleaRDB with fulltext scientific articles. The NucleaRDB is freely available at http://www.receptors. org/nucleardb. © The Author(s) 2011. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Attwood T.K."
+                    },
+                    {
+                        "name": "Joosten H.-J."
+                    },
+                    {
+                        "name": "McDermott P."
+                    },
+                    {
+                        "name": "Pettifer S."
+                    },
+                    {
+                        "name": "Thorne D."
+                    },
+                    {
+                        "name": "Vriend G."
+                    },
+                    {
+                        "name": "Vroling B."
+                    }
+                ],
+                "citationCount": 15,
+                "date": "2012-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "NucleaRDB: Information system for nuclear receptors"
+            },
+            "pmid": "22064856"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Chemistry",
+            "uri": "http://edamontology.org/topic_3314"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Molecular modelling",
+            "uri": "http://edamontology.org/topic_2275"
+        }
+    ],
+    "validated": 1
+}

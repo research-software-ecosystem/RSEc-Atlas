@@ -1,0 +1,116 @@
+{
+    "additionDate": "2017-08-03T19:00:06Z",
+    "biotoolsCURIE": "biotools:snpflow",
+    "biotoolsID": "snpflow",
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://genepi-snpflow.i-med.ac.at/contact.html"
+        }
+    ],
+    "description": "A freely available web application to automatically check the quality of SNP data employing the ABI 7900 HT-platform or the Sequenom iPLEX platform: Single raw output files of plates are automatically merged and converted to genotype lists.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://genepi-snpflow.i-med.ac.at/userguide.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "note": "check the quality of SNP data",
+            "operation": [
+                {
+                    "term": "Validation",
+                    "uri": "http://edamontology.org/operation_2428"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://genepi-snpflow.i-med.ac.at/",
+    "language": [
+        "Java",
+        "JavaScript"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/snpflow-snp-workflow-manager.html"
+        }
+    ],
+    "name": "SNPflow",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "Single nucleotide polymorphisms (SNPs) play a prominent role in modern genetics. Current genotyping technologies such as Sequenom iPLEX, ABI TaqMan and KBioscience KASPar made the genotyping of huge SNP sets in large populations straightforward and allow the generation of hundreds of thousands of genotypes even in medium sized labs. While data generation is straightforward, the subsequent data conversion, storage and quality control steps are time-consuming, error-prone and require extensive bioinformatic support. In order to ease this tedious process, we developed SNPflow. SNPflow is a lightweight, intuitive and easily deployable application, which processes genotype data from Sequenom MassARRAY (iPLEX) and ABI 7900HT (TaqMan, KASPar) systems and is extendible to other genotyping methods as well. SNPflow automatically converts the raw output files to ready-to-use genotype lists, calculates all standard quality control values such as call rate, expected and real amount of replicates, minor allele frequency, absolute number of discordant replicates, discordance rate and the p-value of the HWE test, checks the plausibility of the observed genotype frequencies by comparing them to HapMap/1000-Genomes, provides a module for the processing of SNPs, which allow sex determination for DNA quality control purposes and, finally, stores all data in a relational database. SNPflow runs on all common operating systems and comes as both stand-alone version and multi-user version for laboratory-wide use. The software, a user manual, screenshots and a screencast illustrating the main features are available at http://genepi-snpflow.i-med.ac.at. © 2013 Weissensteiner et al.",
+                "authors": [
+                    {
+                        "name": "Coassin S."
+                    },
+                    {
+                        "name": "Forer L."
+                    },
+                    {
+                        "name": "Haun M."
+                    },
+                    {
+                        "name": "Kloss-Brandstatter A."
+                    },
+                    {
+                        "name": "Kronenberg F."
+                    },
+                    {
+                        "name": "Neuner M."
+                    },
+                    {
+                        "name": "Schonherr S."
+                    },
+                    {
+                        "name": "Specht G."
+                    },
+                    {
+                        "name": "Weissensteiner H."
+                    }
+                ],
+                "citationCount": 6,
+                "date": "2013-03-19T00:00:00Z",
+                "journal": "PLoS ONE",
+                "title": "SNPflow: A Lightweight Application for the Processing, Storing and Automatic Quality Checking of Genotyping Assays"
+            },
+            "pmid": "23527209"
+        }
+    ],
+    "toolType": [
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "DNA polymorphism",
+            "uri": "http://edamontology.org/topic_2885"
+        },
+        {
+            "term": "Genetics",
+            "uri": "http://edamontology.org/topic_3053"
+        },
+        {
+            "term": "Genotype and phenotype",
+            "uri": "http://edamontology.org/topic_0625"
+        }
+    ],
+    "validated": 1
+}

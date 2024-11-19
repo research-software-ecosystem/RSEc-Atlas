@@ -1,0 +1,80 @@
+{
+    "additionDate": "2017-08-03T19:07:51Z",
+    "biotoolsCURIE": "biotools:phylotree",
+    "biotoolsID": "phylotree",
+    "credit": [
+        {
+            "email": "jurek@cs.uky.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Collection of programs for cophylogeny testing.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://csurs.csr.uky.edu/phylotree/phylotree-1.0.0/README"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://csurs.csr.uky.edu/phylotree/phylotree-1.0.0/GETTING-STARTED"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "n.m.palmblad@lumc.nl"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://csurs.csr.uky.edu/phylotree/",
+    "language": [
+        "C++",
+        "Java",
+        "Perl"
+    ],
+    "lastUpdate": "2024-02-09T09:00:03.326361Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/phylotree-1-0-0-collection-programs-cophylogeny-testing.html"
+        }
+    ],
+    "name": "phylotree",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "pmid": "20802801"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        }
+    ],
+    "validated": 1
+}

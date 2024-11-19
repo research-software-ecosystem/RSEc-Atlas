@@ -1,0 +1,735 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hpo/ontology/hpo.jax.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 370,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 42,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkt1026",
+                            "pmcid": "PMC3965098",
+                            "pmid": "24217912",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "The Human Phenotype Ontology project: linking molecular biology and disease through phenotype data.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hpo/web/hpo.jax.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 370,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 42,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkt1026",
+                            "pmcid": "PMC3965098",
+                            "pmid": "24217912",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "The Human Phenotype Ontology project: linking molecular biology and disease through phenotype data.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hpo/ontology/www.human-phenotype-ontology.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 370,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 42,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkt1026",
+                            "pmcid": "PMC3965098",
+                            "pmid": "24217912",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "The Human Phenotype Ontology project: linking molecular biology and disease through phenotype data.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://hpo.jax.org"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hpo/web/www.human-phenotype-ontology.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 370,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 42,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 80,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkt1026",
+                            "pmcid": "PMC3965098",
+                            "pmid": "24217912",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "The Human Phenotype Ontology project: linking molecular biology and disease through phenotype data.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://hpo.jax.org"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hpo:1.10.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16116,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2024"
+                                },
+                                {
+                                    "count": 85,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 125,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 164,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 251,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 295,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 634,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 974,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1401,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1620,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1705,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1940,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2230,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2303,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2339,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btp352",
+                            "pmcid": "PMC2723002",
+                            "pmid": "19505943",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "The Sequence Alignment/Map format and SAMtools.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT439721S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/hpo",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

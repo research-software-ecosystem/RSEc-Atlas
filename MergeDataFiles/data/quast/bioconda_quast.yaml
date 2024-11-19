@@ -1,0 +1,67 @@
+about:
+  home: http://quast.sourceforge.net/
+  license: Custom
+  license_file: LICENSE.txt
+  summary: Quality Assessment Tool for Genome Assemblies
+build:
+  number: 0
+  run_exports:
+  - None
+extra:
+  container:
+    extended-base: true
+  identifiers:
+  - biotools:quast
+  - doi:10.1093/bioinformatics/btt086
+  notes: '- GeneMark gene prediction software is disabled due to licensing issues
+
+    '
+package:
+  name: quast
+  version: 5.3.0
+requirements:
+  build:
+  - None
+  - None
+  - make
+  host:
+  - perl
+  - python
+  - pip
+  - setuptools
+  - matplotlib-base
+  - joblib
+  - simplejson
+  - blast
+  - zlib
+  - glimmerHMM
+  - circos
+  - minimap2 >=2.10
+  run:
+  - perl
+  - python
+  - matplotlib-base
+  - openjdk >=8
+  - joblib
+  - simplejson
+  - blast
+  - glimmerHMM
+  - circos
+  - minimap2 >=2.10
+  - bedtools
+  - bwa
+source:
+  patches:
+  - genemark-issue_disable-and-exclude-from-package.patch
+  - skip-glimmer-in-test.patch
+  - remove-explicit-dependencies-from-setup-py.patch
+  sha256: ac9dba03ef9d0a51d7a9e2c56826104e78f340f6263a3ad393648442debc74ec
+  url:
+  - https://github.com/ablab/quast/releases/download/quast_5.3.0/quast-5.3.0.tar.gz
+  - http://downloads.sourceforge.net/project/quast/quast-5.3.0.tar.gz
+test:
+  commands:
+  - quast --version
+  - metaquast --version
+  source_files:
+  - test_data

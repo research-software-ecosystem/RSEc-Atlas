@@ -13,7 +13,7 @@
       </v-col>
     </v-row>
 
-    <div v-if="pending">Loading items...</div>
+    <div v-if="pending">Fetching the bio tools data, please wait.</div>
     <div v-if="error">Error fetching items: {{ error.message }}</div>
 
     <!-- Tool List -->
@@ -21,15 +21,16 @@
       <v-col cols="12" md="4" v-for="tool in paginatedItems" :key="tool.search_index">
         <v-card>
           <v-card-title>
-            <router-link :to="`/tool/${tool.search_index}`">{{ tool.tool_path }}</router-link>
+            <router-link :to="`/tool/${tool.search_index}`">{{ getToolName(tool) }}</router-link>
           </v-card-title>
-          <v-card-subtitle>{{ tool.combined_meta.biocontainers__summary || "No Description Provided"
-            }}</v-card-subtitle>
+          <v-card-subtitle>{{ getToolDescription(tool) }}</v-card-subtitle>
           <v-card-text>
-            <strong>License:</strong> {{ tool.combined_meta.biocontainers__license }}<br />
-            <strong>Version:</strong> {{ tool.combined_meta.bioconda__version }}<br />
-            <strong>Total Pulls:</strong> {{ tool.combined_meta.biocontainers__total_pulls }}<br />
-            <strong>Last Updated:</strong> {{ formatDate(tool.combined_meta.biotools__last_update_date) }}
+            <strong>License:</strong> {{ getToolLicense(tool) }}<br />
+            <strong>Version:</strong> {{ getToolVersion(tool) }}<br />
+            <strong>Total Pulls:</strong> {{ getToolTotalPulls(tool) }}<br />
+            <strong>Last Updated:</strong>
+            {{ tool.combined_meta.biotools__last_update_date ? formatDate(tool.combined_meta.biotools__last_update_date)
+              : "No Last Update Info" }}
           </v-card-text>
           <v-card-actions>
             <v-btn @click="toggleFavorite(tool)">
@@ -52,12 +53,12 @@ import { ref, computed, onMounted, watch } from 'vue';
 import { useFetch } from '#app';
 
 const searchQuery = ref('');
-const sortKey = ref('Name');
+const sortKey = ref('Total Pulls');
 const licenseFilter = ref('');
 const currentPage = ref(1);
 const itemsPerPage = 6;
 const favoriteItems = ref(JSON.parse(localStorage.getItem('favorites')) || []);
-const sortOptions = ['Name', 'License', 'Total Pulls', 'Creation Date', 'Last Updated'];
+const sortOptions = ['Total Pulls', 'Name', 'Creation Date', 'Last Updated'];
 const licenseOptions = ref(['All']);
 const { data: tools, pending, error } = await useFetch('/combined_metadata.json');
 
@@ -78,22 +79,26 @@ watch([searchQuery, sortKey, licenseFilter], () => {
 const filteredItems = computed(() => {
   let filtered = Array.isArray(tools.value) ? tools.value : [];
 
+  filtered = filtered.filter(item => Object.keys(item.combined_meta).length > 0);
+
   if (licenseFilter.value && licenseFilter.value !== 'All') {
     filtered = filtered.filter(item => item.combined_meta.biocontainers__license === licenseFilter.value);
   }
 
   if (searchQuery.value) {
     filtered = filtered.filter(item =>
-      item.tool_path.toLowerCase().includes(searchQuery.value.toLowerCase())
+      item.tool_name.toLowerCase().includes(searchQuery.value.toLowerCase())
     );
   }
 
   if (sortKey.value === 'Name') {
-    filtered.sort((a, b) => a.tool_path.localeCompare(b.tool_path));
-  } else if (sortKey.value === 'License') {
-    filtered.sort((a, b) => a.combined_meta.biocontainers__license.localeCompare(b.combined_meta.biocontainers__license));
+    filtered.sort((a, b) => a.tool_name.localeCompare(b.tool_name));
   } else if (sortKey.value === 'Total Pulls') {
-    filtered.sort((a, b) => b.combined_meta.biocontainers__total_pulls - a.combined_meta.biocontainers__total_pulls);
+    filtered.sort((a, b) => {
+      const pullsA = a.combined_meta.biocontainers__total_pulls || 0;
+      const pullsB = b.combined_meta.biocontainers__total_pulls || 0;
+      return pullsB - pullsA;
+    });
   } else if (sortKey.value === 'Creation Date') {
     filtered.sort((a, b) => new Date(a.combined_meta.biotools__addition_date) - new Date(b.combined_meta.biotools__addition_date));
   } else if (sortKey.value === 'Last Updated') {
@@ -144,6 +149,26 @@ const pageNumbers = computed(() => {
 
   return pages;
 });
+
+const getToolName = (tool) => {
+  return tool.combined_meta.bioschemas__name || tool.combined_meta.biocontainers__name || tool.combined_meta.bioconda__name || tool.tool_name || "No Name";
+};
+
+const getToolDescription = (tool) => {
+  return tool.combined_meta.biocontainers__summary || tool.combined_meta.bioconda__summary || tool.combined_meta.biotools__summary || "No Description";
+};
+
+const getToolLicense = (tool) => {
+  return tool.combined_meta.biocontainers__license || tool.combined_meta.bioconda__license || tool.combined_meta.bioschemas__license || "No License Info";
+};
+
+const getToolVersion = (tool) => {
+  return tool.combined_meta.bioconda__version || tool.combined_meta.biocontainers__version || tool.combined_meta.bioschemas__version || "No Version Info";
+};
+
+const getToolTotalPulls = (tool) => {
+  return tool.combined_meta.biocontainers__total_pulls || tool.combined_meta.bioconda__total_pulls || tool.combined_meta.bioschemas__total_pulls || "No Total Pulls";
+};
 
 const formatDate = (dateString) => {
   const date = new Date(dateString);

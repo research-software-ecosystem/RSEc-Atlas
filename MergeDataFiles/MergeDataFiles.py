@@ -5,7 +5,7 @@ import hashlib
 
 def log_message(message, log_file='last_run_logs.txt'):
     print(message)
-    with open(log_file, 'a') as f:
+    with open(log_file, 'a', encoding='utf-8') as f:
         f.write(message + '\n')
 
 def hash_content(content):
@@ -26,6 +26,7 @@ def replace_empty_with_null(value):
 
 def extract_bioconda_data(data):
     return {
+        "bioconda__name": replace_empty_with_null(data.get('package', {}).get('name')),
         "bioconda__home": replace_empty_with_null(data.get('about', {}).get('home')),
         "bioconda__license": replace_empty_with_null(data.get('about', {}).get('license')),
         "bioconda__summary": replace_empty_with_null(data.get('about', {}).get('summary')),
@@ -36,6 +37,7 @@ def extract_bioconda_data(data):
 
 def extract_biocontainers_data(data):
     return {
+        "biocontainers__name": replace_empty_with_null(data.get('name')),
         "biocontainers__home": replace_empty_with_null(data.get('home_url')),
         "biocontainers__license": replace_empty_with_null(data.get('license')),
         "biocontainers__summary": replace_empty_with_null(data.get('description')),
@@ -55,15 +57,31 @@ def extract_biotools_data(data):
         "biotools__tool_type": replace_empty_with_null(data.get('toolType'))
     }
 
+def extract_bioschemas_data(data):
+    if "@graph" not in data or not isinstance(data["@graph"], list):
+        return {}
+    bioschemas_entry = data["@graph"]
+    return {
+        "bioschemas__name": replace_empty_with_null(bioschemas_entry.get('sc:name')),
+        "bioschemas__home": replace_empty_with_null(bioschemas_entry.get('@id')),
+        "bioschemas__url": replace_empty_with_null(bioschemas_entry.get('sc:url')),
+        "bioschemas__license": replace_empty_with_null(bioschemas_entry.get('sc:license')),
+        "bioschemas__summary": replace_empty_with_null(bioschemas_entry.get('sc:description')),
+        "bioschemas__operating_systems": replace_empty_with_null(bioschemas_entry.get('sc:operatingSystem')),
+        "bioschemas__primary_contact": replace_empty_with_null(bioschemas_entry.get('biotools:primaryContact')),
+        "bioschemas__tool_type": replace_empty_with_null(bioschemas_entry.get('@type'))
+    }
+
 def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
-    combined_meta = {}
-    duplicate_keys = {}
+    combined_meta = {} # TO-DO: Rename to combined_metadata
+    duplicate_keys = {} # TO-DO: Remove duplicates_keys key
 
     folder_name = os.path.basename(folder_path)
     file_patterns = [
         (f"bioconda_{folder_name}.yaml", extract_bioconda_data),
         (f"{folder_name}.biocontainers.yaml", extract_biocontainers_data),
-        (f"{folder_name}.biotools.json", extract_biotools_data)
+        (f"{folder_name}.biotools.json", extract_biotools_data),
+        (f"{folder_name}.bioschemas.jsonld", extract_bioschemas_data)
     ]
 
     for file_name, extractor in file_patterns:
@@ -75,7 +93,7 @@ def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
         ext = os.path.splitext(file_path)[1]
         if ext in ['.yaml', '.yml']:
             data = parse_yaml(file_path)
-        elif ext == '.json':
+        elif ext in ['.json', '.jsonld']:
             data = parse_json(file_path)
         else:
             continue
@@ -100,15 +118,11 @@ def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
     else:
         hash_map[content_hash] = [folder_path]
 
-    relative_folder_path = os.path.relpath(folder_path, data_dir)
-    normalized_tool_path = os.path.join('.', 'data', relative_folder_path)
-
     metadata = {
         "search_index": search_index,
-        "tool_path": normalized_tool_path,
+        "tool_name": folder_name,
         "combined_meta": {k: v['value'] for k, v in combined_meta.items()},
-        "duplicate_keys": duplicate_keys,
-        "duplicate_paths": []
+        "duplicate_keys": duplicate_keys
     }
 
     return metadata, content_hash
@@ -125,11 +139,6 @@ def scan_directory(data_dir):
             metadata, content_hash = process_files_in_folder(root, search_index, hash_map, data_dir)
             combined_metadata.append(metadata)
             search_index += 1
-
-    for metadata in combined_metadata:
-        content_hash = hash_content(metadata['combined_meta'])
-        if content_hash in hash_map and len(hash_map[content_hash]) > 1:
-            metadata["duplicate_paths"] = [path for path in hash_map[content_hash] if path != metadata["tool_path"]]
 
     return combined_metadata
 

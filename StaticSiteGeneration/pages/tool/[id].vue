@@ -304,11 +304,11 @@ const hasGalaxyData = computed(() => {
 });
 
 const getSummary = computed(() => {
-  return getKey(['galaxy__summary', 'biocontainers__summary', 'bioconda__summary', 'biotools__summary']);
+  return getKey(['biotools__summary', 'bioconda__summary', 'biocontainers__summary', 'galaxy__summary',]);
 });
 
 const getHome = computed(() => {
-  return getKey(['galaxy__source', 'biocontainers__home', 'bioconda__home', 'biotools__home']);
+  return getKey(['biotools__home', 'bioconda__home', 'biocontainers__home', 'galaxy__source']);
 });
 
 const getURL = computed(() => {
@@ -320,7 +320,7 @@ const getDoc = computed(() => {
 });
 
 const getLicense = computed(() => {
-  return getKey(['biocontainers__license', 'bioconda__license', 'biotools__license']);
+  return getKey(['biotools__license', 'bioconda__license', 'biocontainers__license']);
 });
 
 const getVersion = computed(() => {

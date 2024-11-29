@@ -16,7 +16,7 @@
               </a>
             </template>
             <template v-if="hasBiocontainersData">
-              <a :href="'https://quay.io/repository/biocontainers/' + tool.fetched_metadata.bioconda__name + '?tab=tags&tag=latest'"
+              <a :href="'https://quay.io/repository/biocontainers/' + tool.fetched_metadata.biocontainers__name + '?tab=tags&tag=latest'"
                 target="_blank"
                 style="height: 30px; width: 130px; min-height: 36px; padding: 0; line-height: 36px; margin-left: 5px; display: inline-flex;">
                 <v-img src="https://img.shields.io/badge/link%20to-biocontainers-brightgreen.svg?style=flat"

@@ -6,7 +6,7 @@
         <v-card v-if="tool">
           <!-- Title with grey background -->
           <v-card-title class="tool-title">
-            {{ tool.tool_name }}
+            {{ tool.tool_name.toUpperCase() }}
             <template v-if="hasBiocondaData">
               <a :href="'https://bioconda.github.io/recipes/' + tool.fetched_metadata.bioconda__name + '/README.html'"
                 target="_blank"

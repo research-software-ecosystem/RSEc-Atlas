@@ -28,6 +28,7 @@ def extract_bioconda_data(data):
     return {
         "bioconda__name": replace_empty_with_null(data.get('package', {}).get('name')),
         "bioconda__home": replace_empty_with_null(data.get('about', {}).get('home')),
+        "bioconda__documentation": replace_empty_with_null(data.get('about', {}).get('doc_url')),
         "bioconda__license": replace_empty_with_null(data.get('about', {}).get('license')),
         "bioconda__summary": replace_empty_with_null(data.get('about', {}).get('summary')),
         "bioconda__additional_platforms": replace_empty_with_null(data.get('extra', {}).get('additional-platforms')),
@@ -60,7 +61,7 @@ def extract_biotools_data(data):
 def extract_bioschemas_data(data):
     if "@graph" not in data or not isinstance(data["@graph"], list):
         return {}
-    bioschemas_entry = data["@graph"]
+    bioschemas_entry = data["@graph"][0] if data["@graph"] else {}
     return {
         "bioschemas__name": replace_empty_with_null(bioschemas_entry.get('sc:name')),
         "bioschemas__home": replace_empty_with_null(bioschemas_entry.get('@id')),
@@ -72,16 +73,38 @@ def extract_bioschemas_data(data):
         "bioschemas__tool_type": replace_empty_with_null(bioschemas_entry.get('@type'))
     }
 
+def extract_galaxy_data(data):
+    return {
+        "galaxy__first_commit": replace_empty_with_null(data.get('Date_of_first_commit_of_the_suite')),
+        "galaxy__source": replace_empty_with_null(data.get('Source')),
+        "galaxy__status": replace_empty_with_null(data.get('Status')),
+        "galaxy__conda_name": replace_empty_with_null(data.get('Conda_id')),
+        "galaxy__conda_version": replace_empty_with_null(data.get('Conda_version')),
+        "galaxy__summary": replace_empty_with_null(data.get('Description')),
+        "galaxy__galaxy_ids": replace_empty_with_null(data.get('Galaxy_tool_ids')),
+        "galaxy__edam_operation": replace_empty_with_null(data.get('EDAM_operation')),
+        "galaxy__edam_topic": replace_empty_with_null(data.get('EDAM_topic')),
+        "galaxy__toolshed_categories": replace_empty_with_null(data.get('ToolShed_categories')),
+        "galaxy__toolshed_id": replace_empty_with_null(data.get('ToolShed_id')),
+        "galaxy__users_5_years": replace_empty_with_null(data.get('No._of_tool_users_(5_years)_-_all_main_servers')),
+        "galaxy__users_all_time": replace_empty_with_null(data.get('No._of_tool_users_(all_time)_-_all_main_servers')),
+        "galaxy__usage_5_years": replace_empty_with_null(data.get('Tool_usage_(5_years)_-_all_main_servers')),
+        "galaxy__usage_all_time": replace_empty_with_null(data.get('Tool_usage_(all_time)_-_all_main_servers')),
+        "galaxy__bio_tools_summary": replace_empty_with_null(data.get('bio.tool_description')),
+        "galaxy__bio_tools_ids": replace_empty_with_null(data.get('bio.tool_id')),
+        "galaxy__bio_tools_name": replace_empty_with_null(data.get('bio.tool_name'))
+    }
+
 def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
-    combined_meta = {} # TO-DO: Rename to combined_metadata
-    duplicate_keys = {} # TO-DO: Remove duplicates_keys key
+    fetched_metadata = {}
 
     folder_name = os.path.basename(folder_path)
     file_patterns = [
         (f"bioconda_{folder_name}.yaml", extract_bioconda_data),
         (f"{folder_name}.biocontainers.yaml", extract_biocontainers_data),
         (f"{folder_name}.biotools.json", extract_biotools_data),
-        (f"{folder_name}.bioschemas.jsonld", extract_bioschemas_data)
+        (f"{folder_name}.bioschemas.jsonld", extract_bioschemas_data),
+        (f"{folder_name}.galaxy.json", extract_galaxy_data)
     ]
 
     for file_name, extractor in file_patterns:
@@ -102,16 +125,9 @@ def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
         log_message(f"Extracted data for {file_name}: {extracted_data}")
 
         for key, value in extracted_data.items():
-            if key in combined_meta:
-                if key not in duplicate_keys:
-                    duplicate_keys[key] = []
-                duplicate_keys[key].append({"file_name": file_name, "value": value})
-                duplicate_keys[key].append({"file_name": combined_meta[key]['file_name'], "value": combined_meta[key]['value']})
-                del combined_meta[key]
-            else:
-                combined_meta[key] = {"file_name": file_name, "value": value}
+            fetched_metadata[key] = {"file_name": file_name, "value": value}
 
-    content_hash = hash_content(combined_meta)
+    content_hash = hash_content(fetched_metadata)
 
     if content_hash in hash_map:
         hash_map[content_hash].append(folder_path)
@@ -121,8 +137,7 @@ def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
     metadata = {
         "search_index": search_index,
         "tool_name": folder_name,
-        "combined_meta": {k: v['value'] for k, v in combined_meta.items()},
-        "duplicate_keys": duplicate_keys
+        "fetched_metadata": {k: v['value'] for k, v in fetched_metadata.items()},
     }
 
     return metadata, content_hash

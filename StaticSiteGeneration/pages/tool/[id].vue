@@ -1,5 +1,4 @@
 <template>
-
   <Suspense>
     <template #default>
       <v-container>
@@ -20,12 +19,13 @@
                 target="_blank"
                 style="height: 30px; width: 130px; min-height: 36px; padding: 0; line-height: 36px; margin-left: 5px; display: inline-flex;">
                 <v-img src="https://img.shields.io/badge/link%20to-biocontainers-brightgreen.svg?style=flat"
-                  alt="Install with Bioconda" max-width="130px" height="24px" />
+                  alt="Link to Biocontainers" max-width="130px" height="24px" />
               </a>
             </template>
           </v-card-title>
           <v-card-subtitle class="tool-description">
-            {{ getSummary || "No description" }}
+            {{ getSummary ? !getSummary.endsWith(".") ? getSummary.trim() + "." : getSummary.trim() : "No description"
+            }}
           </v-card-subtitle>
 
           <v-card-text>
@@ -35,7 +35,8 @@
                 <v-card class="data-card">
                   <v-card-title>Home</v-card-title>
                   <v-card-text>
-                    <a :href="getHome">{{ getHome || "No home URL" }}</a>
+                    <a :href="getHome" style="  color: #1976D2; text-decoration: none;">{{ getHome || "No home URL"
+                      }}</a>
                   </v-card-text>
                 </v-card>
               </v-col>
@@ -44,7 +45,7 @@
                 <v-card class="data-card">
                   <v-card-title>URL</v-card-title>
                   <v-card-text>
-                    <a :href="getURL">{{ getURL || "No URL" }}</a>
+                    <a :href="getURL" style="  color: #1976D2; text-decoration: none;">{{ getURL || "No URL" }}</a>
                   </v-card-text>
                 </v-card>
               </v-col>
@@ -53,7 +54,8 @@
                 <v-card class="data-card">
                   <v-card-title>Documentation</v-card-title>
                   <v-card-text>
-                    <a :href="getDoc">{{ getDoc || "No Documentation" }}</a>
+                    <a :href="getDoc" style="  color: #1976D2; text-decoration: none;">{{ getDoc || "No documentation"
+                      }}</a>
                   </v-card-text>
                 </v-card>
               </v-col>
@@ -68,14 +70,14 @@
               <v-col cols="12" md="3" lg="3">
                 <v-card class="data-card">
                   <v-card-title>Version</v-card-title>
-                  <v-card-text>{{ getVersion || "No version info" }}</v-card-text>
+                  <v-card-text>{{ getVersion ? "v" + getVersion : "No version info" }}</v-card-text>
                 </v-card>
               </v-col>
 
               <v-col cols="12" md="3" lg="3">
                 <v-card class="data-card">
                   <v-card-title>Total Pulls</v-card-title>
-                  <v-card-text>{{ getTotalPulls || "No total pulls info" }}</v-card-text>
+                  <v-card-text>{{ getTotalPulls.toLocaleString() || "No total pulls info" }}</v-card-text>
                 </v-card>
               </v-col>
 
@@ -117,7 +119,8 @@
               <v-col cols="12" md="3" lg="3">
                 <v-card class="data-card">
                   <v-card-title>Added Date</v-card-title>
-                  <v-card-text>{{ getFormattedDate(tool.fetched_metadata.biotools__addition_date) || "No addition date info"
+                  <v-card-text>{{ getFormattedDate(tool.fetched_metadata.biotools__addition_date)
+                    || "No addition date info"
                     }}</v-card-text>
                 </v-card>
               </v-col>
@@ -125,7 +128,8 @@
               <v-col cols="12" md="3" lg="3">
                 <v-card class="data-card">
                   <v-card-title>Last Update</v-card-title>
-                  <v-card-text>{{ getFormattedDate(tool.fetched_metadata.biotools__last_update_date) || "No last update date info"
+                  <v-card-text>{{ getFormattedDate(tool.fetched_metadata.biotools__last_update_date)
+                    || "No last updatedate info"
                     }}</v-card-text>
                 </v-card>
               </v-col>
@@ -156,21 +160,8 @@
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Conda Version</v-card-title>
-                    <v-card-text>{{ getGalaxyCondaVersion || "No conda version info" }}</v-card-text>
-                  </v-card>
-                </v-col>
-
-                <v-col cols="12" md="3" lg="3">
-                  <v-card class="data-card">
-                    <v-card-title>EDAM Operation</v-card-title>
-                    <v-card-text>{{ getGalaxyEdamOperation || "No operation info" }}</v-card-text>
-                  </v-card>
-                </v-col>
-
-                <v-col cols="12" md="3" lg="3">
-                  <v-card class="data-card">
-                    <v-card-title>EDAM Topic</v-card-title>
-                    <v-card-text>{{ getGalaxyEdamTopic || "No topic info" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyCondaVersion ? "v" + getGalaxyCondaVersion : "No conda version info"
+                      }}</v-card-text>
                   </v-card>
                 </v-col>
 
@@ -198,28 +189,30 @@
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Users (5 Years)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsers5Years || "No usage info for 5 years" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyUsers5Years.toLocaleString() || "No usage info for 5 years"
+                      }}</v-card-text>
                   </v-card>
                 </v-col>
 
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Users (All Time)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsersAllTime || "No all-time user info" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyUsersAllTime.toLocaleString() || "No all-time user info" }}</v-card-text>
                   </v-card>
                 </v-col>
 
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Usage (5 Years)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsage5Years || "No usage info for 5 years" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyUsage5Years.toLocaleString() || "No usage info for 5 years"
+                      }}</v-card-text>
                   </v-card>
                 </v-col>
 
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Usage (All Time)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsageAllTime || "No all-time usage info" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyUsageAllTime.toLocaleString() || "No all-time usage info" }}</v-card-text>
                   </v-card>
                 </v-col>
 
@@ -234,6 +227,20 @@
                   <v-card class="data-card">
                     <v-card-title>BioTools Name</v-card-title>
                     <v-card-text>{{ getGalaxyBioToolsName || "No bio tools name" }}</v-card-text>
+                  </v-card>
+                </v-col>
+
+                <v-col cols="12" md="3" lg="3">
+                  <v-card class="data-card">
+                    <v-card-title>EDAM Topic</v-card-title>
+                    <v-card-text>{{ getGalaxyEdamTopic || "No topic info" }}</v-card-text>
+                  </v-card>
+                </v-col>
+
+                <v-col cols="12" md="3" lg="3">
+                  <v-card class="data-card">
+                    <v-card-title>EDAM Operation</v-card-title>
+                    <v-card-text>{{ getGalaxyEdamOperation || "No operation info" }}</v-card-text>
                   </v-card>
                 </v-col>
               </template>
@@ -312,29 +319,34 @@ const getHome = computed(() => {
 });
 
 const getURL = computed(() => {
-  return tool.value.fetched_metadata.bioschemas__home;
+  return getKey(["bioschemas__home"]);
 });
 
 const getDoc = computed(() => {
-  return tool.value.fetched_metadata.bioconda__documentation;
+  return getKey(["bioconda__documentation"]);
 });
 
 const getLicense = computed(() => {
-  return getKey(['biotools__license', 'bioconda__license', 'biocontainers__license']);
+  return getKey(['biotools__license', 'bioschemas__license', 'bioconda__license', 'biocontainers__license']);
 });
 
 const getVersion = computed(() => {
-  return tool.value.fetched_metadata.bioconda__version || null;
+  return getKey(["bioschemas__version", "bioconda__version", "biocontainers__version"]);
 });
 
 const getTotalPulls = computed(() => {
-  return tool.value.fetched_metadata.biocontainers__total_pulls || null;
+  return getKey(["bioschemas__total_pulls", "bioconda__total_pulls", "biocontainers__total_pulls"]);
 });
 
 const getIdentifiers = computed(() => {
-  return Array.isArray(tool.value.fetched_metadata.bioconda__identifiers)
-    ? tool.value.fetched_metadata.bioconda__identifiers
-    : [];
+  if (hasBiocondaData)
+    return Array.isArray(tool.value.fetched_metadata.bioconda__identifiers)
+      ? tool.value.fetched_metadata.bioconda__identifiers
+      : [];
+  else
+    return Array.isArray(tool.value.fetched_metadata.biocontainers__identifiers)
+      ? tool.value.fetched_metadata.biocontainers__identifiers
+      : [];
 });
 
 const formattedIdentifiers = computed(() => {
@@ -371,7 +383,7 @@ const getOwner = computed(() => {
 });
 
 const getOperatingSystems = computed(() => {
-  return tool.value.fetched_metadata.biotools__operating_systems?.join(', ') || null;
+  return tool.value.fetched_metadata.biotools__operating_systems?.join(', ') || tool.value.fetched_metadata.bioschemas__operating_systems?.join(', ') || null;
 });
 
 const getAdditionalPlatforms = computed(() => {
@@ -451,46 +463,16 @@ const getFormattedDate = (dateString) => {
 </script>
 
 <style scoped>
-.v-container {
-  background-color: #2e2e2e;
-  color: white;
-}
-
 .v-card-subtitle {
   padding-top: 25px;
 }
 
-.v-card {
-  background-color: #424242;
-  color: white;
-}
-
 .tool-title {
-  background-color: #757575;
+  background: linear-gradient(to right, #434343 0%, black 100%);
   padding: 10px;
-  color: white;
+  color: #f5f5f5;
+  padding: 20px 30px;
   font-size: 22px !important;
-}
-
-.back-to-listings {
-  background-color: #757575;
-  color: white;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.back-to-listings:hover {
-  background-color: #616161;
-}
-
-.v-alert {
-  margin-top: 20px;
 }
 
 .tool-description {
@@ -501,18 +483,28 @@ const getFormattedDate = (dateString) => {
   font-size: 18px !important;
 }
 
-.data-card {
-  background-color: #616161;
-  margin-bottom: 10px;
-  border-radius: 8px;
+.back-to-listings {
+  color: #333333;
+  background-color: #d6d6d6;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-shadow: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 
-.data-card v-card-title {
-  background-color: #757575;
-  color: white;
+.data-card {
+  color: #333333;
+  background-color: #fff5e4;
+  border-radius: 4px;
+  border: none;
 }
 
 .v-row {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 </style>

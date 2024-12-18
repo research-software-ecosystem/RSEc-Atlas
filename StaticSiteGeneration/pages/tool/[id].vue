@@ -43,15 +43,6 @@
 
               <v-col cols="12" md="3" lg="3">
                 <v-card class="data-card">
-                  <v-card-title>URL</v-card-title>
-                  <v-card-text>
-                    <a :href="getURL" style="  color: #1976D2; text-decoration: none;">{{ getURL || "No URL" }}</a>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-
-              <v-col cols="12" md="3" lg="3">
-                <v-card class="data-card">
                   <v-card-title>Documentation</v-card-title>
                   <v-card-text>
                     <a :href="getDoc" style="  color: #1976D2; text-decoration: none;">{{ getDoc || "No documentation"
@@ -74,45 +65,49 @@
                 </v-card>
               </v-col>
 
-              <v-col cols="12" md="3" lg="3">
+              <!-- <v-col cols="12" md="3" lg="3">
                 <v-card class="data-card">
                   <v-card-title>Total Pulls</v-card-title>
                   <v-card-text>{{ getTotalPulls.toLocaleString() || "No total pulls info" }}</v-card-text>
                 </v-card>
-              </v-col>
-
-              <v-col cols="12" md="3" lg="3">
-                <v-card class="data-card">
-                  <v-card-title>Owner</v-card-title>
-                  <v-card-text>{{ getOwner || "No owner info" }}</v-card-text>
-                </v-card>
-              </v-col>
-
-              <v-col cols="12" md="3" lg="3">
-                <v-card class="data-card">
-                  <v-card-title>Operating Systems</v-card-title>
-                  <v-card-text>{{ getOperatingSystems || "No operating systems info" }}</v-card-text>
-                </v-card>
-              </v-col>
+              </v-col> -->
 
               <v-col cols="12" md="3" lg="12">
                 <v-card class="data-card">
                   <v-card-title>Identifiers</v-card-title>
                   <v-card-text>
-                    <v-card-text v-if="formattedIdentifiers.length == 0">{{ "No identifiers info" }}</v-card-text>
+                    <v-card-text v-if="formattedIdentifiers.length === 0">
+                      No identifiers info
+                    </v-card-text>
                     <v-btn v-for="(identifier, index) in formattedIdentifiers" :key="index"
-                      style="margin-right: 10px; margin-bottom: 10px;" @click="openLink(identifier)">
+                      style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: wheat;"
+                      @click="openLink(identifier)">
+                      <template v-if="identifier.startsWith('bio.tools:')">
+                        <img style="height: 15px; width: 15px; margin-right: 5px;"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg==">
+                      </template>
+                      <template v-else-if="identifier.startsWith('usegalaxy-eu:')">
+                        <img style="height: 15px; width: 20px; margin-right: 5px;"
+                          src="https://elixir-europe.org/sites/default/files/images/biotools-logo.png">
+                      </template>
                       {{ identifier }}
                     </v-btn>
-
                   </v-card-text>
                 </v-card>
               </v-col>
 
-              <v-col cols="12" md="3" lg="3">
+              <v-col cols="12" md="3" lg="12">
                 <v-card class="data-card">
-                  <v-card-title>Additional Platforms</v-card-title>
-                  <v-card-text>{{ getAdditionalPlatforms || "No additional platforms info" }}</v-card-text>
+                  <v-card-title>Publications</v-card-title>
+                  <v-card-text>
+                    <v-card-text v-if="formattedPublications.length == 0">{{ "No publications info" }}</v-card-text>
+                    <v-btn v-for="(publication, index) in formattedPublications" :key="index"
+                      style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: wheat; justify-content: center; align-items: center"
+                      @click="openLink(publication)">
+                      <i class="fas fa-book" style="margin-right: 5px; color: white"></i>
+                      {{ publication }}
+                    </v-btn>
+                  </v-card-text>
                 </v-card>
               </v-col>
 
@@ -167,13 +162,6 @@
 
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
-                    <v-card-title>Galaxy IDs</v-card-title>
-                    <v-card-text>{{ getGalaxyIds || "No galaxy IDs info" }}</v-card-text>
-                  </v-card>
-                </v-col>
-
-                <v-col cols="12" md="3" lg="3">
-                  <v-card class="data-card">
                     <v-card-title>Toolshed Categories</v-card-title>
                     <v-card-text>{{ getGalaxyToolshedCategories || "No toolshed categories info" }}</v-card-text>
                   </v-card>
@@ -189,7 +177,9 @@
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Users (5 Years)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsers5Years.toLocaleString() || "No usage info for 5 years"
+                    <v-card-text>{{ getGalaxyUsers5Years ?
+                      getGalaxyUsers5Years.toLocaleString() :
+                      "No usage info for 5 years"
                       }}</v-card-text>
                   </v-card>
                 </v-col>
@@ -197,14 +187,18 @@
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Users (All Time)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsersAllTime.toLocaleString() || "No all-time user info" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyUsersAllTime ?
+                      getGalaxyUsersAllTime.toLocaleString() :
+                      "No all-time user info" }}</v-card-text>
                   </v-card>
                 </v-col>
 
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Usage (5 Years)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsage5Years.toLocaleString() || "No usage info for 5 years"
+                    <v-card-text>{{ getGalaxyUsage5Years ?
+                      getGalaxyUsage5Years.toLocaleString() :
+                      "No usage info for 5 years"
                       }}</v-card-text>
                   </v-card>
                 </v-col>
@@ -212,7 +206,9 @@
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
                     <v-card-title>Usage (All Time)</v-card-title>
-                    <v-card-text>{{ getGalaxyUsageAllTime.toLocaleString() || "No all-time usage info" }}</v-card-text>
+                    <v-card-text>{{ getGalaxyUsageAllTime ?
+                      getGalaxyUsageAllTime.toLocaleString() :
+                      "No all-time usage info" }}</v-card-text>
                   </v-card>
                 </v-col>
 
@@ -232,20 +228,64 @@
 
                 <v-col cols="12" md="3" lg="3">
                   <v-card class="data-card">
-                    <v-card-title>EDAM Topic</v-card-title>
-                    <v-card-text>{{ getGalaxyEdamTopic || "No topic info" }}</v-card-text>
+                    <v-card-title>EDAM Operation</v-card-title>
+                    <v-card-text>{{ getGalaxyEdamOperation || "No operation info" }}</v-card-text>
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="3" lg="3">
+                <v-col cols="12" md="3" lg="12">
                   <v-card class="data-card">
-                    <v-card-title>EDAM Operation</v-card-title>
-                    <v-card-text>{{ getGalaxyEdamOperation || "No operation info" }}</v-card-text>
+                    <v-card-title>EDAM Topic</v-card-title>
+                    <v-card-text>
+                      <v-card-text v-if="getGalaxyEdamTopics.length == 0">{{ "No topic info" }}</v-card-text>
+                      <v-btn v-for="(topic, index) in getGalaxyEdamTopics" :key="index"
+                        style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: wheat; justify-content: center; align-items: center"
+                        @click="openTopic(topic)">
+                        <i class="fas fa-bookmark" style="margin-right: 5px; color: white"></i>
+                        {{ topic }}
+                      </v-btn>
+                    </v-card-text>
+                  </v-card>
+                </v-col>
+
+                <v-col cols="12" md="3" lg="12">
+                  <v-card class="data-card">
+                    <v-card-title>Galaxy IDs</v-card-title>
+                    <v-card-text>{{ getGalaxyIds || "No galaxy IDs info" }}</v-card-text>
                   </v-card>
                 </v-col>
               </template>
             </v-row>
           </v-card-text>
+
+          <v-row style="background: linear-gradient(to right, #434343 0%, black 100%); color: white; padding: 20px;">
+            <!-- Install with Conda Section -->
+            <v-col cols="12" md="4" lg="4" style="text-align: center;">
+              <h3 style="margin-bottom: 10px;">Install with Conda</h3>
+              <v-btn style="margin: 5px; background-color: #1976D2; color: white;">Conda Button 1</v-btn>
+              <v-btn style="margin: 5px; background-color: #1976D2; color: white;">Conda Button 2</v-btn>
+              <p style="margin-top: 10px;">Command string 1 for Conda.</p>
+              <p>Command string 2 for Conda.</p>
+            </v-col>
+
+            <!-- Install with Containers Section -->
+            <v-col cols="12" md="4" lg="4" style="text-align: center;">
+              <h3 style="margin-bottom: 10px;">Install with Containers</h3>
+              <v-btn style="margin: 5px; background-color: #1976D2; color: white;">Container Button 1</v-btn>
+              <v-btn style="margin: 5px; background-color: #1976D2; color: white;">Container Button 2</v-btn>
+              <p style="margin-top: 10px;">Command string 1 for Containers.</p>
+              <p>Command string 2 for Containers.</p>
+            </v-col>
+
+            <!-- Run in Galaxy Section -->
+            <v-col cols="12" md="4" lg="4" style="text-align: center;">
+              <h3 style="margin-bottom: 10px;">Run in Galaxy</h3>
+              <v-btn style="margin: 5px; background-color: #1976D2; color: white;">Galaxy Button 1</v-btn>
+              <v-btn style="margin: 5px; background-color: #1976D2; color: white;">Galaxy Button 2</v-btn>
+              <p style="margin-top: 10px;">Command string 1 for Galaxy.</p>
+              <p>Command string 2 for Galaxy.</p>
+            </v-col>
+          </v-row>
         </v-card>
 
         <div v-else>Fetching tools data...</div>
@@ -318,10 +358,6 @@ const getHome = computed(() => {
   return getKey(['biotools__home', 'bioconda__home', 'biocontainers__home', 'galaxy__source']);
 });
 
-const getURL = computed(() => {
-  return getKey(["bioschemas__home"]);
-});
-
 const getDoc = computed(() => {
   return getKey(["bioconda__documentation"]);
 });
@@ -334,19 +370,32 @@ const getVersion = computed(() => {
   return getKey(["bioschemas__version", "bioconda__version", "biocontainers__version"]);
 });
 
-const getTotalPulls = computed(() => {
-  return getKey(["bioschemas__total_pulls", "bioconda__total_pulls", "biocontainers__total_pulls"]);
-});
+// const getTotalPulls = computed(() => {
+//   return getKey(["bioschemas__total_pulls", "bioconda__total_pulls", "biocontainers__total_pulls"]);
+// });
 
 const getIdentifiers = computed(() => {
-  if (hasBiocondaData)
-    return Array.isArray(tool.value.fetched_metadata.bioconda__identifiers)
-      ? tool.value.fetched_metadata.bioconda__identifiers
-      : [];
-  else
-    return Array.isArray(tool.value.fetched_metadata.biocontainers__identifiers)
-      ? tool.value.fetched_metadata.biocontainers__identifiers
-      : [];
+  const identifiersList = new Set();
+  if (hasBiocondaData && Array.isArray(tool.value.fetched_metadata.bioconda__identifiers)) {
+    tool.value.fetched_metadata.bioconda__identifiers.forEach(id => !id.startsWith("doi:") && identifiersList.add(id));
+  }
+  if (hasBiocontainersData && Array.isArray(tool.value.fetched_metadata.biocontainers__identifiers)) {
+    tool.value.fetched_metadata.biocontainers__identifiers.forEach(id => !id.startsWith("doi:") && identifiersList.add(id));
+  }
+  const uniqueIdentifiersList = Array.from(identifiersList).sort();
+  return uniqueIdentifiersList;
+});
+
+const getPublications = computed(() => {
+  const publicationsList = new Set();
+  if (hasBiocondaData && Array.isArray(tool.value.fetched_metadata.bioconda__identifiers)) {
+    tool.value.fetched_metadata.bioconda__identifiers.forEach(id => id.startsWith("doi:") && publicationsList.add(id));
+  }
+  if (hasBiocontainersData && Array.isArray(tool.value.fetched_metadata.biocontainers__identifiers)) {
+    tool.value.fetched_metadata.biocontainers__identifiers.forEach(id => id.startsWith("doi:") && publicationsList.add(id));
+  }
+  const uniquePublicationsList = Array.from(publicationsList).sort();
+  return uniquePublicationsList;
 });
 
 const formattedIdentifiers = computed(() => {
@@ -354,9 +403,7 @@ const formattedIdentifiers = computed(() => {
   return identifiers.map(identifier => {
     const trimmed = identifier.trim();
 
-    if (trimmed.startsWith("doi:")) {
-      return `doi:${trimmed.slice(4)}`;
-    } else if (trimmed.startsWith("biotools:")) {
+    if (trimmed.startsWith("biotools:")) {
       return `bio.tools:${trimmed.slice(9)}`;
     } else if (trimmed.startsWith("usegalaxy-eu:")) {
       return `usegalaxy-eu:${trimmed.slice(13)}`;
@@ -365,6 +412,15 @@ const formattedIdentifiers = computed(() => {
     return trimmed;
   });
 });
+
+const formattedPublications = computed(() => {
+  const publications = getPublications.value;
+  return publications.map(publication => {
+    const trimmed = publication.trim();
+    return `doi:${trimmed.slice(4)}`;
+  });
+});
+
 
 const openLink = (identifier) => {
   const trimmedIdentifier = identifier.trim();
@@ -378,17 +434,12 @@ const openLink = (identifier) => {
   }
 };
 
-const getOwner = computed(() => {
-  return tool.value.fetched_metadata.biotools__owner || null;
-});
+const openTopic = (topic) => {
+  const trimmedTopic = topic.trim();
+  const currentOrigin = window.location.origin;
+  window.open(`${currentOrigin}/StudyProject/search/${trimmedTopic}`, "_blank");
+};
 
-const getOperatingSystems = computed(() => {
-  return tool.value.fetched_metadata.biotools__operating_systems?.join(', ') || tool.value.fetched_metadata.bioschemas__operating_systems?.join(', ') || null;
-});
-
-const getAdditionalPlatforms = computed(() => {
-  return tool.value.fetched_metadata.bioconda__additional_platforms?.join(', ') || null;
-});
 
 const getGalaxyFirstCommit = computed(() => {
   return tool.value.fetched_metadata.galaxy__first_commit || null;
@@ -410,8 +461,8 @@ const getGalaxyEdamOperation = computed(() => {
   return tool.value.fetched_metadata.galaxy__edam_operation || null;
 });
 
-const getGalaxyEdamTopic = computed(() => {
-  return tool.value.fetched_metadata.galaxy__edam_topic || null;
+const getGalaxyEdamTopics = computed(() => {
+  return tool.value.fetched_metadata.galaxy__edam_topic.split(",").map((item) => item.trim()) || null;
 });
 
 const getGalaxyIds = computed(() => {

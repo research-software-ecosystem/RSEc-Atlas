@@ -31,7 +31,6 @@ def extract_bioconda_data(data):
         "bioconda__documentation": replace_empty_with_null(data.get('about', {}).get('doc_url')),
         "bioconda__license": replace_empty_with_null(data.get('about', {}).get('license')),
         "bioconda__summary": replace_empty_with_null(data.get('about', {}).get('summary')),
-        "bioconda__additional_platforms": replace_empty_with_null(data.get('extra', {}).get('additional-platforms')),
         "bioconda__identifiers": replace_empty_with_null(data.get('extra', {}).get('identifiers')),
         "bioconda__version": replace_empty_with_null(data.get('package', {}).get('version'))
     }
@@ -53,8 +52,6 @@ def extract_biotools_data(data):
         "biotools__summary": replace_empty_with_null(data.get('description')),
         "biotools__addition_date": replace_empty_with_null(data.get('additionDate')),
         "biotools__last_update_date": replace_empty_with_null(data.get('lastUpdate')),
-        "biotools__operating_systems": replace_empty_with_null(data.get('operatingSystem')),
-        "biotools__owner": replace_empty_with_null(data.get('owner')),
         "biotools__tool_type": replace_empty_with_null(data.get('toolType'))
     }
 
@@ -65,10 +62,8 @@ def extract_bioschemas_data(data):
     return {
         "bioschemas__name": replace_empty_with_null(bioschemas_entry.get('sc:name')),
         "bioschemas__home": replace_empty_with_null(bioschemas_entry.get('@id')),
-        "bioschemas__url": replace_empty_with_null(bioschemas_entry.get('sc:url')),
         "bioschemas__license": replace_empty_with_null(bioschemas_entry.get('sc:license')),
         "bioschemas__summary": replace_empty_with_null(bioschemas_entry.get('sc:description')),
-        "bioschemas__operating_systems": replace_empty_with_null(bioschemas_entry.get('sc:operatingSystem')),
         "bioschemas__primary_contact": replace_empty_with_null(bioschemas_entry.get('biotools:primaryContact')),
         "bioschemas__tool_type": replace_empty_with_null(bioschemas_entry.get('@type'))
     }

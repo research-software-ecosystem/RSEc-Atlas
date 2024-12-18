@@ -1,5 +1,4 @@
 <template>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <v-container>
     <!-- Search, Sort, and Filter UI -->
     <!-- Search UI with Icon -->
@@ -7,21 +6,38 @@
       <v-col cols="12" md="4">
         <div class="icon-wrapper">
           <div class="icon fas fa-search"></div>
-          <v-text-field ref="searchInput" label="Search Tools..." @input="executeSearch" class="input-with-icon" />
+          <v-text-field id="searchInput" ref="searchInput" label="Search Tools or Tags" @input="executeSearch"
+            class="input-with-icon" />
         </div>
       </v-col>
       <!-- Sort By with Icon -->
-      <v-col cols="12" md="4">
+      <v-col cols="12" md="2">
         <div class="icon-wrapper">
           <div class="icon fas fa-sort"></div>
           <v-select v-model="sortKey" :items="sortOptions" label="Sort By" @input="resetPage" class="input-with-icon" />
         </div>
       </v-col>
-      <!-- Filter by License with Icon -->
-      <v-col cols="12" md="4">
+      <!-- Filter by Data Availability -->
+      <v-col cols="12" md="2">
         <div class="icon-wrapper">
-          <div class="icon fas fa-filter"></div>
+          <div class="icon fas fa-database"></div>
+          <v-select v-model="dataFilter" :items="dataOptions" label="Filter by Data Availability" @input="resetPage"
+            class="input-with-icon" />
+        </div>
+      </v-col>
+      <!-- Filter by License with Icon -->
+      <v-col cols="12" md="2">
+        <div class="icon-wrapper">
+          <div class="icon fas fa-stamp"></div>
           <v-select v-model="licenseFilter" :items="licenseOptions" label="Filter by License" @input="resetPage"
+            class="input-with-icon" />
+        </div>
+      </v-col>
+      <!-- Filter by Favorites -->
+      <v-col cols="12" md="2">
+        <div class="icon-wrapper">
+          <div class="icon fas fa-heart"></div>
+          <v-select v-model="favoritesFilter" :items="favoritesOptions" label="Filter by Favorites" @input="resetPage"
             class="input-with-icon" />
         </div>
       </v-col>
@@ -71,19 +87,26 @@
 
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import { useFetch } from '#app';
 import { debounce } from 'lodash';
 
 const searchInput = ref(null);
 const searchQuery = ref('');
 const sortKey = ref('Total Pulls');
-const licenseFilter = ref('');
 const currentPage = ref(1);
 const itemsPerPage = 6;
 const favoriteItems = ref(JSON.parse(localStorage.getItem('favorites')) || []);
 const sortOptions = ['Total Pulls', 'Name', 'Creation Date', 'Last Updated'];
+const licenseFilter = ref('All');
 const licenseOptions = ref(['All']);
+const favoritesFilter = ref('All');
+const favoritesOptions = ['All', 'Favorites'];
+const dataFilter = ref('All');
+const dataOptions = ['All', 'Has Bioconda Package', 'Has Containers', 'Compatible with Galaxy'];
 const { data: tools, pending, error } = await useFetch('/combined_metadata.json');
+const route = useRoute();
+const router = useRouter();
 
 onMounted(() => {
   const licenses = new Set();
@@ -97,9 +120,23 @@ onMounted(() => {
     }
   });
   licenseOptions.value = ['All', ...Array.from(licenses)];
+  const queryParam = route.query.search;
+  if (queryParam) {
+    const queryString = queryParam
+      .split(" ")
+      .map((part) => part.trim())
+      .join(", ");
+
+    searchQuery.value = queryString;
+
+    const searchInputElement = document.getElementById("searchInput");
+    const inputEvent = new Event('input', { bubbles: true });
+    searchInputElement.value = queryString;
+    searchInputElement.dispatchEvent(inputEvent);
+  }
 });
 
-watch([searchQuery, sortKey, licenseFilter], () => {
+watch([searchQuery, sortKey, licenseFilter, dataFilter], () => {
   currentPage.value = 1;
 });
 
@@ -113,20 +150,45 @@ const filteredItems = computed(() => {
     const hasMetadata = Object.keys(item.fetched_metadata).length > 0;
     if (!hasMetadata) return false;
 
+    // License Filter
     if (licenseFilter.value && licenseFilter.value !== 'All') {
       const toolLicense = getToolLicense(item);
       if (toolLicense !== licenseFilter.value) return false;
+    }
+
+    // Data Filter
+    if (dataFilter.value !== 'All') {
+      const keys = Object.keys(item.fetched_metadata);
+      if (dataFilter.value === 'Has Bioconda Package' && !keys.some(k => k.startsWith('bioconda__'))) {
+        return false;
+      }
+      if (dataFilter.value === 'Has Containers' && !keys.some(k => k.startsWith('biocontainers__'))) {
+        return false;
+      }
+      if (dataFilter.value === 'Compatible with Galaxy' && !keys.some(k => k.startsWith('galaxy__'))) {
+        return false;
+      }
+    }
+
+    // Favorites Filter
+    if (favoritesFilter.value === 'Favorites' && !isFavorite(item)) {
+      return false;
     }
 
     return true;
   });
 
   if (query) {
-    filtered.forEach(item => {
-      const nameMatch = getToolName(item).toLowerCase().includes(query);
-      const descriptionMatch = getToolDescription(item).toLowerCase().includes(query);
+    const searchParts = query.split(',').map(part => part.trim());
 
-      if (nameMatch || descriptionMatch) {
+    filtered.forEach(item => {
+      const nameMatch = getToolName(item).toLowerCase();
+      const descriptionMatch = getToolDescription(item).toLowerCase();
+      const tagsMatch = getToolTags(item).map(tag => tag.toLowerCase());
+      let matches = searchParts.every(part => {
+        return nameMatch.includes(part) || descriptionMatch.includes(part) || tagsMatch.some(tag => tag.includes(part));
+      });
+      if (matches) {
         uniqueResults.add(item);
       }
     });
@@ -136,6 +198,7 @@ const filteredItems = computed(() => {
 
   filtered = Array.from(uniqueResults);
 
+  // Sorting logic
   if (sortKey.value === 'Name') {
     filtered.sort((a, b) => getToolName(a).localeCompare(getToolName(b)));
   } else if (sortKey.value === 'Total Pulls') {
@@ -217,6 +280,11 @@ const getToolDescription = (tool) => {
     || tool.fetched_metadata.biocontainers__summary
     || tool.fetched_metadata.galaxy__summary
     || "No Description Available";
+};
+
+const getToolTags = (tool) => {
+  return tool.fetched_metadata.galaxy__edam_topic ? tool.fetched_metadata.galaxy__edam_topic.split(',')
+    : [];
 };
 
 const getToolLicense = (tool) => {

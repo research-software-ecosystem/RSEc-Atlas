@@ -1,5 +1,4 @@
 <template>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
   <head>
@@ -10,10 +9,17 @@
     <v-container fluid>
       <!-- Header -->
       <v-app-bar color="secondary" elevate-on-scroll flat>
-        <div class="header-logo">
+        <!-- Logo -->
+        <NuxtLink to="/" class="header-logo">
           <img src="./public/logo-rsec.svg" alt="RSE Logo" class="logo-image" />
-        </div>
-        <v-app-bar-title class="header-title">RSE Metadata Explorer</v-app-bar-title>
+        </NuxtLink>
+
+        <!-- Title -->
+        <NuxtLink to="/" class="header-title">
+          RSE Metadata Explorer
+        </NuxtLink>
+
+        <!-- GitHub Link -->
         <div class="github-link" @click="goToGitHub">
           <i class="fab fa-github"></i>
           <span>GitHub</span>
@@ -39,7 +45,6 @@
 </template>
 
 <script setup>
-
 const goToGitHub = () => {
   window.open(
     'https://github.com/research-software-ecosystem/research-software-ecosystem.github.io',
@@ -68,6 +73,8 @@ body {
   font-weight: bold;
   margin-left: 10px;
   color: #333333;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header-logo {

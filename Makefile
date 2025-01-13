@@ -12,8 +12,6 @@ install-all:
 	@command -v pip3 >/dev/null 2>&1 || { echo "pip not found, installing..."; sudo apt-get install -y python3-pip; }
 	@command -v node >/dev/null 2>&1 || { echo "Node.js not found, installing..."; sudo apt-get install -y nodejs; }
 
-	sudo python3 -m pip install -r MergeDataFiles/requirements.txt
-
 	export NUXT_TELEMETRY_DISABLED=1
 	cd $(STATIC_SITE_DIR) && npm install
 
@@ -44,6 +42,7 @@ update-content:
 
 # Run the Python script to generate combined metadata
 run-python: update-content
+	python3 -m pip install -r MergeDataFiles/requirements.txt
 	python3 $(PYTHON_SCRIPT)
 
 # Copy the generated metadata to the static site directory

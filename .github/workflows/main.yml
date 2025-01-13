@@ -32,15 +32,15 @@ jobs:
       run: |
         make install-all
 
-    # Run Makefile rule: run-python (run the Python script to generate combined metadata)
-    - name: Run Python processing
-      run: |
-        make run-python
+    # # Run Makefile rule: run-python (run the Python script to generate combined metadata)
+    # - name: Run Python processing
+    #   run: |
+    #     make run-python
 
-    # Run Makefile rule: copy-metadata (copy metadata to public directory)
-    - name: Copy metadata to public directory
-      run: |
-        make copy-metadata
+    # # Run Makefile rule: copy-metadata (copy metadata to public directory)
+    # - name: Copy metadata to public directory
+    #   run: |
+    #     make copy-metadata
 
     # Run Makefile rule: generate-site (generate static site)
     - name: Generate static site

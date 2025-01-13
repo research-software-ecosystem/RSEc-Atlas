@@ -27,22 +27,22 @@ jobs:
       with:
         node-version: '18'
 
-    # Run Makefile rule: run-python
+    # Run Makefile rule: install-all (install Python, Node.js dependencies)
+    - name: Install all dependencies (Python and Node.js)
+      run: |
+        make install-all
+
+    # Run Makefile rule: run-python (run the Python script to generate combined metadata)
     - name: Run Python processing
       run: |
         make run-python
 
-    # Run Makefile rule: copy-metadata
+    # Run Makefile rule: copy-metadata (copy metadata to public directory)
     - name: Copy metadata to public directory
       run: |
         make copy-metadata
 
-    # Run Makefile rule: install-node
-    - name: Install npm dependencies
-      run: |
-        make install-node
-
-    # Run Makefile rule: generate-site
+    # Run Makefile rule: generate-site (generate static site)
     - name: Generate static site
       run: |
         make generate-site

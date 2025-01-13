@@ -1,22 +1,31 @@
 <template>
+  <!-- Loading overlay -->
+  <div v-if="loading || fakeLoading" class="loading-overlay">
+    <div v-if="!fakeLoading" class="spinner"></div>
+    <p v-if="!fakeLoading" style="font-weight: bold; font-size: 16px;">Loading bio tools and containers...</p>
+  </div>
+
   <v-container>
     <!-- Search, Sort, and Filter UI -->
-    <!-- Search UI with Icon -->
     <v-row>
+      <!-- Search UI -->
       <v-col cols="12" md="4">
         <div class="icon-wrapper">
           <div class="icon fas fa-search"></div>
-          <v-text-field id="searchInput" ref="searchInput" label="Search Tools or Tags" @input="executeSearch"
-            class="input-with-icon" />
+          <v-text-field id="searchInput" ref="searchInput" label="Search Tools and Topics" @input="executeSearch"
+            class="input-with-icon" hint="Enter a comma-separated search query. Use 'tag:' prefix to search by topics."
+            persistent-hint />
         </div>
       </v-col>
-      <!-- Sort By with Icon -->
+
+      <!-- Sort By -->
       <v-col cols="12" md="2">
         <div class="icon-wrapper">
           <div class="icon fas fa-sort"></div>
           <v-select v-model="sortKey" :items="sortOptions" label="Sort By" @input="resetPage" class="input-with-icon" />
         </div>
       </v-col>
+
       <!-- Filter by Data Availability -->
       <v-col cols="12" md="2">
         <div class="icon-wrapper">
@@ -25,7 +34,8 @@
             class="input-with-icon" />
         </div>
       </v-col>
-      <!-- Filter by License with Icon -->
+
+      <!-- Filter by License -->
       <v-col cols="12" md="2">
         <div class="icon-wrapper">
           <div class="icon fas fa-stamp"></div>
@@ -33,6 +43,7 @@
             class="input-with-icon" />
         </div>
       </v-col>
+
       <!-- Filter by Favorites -->
       <v-col cols="12" md="2">
         <div class="icon-wrapper">
@@ -43,31 +54,40 @@
       </v-col>
     </v-row>
 
-    <div v-if="pending">Fetching the bio tools data, please wait.</div>
-    <div v-if="error">Error fetching items: {{ error.message }}</div>
+    <!-- EDAM Topics -->
+    <v-row v-if="filteredTopics.length && searchQuery">
+      <v-col cols="12" style="padding-top: 0">
+        <v-card
+          style="padding:20px; padding-bottom: 10px; background-color: #ededed; border-top-left-radius: 0px; border-top-right-radius: 0px; border-top: 1px solid #a6a6a6; box-shadow: none;">
+          <v-card-text style="padding: 0px;">
+            <v-btn v-for="(topic, index) in filteredTopics" :key="index"
+              style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: white; justify-content: center; align-items: center; font-size: 12px"
+              @click="openTopic(topic)">
+              <i class="fas fa-tag" style="margin-right: 5px; color: white"></i>
+              {{ topic }}
+            </v-btn>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
 
     <!-- Tool List -->
     <v-row v-if="filteredItems.length">
       <v-col cols="12" md="4" v-for="tool in paginatedItems" :key="tool.search_index">
         <v-card>
           <v-card-title>
-            <router-link :to="`/tool/${encodeURIComponent(tool.tool_name)}`">{{ getToolName(tool) }}</router-link>
+            <router-link :to="`/tool/${encodeURIComponent(tool.tool_name)}`" @click="makeLoading">{{ getToolName(tool)
+              }}</router-link>
           </v-card-title>
-          <v-card-subtitle>{{ getToolDescription(tool) ?
-            !getToolDescription(tool).endsWith(".") ?
-              getToolDescription(tool).trim() + "."
-              : getToolDescription(tool).trim()
-            : "No description" }}</v-card-subtitle>
+          <v-card-subtitle>{{ getToolDescription(tool) ? getToolDescription(tool).trim() : "No description"
+            }}</v-card-subtitle>
           <v-card-text>
             <strong>License:</strong> {{ getToolLicense(tool) }}<br />
-            <strong>Version:</strong> {{ getToolVersion(tool) !== "No Version Info" ?
-              "v" + getToolVersion(tool)
-              : "No Version Info" }}<br />
-            <strong>Total Pulls:</strong> {{ getToolTotalPulls(tool).toLocaleString() }}<br />
-            <strong>Last Updated:</strong>
-            {{ tool.fetched_metadata.biotools__last_update_date ?
-              formatDate(tool.fetched_metadata.biotools__last_update_date)
-              : "No Last Update Info" }}
+            <strong>Version:</strong> {{ getToolVersion(tool) !== "No Version Info"
+              ? "v" + getToolVersion(tool)
+              : "No Version Info" }} <br />
+            <strong>Last Updated:</strong> {{ tool.fetched_metadata.biotools__last_update_date ?
+              formatDate(tool.fetched_metadata.biotools__last_update_date) : "No Last Update Info" }}
           </v-card-text>
           <v-card-actions>
             <v-btn @click="toggleFavorite(tool)">
@@ -77,7 +97,11 @@
         </v-card>
       </v-col>
     </v-row>
-    <div v-else>No tools found.</div>
+
+    <div style="margin-top: 20px" v-else v-if="!loading && !fakeLoading">
+      No tools found.
+      <span style="font-weight: 600; margin-left: 6px; font-size: 20px;">¯\_(ツ)_/¯</span>
+    </div>
 
     <!-- Pagination Controls -->
     <v-pagination v-model="currentPage" :length="totalPages" :total-visible="pageNumbers.length"
@@ -91,52 +115,33 @@ import { useRoute, useRouter } from 'vue-router';
 import { useFetch } from '#app';
 import { debounce } from 'lodash';
 
+const tools = ref([]);
 const searchInput = ref(null);
 const searchQuery = ref('');
-const sortKey = ref('Total Pulls');
+const sortKey = ref('Name');
 const currentPage = ref(1);
 const itemsPerPage = 6;
 const favoriteItems = ref(JSON.parse(localStorage.getItem('favorites')) || []);
-const sortOptions = ['Total Pulls', 'Name', 'Creation Date', 'Last Updated'];
+const sortOptions = ['Name', 'Creation Date', 'Last Updated'];
 const licenseFilter = ref('All');
 const licenseOptions = ref(['All']);
 const favoritesFilter = ref('All');
 const favoritesOptions = ['All', 'Favorites'];
 const dataFilter = ref('All');
+const loading = ref(false);
+const fakeLoading = ref(false);
 const dataOptions = ['All', 'Has Bioconda Package', 'Has Containers', 'Compatible with Galaxy'];
-const { data: tools, pending, error } = await useFetch('/combined_metadata.json');
+const allTopics = ref([]);
+const filteredTopics = ref([]);
 const route = useRoute();
 const router = useRouter();
 
 onMounted(() => {
-  const licenses = new Set();
-  tools.value.forEach(tool => {
-    let licenseName = tool.fetched_metadata.biotools__license
-      || tool.fetched_metadata.bioschemas__license
-      || tool.fetched_metadata.bioconda__license
-      || tool.fetched_metadata.biocontainers__license;
-    if (licenseName && licenseName.toLowerCase() !== "not available") {
-      licenses.add(licenseName);
-    }
-  });
-  licenseOptions.value = ['All', ...Array.from(licenses)];
-  const queryParam = route.query.search;
-  if (queryParam) {
-    const queryString = queryParam
-      .split(" ")
-      .map((part) => part.trim())
-      .join(", ");
-
-    searchQuery.value = queryString;
-
-    const searchInputElement = document.getElementById("searchInput");
-    const inputEvent = new Event('input', { bubbles: true });
-    searchInputElement.value = queryString;
-    searchInputElement.dispatchEvent(inputEvent);
-  }
+  fetchData();
 });
 
 watch([searchQuery, sortKey, licenseFilter, dataFilter], () => {
+  makeLoading();
   currentPage.value = 1;
 });
 
@@ -146,6 +151,7 @@ const filteredItems = computed(() => {
 
   let filtered = Array.isArray(tools.value) ? tools.value : [];
 
+  // Apply filters
   filtered = filtered.filter(item => {
     const hasMetadata = Object.keys(item.fetched_metadata).length > 0;
     if (!hasMetadata) return false;
@@ -158,14 +164,14 @@ const filteredItems = computed(() => {
 
     // Data Filter
     if (dataFilter.value !== 'All') {
-      const keys = Object.keys(item.fetched_metadata);
-      if (dataFilter.value === 'Has Bioconda Package' && !keys.some(k => k.startsWith('bioconda__'))) {
+      const contents = item.contents;
+      if (dataFilter.value === 'Has Bioconda Package' && !contents.includes('bioconda')) {
         return false;
       }
-      if (dataFilter.value === 'Has Containers' && !keys.some(k => k.startsWith('biocontainers__'))) {
+      if (dataFilter.value === 'Has Containers' && !contents.includes('biocontainers')) {
         return false;
       }
-      if (dataFilter.value === 'Compatible with Galaxy' && !keys.some(k => k.startsWith('galaxy__'))) {
+      if (dataFilter.value === 'Compatible with Galaxy' && !contents.includes('galaxy')) {
         return false;
       }
     }
@@ -178,20 +184,80 @@ const filteredItems = computed(() => {
     return true;
   });
 
+  // Searching logic
+  let prioritizedResults = [];
   if (query) {
-    const searchParts = query.split(',').map(part => part.trim());
+    const searchParts = query.split(',').map(part => part && part.trim().toLowerCase());
+    let tagQueries = searchParts.filter(part => part.startsWith('tag:')).map(part => part && part.replace(/^tag:/, '').trim().toLowerCase());
+    const isStarTag = tagQueries.filter((item) => item === "*");
+    const nonTagQueries = searchParts.filter(part => !part.startsWith('tag:')).map(part => part.trim().toLowerCase());
+
+    tagQueries = tagQueries.filter((item) => item !== "*");
+
+    if (isStarTag.length > 0) {
+      filteredTopics.value = allTopics.value;
+    }
+    else if (tagQueries.length > 0) {
+      filteredTopics.value = allTopics.value.filter(item => {
+        return tagQueries.some(part => item.toLowerCase().includes(part));
+      }).slice(0, 13);
+      filtered = filtered.filter(item => {
+        const itemTags = getToolTopics(item).map(tag => tag.trim().toLowerCase());
+        return tagQueries.every(query => itemTags.includes(query.trim().toLowerCase()));
+      }).slice(0, 13);
+    } else {
+      filteredTopics.value = allTopics.value.filter(item => {
+        return nonTagQueries.some(part => item.toLowerCase().includes(part));
+      });
+    }
+
+    if (nonTagQueries.length > 0) {
+      filtered = filtered.filter(item => {
+        const nameMatch = getToolName(item).toLowerCase();
+        const descriptionMatch = getToolDescription(item).toLowerCase();
+        const tagsMatch = getToolTopics(item).map(tag => tag.toLowerCase());
+
+        return nonTagQueries.every(part =>
+          nameMatch.includes(part) ||
+          descriptionMatch.includes(part) ||
+          tagsMatch.some(tag => tag.includes(part))
+        );
+      });
+    }
 
     filtered.forEach(item => {
       const nameMatch = getToolName(item).toLowerCase();
       const descriptionMatch = getToolDescription(item).toLowerCase();
-      const tagsMatch = getToolTags(item).map(tag => tag.toLowerCase());
-      let matches = searchParts.every(part => {
-        return nameMatch.includes(part) || descriptionMatch.includes(part) || tagsMatch.some(tag => tag.includes(part));
+      const tagsMatch = getToolTopics(item).map(tag => tag.toLowerCase());
+      let matchScore = 0;
+
+      tagQueries.forEach(part => {
+        if (tagsMatch.some(tag => tag.includes(part))) {
+          matchScore += 100;
+        }
       });
-      if (matches) {
-        uniqueResults.add(item);
+
+      nonTagQueries.forEach(part => {
+        if (nameMatch === part) {
+          matchScore += 100;
+        } else if (nameMatch.startsWith(part)) {
+          matchScore += 70;
+        } else if (nameMatch.includes(part)) {
+          matchScore += 50;
+        } else if (tagsMatch.some(tag => tag.includes(part))) {
+          matchScore += 20;
+        } else if (descriptionMatch.includes(part)) {
+          matchScore += 10;
+        }
+      });
+
+      if (matchScore > 0) {
+        prioritizedResults.push({ item, matchScore });
       }
     });
+
+    prioritizedResults.sort((a, b) => b.matchScore - a.matchScore);
+    prioritizedResults.forEach(result => uniqueResults.add(result.item))
   } else {
     filtered.forEach(item => uniqueResults.add(item));
   }
@@ -200,13 +266,11 @@ const filteredItems = computed(() => {
 
   // Sorting logic
   if (sortKey.value === 'Name') {
-    filtered.sort((a, b) => getToolName(a).localeCompare(getToolName(b)));
-  } else if (sortKey.value === 'Total Pulls') {
-    filtered.sort((a, b) => {
-      let pullsA = Number(getToolTotalPulls(a)) || 0;
-      let pullsB = Number(getToolTotalPulls(b)) || 0;
-      return pullsB - pullsA;
-    });
+    if (query) {
+      filtered = prioritizedResults.map(result => result.item);
+    } else {
+      filtered.sort((a, b) => getToolName(a).localeCompare(getToolName(b)));
+    }
   } else if (sortKey.value === 'Creation Date') {
     filtered.sort((a, b) => new Date(a.fetched_metadata.biotools__addition_date) - new Date(b.fetched_metadata.biotools__addition_date));
   } else if (sortKey.value === 'Last Updated') {
@@ -231,9 +295,16 @@ const executeSearch = () => {
   const debounceSearch = debounce(() => {
     resetPage();
     searchQuery.value = searchInput.value?.value || '';
-  }, 1200);
+  }, 900);
 
   debounceSearch();
+};
+
+const makeLoading = () => {
+  fakeLoading.value = true;
+  setTimeout(() => {
+    fakeLoading.value = false;
+  }, 600);
 };
 
 const toggleFavorite = (tool) => {
@@ -267,9 +338,49 @@ const pageNumbers = computed(() => {
   return pages;
 });
 
+const fetchData = async () => {
+  loading.value = true;
+  try {
+    const { data } = await useFetch('/combined_metadata.json');
+    const licenses = new Set();
+    const topics = new Set();
+    const queryParam = route.query.search;
+    tools.value = data.value;
+    tools.value.forEach(tool => {
+      const licenseName = tool.fetched_metadata.biotools__license
+        || tool.fetched_metadata.bioschemas__license
+        || tool.fetched_metadata.bioconda__license
+      if (licenseName && licenseName.toLowerCase() !== "not available") {
+        licenses.add(licenseName);
+      }
+      const toolTopics = tool.fetched_metadata.galaxy__edam_topics ? tool.fetched_metadata.galaxy__edam_topics.split(",").map((item) => item.trim()) : [];
+      if (toolTopics.length)
+        toolTopics.forEach((topic) => topics.add(topic));
+    });
+    licenseOptions.value = ['All', ...Array.from(licenses)];
+    allTopics.value = Array.from(topics).sort((a, b) => a.localeCompare(b));
+    if (queryParam) {
+      const queryString = queryParam
+        .split(",")
+        .map((part) => part.trim())
+        .join(", ");
+
+      searchQuery.value = queryString;
+
+      const searchInputElement = document.getElementById("searchInput");
+      const inputEvent = new Event('input', { bubbles: true });
+      searchInputElement.value = queryString;
+      searchInputElement.dispatchEvent(inputEvent);
+    }
+  } catch (err) {
+    console.error('Error fetching data:', err);
+  } finally {
+    loading.value = false;
+  }
+};
+
 const getToolName = (tool) => {
   return tool.fetched_metadata.bioschemas__name
-    || tool.fetched_metadata.biocontainers__name
     || tool.fetched_metadata.bioconda__name
     || tool.tool_name;
 };
@@ -277,13 +388,12 @@ const getToolName = (tool) => {
 const getToolDescription = (tool) => {
   return tool.fetched_metadata.biotools__summary
     || tool.fetched_metadata.bioconda__summary
-    || tool.fetched_metadata.biocontainers__summary
     || tool.fetched_metadata.galaxy__summary
     || "No Description Available";
 };
 
-const getToolTags = (tool) => {
-  return tool.fetched_metadata.galaxy__edam_topic ? tool.fetched_metadata.galaxy__edam_topic.split(',')
+const getToolTopics = (tool) => {
+  return tool.fetched_metadata.galaxy__edam_topics ? tool.fetched_metadata.galaxy__edam_topics.split(',')
     : [];
 };
 
@@ -292,7 +402,6 @@ const getToolLicense = (tool) => {
     tool.fetched_metadata.biotools__license
     || tool.fetched_metadata.bioschemas__license
     || tool.fetched_metadata.bioconda__license
-    || tool.fetched_metadata.biocontainers__license;
 
   if (licenseName && licenseName.toLowerCase() !== "not available") {
     return licenseName;
@@ -304,15 +413,17 @@ const getToolLicense = (tool) => {
 const getToolVersion = (tool) => {
   return tool.fetched_metadata.bioschemas__version
     || tool.fetched_metadata.bioconda__version
-    || tool.fetched_metadata.biocontainers__version
     || "No Version Info";
 };
 
-const getToolTotalPulls = (tool) => {
-  return tool.fetched_metadata.bioschemas__total_pulls
-    || tool.fetched_metadata.bioconda__total_pulls
-    || tool.fetched_metadata.biocontainers__total_pulls
-    || "No Total Pulls";
+const openTopic = (topic) => {
+  const trimmedTopic = "tag:" + topic.trim().toLowerCase();
+  searchQuery.value = trimmedTopic;
+
+  const searchInputElement = document.getElementById("searchInput");
+  const inputEvent = new Event('input', { bubbles: true });
+  searchInputElement.value = trimmedTopic;
+  searchInputElement.dispatchEvent(inputEvent);
 };
 
 const formatDate = (dateString) => {
@@ -370,5 +481,45 @@ const formatDate = (dateString) => {
   position: absolute;
   top: 12px;
   right: 12px;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-top: 8px solid #1976D2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-overlay p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #555;
 }
 </style>

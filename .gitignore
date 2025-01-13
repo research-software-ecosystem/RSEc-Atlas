@@ -1,0 +1,43 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Package lock file
+package-lock.json
+
+# Local env files
+venv
+
+# PyCharm files
+.idea
+
+# RSC repo
+MergeDataFiles/content
+
+# Run logs
+MergeDataFiles/last_run_logs.txt
+
+# Combined metadata file
+MergeDataFiles/combined_metadata.json
+StaticSiteGeneration/public/combined_metadata.json

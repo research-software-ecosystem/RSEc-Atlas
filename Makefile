@@ -10,15 +10,9 @@ REPO_URL = https://github.com/research-software-ecosystem/content.git
 install-all:
 	@command -v python3 >/dev/null 2>&1 || { echo "Python3 not found, installing..."; sudo apt-get install -y python3; }
 	@command -v pip3 >/dev/null 2>&1 || { echo "pip not found, installing..."; sudo apt-get install -y python3-pip; }
-	@command -v venv >/dev/null 2>&1 || { echo "venv not found, installing..."; sudo apt-get install -y python3-venv; }
 	@command -v node >/dev/null 2>&1 || { echo "Node.js not found, installing..."; sudo apt-get install -y nodejs; }
 
-	@if [ ! -d "venv" ]; then \
-		echo "Creating virtual environment..."; \
-		python3 -m venv venv; \
-	fi
-
-	. venv/bin/activate && python3 -m pip install -r MergeDataFiles/requirements.txt
+	sudo python3 -m pip install -r MergeDataFiles/requirements.txt
 
 	export NUXT_TELEMETRY_DISABLED=1
 	cd $(STATIC_SITE_DIR) && npm install

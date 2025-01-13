@@ -326,7 +326,8 @@
               <div
                 style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
                 <div style="display: inline-block; width: 158px;">Install with Galaxy</div>
-                <div style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
+                <div v-if="getFilteredIdentifiers('galaxy').length > 0"
+                  style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
                 <div style="display: inline-flex; align-items: center; overflow-y: auto;">
                   <v-btn v-for="(identifier, index) in getFilteredIdentifiers('galaxy')" :key="index"
                     style="margin-right: 10px; background-color: #434343; color: white; font-size: 12px; height: 24px; border-radius: 4px; box-shadow: none; padding:2px 8px;"
@@ -343,8 +344,8 @@
                   <code
                     style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
           <span style="color: lightgreen;">[bash command]</span><br />
-          > singularity exec https://depot.galaxyproject.org/singularity/
-          {{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash
+          <span>singularity exec https://depot.galaxyproject.org/singularity/</span>
+          <span>{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash</span>
         </code>
                   <div title="Copy Command"
                     style="position: absolute; top:10px; right: 10px; background-color: #ffffff30; color: white; height: 35px; width: 35px; border-radius: 4px; display: flex; justify-content: center; align-items: center; text-align: center; cursor: pointer; transition: background-color 0.3s ease;"

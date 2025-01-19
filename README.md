@@ -54,7 +54,7 @@ Navigate to the **StaticSiteGeneration** folder and install the required Node.js
 ## Running the Project Locally
 
 ### Step 1: Run the Python Script
-The Python script (`MergeDataFiles.py`) processes and merges the data into `combined_metadata.json`. This file is later used by the Nuxt.js frontend.
+The Python script (`merge_data_files.py`) processes and merges the data into `combined_metadata.json`. This file is later used by the Nuxt.js frontend.
 
 To run the script, use the following command:
 ```bash

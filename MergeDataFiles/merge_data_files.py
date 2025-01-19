@@ -45,7 +45,7 @@ DATA_KEY_MAPPINGS = {
         "biocontainers__identifiers": ("identifiers",),
     },
     "biotools": {
-        "biotools__id": ("biotoolsID"),
+        "biotools__id": ("biotoolsID",),
         "biotools__home": ("homepage",),
         "biotools__license": ("license",),
         "biotools__summary": ("description",),

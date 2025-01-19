@@ -27,10 +27,24 @@ jobs:
       with:
         node-version: '18'
 
+    # Cache the cloned repository directory (MergeDataFiles/content)
+    - name: Cache RSE content directory
+      uses: actions/cache@v3
+      with:
+        path: MergeDataFiles/content
+        key: content-${{ hashFiles('Makefile') }}
+        restore-keys: |
+          content-
+
     # Run Makefile rule: install-all (install Python, Node.js dependencies)
     - name: Install all dependencies (Python and Node.js)
       run: |
         make install-all
+
+    # Run Makefile rule: update-content (handle cloning or updating of the repository)
+    - name: Clone or update RSE content repository
+      run: |
+        make update-content
 
     # Run Makefile rule: run-python (run the Python script to generate combined metadata)
     - name: Run Python processing

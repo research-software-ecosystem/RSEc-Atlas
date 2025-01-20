@@ -195,8 +195,13 @@ def main():
     data_dir = os.path.join(script_dir, "content", "data")
     output_file = os.path.join(script_dir, "combined_metadata.json")
 
+    print(f"Fetching metadata from the directory {data_dir}")
+    log_message(f"Fetching metadata from the directory {data_dir}")
+
     combined_metadata = scan_directory(data_dir)
     save_combined_metadata(output_file, combined_metadata)
+
+    print(f"Metadata combined and saved to {output_file}")
     log_message(f"Metadata combined and saved to {output_file}")
 
 

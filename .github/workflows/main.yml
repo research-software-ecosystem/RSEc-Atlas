@@ -32,7 +32,7 @@ jobs:
       uses: actions/cache@v3
       with:
         path: MergeDataFiles/content
-        key: content-${{ hashFiles('Makefile') }}
+        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master') }}
         restore-keys: |
           content-
 
@@ -41,15 +41,10 @@ jobs:
       run: |
         make install-all
 
-    # Run Makefile rule: update-content (handle cloning or updating of the repository)
+    # Run Makefile rule: refresh-metadata (handle cloning or updating of the repository)
     - name: Clone or update RSE content repository
       run: |
-        make update-content
-
-    # Run Makefile rule: run-python (run the Python script to generate combined metadata)
-    - name: Run Python processing
-      run: |
-        make run-python
+        make refresh-metadata
 
     # Run Makefile rule: copy-metadata (copy metadata to public directory)
     - name: Copy metadata to public directory

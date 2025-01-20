@@ -19,7 +19,7 @@ install-all:
 	cd $(STATIC_SITE_DIR) && npm install
 
 # Clone or update the RSE content repository
-update-content:
+refresh-metadata:
 	if [ ! -d "$(RSE_CONTENT_DIR)/.git" ]; then \
 		echo "Cloning repository..."; \
 		git clone $(REPO_URL) $(RSE_CONTENT_DIR); \
@@ -58,4 +58,4 @@ push-metadata:
 	git push origin combined_metadata
 
 # Full workflow
-run-full-workflow: install-all update-content run-python copy-metadata generate-site
+run-full-workflow: install-all refresh-metadata copy-metadata generate-site

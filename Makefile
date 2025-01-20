@@ -1,4 +1,5 @@
 # Define variables for paths and dependencies
+MAIN_DIR = $(CURDIR)
 STATIC_SITE_DIR = $(CURDIR)/StaticSiteGeneration
 STATIC_SITE_PUBLIC_DIR = $(CURDIR)/StaticSiteGeneration/public
 PYTHON_DIR = $(CURDIR)/MergeDataFiles
@@ -34,7 +35,7 @@ refresh-metadata:
 	CHANGES=$$(git log HEAD..origin/master --oneline | wc -l); \
 	if [ $$CHANGES -gt 0 ] || [ ! -f "$(COMBINED_METADATA)" ]; then \
 		echo "Updates found or combined_metadata.json not present, running Python script..."; \
-		make run-python; \
+		cd $(MAIN_DIR) && make run-python; \
 	else \
 		echo "No updates, skipping Python script."; \
 	fi

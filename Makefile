@@ -20,7 +20,7 @@ install-all:
 
 # Clone or update the RSE content repository
 refresh-metadata:
-	if [ ! -d "$(RSE_CONTENT_DIR)/.git" ]; then \
+	if [ ! -d "$(RSE_CONTENT_DIR)/.git" ] && [ ! -f "$(COMBINED_METADATA)" ]; then \
 		echo "Cloning repository..."; \
 		git clone $(REPO_URL) $(RSE_CONTENT_DIR); \
 	else \

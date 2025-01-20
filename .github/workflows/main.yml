@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: '18'
 
-    # Cache the cloned repository directory and the combined_metadata.json file
+    # Cache or restore the cloned repository directory and the combined metadata JSON file
     - name: Cache RSE content directory and metadata
       uses: actions/cache@v3
       with:
@@ -43,7 +43,7 @@ jobs:
       run: |
         make install-all
 
-    # Run Makefile rule: refresh-metadata (handle cloning or updating of the repository)
+    # Run Makefile rule: refresh-metadata (handle cloning or updating of the repository and generating combined metadata JSON file)
     - name: Clone or update RSE content repository
       run: |
         make refresh-metadata

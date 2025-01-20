@@ -1,6 +1,7 @@
 # Define variables for paths and dependencies
 STATIC_SITE_DIR = StaticSiteGeneration
-PUBLIC_DIR = StaticSiteGeneration/public
+STATIC_SITE_PUBLIC_DIR = StaticSiteGeneration/public
+PYTHON_DIR = MergeDataFiles
 PYTHON_SCRIPT = MergeDataFiles/merge_data_files.py
 PYTHON_REQUIREMENTS = MergeDataFiles/requirements.txt
 COMBINED_METADATA = MergeDataFiles/combined_metadata.json
@@ -22,10 +23,10 @@ install-all:
 refresh-metadata:
 	if [ ! -d "$(RSE_CONTENT_DIR)/.git" ]; then \
 		echo "Cloning repository..."; \
-		git clone $(REPO_URL) $(RSE_CONTENT_DIR); \
+		git clone --depth=1 $(REPO_URL) $(RSE_CONTENT_DIR); \
 	else \
 		echo "Updating repository..."; \
-		cd $(RSE_CONTENT_DIR) && git pull; \
+		cd $(RSE_CONTENT_DIR) && git fetch --depth=1 && git reset --hard origin/master; \
 	fi
 
 	# Check if updates exist
@@ -40,22 +41,15 @@ refresh-metadata:
 
 # Run the Python script to generate combined metadata
 run-python:
-	python3 $(PYTHON_SCRIPT)
+	cd $(PYTHON_DIR) && python3 $(PYTHON_SCRIPT)
 
 # Copy the generated metadata to the static site directory
 copy-metadata:
-	cp $(COMBINED_METADATA) $(PUBLIC_DIR)
+	cp $(COMBINED_METADATA) $(STATIC_SITE_PUBLIC_DIR)
 
 # Generate the static site
 generate-site:
 	cd $(STATIC_SITE_DIR) && npm run generate
-
-# Push combined_metadata.json to a special branch
-push-metadata:
-	git checkout -B combined_metadata
-	git add $(COMBINED_METADATA)
-	git commit -m "Update combined_metadata.json"
-	git push origin combined_metadata
 
 # Full workflow
 run-full-workflow: install-all refresh-metadata copy-metadata generate-site

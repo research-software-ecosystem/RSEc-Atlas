@@ -1,11 +1,11 @@
 # Define variables for paths and dependencies
-STATIC_SITE_DIR = /StaticSiteGeneration
-STATIC_SITE_PUBLIC_DIR = /StaticSiteGeneration/public
-PYTHON_DIR = /MergeDataFiles
-PYTHON_SCRIPT = /MergeDataFiles/merge_data_files.py
-PYTHON_REQUIREMENTS = /MergeDataFiles/requirements.txt
-COMBINED_METADATA = /MergeDataFiles/combined_metadata.json
-RSE_CONTENT_DIR = /MergeDataFiles/content
+STATIC_SITE_DIR = $(CURDIR)/StaticSiteGeneration
+STATIC_SITE_PUBLIC_DIR = $(CURDIR)/StaticSiteGeneration/public
+PYTHON_DIR = $(CURDIR)/MergeDataFiles
+PYTHON_SCRIPT = $(CURDIR)/MergeDataFiles/merge_data_files.py
+PYTHON_REQUIREMENTS = $(CURDIR)/MergeDataFiles/requirements.txt
+COMBINED_METADATA = $(CURDIR)/MergeDataFiles/combined_metadata.json
+RSE_CONTENT_DIR = $(CURDIR)/MergeDataFiles/content
 REPO_URL = https://github.com/research-software-ecosystem/content.git
 
 # Install Python, Node.js, and dependencies

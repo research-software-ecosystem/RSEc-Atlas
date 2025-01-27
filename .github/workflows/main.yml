@@ -27,14 +27,32 @@ jobs:
       with:
         node-version: '18'
 
-    # Cache or restore the cloned repository directory and the combined metadata JSON file
+    # Cache Node.js dependencies
+    - name: Cache Node.js modules
+      uses: actions/cache@v3
+      with:
+        path: StaticSiteGeneration/node_modules
+        key: node-modules-${{ hashFiles('StaticSiteGeneration/package-lock.json') }}
+        restore-keys: |
+          node-modules-
+
+    # Cache Python dependencies
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: pip-cache-${{ hashFiles('MergeDataFiles/requirements.txt') }}
+        restore-keys: |
+          pip-cache-
+
+    # Cache the content directory and metadata
     - name: Cache RSE content directory and metadata
       uses: actions/cache@v3
       with:
         path: |
           MergeDataFiles/content
           MergeDataFiles/combined_metadata.json
-        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json') }}
+        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json', 'MergeDataFiles/requirements.txt') }}
         restore-keys: |
           content-
 

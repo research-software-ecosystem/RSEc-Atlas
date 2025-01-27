@@ -27,16 +27,16 @@ jobs:
       with:
         node-version: '18'
 
-    # # Cache or restore the cloned repository directory and the combined metadata JSON file
-    # - name: Cache RSE content directory and metadata
-    #   uses: actions/cache@v3
-    #   with:
-    #     path: |
-    #       MergeDataFiles/content
-    #       MergeDataFiles/combined_metadata.json
-    #     key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json') }}
-    #     restore-keys: |
-    #       content-
+    # Cache or restore the cloned repository directory and the combined metadata JSON file
+    - name: Cache RSE content directory and metadata
+      uses: actions/cache@v3
+      with:
+        path: |
+          MergeDataFiles/content
+          MergeDataFiles/combined_metadata.json
+        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json') }}
+        restore-keys: |
+          content-
 
     # Run Makefile rule: install-all (install Python, Node.js dependencies)
     - name: Install all dependencies (Python and Node.js)

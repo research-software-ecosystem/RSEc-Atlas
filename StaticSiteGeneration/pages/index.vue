@@ -62,7 +62,8 @@
           <v-card-text style="padding: 0px;">
             <v-btn v-for="(topic, index) in filteredTopics" :key="index"
               style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: white; justify-content: center; align-items: center; font-size: 12px"
-              @click="openTopic(topic)">
+              :href="currentOrigin + '/StudyProject/search/tag:' + topic.trim().toLowerCase()"
+              @click="openTopic($event, topic)">
               <i class="fas fa-tag" style="margin-right: 5px; color: white"></i>
               {{ topic }}
             </v-btn>
@@ -133,6 +134,7 @@ const fakeLoading = ref(false);
 const dataOptions = ['All', 'Has Bioconda Package', 'Has Containers', 'Compatible with Galaxy'];
 const allTopics = ref([]);
 const filteredTopics = ref([]);
+const currentOrigin = window.location.origin;
 const route = useRoute();
 const router = useRouter();
 
@@ -416,12 +418,16 @@ const getToolVersion = (tool) => {
     || "No Version Info";
 };
 
-const openTopic = (topic) => {
+const openTopic = (event, topic) => {
   const trimmedTopic = "tag:" + topic.trim().toLowerCase();
-  searchQuery.value = trimmedTopic;
-
   const searchInputElement = document.getElementById("searchInput");
   const inputEvent = new Event('input', { bubbles: true });
+  if (event.ctrlKey || event.metaKey) {
+    return;
+  }
+  event.preventDefault();
+
+  searchQuery.value = trimmedTopic;
   searchInputElement.value = trimmedTopic;
   searchInputElement.dispatchEvent(inputEvent);
 };

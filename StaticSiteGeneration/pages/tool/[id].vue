@@ -278,10 +278,8 @@
           <span style="color: lightgreen;">[bash command]</span><br />
           > conda install -c conda-forge -c bioconda {{ tool.tool_name.toLowerCase() }}
         </code>
-                  <div title="Copy Command"
-                    style="position: absolute; top:10px; right: 10px; background-color: #ffffff30; color: white; height: 35px; width: 35px; border-radius: 4px; display: flex; justify-content: center; align-items: center; text-align: center; cursor: pointer; transition: background-color 0.3s ease;"
-                    @click="copyCommandToClipboard('conda')" onmouseover="this.style.backgroundColor='#ffffff50';"
-                    onmouseout="this.style.backgroundColor='#ffffff30';"> <i class="fas fa-copy"></i>
+                  <div title="Copy Command" @click="copyCommandToClipboard('conda')" class="copy-command">
+                    <i class="fas fa-copy"></i>
                   </div>
                 </div>
               </div>
@@ -309,11 +307,7 @@
           <span style="color: lightgreen;">[bash command]</span><br />
           > docker run -i -t --rm quay.io/biocontainers/{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash
         </code>
-                  <div title="Copy Command"
-                    style="position: absolute; top:10px; right: 10px; background-color: #ffffff30; color: white; height: 35px; width: 35px; border-radius: 4px; display: flex; justify-content: center; align-items: center; text-align: center; cursor: pointer; transition: background-color 0.3s ease;"
-                    @click="copyCommandToClipboard('biocontainers')"
-                    onmouseover="this.style.backgroundColor='#ffffff50';"
-                    onmouseout="this.style.backgroundColor='#ffffff30';">
+                  <div title="Copy Command" @click="copyCommandToClipboard('biocontainers')" class="copy-command">
                     <i class="fas fa-copy"></i>
                   </div>
                 </div>
@@ -347,10 +341,7 @@
           <span>singularity exec https://depot.galaxyproject.org/singularity/</span>
           <span>{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash</span>
         </code>
-                  <div title="Copy Command"
-                    style="position: absolute; top:10px; right: 10px; background-color: #ffffff30; color: white; height: 35px; width: 35px; border-radius: 4px; display: flex; justify-content: center; align-items: center; text-align: center; cursor: pointer; transition: background-color 0.3s ease;"
-                    @click="copyCommandToClipboard('galaxy')" onmouseover="this.style.backgroundColor='#ffffff50';"
-                    onmouseout="this.style.backgroundColor='#ffffff30';">
+                  <div title="Copy Command" @click="copyCommandToClipboard('galaxy')" class="copy-command">
                     <i class="fas fa-copy"></i>
                   </div>
                 </div>
@@ -603,6 +594,31 @@ const getFormattedDate = (dateString) => {
   background-color: #fff2e3;
   border-radius: 4px;
   border: none;
+}
+
+.copy-command {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffffff30;
+  color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-command:hover {
+  background-color: #ffffff50;
+}
+
+.copy-command:active {
+  background-color: #ffffff70;
 }
 
 div::-webkit-scrollbar {

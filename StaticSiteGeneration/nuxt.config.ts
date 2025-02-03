@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
 
-  ssr: false, // Enable SSR, which works for static site generation
+  ssr: false,
 
   app: {
     baseURL: "/StudyProject/",
@@ -15,4 +15,6 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vuetify"],
   },
+
+  modules: ["@pinia/nuxt"],
 });

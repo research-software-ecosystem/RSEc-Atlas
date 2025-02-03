@@ -123,7 +123,7 @@ body {
 
 .main-content {
   margin: 80px 20px 60px 20px;
-  padding: 20px;
+  padding: 18px;
   border-radius: 4px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   background: #f5f5f5;

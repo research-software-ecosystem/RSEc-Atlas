@@ -1,9 +1,11 @@
 <template>
   <!-- Loading overlay -->
-  <div v-if="loading || fakeLoading" class="loading-overlay">
-    <div v-if="!fakeLoading" class="spinner"></div>
-    <p v-if="!fakeLoading" style="font-weight: bold; font-size: 16px;">Loading bio tools and containers...</p>
-  </div>
+  <transition name="fade">
+    <div v-if="loading || fakeLoading" class="loading-overlay">
+      <div v-if="!fakeLoading" class="spinner"></div>
+      <p v-if="!fakeLoading" style="font-weight: bold; font-size: 16px;">Loading bio tools and containers...</p>
+    </div>
+  </transition>
 
   <v-container>
     <!-- Search, Sort, and Filter UI -->
@@ -77,8 +79,9 @@
       <v-col cols="12" md="4" v-for="tool in paginatedItems" :key="tool.search_index">
         <v-card>
           <v-card-title>
-            <router-link :to="`/tool/${encodeURIComponent(tool.tool_name)}`" @click="makeLoading">{{ getToolName(tool)
-              }}</router-link>
+            <button @click="handleNavigation(tool)">{{
+              getToolName(tool)
+            }}</button>
           </v-card-title>
           <v-card-subtitle>{{ getToolDescription(tool) ? getToolDescription(tool).trim() : "No description"
             }}</v-card-subtitle>
@@ -113,8 +116,8 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-import { useFetch } from '#app';
 import { debounce } from 'lodash';
+import { useToolsStore } from '@/stores/tools';
 
 const tools = ref([]);
 const searchInput = ref(null);
@@ -303,10 +306,18 @@ const executeSearch = () => {
 };
 
 const makeLoading = () => {
-  fakeLoading.value = true;
-  setTimeout(() => {
-    fakeLoading.value = false;
-  }, 600);
+  return new Promise((resolve) => {
+    fakeLoading.value = true;
+    setTimeout(() => {
+      fakeLoading.value = false;
+      resolve();
+    }, 400);
+  });
+};
+
+const handleNavigation = async (tool) => {
+  await makeLoading();
+  router.push(`/tool/${encodeURIComponent(tool.tool_name)}`);
 };
 
 const toggleFavorite = (tool) => {
@@ -341,43 +352,71 @@ const pageNumbers = computed(() => {
 });
 
 const fetchData = async () => {
-  loading.value = true;
+  const toolsStore = useToolsStore();
+
   try {
-    const { data } = await useFetch('/combined_metadata.json');
+    if (!toolsStore.metadata) {
+      loading.value = true;
+      await toolsStore.fetchMetadata();
+    }
+    else {
+      fakeLoading.value = true;
+    }
+    if (!toolsStore.metadata) {
+      loading.value = false;
+      fakeLoading.value = false;
+      return;
+    }
+
     const licenses = new Set();
     const topics = new Set();
     const queryParam = route.query.search;
-    tools.value = data.value;
+
+    tools.value = toolsStore.metadata;
+
     tools.value.forEach(tool => {
       const licenseName = tool.fetched_metadata.biotools__license
         || tool.fetched_metadata.bioschemas__license
-        || tool.fetched_metadata.bioconda__license
+        || tool.fetched_metadata.bioconda__license;
+
       if (licenseName && licenseName.toLowerCase() !== "not available") {
         licenses.add(licenseName);
       }
-      const toolTopics = tool.fetched_metadata.galaxy__edam_topics ? tool.fetched_metadata.galaxy__edam_topics.split(",").map((item) => item.trim()) : [];
-      if (toolTopics.length)
-        toolTopics.forEach((topic) => topics.add(topic));
+
+      const toolTopics = tool.fetched_metadata.galaxy__edam_topics
+        ? tool.fetched_metadata.galaxy__edam_topics.split(",").map(item => item.trim())
+        : [];
+
+      if (toolTopics.length) {
+        toolTopics.forEach(topic => topics.add(topic));
+      }
     });
+
     licenseOptions.value = ['All', ...Array.from(licenses)];
     allTopics.value = Array.from(topics).sort((a, b) => a.localeCompare(b));
+
     if (queryParam) {
       const queryString = queryParam
         .split(",")
-        .map((part) => part.trim())
+        .map(part => part.trim())
         .join(", ");
 
       searchQuery.value = queryString;
 
       const searchInputElement = document.getElementById("searchInput");
-      const inputEvent = new Event('input', { bubbles: true });
-      searchInputElement.value = queryString;
-      searchInputElement.dispatchEvent(inputEvent);
+      if (searchInputElement) {
+        const inputEvent = new Event('input', { bubbles: true });
+        searchInputElement.value = queryString;
+        searchInputElement.dispatchEvent(inputEvent);
+      }
     }
   } catch (err) {
-    console.error('Error fetching data:', err);
+    console.error('Error processing data:', err);
   } finally {
-    loading.value = false;
+    setTimeout(() => {
+      loading.value = false;
+      fakeLoading.value = false;
+    }, 600);
   }
 };
 
@@ -447,6 +486,7 @@ const formatDate = (dateString) => {
 .v-container {
   background-color: #f5f5f5;
   color: #333333;
+  min-height: 660px;
 }
 
 .v-card {
@@ -454,12 +494,22 @@ const formatDate = (dateString) => {
   color: #333333;
 }
 
-.v-card-title a {
+.v-card-title button {
   color: #1976D2;
   text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
 }
 
-.v-card-title a:hover {
+.v-card-title button:hover {
   text-decoration: underline;
 }
 
@@ -527,5 +577,15 @@ const formatDate = (dateString) => {
   margin-left: 10px;
   font-size: 15px;
   color: #555;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.1s ease-in-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

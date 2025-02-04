@@ -31,14 +31,14 @@ refresh-metadata:
 	fi
 
 	# Check if updates exist
-	cd $(RSE_CONTENT_DIR) && git remote update && \
-	CHANGES=$$(git log HEAD..origin/master --oneline | wc -l); \
-	if [ $$CHANGES -gt 0 ] || [ ! -f "$(COMBINED_METADATA)" ]; then \
-		echo "Updates found or combined_metadata.json not present, running Python script..."; \
-		cd $(MAIN_DIR) && make run-python; \
-	else \
-		echo "No updates, skipping Python script."; \
-	fi
+	# cd $(RSE_CONTENT_DIR) && git remote update && \
+	# CHANGES=$$(git log HEAD..origin/master --oneline | wc -l); \
+	# if [ $$CHANGES -gt 0 ] || [ ! -f "$(COMBINED_METADATA)" ]; then \
+	# 	echo "Updates found or combined_metadata.json not present, running Python script..."; \
+		cd $(MAIN_DIR) && make run-python;
+	# else \
+	# 	echo "No updates, skipping Python script."; \
+	# fi
 
 # Run the Python script to generate combined metadata
 run-python:

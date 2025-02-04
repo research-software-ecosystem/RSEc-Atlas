@@ -51,8 +51,7 @@ jobs:
       with:
         path: |
           MergeDataFiles/content
-          MergeDataFiles/combined_metadata.json
-        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json', 'MergeDataFiles/requirements.txt') }}
+        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/requirements.txt') }}
         restore-keys: |
           content-
 

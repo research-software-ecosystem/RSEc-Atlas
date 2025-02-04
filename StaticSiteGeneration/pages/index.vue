@@ -64,8 +64,7 @@
           <v-card-text style="padding: 0px;">
             <v-btn v-for="(topic, index) in filteredTopics" :key="index"
               style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: white; justify-content: center; align-items: center; font-size: 12px"
-              :href="currentOrigin + '/StudyProject/search/tag:' + topic.trim().toLowerCase()"
-              @click="openTopic($event, topic)">
+              :href="currentOrigin + '/search/tag:' + topic.trim().toLowerCase()" @click="openTopic($event, topic)">
               <i class="fas fa-tag" style="margin-right: 5px; color: white"></i>
               {{ topic }}
             </v-btn>
@@ -79,7 +78,7 @@
       <v-col cols="12" md="4" v-for="tool in paginatedItems" :key="tool.search_index">
         <v-card>
           <v-card-title>
-            <button @click="handleNavigation(tool)">{{
+            <button @click="handleNavigation($event, tool)">{{
               getToolName(tool)
             }}</button>
           </v-card-title>
@@ -137,7 +136,7 @@ const fakeLoading = ref(false);
 const dataOptions = ['All', 'Has Bioconda Package', 'Has Containers', 'Compatible with Galaxy'];
 const allTopics = ref([]);
 const filteredTopics = ref([]);
-const currentOrigin = window.location.origin;
+const currentOrigin = window.location.origin + "/StudyProject";
 const route = useRoute();
 const router = useRouter();
 
@@ -315,9 +314,17 @@ const makeLoading = () => {
   });
 };
 
-const handleNavigation = async (tool) => {
-  await makeLoading();
-  router.push(`/tool/${encodeURIComponent(tool.tool_name)}`);
+const handleNavigation = async (event, tool) => {
+  event.preventDefault();
+
+  const url = `/tool/${encodeURIComponent(tool.tool_name)}`;
+
+  if (event.ctrlKey || event.metaKey) {
+    window.open(currentOrigin + url, "_blank");
+  } else {
+    await makeLoading();
+    router.push(url);
+  }
 };
 
 const toggleFavorite = (tool) => {

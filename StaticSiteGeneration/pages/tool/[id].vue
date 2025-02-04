@@ -98,8 +98,9 @@
             <v-card class="data-card">
               <v-card-title>Publications</v-card-title>
               <v-card-text>
-                <v-card-text v-if="getFilteredIdentifiers('publications').length === 0">{{ "No publications info"
-                  }}</v-card-text>
+                <v-card-text v-if="getFilteredIdentifiers('publications').length === 0">
+                  {{ "No publications info" }}
+                </v-card-text>
                 <v-btn v-for="(publication, index) in getFilteredIdentifiers('publications')" :key="index"
                   style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: wheat; padding: 8px 12px; justify-content: center; align-items: center"
                   @click="openLink(publication)">
@@ -258,125 +259,117 @@
       </v-card-text>
 
       <v-row class="dynamic-gradient"
-        style="background: linear-gradient(132deg, rgba(23,23,23,1) 0%, rgba(116,116,116,1) 27%, rgba(23,23,23,1) 100%); color: white; padding: 35px; padding-top: 20px; display: flex; min-height: 90px; gap:20px">
-
-        <!-- Install with Bioconda Section -->
-        <v-col v-if="hasBiocondaData" cols="12" md="4" lg=""
-          style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
-          <div
-            style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
-            <div style="display: inline-block;">Install with Bioconda</div>
-            <div style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
-            <div style="display: inline-flex; align-items: center;">
-              <a :href="'https://bioconda.github.io/recipes/' + tool.fetched_metadata.bioconda__name + '/README.html'"
-                target="_blank" style="display: flex; align-items: center; justify-content: center; width: 160px;">
-                <v-img src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat"
-                  alt="Install with Bioconda" style="max-height: 24px; width: auto;" />
-              </a>
-            </div>
-          </div>
-          <div style="padding: 15px">
-            <div style="display: flex; align-items: center; margin-top: 10px; position: relative; width: 100%;">
-              <code
-                style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
-          <span style="color: lightgreen;">[bash command]</span><br />
-          > conda install -c conda-forge -c bioconda {{ tool.tool_name.toLowerCase() }}
-        </code>
-              <div title="Copy Command" @click="copyCommandToClipboard('conda')" class="copy-command">
-                <i class="fas fa-copy"></i>
+        style="background: linear-gradient(132deg, rgba(23,23,23,1) 0%, rgba(116,116,116,1) 27%, rgba(23,23,23,1) 100%); color: white; padding: 40px; padding-top: 6px; min-height: 90px; gap: 18px; display: flex; flex-direction: column;">
+        <v-row v-if="hasBiocondaData || hasBiocontainersData || hasGalaxyData" style="gap: 18px;">
+          <!-- Install with Bioconda Section -->
+          <v-col v-if="hasBiocondaData" cols="12" md="4" lg=""
+            style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
+            <div
+              style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
+              <div style="display: inline-block;">Install with Bioconda</div>
+              <div style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
+              <div style="display: inline-flex; align-items: center;">
+                <a :href="'https://bioconda.github.io/recipes/' + tool.fetched_metadata.bioconda__name + '/README.html'"
+                  target="_blank" style="display: flex; align-items: center; justify-content: center; width: 160px;">
+                  <v-img src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat"
+                    alt="Install with Bioconda" style="max-height: 24px; width: auto;" />
+                </a>
               </div>
             </div>
-          </div>
-        </v-col>
-
-        <!-- Install with Biocontainers Section -->
-        <v-col v-if="hasBiocontainersData" cols="12" md="4" lg=""
-          style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
-          <div
-            style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
-            <div style="display: inline-block;">Install with Biocontainers</div>
-            <div style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
-            <div style="display: inline-flex; align-items: center;">
-              <a :href="'https://quay.io/repository/biocontainers/' + tool.fetched_metadata.biocontainers__name + '?tab=tags&tag=latest'"
-                target="_blank" style="display: flex; align-items: center; justify-content: center; width: 160px;">
-                <v-img src="https://img.shields.io/badge/link%20to-biocontainers-brightgreen.svg?style=flat"
-                  alt="Link to Biocontainers" style="max-height: 24px; width: auto;" />
-              </a>
-            </div>
-          </div>
-          <div style="padding: 15px">
-            <div style="display: flex; align-items: center; margin-top: 10px; position: relative; width: 100%;">
-              <code
-                style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
-          <span style="color: lightgreen;">[bash command]</span><br />
-          > docker run -i -t --rm quay.io/biocontainers/{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash
-        </code>
-              <div title="Copy Command" @click="copyCommandToClipboard('biocontainers')" class="copy-command">
-                <i class="fas fa-copy"></i>
+            <div style="padding: 15px">
+              <div style="display: flex; align-items: center; position: relative; width: 100%;">
+                <code
+                  style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
+            <span style="color: lightgreen;">[bash command]</span><br />
+            > conda install -c conda-forge -c bioconda {{ tool.tool_name.toLowerCase() }}
+          </code>
+                <div title="Copy Command" @click="copyCommandToClipboard('conda')" class="copy-command">
+                  <i class="fas fa-copy"></i>
+                </div>
               </div>
             </div>
-          </div>
-        </v-col>
+          </v-col>
 
-        <!-- Install with Singularity Section -->
-        <v-col v-if="hasGalaxyData" cols="12" md="12" lg=""
-          style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
-          <div
-            style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
-            <div style="display: inline-block;">Install with Singularity</div>
-          </div>
-          <div style="padding: 15px">
-            <div style="display: flex; align-items: center; margin-top: 10px; position: relative; width: 100%;">
-              <code
-                style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
-          <span style="color: lightgreen;">[bash command]</span><br />
-          <span> > singularity exec https://depot.galaxyproject.org/singularity/</span>
-          <span>{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash</span>
-        </code>
-              <div title="Copy Command" @click="copyCommandToClipboard('singularity')" class="copy-command">
-                <i class="fas fa-copy"></i>
+          <!-- Install with Biocontainers Section -->
+          <v-col v-if="hasBiocontainersData" cols="12" md="4" lg=""
+            style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
+            <div
+              style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
+              <div style="display: inline-block;">Install with Biocontainers</div>
+              <div style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
+              <div style="display: inline-flex; align-items: center;">
+                <a :href="'https://quay.io/repository/biocontainers/' + tool.fetched_metadata.biocontainers__name + '?tab=tags&tag=latest'"
+                  target="_blank" style="display: flex; align-items: center; justify-content: center; width: 160px;">
+                  <v-img src="https://img.shields.io/badge/link%20to-biocontainers-brightgreen.svg?style=flat"
+                    alt="Link to Biocontainers" style="max-height: 24px; width: auto;" />
+                </a>
               </div>
             </div>
-          </div>
-        </v-col>
+            <div style="padding: 15px">
+              <div style="display: flex; align-items: center; position: relative; width: 100%;">
+                <code
+                  style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
+            <span style="color: lightgreen;">[bash command]</span><br />
+            > docker run -i -t --rm quay.io/biocontainers/{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash
+          </code>
+                <div title="Copy Command" @click="copyCommandToClipboard('biocontainers')" class="copy-command">
+                  <i class="fas fa-copy"></i>
+                </div>
+              </div>
+            </div>
+          </v-col>
 
-        <!-- Install with Galaxy Section -->
-        <v-col v-if="hasGalaxyData" cols="12" md="4" lg=""
-          style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
-          <div
-            style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
-            <div style="display: inline-block; width: 158px;">Install with Galaxy</div>
-            <div v-if="getFilteredIdentifiers('galaxy').length > 0"
-              style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
-            <div style="display: inline-flex; align-items: center; overflow-y: auto;">
-              <v-btn v-for="(identifier, index) in getFilteredIdentifiers('galaxy')" :key="index"
-                style="margin-right: 10px; background-color: #434343; color: white; font-size: 12px; height: 24px; border-radius: 4px; box-shadow: none; padding:2px 8px;"
-                @click="openLink(identifier)">
-                <img style="height: 13px; width: 13px; margin-right: 5px;"
+          <!-- Install with Singularity Section -->
+          <v-col v-if="hasBiocondaData" cols="12" md="4" lg=""
+            style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
+            <div
+              style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
+              <div style="display: inline-block;">Install with Singularity</div>
+            </div>
+            <div style="padding: 15px">
+              <div style="display: flex; align-items: center; position: relative; width: 100%;">
+                <code
+                  style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
+            <span style="color: lightgreen;">[bash command]</span><br />
+            <span> > singularity exec https://depot.galaxyproject.org/singularity/</span>
+            <span>{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash</span>
+          </code>
+                <div title="Copy Command" @click="copyCommandToClipboard('singularity')" class="copy-command">
+                  <i class="fas fa-copy"></i>
+                </div>
+              </div>
+            </div>
+          </v-col>
+        </v-row>
+
+        <v-row v-if="getFilteredIdentifiers('galaxy').length > 0">
+          <!-- Run with Galaxy Section -->
+          <v-col style="background-color: #33333360; border-radius: 4px; padding: 0px; flex: 1;">
+            <div
+              style="background-color: #ffffff40; padding: 15px; border-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; font-size: 18px; font-weight: bold; display: flex; align-items: center;">
+              <div style="display: inline-block; width: 141px;">Run with Galaxy</div>
+              <div style="display: inline-block; color: #ffffff70; margin: 0 10px;">|</div>
+              <div style="display: inline-flex; font-size: 17px; font-weight: normal;">
+                An academic portal to run tools, workflows and manage your data.
+              </div>
+            </div>
+            <div style="padding: 15px; padding-bottom: 5px;">
+              <v-btn v-for="(galaxyItem, index) in getFilteredIdentifiers('galaxy')" :key="index"
+                style="margin-right: 8px; margin-bottom: 8px; background-color: #333333; color: #f8f8f2; border: 1px solid grey; padding: 8px 12px; justify-content: center; align-items: center; box-shadow: none;"
+                @click="openLink(galaxyItem)">
+                <img style="height: 16px; width: 16px; margin-right: 5px;"
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg==">
-
-                {{ identifier.slice(13) }}
+                {{ galaxyItem.slice(13) }}
+                <span class="fa-solid fa-arrow-up-right-from-square"
+                  style="margin-left: 6px; color: white; height: 16px; width: 14px;"></span>
               </v-btn>
             </div>
-          </div>
-          <div style="padding: 15px">
-            <div style="display: flex; align-items: center; margin-top: 10px; position: relative; width: 100%;">
-              <code
-                style="flex-grow: 1; background-color: #272822; color: #f8f8f2; border: 1px solid grey; padding: 10px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-size: 16px; overflow-x: auto; padding-right: 55px; min-height: 120px;">
-          <span style="color: lightgreen;">[bash command]</span><br />
-          <span>singularity exec https://depot.galaxyproject.org/singularity/</span>
-          <span>{{ tool.tool_name.toLowerCase() }}:&lt;version&gt; bash</span>
-        </code>
-              <div title="Copy Command" @click="copyCommandToClipboard('singularity')" class="copy-command">
-                <i class="fas fa-copy"></i>
-              </div>
-            </div>
-          </div>
-        </v-col>
+          </v-col>
+        </v-row>
       </v-row>
     </v-card>
 
-    <div style="margin-top: 20px" v-else-if="!tool">
+    <div style="margin-top: 20px" v-else-if="!tool && !loading">
       No tool found.
       <span style="font-weight: 600; margin-left: 6px; font-size: 20px;">¯\_(ツ)_/¯</span>
     </div>
@@ -400,6 +393,7 @@ const route = useRoute();
 const favoriteItems = ref(JSON.parse(localStorage.getItem('favorites')) || []);
 const toolsStore = useToolsStore();
 const tool = ref(null);
+const loading = ref(false);
 
 onMounted(async () => {
   const handleScroll = () => {
@@ -419,10 +413,12 @@ onMounted(async () => {
 
   document.addEventListener("scroll", handleScroll);
 
+  loading.value = true;
   if (!toolsStore.metadata) {
     await toolsStore.fetchMetadata();
   }
   fetchTool();
+  loading.value = false;
 
   onBeforeUnmount(() => {
     document.removeEventListener("scroll", handleScroll);
@@ -524,21 +520,22 @@ const openLink = (identifier) => {
 
 const openTopic = (topic) => {
   const trimmedTopic = "tag:" + topic.trim().toLowerCase();
-  const currentOrigin = window.location.origin;
-  window.open(`${currentOrigin}/StudyProject/search/${trimmedTopic}`, "_blank");
+  const currentOrigin = window.location.origin + "/StudyProject";
+  window.open(`${currentOrigin}/search/${trimmedTopic}`, "_blank");
 };
 
 const copyCommandToClipboard = (type) => {
   let command = "";
+  let package_name = tool.value.tool_name.toLowerCase();
   switch (type) {
     case "conda":
-      command = "conda install -c conda-forge -c bioconda package_name";
+      command = "conda install -c conda-forge -c bioconda " + package_name;
       break;
     case "biocontainers":
-      command = "docker run -i -t --rm quay.io/biocontainers/package_name:<version> bash";
+      command = "docker run -i -t --rm quay.io/biocontainers/" + package_name + ":<version> bash";
       break;
     case "singularity":
-      command = "singularity exec https://depot.galaxyproject.org/singularity/package_name:<version> bash";
+      command = "singularity exec https://depot.galaxyproject.org/singularity/" + package_name + ":<version> bash";
       break;
   }
   navigator.clipboard.writeText(command);
@@ -647,34 +644,16 @@ const getFormattedDate = (dateString) => {
   background-color: #ffffff70;
 }
 
-div::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-div::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-div::-webkit-scrollbar-thumb {
-  background: rgba(136, 136, 136, 0.8);
-  border-radius: 10px;
-}
-
-div::-webkit-scrollbar-thumb:hover {
-  background: rgba(85, 85, 85, 0.8);
-}
-
 .fade-scale {
   opacity: 0;
-  transform: scale(0.98);
+  transform: scale(0.99);
   animation: fadeScale 0.3s ease-in-out forwards;
 }
 
 @keyframes fadeScale {
   from {
     opacity: 0;
-    transform: scale(0.98);
+    transform: scale(0.99);
   }
 
   to {

@@ -27,7 +27,7 @@ refresh-metadata:
 		git clone --depth=1 $(REPO_URL) $(RSE_CONTENT_DIR); \
 	else \
 		echo "Updating repository..."; \
-		cd $(RSE_CONTENT_DIR) && git fetch --unshallow && git reset --hard origin/master; \
+		cd $(RSE_CONTENT_DIR) && git fetch && git reset --hard origin/master; \
 	fi
 
 	# Check if updates exist

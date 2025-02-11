@@ -1,8 +1,9 @@
-import os
-import json
-import yaml
 import hashlib
+import json
 import logging
+import os
+
+import yaml
 
 logging.basicConfig(
     filename=os.path.join(os.path.dirname(__file__), "last_run_logs.txt"),

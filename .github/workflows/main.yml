@@ -13,23 +13,31 @@ jobs:
     steps:
     # Checkout the repository
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+
+    # Check out the repository with the RSE content
+    - name: Checkout Research Software Ecosystem content repository
+      uses: actions/checkout@v4
+      with:
+        repository: research-software-ecosystem/content
+        path: MergeDataFiles/content
+        
 
     # Set up Python environment
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '3.12'
 
     # Set up Node.js environment
     - name: Set up Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
 
     # Cache Node.js dependencies
     - name: Cache Node.js modules
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: StaticSiteGeneration/node_modules
         key: node-modules-${{ hashFiles('StaticSiteGeneration/package-lock.json') }}
@@ -38,7 +46,7 @@ jobs:
 
     # Cache Python dependencies
     - name: Cache Python dependencies
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: ~/.cache/pip
         key: pip-cache-${{ hashFiles('MergeDataFiles/requirements.txt') }}
@@ -47,7 +55,7 @@ jobs:
 
     # Cache the content directory and metadata
     - name: Cache RSE content directory and metadata
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           MergeDataFiles/content
@@ -78,7 +86,7 @@ jobs:
 
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         publish_dir: StaticSiteGeneration/.output/public
         github_token: ${{ secrets.GITHUB_TOKEN }}

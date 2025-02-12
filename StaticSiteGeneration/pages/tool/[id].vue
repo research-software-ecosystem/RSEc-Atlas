@@ -472,7 +472,7 @@ const getDoc = computed(() => {
 });
 
 const getLicense = computed(() => {
-  return getKey(['biotools__license', 'bioschemas__license', 'bioconda__license']);
+  return getKey(['biotools__license', 'bioschemas__license', 'bioconda__license', 'biocontainers__license']);
 });
 
 const getVersion = computed(() => {

@@ -188,7 +188,7 @@ def scan_directory(data_dir):
 
 def save_combined_metadata(output_file, combined_metadata):
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(combined_metadata, f, indent=4)
+        json.dump(combined_metadata, f, separators=(",", ":"))
 
 
 def main():

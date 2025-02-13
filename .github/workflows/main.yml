@@ -54,15 +54,15 @@ jobs:
           pip-cache-
 
     # Cache the content directory and metadata
-    # - name: Cache RSE content directory and metadata
-    #   uses: actions/cache@v4
-    #   with:
-    #     path: |
-    #       MergeDataFiles/content
-    #       MergeDataFiles/combined_metadata.json
-    #     key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json', 'MergeDataFiles/requirements.txt') }}
-    #     restore-keys: |
-    #       content-
+    - name: Cache RSE content directory and metadata
+      uses: actions/cache@v4
+      with:
+        path: |
+          MergeDataFiles/content
+          MergeDataFiles/combined_metadata.json
+        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json', 'MergeDataFiles/requirements.txt') }}
+        restore-keys: |
+          content-
 
     # Run Makefile rule: install-all (install Python, Node.js dependencies)
     - name: Install all dependencies (Python and Node.js)

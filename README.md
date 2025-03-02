@@ -4,6 +4,20 @@
 ## Aim:
 This web application aims to allow researchers and scientists to explore the metadata of various bioinformatics tools and containers. To make the process of finding and utilizing these biotools and biocontainers more efficient, this application fetches the metadata of biotools and biocontainers from the git repository of Research Software Ecosystem Content (https://github.com/research-software-ecosystem/content.git), and provides a user-friendly interface to show, search, and filter these biotools and biocontainers.
 
+## Usage and Working:
+To use the application, use the static site deployed at (https://hash-bash.github.io/StudyProject/), which is deployed with GitHub Pages. The web application has the following features:
+
+### Searching:
+Tools can be searched with a search bar on the home page. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description.
+#### Query Search: Searching in the web application also employs querying. Query searching allows users to search a combination of different of queries, where a query can be can either a search string or a tag
+### Filtering:
+The tools can be filtered according to the following parameters, available on the home page:
+
+### Sorting:
+The tools can be sorted by Name, Creation Date, and Last Modified Date.   
+### Setting Favourites:
+### URLs Sharing:
+If users want to share the URL with filters and search string,
 
 ## Setup and Installation:
 
@@ -95,7 +109,7 @@ Each bio tool and container has a dedicated tool page that provides detailed inf
 Automation is a key aspect of the project, ensuring seamless workflows and efficient build processes:
 
 ### Makefile:
-The `Makefile` is used to automate various build processes and tasks. It defines a set of rules and commands for compiling, linking, and managing dependencies, making the development process more efficient.
+The Makefile is used to automate various build processes and tasks. It defines a set of rules and commands for compiling, linking, and managing dependencies, making the development process more efficient.
 
 ### Workflow File:
 The GitHub Actions workflow file automates the deployment process to GitHub Pages. It runs predefined steps such as generating the static site, executing Python scripts, and deploying the site to the `gh-pages` branch.
@@ -108,9 +122,7 @@ The Python script is responsible for processing and merging metadata files. It i
 - **Directory Structure**:
   ```
   MergeDataFiles/
-  ├── data/
-  ├── output/
-  ├── scripts/
+  ├── content/
   ├── merge_data_files.py
   └── requirements.txt
   ```
@@ -130,15 +142,14 @@ The frontend project is built using Nuxt.js and includes the following component
   StaticSiteGeneration/
   ├── assets/
   ├── components/
-  ├── layouts/
   ├── pages/
   ├── plugins/
   ├── static/
   ├── store/
   ├── nuxt.config.js
   ├── package.json
-  └── README.md
   ```
+  
   The directory structure is organized to separate assets, components, layouts, pages, plugins, static files, and store modules for better maintainability.
 
 - **Main Page**:

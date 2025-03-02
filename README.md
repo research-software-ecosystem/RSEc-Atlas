@@ -9,12 +9,12 @@ Since this application utilizes make file, the procedure of setting up and runni
 
 ### 1. Installing `make`
    #### Windows:
-      Open PowerShell as Administrator and run:
-         choco install make
+      # Open PowerShell as Administrator and run:
+      choco install make
    #### Ubuntu:
-      Install using apt in Terminal:
-         sudo apt update
-         sudo apt install make
+      # Install using apt in Terminal:
+      sudo apt update
+      sudo apt install make
 ### 2. Change the directory to ./StudyProject/:
       cd ./StudyProject/
 ### 3. Run the following make command:

@@ -1,9 +1,26 @@
-# RSE Metadata Explorer Documentation
+# Documentation: RSE Metadata Explorer
 
 ## Aim:
-The aim of this project is to develop a comprehensive web application that allows users to explore metadata of various bioinformatics tools and containers. This application aims to provide a user-friendly interface for searching, filtering, and favoriting bio tools, making the process of finding and utilizing these tools more efficient for researchers and scientists.
+This web application aims to allow researchers and scientists to explore the metadata of various bioinformatics tools and containers. To make the process of finding and utilizing these biotools and biocontainers more efficient, this application fetches the metadata of biotools and biocontainers from the git repository of Research Software Ecosystem Content (https://github.com/research-software-ecosystem/content.git), and provides a user-friendly interface to show, search, and filter these biotools and biocontainers.
 
 ## Setup and Installation:
+
+Since this application utilizes make file, the procedure of setting up and running this project locally can be simply done by:
+
+### 1. Installing `make`
+   #### Windows:
+      Open PowerShell as Administrator and run:
+         choco install make
+   #### Ubuntu:
+      Install using apt in Terminal:
+         sudo apt update
+         sudo apt install make
+### 2. Change the directory to ./StudyProject/:
+      cd ./StudyProject/
+### 3. Run the following make command:
+      make run-full-workflow 
+
+In case of initializing without make, we can do it by:
 
 ### Prerequisites:
 Before setting up the project, ensure you have the following installed on your local machine:

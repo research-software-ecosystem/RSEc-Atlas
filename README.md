@@ -8,17 +8,13 @@ This web application aims to allow researchers and scientists to explore the met
 Since this application utilizes make file, the procedure of setting up and running this project locally can be simply done by:
 
 ### 1. Installing `make`
-   #### Windows:
-      ```
-      # Open PowerShell as Administrator and run:
+   #### Windows: Open PowerShell as Administrator and run:
       choco install make
-      ```
-   #### Ubuntu:
-      # Install using apt in Terminal:
+   #### Ubuntu: # Install using apt in Terminal:
       sudo apt update
       sudo apt install make
-### 2. Change the directory to ./StudyProject/:
-      cd ./StudyProject/
+### 2. Change the directory to the root of the project `./StudyProject`:
+      cd ./StudyProject
 ### 3. Run the following make command:
       make run-full-workflow 
 

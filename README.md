@@ -1,40 +1,44 @@
 # Documentation: RSE Metadata Explorer
 
+
 ## Aim:
 This web application aims to allow researchers and scientists to explore the metadata of various bioinformatics tools and containers. To make the process of finding and utilizing these biotools and biocontainers more efficient, this application fetches the metadata of biotools and biocontainers from the git repository of Research Software Ecosystem Content (https://github.com/research-software-ecosystem/content.git), and provides a user-friendly interface to show, search, and filter these biotools and biocontainers.
 
+
 ## Setup and Installation:
 
-Since this application utilizes make file, the procedure of setting up and running this project locally can be simply done by:
+Since this application utilizes Makefile, the procedure of setting up and running this project locally can be done simply by:
 
 ### 1. Installing `make`
-   #### Windows: Open PowerShell as Administrator and run:
+   #### Windows (Open PowerShell as Administrator and run):
       choco install make
-   #### Ubuntu: # Install using apt in Terminal:
+   #### Ubuntu (Install using apt in Terminal):
       sudo apt update
       sudo apt install make
-### 2. Change the directory to the root of the project `./StudyProject`:
+### 2. Change the current directory to the root of the project `./StudyProject`:
       cd ./StudyProject
-### 3. Run the following make command:
+### 3. Run the following `make` command:
       make run-full-workflow 
 
-In case of initializing without make, we can do it by:
+This `make` command will collect all the metadata, share it with the frontend app, and generate a static site to browse through this metadata. Please check other `make` commands in the Makefile for ease of development and usage of this app.
 
-### Prerequisites:
+To set up and run the project locally without using `make`, we can follow the following procedure:
+
+### 1. Install the prerequisites:
 Before setting up the project, ensure you have the following installed on your local machine:
 - **Node.js** (v18 or higher): Required for running the Nuxt.js frontend.
 - **Python** (v3.x): Required for running the Python scripts to process and merge metadata files.
 - **Git**: For version control and managing repository changes.
 - **GitHub CLI** (optional): For easier management of GitHub Actions and repository interactions.
 
-### Clone the Repository:
+### 2. Clone the Repository:
 To get started, clone the repository to your local machine using the following commands:
 ```bash
 git clone https://github.com/hash-bash/StudyProject.git
 cd StudyProject
 ```
 
-### Install Python Dependencies:
+#### Install Python Dependencies:
 Navigate to the **MergeDataFiles** folder and install the required Python dependencies:
 1. Set up a virtual environment (optional but recommended):
    ```bash
@@ -47,7 +51,7 @@ Navigate to the **MergeDataFiles** folder and install the required Python depend
    ```
    This will install all required packages, including `PyYAML` for parsing YAML files.
 
-### Install Node.js Dependencies:
+#### Install Node.js Dependencies:
 Navigate to the **StaticSiteGeneration** folder and install the required Node.js dependencies:
 1. Ensure you have Node.js installed (v18+).
 2. Install the dependencies using `npm`:

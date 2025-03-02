@@ -9,8 +9,10 @@ Since this application utilizes make file, the procedure of setting up and runni
 
 ### 1. Installing `make`
    #### Windows:
+      ```
       # Open PowerShell as Administrator and run:
       choco install make
+      ```
    #### Ubuntu:
       # Install using apt in Terminal:
       sudo apt update

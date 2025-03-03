@@ -102,20 +102,20 @@ This `make` command will install all the necessary dependencies, collect/update 
 
 To set up and run the project locally **without** using `make`, we can follow the below procedure:
 
-### 1. Install the prerequisites:
+#### 1. Install the prerequisites:
 Before setting up the project, ensure you have the following installed on your local machine:
 - **Node.js** (v18 or higher): Required for running the Nuxt.js frontend.
 - **Python** (v3.x): Required for running the Python scripts to process and merge metadata files.
 - **Git**: For version control and managing repository changes.
 - **GitHub CLI** (optional): For easier management of GitHub Actions and repository interactions.
 
-### 2. Clone the Repository:
+#### 2. Clone the Repository:
 To get started, clone the repository to your local machine using the following commands:
 ```bash
 git clone https://github.com/hash-bash/StudyProject.git
 ```
 
-### 3. Install Python Dependencies:
+#### 3. Install Python Dependencies:
 Navigate to the `StudyProject/MergeDataFiles` folder and install the required Python dependencies:
 1. Set up a virtual environment (optional but recommended):
    ```bash
@@ -129,14 +129,14 @@ Navigate to the `StudyProject/MergeDataFiles` folder and install the required Py
    ```
    This will install all required packages, including `PyYAML` for parsing YAML files.
 
-### 4. Install Node.js Dependencies:
+#### 4. Install Node.js Dependencies:
 Navigate to the `StudyProject/StaticSiteGeneration` directory and install the required Node.js dependencies using `npm`:
    ```bash
    cd StudyProject/StaticSiteGeneration
    npm install
    ```
 
-### 5. Clone the RSE Content Repository:
+#### 5. Clone the RSE Content Repository:
 We have to clone the RSE Content Repository to the directory `StudyProject/MergeDataFiles`, which will be later used by the python script to fetch and combine the metadata file:
 ```bash
 cd StudyProject/MergeDataFiles
@@ -144,20 +144,20 @@ git clone https://github.com/hash-bash/StudyProject.git
 ```
 This will create a folder called as `content` in the directory.
 
-### 6. Run the Python Script
+#### 6. Run the Python Script
 The Python script `merge_data_files.py` in `StudyProject/MergeDataFiles` processes and merges the metadata into `combined_metadata.json`. This file is later used by the Nuxt.js frontend.
 ```bash
 python merge_data_files.py
 ```
 This will generate the `combined_metadata.json` file in the `StudyProject/MergeDataFiles` folder.
 
-### 7. Copy the Generated JSON to the Static Site Folder
+#### 7. Copy the Generated JSON to the Static Site Folder
 After running the Python script, copy the `combined_metadata.json` file from the `StudyProject/MergeDataFiles` folder to the `StudyProject/StaticSiteGeneration/public` folder:
 ```bash
 cp StudyProject/MergeDataFiles/combined_metadata.json StudyProject/StaticSiteGeneration/public/
 ```
 
-### 8. Generate the Static Site
+#### 8. Generate the Static Site
 Navigate to the `StudyProject/StaticSiteGeneration` directory and run the following command to generate the static site:
 ```bash
 cd StudyProject/StaticSiteGeneration
@@ -165,7 +165,7 @@ npm run generate
 ```
 This will create a fully static site in the `.output/public` directory.
 
-### 9. Preview the Site
+#### 9. Preview the Site
 To preview the generated static site, run:
 ```bash
 npm run preview

@@ -2,7 +2,7 @@
 
 
 ## Aim:
-This web application aims to allow researchers and scientists to explore the metadata of various bioinformatics tools and containers. To make the process of finding and utilizing these biotools and biocontainers more efficient, this application fetches the metadata of biotools and biocontainers from the git repository of Research Software Ecosystem Content (https://github.com/research-software-ecosystem/content.git), and provides a user-friendly interface to show, search, and filter these biotools and biocontainers.
+This web application helps researchers and scientists explore the metadata of various bioinformatics tools and containers. To make it easier to find and use these biotools and biocontainers, the application retrieves their metadata from the Git repository Research Software Ecosystem Content (https://github.com/research-software-ecosystem/content.git) and provides a user-friendly interface to view, search, and filter them along with their metadata.
 
 
 ## Table of Contents
@@ -18,12 +18,12 @@ This web application aims to allow researchers and scientists to explore the met
 
 
 ## Usage:
-To use the application, use the static site deployed at (https://hash-bash.github.io/StudyProject/) using GitHub Pages. The web application has the following features:
+To access the web application, visit the static site deployed at (https://hash-bash.github.io/StudyProject/) using GitHub Pages. It offers the following features:
 
 ### Searching:
 The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description.
 
-> **Notes:** Searching is case-insensitive, so "BWA" and "bwa" will return the same results. Tags in the context of searching are the `EDAM Topics` available on the tool details page if they exist.
+> **Notes:** Searching is case-insensitive, so "BWA" and "bwa" will return the same results. `Tags` in the context of searching are the `EDAM Topics` available on the tool details page if they exist.
 
 **Query Search:** Searching in the web application also employs querying. Query searching allows users to search a combination of different comma-separated queries, where a query can be can either a search string or a tag. Following are some of the examples of the input string describing the use-case:
 1. Single search string (Tool Name, Tool Description, or a Tag):
@@ -31,7 +31,7 @@ The search functionality allows users to perform query-based searches to find sp
    - DeepTools
    - tag:mapping
    - tag:antimicrobial resistance
-2. Combination of search strings: (input comma separated queries like below)
+2. Combination of search strings: (Input comma separated queries like below)
    - bwa, kit
    - BWA, tag:mapping
    - tag:sequence assembly, tag:mapping
@@ -42,9 +42,9 @@ Searching can be done by the search bar available on the home page of the applic
 
 ### Filtering:
 The application provides various filtering options to narrow down search results based on specific criteria. This helps users quickly find the most relevant tools for their needs. The following are the filters available in the web application:
-1. Data Availability: Filter to check if tools have Bioconda Packages or Biocontainers or if they are compatible with Galaxy.
-2. License: Filter the tools according to the licenses fetched from the metadata.
-3. Favourite: Filter the tools that are marked as Favourite by the user.
+1. **Data Availability:** Filter to check if tools have Bioconda Packages or Biocontainers or if they are compatible with Galaxy.
+2. **License:** Filter the tools according to the licenses fetched from the metadata.
+3. **Favourite:** Filter the tools that are marked as Favourite by the user.
 
 These filters are available on the home page of the application.
 
@@ -71,14 +71,14 @@ If users want to share a link to a tool, they can directly share the URL availab
 Since this application utilizes Makefile, the procedure of setting up and running this project locally can be done simply by:
 
 #### 1. Installing `make`
-   **Windows (Open PowerShell as Administrator and run):**
-   ```bash
-   choco install make
-   ```
    **Ubuntu (Install using apt in Terminal):**
    ```bash
    sudo apt update
    sudo apt install make
+   ```
+   **Windows (Open PowerShell as Administrator and run):**
+   ```bash
+   choco install make
    ```
 #### 2. Clone the Repository:
    > **Note:** Make sure that Git is installed beforehand
@@ -107,7 +107,6 @@ Before setting up the project, ensure you have the following installed on your l
 - **Node.js** (v18 or higher): Required for running the Nuxt.js frontend.
 - **Python** (v3.x): Required for running the Python scripts to process and merge metadata files.
 - **Git**: For version control and managing repository changes.
-- **GitHub CLI** (optional): For easier management of GitHub Actions and repository interactions.
 
 #### 2. Clone the Repository:
 To get started, clone the repository to your local machine using the following commands:
@@ -137,19 +136,19 @@ Navigate to the `StudyProject/StaticSiteGeneration` directory and install the re
    ```
 
 #### 5. Clone the RSE Content Repository:
-We have to clone the RSE Content Repository to the directory `StudyProject/MergeDataFiles`, which will be later used by the python script to fetch and combine the metadata file:
+We have to clone the RSE Content Repository to the directory `StudyProject/MergeDataFiles`, which will be later used by the python script to fetch and combine the metadata:
 ```bash
 cd StudyProject/MergeDataFiles
 git clone https://github.com/hash-bash/StudyProject.git
 ```
-This will create a folder called as `content` in the directory.
+This will generate a folder called as `content` in the directory.
 
 #### 6. Run the Python Script
 The Python script `merge_data_files.py` in `StudyProject/MergeDataFiles` processes and merges the metadata into `combined_metadata.json`. This file is later used by the Nuxt.js frontend.
 ```bash
 python merge_data_files.py
 ```
-This will generate the `combined_metadata.json` file in the `StudyProject/MergeDataFiles` folder.
+This will generate the `combined_metadata.json` file in the directory.
 
 #### 7. Copy the Generated JSON to the Static Site Folder
 After running the Python script, copy the `combined_metadata.json` file from the `StudyProject/MergeDataFiles` folder to the `StudyProject/StaticSiteGeneration/public` folder:
@@ -181,7 +180,7 @@ The project leverages a variety of tools and utilities to ensure a robust and ef
 - **Nuxt.js**: A powerful framework for creating server-rendered Vue.js applications.
 - **Frontend Libraries**: Utilized for building the user interface and enhancing user experience.
 - **GitHub Pages**: For deploying the static site.
-- **GZip Compression**: To optimize the performance of the web application.
+- **GZip Compression**: When deploying, GitHub Pages automatically compresses the JSON file to optimize the performance of the web application.
 - **Makefile**: For automating build processes and tasks.
 - **Git**: For version control and collaborative development.
 - **Git Workflow**: A structured workflow for managing code changes and collaboration.

@@ -5,18 +5,6 @@
 This web application helps researchers and scientists explore the metadata of various bioinformatics tools and containers. To make it easier to find and use these biotools and biocontainers, the application retrieves their metadata from the Git repository Research Software Ecosystem Content (https://github.com/research-software-ecosystem/content.git) and provides a user-friendly interface to view, search, and filter them along with their metadata.
 
 
-## Table of Contents
-1. [Project Aim and Scope](#1-project-aim-and-scope)
-2. [System Requirements](#2-system-requirements)
-3. [Detailed Installation Guide](#3-detailed-installation-guide)
-4. [Core Technologies Breakdown](#4-core-technologies-breakdown)
-5. [Application Workflow](#5-application-workflow)
-6. [Automation Infrastructure](#6-automation-infrastructure)
-7. [Implementation Deep Dive](#7-implementation-deep-dive)
-8. [Maintenance and Operations](#8-maintenance-and-operations)
-9. [Troubleshooting Guide](#9-troubleshooting-guide)
-
-
 ## Usage:
 To access the web application, visit the static site deployed at (https://hash-bash.github.io/StudyProject/) using GitHub Pages. It offers the following features:
 

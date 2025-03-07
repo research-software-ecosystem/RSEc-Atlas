@@ -187,27 +187,104 @@ The project leverages a variety of tools and utilities to ensure a robust and ef
 
 
 ## Implementation:
+Following section defines the implementation of the project:
 
 ### Python Script:
 The Python script is responsible for processing and merging metadata files. It includes the following components:
 
-- **Directory Structure**:
+- Directory Structure:
   ```
   StudyProject/MergeDataFiles/
-  ├── content/
-  ├── merge_data_files.py
-  └── requirements.txt
+  ├── content/                # Created after pulling the RSC Content repository
+  ├── requirements.txt        # File with python dependencies, which are to be installed before running the Python script
+  ├── merge_data_files.py     # Python script to merge the metadata from the RCS Content repository
+  ├── last_run_logs.txt       # Logs file generated/overwritten after execution of the Python script
+  └── combined_metadata.json  # Resultant JSON file generated after execution of the Python script
   ```
-  The directory structure is organized to separate data files, output files, and scripts for better maintainability.
-
-- **merge_data_files.py**:
-  This script processes and merges bio tools and containers data into a combined metadata JSON file. It reads data from various sources, processes it, and generates a unified output file.
-
-- **requirements.txt**:
-  This file lists all the Python dependencies required for the project. It ensures that the necessary libraries are installed for the script to run successfully.
+- Working:
+  1. The Python script traverses through all the folders in `StudyProject/MergeDataFiles/content/data` directory, where each folder represents a tool.
+  2. Each folder has metadata of several files either in JSON or YAML format.
+  3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to retrieve the information, one must modify this variable:
+    ```
+   file_patterns = [
+     (f"bioconda_{folder_name}.yaml", "bioconda"),
+     (f"{folder_name}.biocontainers.yaml", "biocontainers"),
+     (f"{folder_name}.biotools.json", "biotools"),
+     (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
+     (f"{folder_name}.galaxy.json", "galaxy"),
+    ]
+    ```
+  4. The next step is to define which data is to be fetched from each file. We use a variable called `DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file:
+   ```
+   DATA_KEY_MAPPINGS = {
+    "bioconda": {
+        "bioconda__name": ("package", "name"),
+        "bioconda__version": ("package", "version"),
+        .
+        .
+        "bioconda__identifiers": ("extra", "identifiers"),
+    },
+   "biocontainers": {
+        "biocontainers__name": ("name",),
+        "biocontainers__identifiers": ("identifiers",),
+    },
+   .
+   .
+   }
+   ```
+  5. Finally, we have the combined JSON file with the structure shown in the following example:
+   ```
+   [
+     {
+        "search_index": 1,
+        "tool_name": "1000genomes",
+        "contents": [
+            "biotools",
+            "bioschemas"
+        ],
+        "fetched_metadata": {
+            "biotools__home": "http://www.internationalgenome.org",
+            "biotools__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
+            "biotools__addition_date": "2017-07-04T12:28:57Z",
+            "biotools__last_update_date": "2022-06-30T08:53:55.709797Z",
+            "biotools__tool_type": [
+                "Database portal",
+                "Web application"
+            ],
+            "bioschemas__name": "1000Genomes",
+            "bioschemas__home": "https://bio.tools/1000genomes",
+            "bioschemas__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
+            "bioschemas__tool_type": "sc:SoftwareApplication"
+        }
+     },
+     {
+        "search_index": 2,
+        "tool_name": "1000genomes_assembly_converter",
+        "contents": [
+            "biotools",
+            "bioschemas"
+        ],
+        "fetched_metadata": {
+            "biotools__home": "http://browser.1000genomes.org/tools.html",
+            "biotools__summary": "Map your data to the current assembly.",
+            "biotools__addition_date": "2015-01-29T15:47:08Z",
+            "biotools__last_update_date": "2018-12-10T12:58:50Z",
+            "biotools__tool_type": [
+                "Web application"
+            ],
+            "bioschemas__name": "1000Genomes assembly converter",
+            "bioschemas__home": "https://bio.tools/1000genomes_assembly_converter",
+            "bioschemas__summary": "Map your data to the current assembly.",
+            "bioschemas__tool_type": "sc:SoftwareApplication"
+        }
+     },
+   .
+   .
+   ]
+   ```
 
 ### Frontend Project:
-The frontend project is built using Nuxt.js and includes the following components:
+The user interface of the application, i.e. frontend of the project, is built using Nuxt.js and includes the following components:
 
 - **Directory Structure**:
   ```
@@ -263,9 +340,3 @@ To trigger deployment:
    - Execute the Python script to generate the `combined_metadata.json` file.
    - Generate the Nuxt.js static site.
    - Deploy the site to the `gh-pages` branch.
-
-### Step 2: Access the Live Site
-Once the deployment is complete, you can access the live site via the GitHub Pages URL:
-```
-https://hash-bash.github.io/StudyProject/
-```

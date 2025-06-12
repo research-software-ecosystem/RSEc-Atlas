@@ -5,17 +5,17 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # Checkout the repository
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # Check out the repository with the RSE content
     - name: Checkout Research Software Ecosystem content repository
       uses: actions/checkout@v4
       with:
@@ -23,19 +23,16 @@ jobs:
         path: MergeDataFiles/content
         
 
-    # Set up Python environment
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.12'
 
-    # Set up Node.js environment
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
 
-    # Cache Node.js dependencies
     - name: Cache Node.js modules
       uses: actions/cache@v4
       with:
@@ -44,7 +41,6 @@ jobs:
         restore-keys: |
           node-modules-
 
-    # Cache Python dependencies
     - name: Cache Python dependencies
       uses: actions/cache@v4
       with:
@@ -53,7 +49,6 @@ jobs:
         restore-keys: |
           pip-cache-
 
-    # Cache the content directory and metadata
     - name: Cache RSE content directory and metadata
       uses: actions/cache@v4
       with:
@@ -64,27 +59,20 @@ jobs:
         restore-keys: |
           content-
 
-    # Run Makefile rule: install-all (install Python, Node.js dependencies)
     - name: Install all dependencies (Python and Node.js)
       run: |
-        make install-all
+        pip install -r MergeDataFiles/requirements.txt
+        export NUXT_TELEMETRY_DISABLED=1
+        cd StaticSiteGeneration && npm install
 
-    # Run Makefile rule: refresh-metadata (handle cloning or updating of the repository and generating combined metadata JSON file)
-    - name: Clone or update RSE content repository
+    - name: Generate combined metadata JSON file
       run: |
-        make refresh-metadata
+        python MergeDataFiles/merge_data_files.py
 
-    # Run Makefile rule: copy-metadata (copy metadata to public directory)
-    - name: Copy metadata to public directory
-      run: |
-        make copy-metadata
-
-    # Run Makefile rule: generate-site (generate static site)
     - name: Generate static site
       run: |
-        make generate-site
+        cd StaticSiteGeneration && npm run generate
 
-    # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:

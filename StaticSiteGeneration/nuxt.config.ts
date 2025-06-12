@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: "/RSEc/",
+    baseURL: process.env.NUXT_APP_BASE_URL || "/",
   },
 
   generate: {

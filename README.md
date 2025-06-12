@@ -1,4 +1,4 @@
-# StudyProject Documentation
+# RSE Metadata Explorer
 
 ## Project Overview
 
@@ -19,13 +19,6 @@ Before setting up the project, make sure you have the following installed:
 - **Python** (v3.x)
 - **Git** (for version control)
 - **GitHub CLI** (optional for easier management of GitHub Actions)
-
-### Clone the Repository
-To start, clone the repository to your local machine:
-```bash
-git clone https://github.com/<your-username>/StudyProject.git
-cd StudyProject
-```
 
 ### Install Python Dependencies
 Navigate to the **MergeDataFiles** folder and install the required Python dependencies:
@@ -102,7 +95,4 @@ To trigger deployment:
    - Deploy the site to the `gh-pages` branch.
 
 ### Step 2: Access the Live Site
-Once the deployment is complete, you can access the live site via the GitHub Pages URL:
-```
-https://hash-bash.github.io/StudyProject/
-```
+Once the deployment is complete, you can access the live site via the GitHub Pages URL.

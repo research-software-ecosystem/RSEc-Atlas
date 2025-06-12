@@ -136,7 +136,7 @@ const fakeLoading = ref(false);
 const dataOptions = ['All', 'Has Bioconda Package', 'Has Containers', 'Compatible with Galaxy'];
 const allTopics = ref([]);
 const filteredTopics = ref([]);
-const currentOrigin = window.location.origin + "/StudyProject";
+const currentOrigin = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '');
 const route = useRoute();
 const router = useRouter();
 

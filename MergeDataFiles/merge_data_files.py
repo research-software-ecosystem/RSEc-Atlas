@@ -63,21 +63,25 @@ DATA_KEY_MAPPINGS = {
         "bioschemas__tool_type": ("@type",),
     },
     "galaxy": {
-        "galaxy__first_commit": ("Date_of_first_commit_of_the_suite",),
-        "galaxy__conda_name": ("Conda_id",),
-        "galaxy__conda_version": ("Conda_version",),
+        "galaxy__first_commit": ("Suite_first_commit_date",),
+        "galaxy__conda_name": ("Suite_conda_package",),
+        "galaxy__conda_version": ("Latest_suite_conda_package_version",),
         "galaxy__summary": ("Description",),
         "galaxy__edam_operations": ("EDAM_operations",),
         "galaxy__edam_topics": ("EDAM_topics",),
         "galaxy__toolshed_categories": ("ToolShed_categories",),
-        "galaxy__toolshed_id": ("ToolShed_id",),
-        "galaxy__users_5_years": ("No._of_tool_users_(5_years)_-_all_main_servers",),
-        "galaxy__users_all_time": ("No._of_tool_users_(all_time)_-_all_main_servers",),
-        "galaxy__usage_5_years": ("Tool_usage_(5_years)_-_all_main_servers",),
-        "galaxy__usage_all_time": ("Tool_usage_(all_time)_-_all_main_servers",),
+        "galaxy__toolshed_id": ("Suite_ID",),
+        "galaxy__users_5_years": ("Suite_users_(last_5_years)_on_main_servers",),
+        "galaxy__users_all_time": ("Suite_users_on_main_servers",),
+        "galaxy__usage_5_years": ("Suite_runs_(last_5_years)_on_main_servers",),
+        "galaxy__usage_all_time": ("Suite_runs_on_main_servers",),
         "galaxy__bio_tools_summary": ("bio.tool_description",),
-        "galaxy__bio_tools_ids": ("bio.tool_id",),
+        "galaxy__bio_tools_ids": ("bio.tool_ID",),
         "galaxy__bio_tools_name": ("bio.tool_name",),
+        "galaxy__related_tutorials": ("Related_Tutorials",),
+        "galaxy__related_workflows": ("Related_Workflows",),
+        "galaxy__tool_ids": ("Tool_IDs",),
+        "galaxy__number_of_tools_on_usegalaxy_eu": ("Number_of_tools_on_UseGalaxy.eu",),
     },
 }
 
@@ -195,15 +199,15 @@ def save_combined_metadata(output_file, combined_metadata):
 def main():
     script_dir = os.path.dirname(__file__)
     data_dir = os.path.join(script_dir, "content", "data")
-    output_file = os.path.join(script_dir, "combined_metadata.json")
+    output_file = os.path.join(
+        script_dir, "..", "StaticSiteGeneration", "public", "combined_metadata.json"
+    )
 
-    print(f"Fetching metadata from the directory {data_dir}")
     log_message(f"Fetching metadata from the directory {data_dir}")
 
     combined_metadata = scan_directory(data_dir)
     save_combined_metadata(output_file, combined_metadata)
 
-    print(f"Metadata combined and saved to {output_file}")
     log_message(f"Metadata combined and saved to {output_file}")
 
 

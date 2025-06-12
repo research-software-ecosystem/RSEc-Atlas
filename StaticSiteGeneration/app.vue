@@ -3,7 +3,7 @@
 
   <head>
     <title>RSE Metadata Explorer</title>
-    <link rel="icon" href="./public/logo-rsec.svg" />
+    <link rel="icon" href="./logo-rsec.svg" />
   </head>
   <v-app>
     <v-container fluid>
@@ -11,7 +11,7 @@
       <v-app-bar color="secondary" elevate-on-scroll flat>
         <!-- Logo -->
         <NuxtLink to="/" class="header-logo">
-          <img src="./public/logo-rsec.svg" alt="RSE Logo" class="logo-image" />
+          <img src="./logo-rsec.svg" alt="RSE Logo" class="logo-image" />
         </NuxtLink>
 
         <!-- Title -->

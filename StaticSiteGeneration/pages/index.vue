@@ -390,9 +390,7 @@ const fetchData = async () => {
         licenses.add(licenseName);
       }
 
-      const toolTopics = tool.fetched_metadata.galaxy__edam_topics
-        ? tool.fetched_metadata.galaxy__edam_topics.split(",").map(item => item.trim())
-        : [];
+      const toolTopics =  tool.fetched_metadata.galaxy__edam_topics ?? [];
 
       if (toolTopics.length) {
         toolTopics.forEach(topic => topics.add(topic));
@@ -441,8 +439,7 @@ const getToolDescription = (tool) => {
 };
 
 const getToolTopics = (tool) => {
-  return tool.fetched_metadata.galaxy__edam_topics ? tool.fetched_metadata.galaxy__edam_topics.split(',')
-    : [];
+  return tool.fetched_metadata.galaxy__edam_topics ?? [];
 };
 
 const getToolLicense = (tool) => {

@@ -241,10 +241,10 @@
                 <v-card-title>EDAM Topics</v-card-title>
                 <v-card-text>
                   <v-card-text
-                    v-if="tool.fetched_metadata.galaxy__edam_topics.split(',').map((item) => item.trim()).length == 0">{{
+                    v-if="!tool.fetched_metadata.galaxy__edam_topics?.length">{{
                       "No topics info" }}</v-card-text>
                   <v-btn
-                    v-for="(topic, index) in tool.fetched_metadata.galaxy__edam_topics.split(',').map((item) => item.trim())"
+                    v-for="(topic, index) in tool.fetched_metadata.galaxy__edam_topics"
                     :key="index"
                     style="margin-right: 10px; margin-bottom: 10px; background-color: #434343; color: wheat; justify-content: center; align-items: center"
                     @click="openTopic(topic)">

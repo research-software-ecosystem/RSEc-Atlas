@@ -90,7 +90,7 @@
           <v-col cols="12" md="3" lg="3">
             <v-card class="data-card">
               <v-card-title>Version</v-card-title>
-              <v-card-text>{{ getVersion ? "v" + getVersion : "No version info" }}</v-card-text>
+              <v-card-text>{{ getVersion ? "v" + (getVersion?.[0] ?? getVersion) : "No version info" }}</v-card-text>
             </v-card>
           </v-col>
 

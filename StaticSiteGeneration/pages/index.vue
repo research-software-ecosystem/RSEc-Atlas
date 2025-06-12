@@ -461,7 +461,7 @@ const getToolLicense = (tool) => {
 const getToolVersion = (tool) => {
   return tool.fetched_metadata.bioschemas__version
     || tool.fetched_metadata.bioconda__version
-    || tool.fetched_metadata.biotools__version
+    || tool.fetched_metadata.biotools__version?.[0]
     || "No Version Info";
 };
 

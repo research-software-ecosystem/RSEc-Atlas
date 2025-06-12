@@ -1,3 +1,7 @@
+import path from "path";
+
+const repoName = path.basename(__dirname);
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
@@ -5,7 +9,7 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL || "/",
+    baseURL: process.env.NUXT_APP_BASE_URL || `/${repoName}/`,
   },
 
   generate: {

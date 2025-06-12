@@ -16,13 +16,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Checkout Research Software Ecosystem content repository
-      uses: actions/checkout@v4
-      with:
-        repository: research-software-ecosystem/content
-        path: MergeDataFiles/content
-        
-
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -49,15 +42,27 @@ jobs:
         restore-keys: |
           pip-cache-
 
-    - name: Cache RSE content directory and metadata
+    - name: Get latest commit hash of content repo
+      id: content-hash
+      run: |
+        HASH=$(curl -s https://api.github.com/repos/research-software-ecosystem/content/commits/master | jq -r .sha)
+        echo "hash=$HASH" >> $GITHUB_OUTPUT
+
+    - name: Restore content from cache
+      id: cache-content
       uses: actions/cache@v4
       with:
         path: |
           MergeDataFiles/content
           MergeDataFiles/combined_metadata.json
-        key: content-${{ hashFiles('MergeDataFiles/content/.git/HEAD', 'MergeDataFiles/content/.git/refs/remotes/origin/master', 'MergeDataFiles/combined_metadata.json', 'MergeDataFiles/requirements.txt') }}
-        restore-keys: |
-          content-
+        key: content-${{ steps.content-hash.outputs.hash }}
+
+    - name: Checkout content repository
+      if: steps.cache-content.outputs.cache-hit != 'true'
+      uses: actions/checkout@v4
+      with:
+        repository: research-software-ecosystem/content
+        path: MergeDataFiles/content
 
     - name: Install all dependencies (Python and Node.js)
       run: |

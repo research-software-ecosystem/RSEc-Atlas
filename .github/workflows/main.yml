@@ -70,8 +70,9 @@ jobs:
         python MergeDataFiles/merge_data_files.py
 
     - name: Generate static site
+      working-directory: StaticSiteGeneration
       run: |
-        cd StaticSiteGeneration && npm run generate
+        NUXT_APP_BASE_URL=/${{ github.event.repository.name }}/ npm run generate
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4

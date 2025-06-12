@@ -54,6 +54,7 @@ DATA_KEY_MAPPINGS = {
         "biotools__addition_date": ("additionDate",),
         "biotools__last_update_date": ("lastUpdate",),
         "biotools__tool_type": ("toolType",),
+        "biotools__version": ("version",),
     },
     "bioschemas": {
         "bioschemas__name": ("sc:name",),

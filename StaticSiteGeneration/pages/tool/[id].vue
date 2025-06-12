@@ -484,7 +484,7 @@ const getLicense = computed(() => {
 });
 
 const getVersion = computed(() => {
-  return getKey(["bioschemas__version", "bioconda__version"]);
+  return getKey(["bioschemas__version", "bioconda__version", "biotools__version"]);
 });
 
 const getFilteredIdentifiers = computed(() => {

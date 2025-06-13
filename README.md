@@ -54,31 +54,7 @@ If users want to share a link to a tool, they can directly share the URL availab
 
 ## Setup and Installation:
 
-### With Makefile
-
-Since this application utilizes Makefile, the procedure of setting up and running this project locally can be done simply by:
-
-#### 1. Installing `make`
-   **Ubuntu (Install using apt in Terminal):**
-   ```bash
-   sudo apt update
-   sudo apt install make
-   ```
-   **Windows (Open PowerShell as Administrator and run):**
-   ```bash
-   choco install make
-   ```
-#### 2. Clone the Repository:
-   > **Note:** Make sure that Git is installed beforehand
-#### 3. Change the current directory to the root of the project
-
-You should now be able to access the site locally at `http://localhost:3000`.
-
-This `make` command will install all the necessary dependencies, collect/update all the metadata from the RSC repository, share it with the frontend app, and generate/update a static site to browse through this metadata. Please check other `make` commands in the Makefile for ease of development and usage of the application.
-
-### Without Makefile
-
-To set up and run the project locally **without** using `make`, we can follow the below procedure:
+To set up and run the project locally, we can follow the below procedure:
 
 #### 1. Install the prerequisites:
 Before setting up the project, ensure you have the following installed on your local machine:
@@ -95,7 +71,7 @@ Navigate to the `backend` folder and install the required Python dependencies:
    ```bash
    cd backend
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate
    ```
 2. Install the necessary Python packages from the `requirements.txt` file:
    ```bash
@@ -113,19 +89,16 @@ Navigate to the `frontend` directory and install the required Node.js dependenci
 #### 5. Clone the RSE Content Repository:
 We have to clone the RSE Content Repository to the directory `backend`, which will be later used by the python script to fetch and combine the metadata.
 This will generate a folder called as `content` in the directory.
+```bash
+git clone https://github.com/research-software-ecosystem/content.git backend/content
+```
 
 #### 6. Run the Python Script
 The Python script `merge_data_files.py` in `backend` processes and merges the metadata into `combined_metadata.json`. This file is later used by the Nuxt.js frontend.
 ```bash
-python merge_data_files.py
+python backend/merge_data_files.py
 ```
-This will generate the `combined_metadata.json` file in the directory.
-
-#### 7. Copy the Generated JSON to the Static Site Folder
-After running the Python script, copy the `combined_metadata.json` file from the `backend` folder to the `frontend/public` folder:
-```bash
-cp backend/combined_metadata.json frontend/public/
-```
+This will generate the `combined_metadata.json` file in the `frontend/public/metadata` directory.
 
 #### 8. Generate the Static Site
 Navigate to the `frontend` directory and run the following command to generate the static site:
@@ -143,20 +116,6 @@ npm run preview
 You should now be able to access the site locally at `http://localhost:3000`.
 
 
-## Tools and Utilities used:
-The project leverages a variety of tools and utilities to ensure a robust and efficient development process:
-
-- **Python**: Used for scripting and data processing.
-- **Python Libraries**: Various libraries such as `PyYAML` for handling YAML files.
-- **Nuxt.js**: A powerful framework for creating server-rendered Vue.js applications.
-- **Frontend Libraries**: Utilized for building the user interface and enhancing user experience.
-- **GitHub Pages**: For deploying the static site.
-- **GZip Compression**: When deploying, GitHub Pages automatically compresses the JSON file to optimize the performance of the web application.
-- **Makefile**: For automating build processes and tasks.
-- **Git**: For version control and collaborative development.
-- **Git Workflow**: A structured workflow for managing code changes and collaboration.
-
-
 ## Implementation:
 Following section defines the implementation of the project:
 
@@ -169,8 +128,6 @@ The Python script is responsible for processing and merging metadata files. It i
   ├── content/                # Created after pulling the RSC Content repository
   ├── requirements.txt        # File with python dependencies, which are to be installed before running the Python script
   ├── merge_data_files.py     # Python script to merge the metadata from the RCS Content repository
-  ├── last_run_logs.txt       # Logs file generated/overwritten after execution of the Python script
-  └── combined_metadata.json  # Resultant JSON file generated after execution of the Python script
   ```
 - Working:
   1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool.
@@ -185,29 +142,32 @@ The Python script is responsible for processing and merging metadata files. It i
      (f"{folder_name}.galaxy.json", "galaxy"),
     ]
     ```
-  4. The next step is to define which data is to be fetched from each file. We use a variable called `DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file:
-   ```
-   DATA_KEY_MAPPINGS = {
+
+  4. The next step is to define which data is to be fetched from each file. We use a variable called `SUMMARY_DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file:
+   ```json
+   SUMMARY_DATA_KEY_MAPPINGS = {
     "bioconda": {
         "bioconda__name": ("package", "name"),
         "bioconda__version": ("package", "version"),
         .
         .
-        "bioconda__identifiers": ("extra", "identifiers"),
     },
    "biocontainers": {
         "biocontainers__name": ("name",),
         "biocontainers__identifiers": ("identifiers",),
+        .
+        .
     },
    .
    .
    }
    ```
+   There is also another mapping (`PAGE_DATA_KEY_MAPPINGS`) for creating more data into each tool page.
+
   5. Finally, we have the combined JSON file with the structure shown in the following example, which would be later used by the frontend of our application:
    ```
    [
      {
-        "search_index": 1,
         "tool_name": "1000genomes",
         "contents": [
             "biotools",
@@ -229,7 +189,6 @@ The Python script is responsible for processing and merging metadata files. It i
         }
      },
      {
-        "search_index": 2,
         "tool_name": "1000genomes_assembly_converter",
         "contents": [
             "biotools",
@@ -262,7 +221,7 @@ The user interface of the application, i.e. frontend of the project, is built us
   frontend/
   ├── pages/               # Consists of web pages in our frontend application, like the home page to list and search tools (index.vue), and the tool description page with all the metadata of the tool (/tool/[id].vue)
   ├── plugins/             # Consists of Nuxt.js plugins used in the application. One used by our application is Vuetify, an open source UI library which provides Material UI components used in the application
-  ├── public/              # Consists of combined_metadata.json generated by our Python script, and the logo used in the application (logo-rsec.svg)
+  ├── public/              # Consists of metadata generated by our Python script, and the logo used in the application (logo-rsec.svg)
   ├── server/              # Consists of tsconfig.json, which specifies the root files and the compiler options for the Nuxt.js project
   ├── stores/              # We are using a Pinia store defined in tools.js, which helps to fetch the data from the JSON file and access the frontend of the application 
   ├── app.vue              # The web page which wraps our home page, it consists of header and footer for the application

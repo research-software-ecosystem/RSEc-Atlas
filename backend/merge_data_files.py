@@ -114,6 +114,16 @@ PAGE_DATA_KEY_MAPPINGS = {
         "galaxy__related_workflows": ("Related_Workflows",),
         "galaxy__tool_ids": ("Tool_IDs",),
         "galaxy__number_of_tools_on_usegalaxy_eu": ("Number_of_tools_on_UseGalaxy.eu",),
+        "galaxy__number_of_tools_on_usegalaxy_org": (
+            "Number_of_tools_on_UseGalaxy.org_(Main)",
+        ),
+        "galaxy__number_of_tools_on_usegalaxy_au": (
+            "Number_of_tools_on_UseGalaxy.org.au",
+        ),
+        "galaxy__number_of_tools_on_usegalaxy_be": ("Number_of_tools_on_UseGalaxy.be",),
+        "galaxy__number_of_tools_on_usegalaxy_cz": ("Number_of_tools_on_UseGalaxy.cz",),
+        "galaxy__number_of_tools_on_usegalaxy_fr": ("Number_of_tools_on_UseGalaxy.fr",),
+        "galaxy__number_of_tools_on_usegalaxy_no": ("Number_of_tools_on_UseGalaxy.no",),
     },
 }
 

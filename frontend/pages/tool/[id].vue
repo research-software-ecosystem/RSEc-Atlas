@@ -439,7 +439,8 @@ onMounted(async () => {
 
   loading.value = true;
   if (!toolsStore.metadata) {
-    await toolsStore.fetchMetadata();
+    const toolName = decodeURIComponent(route.params.id);
+    const toolMetadata = await toolsStore.fetchToolMetadata(toolName);
   }
   fetchTool();
   loading.value = false;

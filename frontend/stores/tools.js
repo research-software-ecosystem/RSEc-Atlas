@@ -19,5 +19,19 @@ export const useToolsStore = defineStore("tools", {
         this.loading = false;
       }
     },
+    async fetchToolMetadata(toolName) {
+      this.loading = true;
+      this.error = null;
+      try {
+        const toolMetadata = await $fetch(`/metadata/tools/${toolName}.json`);
+        return toolMetadata;
+      } catch (err) {
+        this.error = err;
+        console.error(`Error fetching metadata for tool ${toolName}:`, err);
+        return null;
+      } finally {
+        this.loading = false;
+      }
+    },
   },
 });

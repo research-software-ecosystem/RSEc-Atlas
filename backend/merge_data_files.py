@@ -168,7 +168,6 @@ def process_files_in_folder(folder_path):
     for file_name, tool_type in file_patterns:
         file_path = os.path.join(folder_path, file_name)
         if not os.path.exists(file_path):
-            # log_message(f"File not found: {file_path}")
             continue
 
         contents.add(tool_type)
@@ -182,18 +181,11 @@ def process_files_in_folder(folder_path):
         if data is None:
             continue
 
-        # log_message(f"Extracted data for file {file_name}: {extracted_data}")
-
         extracted_data = extract_data(tool_type, data, SUMMARY_DATA_KEY_MAPPINGS)
-        for key, value in extracted_data.items():
-            if value:
-                fetched_metadata[key] = value
+        fetched_metadata.update({k: v for k, v in extracted_data.items() if v})
 
         page_data = extract_data(tool_type, data, PAGE_DATA_KEY_MAPPINGS)
-        if page_data:
-            for key, value in page_data.items():
-                if value:
-                    extracted_page_metadata[key] = value
+        extracted_page_metadata.update({k: v for k, v in page_data.items() if v})
 
     metadata = {
         "tool_name": folder_name,

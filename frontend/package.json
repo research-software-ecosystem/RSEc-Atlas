@@ -10,11 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.9.0",
+    "@pinia/nuxt": "^0.11.1",
     "lodash": "^4.17.21",
-    "nuxt": "^3.13.0",
+    "nuxt": "^3.17.5",
     "vue": "latest",
     "vue-router": "latest",
-    "vuetify": "^3.7.0-beta.1"
+    "vuetify": "^3.8.9"
   }
 }

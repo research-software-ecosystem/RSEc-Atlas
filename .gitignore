@@ -33,11 +33,7 @@ venv
 .idea
 
 # RSC repo
-MergeDataFiles/content
+backend/content
 
-# Run logs
-MergeDataFiles/last_run_logs.txt
-
-# Combined metadata file
-MergeDataFiles/combined_metadata.json
-StaticSiteGeneration/public/combined_metadata.json
+# Metadata files
+frontend/public/metadata/*

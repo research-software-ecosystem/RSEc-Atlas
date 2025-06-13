@@ -299,7 +299,7 @@ const executeSearch = () => {
   const debounceSearch = debounce(() => {
     resetPage();
     searchQuery.value = searchInput.value?.value || '';
-  }, 900);
+  }, 500);
 
   debounceSearch();
 };
@@ -428,6 +428,7 @@ const fetchData = async () => {
 const getToolName = (tool) => {
   return tool.fetched_metadata.bioschemas__name
     || tool.fetched_metadata.bioconda__name
+    || tool.fetched_metadata.biocontainers__name
     || tool.tool_name;
 };
 
@@ -435,6 +436,7 @@ const getToolDescription = (tool) => {
   return tool.fetched_metadata.biotools__summary
     || tool.fetched_metadata.bioconda__summary
     || tool.fetched_metadata.galaxy__summary
+    || tool.fetched_metadata.biocontainers__summary
     || "No Description Available";
 };
 
@@ -447,6 +449,7 @@ const getToolLicense = (tool) => {
     tool.fetched_metadata.biotools__license
     || tool.fetched_metadata.bioschemas__license
     || tool.fetched_metadata.bioconda__license
+    || tool.fetched_metadata.biocontainers__license;
 
   if (licenseName && licenseName.toLowerCase() !== "not available") {
     return licenseName;

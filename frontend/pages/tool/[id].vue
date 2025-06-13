@@ -161,8 +161,16 @@
             <v-col cols="12" md="3" lg="3">
               <v-card class="data-card">
                 <v-card-title>Toolshed Categories</v-card-title>
-                <v-card-text>{{ tool.fetched_metadata.galaxy__toolshed_categories
-                  || "No toolshed categories info" }}</v-card-text>
+                <v-card-text>
+                  <ul style="padding-left: 18px; margin: 0;" v-if="tool.fetched_metadata.galaxy__toolshed_categories?.length">
+                    <li v-for="(cat, idx) in tool.fetched_metadata.galaxy__toolshed_categories" :key="idx">
+                      {{ cat }}
+                    </li>
+                  </ul>
+                  <v-card-text v-else>
+                    No toolshed categories info
+                  </v-card-text>
+                </v-card-text>
               </v-card>
             </v-col>
 
@@ -231,8 +239,16 @@
             <v-col cols="12" md="3" lg="12">
               <v-card class="data-card">
                 <v-card-title>EDAM Operations</v-card-title>
-                <v-card-text>{{ tool.fetched_metadata.galaxy__edam_operations || "No operations info"
-                  }}</v-card-text>
+                <v-card-text>
+                  <ul v-if="tool.fetched_metadata.galaxy__edam_operations?.length" style="padding-left: 18px; margin: 0;">
+                    <li v-for="(op, idx) in tool.fetched_metadata.galaxy__edam_operations" :key="idx">
+                      {{ op }}
+                    </li>
+                  </ul>
+                  <v-card-text v-else>
+                    No operations info
+                  </v-card-text>
+                </v-card-text>
               </v-card>
             </v-col>
 

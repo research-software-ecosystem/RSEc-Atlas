@@ -29,8 +29,8 @@ jobs:
     - name: Cache Node.js modules
       uses: actions/cache@v4
       with:
-        path: StaticSiteGeneration/node_modules
-        key: node-modules-${{ hashFiles('StaticSiteGeneration/package-lock.json') }}
+        path: frontend/node_modules
+        key: node-modules-${{ hashFiles('frontend/package-lock.json') }}
         restore-keys: |
           node-modules-
 
@@ -38,7 +38,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: ~/.cache/pip
-        key: pip-cache-${{ hashFiles('MergeDataFiles/requirements.txt') }}
+        key: pip-cache-${{ hashFiles('backend/requirements.txt') }}
         restore-keys: |
           pip-cache-
 
@@ -53,8 +53,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: |
-          MergeDataFiles/content
-          MergeDataFiles/combined_metadata.json
+          backend/content
         key: content-${{ steps.content-hash.outputs.hash }}
 
     - name: Checkout content repository
@@ -62,25 +61,32 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: research-software-ecosystem/content
-        path: MergeDataFiles/content
+        path: backend/content
 
-    - name: Install all dependencies (Python and Node.js)
+    - name: Install Python dependencies
       run: |
-        pip install -r MergeDataFiles/requirements.txt
-        export NUXT_TELEMETRY_DISABLED=1
-        cd StaticSiteGeneration && npm install
+        pip install --upgrade pip
+        pip install -r backend/requirements.txt
+
+    - name: Install Node.js dependencies
+      working-directory: frontend
+      run: npm install
+      env:
+        NUXT_TELEMETRY_DISABLED: 1
 
     - name: Generate combined metadata JSON file
       run: |
-        python MergeDataFiles/merge_data_files.py
+        python backend/merge_data_files.py
 
     - name: Generate static site
-      working-directory: StaticSiteGeneration
-      run: |
-        NUXT_APP_BASE_URL=/${{ github.event.repository.name }}/ npm run generate
+      working-directory: frontend
+      run: npm run generate
+      env:
+        NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
+
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
-        publish_dir: StaticSiteGeneration/.output/public
+        publish_dir: frontend/.output/public
         github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,13 +1,16 @@
-import hashlib
 import json
 import logging
 import os
+import shutil
 
 import yaml
 
+script_dir = os.path.dirname(__file__)
+output_folder = os.path.join(script_dir, "..", "frontend", "public", "metadata")
+data_dir = os.path.join(script_dir, "content", "data")
+
+
 logging.basicConfig(
-    filename=os.path.join(os.path.dirname(__file__), "last_run_logs.txt"),
-    filemode="w",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
@@ -15,10 +18,6 @@ logging.basicConfig(
 
 def log_message(message):
     logging.info(message)
-
-
-def hash_content(content):
-    return hashlib.md5(json.dumps(content, sort_keys=True).encode()).hexdigest()
 
 
 def parse_yaml(file_path):
@@ -31,7 +30,37 @@ def parse_json(file_path):
         return json.load(f)
 
 
-DATA_KEY_MAPPINGS = {
+SUMMARY_DATA_KEY_MAPPINGS = {
+    "bioconda": {
+        "bioconda__name": ("package", "name"),
+        "bioconda__version": ("package", "version"),
+        "bioconda__license": ("about", "license"),
+        "bioconda__summary": ("about", "summary"),
+    },
+    "biotools": {
+        "biotools__license": ("license",),
+        "biotools__summary": ("description",),
+        "biotools__addition_date": ("additionDate",),
+        "biotools__last_update_date": ("lastUpdate",),
+        "biotools__version": ("version",),
+    },
+    "bioschemas": {
+        "bioschemas__name": ("sc:name",),
+        "bioschemas__license": ("sc:license",),
+        "bioschemas__version": ("sc:softwareVersion",),
+    },
+    "galaxy": {
+        "galaxy__summary": ("Description",),
+        "galaxy__edam_topics": ("EDAM_topics",),
+    },
+    "biocontainers": {
+        "biocontainers__name": ("name",),
+        "biocontainers__license": ("license",),
+        "biocontainers__summary": ("description",),
+    },
+}
+
+PAGE_DATA_KEY_MAPPINGS = {
     "bioconda": {
         "bioconda__name": ("package", "name"),
         "bioconda__version": ("package", "version"),
@@ -45,6 +74,7 @@ DATA_KEY_MAPPINGS = {
         "biocontainers__name": ("name",),
         "biocontainers__identifiers": ("identifiers",),
         "biocontainers__license": ("license",),
+        "biocontainers__summary": ("description",),
     },
     "biotools": {
         "biotools__id": ("biotoolsID",),
@@ -60,6 +90,7 @@ DATA_KEY_MAPPINGS = {
         "bioschemas__name": ("sc:name",),
         "bioschemas__home": ("@id",),
         "bioschemas__license": ("sc:license",),
+        "bioschemas__version": ("sc:softwareVersion",),
         "bioschemas__summary": ("sc:description",),
         "bioschemas__tool_type": ("@type",),
     },
@@ -87,8 +118,8 @@ DATA_KEY_MAPPINGS = {
 }
 
 
-def extract_data(tool_type, data):
-    mappings = DATA_KEY_MAPPINGS.get(tool_type, {})
+def extract_data(tool_type, data, key_mappings):
+    mappings = key_mappings.get(tool_type, {})
     if tool_type == "bioschemas":
         graph = data.get("@graph", [])
         software_data = next(
@@ -120,10 +151,9 @@ def traverse_keys(data, *keys):
     return data
 
 
-def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
-    log_message(f"Extracting data for folder: {folder_path}")
-    fetched_metadata = {}
+def process_files_in_folder(folder_path):
     folder_name = os.path.basename(folder_path)
+    log_message(f"Extracting data for: {folder_name}")
 
     file_patterns = [
         (f"bioconda_{folder_name}.yaml", "bioconda"),
@@ -133,12 +163,12 @@ def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
         (f"{folder_name}.galaxy.json", "galaxy"),
     ]
 
-    contents = set()
+    contents, fetched_metadata, extracted_page_metadata = set(), {}, {}
 
     for file_name, tool_type in file_patterns:
         file_path = os.path.join(folder_path, file_name)
         if not os.path.exists(file_path):
-            log_message(f"File not found: {file_path}")
+            # log_message(f"File not found: {file_path}")
             continue
 
         contents.add(tool_type)
@@ -152,65 +182,56 @@ def process_files_in_folder(folder_path, search_index, hash_map, data_dir):
         if data is None:
             continue
 
-        extracted_data = extract_data(tool_type, data)
-        log_message(f"Extracted data for file {file_name}: {extracted_data}")
+        # log_message(f"Extracted data for file {file_name}: {extracted_data}")
 
+        extracted_data = extract_data(tool_type, data, SUMMARY_DATA_KEY_MAPPINGS)
         for key, value in extracted_data.items():
             if value:
-                fetched_metadata[key] = {"file_name": file_name, "value": value}
+                fetched_metadata[key] = value
 
-    content_hash = hash_content(fetched_metadata)
-
-    if content_hash in hash_map:
-        hash_map[content_hash].append(folder_path)
-    else:
-        hash_map[content_hash] = [folder_path]
+        page_data = extract_data(tool_type, data, PAGE_DATA_KEY_MAPPINGS)
+        if page_data:
+            for key, value in page_data.items():
+                if value:
+                    extracted_page_metadata[key] = value
 
     metadata = {
-        "search_index": search_index,
         "tool_name": folder_name,
         "contents": list(contents),
-        "fetched_metadata": {k: v["value"] for k, v in fetched_metadata.items()},
+        "fetched_metadata": fetched_metadata,
     }
 
-    return metadata, content_hash
+    page_metadata = {
+        "tool_name": folder_name,
+        "contents": list(contents),
+        "page_metadata": extracted_page_metadata,
+    }
 
-
-def scan_directory(data_dir):
-    search_index = 1
-    combined_metadata = []
-    hash_map = {}
-
-    for root, dirs, files in os.walk(data_dir):
-        if root != data_dir:
-            metadata, content_hash = process_files_in_folder(
-                root, search_index, hash_map, data_dir
-            )
-            combined_metadata.append(metadata)
-            search_index += 1
-
-    return combined_metadata
-
-
-def save_combined_metadata(output_file, combined_metadata):
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(combined_metadata, f, separators=(",", ":"))
+    return metadata, page_metadata
 
 
 def main():
-    script_dir = os.path.dirname(__file__)
-    data_dir = os.path.join(script_dir, "content", "data")
-    output_file = os.path.join(
-        script_dir, "..", "StaticSiteGeneration", "public", "combined_metadata.json"
-    )
+    combined_metadata = []
 
-    log_message(f"Fetching metadata from the directory {data_dir}")
+    for root, _, _ in os.walk(data_dir):
+        if root != data_dir:
+            metadata, page_metadata = process_files_in_folder(root)
+            combined_metadata.append(metadata)
+            save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
 
-    combined_metadata = scan_directory(data_dir)
-    save_combined_metadata(output_file, combined_metadata)
+    save_metadata("combined_metadata.json", combined_metadata)
 
-    log_message(f"Metadata combined and saved to {output_file}")
+
+def save_metadata(output_file, metadata):
+    output_combined_file = os.path.join(output_folder, output_file)
+    os.makedirs(os.path.dirname(output_combined_file), exist_ok=True)
+    with open(output_combined_file, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, separators=(",", ":"))
 
 
 if __name__ == "__main__":
+    log_message("Starting metadata extraction and merging process")
+    shutil.rmtree(output_folder, ignore_errors=True)
+    log_message(f"Fetching metadata from the directory {data_dir}")
     main()
+    log_message(f"Metadata combined and saved")

@@ -11,7 +11,7 @@ export const useToolsStore = defineStore("tools", {
       this.loading = true;
       this.error = null;
       try {
-        this.metadata = await $fetch("/combined_metadata.json");
+        this.metadata = await $fetch("/metadata/combined_metadata.json");
       } catch (err) {
         this.error = err;
         console.error("Error fetching metadata:", err);

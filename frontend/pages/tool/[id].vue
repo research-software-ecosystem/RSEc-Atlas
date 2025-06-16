@@ -1178,7 +1178,7 @@ function copyCommandToClipboard(type) {
 function toggleFavorite(t) {
   if (isFavorite(t)) {
     favoriteItems.value = favoriteItems.value.filter(
-      (i) => i.search_index !== t.search_index,
+      (i) => i.tool_name !== t.tool_name,
     );
   } else {
     favoriteItems.value.push(t);
@@ -1187,7 +1187,7 @@ function toggleFavorite(t) {
 }
 
 function isFavorite(t) {
-  return favoriteItems.value.some((i) => i.search_index === t.search_index);
+  return favoriteItems.value.some((i) => i.tool_name === t.tool_name);
 }
 
 function getFormattedDate(dateString) {

@@ -131,7 +131,7 @@
         cols="12"
         md="4"
         v-for="tool in paginatedItems"
-        :key="tool.search_index"
+        :key="tool.tool_name"
       >
         <v-card>
           <v-card-title>
@@ -429,7 +429,7 @@ const handleNavigation = async (event, tool) => {
 const toggleFavorite = (tool) => {
   if (isFavorite(tool)) {
     favoriteItems.value = favoriteItems.value.filter(
-      (i) => i.search_index !== tool.search_index,
+      (i) => i.tool_name !== tool.tool_name,
     );
   } else {
     favoriteItems.value.push(tool);
@@ -438,7 +438,7 @@ const toggleFavorite = (tool) => {
 };
 
 const isFavorite = (tool) => {
-  return favoriteItems.value.some((i) => i.search_index === tool.search_index);
+  return favoriteItems.value.some((i) => i.tool_name === tool.tool_name);
 };
 
 const pageNumbers = computed(() => {

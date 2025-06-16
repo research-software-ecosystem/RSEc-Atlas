@@ -544,6 +544,65 @@
                 </v-card-text>
               </v-card>
             </v-col>
+
+            <v-col cols="12" md="3" lg="12">
+              <v-card class="data-card">
+                <v-card-title>Related Workflows</v-card-title>
+                <v-card-text>
+                  <v-card-text
+                    v-if="!pageMetadata?.galaxy?.related_workflows?.length"
+                  >
+                    {{ "No related workflows" }}
+                  </v-card-text>
+                  <v-expansion-panels v-else variant="accordion">
+                    <v-expansion-panel>
+                      <v-expansion-panel-title
+                        style="background-color: #434343; color: wheat"
+                      >
+                        <i
+                          class="fas fa-sitemap"
+                          style="margin-right: 5px; color: white"
+                        />
+                        {{ pageMetadata?.galaxy?.related_workflows.length }}
+                        workflows available. Click to view them.
+                        <i
+                          class="fas fa-chevron-down"
+                          style="margin-left: 5px; color: white"
+                        />
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text style="background-color: #333333">
+                        <v-btn
+                          v-for="(topic, index) in pageMetadata?.galaxy
+                            ?.related_workflows"
+                          :key="index"
+                          style="
+                            margin-right: 10px;
+                            margin-bottom: 10px;
+                            background-color: #434343;
+                            color: wheat;
+                          "
+                          :href="topic"
+                        >
+                          <i
+                            class="fas fa-book"
+                            style="margin-right: 5px; color: white"
+                          />
+                          Workflow {{ index + 1 }} on
+                          {{
+                            topic
+                              .split("/")
+                              .slice(2, 3)
+                              .join("")
+                              .replace(/-/g, " ")
+                              .replace(/\b\w/g, (c) => c.toUpperCase())
+                          }}
+                        </v-btn>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+                  </v-expansion-panels>
+                </v-card-text>
+              </v-card>
+            </v-col>
           </template>
         </v-row>
       </v-card-text>

@@ -505,7 +505,7 @@
 
                   <v-btn
                     v-else
-                    v-for="(topic, index) in galaxyData?.related_tutorials"
+                    v-for="(tutorial, index) in galaxyData?.related_tutorials"
                     :key="index"
                     style="
                       margin-right: 10px;
@@ -513,21 +513,25 @@
                       background-color: #434343;
                       color: wheat;
                     "
-                    @click="openTopic(topic)"
+                    title="Open tutorial in new tab"
+                    target="_blank"
+                    :href="tutorial"
                   >
-                    <i
-                      class="fas fa-book"
-                      style="margin-right: 5px; color: white"
-                    />
+                    <i class="fas fa-book mr-2" style="color: white" />
                     {{
-                      topic.startsWith("http")
-                        ? topic
+                      tutorial.startsWith("http")
+                        ? tutorial
                             .split("/")
                             .find((_, idx, arr) => arr[idx - 1] === "tutorials")
                             .replace(/-/g, " ")
                             .replace(/\b\w/g, (c) => c.toUpperCase())
-                        : topic
+                        : tutorial
                     }}
+
+                    <i
+                      class="fas fa-arrow-up-right-from-square ml-2"
+                      style="color: white"
+                    />
                   </v-btn>
                 </v-card-text>
               </v-card>
@@ -559,7 +563,7 @@
                       <v-expansion-panel-text style="background-color: #333333">
                         <v-btn
                           v-for="(
-                            topic, index
+                            workflow, index
                           ) in galaxyData?.related_workflows"
                           :key="index"
                           style="
@@ -568,21 +572,26 @@
                             background-color: #434343;
                             color: wheat;
                           "
-                          :href="topic"
+                          title="Open workflow in new tab"
+                          target="_blank"
+                          :href="workflow"
                         >
-                          <i
-                            class="fas fa-book"
-                            style="margin-right: 5px; color: white"
-                          />
+                          <i class="fas fa-book mr-2" style="color: white" />
+
                           Workflow {{ index + 1 }} on
                           {{
-                            topic
+                            workflow
                               .split("/")
                               .slice(2, 3)
                               .join("")
                               .replace(/-/g, " ")
                               .replace(/\b\w/g, (c) => c.toUpperCase())
                           }}
+
+                          <i
+                            class="fas fa-arrow-up-right-from-square ml-2"
+                            style="color: white"
+                          />
                         </v-btn>
                       </v-expansion-panel-text>
                     </v-expansion-panel>

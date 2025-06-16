@@ -12,7 +12,7 @@
           <a
             :href="
               'https://bioconda.github.io/recipes/' +
-              tool?.page_metadata?.bioconda__name +
+              tool?.page_metadata?.bioconda?.name +
               '/README.html'
             "
             target="_blank"
@@ -36,7 +36,7 @@
           <a
             :href="
               'https://quay.io/repository/biocontainers/' +
-              tool?.page_metadata?.biocontainers__name +
+              tool?.page_metadata?.biocontainers?.name +
               '?tab=tags&tag=latest'
             "
             target="_blank"
@@ -97,11 +97,9 @@
       </v-card-title>
       <v-card-subtitle class="tool-description">
         {{
-          getSummary
-            ? !getSummary.endsWith(".")
-              ? getSummary.trim() + "."
-              : getSummary.trim()
-            : "No description"
+          !getSummary.endsWith(".")
+            ? getSummary.trim() + "."
+            : getSummary.trim()
         }}
       </v-card-subtitle>
 
@@ -231,7 +229,7 @@
           <v-col cols="12" md="3" lg="3">
             <v-card class="data-card">
               <v-card-title>License</v-card-title>
-              <v-card-text>{{ getLicense || "No license info" }}</v-card-text>
+              <v-card-text>{{ getLicense }}</v-card-text>
             </v-card>
           </v-col>
 
@@ -239,13 +237,7 @@
             <v-card class="data-card">
               <v-card-title>Version</v-card-title>
               <v-card-text>
-                {{
-                  getVersion
-                    ? Array.isArray(getVersion)
-                      ? getVersion[0]
-                      : getVersion
-                    : "No version info"
-                }}
+                {{ Array.isArray(getVersion) ? getVersion[0] : getVersion }}
               </v-card-text>
             </v-card>
           </v-col>
@@ -300,7 +292,7 @@
               <v-card-text>
                 {{
                   getFormattedDate(
-                    tool?.page_metadata?.biotools__addition_date,
+                    tool?.page_metadata?.biotools?.addition_date,
                   ) || "No addition date info"
                 }}
               </v-card-text>
@@ -312,7 +304,7 @@
               <v-card-title>Last Update</v-card-title>
               <v-card-text>{{
                 getFormattedDate(
-                  tool?.page_metadata?.biotools__last_update_date,
+                  tool?.page_metadata?.biotools?.last_update_date,
                 ) || "No last update date info"
               }}</v-card-text>
             </v-card>
@@ -326,7 +318,7 @@
                 <v-card-text>
                   {{
                     getFormattedDate(
-                      tool?.page_metadata?.galaxy__first_commit,
+                      tool?.page_metadata?.galaxy?.first_commit,
                     ) || "No first commit info"
                   }}
                 </v-card-text>
@@ -338,7 +330,7 @@
                 <v-card-title>Conda Name</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__conda_name ||
+                    tool?.page_metadata?.galaxy?.conda_name ||
                     "No conda name info"
                   }}
                 </v-card-text>
@@ -350,8 +342,8 @@
                 <v-card-title>Conda Version</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__conda_version
-                      ? "v" + tool?.page_metadata?.galaxy__conda_version
+                    tool?.page_metadata?.galaxy?.conda_version
+                      ? "v" + tool?.page_metadata?.galaxy?.conda_version
                       : "No conda version info"
                   }}
                 </v-card-text>
@@ -365,12 +357,12 @@
                   <ul
                     style="padding-left: 18px; margin: 0"
                     v-if="
-                      tool?.page_metadata?.galaxy__toolshed_categories?.length
+                      tool?.page_metadata?.galaxy?.toolshed_categories?.length
                     "
                   >
                     <li
-                      v-for="(cat, idx) in tool.page_metadata
-                        .galaxy__toolshed_categories"
+                      v-for="(cat, idx) in tool.page_metadata.galaxy
+                        ?.toolshed_categories"
                       :key="idx"
                     >
                       {{ cat }}
@@ -388,7 +380,7 @@
                 <v-card-title>Toolshed ID</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__toolshed_id ||
+                    tool?.page_metadata?.galaxy?.toolshed_id ||
                     "No toolshed ID info"
                   }}
                 </v-card-text>
@@ -400,8 +392,8 @@
                 <v-card-title>Users (5 Years)</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__users_5_years
-                      ? tool?.page_metadata?.galaxy__users_5_years.toLocaleString()
+                    tool?.page_metadata?.galaxy?.users_5_years
+                      ? tool?.page_metadata?.galaxy?.users_5_years.toLocaleString()
                       : "No usage info for 5 years"
                   }}
                 </v-card-text>
@@ -413,8 +405,8 @@
                 <v-card-title>Users (All Time)</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__users_all_time
-                      ? tool?.page_metadata?.galaxy__users_all_time.toLocaleString()
+                    tool?.page_metadata?.galaxy?.users_all_time
+                      ? tool?.page_metadata?.galaxy?.users_all_time.toLocaleString()
                       : "No all-time user info"
                   }}
                 </v-card-text>
@@ -426,8 +418,8 @@
                 <v-card-title>Usage (5 Years)</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__usage_5_years
-                      ? tool?.page_metadata?.galaxy__usage_5_years.toLocaleString()
+                    tool?.page_metadata?.galaxy?.usage_5_years
+                      ? tool?.page_metadata?.galaxy?.usage_5_years.toLocaleString()
                       : "No usage info for 5 years"
                   }}
                 </v-card-text>
@@ -439,8 +431,8 @@
                 <v-card-title>Usage (All Time)</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__usage_all_time
-                      ? tool?.page_metadata?.galaxy__usage_all_time.toLocaleString()
+                    tool?.page_metadata?.galaxy?.usage_all_time
+                      ? tool?.page_metadata?.galaxy?.usage_all_time.toLocaleString()
                       : "No all-time usage info"
                   }}
                 </v-card-text>
@@ -452,7 +444,7 @@
                 <v-card-title>BioTools IDs</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__bio_tools_ids ||
+                    tool?.page_metadata?.galaxy?.bio_tools_ids ||
                     "No bio tools IDs"
                   }}
                 </v-card-text>
@@ -464,7 +456,7 @@
                 <v-card-title>BioTools Name</v-card-title>
                 <v-card-text>
                   {{
-                    tool?.page_metadata?.galaxy__bio_tools_name ||
+                    tool?.page_metadata?.galaxy?.bio_tools_name ||
                     "No bio tools name"
                   }}
                 </v-card-text>
@@ -476,12 +468,12 @@
                 <v-card-title>EDAM Operations</v-card-title>
                 <v-card-text>
                   <ul
-                    v-if="tool?.page_metadata?.galaxy__edam_operations?.length"
+                    v-if="tool?.page_metadata?.galaxy?.edam_operations?.length"
                     style="padding-left: 18px; margin: 0"
                   >
                     <li
-                      v-for="(op, idx) in tool.page_metadata
-                        .galaxy__edam_operations"
+                      v-for="(op, idx) in tool.page_metadata.galaxy
+                        ?.edam_operations"
                       :key="idx"
                     >
                       {{ op }}
@@ -497,13 +489,13 @@
                 <v-card-title>EDAM Topics</v-card-title>
                 <v-card-text>
                   <v-card-text
-                    v-if="!tool?.page_metadata?.galaxy__edam_topics?.length"
+                    v-if="!tool?.page_metadata?.galaxy?.edam_topics?.length"
                   >
                     {{ "No topics info" }}
                   </v-card-text>
                   <v-btn
-                    v-for="(topic, index) in tool.page_metadata
-                      ?.galaxy__edam_topics"
+                    v-for="(topic, index) in tool.page_metadata?.galaxy
+                      ?.edam_topics"
                     :key="index"
                     style="
                       margin-right: 10px;
@@ -546,7 +538,7 @@
           flex-direction: column;
         "
       >
-        <v-row v-if="getFilteredIdentifiers('galaxy').length > 0">
+        <v-row v-if="tool.page_metadata?.galaxy">
           <!-- Run with Galaxy Section -->
           <v-col
             style="
@@ -591,12 +583,12 @@
             <div style="padding: 15px; padding-bottom: 5px">
               <template
                 v-for="[instanceKey, numberOfTools] in Object.entries(
-                  availableGalaxyInstances,
+                  availableOnGalaxyInstances,
                 )"
               >
                 <a
                   v-if="numberOfTools > 0"
-                  :href="`https://usegalaxy.${instanceKey}/?tool_id=${tool.page_metadata.galaxy__tool_ids[0]}`"
+                  :href="`https://usegalaxy.${instanceKey}/?tool_id=${tool.page_metadata.galaxy?.tool_ids?.[0]}`"
                   target="_blank"
                   :title="`Run ${tool.tool_name} in Galaxy ${instanceKey.toUpperCase()}`"
                   rel="noopener noreferrer"
@@ -654,7 +646,7 @@
                 <a
                   :href="
                     'https://bioconda.github.io/recipes/' +
-                    tool?.page_metadata?.bioconda__name +
+                    tool?.page_metadata?.bioconda?.name +
                     '/README.html'
                   "
                   target="_blank"
@@ -751,7 +743,7 @@
                 <a
                   :href="
                     'https://quay.io/repository/biocontainers/' +
-                    tool?.page_metadata?.biocontainers__name +
+                    tool?.page_metadata?.biocontainers?.name +
                     '?tab=tags&tag=latest'
                   "
                   target="_blank"
@@ -952,26 +944,8 @@ onMounted(async () => {
   });
 });
 
-const getKey = (keys) => {
-  for (const key of keys) {
-    if (tool.value.page_metadata?.[key]) {
-      return tool.value.page_metadata[key];
-    }
-  }
-  return null;
-};
-
-const availableGalaxyInstances = computed(() => {
-  return {
-    eu: tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_eu || 0,
-    org:
-      tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_org || 0,
-    au: tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_au || 0,
-    be: tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_be || 0,
-    cz: tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_cz || 0,
-    fr: tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_fr || 0,
-    no: tool.value?.page_metadata?.galaxy__number_of_tools_on_usegalaxy_no || 0,
-  };
+const availableOnGalaxyInstances = computed(() => {
+  return tool.value?.page_metadata?.galaxy?.no_of_tools || {};
 });
 
 const hasBiocondaData = computed(() => {
@@ -987,32 +961,44 @@ const hasGalaxyData = computed(() => {
 });
 
 const getSummary = computed(() => {
-  return getKey(["biotools__summary", "bioconda__summary", "galaxy__summary"]);
+  return (
+    tool.value?.page_metadata?.biotools.summary ||
+    tool.value?.page_metadata?.bioconda.summary ||
+    tool.value?.page_metadata?.galaxy.summary ||
+    "No summary info available"
+  );
 });
 
 const getHome = computed(() => {
-  return getKey(["biotools__home", "bioconda__home", "galaxy__source"]) || "";
+  return (
+    tool.value?.page_metadata?.biotools?.home ||
+    tool.value?.page_metadata?.bioconda?.home ||
+    tool.value?.page_metadata?.galaxy?.source ||
+    ""
+  );
 });
 
 const getDoc = computed(() => {
-  return getKey(["bioconda__documentation"]) || "";
+  return tool.value?.page_metadata?.bioconda?.documentation || "";
 });
 
 const getLicense = computed(() => {
-  return getKey([
-    "biotools__license",
-    "bioschemas__license",
-    "bioconda__license",
-    "biocontainers__license",
-  ]);
+  return (
+    tool.value?.page_metadata?.biotools?.license ||
+    tool.value?.page_metadata?.bioschemas?.license ||
+    tool.value?.page_metadata?.bioconda?.license ||
+    tool.value?.page_metadata?.biocontainers?.license ||
+    "No license info available"
+  );
 });
 
 const getVersion = computed(() => {
-  return getKey([
-    "bioschemas__version",
-    "bioconda__version",
-    "biotools__version",
-  ]);
+  return (
+    tool.value?.page_metadata?.bioschemas?.version ||
+    tool.value?.page_metadata?.bioconda?.version ||
+    tool.value?.page_metadata?.biotools?.version ||
+    "No version info available"
+  );
 });
 
 const getFilteredIdentifiers = computed(() => {
@@ -1033,10 +1019,10 @@ const getFilteredIdentifiers = computed(() => {
     const filterFn = prefixMap[type];
     const allIdentifiers = [
       ...(hasBiocondaData
-        ? tool.value.page_metadata?.bioconda__identifiers || []
+        ? tool.value.page_metadata?.bioconda?.identifiers || []
         : []),
       ...(hasBiocontainersData
-        ? tool.value.page_metadata?.biocontainers__identifiers || []
+        ? tool.value.page_metadata?.biocontainers?.identifiers || []
         : []),
     ];
 

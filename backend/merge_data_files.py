@@ -32,103 +32,117 @@ def parse_json(file_path):
 
 SUMMARY_DATA_KEY_MAPPINGS = {
     "bioconda": {
-        "bioconda__name": ("package", "name"),
-        "bioconda__version": ("package", "version"),
-        "bioconda__license": ("about", "license"),
-        "bioconda__summary": ("about", "summary"),
+        "name": ("package", "name"),
+        "version": ("package", "version"),
+        "license": ("about", "license"),
+        "summary": ("about", "summary"),
     },
     "biotools": {
-        "biotools__license": ("license",),
-        "biotools__summary": ("description",),
-        "biotools__addition_date": ("additionDate",),
-        "biotools__last_update_date": ("lastUpdate",),
-        "biotools__version": ("version",),
+        "license": ("license",),
+        "summary": ("description",),
+        "addition_date": ("additionDate",),
+        "last_update_date": ("lastUpdate",),
+        "version": ("version",),
     },
     "bioschemas": {
-        "bioschemas__name": ("sc:name",),
-        "bioschemas__license": ("sc:license",),
-        "bioschemas__version": ("sc:softwareVersion",),
+        "name": ("sc:name",),
+        "license": ("sc:license",),
+        "version": ("sc:softwareVersion",),
     },
     "galaxy": {
-        "galaxy__summary": ("Description",),
-        "galaxy__edam_topics": ("EDAM_topics",),
+        "summary": ("Description",),
+        "edam_topics": ("EDAM_topics",),
     },
     "biocontainers": {
-        "biocontainers__name": ("name",),
-        "biocontainers__license": ("license",),
-        "biocontainers__summary": ("description",),
+        "name": ("name",),
+        "license": ("license",),
+        "summary": ("description",),
     },
 }
 
 PAGE_DATA_KEY_MAPPINGS = {
     "bioconda": {
-        "bioconda__name": ("package", "name"),
-        "bioconda__version": ("package", "version"),
-        "bioconda__home": ("about", "home"),
-        "bioconda__documentation": ("about", "doc_url"),
-        "bioconda__license": ("about", "license"),
-        "bioconda__summary": ("about", "summary"),
-        "bioconda__identifiers": ("extra", "identifiers"),
+        "name": ("package", "name"),
+        "version": ("package", "version"),
+        "home": ("about", "home"),
+        "documentation": ("about", "doc_url"),
+        "license": ("about", "license"),
+        "summary": ("about", "summary"),
+        "identifiers": ("extra", "identifiers"),
     },
     "biocontainers": {
-        "biocontainers__name": ("name",),
-        "biocontainers__identifiers": ("identifiers",),
-        "biocontainers__license": ("license",),
-        "biocontainers__summary": ("description",),
+        "name": ("name",),
+        "identifiers": ("identifiers",),
+        "license": ("license",),
+        "summary": ("description",),
     },
     "biotools": {
-        "biotools__id": ("biotoolsID",),
-        "biotools__home": ("homepage",),
-        "biotools__license": ("license",),
-        "biotools__summary": ("description",),
-        "biotools__addition_date": ("additionDate",),
-        "biotools__last_update_date": ("lastUpdate",),
-        "biotools__tool_type": ("toolType",),
-        "biotools__version": ("version",),
+        "id": ("biotoolsID",),
+        "home": ("homepage",),
+        "license": ("license",),
+        "summary": ("description",),
+        "addition_date": ("additionDate",),
+        "last_update_date": ("lastUpdate",),
+        "tool_type": ("toolType",),
+        "version": ("version",),
     },
     "bioschemas": {
-        "bioschemas__name": ("sc:name",),
-        "bioschemas__home": ("@id",),
-        "bioschemas__license": ("sc:license",),
-        "bioschemas__version": ("sc:softwareVersion",),
-        "bioschemas__summary": ("sc:description",),
-        "bioschemas__tool_type": ("@type",),
+        "name": ("sc:name",),
+        "home": ("@id",),
+        "license": ("sc:license",),
+        "version": ("sc:softwareVersion",),
+        "summary": ("sc:description",),
+        "tool_type": ("@type",),
     },
     "galaxy": {
-        "galaxy__first_commit": ("Suite_first_commit_date",),
-        "galaxy__conda_name": ("Suite_conda_package",),
-        "galaxy__conda_version": ("Latest_suite_conda_package_version",),
-        "galaxy__summary": ("Description",),
-        "galaxy__edam_operations": ("EDAM_operations",),
-        "galaxy__edam_topics": ("EDAM_topics",),
-        "galaxy__toolshed_categories": ("ToolShed_categories",),
-        "galaxy__toolshed_id": ("Suite_ID",),
-        "galaxy__users_5_years": ("Suite_users_(last_5_years)_on_main_servers",),
-        "galaxy__users_all_time": ("Suite_users_on_main_servers",),
-        "galaxy__usage_5_years": ("Suite_runs_(last_5_years)_on_main_servers",),
-        "galaxy__usage_all_time": ("Suite_runs_on_main_servers",),
-        "galaxy__bio_tools_summary": ("bio.tool_description",),
-        "galaxy__bio_tools_ids": ("bio.tool_ID",),
-        "galaxy__bio_tools_name": ("bio.tool_name",),
-        "galaxy__related_tutorials": ("Related_Tutorials",),
-        "galaxy__related_workflows": ("Related_Workflows",),
-        "galaxy__tool_ids": ("Tool_IDs",),
-        "galaxy__number_of_tools_on_usegalaxy_eu": ("Number_of_tools_on_UseGalaxy.eu",),
-        "galaxy__number_of_tools_on_usegalaxy_org": (
-            "Number_of_tools_on_UseGalaxy.org_(Main)",
-        ),
-        "galaxy__number_of_tools_on_usegalaxy_au": (
-            "Number_of_tools_on_UseGalaxy.org.au",
-        ),
-        "galaxy__number_of_tools_on_usegalaxy_be": ("Number_of_tools_on_UseGalaxy.be",),
-        "galaxy__number_of_tools_on_usegalaxy_cz": ("Number_of_tools_on_UseGalaxy.cz",),
-        "galaxy__number_of_tools_on_usegalaxy_fr": ("Number_of_tools_on_UseGalaxy.fr",),
-        "galaxy__number_of_tools_on_usegalaxy_no": ("Number_of_tools_on_UseGalaxy.no",),
+        "first_commit": ("Suite_first_commit_date",),
+        "conda_name": ("Suite_conda_package",),
+        "conda_version": ("Latest_suite_conda_package_version",),
+        "summary": ("Description",),
+        "edam_operations": ("EDAM_operations",),
+        "edam_topics": ("EDAM_topics",),
+        "toolshed_categories": ("ToolShed_categories",),
+        "toolshed_id": ("Suite_ID",),
+        "users_5_years": ("Suite_users_(last_5_years)_on_main_servers",),
+        "users_all_time": ("Suite_users_on_main_servers",),
+        "usage_5_years": ("Suite_runs_(last_5_years)_on_main_servers",),
+        "usage_all_time": ("Suite_runs_on_main_servers",),
+        "bio_tools_summary": ("bio.tool_description",),
+        "bio_tools_ids": ("bio.tool_ID",),
+        "bio_tools_name": ("bio.tool_name",),
+        "related_tutorials": ("Related_Tutorials",),
+        "related_workflows": ("Related_Workflows",),
+        "tool_ids": ("Tool_IDs",),
+        "no_of_tools": {
+            "eu": ("Number_of_tools_on_UseGalaxy.eu",),
+            "org": ("Number_of_tools_on_UseGalaxy.org_(Main)",),
+            "au": ("Number_of_tools_on_UseGalaxy.org.au",),
+            "be": ("Number_of_tools_on_UseGalaxy.be",),
+            "cz": ("Number_of_tools_on_UseGalaxy.cz",),
+            "fr": ("Number_of_tools_on_UseGalaxy.fr",),
+            "no": ("Number_of_tools_on_UseGalaxy.no",),
+        },
     },
 }
 
 
 def extract_data(tool_type, data, key_mappings):
+    def traverse_keys(d, *keys):
+        for key in keys:
+            if isinstance(d, list):
+                d = d[0] if d else None
+            if isinstance(d, dict):
+                d = d.get(key)
+            else:
+                return None
+        return d
+
+    def extract(d, mappings):
+        return {
+            k: extract(d, v) if isinstance(v, dict) else traverse_keys(d, *v) or None
+            for k, v in mappings.items()
+        }
+
     mappings = key_mappings.get(tool_type, {})
     if tool_type == "bioschemas":
         graph = data.get("@graph", [])
@@ -140,25 +154,9 @@ def extract_data(tool_type, data, key_mappings):
             ),
             None,
         )
-        if software_data:
-            return {
-                k: traverse_keys(software_data, *v) or None for k, v in mappings.items()
-            }
-        else:
-            return {}
+        return {tool_type: extract(software_data, mappings)} if software_data else {}
     else:
-        return {k: traverse_keys(data, *v) or None for k, v in mappings.items()}
-
-
-def traverse_keys(data, *keys):
-    for key in keys:
-        if isinstance(data, list):
-            data = data[0] if data else None
-        elif isinstance(data, dict):
-            data = data.get(key)
-        else:
-            return None
-    return data
+        return {tool_type: extract(data, mappings)}
 
 
 def process_files_in_folder(folder_path):

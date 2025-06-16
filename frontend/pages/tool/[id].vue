@@ -315,7 +315,7 @@
                 <v-card-title>First Commit</v-card-title>
                 <v-card-text>
                   {{
-                    getFormattedDate(pageMetadata?.galaxy?.first_commit) ||
+                    getFormattedDate(galaxyData?.first_commit) ||
                     "No first commit info"
                   }}
                 </v-card-text>
@@ -326,7 +326,7 @@
               <v-card class="data-card">
                 <v-card-title>Conda Name</v-card-title>
                 <v-card-text>
-                  {{ pageMetadata?.galaxy?.conda_name || "No conda name info" }}
+                  {{ galaxyData?.conda_name || "No conda name info" }}
                 </v-card-text>
               </v-card>
             </v-col>
@@ -336,8 +336,8 @@
                 <v-card-title>Conda Version</v-card-title>
                 <v-card-text>
                   {{
-                    pageMetadata?.galaxy?.conda_version
-                      ? "v" + pageMetadata?.galaxy?.conda_version
+                    galaxyData?.conda_version
+                      ? "v" + galaxyData?.conda_version
                       : "No conda version info"
                   }}
                 </v-card-text>
@@ -350,11 +350,10 @@
                 <v-card-text>
                   <ul
                     style="padding-left: 18px; margin: 0"
-                    v-if="pageMetadata?.galaxy?.toolshed_categories?.length"
+                    v-if="galaxyData?.toolshed_categories?.length"
                   >
                     <li
-                      v-for="(cat, idx) in pageMetadata?.galaxy
-                        ?.toolshed_categories"
+                      v-for="(cat, idx) in galaxyData?.toolshed_categories"
                       :key="idx"
                     >
                       {{ cat }}
@@ -371,9 +370,7 @@
               <v-card class="data-card">
                 <v-card-title>Toolshed ID</v-card-title>
                 <v-card-text>
-                  {{
-                    pageMetadata?.galaxy?.toolshed_id || "No toolshed ID info"
-                  }}
+                  {{ galaxyData?.toolshed_id || "No toolshed ID info" }}
                 </v-card-text>
               </v-card>
             </v-col>
@@ -383,8 +380,8 @@
                 <v-card-title>Users (5 Years)</v-card-title>
                 <v-card-text>
                   {{
-                    pageMetadata?.galaxy?.users_5_years
-                      ? pageMetadata?.galaxy?.users_5_years.toLocaleString()
+                    galaxyData?.users_5_years
+                      ? galaxyData?.users_5_years.toLocaleString()
                       : "No usage info for 5 years"
                   }}
                 </v-card-text>
@@ -396,8 +393,8 @@
                 <v-card-title>Users (All Time)</v-card-title>
                 <v-card-text>
                   {{
-                    pageMetadata?.galaxy?.users_all_time
-                      ? pageMetadata?.galaxy?.users_all_time.toLocaleString()
+                    galaxyData?.users_all_time
+                      ? galaxyData?.users_all_time.toLocaleString()
                       : "No all-time user info"
                   }}
                 </v-card-text>
@@ -409,8 +406,8 @@
                 <v-card-title>Usage (5 Years)</v-card-title>
                 <v-card-text>
                   {{
-                    pageMetadata?.galaxy?.usage_5_years
-                      ? pageMetadata?.galaxy?.usage_5_years.toLocaleString()
+                    galaxyData?.usage_5_years
+                      ? galaxyData?.usage_5_years.toLocaleString()
                       : "No usage info for 5 years"
                   }}
                 </v-card-text>
@@ -422,8 +419,8 @@
                 <v-card-title>Usage (All Time)</v-card-title>
                 <v-card-text>
                   {{
-                    pageMetadata?.galaxy?.usage_all_time
-                      ? pageMetadata?.galaxy?.usage_all_time.toLocaleString()
+                    galaxyData?.usage_all_time
+                      ? galaxyData?.usage_all_time.toLocaleString()
                       : "No all-time usage info"
                   }}
                 </v-card-text>
@@ -434,9 +431,7 @@
               <v-card class="data-card">
                 <v-card-title>BioTools IDs</v-card-title>
                 <v-card-text>
-                  {{
-                    pageMetadata?.galaxy?.bio_tools_ids || "No bio tools IDs"
-                  }}
+                  {{ galaxyData?.bio_tools_ids || "No bio tools IDs" }}
                 </v-card-text>
               </v-card>
             </v-col>
@@ -445,9 +440,7 @@
               <v-card class="data-card">
                 <v-card-title>BioTools Name</v-card-title>
                 <v-card-text>
-                  {{
-                    pageMetadata?.galaxy?.bio_tools_name || "No bio tools name"
-                  }}
+                  {{ galaxyData?.bio_tools_name || "No bio tools name" }}
                 </v-card-text>
               </v-card>
             </v-col>
@@ -457,11 +450,11 @@
                 <v-card-title>EDAM Operations</v-card-title>
                 <v-card-text>
                   <ul
-                    v-if="pageMetadata?.galaxy?.edam_operations?.length"
+                    v-if="galaxyData?.edam_operations?.length"
                     style="padding-left: 18px; margin: 0"
                   >
                     <li
-                      v-for="(op, idx) in pageMetadata?.galaxy?.edam_operations"
+                      v-for="(op, idx) in galaxyData?.edam_operations"
                       :key="idx"
                     >
                       {{ op }}
@@ -476,13 +469,11 @@
               <v-card class="data-card">
                 <v-card-title>EDAM Topics</v-card-title>
                 <v-card-text>
-                  <v-card-text
-                    v-if="!pageMetadata?.galaxy?.edam_topics?.length"
-                  >
+                  <v-card-text v-if="!galaxyData?.edam_topics?.length">
                     {{ "No topics info" }}
                   </v-card-text>
                   <v-btn
-                    v-for="(topic, index) in pageMetadata?.galaxy?.edam_topics"
+                    v-for="(topic, index) in galaxyData?.edam_topics"
                     :key="index"
                     style="
                       margin-right: 10px;
@@ -508,16 +499,13 @@
               <v-card class="data-card">
                 <v-card-title>Related Training Materials</v-card-title>
                 <v-card-text>
-                  <v-card-text
-                    v-if="!pageMetadata?.galaxy?.related_tutorials?.length"
-                  >
+                  <v-card-text v-if="!galaxyData?.related_tutorials?.length">
                     {{ "No training materials" }}
                   </v-card-text>
 
                   <v-btn
                     v-else
-                    v-for="(topic, index) in pageMetadata?.galaxy
-                      ?.related_tutorials"
+                    v-for="(topic, index) in galaxyData?.related_tutorials"
                     :key="index"
                     style="
                       margin-right: 10px;
@@ -549,9 +537,7 @@
               <v-card class="data-card">
                 <v-card-title>Related Workflows</v-card-title>
                 <v-card-text>
-                  <v-card-text
-                    v-if="!pageMetadata?.galaxy?.related_workflows?.length"
-                  >
+                  <v-card-text v-if="!galaxyData?.related_workflows?.length">
                     {{ "No related workflows" }}
                   </v-card-text>
                   <v-expansion-panels v-else variant="accordion">
@@ -563,7 +549,7 @@
                           class="fas fa-sitemap"
                           style="margin-right: 5px; color: white"
                         />
-                        {{ pageMetadata?.galaxy?.related_workflows.length }}
+                        {{ galaxyData?.related_workflows.length }}
                         workflows available. Click to view them.
                         <i
                           class="fas fa-chevron-down"
@@ -572,8 +558,9 @@
                       </v-expansion-panel-title>
                       <v-expansion-panel-text style="background-color: #333333">
                         <v-btn
-                          v-for="(topic, index) in pageMetadata?.galaxy
-                            ?.related_workflows"
+                          v-for="(
+                            topic, index
+                          ) in galaxyData?.related_workflows"
                           :key="index"
                           style="
                             margin-right: 10px;
@@ -625,7 +612,7 @@
           flex-direction: column;
         "
       >
-        <v-row v-if="pageMetadata?.galaxy">
+        <v-row v-if="galaxyData">
           <!-- Run with Galaxy Section -->
           <v-col
             style="
@@ -675,7 +662,7 @@
               >
                 <a
                   v-if="numberOfTools > 0"
-                  :href="`https://usegalaxy.${instanceKey}/?tool_id=${pageMetadata.galaxy?.tool_ids?.[0]}`"
+                  :href="`https://usegalaxy.${instanceKey}/?tool_id=${galaxyData?.tool_ids?.[0]}`"
                   target="_blank"
                   :title="`Run ${tool.tool_name} in Galaxy ${instanceKey.toUpperCase()}`"
                   rel="noopener noreferrer"
@@ -1033,6 +1020,10 @@ onMounted(async () => {
 
 const pageMetadata = computed(() => {
   return tool.value?.page_metadata || {};
+});
+
+const galaxyData = computed(() => {
+  return pageMetadata.value?.galaxy || {};
 });
 
 const availableOnGalaxyInstances = computed(() => {

@@ -1027,7 +1027,7 @@ const galaxyData = computed(() => {
 });
 
 const availableOnGalaxyInstances = computed(() => {
-  return pageMetadata.value?.galaxy?.no_of_tools || {};
+  return galaxyData.value?.no_of_tools || {};
 });
 
 const hasBiocondaData = computed(() => {
@@ -1046,7 +1046,7 @@ const getSummary = computed(() => {
   return (
     pageMetadata.value?.biotools?.summary ||
     pageMetadata.value?.bioconda?.summary ||
-    pageMetadata.value?.galaxy?.summary ||
+    galaxyData.value?.summary ||
     "No summary info available"
   );
 });
@@ -1055,7 +1055,7 @@ const getHome = computed(() => {
   return (
     pageMetadata.value?.biotools?.home ||
     pageMetadata.value?.bioconda?.home ||
-    pageMetadata.value?.galaxy?.source ||
+    galaxyData.value?.source ||
     ""
   );
 });

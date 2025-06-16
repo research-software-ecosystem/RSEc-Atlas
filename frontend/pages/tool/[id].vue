@@ -1026,20 +1026,24 @@ const galaxyData = computed(() => {
   return pageMetadata.value?.galaxy || {};
 });
 
+const toolContents = computed(() => {
+  return tool.value?.contents || [];
+});
+
 const availableOnGalaxyInstances = computed(() => {
   return galaxyData.value?.no_of_tools || {};
 });
 
 const hasBiocondaData = computed(() => {
-  return tool.value ? tool.value.contents.includes("bioconda") : false;
+  return toolContents.value?.includes("bioconda");
 });
 
 const hasBiocontainersData = computed(() => {
-  return tool.value ? tool.value.contents.includes("biocontainers") : false;
+  return toolContents.value?.includes("biocontainers");
 });
 
 const hasGalaxyData = computed(() => {
-  return tool.value ? tool.value.contents.includes("galaxy") : false;
+  return toolContents.value?.includes("galaxy");
 });
 
 const getSummary = computed(() => {

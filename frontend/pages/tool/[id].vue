@@ -503,6 +503,47 @@
                 </v-card-text>
               </v-card>
             </v-col>
+
+            <v-col cols="12" md="3" lg="12">
+              <v-card class="data-card">
+                <v-card-title>Related Training Materials</v-card-title>
+                <v-card-text>
+                  <v-card-text
+                    v-if="!pageMetadata?.galaxy?.related_tutorials?.length"
+                  >
+                    {{ "No training materials" }}
+                  </v-card-text>
+
+                  <v-btn
+                    v-else
+                    v-for="(topic, index) in pageMetadata?.galaxy
+                      ?.related_tutorials"
+                    :key="index"
+                    style="
+                      margin-right: 10px;
+                      margin-bottom: 10px;
+                      background-color: #434343;
+                      color: wheat;
+                    "
+                    @click="openTopic(topic)"
+                  >
+                    <i
+                      class="fas fa-book"
+                      style="margin-right: 5px; color: white"
+                    />
+                    {{
+                      topic.startsWith("http")
+                        ? topic
+                            .split("/")
+                            .find((_, idx, arr) => arr[idx - 1] === "tutorials")
+                            .replace(/-/g, " ")
+                            .replace(/\b\w/g, (c) => c.toUpperCase())
+                        : topic
+                    }}
+                  </v-btn>
+                </v-card-text>
+              </v-card>
+            </v-col>
           </template>
         </v-row>
       </v-card-text>

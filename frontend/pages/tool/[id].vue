@@ -1121,7 +1121,7 @@ const getFilteredIdentifiers = computed(() => {
   };
 });
 
-const openLink = (identifier) => {
+function openLink(identifier) {
   const trimmedIdentifier = identifier.trim();
   if (trimmedIdentifier.startsWith("doi:")) {
     window.open(`https://doi.org/${trimmedIdentifier.slice(4)}`, "_blank");
@@ -1133,17 +1133,17 @@ const openLink = (identifier) => {
       "_blank",
     );
   }
-};
+}
 
-const openTopic = (topic) => {
+function openTopic(topic) {
   const trimmedTopic = "tag:" + topic.trim().toLowerCase();
   const currentOrigin =
     window.location.origin +
     window.location.pathname.replace(/\/tool\/[^/]+$/, "");
   window.open(`${currentOrigin}/search/${trimmedTopic}`, "_blank");
-};
+}
 
-const copyCommandToClipboard = (type) => {
+function copyCommandToClipboard(type) {
   let command = "";
   let package_name = tool.value.tool_name.toLowerCase();
   switch (type) {
@@ -1164,24 +1164,24 @@ const copyCommandToClipboard = (type) => {
       break;
   }
   navigator.clipboard.writeText(command);
-};
+}
 
-const toggleFavorite = (tool) => {
-  if (isFavorite(tool)) {
+function toggleFavorite(t) {
+  if (isFavorite(t)) {
     favoriteItems.value = favoriteItems.value.filter(
-      (i) => i.search_index !== tool.search_index,
+      (i) => i.search_index !== t.search_index,
     );
   } else {
-    favoriteItems.value.push(tool);
+    favoriteItems.value.push(t);
   }
   localStorage.setItem("favorites", JSON.stringify(favoriteItems.value));
-};
+}
 
-const isFavorite = (tool) => {
-  return favoriteItems.value.some((i) => i.search_index === tool.search_index);
-};
+function isFavorite(t) {
+  return favoriteItems.value.some((i) => i.search_index === t.search_index);
+}
 
-const getFormattedDate = (dateString) => {
+function getFormattedDate(dateString) {
   if (!dateString) return null;
   const date = new Date(dateString);
   return date.toLocaleDateString("en-US", {
@@ -1190,7 +1190,7 @@ const getFormattedDate = (dateString) => {
     month: "long",
     day: "numeric",
   });
-};
+}
 </script>
 
 <style scoped>

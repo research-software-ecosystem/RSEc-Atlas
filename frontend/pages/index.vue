@@ -140,11 +140,7 @@
             </button>
           </v-card-title>
           <v-card-subtitle>
-            {{
-              getToolDescription(tool)
-                ? getToolDescription(tool).trim()
-                : "No description"
-            }}
+            {{ getToolDescription(tool)?.trim() ?? "No description" }}
           </v-card-subtitle>
           <v-card-text>
             <strong>License:</strong> {{ getToolLicense(tool) }}<br />
@@ -157,8 +153,8 @@
             <br />
             <strong>Last Updated:</strong>
             {{
-              tool.fetched_metadata.biotools__last_update_date
-                ? formatDate(tool.fetched_metadata.biotools__last_update_date)
+              tool.fetched_metadata.biotools?.last_update_date
+                ? formatDate(tool.fetched_metadata.biotools?.last_update_date)
                 : "No Last Update Info"
             }}
           </v-card-text>
@@ -382,14 +378,14 @@ const filteredItems = computed(() => {
   } else if (sortKey.value === "Creation Date") {
     filtered.sort(
       (a, b) =>
-        new Date(a.fetched_metadata.biotools__addition_date) -
-        new Date(b.fetched_metadata.biotools__addition_date),
+        new Date(a.fetched_metadata.biotools?.addition_date) -
+        new Date(b.fetched_metadata.biotools?.addition_date),
     );
   } else if (sortKey.value === "Last Updated") {
     filtered.sort(
       (a, b) =>
-        new Date(a.fetched_metadata.biotools__last_update_date) -
-        new Date(b.fetched_metadata.biotools__last_update_date),
+        new Date(a.fetched_metadata.biotools?.last_update_date) -
+        new Date(b.fetched_metadata.biotools?.last_update_date),
     );
   }
 
@@ -490,15 +486,15 @@ const fetchData = async () => {
 
     tools.value.forEach((tool) => {
       const licenseName =
-        tool.fetched_metadata.biotools__license ||
-        tool.fetched_metadata.bioschemas__license ||
-        tool.fetched_metadata.bioconda__license;
+        tool.fetched_metadata.biotools?.license ||
+        tool.fetched_metadata.bioschemas?.license ||
+        tool.fetched_metadata.bioconda?.license;
 
       if (licenseName && licenseName.toLowerCase() !== "not available") {
         licenses.add(licenseName);
       }
 
-      const toolTopics = tool.fetched_metadata.galaxy__edam_topics ?? [];
+      const toolTopics = tool.fetched_metadata.galaxy?.edam_topics ?? [];
 
       if (toolTopics.length) {
         toolTopics.forEach((topic) => topics.add(topic));
@@ -533,33 +529,33 @@ const fetchData = async () => {
 
 const getToolName = (tool) => {
   return (
-    tool.fetched_metadata.bioschemas__name ||
-    tool.fetched_metadata.bioconda__name ||
-    tool.fetched_metadata.biocontainers__name ||
+    tool.fetched_metadata.bioschemas?.name ||
+    tool.fetched_metadata.bioconda?.name ||
+    tool.fetched_metadata.biocontainers?.name ||
     tool.tool_name
   );
 };
 
 const getToolDescription = (tool) => {
   return (
-    tool.fetched_metadata.biotools__summary ||
-    tool.fetched_metadata.bioconda__summary ||
-    tool.fetched_metadata.galaxy__summary ||
-    tool.fetched_metadata.biocontainers__summary ||
+    tool.fetched_metadata.biotools?.summary ||
+    tool.fetched_metadata.bioconda?.summary ||
+    tool.fetched_metadata.galaxy?.summary ||
+    tool.fetched_metadata.biocontainers?.summary ||
     "No Description Available"
   );
 };
 
 const getToolTopics = (tool) => {
-  return tool.fetched_metadata.galaxy__edam_topics ?? [];
+  return tool.fetched_metadata.galaxy?.edam_topics ?? [];
 };
 
 const getToolLicense = (tool) => {
   let licenseName =
-    tool.fetched_metadata.biotools__license ||
-    tool.fetched_metadata.bioschemas__license ||
-    tool.fetched_metadata.bioconda__license ||
-    tool.fetched_metadata.biocontainers__license;
+    tool.fetched_metadata.biotools?.license ||
+    tool.fetched_metadata.bioschemas?.license ||
+    tool.fetched_metadata.bioconda?.license ||
+    tool.fetched_metadata.biocontainers?.license;
 
   if (licenseName && licenseName.toLowerCase() !== "not available") {
     return licenseName;
@@ -570,9 +566,9 @@ const getToolLicense = (tool) => {
 
 const getToolVersion = (tool) => {
   return (
-    tool.fetched_metadata.bioschemas__version ||
-    tool.fetched_metadata.bioconda__version ||
-    tool.fetched_metadata.biotools__version?.[0] ||
+    tool.fetched_metadata.bioschemas?.version ||
+    tool.fetched_metadata.bioconda?.version ||
+    tool.fetched_metadata.biotools?.version?.[0] ||
     "No Version Info"
   );
 };

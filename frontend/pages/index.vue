@@ -85,6 +85,12 @@
       </v-col>
     </v-row>
 
+    <v-row v-if="fakeLoading">
+      <v-col cols="12" md="4" v-for="i in 6" :key="i">
+        <v-skeleton-loader :elevation="1" color="secondary" type="card" />
+      </v-col>
+    </v-row>
+
     <!-- EDAM Topics -->
     <v-row v-if="filteredTopics.length && searchQuery">
       <v-col cols="12" style="padding-top: 0">
@@ -176,6 +182,7 @@
 
     <!-- Pagination Controls -->
     <v-pagination
+      v-if="totalPages > 1"
       v-model="currentPage"
       :length="totalPages"
       :total-visible="pageNumbers.length"

@@ -546,6 +546,89 @@
           flex-direction: column;
         "
       >
+        <v-row v-if="getFilteredIdentifiers('galaxy').length > 0">
+          <!-- Run with Galaxy Section -->
+          <v-col
+            style="
+              background-color: #33333360;
+              border-radius: 4px;
+              padding: 0px;
+              flex: 1;
+            "
+          >
+            <div
+              style="
+                background-color: #ffffff40;
+                padding: 15px;
+                border-radius: 4px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+              "
+            >
+              <div style="display: inline-block; width: 141px">
+                Run in Galaxy
+              </div>
+              <div
+                style="display: inline-block; color: #ffffff70; margin: 0 10px"
+              >
+                |
+              </div>
+              <div
+                style="
+                  display: inline-flex;
+                  font-size: 17px;
+                  font-weight: normal;
+                "
+              >
+                An academic portal to run tools, workflows and manage your data.
+              </div>
+            </div>
+            <div style="padding: 15px; padding-bottom: 5px">
+              <a
+                v-for="(galaxyItem, index) in getFilteredIdentifiers('galaxy')"
+                :key="index"
+                :href="`https://usegalaxy.eu/?tool_id=${galaxyItem.slice(13)}`"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="
+                  margin-right: 8px;
+                  margin-bottom: 8px;
+                  background-color: #333333;
+                  color: #f8f8f2;
+                  border: 1px solid grey;
+                  padding: 8px 12px;
+                  justify-content: center;
+                  align-items: center;
+                  box-shadow: none;
+                  display: inline-flex;
+                  text-decoration: none;
+                  cursor: pointer;
+                "
+                :title="`https://usegalaxy.eu/?tool_id=${galaxyItem.slice(13)}`"
+              >
+                <img
+                  style="height: 16px; width: 16px; margin-right: 5px"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg=="
+                />
+                {{ galaxyItem.slice(13) }}
+                <span
+                  class="fa-solid fa-arrow-up-right-from-square"
+                  style="
+                    margin-left: 6px;
+                    color: white;
+                    height: 16px;
+                    width: 14px;
+                  "
+                />
+              </a>
+            </div>
+          </v-col>
+        </v-row>
+
         <v-row
           v-if="hasBiocondaData || hasBiocontainersData || hasGalaxyData"
           style="gap: 18px"
@@ -814,89 +897,6 @@
                   <i class="fas fa-copy" />
                 </div>
               </div>
-            </div>
-          </v-col>
-        </v-row>
-
-        <v-row v-if="getFilteredIdentifiers('galaxy').length > 0">
-          <!-- Run with Galaxy Section -->
-          <v-col
-            style="
-              background-color: #33333360;
-              border-radius: 4px;
-              padding: 0px;
-              flex: 1;
-            "
-          >
-            <div
-              style="
-                background-color: #ffffff40;
-                padding: 15px;
-                border-radius: 4px;
-                border-bottom-left-radius: 0px;
-                border-bottom-right-radius: 0px;
-                font-size: 18px;
-                font-weight: bold;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <div style="display: inline-block; width: 141px">
-                Run with Galaxy
-              </div>
-              <div
-                style="display: inline-block; color: #ffffff70; margin: 0 10px"
-              >
-                |
-              </div>
-              <div
-                style="
-                  display: inline-flex;
-                  font-size: 17px;
-                  font-weight: normal;
-                "
-              >
-                An academic portal to run tools, workflows and manage your data.
-              </div>
-            </div>
-            <div style="padding: 15px; padding-bottom: 5px">
-              <a
-                v-for="(galaxyItem, index) in getFilteredIdentifiers('galaxy')"
-                :key="index"
-                :href="`https://usegalaxy.eu/?tool_id=${galaxyItem.slice(13)}`"
-                target="_blank"
-                rel="noopener noreferrer"
-                style="
-                  margin-right: 8px;
-                  margin-bottom: 8px;
-                  background-color: #333333;
-                  color: #f8f8f2;
-                  border: 1px solid grey;
-                  padding: 8px 12px;
-                  justify-content: center;
-                  align-items: center;
-                  box-shadow: none;
-                  display: inline-flex;
-                  text-decoration: none;
-                  cursor: pointer;
-                "
-                :title="`https://usegalaxy.eu/?tool_id=${galaxyItem.slice(13)}`"
-              >
-                <img
-                  style="height: 16px; width: 16px; margin-right: 5px"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg=="
-                />
-                {{ galaxyItem.slice(13) }}
-                <span
-                  class="fa-solid fa-arrow-up-right-from-square"
-                  style="
-                    margin-left: 6px;
-                    color: white;
-                    height: 16px;
-                    width: 14px;
-                  "
-                />
-              </a>
             </div>
           </v-col>
         </v-row>

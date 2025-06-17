@@ -624,6 +624,7 @@
         <v-row v-if="galaxyData">
           <!-- Run with Galaxy Section -->
           <v-col
+            v-if="Object.keys(availableOnGalaxyInstances).length > 0"
             style="
               background-color: #33333360;
               border-radius: 4px;

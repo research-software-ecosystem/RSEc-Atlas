@@ -14,74 +14,60 @@
     <v-row>
       <!-- Search UI -->
       <v-col cols="12" md="4">
-        <div class="icon-wrapper">
-          <div class="icon fas fa-search"></div>
-          <v-text-field
-            id="searchInput"
-            ref="searchInput"
-            label="Search Tools and Topics"
-            @input="executeSearch"
-            class="input-with-icon"
-            hint="Enter a comma-separated search query. Use 'tag:' prefix to search by topics."
-            persistent-hint
-          />
-        </div>
+        <v-text-field
+          id="searchInput"
+          ref="searchInput"
+          label="Search Tools and Topics"
+          @input="executeSearch"
+          hint="Enter a comma-separated search query. Use 'tag:' prefix to search by topics."
+          persistent-hint
+          autofocus
+          append-inner-icon="fas fa-search"
+        />
       </v-col>
 
       <!-- Sort By -->
       <v-col cols="12" md="2">
-        <div class="icon-wrapper">
-          <div class="icon fas fa-sort"></div>
-          <v-select
-            v-model="sortKey"
-            :items="sortOptions"
-            label="Sort By"
-            @input="resetPage"
-            class="input-with-icon"
-          />
-        </div>
+        <v-autocomplete
+          v-model="sortKey"
+          :items="sortOptions"
+          label="Sort By"
+          @input="resetPage"
+          prepend-inner-icon="fas fa-sort"
+        />
       </v-col>
 
       <!-- Filter by Data Availability -->
       <v-col cols="12" md="2">
-        <div class="icon-wrapper">
-          <div class="icon fas fa-database"></div>
-          <v-select
-            v-model="dataFilter"
-            :items="dataOptions"
-            label="Filter by Data Availability"
-            @input="resetPage"
-            class="input-with-icon"
-          />
-        </div>
+        <v-autocomplete
+          v-model="dataFilter"
+          :items="dataOptions"
+          label="Filter by Data Availability"
+          @input="resetPage"
+          prepend-inner-icon="fas fa-database"
+        />
       </v-col>
 
       <!-- Filter by License -->
       <v-col cols="12" md="2">
-        <div class="icon-wrapper">
-          <div class="icon fas fa-stamp"></div>
-          <v-select
-            v-model="licenseFilter"
-            :items="licenseOptions"
-            label="Filter by License"
-            @input="resetPage"
-            class="input-with-icon"
-          />
-        </div>
+        <v-autocomplete
+          v-model="licenseFilter"
+          :items="licenseOptions"
+          label="Filter by License"
+          @input="resetPage"
+          prepend-inner-icon="fas fa-balance-scale"
+        />
       </v-col>
 
       <!-- Filter by Favorites -->
       <v-col cols="12" md="2">
-        <div class="icon-wrapper">
-          <div class="icon fas fa-heart"></div>
-          <v-select
-            v-model="favoritesFilter"
-            :items="favoritesOptions"
-            label="Filter by Favorites"
-            @input="resetPage"
-            class="input-with-icon"
-          />
-        </div>
+        <v-autocomplete
+          v-model="favoritesFilter"
+          :items="favoritesOptions"
+          label="Filter by Favorites"
+          @input="resetPage"
+          prepend-inner-icon="fas fa-star"
+        />
       </v-col>
     </v-row>
 
@@ -94,39 +80,21 @@
     <!-- EDAM Topics -->
     <v-row v-if="filteredTopics.length && searchQuery">
       <v-col cols="12" style="padding-top: 0">
-        <v-card
-          style="
-            padding: 20px;
-            padding-bottom: 10px;
-            background-color: #ededed;
-            border-top-left-radius: 0px;
-            border-top-right-radius: 0px;
-            border-top: 1px solid #a6a6a6;
-            box-shadow: none;
-          "
-        >
-          <v-card-text style="padding: 0px">
-            <v-btn
+        <v-card>
+          <v-chip-group class="px-2">
+            <v-chip
               v-for="(topic, index) in filteredTopics"
               :key="index"
-              style="
-                margin-right: 10px;
-                margin-bottom: 10px;
-                background-color: #434343;
-                color: white;
-                justify-content: center;
-                align-items: center;
-                font-size: 12px;
-              "
-              :href="
-                currentOrigin + '/search/tag:' + topic.trim().toLowerCase()
-              "
-              @click="openTopic($event, topic)"
+              variant="outlined"
+              color="secondary"
+              elevation="2"
+              :to="'/search/tag:' + topic.trim().toLowerCase()"
+              tooltip="Click to search by this topic"
+              prepend-icon="fas fa-tag"
             >
-              <i class="fas fa-tag" style="margin-right: 5px; color: white"></i>
               {{ topic }}
-            </v-btn>
-          </v-card-text>
+            </v-chip>
+          </v-chip-group>
         </v-card>
       </v-col>
     </v-row>
@@ -139,12 +107,7 @@
         v-for="tool in paginatedItems"
         :key="tool.tool_name"
       >
-        <v-card>
-          <v-card-title>
-            <button @click="handleNavigation($event, tool)">
-              {{ getToolName(tool) }}
-            </button>
-          </v-card-title>
+        <v-card :title="getToolName(tool)">
           <v-card-subtitle>
             {{ getToolDescription(tool)?.trim() ?? "No description" }}
           </v-card-subtitle>
@@ -164,10 +127,27 @@
                 : "No Last Update Info"
             }}
           </v-card-text>
-          <v-card-actions>
-            <v-btn @click="toggleFavorite(tool)">
+          <v-card-actions class="d-flex justify-end">
+            <v-btn
+              @click="toggleFavorite(tool)"
+              variant="outlined"
+              :prepend-icon="isFavorite(tool) ? 'fas fa-star' : 'far fa-star'"
+            >
               {{ isFavorite(tool) ? "Unfavorite" : "Favorite" }}
             </v-btn>
+
+            <NuxtLink
+              class="v-btn v-btn--text"
+              :to="`/tool/${encodeURIComponent(tool.tool_name)}`"
+            >
+              <v-btn
+                color="primary"
+                variant="outlined"
+                prepend-icon="fas fa-info-circle"
+              >
+                View Details
+              </v-btn>
+            </NuxtLink>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -421,18 +401,6 @@ const executeSearch = () => {
   debounceSearch();
 };
 
-const handleNavigation = async (event, tool) => {
-  event.preventDefault();
-
-  const url = `/tool/${encodeURIComponent(tool.tool_name)}`;
-
-  if (event.ctrlKey || event.metaKey) {
-    window.open(currentOrigin + url, "_blank");
-  } else {
-    router.push(url);
-  }
-};
-
 const toggleFavorite = (tool) => {
   if (isFavorite(tool)) {
     favoriteItems.value = favoriteItems.value.filter(
@@ -580,20 +548,6 @@ const getToolVersion = (tool) => {
   );
 };
 
-const openTopic = (event, topic) => {
-  const trimmedTopic = "tag:" + topic.trim().toLowerCase();
-  const searchInputElement = document.getElementById("searchInput");
-  const inputEvent = new Event("input", { bubbles: true });
-  if (event.ctrlKey || event.metaKey) {
-    return;
-  }
-  event.preventDefault();
-
-  searchQuery.value = trimmedTopic;
-  searchInputElement.value = trimmedTopic;
-  searchInputElement.dispatchEvent(inputEvent);
-};
-
 const formatDate = (dateString) => {
   const date = new Date(dateString);
   return date.toLocaleDateString("en-US", {
@@ -639,27 +593,6 @@ const formatDate = (dateString) => {
 .v-pagination {
   margin-top: 20px;
   justify-content: center;
-}
-
-.icon-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  background-color: #333333;
-  color: #f5f5f5;
-  border-radius: 10%;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  position: absolute;
-  top: 12px;
-  right: 12px;
 }
 
 .loading-overlay {

@@ -6,7 +6,7 @@
         class="tool-title dynamic-gradient"
         style="position: relative"
       >
-        <span class="fas fa-caret-right" style="margin-right: 4px" />
+        <v-icon size="md" icon="fas fa-caret-right" style="margin-right: 4px" />
         {{ tool.tool_name.toUpperCase() }}
         <template v-if="hasBiocondaData">
           <a
@@ -80,20 +80,18 @@
         </template>
 
         <!-- Favorite Star -->
-        <span
-          class="fas fa-star"
+        <v-icon
+          icon="fas fa-star"
           :style="{
             position: 'absolute',
             right: '25px',
             top: '25px',
             color: isFavorite(tool) ? '#fff2e3' : '#fff2e370',
             cursor: 'pointer',
-            fontSize: '25px',
           }"
           @click="toggleFavorite(tool)"
           title="Toggle Favorite"
-        >
-        </span>
+        />
       </v-card-title>
       <v-card-subtitle class="tool-description">
         {{
@@ -107,67 +105,38 @@
         <!-- Main Tool Info Section -->
         <v-row>
           <v-col cols="12" md="3" lg="3">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>Home</v-card-title>
               <v-card-text>
-                <a
+                <v-chip
                   v-if="getHome"
+                  append-icon="fa-solid fa-arrow-up-right-from-square"
+                  prepend-icon="fa-solid fa-house"
                   :href="getHome"
                   target="_blank"
+                  color="primary"
+                  variant="flat"
                   rel="noopener noreferrer"
-                  style="
-                    text-decoration: none;
-                    max-width: 100%;
-                    background-color: #434343;
-                    color: wheat;
-                    padding: 8px 12px;
-                    border-radius: 4px;
-                    display: inline-flex;
-                    align-items: center;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                  "
                 >
-                  <span
-                    class="fa-solid fa-house"
-                    style="
-                      margin-right: 8px;
-                      color: white;
-                      height: 16px;
-                      width: 14px;
-                    "
-                  />
-                  <span
-                    style="
-                      overflow: hidden;
-                      text-overflow: ellipsis;
-                      white-space: nowrap;
-                    "
-                  >
-                    {{
-                      getHome
-                        .replace(/^(https?:\/\/)?(www\.)?/, "")
-                        .toUpperCase()
-                    }}
-                  </span>
-                  <span
-                    class="fa-solid fa-arrow-up-right-from-square"
-                    style="
-                      margin-left: 6px;
-                      color: white;
-                      height: 16px;
-                      width: 14px;
-                    "
-                  />
-                </a>
+                  {{ getHome.replace(/^(https?:\/\/)?(www\.)?/, "") }}
+                </v-chip>
                 <span v-else>No home URL</span>
               </v-card-text>
             </v-card>
           </v-col>
 
           <v-col cols="12" md="3" lg="3">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>Documentation</v-card-title>
               <v-card-text>
                 <a
@@ -189,14 +158,10 @@
                     white-space: nowrap;
                   "
                 >
-                  <span
-                    class="fa-solid fa-book"
-                    style="
-                      margin-right: 8px;
-                      color: white;
-                      height: 16px;
-                      width: 14px;
-                    "
+                  <v-icon
+                    size="md"
+                    icon="fa-solid fa-book"
+                    style="margin-right: 8px; color: white"
                   />
                   <span
                     style="
@@ -211,14 +176,10 @@
                         .toUpperCase()
                     }}
                   </span>
-                  <span
+                  <v-icon
                     class="fa-solid fa-arrow-up-right-from-square"
-                    style="
-                      margin-left: 6px;
-                      color: white;
-                      height: 16px;
-                      width: 14px;
-                    "
+                    size="md"
+                    style="margin-left: 6px; color: white"
                   />
                 </a>
                 <span v-else>No documentation</span>
@@ -227,14 +188,24 @@
           </v-col>
 
           <v-col cols="12" md="3" lg="3">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>License</v-card-title>
               <v-card-text>{{ getLicense }}</v-card-text>
             </v-card>
           </v-col>
 
           <v-col cols="12" md="3" lg="3">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>Version</v-card-title>
               <v-card-text>
                 {{ Array.isArray(getVersion) ? getVersion[0] : getVersion }}
@@ -243,7 +214,12 @@
           </v-col>
 
           <v-col cols="12" md="3" lg="12">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>Publications</v-card-title>
               <v-card-text>
                 <v-card-text
@@ -267,19 +243,16 @@
                   "
                   @click="openLink(publication)"
                 >
-                  <i
-                    class="fas fa-quote-left"
+                  <v-icon
+                    size="md"
+                    icon="fas fa-quote-left"
                     style="margin-right: 5px; color: white"
                   />
                   {{ publication }}
-                  <span
+                  <v-icon
+                    size="md"
                     class="fa-solid fa-arrow-up-right-from-square"
-                    style="
-                      margin-left: 6px;
-                      color: white;
-                      height: 16px;
-                      width: 14px;
-                    "
+                    style="margin-left: 6px; color: white"
                   />
                 </v-btn>
               </v-card-text>
@@ -287,7 +260,12 @@
           </v-col>
 
           <v-col cols="12" md="3" lg="3">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>Added Date</v-card-title>
               <v-card-text>
                 {{
@@ -299,7 +277,12 @@
           </v-col>
 
           <v-col cols="12" md="3" lg="3">
-            <v-card class="data-card">
+            <v-card
+              class="h-100"
+              color="indigo"
+              variant="outlined"
+              elevation="2"
+            >
               <v-card-title>Last Update</v-card-title>
               <v-card-text>{{
                 getFormattedDate(pageMetadata?.biotools?.last_update_date) ||
@@ -311,7 +294,12 @@
           <!-- Galaxy Data Section, if exists -->
           <template v-if="hasGalaxyData">
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>First Commit</v-card-title>
                 <v-card-text>
                   {{
@@ -323,7 +311,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Conda Name</v-card-title>
                 <v-card-text>
                   {{ galaxyData?.conda_name || "No conda name info" }}
@@ -332,7 +325,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Conda Version</v-card-title>
                 <v-card-text>
                   {{
@@ -345,7 +343,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Toolshed Categories</v-card-title>
                 <v-card-text>
                   <ul
@@ -367,7 +370,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Toolshed ID</v-card-title>
                 <v-card-text>
                   {{ galaxyData?.toolshed_id || "No toolshed ID info" }}
@@ -376,7 +384,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Users (5 Years)</v-card-title>
                 <v-card-text>
                   {{
@@ -389,7 +402,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Users (All Time)</v-card-title>
                 <v-card-text>
                   {{
@@ -402,7 +420,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Usage (5 Years)</v-card-title>
                 <v-card-text>
                   {{
@@ -415,7 +438,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Usage (All Time)</v-card-title>
                 <v-card-text>
                   {{
@@ -428,7 +456,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>BioTools IDs</v-card-title>
                 <v-card-text>
                   {{ galaxyData?.bio_tools_ids || "No bio tools IDs" }}
@@ -437,7 +470,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="3">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>BioTools Name</v-card-title>
                 <v-card-text>
                   {{ galaxyData?.bio_tools_name || "No bio tools name" }}
@@ -446,7 +484,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="12">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>EDAM Operations</v-card-title>
                 <v-card-text>
                   <ul
@@ -466,7 +509,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="12">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>EDAM Topics</v-card-title>
                 <v-card-text>
                   <v-card-text v-if="!galaxyData?.edam_topics?.length">
@@ -485,7 +533,8 @@
                     "
                     @click="openTopic(topic)"
                   >
-                    <i
+                    <v-icon
+                      size="md"
                       class="fas fa-bookmark"
                       style="margin-right: 5px; color: white"
                     />
@@ -496,7 +545,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="12">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Related Training Materials</v-card-title>
                 <v-card-text>
                   <v-card-text v-if="!galaxyData?.related_tutorials?.length">
@@ -517,7 +571,11 @@
                     target="_blank"
                     :href="tutorial"
                   >
-                    <i class="fas fa-book mr-2" style="color: white" />
+                    <v-icon
+                      size="md"
+                      class="fas fa-book mr-2"
+                      style="color: white"
+                    />
                     {{
                       tutorial.startsWith("http")
                         ? tutorial
@@ -528,8 +586,10 @@
                         : tutorial
                     }}
 
-                    <i
-                      class="fas fa-arrow-up-right-from-square ml-2"
+                    <v-icon
+                      size="md"
+                      icon="fas fa-arrow-up-right-from-square"
+                      class="ml-2"
                       style="color: white"
                     />
                   </v-btn>
@@ -538,7 +598,12 @@
             </v-col>
 
             <v-col cols="12" md="3" lg="12">
-              <v-card class="data-card">
+              <v-card
+                class="h-100"
+                color="indigo"
+                variant="outlined"
+                elevation="2"
+              >
                 <v-card-title>Related Workflows</v-card-title>
                 <v-card-text>
                   <v-card-text v-if="!galaxyData?.related_workflows?.length">
@@ -549,13 +614,15 @@
                       <v-expansion-panel-title
                         style="background-color: #434343; color: wheat"
                       >
-                        <i
+                        <v-icon
+                          size="md"
                           class="fas fa-sitemap"
                           style="margin-right: 5px; color: white"
                         />
                         {{ galaxyData?.related_workflows.length }}
                         workflows available. Click to view them.
-                        <i
+                        <v-icon
+                          size="md"
                           class="fas fa-chevron-down"
                           style="margin-left: 5px; color: white"
                         />
@@ -576,7 +643,11 @@
                           target="_blank"
                           :href="workflow"
                         >
-                          <i class="fas fa-book mr-2" style="color: white" />
+                          <v-icon
+                            size="md"
+                            class="fas fa-book mr-2"
+                            style="color: white"
+                          />
 
                           Workflow {{ index + 1 }} on
                           {{
@@ -588,7 +659,8 @@
                               .replace(/\b\w/g, (c) => c.toUpperCase())
                           }}
 
-                          <i
+                          <v-icon
+                            size="md"
                             class="fas fa-arrow-up-right-from-square ml-2"
                             style="color: white"
                           />
@@ -683,7 +755,10 @@
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg=="
                   />
                   Galaxy {{ instanceKey.toUpperCase() }}
-                  <span class="fa-solid fa-arrow-up-right-from-square ml-2" />
+                  <v-icon
+                    size="md"
+                    class="fa-solid fa-arrow-up-right-from-square ml-2"
+                  />
                 </a>
               </template>
             </div>
@@ -783,7 +858,7 @@
                   @click="copyCommandToClipboard('conda')"
                   class="copy-command"
                 >
-                  <i class="fas fa-copy" />
+                  <v-icon size="md" icon="fas fa-copy" />
                 </div>
               </div>
             </div>
@@ -882,7 +957,7 @@
                   @click="copyCommandToClipboard('biocontainers')"
                   class="copy-command"
                 >
-                  <i class="fas fa-copy" />
+                  <v-icon size="md" icon="fas fa-copy" />
                 </div>
               </div>
             </div>
@@ -955,7 +1030,7 @@
                   @click="copyCommandToClipboard('singularity')"
                   class="copy-command"
                 >
-                  <i class="fas fa-copy" />
+                  <v-icon size="md" icon="fas fa-copy" />
                 </div>
               </div>
             </div>
@@ -975,7 +1050,7 @@
 
     <!-- Back to Listings -->
     <v-btn to="/" class="back-to-listings">
-      <span class="fas fa-caret-left" style="margin-right: 8px" />
+      <v-icon size="md" icon="fas fa-caret-left" style="margin-right: 8px" />
       <span> Back to Listings</span>
     </v-btn>
   </v-container>

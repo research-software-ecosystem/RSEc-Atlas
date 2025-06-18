@@ -1,23 +1,25 @@
 <template>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    rel="stylesheet"
+  />
 
   <head>
     <title>RSE Metadata Explorer</title>
     <link rel="icon" href="./public/logo-rsec.svg" />
   </head>
+
   <v-app>
     <v-container fluid>
       <!-- Header -->
-      <v-app-bar color="secondary" elevate-on-scroll flat>
+      <v-app-bar color="grey-lighten-3" elevate-on-scroll flat>
         <!-- Logo -->
         <NuxtLink to="/" class="header-logo">
           <img src="./public/logo-rsec.svg" alt="RSE Logo" class="logo-image" />
         </NuxtLink>
 
         <!-- Title -->
-        <NuxtLink to="/" class="header-title">
-          RSE Metadata Explorer
-        </NuxtLink>
+        <NuxtLink to="/" class="header-title"> RSE Metadata Explorer </NuxtLink>
 
         <!-- GitHub Link -->
         <div class="github-link" @click="goToGitHub">
@@ -32,11 +34,13 @@
       </v-main>
 
       <!-- Footer -->
-      <v-footer color="secondary" inset app>
+      <v-footer color="grey-lighten-3" inset app>
         <v-row justify="center" align="center">
           <v-col cols="12" class="text-center">
-            <span>A webapp to browse through all the bio tools and containers in the <b>Research Software Ecosystem</b>
-              repository.</span>
+            <span>
+              A webapp to browse through all the bio tools and containers in the
+              <b>Research Software Ecosystem</b> repository.
+            </span>
           </v-col>
         </v-row>
       </v-footer>
@@ -47,8 +51,8 @@
 <script setup>
 const goToGitHub = () => {
   window.open(
-    'https://github.com/research-software-ecosystem/research-software-ecosystem.github.io',
-    '_blank'
+    "https://github.com/research-software-ecosystem/research-software-ecosystem.github.io",
+    "_blank",
   );
 };
 </script>

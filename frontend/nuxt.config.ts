@@ -11,5 +11,5 @@ export default defineNuxtConfig({
     transpile: ["vuetify"],
   },
 
-  modules: ["@pinia/nuxt"],
+  modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss"],
 });

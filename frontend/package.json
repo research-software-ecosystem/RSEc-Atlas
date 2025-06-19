@@ -13,9 +13,12 @@
     "@pinia/nuxt": "^0.11.1",
     "lodash": "^4.17.21",
     "nuxt": "^3.17.5",
-    "prettier": "^3.5.3",
     "vue": "latest",
-    "vue-router": "latest",
-    "vuetify": "^3.8.9"
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12"
   }
 }

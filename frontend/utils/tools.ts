@@ -57,6 +57,28 @@ export function getToolVersion(tool: Tool): string {
   );
 }
 
+export function getToolLastUpdate(tool: Tool): string {
+  const { biotools } = tool.fetched_metadata;
+  const dateStr = biotools?.last_update_date;
+
+  if (!dateStr) {
+    return "No last update date";
+  }
+
+  const date = new Date(dateStr);
+
+  if (isNaN(date.getTime())) {
+    return "No last update date";
+  } else {
+    return new Intl.DateTimeFormat("en-US", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }).format(date);
+  }
+}
+
 export function getToolDescription(tool: Tool): string {
   const { biotools, bioconda, biocontainers, galaxy } = tool.fetched_metadata;
 

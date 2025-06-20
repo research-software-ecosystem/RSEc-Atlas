@@ -1,135 +1,78 @@
+<script setup lang="ts">
+const colorMode = useColorMode();
+
+const isDark = computed({
+  get() {
+    return colorMode.value === "dark";
+  },
+  set(_isDark) {
+    colorMode.preference = _isDark ? "dark" : "light";
+  },
+});
+</script>
+
 <template>
   <link
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     rel="stylesheet"
   />
 
-  <head>
-    <title>RSE Metadata Explorer</title>
-    <link rel="icon" href="./public/logo-rsec.svg" />
-  </head>
+  <UApp class="bg-chicago-50 flex h-dvh flex-col font-sans">
+    <header class="px-6 py-2">
+      <nav>
+        <div class="flex justify-between">
+          <NuxtLink to="/" class="flex items-center gap-2 text-2xl font-bold">
+            <img
+              class="h-10 w-auto"
+              alt="RSE Logo"
+              src="./public/logo-rsec.svg"
+            />
 
-  <v-app>
-    <v-container fluid>
-      <!-- Header -->
-      <v-app-bar color="grey-lighten-3" elevate-on-scroll flat>
-        <!-- Logo -->
-        <NuxtLink to="/" class="header-logo">
-          <img src="./public/logo-rsec.svg" alt="RSE Logo" class="logo-image" />
-        </NuxtLink>
+            <span>RSE Metadata Explorer</span>
+          </NuxtLink>
 
-        <!-- Title -->
-        <NuxtLink to="/" class="header-title"> RSE Metadata Explorer </NuxtLink>
+          <div class="flex items-center gap-2">
+            <ClientOnly v-if="!colorMode?.forced" class="cursor-pointer">
+              <UButton
+                :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
+                color="neutral"
+                variant="ghost"
+                @click="isDark = !isDark"
+              />
 
-        <!-- GitHub Link -->
-        <div class="github-link" @click="goToGitHub">
-          <i class="fab fa-github"></i>
-          <span>GitHub</span>
+              <template #fallback>
+                <div class="size-8" />
+              </template>
+            </ClientOnly>
+
+            <NuxtLink
+              target="_blank"
+              role="button"
+              to="https://github.com/research-software-ecosystem/research-software-ecosystem.github.io"
+              class="inline-flex cursor-pointer items-center rounded-lg bg-[#24292F] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#24292F]/90 focus:ring-4 focus:ring-[#24292F]/50 focus:outline-none dark:hover:bg-[#050708]/30 dark:focus:ring-gray-500"
+            >
+              <Icon name="uil-github" class="me-2 h-4 w-4" />
+
+              View on Github
+            </NuxtLink>
+          </div>
         </div>
-      </v-app-bar>
+      </nav>
+    </header>
 
-      <!-- Page Content -->
-      <v-main class="main-content">
-        <NuxtPage />
-      </v-main>
+    <main class="overflow-y-auto px-10 pt-5 pb-20">
+      <NuxtPage />
+    </main>
 
-      <!-- Footer -->
-      <v-footer color="grey-lighten-3" inset app>
-        <v-row justify="center" align="center">
-          <v-col cols="12" class="text-center">
-            <span>
-              A webapp to browse through all the bio tools and containers in the
-              <b>Research Software Ecosystem</b> repository.
-            </span>
-          </v-col>
-        </v-row>
-      </v-footer>
-    </v-container>
-  </v-app>
+    <footer
+      class="fixed bottom-0 w-full bg-gray-100 p-3 shadow-amber-50 dark:bg-gray-800"
+    >
+      <div>
+        <p class="text-center text-sm text-gray-500 dark:text-gray-400">
+          A webapp to browse through all the bio tools and containers in the
+          <b>Research Software Ecosystem</b> repository.
+        </p>
+      </div>
+    </footer>
+  </UApp>
 </template>
-
-<script setup>
-const goToGitHub = () => {
-  window.open(
-    "https://github.com/research-software-ecosystem/research-software-ecosystem.github.io",
-    "_blank",
-  );
-};
-</script>
-
-<style scoped>
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
-.v-app-bar {
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.v-footer {
-  box-shadow: 2px -2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.header-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-left: 10px;
-  color: #333333;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.header-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20px;
-}
-
-.logo-image {
-  height: 50px;
-  width: auto;
-}
-
-.github-link {
-  position: absolute;
-  right: 20px;
-  display: flex;
-  align-items: center;
-  color: #333333;
-  font-size: 16px;
-  font-weight: bold;
-  gap: 5px;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
-
-.github-link i {
-  font-size: 18px;
-  background-color: #333333;
-  color: #f5f5f5;
-  padding: 5px;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.github-link:hover {
-  color: #555555;
-}
-
-.github-link i:hover {
-  background-color: #555555;
-}
-
-.main-content {
-  margin: 80px 20px 60px 20px;
-  padding: 18px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-  background: #f5f5f5;
-}
-</style>

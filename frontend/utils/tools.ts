@@ -46,6 +46,17 @@ export function getToolName(tool: Tool) {
   );
 }
 
+export function getToolVersion(tool: Tool): string {
+  const { bioschemas, bioconda, biotools } = tool.fetched_metadata;
+
+  return (
+    bioschemas?.version ||
+    bioconda?.version ||
+    biotools?.version?.[0] ||
+    "No version data"
+  );
+}
+
 export function getToolDescription(tool: Tool): string {
   const { biotools, bioconda, biocontainers, galaxy } = tool.fetched_metadata;
 

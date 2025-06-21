@@ -62,7 +62,7 @@ const isDark = computed({
       </nav>
     </header>
 
-    <main class="overflow-y-auto px-10 pt-5 pb-20">
+    <main class="overflow-y-auto px-5 pt-5 pb-20 md:px-10">
       <NuxtPage />
     </main>
 

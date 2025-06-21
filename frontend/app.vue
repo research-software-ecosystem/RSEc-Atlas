@@ -23,7 +23,7 @@ const isDark = computed({
     >
       <nav>
         <div class="flex flex-col justify-between md:flex-row">
-          <NuxtLink to="/" class="flex gap-2 text-2xl font-bold">
+          <NuxtLink to="/" class="flex items-center gap-2 text-2xl font-bold">
             <img
               class="h-10 w-auto"
               alt="RSE Logo"

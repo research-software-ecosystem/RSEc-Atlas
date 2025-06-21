@@ -84,17 +84,17 @@ onMounted(async () => {
               {{ getToolLicense(tool) }}
             </UBadge>
 
-            <UTooltip :delay-duration="0" text="Last Updated">
+            <UTooltip :delay-duration="250" text="Last Updated">
               <UBadge icon="uil:calendar-alt" variant="subtle">
                 {{ getToolLastUpdate(tool) }}
               </UBadge>
             </UTooltip>
 
-            <UTooltip :delay-duration="0" text="View Tool Home Page">
+            <UTooltip :delay-duration="250" text="View Tool Home Page">
               <NuxtLink
                 target="_blank"
                 :to="getToolHomePage(tool)"
-                class="text-lg font-semibold"
+                class="font-semibold"
               >
                 <UBadge
                   variant="subtle"
@@ -109,29 +109,31 @@ onMounted(async () => {
               </NuxtLink>
             </UTooltip>
 
-            <NuxtLink
-              target="_blank"
-              :to="getToolDocumentation(tool) ?? undefined"
-              class="text-lg font-semibold"
-            >
-              <UBadge
-                variant="subtle"
-                color="primary"
-                icon="uil:book"
-                :trailing-icon="
-                  getToolDocumentation(tool) ? 'uil:external-link-alt' : ''
-                "
+            <UTooltip :delay-duration="0" text="View Tool Documentation">
+              <NuxtLink
+                target="_blank"
+                :to="getToolDocumentation(tool) ?? undefined"
+                class="font-semibold"
               >
-                {{
-                  getToolDocumentation(tool)
-                    ? getToolDocumentation(tool).replace(
-                        /^(https?:\/\/)?(www\.)?/,
-                        "",
-                      )
-                    : "No documentation available"
-                }}
-              </UBadge>
-            </NuxtLink>
+                <UBadge
+                  variant="subtle"
+                  color="primary"
+                  icon="uil:book"
+                  :trailing-icon="
+                    getToolDocumentation(tool) ? 'uil:external-link-alt' : ''
+                  "
+                >
+                  {{
+                    getToolDocumentation(tool)
+                      ? getToolDocumentation(tool).replace(
+                          /^(https?:\/\/)?(www\.)?/,
+                          "",
+                        )
+                      : "No documentation available"
+                  }}
+                </UBadge>
+              </NuxtLink>
+            </UTooltip>
           </div>
 
           <span class="text-md w-full lg:text-lg">
@@ -167,7 +169,7 @@ onMounted(async () => {
             </ul>
           </div>
 
-          <div class="flex items-center gap-2">
+          <div class="flex flex-wrap gap-2">
             <span class="font-semibold text-gray-800 dark:text-gray-200">
               Topics:
             </span>
@@ -279,10 +281,13 @@ onMounted(async () => {
             </div>
 
             <div class="flex flex-wrap gap-2">
-              <template
+              <UTooltip
                 v-for="[insKey, nOfTools] in Object.entries(
                   getToolInGalaxyAvailability(tool),
                 )"
+                :key="insKey"
+                :delay-duration="500"
+                text="Click to run this tool in Galaxy instance"
               >
                 <NuxtLink
                   v-if="nOfTools > 0"
@@ -303,7 +308,7 @@ onMounted(async () => {
                     Run in Galaxy {{ insKey.toLocaleUpperCase() }}
                   </UBadge>
                 </NuxtLink>
-              </template>
+              </UTooltip>
             </div>
           </div>
         </InfoCard>
@@ -378,22 +383,24 @@ onMounted(async () => {
           title="Publications"
           title-icon="uil:book-open"
         >
-          <NuxtLink
+          <UTooltip
             v-for="publication in getToolPublications(tool)"
             :key="publication"
-            target="_blank"
-            :to="getLinkURL(publication)"
+            :delay-duration="500"
+            text="Click to view publication"
           >
-            <UBadge
-              class="text-md text-gray-600 dark:text-gray-300"
-              variant="subtle"
-              color="primary"
-              :trailing-icon="`uil:external-link-alt`"
-              icon="uil:book-alt"
-            >
-              {{ publication }}
-            </UBadge>
-          </NuxtLink>
+            <NuxtLink target="_blank" :to="getLinkURL(publication)">
+              <UBadge
+                class="text-md text-gray-600 dark:text-gray-300"
+                variant="subtle"
+                color="primary"
+                :trailing-icon="`uil:external-link-alt`"
+                icon="uil:book-alt"
+              >
+                {{ publication }}
+              </UBadge>
+            </NuxtLink>
+          </UTooltip>
         </InfoCard>
 
         <InfoCard
@@ -401,30 +408,32 @@ onMounted(async () => {
           title="Training Materials"
           title-icon="uil:graduation-cap"
         >
-          <NuxtLink
+          <UTooltip
             v-for="tutorial in getToolTrainingMaterials(tool)"
             :key="tutorial"
-            target="_blank"
-            :to="getLinkURL(tutorial)"
+            :delay-duration="500"
+            text="Click to view tutorial"
           >
-            <UBadge
-              class="text-md text-gray-600 dark:text-gray-300"
-              variant="subtle"
-              color="primary"
-              :trailing-icon="`uil:external-link-alt`"
-              icon="uil:book-reader"
-            >
-              {{
-                tutorial?.startsWith("http")
-                  ? tutorial
-                      .split("/")
-                      .find((_, idx, arr) => arr[idx - 1] === "tutorials")
-                      .replace(/-/g, " ")
-                      .replace(/\b\w/g, (c) => c.toUpperCase())
-                  : tutorial
-              }}
-            </UBadge>
-          </NuxtLink>
+            <NuxtLink target="_blank" :to="getLinkURL(tutorial)">
+              <UBadge
+                class="text-md text-gray-600 dark:text-gray-300"
+                variant="subtle"
+                color="primary"
+                :trailing-icon="`uil:external-link-alt`"
+                icon="uil:book-reader"
+              >
+                {{
+                  tutorial?.startsWith("http")
+                    ? tutorial
+                        .split("/")
+                        .find((_, idx, arr) => arr[idx - 1] === "tutorials")
+                        .replace(/-/g, " ")
+                        .replace(/\b\w/g, (c) => c.toUpperCase())
+                    : tutorial
+                }}
+              </UBadge>
+            </NuxtLink>
+          </UTooltip>
         </InfoCard>
 
         <InfoCard
@@ -447,22 +456,24 @@ onMounted(async () => {
             </UButton>
 
             <template #content>
-              <NuxtLink
+              <UTooltip
                 v-for="workflow in getToolWorkflows(tool)"
                 :key="workflow"
-                target="_blank"
-                :to="getLinkURL(workflow)"
+                :delay-duration="500"
+                text="Last Updated"
               >
-                <UBadge
-                  class="text-md text-gray-600 dark:text-gray-300"
-                  variant="subtle"
-                  color="primary"
-                  :trailing-icon="`uil:external-link-alt`"
-                  icon="uil:sitemap"
-                >
-                  {{ workflow }}
-                </UBadge>
-              </NuxtLink>
+                <NuxtLink target="_blank" :to="getLinkURL(workflow)">
+                  <UBadge
+                    class="text-md text-gray-600 dark:text-gray-300"
+                    variant="subtle"
+                    color="primary"
+                    :trailing-icon="`uil:external-link-alt`"
+                    icon="uil:sitemap"
+                  >
+                    {{ workflow }}
+                  </UBadge>
+                </NuxtLink>
+              </UTooltip>
             </template>
           </UCollapsible>
         </InfoCard>

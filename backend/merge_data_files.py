@@ -204,7 +204,7 @@ def process_files_in_folder(folder_path):
     page_metadata = {
         "tool_name": folder_name,
         "contents": list(contents),
-        "page_metadata": extracted_page_metadata,
+        "fetched_metadata": extracted_page_metadata,
     }
 
     return metadata, page_metadata

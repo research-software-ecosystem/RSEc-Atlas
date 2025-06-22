@@ -9,7 +9,7 @@ const props = defineProps<Props>();
 
 <template>
   <UCard class="mb-3">
-    <h3 class="mb-2 flex items-center text-lg font-semibold">
+    <h3 class="mb-2 flex flex-wrap items-center text-lg font-semibold">
       <Icon
         v-if="props.titleIcon"
         :name="props.titleIcon"

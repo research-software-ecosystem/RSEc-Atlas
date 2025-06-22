@@ -31,7 +31,7 @@ function copyToClipboard() {
   <div
     class="bg-black-800 mb-4 flex justify-between gap-2 rounded-lg border p-2"
   >
-    <code>
+    <code class="break-all">
       <slot>> {{ props.code }}</slot>
     </code>
 

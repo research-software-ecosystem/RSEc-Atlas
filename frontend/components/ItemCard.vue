@@ -35,8 +35,8 @@ function toggleFavorite() {
   <UCard :ui="{ body: 'flex h-full flex-col justify-between' }">
     <div>
       <div class="mb-2 break-words">
-        <div class="flex items-start justify-between">
-          <h3 class="l g:text-2xl mb-1 text-lg font-bold md:text-xl">
+        <div class="mb-2 flex items-start justify-between">
+          <h3 class="text-lg font-bold md:text-xl lg:text-2xl">
             {{ toolName }}
           </h3>
 

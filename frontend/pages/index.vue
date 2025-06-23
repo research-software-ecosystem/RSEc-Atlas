@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const perPageOptions = [12, 24, 36, 48];
+const perPageOptions = ["6", "12", "24", "36", "48"];
 const favoritesOptions = ["All", "Favorites"];
 const sortOptions = ["Name", "Creation Date", "Last Updated"];
 const dataOptions = [
@@ -162,7 +162,7 @@ onMounted(() => {
           size="lg"
           class="min-w-40"
           icon="uil:apps"
-          :items="perPageOptions.map((i) => `${i} items per page`)"
+          :items="perPageOptions.map((i) => i)"
         />
 
         <USelectMenu
@@ -177,7 +177,7 @@ onMounted(() => {
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
       <template v-if="loading">
-        <ItemCardPlaceHolder v-for="i in perPage" :key="i" />
+        <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
       </template>
       <template v-else-if="!loading && filteredTools.length > 0">
         <ItemCard
@@ -189,14 +189,12 @@ onMounted(() => {
     </div>
 
     <UPagination
-      v-if="filteredTools.length > perPage"
+      v-if="filteredTools.length > Number(perPage)"
       class="mt-4 flex justify-center"
+      :ui="{ list: 'flex-wrap ' }"
       :total="filteredTools.length"
-      :items-per-page="perPage"
+      :items-per-page="Number(perPage)"
       v-model:page="currentPage"
-      show-first-last
-      show-previous-next
-      show-page-numbers
       show-edges
     />
   </div>

@@ -22,10 +22,13 @@ const isDark = computed({
       class="sticky top-0 z-50 bg-white px-6 py-2 shadow-sm dark:bg-gray-900"
     >
       <nav>
-        <div class="flex flex-col justify-between md:flex-row">
-          <NuxtLink to="/" class="flex items-center gap-2 text-2xl font-bold">
+        <div class="flex flex-col justify-between sm:flex-row">
+          <NuxtLink
+            to="/"
+            class="text-md flex items-center gap-2 font-bold md:text-2xl"
+          >
             <img
-              class="h-10 w-auto"
+              class="h-5 w-auto md:h-8"
               alt="RSE Logo"
               src="./public/logo-rsec.svg"
             />
@@ -33,7 +36,7 @@ const isDark = computed({
             <span>RSE Metadata Explorer</span>
           </NuxtLink>
 
-          <div class="flex items-center justify-end gap-2">
+          <div class="flex items-center justify-end gap-1">
             <ClientOnly v-if="!colorMode?.forced" class="cursor-pointer">
               <UButton
                 :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
@@ -51,11 +54,11 @@ const isDark = computed({
               target="_blank"
               role="button"
               to="https://github.com/research-software-ecosystem/research-software-ecosystem.github.io"
-              class="inline-flex cursor-pointer items-center rounded-lg border border-gray-200 bg-[#24292F] px-5 py-2.5 text-center text-sm font-medium text-white transition-all duration-300 hover:bg-gray-500 hover:text-white hover:shadow-lg focus:ring-4 focus:ring-[#24292F]/50 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-500"
+              class="inline-flex cursor-pointer items-center gap-1 rounded-lg border border-gray-200 p-2 text-center text-sm font-medium transition-all hover:bg-black hover:text-white hover:shadow-lg focus:ring-4 focus:ring-[#24292F]/50 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-500"
             >
-              <Icon name="uil-github" class="me-2 h-4 w-4" />
+              <Icon name="uil-github" class="h-4 w-4" />
 
-              View on Github
+              <span class="hidden md:inline-block"> View on Github </span>
             </NuxtLink>
           </div>
         </div>

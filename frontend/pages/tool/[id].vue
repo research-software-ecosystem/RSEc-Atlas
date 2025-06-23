@@ -141,7 +141,7 @@ onMounted(async () => {
             </UTooltip>
           </div>
 
-          <span class="text-md w-full lg:text-lg">
+          <span class="text-md w-full break-normal lg:text-lg">
             {{ getToolDescription(tool) }}
           </span>
         </UCard>

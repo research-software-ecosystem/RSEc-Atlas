@@ -94,11 +94,11 @@ git clone https://github.com/research-software-ecosystem/content.git backend/con
 ```
 
 #### 6. Run the Python Script
-The Python script `merge_data_files.py` in `backend` processes and merges the metadata into `combined_metadata.json`. This file is later used by the Nuxt.js frontend.
+The Python script `merge_data_files.py` in `backend` processes and merges the metadata into `combined_metadata.json` also create a metadata file for each tool. This file is later used by the Nuxt.js frontend.
 ```bash
 python backend/merge_data_files.py
 ```
-This will generate the `combined_metadata.json` file in the `frontend/public/metadata` directory.
+This will generate the metadata files in the `frontend/public/metadata` directory.
 
 #### 8. Generate the Static Site
 Navigate to the `frontend` directory and run the following command to generate the static site:
@@ -120,7 +120,7 @@ You should now be able to access the site locally at `http://localhost:3000`.
 Following section defines the implementation of the project:
 
 ### Python Script:
-The Python script is responsible for processing and merging metadata files. It includes the following components:
+The Python script is responsible for processing, merging metadata files and create metadata for each tool. It includes the following components:
 
 - Directory Structure:
   ```
@@ -133,85 +133,88 @@ The Python script is responsible for processing and merging metadata files. It i
   1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool.
   2. Each folder has metadata of several files either in JSON or YAML format.
   3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to retrieve the information, one must modify this variable:
-    ```
-   file_patterns = [
-     (f"bioconda_{folder_name}.yaml", "bioconda"),
-     (f"{folder_name}.biocontainers.yaml", "biocontainers"),
-     (f"{folder_name}.biotools.json", "biotools"),
-     (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
-     (f"{folder_name}.galaxy.json", "galaxy"),
-    ]
-    ```
+      ```python
+      file_patterns = [
+        (f"bioconda_{folder_name}.yaml", "bioconda"),
+        (f"{folder_name}.biocontainers.yaml", "biocontainers"),
+        (f"{folder_name}.biotools.json", "biotools"),
+        (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
+        (f"{folder_name}.galaxy.json", "galaxy"),
+       ]
+      ```
+      If none of these files exist, the tool is skipped.
 
   4. The next step is to define which data is to be fetched from each file. We use a variable called `SUMMARY_DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file:
-   ```json
-   SUMMARY_DATA_KEY_MAPPINGS = {
-    "bioconda": {
-        "bioconda__name": ("package", "name"),
-        "bioconda__version": ("package", "version"),
-        .
-        .
-    },
-   "biocontainers": {
-        "biocontainers__name": ("name",),
-        "biocontainers__identifiers": ("identifiers",),
-        .
-        .
-    },
-   .
-   .
-   }
-   ```
-   There is also another mapping (`PAGE_DATA_KEY_MAPPINGS`) for creating more data into each tool page.
+      ```json
+      SUMMARY_DATA_KEY_MAPPINGS = {
+       "bioconda": {
+           "bioconda__name": ("package", "name"),
+           "bioconda__version": ("package", "version"),
+           .
+           .
+       },
+      "biocontainers": {
+           "biocontainers__name": ("name",),
+           "biocontainers__identifiers": ("identifiers",),
+           .
+           .
+       },
+      .
+      .
+      }
+      ```
+      There is also another mapping (`PAGE_DATA_KEY_MAPPINGS`) for creating more data into each tool page.
+
+      For `bioschemas.jsonld`, special parsing of the `@graph` array is handled to extract `"@type": "sc:SoftwareApplication"` entries.
 
   5. Finally, we have the combined JSON file with the structure shown in the following example, which would be later used by the frontend of our application:
-   ```
-   [
-     {
-        "tool_name": "1000genomes",
-        "contents": [
-            "biotools",
-            "bioschemas"
-        ],
-        "fetched_metadata": {
-            "biotools__home": "http://www.internationalgenome.org",
-            "biotools__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
-            "biotools__addition_date": "2017-07-04T12:28:57Z",
-            "biotools__last_update_date": "2022-06-30T08:53:55.709797Z",
-            "biotools__tool_type": [
-                "Database portal",
-                "Web application"
-            ],
-            "bioschemas__name": "1000Genomes",
-            "bioschemas__home": "https://bio.tools/1000genomes",
-            "bioschemas__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
-            "bioschemas__tool_type": "sc:SoftwareApplication"
-        }
-     },
-     {
-        "tool_name": "1000genomes_assembly_converter",
-        "contents": [
-            "biotools",
-            "bioschemas"
-        ],
-        "fetched_metadata": {
-            "biotools__home": "http://browser.1000genomes.org/tools.html",
-            "biotools__summary": "Map your data to the current assembly.",
-            "biotools__addition_date": "2015-01-29T15:47:08Z",
-            "biotools__last_update_date": "2018-12-10T12:58:50Z",
-            "biotools__tool_type": [
-                "Web application"
-            ],
-            "bioschemas__name": "1000Genomes assembly converter",
-            "bioschemas__home": "https://bio.tools/1000genomes_assembly_converter",
-            "bioschemas__summary": "Map your data to the current assembly.",
-            "bioschemas__tool_type": "sc:SoftwareApplication"
-        }
-     },
-   .
-   .
-   ]
-   ```
+      ```json
+      [
+        {
+           "tool_name": "1000genomes",
+           "contents": [
+               "biotools",
+               "bioschemas"
+           ],
+           "fetched_metadata": {
+               "biotools__home": "http://www.internationalgenome.org",
+               "biotools__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
+               "biotools__addition_date": "2017-07-04T12:28:57Z",
+               "biotools__last_update_date": "2022-06-30T08:53:55.709797Z",
+               "biotools__tool_type": [
+                   "Database portal",
+                   "Web application"
+               ],
+               "bioschemas__name": "1000Genomes",
+               "bioschemas__home": "https://bio.tools/1000genomes",
+               "bioschemas__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
+               "bioschemas__tool_type": "sc:SoftwareApplication"
+           }
+        },
+        {
+           "tool_name": "1000genomes_assembly_converter",
+           "contents": [
+               "biotools",
+               "bioschemas"
+           ],
+           "fetched_metadata": {
+               "biotools__home": "http://browser.1000genomes.org/tools.html",
+               "biotools__summary": "Map your data to the current assembly.",
+               "biotools__addition_date": "2015-01-29T15:47:08Z",
+               "biotools__last_update_date": "2018-12-10T12:58:50Z",
+               "biotools__tool_type": [
+                   "Web application"
+               ],
+               "bioschemas__name": "1000Genomes assembly converter",
+               "bioschemas__home": "https://bio.tools/1000genomes_assembly_converter",
+               "bioschemas__summary": "Map your data to the current assembly.",
+               "bioschemas__tool_type": "sc:SoftwareApplication"
+           }
+        },
+      .
+      .
+      ]
+      ```
 
 ### Frontend Project:
 The user interface of the application, i.e. frontend of the project, is built using Nuxt.js and includes the following components:

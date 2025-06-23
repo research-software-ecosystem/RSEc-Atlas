@@ -53,7 +53,7 @@ onMounted(async () => {
       class="flex w-full flex-col gap-2 lg:flex-row lg:gap-4"
     >
       <div class="w-full lg:w-1/3">
-        <UCard class="mb-3 break-words">
+        <UCard class="mb-3 break-all">
           <div class="flex items-start justify-between">
             <h2 class="mb-1 text-3xl font-bold lg:text-4xl">
               {{ getToolName(tool) }}
@@ -300,6 +300,7 @@ onMounted(async () => {
                     color="primary"
                     trailing-icon="uil:external-link-alt"
                     size="lg"
+                    class="lg:text-md text-sm"
                   >
                     <img
                       class="light:bg-gray-800 light:border light:rounded-sm"
@@ -391,7 +392,7 @@ onMounted(async () => {
           >
             <NuxtLink target="_blank" :to="getLinkURL(publication)">
               <UBadge
-                class="text-md text-gray-600 dark:text-gray-300"
+                class="lg:text-md text-sm text-gray-600 dark:text-gray-300"
                 variant="subtle"
                 color="primary"
                 :trailing-icon="`uil:external-link-alt`"
@@ -416,7 +417,7 @@ onMounted(async () => {
           >
             <NuxtLink target="_blank" :to="getLinkURL(tutorial)">
               <UBadge
-                class="text-md text-gray-600 dark:text-gray-300"
+                class="lg:text-md text-sm text-gray-600 dark:text-gray-300"
                 variant="subtle"
                 color="primary"
                 :trailing-icon="`uil:external-link-alt`"
@@ -464,7 +465,7 @@ onMounted(async () => {
               >
                 <NuxtLink target="_blank" :to="getLinkURL(workflow)">
                   <UBadge
-                    class="text-md text-gray-600 dark:text-gray-300"
+                    class="lg:text-md text-sm text-gray-600 dark:text-gray-300"
                     variant="subtle"
                     color="primary"
                     :trailing-icon="`uil:external-link-alt`"

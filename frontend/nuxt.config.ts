@@ -11,6 +11,12 @@ export default defineNuxtConfig({
     transpile: ["vuetify"],
   },
 
-  modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss", "@nuxt/ui"],
+  modules: [
+    "@pinia/nuxt",
+    "@nuxtjs/tailwindcss",
+    "@nuxt/ui",
+    "pinia-plugin-persistedstate/nuxt",
+  ],
+
   css: ["@/assets/css/main.css"],
 });

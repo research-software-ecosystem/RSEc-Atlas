@@ -221,57 +221,65 @@ onMounted(async () => {
       </div>
 
       <div class="flex flex-wrap items-center gap-4">
-        <USelectMenu
-          v-model="licenseFilter"
-          size="lg"
-          class="min-w-40"
-          icon="uil:balance-scale"
-          :items="licenseOptions"
-        />
+        <div class="flex flex-wrap items-center gap-4">
+          <USelectMenu
+            v-model="licenseFilter"
+            size="lg"
+            class="min-w-40"
+            icon="uil:balance-scale"
+            :highlight="licenseFilter !== 'All'"
+            :items="licenseOptions"
+          />
 
-        <USelectMenu
-          v-model="sortKey"
-          size="lg"
-          class="min-w-40"
-          icon="uil:sort-amount-down"
-          :items="sortOptions"
-        />
+          <USelectMenu
+            v-model="sortKey"
+            size="lg"
+            class="min-w-40"
+            icon="uil:sort-amount-down"
+            :highlight="sortKey !== 'Name'"
+            :items="sortOptions"
+          />
 
-        <USelectMenu
-          v-model="dataFilter"
-          size="lg"
-          class="min-w-40"
-          icon="uil:database"
-          :items="dataOptions"
-        />
+          <USelectMenu
+            v-model="dataFilter"
+            size="lg"
+            class="min-w-40"
+            icon="uil:database"
+            :highlight="dataFilter !== 'All'"
+            :items="dataOptions"
+          />
 
-        <USelectMenu
-          v-model="perPage"
-          size="lg"
-          class="min-w-40"
-          icon="uil:apps"
-          :items="perPageOptions.map((i) => i)"
-        />
+          <USelectMenu
+            v-model="favoritesFilter"
+            size="lg"
+            class="min-w-40"
+            icon="uil:star"
+            :highlight="favoritesFilter !== 'All'"
+            :items="favoritesOptions"
+          />
 
-        <USelectMenu
-          v-model="favoritesFilter"
-          size="lg"
-          class="min-w-40"
-          icon="uil:star"
-          :items="favoritesOptions"
-        />
+          <UButton
+            v-if="showClearButton"
+            size="lg"
+            variant="ghost"
+            class="cursor-pointer"
+            icon="uil:times"
+            @click="onClearFilters"
+            title="Clear Filters"
+          >
+            Clear Filters
+          </UButton>
+        </div>
 
-        <UButton
-          v-if="showClearButton"
-          size="lg"
-          variant="ghost"
-          class="cursor-pointer"
-          icon="uil:times"
-          @click="onClearFilters"
-          title="Clear Filters"
-        >
-          Clear Filters
-        </UButton>
+        <div class="ml-auto flex items-center gap-2">
+          <USelectMenu
+            v-model="perPage"
+            size="lg"
+            class="min-w-40 self-end"
+            icon="uil:apps"
+            :items="perPageOptions.map((i) => i)"
+          />
+        </div>
       </div>
     </div>
 

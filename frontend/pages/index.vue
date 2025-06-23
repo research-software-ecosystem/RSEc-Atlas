@@ -201,7 +201,10 @@ onMounted(async () => {
         />
       </UFormField>
 
-      <div class="mb-4 flex flex-wrap items-center gap-2">
+      <div
+        class="mb-4 flex flex-wrap items-center gap-2"
+        v-if="filteredTopics.length > 0"
+      >
         <UTooltip
           v-for="topic in filteredTopics"
           :key="topic"

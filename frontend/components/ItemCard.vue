@@ -5,6 +5,8 @@ interface Props {
 
 const props = defineProps<Props>();
 
+const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
+
 const toolName = computed(() => {
   return getToolName(props.tool);
 });
@@ -18,14 +20,14 @@ const license = computed(() => {
   return getToolLicense(props.tool);
 });
 const isFavorite = computed(() => {
-  return isToolFavorite(props.tool);
+  return isFavoriteTool(getToolName(props.tool));
 });
 const lastUpdate = computed(() => {
   return getToolLastUpdate(props.tool);
 });
 
 function toggleFavorite() {
-  toggleToolFavorite(props.tool);
+  toggleFavoriteTool(getToolName(props.tool));
 }
 </script>
 

@@ -141,7 +141,9 @@ export function applyFilters(
       }
     }
 
-    if (favoritesFilter === "Favorites" && !isToolFavorite(tool)) {
+    const { isFavoriteTool } = useToolsStore();
+
+    if (favoritesFilter === "Favorites" && !isFavoriteTool(getToolName(tool))) {
       return false;
     }
 

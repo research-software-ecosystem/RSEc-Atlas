@@ -4,6 +4,8 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const toast = useToast();
 
+const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
+
 const tool = ref(null);
 const loading = ref(false);
 
@@ -23,10 +25,13 @@ async function loadData() {
     loading.value = false;
   }
 }
-
 function toggleFavorite() {
-  toggleToolFavorite(tool);
+  toggleFavoriteTool(getToolName(tool.value));
 }
+
+const isToolFavorite = computed(() => {
+  return isFavoriteTool(getToolName(tool.value));
+});
 
 onMounted(async () => {
   await loadData();

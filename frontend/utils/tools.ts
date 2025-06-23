@@ -18,26 +18,6 @@ export function getToolLicense(tool: Tool): string {
   return "No License Info";
 }
 
-export function isToolFavorite(tool: Tool): boolean {
-  const favoriteTools = JSON.parse(localStorage.getItem("favorites") ?? "[]");
-
-  return favoriteTools.some((i: Tool) => i.tool_name === tool.tool_name);
-}
-
-export function toggleToolFavorite(tool: Tool) {
-  let favoriteTools = JSON.parse(localStorage.getItem("favorites") ?? "[]");
-
-  if (isToolFavorite(tool)) {
-    favoriteTools = favoriteTools.filter(
-      (i: any) => i.tool_name !== tool.tool_name,
-    );
-  } else {
-    favoriteTools.push(tool);
-  }
-
-  localStorage.setItem("favorites", JSON.stringify(favoriteTools));
-}
-
 export function getToolName(tool: Tool) {
   const { bioschemas, bioconda, biocontainers } = tool?.fetched_metadata;
 

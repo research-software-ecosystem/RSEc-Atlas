@@ -173,6 +173,12 @@ def process_files_in_folder(folder_path):
 
     contents, fetched_metadata, extracted_page_metadata = set(), {}, {}
 
+    if not any(
+        os.path.exists(os.path.join(folder_path, file_name))
+        for file_name, _ in file_patterns
+    ):
+        return {}, {}
+
     for file_name, tool_type in file_patterns:
         file_path = os.path.join(folder_path, file_name)
         if not os.path.exists(file_path):
@@ -216,6 +222,8 @@ def main():
     for root, _, _ in os.walk(data_dir):
         if root != data_dir:
             metadata, page_metadata = process_files_in_folder(root)
+            if not metadata or not page_metadata:
+                continue
             combined_metadata.append(metadata)
             save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
 

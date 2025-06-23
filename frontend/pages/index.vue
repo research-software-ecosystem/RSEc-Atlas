@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import { refDebounced } from "@vueuse/core";
+
+const route = useRoute();
+const router = useRouter();
+
 const perPageOptions = ["6", "12", "24", "36", "48"];
 const favoritesOptions = ["All", "Favorites"];
 const sortOptions = ["Name", "Creation Date", "Last Updated"];
@@ -18,7 +23,9 @@ const error = ref("");
 const filteredTopics = ref<string[]>([]);
 const topics = ref<string[]>([]);
 
+const filteredTools = ref<Tools>([]);
 const searchQuery = ref("");
+const searchQueryDebounced = refDebounced(searchQuery, 500);
 const sortKey = ref("Name");
 const currentPage = ref(1);
 const perPage = ref(perPageOptions[0]);
@@ -27,38 +34,61 @@ const licenseOptions = ref(["All"]);
 const favoritesFilter = ref("All");
 const dataFilter = ref("All");
 
-const filteredTools = computed(() => {
-  const query = searchQuery.value?.toLowerCase().trim() || "";
-
-  const hasMetadata = tools.value.some((tool) => tool.fetched_metadata);
-  if (!hasMetadata) {
-    return [];
-  }
-
-  let filtered: Tools;
-
-  const searchResult = searchTools(tools.value, query, topics.value);
-
-  filteredTopics.value = searchResult.filteredTopics;
-  filtered = searchResult.tools;
-
-  filtered = applyFilters(
-    tools.value,
-    licenseFilter.value,
-    dataFilter.value,
-    favoritesFilter.value,
+const showClearButton = computed(() => {
+  return (
+    searchQuery.value.trim() !== "" ||
+    sortKey.value !== "Name" ||
+    licenseFilter.value !== "All" ||
+    dataFilter.value !== "All" ||
+    favoritesFilter.value !== "All"
   );
-
-  filtered = sortByKey(filtered, sortKey.value);
-
-  return filtered;
 });
 
 const paginatedItems = computed(() => {
-  const start = (currentPage.value - 1) * perPage.value;
-  const end = start + perPage.value;
+  const start = (currentPage.value - 1) * Number(perPage.value);
+  const end = start + Number(perPage.value);
   return filteredTools.value.slice(start, end);
 });
+
+async function filterTools() {
+  try {
+    loading.value = true;
+    const query = searchQueryDebounced.value?.toLowerCase().trim() || "";
+
+    const hasMetadata = tools.value.some((tool) => tool.fetched_metadata);
+    if (!hasMetadata) {
+      filteredTools.value = [];
+    }
+
+    let filtered: Tools;
+
+    filtered = applyFilters(
+      tools.value,
+      licenseFilter.value,
+      dataFilter.value,
+      favoritesFilter.value,
+    );
+
+    filtered = sortByKey(filtered, sortKey.value);
+
+    const searchResult = searchTools(filtered, query, topics.value);
+
+    filteredTopics.value = searchResult.filteredTopics;
+    filtered = searchResult.tools;
+
+    filteredTools.value = filtered;
+  } catch (err) {
+    toast.add({
+      title: "Error Filtering Tools",
+      description: `Error: ${String(err)}`,
+      color: "error",
+    });
+
+    filteredTools.value = [];
+  } finally {
+    loading.value = false;
+  }
+}
 
 function listLicenses() {
   const allLicenses = tools.value.flatMap((tool) => {
@@ -105,12 +135,51 @@ async function getTools() {
   }
 }
 
-watch([searchQuery, sortKey, licenseFilter, dataFilter], () => {
-  currentPage.value = 1;
-});
+function onTopicClick(topic: string) {
+  searchQuery.value = `tag:${topic.trim().toLowerCase()}`;
+}
 
-onMounted(() => {
-  getTools();
+function onClearFilters() {
+  searchQuery.value = "";
+  sortKey.value = "Name";
+  licenseFilter.value = "All";
+  dataFilter.value = "All";
+  favoritesFilter.value = "All";
+  currentPage.value = 1;
+}
+
+watch(
+  [searchQueryDebounced, sortKey, licenseFilter, dataFilter, favoritesFilter],
+  () => {
+    router.replace({
+      query: {
+        search: searchQueryDebounced.value,
+        sort: sortKey.value,
+        license: licenseFilter.value,
+        data: dataFilter.value,
+        favorites: favoritesFilter.value,
+        page: String(currentPage.value),
+      },
+    });
+
+    currentPage.value = 1;
+
+    filterTools();
+  },
+);
+
+onMounted(async () => {
+  const queryParams = route.query;
+
+  searchQuery.value = queryParams.search?.toString() || "";
+  sortKey.value = queryParams.sort?.toString() || "Name";
+  licenseFilter.value = queryParams.license?.toString() || "All";
+  dataFilter.value = queryParams.data?.toString() || "All";
+  favoritesFilter.value = queryParams.favorites?.toString() || "All";
+  currentPage.value = parseInt(queryParams.page as string, 10) || 1;
+
+  await getTools();
+  await filterTools();
 });
 </script>
 
@@ -131,6 +200,25 @@ onMounted(() => {
           v-model="searchQuery"
         />
       </UFormField>
+
+      <div class="mb-4 flex flex-wrap items-center gap-2">
+        <UTooltip
+          v-for="topic in filteredTopics"
+          :key="topic"
+          :delay-duration="250"
+          text="Click to search by topic"
+        >
+          <UBadge
+            class="cursor-pointer text-gray-600 dark:text-gray-300"
+            variant="subtle"
+            color="primary"
+            icon="uil:tag"
+            @click="onTopicClick(topic)"
+          >
+            {{ topic }}
+          </UBadge>
+        </UTooltip>
+      </div>
 
       <div class="flex flex-wrap items-center gap-4">
         <USelectMenu
@@ -172,6 +260,18 @@ onMounted(() => {
           icon="uil:star"
           :items="favoritesOptions"
         />
+
+        <UButton
+          v-if="showClearButton"
+          size="lg"
+          variant="ghost"
+          class="cursor-pointer"
+          icon="uil:times"
+          @click="onClearFilters"
+          title="Clear Filters"
+        >
+          Clear Filters
+        </UButton>
       </div>
     </div>
 
@@ -179,12 +279,19 @@ onMounted(() => {
       <template v-if="loading">
         <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
       </template>
-      <template v-else-if="!loading && filteredTools.length > 0">
+      <template v-else-if="!loading && paginatedItems.length > 0">
         <ItemCard
           v-for="tool in paginatedItems"
           :tool="tool"
           :key="tool.tool_name"
         />
+      </template>
+      <template v-else-if="!loading && paginatedItems.length === 0">
+        <div class="col-span-full text-center">
+          <p class="text-lg text-gray-500">
+            No tools found matching your criteria.
+          </p>
+        </div>
       </template>
     </div>
 

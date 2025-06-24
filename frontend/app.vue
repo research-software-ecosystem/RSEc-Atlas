@@ -17,12 +17,12 @@ const isDark = computed({
     rel="stylesheet"
   />
 
-  <UApp class="bg-chicago-50 flex h-dvh flex-col font-sans">
+  <UApp class="flex h-dvh flex-col font-sans">
     <header
-      class="sticky top-0 z-50 bg-white px-6 py-2 shadow-sm dark:bg-gray-900"
+      class="sticky top-0 z-50 bg-gray-50 px-6 py-2 shadow-md dark:bg-gray-900"
     >
       <nav>
-        <div class="flex flex-col justify-between sm:flex-row">
+        <div class="flex justify-between">
           <NuxtLink
             to="/"
             class="text-md flex items-center gap-2 font-bold md:text-2xl"
@@ -50,22 +50,24 @@ const isDark = computed({
               </template>
             </ClientOnly>
 
-            <NuxtLink
+            <UButton
               target="_blank"
-              role="button"
+              icon="i-lucide-github"
               to="https://github.com/research-software-ecosystem/research-software-ecosystem.github.io"
-              class="inline-flex cursor-pointer items-center gap-1 rounded-lg border border-gray-200 p-2 text-center text-sm font-medium transition-all hover:bg-black hover:text-white hover:shadow-lg focus:ring-4 focus:ring-[#24292F]/50 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-500"
+              color="neutral"
+              variant="subtle"
+              class="cursor-pointer"
             >
-              <Icon name="uil-github" class="h-4 w-4" />
-
               <span class="hidden md:inline-block"> View on Github </span>
-            </NuxtLink>
+            </UButton>
           </div>
         </div>
       </nav>
     </header>
 
-    <main class="overflow-y-auto px-5 pt-5 pb-20 md:px-10">
+    <main
+      class="h-screen overflow-y-auto bg-gray-50 px-5 pt-5 pb-20 md:px-10 dark:bg-gray-900"
+    >
       <NuxtPage />
     </main>
 

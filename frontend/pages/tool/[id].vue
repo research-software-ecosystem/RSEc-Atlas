@@ -14,9 +14,9 @@ const galaxyInstanceTabs = computed(() => {
     .map(([insKey, nOfTools]) =>
       nOfTools === getToolToolIds(tool.value).length
         ? {
-      nOfTools,
-      key: insKey,
-      label: `Galaxy ${insKey.toUpperCase()}`,
+            nOfTools,
+            key: insKey,
+            label: `Galaxy ${insKey.toUpperCase()}`,
           }
         : null,
     )
@@ -313,34 +313,34 @@ onMounted(async () => {
             >
               <template #content="{ item }">
                 <div class="flex gap-2 px-1">
-              <UTooltip
+                  <UTooltip
                     v-for="toolId in getToolToolIds(tool)"
                     :key="toolId"
-                :delay-duration="500"
+                    :delay-duration="500"
                     :text="`Run ${toolId} in Galaxy ${item.label.toLocaleUpperCase()}`"
-              >
-                <NuxtLink
-                  target="_blank"
-                      :to="`https://usegalaxy.${item.key}/?tool_id=${toolId}`"
-                  class="text-lg font-semibold"
-                >
-                  <UBadge
-                    variant="subtle"
-                    color="primary"
-                    trailing-icon="uil:external-link-alt"
-                    size="lg"
-                    class="lg:text-md text-sm"
                   >
-                    <img
-                      class="light:bg-gray-800 light:border light:rounded-sm"
+                    <NuxtLink
+                      target="_blank"
+                      :to="`https://usegalaxy.${item.key}/?tool_id=${toolId}`"
+                      class="text-lg font-semibold"
+                    >
+                      <UBadge
+                        variant="subtle"
+                        color="primary"
+                        trailing-icon="uil:external-link-alt"
+                        size="lg"
+                        class="lg:text-md text-sm"
+                      >
+                        <img
+                          class="light:bg-gray-800 light:border light:rounded-sm"
                           src="/img/galaxy-icon.png"
-                    />
+                        />
 
                         Run <span class="font-mono">{{ toolId }}</span>
-                  </UBadge>
-                </NuxtLink>
-              </UTooltip>
-            </div>
+                      </UBadge>
+                    </NuxtLink>
+                  </UTooltip>
+                </div>
               </template>
             </UTabs>
           </div>
@@ -517,8 +517,14 @@ onMounted(async () => {
               title="ToolShed ID"
               :info="getToolToolshedData(tool).id"
             />
-            <InlineInfo title="ToolShed Categories">
-              <div class="flex flex-wrap gap-2">
+            <InlineInfo
+              title="ToolShed Categories"
+              :info="getToolToolshedData(tool).categories[0]"
+            >
+              <div
+                class="flex flex-wrap gap-2"
+                v-if="getToolToolshedData(tool).categories.length > 0"
+              >
                 <UBadge
                   v-for="category in getToolToolshedData(tool).categories"
                   :key="category"
@@ -535,7 +541,10 @@ onMounted(async () => {
               :info="getToolBioToolsData(tool).name"
             />
             <InlineInfo title="BioTools IDs">
-              <div class="flex flex-wrap gap-2">
+              <div
+                class="flex flex-wrap gap-2"
+                v-if="getToolBioToolsData(tool).ids?.length"
+              >
                 <template
                   v-if="typeof getToolBioToolsData(tool).ids === 'string'"
                 >
@@ -543,7 +552,7 @@ onMounted(async () => {
                     {{ getToolBioToolsData(tool).ids }}
                   </UBadge>
                 </template>
-                <template v-else>
+                <template v-else-if="getToolBioToolsData(tool).ids.length > 0">
                   <UBadge
                     v-for="id in getToolBioToolsData(tool).ids"
                     :key="id"

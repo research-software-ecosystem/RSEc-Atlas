@@ -68,6 +68,14 @@ onMounted(async () => {
       v-if="!loading && tool?.tool_name"
       class="flex w-full flex-col gap-2 lg:flex-row lg:gap-4"
     >
+      <Head>
+        <Title>
+          {{ getToolName(tool) }}
+        </Title>
+
+        <Meta name="description" :content="getToolDescription(tool)" />
+      </Head>
+
       <div class="w-full lg:w-1/3">
         <UCard class="mb-3 break-all">
           <div class="flex items-start justify-between">
@@ -526,10 +534,7 @@ onMounted(async () => {
               title="BioTools Name"
               :info="getToolBioToolsData(tool).name"
             />
-            <InlineInfo
-              title="BioTools IDs"
-              :info="getToolBioToolsData(tool).ids"
-            >
+            <InlineInfo title="BioTools IDs">
               <div class="flex flex-wrap gap-2">
                 <template
                   v-if="typeof getToolBioToolsData(tool).ids === 'string'"

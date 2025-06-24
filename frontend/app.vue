@@ -33,7 +33,7 @@ const isDark = computed({
               src="/img/logo-rsec.svg"
             />
 
-            <span>RSE Metadata Explorer</span>
+            <span>RSEc Atlas</span>
           </NuxtLink>
 
           <div class="flex items-center justify-end gap-1">

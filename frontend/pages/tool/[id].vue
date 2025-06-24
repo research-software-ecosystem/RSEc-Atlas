@@ -10,13 +10,17 @@ const tool = ref(null);
 const loading = ref(false);
 
 const galaxyInstanceTabs = computed(() => {
-  return Object.entries(getToolInGalaxyAvailability(tool.value)).map(
-    ([insKey, nOfTools]) => ({
+  return Object.entries(getToolInGalaxyAvailability(tool.value))
+    .map(([insKey, nOfTools]) =>
+      nOfTools === getToolToolIds(tool.value).length
+        ? {
       nOfTools,
       key: insKey,
       label: `Galaxy ${insKey.toUpperCase()}`,
-    }),
-  );
+          }
+        : null,
+    )
+    .filter(Boolean);
 });
 
 const isToolFavorite = computed(() => {
@@ -308,10 +312,7 @@ onMounted(async () => {
               :ui="{ label: 'cursor-pointer' }"
             >
               <template #content="{ item }">
-                <div
-                  v-if="item?.nOfTools === getToolToolIds(tool).length"
-                  class="flex gap-2 px-1"
-                >
+                <div class="flex gap-2 px-1">
               <UTooltip
                     v-for="toolId in getToolToolIds(tool)"
                     :key="toolId"
@@ -335,8 +336,7 @@ onMounted(async () => {
                           src="/img/galaxy-icon.png"
                     />
 
-                        Run
-                        <span class="font-mono">{{ toolId }}</span>
+                        Run <span class="font-mono">{{ toolId }}</span>
                   </UBadge>
                 </NuxtLink>
               </UTooltip>

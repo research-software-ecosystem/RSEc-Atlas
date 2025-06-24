@@ -30,7 +30,7 @@ const isDark = computed({
             <img
               class="h-5 w-auto md:h-8"
               alt="RSE Logo"
-              src="./public/logo-rsec.svg"
+              src="/img/logo-rsec.svg"
             />
 
             <span>RSE Metadata Explorer</span>

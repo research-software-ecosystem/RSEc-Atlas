@@ -36,9 +36,13 @@ function toggleFavorite() {
     <div>
       <div class="mb-2 break-words">
         <div class="mb-2 flex items-start justify-between">
-          <h3 class="text-lg font-bold md:text-xl lg:text-2xl">
+          <UButton
+            :to="`/tool/${props.tool.tool_name}`"
+            variant="link"
+            class="hover:text-secondary p-0 text-lg font-bold text-black md:text-xl lg:text-2xl dark:text-white"
+          >
             {{ toolName }}
-          </h3>
+          </UButton>
 
           <UTooltip
             :delay-duration="0"

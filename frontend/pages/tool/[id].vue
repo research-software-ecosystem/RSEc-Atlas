@@ -9,6 +9,20 @@ const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
 const tool = ref(null);
 const loading = ref(false);
 
+const galaxyInstanceTabs = computed(() => {
+  return Object.entries(getToolInGalaxyAvailability(tool.value)).map(
+    ([insKey, nOfTools]) => ({
+      nOfTools,
+      key: insKey,
+      label: `Galaxy ${insKey.toUpperCase()}`,
+    }),
+  );
+});
+
+const isToolFavorite = computed(() => {
+  return isFavoriteTool(getToolName(tool.value));
+});
+
 async function loadData() {
   try {
     loading.value = true;
@@ -25,13 +39,10 @@ async function loadData() {
     loading.value = false;
   }
 }
+
 function toggleFavorite() {
   toggleFavoriteTool(getToolName(tool.value));
 }
-
-const isToolFavorite = computed(() => {
-  return isFavoriteTool(getToolName(tool.value));
-});
 
 onMounted(async () => {
   await loadData();
@@ -255,10 +266,7 @@ onMounted(async () => {
       </div>
 
       <div class="w-full lg:w-2/3">
-        <InfoCard
-          title-icon="uil:rocket"
-          v-if="Object.keys(getToolInGalaxyAvailability(tool)).length > 0"
-        >
+        <InfoCard title-icon="uil:rocket" v-if="galaxyInstanceTabs.length > 0">
           <template v-slot:title>
             <span>
               Run in
@@ -280,24 +288,31 @@ onMounted(async () => {
               </span>
             </span>
           </template>
-          <div class="flex flex-col gap-2">
+
+          <div class="flex w-full flex-col gap-2">
             <div class="text-gray-600 dark:text-gray-300">
-              This tool is available in the following Galaxy instances:
+              This tool is available on the following Galaxy instances.
             </div>
 
-            <div class="flex flex-wrap gap-2">
+            <UTabs
+              :items="galaxyInstanceTabs"
+              class="w-full"
+              :ui="{ label: 'cursor-pointer' }"
+            >
+              <template #content="{ item }">
+                <div
+                  v-if="item?.nOfTools === getToolToolIds(tool).length"
+                  class="flex gap-2 px-1"
+                >
               <UTooltip
-                v-for="[insKey, nOfTools] in Object.entries(
-                  getToolInGalaxyAvailability(tool),
-                )"
-                :key="insKey"
+                    v-for="toolId in getToolToolIds(tool)"
+                    :key="toolId"
                 :delay-duration="500"
-                text="Click to run this tool in Galaxy instance"
+                    :text="`Run ${toolId} in Galaxy ${item.label.toLocaleUpperCase()}`"
               >
                 <NuxtLink
-                  v-if="nOfTools > 0"
                   target="_blank"
-                  :to="`https://usegalaxy.${insKey}/?tool_id=${getToolToolIds(tool)?.[0]}`"
+                      :to="`https://usegalaxy.${item.key}/?tool_id=${toolId}`"
                   class="text-lg font-semibold"
                 >
                   <UBadge
@@ -311,11 +326,15 @@ onMounted(async () => {
                       class="light:bg-gray-800 light:border light:rounded-sm"
                       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg=="
                     />
-                    Run in Galaxy {{ insKey.toLocaleUpperCase() }}
+
+                        Run
+                        <span class="font-mono">{{ toolId }}</span>
                   </UBadge>
                 </NuxtLink>
               </UTooltip>
             </div>
+              </template>
+            </UTabs>
           </div>
         </InfoCard>
 

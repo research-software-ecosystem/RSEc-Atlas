@@ -59,17 +59,37 @@ function toggleFavorite() {
         </div>
 
         <div class="flex flex-wrap gap-2">
-          <UBadge icon="uil:box" color="neutral" variant="subtle">
-            {{ version }}
-          </UBadge>
+          <UTooltip :delay-duration="250" text="Current tool version">
+            <UBadge
+              icon="uil:box"
+              color="neutral"
+              variant="subtle"
+              class="cursor-default"
+            >
+              {{ version }}
+            </UBadge>
+          </UTooltip>
 
-          <UBadge icon="uil:balance-scale" color="secondary" variant="subtle">
-            {{ license }}
-          </UBadge>
+          <UTooltip :delay-duration="250" text="License type">
+            <UBadge
+              icon="uil:balance-scale"
+              color="secondary"
+              variant="subtle"
+              class="cursor-default"
+            >
+              {{ license }}
+            </UBadge>
+          </UTooltip>
 
-          <UBadge icon="uil:calendar-alt" variant="subtle">
-            {{ lastUpdate }}
-          </UBadge>
+          <UTooltip :delay-duration="250" text="Last updated">
+            <UBadge
+              icon="uil:calendar-alt"
+              variant="subtle"
+              class="cursor-default"
+            >
+              {{ lastUpdate }}
+            </UBadge>
+          </UTooltip>
         </div>
       </div>
 

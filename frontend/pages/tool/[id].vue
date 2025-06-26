@@ -250,7 +250,17 @@ onMounted(async () => {
           </div>
         </UCard>
 
-        <UCard class="mb-3">
+        <UCard
+          class="mb-3"
+          v-if="
+            Object.values(getToolGalaxyUsageStats(tool)?.usage || {}).some(
+              (val) => val > 0,
+            ) ||
+            Object.values(getToolGalaxyUsageStats(tool)?.users || {}).some(
+              (val) => val > 0,
+            )
+          "
+        >
           <h3 class="mb-2 flex items-center text-lg font-semibold">
             <Icon name="uil:chart" class="mr-2 text-lg" />
             Galaxy Usage
@@ -438,7 +448,7 @@ onMounted(async () => {
 
         <InfoCard
           v-if="getToolTrainingMaterials(tool).length > 0"
-          title="Training Materials"
+          title="Galaxy Training Materials"
           title-icon="uil:graduation-cap"
         >
           <UTooltip
@@ -470,7 +480,7 @@ onMounted(async () => {
         </InfoCard>
 
         <InfoCard
-          title="Workflows"
+          title="Galaxy Workflows"
           title-icon="uil:sitemap"
           v-if="getToolWorkflows(tool).length > 0"
         >
@@ -514,11 +524,11 @@ onMounted(async () => {
         <UCard class="mb-3 break-words">
           <div class="flex flex-wrap gap-x-8 gap-y-4">
             <InlineInfo
-              title="ToolShed ID"
+              title="Galaxy ToolShed ID"
               :info="getToolToolshedData(tool).id"
             />
             <InlineInfo
-              title="ToolShed Categories"
+              title="Galaxy ToolShed Categories"
               :info="getToolToolshedData(tool).categories[0]"
             >
               <div

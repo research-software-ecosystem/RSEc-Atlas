@@ -184,17 +184,10 @@ def parse_metadata(tool_type, file_path):
 
 
 def build_metadata(tool_name, contents, fetched, page):
+    meta = {"tool_name": tool_name, "contents": list(contents)}
     return (
-        {
-            "tool_name": tool_name,
-            "contents": list(contents),
-            "fetched_metadata": fetched,
-        },
-        {
-            "tool_name": tool_name,
-            "contents": list(contents),
-            "page_metadata": page,
-        },
+        {**meta, "fetched_metadata": fetched},
+        {**meta, "fetched_metadata": page},
     )
 
 

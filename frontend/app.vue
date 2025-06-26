@@ -53,7 +53,7 @@ const isDark = computed({
             <UButton
               target="_blank"
               icon="i-lucide-github"
-              to="https://github.com/research-software-ecosystem/research-software-ecosystem.github.io"
+              to="https://github.com/research-software-ecosystem/content"
               color="neutral"
               variant="subtle"
               class="cursor-pointer"

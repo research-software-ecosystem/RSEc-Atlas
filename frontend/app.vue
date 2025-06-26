@@ -66,7 +66,7 @@ const isDark = computed({
     </header>
 
     <main
-      class="h-screen overflow-y-auto bg-gray-50 px-5 pt-5 pb-20 md:px-10 dark:bg-gray-900"
+      class="overflow-y-auto bg-gray-50 px-5 pt-5 pb-20 md:px-10 dark:bg-gray-900"
     >
       <NuxtPage />
     </main>

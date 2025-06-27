@@ -86,7 +86,6 @@ jobs:
 
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        publish_dir: frontend/.output/public
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        folder: frontend/.output/public

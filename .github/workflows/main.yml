@@ -84,8 +84,10 @@ jobs:
       env:
         NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
 
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        folder: frontend/.output/public
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: frontend/.output/public
+        force_orphan: true
+        keep_files: false

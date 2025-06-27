@@ -44,6 +44,7 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "addition_date": ("additionDate",),
         "last_update_date": ("lastUpdate",),
         "version": ("version",),
+        "collections": ("collectionID",),
     },
     "bioschemas": {
         "name": ("sc:name",),
@@ -89,6 +90,7 @@ PAGE_DATA_KEY_MAPPINGS = {
         "last_update_date": ("lastUpdate",),
         "tool_type": ("toolType",),
         "version": ("version",),
+        "collections": ("collectionID",),
     },
     "bioschemas": {
         "name": ("sc:name",),

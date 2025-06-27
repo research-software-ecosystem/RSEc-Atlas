@@ -23,7 +23,7 @@ const isFavorite = computed(() => {
   return isFavoriteTool(getToolName(props.tool));
 });
 const lastUpdate = computed(() => {
-  return getToolLastUpdate(props.tool);
+  return getToolLastUpdateDate(props.tool);
 });
 
 function toggleFavorite() {

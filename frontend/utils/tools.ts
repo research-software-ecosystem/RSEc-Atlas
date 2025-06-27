@@ -55,13 +55,6 @@ function formateDate(dateStr: string = ""): string {
   }
 }
 
-export function getToolLastUpdate(tool: Tool): string {
-  const { biotools } = tool.fetched_metadata;
-  const dateStr = biotools?.last_update_date;
-
-  return formateDate(dateStr);
-}
-
 export function getToolAdditionDate(tool: Tool): string {
   const { biotools } = tool.fetched_metadata;
   const dateStr = biotools?.addition_date;

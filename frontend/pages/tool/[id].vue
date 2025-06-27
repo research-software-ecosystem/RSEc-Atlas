@@ -114,7 +114,7 @@ onMounted(async () => {
 
             <UTooltip :delay-duration="250" text="Last Updated">
               <UBadge icon="uil:calendar-alt" variant="subtle">
-                {{ getToolLastUpdate(tool) }}
+                {{ getToolLastUpdateDate(tool) }}
               </UBadge>
             </UTooltip>
 

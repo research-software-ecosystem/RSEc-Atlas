@@ -247,6 +247,27 @@ onMounted(async () => {
               title="First Commit"
               :info="getToolFirstCommitDate(tool)"
             />
+            <InlineInfo title="Tags" v-if="getToolTags(tool).length > 0">
+              <div class="flex flex-wrap gap-2">
+                <NuxtLink
+                  v-for="tag in getToolTags(tool)"
+                  :key="tag"
+                  target="_blank"
+                  :to="`/search/tag:${tag.trim().toLowerCase()}`"
+                >
+                  <UBadge
+                    class="text-gray-600 dark:text-gray-300"
+                    variant="subtle"
+                    color="primary"
+                    :trailing-icon="`uil:external-link-alt`"
+                    icon="uil:tag-alt"
+                    @click="onTopicClick(tag)"
+                  >
+                    {{ tag }}
+                  </UBadge>
+                </NuxtLink>
+              </div>
+            </InlineInfo>
           </div>
         </UCard>
 

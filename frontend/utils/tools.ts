@@ -266,3 +266,9 @@ export function getToolBiocontainersData(tool: Tool): {
     identifiers: biocontainers?.identifiers || [],
   };
 }
+
+export function getToolTags(tool: Tool): string[] {
+  const { biotools } = tool.fetched_metadata;
+
+  return biotools?.collections || [];
+}

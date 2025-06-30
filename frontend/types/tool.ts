@@ -33,6 +33,7 @@ declare global {
         last_update_date?: string;
         addition_date?: string;
         summary?: string;
+        collections?: string[];
       };
       biocontainers?: {
         name?: string;

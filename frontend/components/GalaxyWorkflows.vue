@@ -67,7 +67,7 @@ watch(searchQueryDebounced, () => {
             :to="getLinkURL(wf?.link)"
             class="hover:text-secondary text-md flex flex-col justify-between gap-1 font-semibold sm:text-lg"
           >
-            <UTooltip :delay-duration="0" text="View Workflow">
+            <UTooltip :delay-duration="250" text="View Workflow">
               <span>
                 <Icon name="uil:sitemap" />
 

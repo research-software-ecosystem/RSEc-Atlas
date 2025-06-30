@@ -8,6 +8,7 @@ import yaml
 script_dir = os.path.dirname(__file__)
 output_folder = os.path.join(script_dir, "..", "frontend", "public", "metadata")
 data_dir = os.path.join(script_dir, "content", "data")
+galaxy_data_dir = os.path.join(script_dir, "content", "imports", "galaxy")
 
 
 logging.basicConfig(
@@ -43,6 +44,7 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "addition_date": ("additionDate",),
         "last_update_date": ("lastUpdate",),
         "version": ("version",),
+        "collections": ("collectionID",),
     },
     "bioschemas": {
         "name": ("sc:name",),
@@ -50,7 +52,10 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "version": ("sc:softwareVersion",),
     },
     "galaxy": {
+        "toolshed_id": ("Suite_ID",),
         "summary": ("Description",),
+        "version": ("Suite_version",),
+        "first_commit": ("Suite_first_commit_date",),
         "edam_topics": ("EDAM_topics",),
     },
     "biocontainers": {
@@ -85,6 +90,7 @@ PAGE_DATA_KEY_MAPPINGS = {
         "last_update_date": ("lastUpdate",),
         "tool_type": ("toolType",),
         "version": ("version",),
+        "collections": ("collectionID",),
     },
     "bioschemas": {
         "name": ("sc:name",),
@@ -95,6 +101,7 @@ PAGE_DATA_KEY_MAPPINGS = {
         "tool_type": ("@type",),
     },
     "galaxy": {
+        "version": ("Suite_version",),
         "first_commit": ("Suite_first_commit_date",),
         "conda_name": ("Suite_conda_package",),
         "conda_version": ("Latest_suite_conda_package_version",),
@@ -138,10 +145,12 @@ def extract_data(tool_type, data, key_mappings):
         return d
 
     def extract(d, mappings):
-        return {
-            k: extract(d, v) if isinstance(v, dict) else traverse_keys(d, *v) or None
-            for k, v in mappings.items()
-        }
+        result = {}
+        for k, v in mappings.items():
+            value = extract(d, v) if isinstance(v, dict) else traverse_keys(d, *v)
+            if value is not None:
+                result[k] = value
+        return result
 
     mappings = key_mappings.get(tool_type, {})
     if tool_type == "bioschemas":
@@ -159,6 +168,31 @@ def extract_data(tool_type, data, key_mappings):
         return {tool_type: extract(data, mappings)}
 
 
+def parse_metadata(tool_type, file_path):
+    ext = os.path.splitext(file_path)[1].lower()
+    if ext in [".yaml", ".yml"]:
+        data = parse_yaml(file_path)
+    elif ext in [".json", ".jsonld"]:
+        data = parse_json(file_path)
+    else:
+        return None, None
+    if not data:
+        return None, None
+
+    return (
+        extract_data(tool_type, data, SUMMARY_DATA_KEY_MAPPINGS),
+        extract_data(tool_type, data, PAGE_DATA_KEY_MAPPINGS),
+    )
+
+
+def build_metadata(tool_name, contents, fetched, page):
+    meta = {"tool_name": tool_name, "contents": list(contents)}
+    return (
+        {**meta, "fetched_metadata": fetched},
+        {**meta, "fetched_metadata": page},
+    )
+
+
 def process_files_in_folder(folder_path):
     folder_name = os.path.basename(folder_path)
     log_message(f"Extracting data for: {folder_name}")
@@ -173,10 +207,7 @@ def process_files_in_folder(folder_path):
 
     contents, fetched_metadata, extracted_page_metadata = set(), {}, {}
 
-    if not any(
-        os.path.exists(os.path.join(folder_path, file_name))
-        for file_name, _ in file_patterns
-    ):
+    if not any(os.path.exists(os.path.join(folder_path, f)) for f, _ in file_patterns):
         return {}, {}
 
     for file_name, tool_type in file_patterns:
@@ -184,48 +215,47 @@ def process_files_in_folder(folder_path):
         if not os.path.exists(file_path):
             continue
 
-        contents.add(tool_type)
+        fetched, page = parse_metadata(tool_type, file_path)
+        if fetched and page:
+            contents.add(tool_type)
+            fetched_metadata.update(fetched)
+            extracted_page_metadata.update(page)
 
-        ext = os.path.splitext(file_path)[1]
-        data = (
-            parse_yaml(file_path)
-            if ext in [".yaml", ".yml"]
-            else parse_json(file_path) if ext in [".json", ".jsonld"] else None
-        )
-        if data is None:
-            continue
-
-        extracted_data = extract_data(tool_type, data, SUMMARY_DATA_KEY_MAPPINGS)
-        fetched_metadata.update({k: v for k, v in extracted_data.items() if v})
-
-        page_data = extract_data(tool_type, data, PAGE_DATA_KEY_MAPPINGS)
-        extracted_page_metadata.update({k: v for k, v in page_data.items() if v})
-
-    metadata = {
-        "tool_name": folder_name,
-        "contents": list(contents),
-        "fetched_metadata": fetched_metadata,
-    }
-
-    page_metadata = {
-        "tool_name": folder_name,
-        "contents": list(contents),
-        "fetched_metadata": extracted_page_metadata,
-    }
-
-    return metadata, page_metadata
+    return build_metadata(
+        folder_name, contents, fetched_metadata, extracted_page_metadata
+    )
 
 
 def main():
     combined_metadata = []
 
     for root, _, _ in os.walk(data_dir):
-        if root != data_dir:
-            metadata, page_metadata = process_files_in_folder(root)
-            if not metadata or not page_metadata:
-                continue
-            combined_metadata.append(metadata)
-            save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
+        if root == data_dir:
+            continue
+        metadata, page_metadata = process_files_in_folder(root)
+        if not metadata or not page_metadata:
+            continue
+        combined_metadata.append(metadata)
+        save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
+
+    for file_name in os.listdir(galaxy_data_dir):
+        if not file_name.endswith(".galaxy.json"):
+            continue
+        file_path = os.path.join(galaxy_data_dir, file_name)
+        tool_name = os.path.basename(file_path).replace(".galaxy.json", "")
+        if any(tool_name == m["tool_name"] for m in combined_metadata):
+            log_message(f"Skipping {tool_name}: already processed.")
+            continue
+        fetched, page = parse_metadata("galaxy", file_path)
+        if not fetched or not page:
+            log_message(f"Skipping {tool_name}: failed to parse metadata.")
+            continue
+        metadata, page_metadata = build_metadata(
+            tool_name, fetched.keys(), fetched, page
+        )
+        log_message(f"Adding Galaxy tool: {tool_name}")
+        combined_metadata.append(metadata)
+        save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
 
     save_metadata("combined_metadata.json", combined_metadata)
 

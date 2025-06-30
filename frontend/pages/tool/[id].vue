@@ -486,7 +486,7 @@ onMounted(async () => {
         >
           <UCollapsible
             class="flex w-full flex-col gap-2"
-            :ui="{ content: 'flex flex-wrap gap-2' }"
+            :ui="{ content: 'flex flex-wrap gap-2 overflow-visible' }"
           >
             <UButton
               leading-icon="uil:arrow-right"
@@ -499,24 +499,44 @@ onMounted(async () => {
             </UButton>
 
             <template #content>
-              <UTooltip
+              <UCard
                 v-for="workflow in getToolWorkflows(tool)"
-                :key="workflow"
-                :delay-duration="500"
-                text="Last Updated"
+                :key="workflow.name"
+                variant="subtle"
+                :ui="{ body: 'p-2 sm:p-4' }"
               >
-                <NuxtLink target="_blank" :to="getLinkURL(workflow)">
-                  <UBadge
-                    class="lg:text-md text-sm text-gray-600 dark:text-gray-300"
-                    variant="subtle"
-                    color="primary"
-                    :trailing-icon="`uil:external-link-alt`"
-                    icon="uil:sitemap"
+                <div class="flex flex-col justify-between gap-1">
+                  <NuxtLink
+                    target="_blank"
+                    :to="getLinkURL(workflow?.link)"
+                    class="hover:text-secondary text-md gap-1 font-semibold sm:text-lg"
                   >
-                    {{ workflow }}
-                  </UBadge>
-                </NuxtLink>
-              </UTooltip>
+                    <UTooltip :delay-duration="0" text="View Workflow">
+                      <span>
+                        <Icon name="uil:sitemap" />
+
+                        {{ workflow.name }}
+
+                        <Icon name="uil:external-link-alt" />
+                      </span>
+                    </UTooltip>
+                  </NuxtLink>
+
+                  <div class="flex flex-wrap items-center gap-2">
+                    <UTooltip :delay-duration="250" text="Workflow Version">
+                      <UBadge icon="uil:box" color="neutral" variant="subtle">
+                        {{ workflow?.latest_version }}
+                      </UBadge>
+                    </UTooltip>
+
+                    <UTooltip :delay-duration="250" text="Created on">
+                      <UBadge icon="uil:calendar-alt" variant="subtle">
+                        {{ workflow.create_time || "N/A" }}
+                      </UBadge>
+                    </UTooltip>
+                  </div>
+                </div>
+              </UCard>
             </template>
           </UCollapsible>
         </InfoCard>

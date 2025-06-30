@@ -1,4 +1,11 @@
 declare global {
+  interface WorkflowDetails {
+    name: string;
+    create_time: string;
+    latest_version: number | string;
+    link: string;
+  }
+
   interface Tool {
     tool_name: string;
     description?: string;
@@ -39,7 +46,7 @@ declare global {
         first_commit?: string;
         edam_operations?: string[];
         edam_topics?: string[];
-        related_workflows?: string[];
+        related_workflows?: WorkflowDetails[];
         related_tutorials?: string[];
         usage_5_years: number;
         usage_all_time: number;

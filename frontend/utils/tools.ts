@@ -151,7 +151,7 @@ export function getLinkURL(link: string): string {
   }
 }
 
-export function getToolWorkflows(tool: Tool): string[] {
+export function getToolWorkflows(tool: Tool): WorkflowDetails[] {
   const { galaxy } = tool.fetched_metadata;
 
   return galaxy?.related_workflows || [];

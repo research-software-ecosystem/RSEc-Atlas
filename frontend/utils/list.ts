@@ -33,6 +33,26 @@ function filterToolsByTags(
   return { filteredTools, filteredTopics };
 }
 
+function filterToolsByTagsAndTopics(
+  tools: Tools,
+  tagQueries: string[],
+  allTopics: string[],
+) {
+  const filteredTopics = allTopics.filter((topic) =>
+    tagQueries.some((query) => topic.toLowerCase().includes(query)),
+  );
+  const filteredTools = tools.filter((tool) => {
+    const itemTags = [
+      ...getToolTopics(tool).map((tag) => tag.toLowerCase()),
+      ...getToolTags(tool).map((tag) => tag.toLowerCase()),
+    ];
+
+    return tagQueries.every((query) => itemTags.includes(query));
+  });
+
+  return { filteredTools, filteredTopics };
+}
+
 function calculateMatchScore(
   tool: Tool,
   tagQueries: string[],
@@ -40,7 +60,10 @@ function calculateMatchScore(
 ) {
   const nameMatch = getToolName(tool).toLowerCase();
   const descriptionMatch = getToolDescription(tool).toLowerCase();
-  const tagsMatch = getToolTopics(tool).map((tag) => tag.toLowerCase());
+  const tagsMatch = [
+    ...getToolTopics(tool).map((tag) => tag.toLowerCase()),
+    ...getToolTags(tool).map((tag) => tag.toLowerCase()),
+  ];
   let matchScore = 0;
 
   tagQueries.forEach((query) => {
@@ -72,11 +95,8 @@ export function searchTools(
   if (isStarTag) {
     filteredTopics = allTopics;
   } else if (tagQueries.length > 0) {
-    const { filteredTools, filteredTopics: topics } = filterToolsByTags(
-      tools,
-      tagQueries,
-      allTopics,
-    );
+    const { filteredTools, filteredTopics: topics } =
+      filterToolsByTagsAndTopics(tools, tagQueries, allTopics);
     tools = filteredTools;
     filteredTopics = topics;
   } else {

@@ -341,7 +341,7 @@ onMounted(async () => {
               :ui="{ label: 'cursor-pointer' }"
             >
               <template #content="{ item }">
-                <div class="flex gap-2 px-1">
+                <div class="flex flex-wrap gap-2 px-1">
                   <UTooltip
                     v-for="toolId in getToolToolIds(tool)"
                     :key="toolId"

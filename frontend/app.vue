@@ -12,7 +12,7 @@ const isDark = computed({
 </script>
 
 <template>
-  <UApp class="flex h-dvh flex-col font-sans">
+  <UApp class="flex flex-col font-sans">
     <header
       class="sticky top-0 z-50 bg-gray-50 px-6 py-2 shadow-md dark:bg-gray-900"
     >

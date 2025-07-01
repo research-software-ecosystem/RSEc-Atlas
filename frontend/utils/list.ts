@@ -1,12 +1,20 @@
 function parseQuery(query: string) {
-  const searchParts = query
-    .split(/[,\s]+/)
-    .map((part) => part.trim().toLowerCase());
-  const tagQueries = searchParts
-    .filter((part) => part.startsWith("tag:"))
-    .map((part) => part.replace(/^tag:/, ""));
-  const nonTagQueries = searchParts.filter((part) => !part.startsWith("tag:"));
+  const tagRegex = /tag:(["'])(.*?)\1/g;
+  const tagQueries: string[] = [];
+  let match;
+
+  while ((match = tagRegex.exec(query)) !== null) {
+    tagQueries.push(match[2]);
+  }
+
+  const nonTagQueryString = query.replace(tagRegex, "").trim();
+  const nonTagQueries = nonTagQueryString
+    .split(/[\s,]+/)
+    .map((part) => part.trim().toLowerCase())
+    .filter((part) => part.length > 0);
+
   const isStarTag = tagQueries.includes("*");
+
   return { tagQueries, nonTagQueries, isStarTag };
 }
 

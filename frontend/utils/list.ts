@@ -92,6 +92,17 @@ export function searchTools(
   let filteredTopics: string[] = [];
   let prioritizedResults: { item: Tool; matchScore: number }[] = [];
 
+  if (nonTagQueries.length) {
+    tools = tools.filter((tool) =>
+      nonTagQueries.some(
+        (query) =>
+          getToolName(tool).toLowerCase() === query ||
+          getToolName(tool).toLowerCase().includes(query) ||
+          getToolDescription(tool).toLowerCase().includes(query),
+      ),
+    );
+  }
+
   if (isStarTag) {
     filteredTopics = allTopics;
   } else if (tagQueries.length > 0) {
@@ -102,12 +113,6 @@ export function searchTools(
   } else {
     filteredTopics = allTopics.filter((topic) =>
       nonTagQueries.some((query) => topic.toLowerCase().includes(query)),
-    );
-  }
-
-  if (nonTagQueries.length) {
-    tools = tools.filter((tool) =>
-      nonTagQueries.some((query) => getToolName(tool).toLowerCase() === query),
     );
   }
 

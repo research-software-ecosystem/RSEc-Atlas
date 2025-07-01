@@ -105,9 +105,28 @@ export function searchTools(
     );
   }
 
+  if (nonTagQueries.length) {
+    tools = tools.filter((tool) =>
+      nonTagQueries.some((query) => getToolName(tool).toLowerCase() === query),
+    );
+  }
+
   tools.forEach((tool) => {
     const matchScore = calculateMatchScore(tool, tagQueries, nonTagQueries);
-    if (matchScore > 0) {
+
+    const matchesTags = tagQueries.every(
+      (query) =>
+        getToolTopics(tool).some((tag) => tag.toLowerCase().includes(query)) ||
+        getToolTags(tool).some((tag) => tag.toLowerCase().includes(query)),
+    );
+
+    const matchesNonTags = nonTagQueries.some((query) => {
+      const nameMatch = getToolName(tool).toLowerCase();
+      const descriptionMatch = getToolDescription(tool).toLowerCase();
+      return nameMatch.includes(query) || descriptionMatch.includes(query);
+    });
+
+    if (matchScore > 0 && (matchesTags || matchesNonTags)) {
       prioritizedResults.push({ item: tool, matchScore });
     }
   });

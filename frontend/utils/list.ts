@@ -1,5 +1,7 @@
 function parseQuery(query: string) {
-  const searchParts = query.split(",").map((part) => part.trim().toLowerCase());
+  const searchParts = query
+    .split(/[,\s]+/)
+    .map((part) => part.trim().toLowerCase());
   const tagQueries = searchParts
     .filter((part) => part.startsWith("tag:"))
     .map((part) => part.replace(/^tag:/, ""));

@@ -36,7 +36,7 @@ const dataFilter = ref("All");
 
 const showClearButton = computed(() => {
   return (
-    searchQuery.value.trim() !== "" ||
+    searchQueryDebounced.value.trim() !== "" ||
     sortKey.value !== "Name" ||
     licenseFilter.value !== "All" ||
     dataFilter.value !== "All" ||
@@ -62,21 +62,26 @@ async function filterTools() {
 
     let filtered: Tools;
 
-    filtered = applyFilters(
-      tools.value,
-      licenseFilter.value,
-      dataFilter.value,
-      favoritesFilter.value,
-    );
+    await new Promise((resolve) => {
+      setTimeout(() => {
+        filtered = applyFilters(
+          tools.value,
+          licenseFilter.value,
+          dataFilter.value,
+          favoritesFilter.value,
+        );
 
-    filtered = sortByKey(filtered, sortKey.value);
+        filtered = sortByKey(filtered, sortKey.value);
 
-    const searchResult = searchTools(filtered, query, topics.value);
+        const searchResult = searchTools(filtered, query, topics.value);
 
-    filteredTopics.value = searchResult.filteredTopics;
-    filtered = searchResult.tools;
+        filteredTopics.value = searchResult.filteredTopics;
+        filtered = searchResult.tools;
 
-    filteredTools.value = filtered;
+        filteredTools.value = filtered;
+        resolve(null);
+      }, 0);
+    });
   } catch (err) {
     toast.add({
       title: "Error Filtering Tools",

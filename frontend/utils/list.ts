@@ -1,110 +1,93 @@
+function parseQuery(query: string) {
+  const searchParts = query.split(",").map((part) => part.trim().toLowerCase());
+  const tagQueries = searchParts
+    .filter((part) => part.startsWith("tag:"))
+    .map((part) => part.replace(/^tag:/, ""));
+  const nonTagQueries = searchParts.filter((part) => !part.startsWith("tag:"));
+  const isStarTag = tagQueries.includes("*");
+  return { tagQueries, nonTagQueries, isStarTag };
+}
+
+function filterToolsByTags(
+  tools: Tools,
+  tagQueries: string[],
+  allTopics: string[],
+) {
+  const filteredTopics = allTopics.filter((topic) =>
+    tagQueries.some((query) => topic.toLowerCase().includes(query)),
+  );
+  const filteredTools = tools.filter((tool) => {
+    const itemTags = getToolTopics(tool).map((tag) => tag.toLowerCase());
+    return tagQueries.every((query) => itemTags.includes(query));
+  });
+  return { filteredTools, filteredTopics };
+}
+
+function calculateMatchScore(
+  tool: Tool,
+  tagQueries: string[],
+  nonTagQueries: string[],
+) {
+  const nameMatch = getToolName(tool).toLowerCase();
+  const descriptionMatch = getToolDescription(tool).toLowerCase();
+  const tagsMatch = getToolTopics(tool).map((tag) => tag.toLowerCase());
+  let matchScore = 0;
+
+  tagQueries.forEach((query) => {
+    if (tagsMatch.some((tag) => tag.includes(query))) matchScore += 100;
+  });
+
+  nonTagQueries.forEach((query) => {
+    if (nameMatch === query) matchScore += 100;
+    else if (nameMatch.startsWith(query)) matchScore += 70;
+    else if (nameMatch.includes(query)) matchScore += 50;
+    else if (tagsMatch.some((tag) => tag.includes(query))) matchScore += 20;
+    else if (descriptionMatch.includes(query)) matchScore += 10;
+  });
+
+  return matchScore;
+}
+
 export function searchTools(
   tools: Tools,
   query: string,
   allTopics: string[],
-): {
-  tools: Tools;
-  filteredTopics: string[];
-} {
-  const uniqueResults = new Set();
+): { tools: Tools; filteredTopics: string[] } {
+  if (!query) return { tools, filteredTopics: [] };
 
+  const { tagQueries, nonTagQueries, isStarTag } = parseQuery(query);
   let filteredTopics: string[] = [];
   let prioritizedResults: { item: Tool; matchScore: number }[] = [];
 
-  if (query) {
-    const searchParts = query
-      .split(",")
-      .map((part) => part && part.trim().toLowerCase());
-
-    let tagQueries = searchParts
-      .filter((part) => part.startsWith("tag:"))
-      .map((part) => part && part.replace(/^tag:/, "").trim().toLowerCase());
-
-    const isStarTag = tagQueries.filter((item) => item === "*");
-
-    const nonTagQueries = searchParts
-      .filter((part) => !part.startsWith("tag:"))
-      .map((part) => part.trim().toLowerCase());
-
-    tagQueries = tagQueries.filter((item) => item !== "*");
-
-    if (isStarTag.length > 0) {
-      filteredTopics = allTopics;
-    } else if (tagQueries.length > 0) {
-      filteredTopics = allTopics
-        .filter((item) => {
-          return tagQueries.some((part) => item.toLowerCase().includes(part));
-        })
-        .slice(0, 13);
-      tools = tools
-        .filter((item) => {
-          const itemTags = getToolTopics(item).map((tag) =>
-            tag.trim().toLowerCase(),
-          );
-          return tagQueries.every((query) =>
-            itemTags.includes(query.trim().toLowerCase()),
-          );
-        })
-        .slice(0, 13);
-    } else {
-      filteredTopics = allTopics.filter((item) => {
-        return nonTagQueries.some((part) => item.toLowerCase().includes(part));
-      });
-    }
-
-    if (nonTagQueries.length > 0) {
-      tools = tools.filter((item) => {
-        const nameMatch = getToolName(item).toLowerCase();
-        const descriptionMatch = getToolDescription(item).toLowerCase();
-        const tagsMatch = getToolTopics(item).map((tag) => tag.toLowerCase());
-
-        return nonTagQueries.every(
-          (part) =>
-            nameMatch.includes(part) ||
-            descriptionMatch.includes(part) ||
-            tagsMatch.some((tag) => tag.includes(part)),
-        );
-      });
-    }
-
-    tools.forEach((item) => {
-      const nameMatch = getToolName(item).toLowerCase();
-      const descriptionMatch = getToolDescription(item).toLowerCase();
-      const tagsMatch = getToolTopics(item).map((tag) => tag.toLowerCase());
-      let matchScore = 0;
-
-      tagQueries.forEach((part) => {
-        if (tagsMatch.some((tag) => tag.includes(part))) {
-          matchScore += 100;
-        }
-      });
-
-      nonTagQueries.forEach((part) => {
-        if (nameMatch === part) {
-          matchScore += 100;
-        } else if (nameMatch.startsWith(part)) {
-          matchScore += 70;
-        } else if (nameMatch.includes(part)) {
-          matchScore += 50;
-        } else if (tagsMatch.some((tag) => tag.includes(part))) {
-          matchScore += 20;
-        } else if (descriptionMatch.includes(part)) {
-          matchScore += 10;
-        }
-      });
-
-      if (matchScore > 0) {
-        prioritizedResults.push({ item, matchScore });
-      }
-    });
-
-    prioritizedResults.sort((a, b) => b.matchScore - a.matchScore);
-    prioritizedResults.forEach((result) => uniqueResults.add(result.item));
+  if (isStarTag) {
+    filteredTopics = allTopics;
+  } else if (tagQueries.length > 0) {
+    const { filteredTools, filteredTopics: topics } = filterToolsByTags(
+      tools,
+      tagQueries,
+      allTopics,
+    );
+    tools = filteredTools;
+    filteredTopics = topics;
   } else {
-    tools.forEach((item) => uniqueResults.add(item));
+    filteredTopics = allTopics.filter((topic) =>
+      nonTagQueries.some((query) => topic.toLowerCase().includes(query)),
+    );
   }
 
-  return { tools: Array.from(uniqueResults) as Tools, filteredTopics };
+  tools.forEach((tool) => {
+    const matchScore = calculateMatchScore(tool, tagQueries, nonTagQueries);
+    if (matchScore > 0) {
+      prioritizedResults.push({ item: tool, matchScore });
+    }
+  });
+
+  prioritizedResults.sort((a, b) => b.matchScore - a.matchScore);
+  const uniqueResults = new Map(
+    prioritizedResults.map((result) => [result.item, result.matchScore]),
+  );
+
+  return { tools: Array.from(uniqueResults.keys()) as Tools, filteredTopics };
 }
 
 export function applyFilters(

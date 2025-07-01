@@ -12,11 +12,6 @@ const isDark = computed({
 </script>
 
 <template>
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    rel="stylesheet"
-  />
-
   <UApp class="flex h-dvh flex-col font-sans">
     <header
       class="sticky top-0 z-50 bg-gray-50 px-6 py-2 shadow-md dark:bg-gray-900"

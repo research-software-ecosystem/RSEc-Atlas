@@ -1,10 +1,10 @@
 function parseQuery(query: string) {
-  const tagRegex = /tag:(["'])(.*?)\1/g;
+  const tagRegex = /tag:(?:["']?(.*?)["']?)(?=\s|$)/g;
   const tagQueries: string[] = [];
   let match;
 
   while ((match = tagRegex.exec(query)) !== null) {
-    tagQueries.push(match[2]);
+    tagQueries.push(match[1]);
   }
 
   const nonTagQueryString = query.replace(tagRegex, "").trim();

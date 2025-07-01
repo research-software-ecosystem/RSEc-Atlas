@@ -214,7 +214,7 @@ onMounted(async () => {
                 v-for="topic in getToolEDAMTopics(tool)"
                 :key="topic"
                 target="_blank"
-                :to="`/search/tag:${topic.trim().toLowerCase()}`"
+                :to="`/search/tag:'${topic.trim()}'`"
               >
                 <UBadge
                   class="text-gray-600 dark:text-gray-300"
@@ -222,7 +222,6 @@ onMounted(async () => {
                   color="primary"
                   :trailing-icon="`uil:external-link-alt`"
                   icon="uil:tag"
-                  @click="onTopicClick(topic)"
                 >
                   {{ topic }}
                 </UBadge>
@@ -253,7 +252,7 @@ onMounted(async () => {
                   v-for="tag in getToolTags(tool)"
                   :key="tag"
                   target="_blank"
-                  :to="`/search/tag:${tag.trim().toLowerCase()}`"
+                  :to="`/search/tag:'${tag.trim()}'`"
                 >
                   <UBadge
                     class="text-gray-600 dark:text-gray-300"
@@ -261,7 +260,6 @@ onMounted(async () => {
                     color="primary"
                     :trailing-icon="`uil:external-link-alt`"
                     icon="uil:tag-alt"
-                    @click="onTopicClick(tag)"
                   >
                     {{ tag }}
                   </UBadge>

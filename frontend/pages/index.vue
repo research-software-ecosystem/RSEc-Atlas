@@ -136,7 +136,7 @@ async function getTools() {
 }
 
 function onTopicClick(topic: string) {
-  searchQuery.value = `tag:${topic.trim().toLowerCase()}`;
+  searchQuery.value = `tag:'${topic.trim().toLowerCase()}'`;
 }
 
 function onClearFilters() {

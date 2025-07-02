@@ -46,7 +46,7 @@ watch(searchQueryDebounced, () => {
     <UInput
       icon="i-lucide-search"
       size="xl"
-      class="w-full"
+      class="mb-2 w-full"
       variant="outline"
       placeholder="Search Workflows by name"
       v-model="searchQuery"
@@ -68,7 +68,7 @@ watch(searchQueryDebounced, () => {
             class="hover:text-secondary text-md flex flex-col justify-between gap-1 font-semibold sm:text-lg"
           >
             <UTooltip :delay-duration="250" text="View Workflow">
-              <span>
+              <span class="break-all">
                 <Icon name="uil:sitemap" />
 
                 {{ wf.name }}

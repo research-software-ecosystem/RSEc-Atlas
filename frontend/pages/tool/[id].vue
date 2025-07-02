@@ -346,7 +346,7 @@ onMounted(async () => {
                     v-for="toolId in getToolToolIds(tool)"
                     :key="toolId"
                     :delay-duration="500"
-                    :text="`Run ${toolId} in Galaxy ${item.label.toLocaleUpperCase()}`"
+                    :text="`Run ${toolId} in ${item.label}`"
                   >
                     <NuxtLink
                       target="_blank"
@@ -393,7 +393,7 @@ onMounted(async () => {
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`conda install -c conda-forge -c bioconda${getToolName(tool).toLowerCase()}`"
+                :code="`conda install -c conda-forge -c bioconda ${getToolName(tool).toLowerCase()}`"
               />
             </div>
           </template>

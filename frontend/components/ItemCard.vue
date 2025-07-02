@@ -35,7 +35,7 @@ function toggleFavorite() {
   <UCard :ui="{ body: 'flex h-full flex-col justify-between' }">
     <div>
       <div class="mb-2 break-words">
-        <div class="mb-2 flex items-start justify-between">
+        <div class="mb-2 flex items-start justify-between gap-2">
           <UButton
             :to="`/tool/${props.tool.tool_name}`"
             variant="link"

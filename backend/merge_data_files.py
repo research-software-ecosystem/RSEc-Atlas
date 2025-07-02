@@ -199,6 +199,7 @@ def process_files_in_folder(folder_path):
 
     file_patterns = [
         (f"bioconda_{folder_name}.yaml", "bioconda"),
+        (f"bioconda_bioconductor-{folder_name}.yaml", "bioconda"),
         (f"{folder_name}.biocontainers.yaml", "biocontainers"),
         (f"{folder_name}.biotools.json", "biotools"),
         (f"{folder_name}.bioschemas.jsonld", "bioschemas"),

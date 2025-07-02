@@ -1,8 +1,8 @@
-# Documentation: RSEc Atlas
+# RSEc Atlas
 
 ## Aim:
 
-With this static site web application we want to demonstrate the possibilities of the RSEc.
+With this static site web application we want to demonstrate the possibilities of the RSEc. Communities can take inspiration or fork this project to create subsets of tool and service repositories.
 The website is designed to help researchers and scientists explore the metadata of various scientific tools and their associated containers, packages ... you name it, with the final aim of improving
 findability. The application retrieves RAW metadata from the Git repository of the [Research Software Ecosystem Content](https://github.com/research-software-ecosystem/content), "compiles" them to be compact as possible and provides a user-friendly interface to view, search, and filter them along with their metadata.
 

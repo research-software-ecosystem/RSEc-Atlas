@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-diffustats","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-diffustats","identifiers":["biotools:diffuStats","doi:10.1093/bioinformatics/btx632"],"license":"GPL-3","summary":"Diffusion scores on biological networks"}}}

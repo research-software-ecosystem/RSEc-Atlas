@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rots","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rots","identifiers":["biotools:rots","doi:10.1109/tcbb.2007.1078"],"license":"GPL (>= 2)","summary":"Reproducibility-Optimized Test Statistic"}}}

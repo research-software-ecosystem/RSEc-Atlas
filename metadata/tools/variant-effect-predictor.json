@@ -1,0 +1,1 @@
+{"tool_name":"variant-effect-predictor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"variant-effect-predictor","identifiers":[],"license":"Apache 2.0","summary":"The VEP determines the effect of your variants (SNPs, insertions, deletions, CNVs or structural variants) on genes, transcripts, and protein sequence, as well as regulatory regions."}}}

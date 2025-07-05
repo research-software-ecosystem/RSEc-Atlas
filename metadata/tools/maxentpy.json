@@ -1,0 +1,1 @@
+{"tool_name":"maxentpy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"maxentpy","identifiers":[],"license":"MIT","summary":"maxentpy is a python wrapper for MaxEntScan to calculate splice site strength."}}}

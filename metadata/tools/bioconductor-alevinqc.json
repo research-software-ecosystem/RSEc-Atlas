@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-alevinqc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-alevinqc","identifiers":["doi:10.18129/b9.bioc.alevinqc"],"license":"MIT","summary":"Generate qc reports for alevin output"}}}

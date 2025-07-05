@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-consensus","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-consensus","identifiers":["doi:10.18129/b9.bioc.consensus"],"license":"BSD-3-Clause","summary":"Cross-platform consensus analysis of genomic measurements via interlaboratory testing method"}}}

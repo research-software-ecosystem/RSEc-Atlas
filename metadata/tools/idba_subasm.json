@@ -1,0 +1,1 @@
+{"tool_name":"idba_subasm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"idba_subasm","identifiers":[],"license":"GPL2","summary":"Fork of IDBA with modifications to perform subassembly for the read cloud metagenomic assembler Athena"}}}

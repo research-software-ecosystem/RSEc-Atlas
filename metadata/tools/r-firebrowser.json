@@ -1,0 +1,1 @@
+{"tool_name":"r-firebrowser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-firebrowser","identifiers":["doi:10.1093/database/baw160"],"license":"MIT","summary":"An r client for broads firehose pipeline, providing tcga data sets."}}}

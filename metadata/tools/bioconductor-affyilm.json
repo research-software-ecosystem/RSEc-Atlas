@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-affyilm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-affyilm","identifiers":["biotools:affyilm","doi:10.1186/1748-7188-4-15"],"license":"GPL-3","summary":"Linear Model of background subtraction and the Langmuir isotherm"}}}

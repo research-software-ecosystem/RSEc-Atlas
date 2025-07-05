@@ -1,0 +1,1 @@
+{"tool_name":"seqtk-trinity","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"seqtk-trinity","home":"https://github.com/trinityrnaseq/seqtk-trinity","license":"MIT","summary":"seqtk-trinity is a toolkit for processing sequences in FASTA/Q formats.","addition_date":"2021-05-27T09:12:56Z","last_update_date":"2021-08-04T10:06:59Z","tool_type":["Command-line tool"]}}}

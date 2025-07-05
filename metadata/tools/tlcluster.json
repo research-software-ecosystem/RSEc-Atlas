@@ -1,0 +1,1 @@
+{"tool_name":"tlcluster","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"tlcluster","home":"https://genome.uiowa.edu/home.old/pubsoft/software.html","summary":"Used to perform clustering on fasta formatted sequences.","addition_date":"2017-12-18T00:15:44Z","last_update_date":"2018-12-10T12:58:52Z","tool_type":["Command-line tool"],"version":["1.0"]}}}

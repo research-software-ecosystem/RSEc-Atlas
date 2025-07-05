@@ -1,0 +1,1 @@
+{"tool_name":"wkhtmltopdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"wkhtmltopdf","identifiers":[],"license":"LGPLv3","summary":"wkhtmltopdf and wkhtmltoimage are open source (LGPLv3) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine"}}}

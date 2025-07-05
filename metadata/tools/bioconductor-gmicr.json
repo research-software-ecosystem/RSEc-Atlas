@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gmicr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gmicr","identifiers":["doi:10.18129/b9.bioc.gmicr"],"license":"GPL-2 + GNU GENERAL PUBLIC LICENSE Version 3","summary":"Combines wgcna and xcell readouts with bayesian network learrning to generate a gene-module immune-cell network (gmic)"}}}

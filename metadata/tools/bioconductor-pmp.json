@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pmp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pmp","identifiers":["doi:10.18129/b9.bioc.pmp"],"license":"GPL-3","summary":"Peak Matrix Processing and signal batch correction for metabolomics datasets"}}}

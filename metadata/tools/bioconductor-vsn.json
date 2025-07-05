@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-vsn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-vsn","identifiers":["biotools:vsn","doi:10.1093/bioinformatics/18.suppl_1.S96"],"license":"Artistic-2.0","summary":"Variance stabilization and calibration for microarray data"}}}

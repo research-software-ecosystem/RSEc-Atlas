@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dyebiasexamples","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dyebiasexamples","identifiers":["doi:10.18129/b9.bioc.dyebiasexamples"],"license":"GPL-3","summary":"Example data for the dyebias package, which implements the GASSCO method."}}}

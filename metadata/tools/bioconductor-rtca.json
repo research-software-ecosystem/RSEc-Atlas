@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rtca","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rtca","identifiers":["biotools:rtca","doi:10.1016/j.compbiolchem.2013.12.004"],"license":"LGPL-3","summary":"Open-source toolkit to analyse data from xCELLigence System (RTCA)"}}}

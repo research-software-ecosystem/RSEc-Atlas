@@ -1,0 +1,1 @@
+{"tool_name":"gcs-oauth2-boto-plugin","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gcs-oauth2-boto-plugin","identifiers":[],"license":"Not available","summary":"Auth plugin allowing use the use of oauth 2.0 credentials for google cloud storage in the boto library."}}}

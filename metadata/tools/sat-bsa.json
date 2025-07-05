@@ -1,0 +1,1 @@
+{"tool_name":"sat-bsa","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sat-bsa","identifiers":["biotools:sta-bsa"],"license":"GPL-3.0-or-later","summary":"Sat-bsa is a package used for applying local de novo assembly and identifying the structural variants in the assembled region"}}}

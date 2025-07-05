@@ -1,0 +1,1 @@
+{"tool_name":"r-gwasexacthw","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-gwasexacthw","identifiers":[],"license":"GPL-3","summary":"This package contains a function to do exact Hardy-Weinburg testing (using Fisher's test) for SNP genotypes as typically obtained in a Genome Wide Association Study (GWAS)."}}}

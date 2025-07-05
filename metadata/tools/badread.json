@@ -1,0 +1,1 @@
+{"tool_name":"badread","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"badread","identifiers":["doi:10.21105/joss.01316","doi:10.5281/zenodo.2622997"],"license":"Not available","summary":"A long read simulator that can imitate many types of read problems"}}}

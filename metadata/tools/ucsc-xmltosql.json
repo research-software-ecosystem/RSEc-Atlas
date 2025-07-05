@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-xmltosql","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-xmltosql","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Convert xml dump into a fairly normalized relational database."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-basecallqc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-basecallqc","identifiers":["doi:10.18129/b9.bioc.basecallqc"],"license":"GPL (>= 3)","summary":"Working with Illumina Basecalling and Demultiplexing input and output files"}}}

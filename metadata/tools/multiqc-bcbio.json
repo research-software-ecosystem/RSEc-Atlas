@@ -1,0 +1,1 @@
+{"tool_name":"multiqc-bcbio","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"multiqc-bcbio","identifiers":["doi:10.1093/bioinformatics/btw354"],"license":"GNU General Public License v3.0","summary":"Multiqc plugin for bcbio report visualization."}}}

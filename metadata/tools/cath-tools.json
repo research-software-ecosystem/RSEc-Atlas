@@ -1,0 +1,1 @@
+{"tool_name":"cath-tools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cath-tools","identifiers":["arXiv:1109.2378","doi:10.1016/0022-2836(89)90084-3","pmid:2769748"],"license":"GPL-3.0","summary":"Protein structure comparison tools such as SSAP, as used by the Orengo Group in curating CATH."}}}

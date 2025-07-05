@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mygene","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mygene","identifiers":["biotools:mygene","doi:10.1101/009332","doi:10.1101/009333"],"license":"Artistic-2.0","summary":"This package provides simple-to-use rest web services to query/retrieve gene annotation data."}}}

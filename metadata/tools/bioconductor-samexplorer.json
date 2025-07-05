@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-samexplorer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-samexplorer","identifiers":["doi:10.18129/b9.bioc.samexplorer"],"license":"GPL-3","summary":"samExploreR package high-performance read summarisation to count vectors with avaliability of sequencing depth reduction simulation"}}}

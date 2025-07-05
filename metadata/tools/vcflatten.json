@@ -1,0 +1,1 @@
+{"tool_name":"vcflatten","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"vcflatten","identifiers":[],"license":"Not available","summary":"A command line tool for flattening vcf files down to simpler tsv files."}}}

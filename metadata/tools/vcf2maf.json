@@ -1,0 +1,1 @@
+{"tool_name":"vcf2maf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"vcf2maf","identifiers":["doi:10.5281/zenodo.593251"],"license":"Apache-2.0","summary":"Convert a vcf into a maf where each variant is annotated to only one of all possible gene isoforms"}}}

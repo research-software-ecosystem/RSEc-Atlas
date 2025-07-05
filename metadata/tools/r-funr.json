@@ -1,0 +1,1 @@
+{"tool_name":"r-funr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-funr","identifiers":[],"license":"MIT","summary":"A small utility which wraps Rscript and provides access to all R functions from the shell."}}}

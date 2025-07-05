@@ -1,0 +1,1 @@
+{"tool_name":"biopet-fastqsplitter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-fastqsplitter","identifiers":[],"license":"MIT","summary":"This tool divides a fastq file into smaller fastq files, based on the number of output files specified."}}}

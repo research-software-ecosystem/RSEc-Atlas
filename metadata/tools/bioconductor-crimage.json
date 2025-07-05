@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-crimage","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-crimage","identifiers":["biotools:crimage","doi:10.1126/scitranslmed.3004330"],"license":"Artistic-2.0","summary":"CRImage a package to classify cells and calculate tumour cellularity"}}}

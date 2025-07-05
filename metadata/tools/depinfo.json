@@ -1,0 +1,1 @@
+{"tool_name":"depinfo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"depinfo","identifiers":[],"license":"Apache-2.0","summary":"Retrieve and print python 3 package dependencies"}}}

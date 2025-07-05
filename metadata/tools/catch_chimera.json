@@ -1,0 +1,1 @@
+{"tool_name":"catch_chimera","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"catch_chimera","identifiers":[],"license":"Not available","summary":"Catch is an ensemble classifier for chimera detection in 16s rrna sequencing studies. the present bioconda recipe installs the 'catch_v1.run' binary, as suggested on authors website."}}}

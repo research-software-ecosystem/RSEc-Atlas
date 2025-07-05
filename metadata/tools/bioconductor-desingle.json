@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-desingle","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-desingle","identifiers":["doi:10.18129/b9.bioc.desingle"],"license":"GPL-2","summary":"DEsingle for detecting three types of differential expression in single-cell RNA-seq data"}}}

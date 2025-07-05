@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-oligo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-oligo","identifiers":["biotools:oligo","doi:10.1093/bioinformatics/btq431"],"license":"LGPL (>= 2)","summary":"Preprocessing tools for oligonucleotide arrays"}}}

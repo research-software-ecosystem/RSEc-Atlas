@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-globalancova","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-globalancova","identifiers":["biotools:globalancova","doi:10.1093/bioinformatics/btm531"],"license":"GPL (>= 2)","summary":"Global test for groups of variables via model comparisons"}}}

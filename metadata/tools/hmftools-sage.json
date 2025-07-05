@@ -1,0 +1,1 @@
+{"tool_name":"hmftools-sage","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"hmftools-sage","identifiers":[],"license":"MIT","summary":"Sage is a somatic snv, mnv and small indel caller optimised to call narrow regions of the genome with high prior chance of a variant with very high sensitivity."}}}

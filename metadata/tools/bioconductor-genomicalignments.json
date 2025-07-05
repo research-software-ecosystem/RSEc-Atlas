@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genomicalignments","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genomicalignments","identifiers":["biotools:genomicalignments","doi:10.1371/journal.pcbi.1003118"],"license":"Artistic-2.0","summary":"Bioconductor representation and manipulation of short genomic alignments"}}}

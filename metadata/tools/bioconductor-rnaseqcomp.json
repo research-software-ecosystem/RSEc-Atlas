@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rnaseqcomp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rnaseqcomp","identifiers":["biotools:rnaseqcomp","doi:10.1186/s13059-016-1060-7"],"license":"GPL-3","summary":"Benchmarks for RNA-seq Quantification Pipelines"}}}

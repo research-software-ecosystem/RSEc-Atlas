@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-qacagplift","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-qacagplift","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Use AGP to combine per-scaffold qac into per-chrom qac."}}}

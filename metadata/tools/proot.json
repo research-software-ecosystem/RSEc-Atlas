@@ -1,0 +1,1 @@
+{"tool_name":"proot","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"proot","identifiers":["doi:10.5281/zenodo.3751971"],"license":"GPL-2.0","summary":"chroot, mount --bind, and binfmt_misc without privilege/setup"}}}

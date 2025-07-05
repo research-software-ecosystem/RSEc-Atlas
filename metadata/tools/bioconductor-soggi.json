@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-soggi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-soggi","identifiers":["biotools:soggi","doi:10.1038/nmeth.3252"],"license":"GPL-3.0","summary":"Visualise ChIP-seq, MNase-seq and motif occurrence as aggregate plots Summarised Over Grouped Genomic Intervals"}}}

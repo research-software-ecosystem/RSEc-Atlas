@@ -1,0 +1,1 @@
+{"tool_name":"pytest-workflow","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pytest-workflow","identifiers":["doi:10.5281/zenodo.3757727"],"license":"Not available","summary":"A pytest plugin for configuring workflow/pipeline tests using yaml files"}}}

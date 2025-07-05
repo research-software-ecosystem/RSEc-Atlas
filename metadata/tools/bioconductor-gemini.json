@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gemini","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gemini","identifiers":["doi:10.18129/b9.bioc.gemini"],"license":"BSD_3_clause","summary":"GEMINI: Variational inference approach to infer genetic interactions from pairwise CRISPR screens"}}}

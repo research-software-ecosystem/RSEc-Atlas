@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rcm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rcm","identifiers":["doi:10.18129/b9.bioc.rcm"],"license":"GPL-2","summary":"Fit row-column association models with the negative binomial distribution for the microbiome"}}}

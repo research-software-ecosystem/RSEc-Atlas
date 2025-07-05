@@ -1,0 +1,1 @@
+{"tool_name":"r-bisquerna","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-bisquerna","identifiers":["doi:10.1101/669911"],"license":"GPL-3","summary":"Provides tools to accurately estimate cell type abundances from heterogeneous bulk expression."}}}

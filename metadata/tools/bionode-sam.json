@@ -1,0 +1,1 @@
+{"tool_name":"bionode-sam","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"bionode-sam","home":"http://github.com/bionode/bionode-sam","summary":"Node.js wrapper for samtools.","addition_date":"2015-01-22T11:14:53Z","last_update_date":"2019-03-14T11:31:11Z","tool_type":["Command-line tool","Library"],"version":["1.0.1"],"collections":["SAMtools utility"]}}}

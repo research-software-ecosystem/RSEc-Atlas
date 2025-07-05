@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-interactionset","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-interactionset","identifiers":["biotools:interactionset","doi:10.12688/f1000research.8759.2"],"license":"GPL-3","summary":"Base Classes for Storing Genomic Interaction Data"}}}

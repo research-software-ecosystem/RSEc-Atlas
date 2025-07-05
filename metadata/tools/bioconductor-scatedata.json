@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scatedata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scatedata","identifiers":["doi:10.18129/b9.bioc.scatedata"],"license":"Not available","summary":"Data for scate (single-cell atac-seq signal extraction and enhancement)"}}}

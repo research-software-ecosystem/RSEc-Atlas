@@ -1,0 +1,1 @@
+{"tool_name":"kb-python","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"kb-python","identifiers":["doi:10.1038/nbt.3519","doi:10.1101/673285"],"license":"Not available","summary":"A wrapper for the kallisto | bustools workflow for single-cell rna-seq pre-processing "}}}

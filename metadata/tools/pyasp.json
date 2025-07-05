@@ -1,0 +1,1 @@
+{"tool_name":"pyasp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pyasp","identifiers":[],"license":"GPLv3 +","summary":"A convenience wrapper for the asp tools gringo, gringo4 and clasp."}}}

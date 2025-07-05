@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bhc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bhc","identifiers":["biotools:bhc","doi:10.1186/1471-2105-10-242"],"license":"GPL-3","summary":"Bayesian Hierarchical Clustering"}}}

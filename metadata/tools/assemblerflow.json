@@ -1,0 +1,1 @@
+{"tool_name":"assemblerflow","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"assemblerflow","identifiers":[],"license":"GNU General Public License v3.0","summary":"A nextflow pipeline assembler for genomics. pick your modules. assemble them. run the pipeline."}}}

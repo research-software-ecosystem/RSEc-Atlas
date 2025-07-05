@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hibag","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hibag","identifiers":["biotools:hibag","doi:10.1038/tpj.2013.18"],"license":"GPL-3","summary":"HLA Genotype Imputation with Attribute Bagging"}}}

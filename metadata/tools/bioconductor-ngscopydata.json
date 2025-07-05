@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ngscopydata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ngscopydata","identifiers":["doi:10.18129/b9.bioc.ngscopydata"],"license":"GPL-2.0","summary":"Subset of BAM files of human tumor and pooled normal sequencing data (Zhao et al. 2014) for the NGScopy package"}}}

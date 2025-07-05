@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ruvseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ruvseq","identifiers":["biotools:ruvseq","doi:10.1007/978-1-4939-6934-0_17"],"license":"Artistic-2.0","summary":"Remove Unwanted Variation from RNA-Seq Data"}}}

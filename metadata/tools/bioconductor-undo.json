@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-undo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-undo","identifiers":["biotools:undo","doi:10.1093/bioinformatics/btu607"],"license":"GPL-2","summary":"Unsupervised Deconvolution of Tumor-Stromal Mixed Expressions"}}}

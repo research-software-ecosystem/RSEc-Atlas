@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gpart","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gpart","identifiers":["doi:10.18129/b9.bioc.gpart"],"license":"MIT","summary":"Human genome partitioning of dense sequencing data by identifying haplotype blocks"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"biopet-scatterregions","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-scatterregions","identifiers":[],"license":"MIT","summary":"This tool breaks a reference or bed file into smaller scatter regions of equal size."}}}

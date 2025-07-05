@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ichip","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ichip","identifiers":["biotools:ichip","doi:10.1093/bioinformatics/btq032"],"license":"GPL (>= 2)","summary":"Bayesian Modeling of ChIP-chip Data Through Hidden Ising Models"}}}

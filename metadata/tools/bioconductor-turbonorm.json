@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-turbonorm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-turbonorm","identifiers":["biotools:turbonorm","doi:10.1515/1544-6115.1753"],"license":"LGPL","summary":"A fast scatterplot smoother suitable for microarray normalization"}}}

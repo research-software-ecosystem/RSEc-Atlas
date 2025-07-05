@@ -1,0 +1,1 @@
+{"tool_name":"retry_decorator","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"retry_decorator","identifiers":[],"license":"MIR","summary":"Decorator for retrying when exceptions occur"}}}

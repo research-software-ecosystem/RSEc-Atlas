@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sapfinder","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sapfinder","identifiers":["doi:10.18129/b9.bioc.sapfinder"],"license":"GPL-2","summary":"A package for variant peptides detection and visualization in shotgun proteomics."}}}

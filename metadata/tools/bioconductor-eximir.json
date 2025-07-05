@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-eximir","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-eximir","identifiers":["biotools:eximir","doi:10.1186/1756-0500-7-302"],"license":"GPL-2","summary":"R functions for the normalization of Exiqon miRNA array data"}}}

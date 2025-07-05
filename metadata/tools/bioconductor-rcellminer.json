@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rcellminer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rcellminer","identifiers":["doi:10.18129/b9.bioc.rcellminer"],"license":"LGPL-3 +  GNU LESSER GENERAL PUBLIC LICENSE  Version 3","summary":"Rcellminer: molecular profiles, drug response, and chemical structures for the nci-60 cell lines"}}}

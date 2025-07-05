@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pasillatranscriptexpr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pasillatranscriptexpr","identifiers":["doi:10.18129/b9.bioc.pasillatranscriptexpr"],"license":"GPL (>= 3)","summary":"Data package with transcript expression obtained with kallisto from pasilla knock-down RNA-Seq data from Brooks et al."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-absseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-absseq","identifiers":["biotools:absseq","doi:10.1186/s12864-016-2848-2"],"license":"GPL-3.0","summary":"ABSSeq: a new RNA-Seq analysis method based on modelling absolute expression differences"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"ephemeris","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ephemeris","identifiers":["doi:10.1093/nar/gkw343","doi:10.1093/nar/gky379"],"license":"Academic Free License (AFL)","summary":"Ephemeris is an opinionated library and set of scripts for managing the bootstrapping of Galaxy project plugins - tools, index data, and workflows."}}}

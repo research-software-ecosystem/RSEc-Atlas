@@ -1,0 +1,1 @@
+{"tool_name":"biobb_structure_manager","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biobb_structure_manager","identifiers":["doi:10.1038/s41597-019-0177-4"],"license":"Apache-2.0","summary":"Biobb_structure_manager is a library to efficiently load and process biomolecular 3d structures."}}}

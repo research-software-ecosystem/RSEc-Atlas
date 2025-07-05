@@ -1,0 +1,1 @@
+{"tool_name":"genie-codec","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"genie-codec","home":"https://github.com/mitogen/genie","summary":"An Open Source MPEG-G Codec to compress and decompress FASTQ-files.","addition_date":"2021-01-11T14:04:00Z","last_update_date":"2021-01-11T14:09:32Z","tool_type":["Command-line tool"]}}}

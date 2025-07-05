@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-plw","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-plw","identifiers":["biotools:plw","doi:10.1186/1471-2105-9-156"],"license":"GPL-2","summary":"Probe level Locally moderated Weighted t-tests."}}}

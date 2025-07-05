@@ -1,0 +1,1 @@
+{"tool_name":"r-lambda.r","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-lambda.r","identifiers":[],"license":"LGPL-3","summary":"A language extension to efficiently write functional programs in R. Syntax extensions include multi-part function definitions, pattern matching, guard statements, built-in (optional) type safety."}}}

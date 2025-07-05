@@ -1,0 +1,1 @@
+{"tool_name":"r-genomictools.filehandler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-genomictools.filehandler","identifiers":[],"license":"GPL-2","summary":"A collection of I/O tools for handling the most commonly used genomic datafiles, like fasta/-q, bed, gff, gtf, ped/map and vcf."}}}

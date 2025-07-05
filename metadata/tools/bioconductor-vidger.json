@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-vidger","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-vidger","identifiers":["doi:10.18129/b9.bioc.vidger"],"license":"GPL-3 | file LICENSE","summary":"Create rapid visualizations of rnaseq data in r"}}}

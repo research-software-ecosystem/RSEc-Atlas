@@ -1,0 +1,1 @@
+{"tool_name":"r-ggplot2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-ggplot2","identifiers":[],"license":"BSD-3-Clause","summary":"A system for declaratively creating graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details."}}}

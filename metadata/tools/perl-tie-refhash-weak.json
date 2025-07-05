@@ -1,0 +1,1 @@
+{"tool_name":"perl-tie-refhash-weak","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-tie-refhash-weak","identifiers":[],"license":"Not available","summary":"A tie::refhash subclass with weakened references in the keys."}}}

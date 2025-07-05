@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ularcirc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ularcirc","identifiers":["doi:10.18129/b9.bioc.ularcirc"],"license":"GNU GENERAL PUBLIC LICENSE  Version 3","summary":"Shiny app for canonical and back splicing analysis (i.e. circular and mrna analysis)"}}}

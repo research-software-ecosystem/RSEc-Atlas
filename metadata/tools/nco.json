@@ -1,0 +1,1 @@
+{"tool_name":"nco","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"nco","home":"http://nco.sourceforge.net/","license":"BSD-3-Clause","summary":"The NCO toolkit manipulates and analyzes data stored in netCDF-accessible formats, including DAP, HDF4, and HDF5.","addition_date":"2021-05-26T21:04:15Z","last_update_date":"2021-07-29T19:19:03Z","tool_type":["Suite"]}}}

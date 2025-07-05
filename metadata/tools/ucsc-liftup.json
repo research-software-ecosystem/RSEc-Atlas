@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-liftup","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-liftup","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"change coordinates of .psl, .agp, .gap, .gl, .out, .align, .gff, .gtf."}}}

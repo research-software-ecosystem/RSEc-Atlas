@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dep","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dep","identifiers":["doi:10.18129/b9.bioc.dep"],"license":"Artistic-2.0","summary":"Differential enrichment analysis of proteomics data"}}}

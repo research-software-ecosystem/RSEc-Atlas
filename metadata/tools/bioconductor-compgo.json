@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-compgo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-compgo","identifiers":["doi:10.18129/b9.bioc.compgo"],"license":"GPL-2","summary":"An R pipeline for .bed file annotation, comparing GO term enrichment between gene sets and data visualisation"}}}

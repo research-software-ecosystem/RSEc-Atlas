@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-consensusseeker","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-consensusseeker","identifiers":["biotools:consensusseeker","doi:10.1515/sagmb-2014-0098"],"license":"Artistic-2.0","summary":"Detection of consensus regions inside a group of experiences using genomic positions and genomic ranges"}}}

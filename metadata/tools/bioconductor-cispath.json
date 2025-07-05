@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cispath","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cispath","identifiers":["biotools:cispath","doi:10.1186/1752-0509-9-s1-s1"],"license":"GPL (>= 3)","summary":"Visualization and management of the protein-protein interaction networks."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"r-splancs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-splancs","identifiers":[],"license":"GPL (>= 2)","summary":"The Splancs package was written as an enhancement to S-Plus for display and analysis of spatial point pattern data; it has been ported to R and is in \"maintenance mode\". "}}}

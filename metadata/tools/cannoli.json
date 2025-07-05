@@ -1,0 +1,1 @@
+{"tool_name":"cannoli","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cannoli","identifiers":[],"license":"Apache-2.0","summary":"Distributed execution of bioinformatics tools on Apache Spark"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"r-sendmailr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-sendmailr","identifiers":[],"license":"GPL-2","summary":"Package contains a simple SMTP client which provides a portable solution for sending email, including attachment, from within R."}}}

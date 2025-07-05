@@ -1,0 +1,1 @@
+{"tool_name":"anise_basil","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"anise_basil","identifiers":["doi:10.1093/bioinformatics/btv051"],"license":"MIT","summary":"BASIL is a method to detect breakpoints for structural variants (including insertion breakpoints) from aligned paired HTS reads in BAM format"}}}

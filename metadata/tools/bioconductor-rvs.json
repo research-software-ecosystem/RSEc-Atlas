@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rvs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rvs","identifiers":["doi:10.18129/b9.bioc.rvs"],"license":"GPL-2","summary":"Computes estimates of the probability of related individuals sharing a rare variant"}}}

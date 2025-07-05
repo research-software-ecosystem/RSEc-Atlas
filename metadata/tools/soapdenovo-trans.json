@@ -1,0 +1,1 @@
+{"tool_name":"soapdenovo-trans","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"soapdenovo-trans","identifiers":["doi:10.1093/bioinformatics/btu077"],"license":"GPL-3.0","summary":"SOAPdenovo-Trans is a de novo transcriptome assembler basing on the SOAPdenovo framework, adapt to alternative splicing and different expression level among transcripts."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bigwas_qc_pipeline","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"bigwas_qc_pipeline","home":"https://github.com/ikmb/gwas-qc/","license":"MIT","summary":"A GWAS Quality Control Pipeline for big data","addition_date":"2021-05-05T09:56:31Z","last_update_date":"2022-11-30T21:42:32.143890Z","tool_type":["Command-line tool"]}}}

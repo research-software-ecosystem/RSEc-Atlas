@@ -1,0 +1,1 @@
+{"tool_name":"fwdpp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fwdpp","identifiers":["doi:10.1534/genetics.114.165019"],"license":"https://raw.githubusercontent.com/molpopgen/fwdpp/master/LICENSE","summary":"A C++ template library for forward-time population genetic simulation. "}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-multiscan","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-multiscan","identifiers":["biotools:multiscan","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"R package for combining multiple scans"}}}

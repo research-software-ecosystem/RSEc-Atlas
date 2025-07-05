@@ -1,0 +1,1 @@
+{"tool_name":"pymummer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pymummer","identifiers":[],"license":"GPL-3.0","summary":"Python3 wrapper for running MUMmer and parsing the output. MUMmer is a modular and versatile package that relies on a suffix tree data structure for efficient pattern matching."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"chewiesnake","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"chewiesnake","identifiers":[],"license":"BSD-3","summary":"Chewiesnake is a snakemake workflow that performs cgmlst allele calling for a set of assembled genomes using chewbbaca."}}}

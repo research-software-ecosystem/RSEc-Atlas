@@ -1,0 +1,1 @@
+{"tool_name":"sequana","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sequana","identifiers":["doi:10.1093/bioinformatics/bty034","doi:10.1101/162701"],"license":"BSD 3-clause","summary":"A set of standalone application and snakemake pipelines dedicated to NGS (new generation sequencing) analysis"}}}

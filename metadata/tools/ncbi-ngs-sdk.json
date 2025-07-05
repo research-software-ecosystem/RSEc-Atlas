@@ -1,0 +1,1 @@
+{"tool_name":"ncbi-ngs-sdk","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ncbi-ngs-sdk","identifiers":[],"license":"Public Domain","summary":"NGS is a new, domain-specific API for accessing reads, alignments and pileups produced from Next Generation Sequencing."}}}

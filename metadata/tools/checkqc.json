@@ -1,0 +1,1 @@
+{"tool_name":"checkqc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"checkqc","identifiers":["doi:10.21105/joss.00556"],"license":"GPL-3.0","summary":"A simple program to parse Illumina NGS data and check it for quality criteria."}}}

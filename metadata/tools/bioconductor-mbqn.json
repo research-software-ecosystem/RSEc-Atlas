@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mbqn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mbqn","identifiers":["doi:10.18129/b9.bioc.mbqn"],"license":"GPL-3","summary":"Mean/Median-balanced quantile normalization"}}}

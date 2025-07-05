@@ -1,0 +1,1 @@
+{"tool_name":"goatools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"goatools","identifiers":["doi:10.5281/zenodo.31628"],"license":"BSD 2-Clause \"Simplified\" License","summary":"Python scripts to find enrichment of go terms"}}}

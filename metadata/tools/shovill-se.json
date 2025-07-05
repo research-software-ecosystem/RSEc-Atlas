@@ -1,0 +1,1 @@
+{"tool_name":"shovill-se","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"shovill-se","identifiers":[],"license":"Not available","summary":"An fork of shovill (microbial assembly pipeline for illumina paired-end reads) that supports single-end reads."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-stan","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-stan","identifiers":["biotools:stan","doi:10.15252/msb.20145654"],"license":"GPL (>= 2)","summary":"The Genomic STate ANnotation Package"}}}

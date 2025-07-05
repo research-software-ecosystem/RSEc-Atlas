@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-shinymethyl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-shinymethyl","identifiers":["biotools:shinymethyl","doi:10.12688/f1000research.4680.2"],"license":"Artistic-2.0","summary":"Interactive tool for visualizing illumina methylation array data both the 450k and epic array are supported."}}}

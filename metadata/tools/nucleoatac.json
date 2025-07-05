@@ -1,0 +1,1 @@
+{"tool_name":"nucleoatac","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"nucleoatac","identifiers":["doi:10.1101/gr.192294.115"],"license":"MIT","summary":"Python package for calling nucleosomes using ATAC-Seq data. Also includes general scripts for working with paired-end ATAC-Seq data (or potentially other paired-end data)."}}}

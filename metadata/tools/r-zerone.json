@@ -1,0 +1,1 @@
+{"tool_name":"r-zerone","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-zerone","identifiers":["doi:10.1093/bioinformatics/btw336"],"license":"GPL-3","summary":"Zerone discretizes several ChIP-seq replicates simultaneously and resolves conflicts between them."}}}

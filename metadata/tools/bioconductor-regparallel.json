@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-regparallel","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-regparallel","identifiers":["doi:10.18129/b9.bioc.regparallel"],"license":"GPL-3","summary":"Standard regression functions in R enabled for parallel processing over large data-frames"}}}

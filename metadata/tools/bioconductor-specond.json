@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-specond","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-specond","identifiers":["biotools:specond","doi:10.1186/gb-2011-12-12-413"],"license":"LGPL (>=2)","summary":"Condition specific detection from expression data"}}}

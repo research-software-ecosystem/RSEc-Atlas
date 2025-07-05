@@ -1,0 +1,1 @@
+{"tool_name":"ruamel.yaml","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ruamel.yaml","identifiers":[],"license":"MIT","summary":"A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1"}}}

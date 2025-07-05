@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-genepredtogtf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-genepredtogtf","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom Licesne","summary":"Convert genepred table or file to gtf"}}}

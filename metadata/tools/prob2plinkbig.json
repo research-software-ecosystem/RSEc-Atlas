@@ -1,0 +1,1 @@
+{"tool_name":"prob2plinkbig","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"prob2plinkbig","home":"http://ctglab.nl/software/prob2plinkbig","summary":"Use Prob2plinkbig to convert large MACH probability files to PLINK\u00a0dosage files.","addition_date":"2017-12-18T00:11:13Z","last_update_date":"2018-12-10T12:58:58Z","tool_type":["Command-line tool"]}}}

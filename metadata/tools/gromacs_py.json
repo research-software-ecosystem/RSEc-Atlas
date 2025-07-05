@@ -1,0 +1,1 @@
+{"tool_name":"gromacs_py","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gromacs_py","identifiers":["doi:10.5281/zenodo.1455734"],"license":"GPL-2.0-only","summary":"Gromacs_py is a python library allowing a simplified use of the gromacs MD simulation software."}}}

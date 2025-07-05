@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-lpsymphony","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-lpsymphony","identifiers":["biotools:lpsymphony","doi:10.1007/0-387-23529-9_5"],"license":"EPL","summary":"Symphony integer linear programming solver in R"}}}

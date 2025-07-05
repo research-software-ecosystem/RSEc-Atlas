@@ -1,0 +1,1 @@
+{"tool_name":"perl-posix","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-posix","identifiers":[],"license":"perl_5","summary":"The POSIX standard defines access to the operating system. Most operating systems (not limited to the UNIX family) provide at least a part of this standard, sometimes as optional or commercial extension package."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sitepath","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sitepath","identifiers":["doi:10.18129/b9.bioc.sitepath"],"license":"MIT","summary":"Detection of sites with fixation of amino acid substitutions in protein evolution"}}}

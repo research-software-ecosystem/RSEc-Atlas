@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sagenhaft","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sagenhaft","identifiers":["biotools:sagenhaft","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"Collection of functions for reading and comparing SAGE libraries"}}}

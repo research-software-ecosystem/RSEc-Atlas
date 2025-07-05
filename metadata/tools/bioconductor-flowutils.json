@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowutils","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowutils","identifiers":["biotools:flowutils","doi:10.1186/1471-2105-10-145"],"license":"Artistic-2.0","summary":"Provides utilities for flow cytometry data."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-epivizrserver","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-epivizrserver","identifiers":["biotools:epivizrserver","doi:10.1038/nmeth.3252"],"license":"MIT","summary":"This package provides objects to manage websocket connections to epiviz apps. other epivizr package use this infrastructure."}}}

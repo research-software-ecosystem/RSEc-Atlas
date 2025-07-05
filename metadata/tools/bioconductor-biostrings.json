@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biostrings","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biostrings","identifiers":["biotools:biostrings","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Gnu r string objects representing biological sequences"}}}

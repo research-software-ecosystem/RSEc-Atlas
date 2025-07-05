@@ -1,0 +1,1 @@
+{"tool_name":"kinsimriboswitch","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"kinsimriboswitch","identifiers":["doi:10.1186/s12859-017-1823-5"],"license":"GPL-3.0","summary":"Pipeline for the simulation of RNA--ligand interaction kinetics as outlined in Kuehnl et al. 2017."}}}

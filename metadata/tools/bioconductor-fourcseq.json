@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-fourcseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-fourcseq","identifiers":["biotools:fourcseq","doi:10.1093/bioinformatics/btv335"],"license":"GPL-3.0","summary":"Package analyse 4C sequencing data"}}}

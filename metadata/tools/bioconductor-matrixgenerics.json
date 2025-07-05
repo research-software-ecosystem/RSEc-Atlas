@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-matrixgenerics","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-matrixgenerics","identifiers":["doi:10.18129/b9.bioc.matrixgenerics"],"license":"Artistic-2.0","summary":"S4 generic summary statistic functions that operate on matrix-like objects"}}}

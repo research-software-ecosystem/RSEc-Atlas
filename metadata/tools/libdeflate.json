@@ -1,0 +1,1 @@
+{"tool_name":"libdeflate","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"libdeflate","identifiers":[],"license":"MIT","summary":"libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression."}}}

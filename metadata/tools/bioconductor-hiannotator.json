@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hiannotator","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hiannotator","identifiers":["biotools:hiannotator","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"Functions for annotating GRanges objects"}}}

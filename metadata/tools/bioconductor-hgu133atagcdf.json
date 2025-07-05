@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hgu133atagcdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hgu133atagcdf","identifiers":["doi:10.18129/b9.bioc.hgu133atagcdf"],"license":"LGPL","summary":"A package containing an environment representing the HG-U133A_tag.CDF file."}}}

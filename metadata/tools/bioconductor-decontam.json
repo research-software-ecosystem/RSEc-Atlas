@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-decontam","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-decontam","identifiers":["doi:10.18129/b9.bioc.decontam"],"license":"Artistic-2.0","summary":"Identify contaminants in marker-gene and metagenomics sequencing data"}}}

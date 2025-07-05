@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-antiprofilesdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-antiprofilesdata","identifiers":["doi:10.18129/b9.bioc.antiprofilesdata"],"license":"Artistic-2.0","summary":"Normal colon and cancer preprocessed affy data for antiprofile building."}}}

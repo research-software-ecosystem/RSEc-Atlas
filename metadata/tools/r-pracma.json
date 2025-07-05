@@ -1,0 +1,1 @@
+{"tool_name":"r-pracma","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-pracma","identifiers":[],"license":"GPL (>= 3)","summary":" Functions from numerical analysis and linear algebra, numerical optimization, differential equations, plus some special functions. Uses Matlab function names where appropriate to simplify porting."}}}

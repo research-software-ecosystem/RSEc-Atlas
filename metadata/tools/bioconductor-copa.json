@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-copa","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-copa","identifiers":["doi:10.18129/b9.bioc.copa"],"license":"Artistic-2.0","summary":"Functions to perform cancer outlier profile analysis."}}}

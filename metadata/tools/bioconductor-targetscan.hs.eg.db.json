@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-targetscan.hs.eg.db","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-targetscan.hs.eg.db","identifiers":["doi:10.18129/b9.bioc.targetscan.hs.eg.db"],"license":"file LICENSE","summary":"TargetScan miRNA target predictions for human"}}}

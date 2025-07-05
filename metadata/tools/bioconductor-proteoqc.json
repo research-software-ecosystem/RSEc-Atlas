@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-proteoqc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-proteoqc","identifiers":["doi:10.18129/b9.bioc.proteoqc"],"license":"LGPL-2","summary":"An R package for proteomics data quality control"}}}

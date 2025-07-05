@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-otubase","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-otubase","identifiers":["biotools:otubase","doi:10.1093/bioinformatics/btr196"],"license":"Artistic-2.0","summary":"Provides a platform for operational taxonomic unit based analysis."}}}

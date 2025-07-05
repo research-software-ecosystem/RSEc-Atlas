@@ -1,0 +1,1 @@
+{"tool_name":"pkiss","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pkiss","identifiers":["doi:10.1007/978-3-642-15294-8_5","doi:10.1093/bioinformatics/btu649"],"license":"GPL-3.0+","summary":"RNA secondary structure prediction including K-type and kissing hairpin- pseudoknots."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"dnp-binstrings","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"dnp-binstrings","identifiers":[],"license":"MIT","summary":"Convert fasta strings into dinucleotide binary indicator string as 00101..."}}}

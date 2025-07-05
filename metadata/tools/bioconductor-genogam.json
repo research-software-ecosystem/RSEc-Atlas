@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genogam","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genogam","identifiers":["biotools:genogam","doi:10.1093/bioinformatics/btx150"],"license":"GPL-2","summary":"A GAM based framework for analysis of ChIP-Seq data"}}}

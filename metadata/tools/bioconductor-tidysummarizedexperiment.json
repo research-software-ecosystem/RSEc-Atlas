@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-tidysummarizedexperiment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-tidysummarizedexperiment","identifiers":["doi:10.18129/b9.bioc.tidysummarizedexperiment"],"license":"GPL-3","summary":"Brings SummarizedExperiment to the Tidyverse"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gosim","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gosim","identifiers":["doi:10.18129/b9.bioc.gosim"],"license":"GPL (>= 2)","summary":"Computation of functional similarities between GO terms and gene products; GO enrichment analysis"}}}

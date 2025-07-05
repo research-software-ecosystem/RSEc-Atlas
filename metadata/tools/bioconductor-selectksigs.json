@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-selectksigs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-selectksigs","identifiers":["doi:10.18129/b9.bioc.selectksigs"],"license":"GPL-3","summary":"Selecting the number of mutational signatures using a perplexity-based measure and cross-validation"}}}

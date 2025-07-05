@@ -1,0 +1,1 @@
+{"tool_name":"perl-hpc-runner","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-hpc-runner","identifiers":[],"license":"perl_5","summary":"HPC Runner::Slurm, Runner::MCE and Runner::Threads base class"}}}

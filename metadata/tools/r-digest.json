@@ -1,0 +1,1 @@
+{"tool_name":"r-digest","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-digest","identifiers":[],"license":"GPL-2.0","summary":"Implementation of a function digest() for the creation of hash digests of arbitrary R objects"}}}

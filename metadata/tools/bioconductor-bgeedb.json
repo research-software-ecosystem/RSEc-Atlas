@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bgeedb","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bgeedb","identifiers":["biotools:bgeedb","doi:10.12688/f1000research.9973.1"],"license":"GPL-3","summary":"Annotation and gene expression data retrieval from Bgee database. TopAnat, an anatomical entities Enrichment Analysis tool for UBERON ontology"}}}

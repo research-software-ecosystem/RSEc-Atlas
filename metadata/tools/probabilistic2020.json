@@ -1,0 +1,1 @@
+{"tool_name":"probabilistic2020","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"probabilistic2020","identifiers":[],"license":"Apache-2-0","summary":"Simulates somatic mutations, and calls statistically significant oncogenes and tumor suppressor genes based on a randomization-based test"}}}

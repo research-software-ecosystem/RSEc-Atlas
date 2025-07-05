@@ -1,0 +1,1 @@
+{"tool_name":"samsum","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"samsum","identifiers":[],"license":"GGPL-3.0","summary":"A light-weight python package for summarizing sequence coverage from SAM and BAM files"}}}

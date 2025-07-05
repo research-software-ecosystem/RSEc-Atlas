@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-icheck","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-icheck","identifiers":["doi:10.18129/b9.bioc.icheck"],"license":"GPL (>= 2)","summary":"QC Pipeline and Data Analysis Tools for High-Dimensional Illumina mRNA Expression Data"}}}

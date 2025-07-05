@@ -1,0 +1,1 @@
+{"tool_name":"qiimetomaaslin","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"qiimetomaaslin","identifiers":[],"license":"Not available","summary":"Data munging script to change text Qiime OTU tables to pcl-formatted, maaslin-compatible text files"}}}

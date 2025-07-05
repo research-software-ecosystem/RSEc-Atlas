@@ -1,0 +1,1 @@
+{"tool_name":"vqsr_cnn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"vqsr_cnn","identifiers":[],"license":"MIT","summary":"Variant quality score recalibration with convolutional neural networks"}}}

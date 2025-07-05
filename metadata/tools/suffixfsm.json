@@ -1,0 +1,1 @@
+{"tool_name":"suffixfsm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"suffixfsm","identifiers":[],"license":"Apache-2.0","summary":"Go finite state machine generator for porter2 stemmers"}}}

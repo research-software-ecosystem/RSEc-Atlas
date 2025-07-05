@@ -1,0 +1,1 @@
+{"tool_name":"pyomero-upload","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pyomero-upload","identifiers":[],"license":"MIT","summary":"Client library offering helper methods to upload data to an OMERO server."}}}

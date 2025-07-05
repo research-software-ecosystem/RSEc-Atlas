@@ -1,0 +1,1 @@
+{"tool_name":"soapdenovo2-prepare","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"soapdenovo2-prepare","identifiers":[],"license":"GPL-3.0","summary":"Soapdenovo2 data prepare module using assembled contig to do scaffold assembly"}}}

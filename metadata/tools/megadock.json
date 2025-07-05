@@ -1,0 +1,1 @@
+{"tool_name":"megadock","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"megadock","home":"http://www.bi.cs.titech.ac.jp/megadock/","summary":"Fft-based protein-protein docking system for all-to-all protein-protein interaction predictions.","addition_date":"2017-08-03T18:49:13Z","last_update_date":"2018-12-10T12:58:51Z","tool_type":["Command-line tool"]}}}

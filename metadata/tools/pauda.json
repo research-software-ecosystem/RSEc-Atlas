@@ -1,0 +1,1 @@
+{"tool_name":"pauda","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pauda","identifiers":[],"license":"Not available","summary":"Pauda is a new approach toward the problem of comparing dna reads against a database of protein reference sequences that is applicable to very large datasets consisting of hundreds of millions or billions of reads."}}}

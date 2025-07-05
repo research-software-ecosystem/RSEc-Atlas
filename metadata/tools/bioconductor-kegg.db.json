@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-kegg.db","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-kegg.db","identifiers":["doi:10.18129/b9.bioc.kegg.db"],"license":"Free for academic use. Non-academic users are requested to obtain a license agreement with KEGG","summary":"A set of annotation maps for kegg"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-arraytools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-arraytools","identifiers":["biotools:arraytools","doi:10.1038/nmeth.3252"],"license":"LGPL (>= 2.0)","summary":"geneChip Analysis Package"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genomicstate","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genomicstate","identifiers":["doi:10.18129/b9.bioc.genomicstate"],"license":"Artistic-2.0","summary":"Build and access genomicstate objects for use with derfinder tools from sources like gencode"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-beachmat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-beachmat","identifiers":["doi:10.18129/b9.bioc.beachmat"],"license":"GPL-3","summary":"Compiling Bioconductor to Handle Each Matrix Type"}}}

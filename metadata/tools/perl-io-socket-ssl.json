@@ -1,0 +1,1 @@
+{"tool_name":"perl-io-socket-ssl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-io-socket-ssl","identifiers":[],"license":"perl_5","summary":"Nearly transparent SSL encapsulation for IO::Socket::INET."}}}

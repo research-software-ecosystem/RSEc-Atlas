@@ -1,0 +1,1 @@
+{"tool_name":"perl-json-maybexs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-json-maybexs","identifiers":[],"license":"perl_5","summary":"Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP"}}}

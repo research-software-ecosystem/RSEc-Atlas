@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bumhmm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bumhmm","identifiers":["doi:10.18129/b9.bioc.bumhmm"],"license":"GPL-3","summary":"Computational pipeline for computing probability of modification from structure probing experiment data"}}}

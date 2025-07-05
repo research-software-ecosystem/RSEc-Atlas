@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-carnival","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-carnival","identifiers":["doi:10.18129/b9.bioc.carnival"],"license":"Apache License (== 3.0) | GNU GENERAL PUBLIC LICENSE","summary":"A causal reasoning tool for network identification (from gene expression data) using integer value programming"}}}

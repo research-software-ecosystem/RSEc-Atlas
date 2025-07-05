@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-starr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-starr","identifiers":["biotools:starr","doi:10.1186/1471-2105-11-194"],"license":"Artistic-2.0","summary":"Simple tiling array analysis of Affymetrix ChIP-chip data"}}}

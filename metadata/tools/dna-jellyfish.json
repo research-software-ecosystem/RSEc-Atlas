@@ -1,0 +1,1 @@
+{"tool_name":"dna-jellyfish","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"dna-jellyfish","identifiers":[],"license":"Not available","summary":"Count k-mers in dna sequences (python bindings of jellyfish)"}}}

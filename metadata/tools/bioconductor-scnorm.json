@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scnorm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scnorm","identifiers":["doi:10.18129/b9.bioc.scnorm"],"license":"GPL (>= 2)","summary":"Normalization of single cell RNA-seq data"}}}

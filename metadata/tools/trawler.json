@@ -1,0 +1,1 @@
+{"tool_name":"trawler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"trawler","identifiers":["pmid:17589518","doi:10.1038/nmeth1061"],"license":"GPL-2","summary":"Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of dna."}}}

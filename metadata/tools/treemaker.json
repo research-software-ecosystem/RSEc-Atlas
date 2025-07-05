@@ -1,0 +1,1 @@
+{"tool_name":"treemaker","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"treemaker","identifiers":["doi:10.15144/pl-c38"],"license":"BSD 3-Clause \"New\" or \"Revised\" License","summary":"A python tool for generating a newick formatted tree from alist of classifications"}}}

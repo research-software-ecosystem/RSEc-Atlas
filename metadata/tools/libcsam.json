@@ -1,0 +1,1 @@
+{"tool_name":"libcsam","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"libcsam","home":"https://github.com/rcanovas/libCSAM","summary":"Contains several C++ codes for compress, decompress, and access each of the fields of any SAM format file.","addition_date":"2017-08-03T19:06:38Z","last_update_date":"2018-12-10T12:58:50Z","tool_type":["Command-line tool"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-geneaccord","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-geneaccord","identifiers":["doi:10.18129/b9.bioc.geneaccord"],"license":"GNU GENERAL PUBLIC LICENSE","summary":"Detection of clonally exclusive gene or pathway pairs in a cohort of cancer patients"}}}

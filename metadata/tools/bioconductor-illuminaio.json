@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-illuminaio","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-illuminaio","identifiers":["biotools:illuminaio","doi:10.12688/f1000research.2-264.v1"],"license":"GPL-2","summary":"Parsing Illumina Microarray Output Files"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bedparse","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bedparse","identifiers":["doi:10.5281/zenodo.2578820","doi:10.21105/joss.01228"],"license":"MIT","summary":"A simple library and cli tool to manipulate bed files"}}}

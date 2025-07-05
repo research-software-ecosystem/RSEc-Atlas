@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-vbmp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-vbmp","identifiers":["biotools:vbmp","doi:10.1093/bioinformatics/btm535"],"license":"GPL (>= 2)","summary":"Variational Bayesian Multinomial Probit Regression"}}}

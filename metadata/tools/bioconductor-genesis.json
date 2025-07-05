@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genesis","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genesis","identifiers":["doi:10.18129/b9.bioc.genesis"],"license":"GPL-3","summary":"GENetic EStimation and Inference in Structured samples (GENESIS): Statistical methods for analyzing genetic data from samples with population structure and/or relatedness"}}}

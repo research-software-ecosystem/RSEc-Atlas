@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-graper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-graper","identifiers":["doi:10.18129/b9.bioc.graper"],"license":"GPL (>= 2)","summary":"Adaptive penalization in high-dimensional regression and classification with external covariates using variational Bayes"}}}

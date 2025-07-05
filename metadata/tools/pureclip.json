@@ -1,0 +1,1 @@
+{"tool_name":"pureclip","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pureclip","identifiers":["doi:10.1186/s13059-017-1364-2"],"license":"GPL-3.0","summary":"Pureclip is a tool to detect protein-rna interaction footprints from single-nucleotide clip-seq data, such as iclip and eclip."}}}

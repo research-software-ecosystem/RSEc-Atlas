@@ -1,0 +1,1 @@
+{"tool_name":"perl-mro-compat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-mro-compat","identifiers":[],"license":"perl_5","summary":"Mro::* interface compatibility for perls < 5.9.5"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"perl-importer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-importer","identifiers":[],"license":"perl_5","summary":"Alternative but compatible interface to modules that export symbols."}}}

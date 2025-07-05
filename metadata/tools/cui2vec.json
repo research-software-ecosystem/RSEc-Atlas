@@ -1,0 +1,1 @@
+{"tool_name":"cui2vec","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"cui2vec","home":"https://github.com/beamandrew/cui2vec","summary":"A R pacakge cui2vec, which provides code for fitting embeddings to your own co-occurrence data.","addition_date":"2020-01-14T20:19:34Z","last_update_date":"2020-12-25T13:55:25Z","tool_type":["Library"]}}}

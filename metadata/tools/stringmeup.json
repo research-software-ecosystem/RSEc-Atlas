@@ -1,0 +1,1 @@
+{"tool_name":"stringmeup","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"stringmeup","identifiers":[],"license":"MIT","summary":"A post-processing tool to reclassify kraken 2 output based on the confidence score and/or minimum minimizer hit groups."}}}

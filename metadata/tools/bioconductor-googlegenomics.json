@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-googlegenomics","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-googlegenomics","identifiers":["doi:10.18129/b9.bioc.googlegenomics"],"license":"Apache License (== 2.0) | file LICENSE","summary":"Provides an R package to interact with the Google Genomics API."}}}

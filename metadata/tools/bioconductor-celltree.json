@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-celltree","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-celltree","identifiers":["doi:10.18129/b9.bioc.celltree"],"license":"Artistic-2.0","summary":"Inference and visualisation of single-cell rna-seq data as a hierarchical tree structure"}}}

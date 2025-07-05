@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chromdraw","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chromdraw","identifiers":["biotools:chromdraw","doi:10.1007/s10577-015-9513-5"],"license":"GPL-3","summary":"chromDraw is a R package for drawing the schemes of karyotypes in the linear and circular fashion."}}}

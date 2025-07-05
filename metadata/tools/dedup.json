@@ -1,0 +1,1 @@
+{"tool_name":"dedup","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"dedup","identifiers":["doi:10.1186/s13059-016-0918-z"],"license":"GPL-3.0","summary":"Dedup is a tool for read deduplication in paired-end read merging (e.g. for ancient dna experiments)."}}}

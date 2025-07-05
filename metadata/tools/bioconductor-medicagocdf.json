@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-medicagocdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-medicagocdf","identifiers":["doi:10.18129/b9.bioc.medicagocdf"],"license":"LGPL","summary":"A package containing an environment representing the Medicago.cdf file."}}}

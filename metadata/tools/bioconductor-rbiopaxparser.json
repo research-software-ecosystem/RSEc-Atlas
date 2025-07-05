@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rbiopaxparser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rbiopaxparser","identifiers":["biotools:rbiopaxparser","doi:10.1093/bioinformatics/bts710"],"license":"GPL (>= 2)","summary":"Parses BioPax files and represents them in R"}}}

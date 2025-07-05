@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-aucell","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-aucell","identifiers":["doi:10.18129/b9.bioc.aucell"],"license":"GPL-3","summary":"AUCell: Analysis of 'gene set' activity in single-cell RNA-seq data (e.g. identify cells with specific gene signatures)"}}}

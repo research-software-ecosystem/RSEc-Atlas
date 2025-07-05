@@ -1,0 +1,1 @@
+{"tool_name":"perl-bioperl-core","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-bioperl-core","identifiers":["biotools:bioperl","doi:10.1007/978-1-59745-535-0_26"],"license":"perl_5","summary":"core packages for the bioperl toolkit; you really should install perl-bioperl."}}}

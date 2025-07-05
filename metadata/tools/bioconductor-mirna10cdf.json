@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirna10cdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirna10cdf","identifiers":["doi:10.18129/b9.bioc.mirna10cdf"],"license":"LGPL","summary":"A package containing an environment representing the miRNA-1_0.CDF file."}}}

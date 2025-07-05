@@ -1,0 +1,1 @@
+{"tool_name":"biopet-extractadaptersfastqc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-extractadaptersfastqc","identifiers":[],"license":"MIT","summary":"Extractadaptersfastqc reads which adapter sequences where found from a fastqc raw report."}}}

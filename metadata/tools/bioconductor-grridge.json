@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-grridge","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-grridge","identifiers":["doi:10.18129/b9.bioc.grridge"],"license":"GPL-3","summary":"Better prediction by use of co-data: Adaptive group-regularized ridge regression"}}}

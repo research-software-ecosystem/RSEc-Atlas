@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-splatter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-splatter","identifiers":["doi:10.18129/b9.bioc.splatter"],"license":"GPL-3 + GNU GENERAL PUBLIC LICENSE","summary":"Simple simulation of single-cell rna sequencing data"}}}

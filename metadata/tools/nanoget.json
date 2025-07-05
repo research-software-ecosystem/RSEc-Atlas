@@ -1,0 +1,1 @@
+{"tool_name":"nanoget","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"nanoget","identifiers":[],"license":"MIT","summary":"Functions to extract information from Oxford Nanopore sequencing data and alignments."}}}

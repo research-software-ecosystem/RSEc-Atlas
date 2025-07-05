@@ -1,0 +1,1 @@
+{"tool_name":"ncbi-acc-download","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ncbi-acc-download","identifiers":[],"license":"Apache-2.0","summary":"Download files from ncbi entrez by accession."}}}

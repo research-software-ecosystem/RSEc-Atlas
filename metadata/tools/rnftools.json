@@ -1,0 +1,1 @@
+{"tool_name":"rnftools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rnftools","identifiers":["doi:10.1093/bioinformatics/btv524"],"license":"MIT","summary":"Rnf framework for ngs: simulation of reads, evaluation of mappers, conversion of rnf-compliant data."}}}

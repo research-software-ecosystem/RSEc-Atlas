@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-weitrix","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-weitrix","identifiers":["doi:10.18129/b9.bioc.weitrix"],"license":"LGPL-2.1 | GNU LESSER GENERAL PUBLIC LICENSE","summary":"Weighted matrix manipulation, finding components of variation with weighted or sparse data"}}}

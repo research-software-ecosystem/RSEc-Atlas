@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-piano","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-piano","identifiers":["biotools:piano","doi:10.1093/nar/gkt111"],"license":"GPL (>=2)","summary":"Platform for integrative analysis of omics data"}}}

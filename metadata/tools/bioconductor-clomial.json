@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-clomial","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-clomial","identifiers":["biotools:clomial","doi:10.1371/journal.pcbi.1003703"],"license":"GPL (>= 2)","summary":"Infers clonal composition of a tumor"}}}

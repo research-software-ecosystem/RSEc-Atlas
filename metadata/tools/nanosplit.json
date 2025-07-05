@@ -1,0 +1,1 @@
+{"tool_name":"nanosplit","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"nanosplit","identifiers":[],"license":"GNU General Public License v3.0","summary":"Perform splitting of oxford nanopore sequencing data in a fail and pass dataset."}}}

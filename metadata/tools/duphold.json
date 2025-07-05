@@ -1,0 +1,1 @@
+{"tool_name":"duphold","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"duphold","identifiers":["doi:10.1093/gigascience/giz040"],"license":"MIT","summary":"SV callers like lumpy look at split-reads and pair distances to find structural variants. This tool is a fast way to add depth information to those calls."}}}

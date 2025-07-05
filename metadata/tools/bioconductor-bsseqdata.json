@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bsseqdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bsseqdata","identifiers":["doi:10.18129/b9.bioc.bsseqdata"],"license":"Artistic-2.0","summary":"Example whole genome bisulfite data for the bsseq package"}}}

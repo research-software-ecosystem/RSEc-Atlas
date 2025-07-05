@@ -1,0 +1,1 @@
+{"tool_name":"biobb_structure_utils","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biobb_structure_utils","identifiers":["doi:10.1038/s41597-019-0177-4"],"license":"Apache-2.0","summary":"Biobb_structure_utils is the biobb module collection to modify or extract information from a pdb structure file."}}}

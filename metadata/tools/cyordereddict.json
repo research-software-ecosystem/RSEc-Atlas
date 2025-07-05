@@ -1,0 +1,1 @@
+{"tool_name":"cyordereddict","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cyordereddict","identifiers":[],"license":"BSD License","summary":"Cython implementation of Python's collections.OrderedDict"}}}

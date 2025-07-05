@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-test3cdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-test3cdf","identifiers":["doi:10.18129/b9.bioc.test3cdf"],"license":"LGPL","summary":"A package containing an environment representing the Test3.CDF file."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"mhc-np","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"mhc-np","home":"http://tools.immuneepitope.org/mhcnp/","summary":"Python tool to identify peptides that are naturally processed by the MHC-I pathway.","addition_date":"2017-08-03T18:49:26Z","last_update_date":"2018-12-10T12:58:51Z","tool_type":["Web application"]}}}

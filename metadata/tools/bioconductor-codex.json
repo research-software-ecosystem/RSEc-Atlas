@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-codex","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-codex","identifiers":["biotools:codex","doi:10.1093/nar/gku1363"],"license":"GPL-2","summary":"A Normalization and Copy Number Variation Detection Method for Whole Exome Sequencing"}}}

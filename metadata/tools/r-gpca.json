@@ -1,0 +1,1 @@
+{"tool_name":"r-gpca","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-gpca","identifiers":[],"license":"GPL (>= 2)","summary":"This package implements guided principal components analysis for the detection of batch effects in high-throughput data."}}}

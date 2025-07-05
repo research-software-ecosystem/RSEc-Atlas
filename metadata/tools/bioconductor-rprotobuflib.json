@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rprotobuflib","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rprotobuflib","identifiers":["doi:10.18129/b9.bioc.rprotobuflib"],"license":"BSD_3_clause","summary":"C++ headers and static libraries of Protocol buffers"}}}

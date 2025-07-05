@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rhtslib","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rhtslib","identifiers":["biotools:rhtslib","doi:10.1038/nmeth.3252"],"license":"LGPL (>= 2)","summary":"HTSlib high-throughput sequencing library as an R package"}}}

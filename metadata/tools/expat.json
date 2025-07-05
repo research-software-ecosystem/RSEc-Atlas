@@ -1,0 +1,1 @@
+{"tool_name":"expat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"expat","identifiers":[],"license":"MIT","summary":"Expat is an xml parser library written in c. it is a stream-oriented parser in which an application registers handlers for things the parser might find in the xml document (like start tags)."}}}

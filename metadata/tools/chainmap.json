@@ -1,0 +1,1 @@
+{"tool_name":"chainmap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"chainmap","identifiers":[],"license":"Python Software Foundation License","summary":"Backport/clone of ChainMap for py26, py32, and pypy3."}}}

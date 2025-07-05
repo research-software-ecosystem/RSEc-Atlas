@@ -1,0 +1,1 @@
+{"tool_name":"taxonomy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"taxonomy","identifiers":["doi:10.1101/027607"],"license":"MIT","summary":"Python and Rust library for loading, saving, and manipulating taxonomic trees"}}}

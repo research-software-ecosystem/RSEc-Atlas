@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-medips","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-medips","identifiers":["biotools:medips","doi:10.1093/bioinformatics/btt650"],"license":"GPL (>=2)","summary":"DNA IP-seq data analysis"}}}

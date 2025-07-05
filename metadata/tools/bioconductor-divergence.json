@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-divergence","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-divergence","identifiers":["doi:10.18129/b9.bioc.divergence"],"license":"GPL-2","summary":"Divergence: Functionality for assessing omics data by divergence with respect to a baseline"}}}

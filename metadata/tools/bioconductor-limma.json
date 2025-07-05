@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-limma","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-limma","identifiers":["biotools:limma","doi:10.1093/nar/gkv007"],"license":"LGPL-2+","summary":"Linear models for microarray data"}}}

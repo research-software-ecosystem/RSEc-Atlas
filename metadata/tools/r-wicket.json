@@ -1,0 +1,1 @@
+{"tool_name":"r-wicket","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-wicket","identifiers":[],"license":"MIT","summary":"Utilities to generate bounding boxes from 'WKT' (Well-Known Text) objects and R data types, validate 'WKT' objects and convert object types from the 'sp' package into 'WKT' representations."}}}

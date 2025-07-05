@@ -1,0 +1,1 @@
+{"tool_name":"ncbi-seg","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ncbi-seg","identifiers":[],"license":"public-domain","summary":"Tool to mask segments of low compositional complexity in amino acid sequences"}}}

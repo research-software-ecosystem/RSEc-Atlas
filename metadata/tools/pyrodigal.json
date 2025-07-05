@@ -1,0 +1,1 @@
+{"tool_name":"pyrodigal","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pyrodigal","identifiers":["doi:10.5281/zenodo.4015169"],"license":"GPL-3.0","summary":"Python bindings to Prodigal, an ORF finder for microbial sequences."}}}

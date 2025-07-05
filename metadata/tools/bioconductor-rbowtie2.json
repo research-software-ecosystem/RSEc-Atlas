@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rbowtie2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rbowtie2","identifiers":["doi:10.18129/b9.bioc.rbowtie2"],"license":"GPL-3.0","summary":"An R Wrapper for Bowtie2 and AdapterRemoval"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-autodtd","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-autodtd","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Give this a xml document to look at and it will come up with a dtd"}}}

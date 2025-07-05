@@ -1,0 +1,1 @@
+{"tool_name":"stark","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"stark","identifiers":[],"license":"MIT","summary":"A tool for bluntifying a bidirected de bruijn graph by removing overlaps."}}}

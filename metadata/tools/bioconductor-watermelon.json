@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-watermelon","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-watermelon","identifiers":["biotools:watermelon","doi:10.1186/1471-2164-14-293"],"license":"GPL-3","summary":"Illumina 450 methylation array normalization and metrics"}}}

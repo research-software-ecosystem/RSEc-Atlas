@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-msgfplus","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-msgfplus","identifiers":["doi:10.18129/b9.bioc.msgfplus"],"license":"GPL-2.0","summary":"An interface between R and MS-GF+"}}}

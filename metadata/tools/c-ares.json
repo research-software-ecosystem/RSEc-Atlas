@@ -1,0 +1,1 @@
+{"tool_name":"c-ares","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"c-ares","identifiers":[],"license":"MIT","summary":"c-ares is a C library for asynchronous DNS requests (including name resolves)"}}}

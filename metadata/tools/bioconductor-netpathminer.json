@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-netpathminer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-netpathminer","identifiers":["biotools:netpathminer","doi:10.1093/bioinformatics/btu501"],"license":"GPL (>= 2)","summary":"NetPathMiner for Biological Network Construction, Path Mining and Visualization"}}}

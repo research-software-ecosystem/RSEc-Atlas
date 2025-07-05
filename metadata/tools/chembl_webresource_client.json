@@ -1,0 +1,1 @@
+{"tool_name":"chembl_webresource_client","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"chembl_webresource_client","identifiers":[],"license":"Apache-2.0","summary":"This is the only official Python client library developed and supported by ChEMBL group."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-generecommender","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-generecommender","identifiers":["biotools:generecommender","doi:10.1101/gr.1125403"],"license":"GPL (>= 2)","summary":"A gene recommender algorithm to identify genes coexpressed with a query set of genes"}}}

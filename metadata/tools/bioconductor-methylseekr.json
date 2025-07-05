@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-methylseekr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-methylseekr","identifiers":["biotools:methylseekr","doi:10.1093/nar/gkt599"],"license":"GPL (>=2)","summary":"Segmentation of Bis-seq data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-deqms","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-deqms","identifiers":["doi:10.18129/b9.bioc.deqms"],"license":"LGPL","summary":"a tool to perform statistical analysis of differential protein expression for quantitative proteomics data."}}}

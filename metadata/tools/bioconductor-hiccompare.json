@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hiccompare","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hiccompare","identifiers":["biotools:HiCcompare","doi:10.1101/147850","doi:10.1186/s12859-018-2288-x"],"license":"MIT","summary":"HiCcompare: Joint normalization and comparative analysis of multiple Hi-C datasets"}}}

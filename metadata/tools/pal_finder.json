@@ -1,0 +1,1 @@
+{"tool_name":"pal_finder","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pal_finder","identifiers":[],"license":"GNU General Public License version 2.0 (GPLv2)","summary":"Find microsatellite repeat elements from sequencing reads and design pcr primers to amplify them"}}}

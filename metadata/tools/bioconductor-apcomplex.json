@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-apcomplex","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-apcomplex","identifiers":["biotools:apcomplex","doi:10.1093/bioinformatics/bti567"],"license":"LGPL","summary":"Estimate protein complex membership using AP-MS protein data"}}}

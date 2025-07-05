@@ -1,0 +1,1 @@
+{"tool_name":"r-qiimer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-qiimer","identifiers":[],"license":"GPL (>= 2)","summary":"Open QIIME output files in R, compute statistics, and create plots from the data."}}}

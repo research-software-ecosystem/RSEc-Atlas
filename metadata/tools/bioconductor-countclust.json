@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-countclust","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-countclust","identifiers":["doi:10.18129/b9.bioc.countclust"],"license":"GPL (>= 2)","summary":"Clustering and Visualizing RNA-Seq Expression Data using Grade of Membership Models"}}}

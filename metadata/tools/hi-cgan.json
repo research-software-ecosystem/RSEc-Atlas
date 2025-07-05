@@ -1,0 +1,1 @@
+{"tool_name":"hi-cgan","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"hi-cgan","home":"https://github.com/joachimwolff/Hi-cGAN","summary":"A software to predict Hi-C matrices based on ChIP-seq histone data using a cGAN approach.","addition_date":"2025-04-09T09:58:29.019039Z","last_update_date":"2025-04-09T09:59:16.835262Z"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-simpleaffy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-simpleaffy","identifiers":["biotools:simpleaffy","doi:10.1093/bioinformatics/bti605"],"license":"GPL (>= 2)","summary":"Very simple high level analysis of Affymetrix data"}}}

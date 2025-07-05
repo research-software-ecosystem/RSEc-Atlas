@@ -1,0 +1,1 @@
+{"tool_name":"pywdl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pywdl","identifiers":[],"license":"Apache-2.0","summary":"A Python implementation of a WDL parser and language bindings."}}}

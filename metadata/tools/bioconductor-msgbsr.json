@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-msgbsr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-msgbsr","identifiers":["doi:10.18129/b9.bioc.msgbsr"],"license":"GPL-2","summary":"msgbsR: methylation sensitive genotyping by sequencing (MS-GBS) R functions"}}}

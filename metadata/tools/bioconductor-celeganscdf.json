@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-celeganscdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-celeganscdf","identifiers":["doi:10.18129/b9.bioc.celeganscdf"],"license":"LGPL","summary":"A package containing an environment representing the Celegans.CDF file."}}}

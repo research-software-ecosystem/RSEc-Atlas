@@ -1,0 +1,1 @@
+{"tool_name":"cell-types-analysis","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cell-types-analysis","identifiers":[],"license":"Apache-2.0","summary":"A suite of scripts for analysis of scrna-seq cell type classification tools outputs."}}}

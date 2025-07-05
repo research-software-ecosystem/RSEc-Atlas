@@ -1,0 +1,1 @@
+{"tool_name":"fastdtw","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fastdtw","identifiers":[],"license":"MIT","summary":"Dynamic Time Warping (DTW) algorithm with an O(N) time and memory complexity"}}}

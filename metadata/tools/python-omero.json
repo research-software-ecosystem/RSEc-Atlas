@@ -1,0 +1,1 @@
+{"tool_name":"python-omero","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python-omero","identifiers":[],"license":"GPL-2","summary":"Client library offering helper methods to access an OMERO server."}}}

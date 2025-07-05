@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ippd","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ippd","identifiers":["biotools:ippd","doi:10.1186/1471-2105-13-291"],"license":"GPL (version 2 or later)","summary":"Isotopic peak pattern deconvolution for Protein Mass Spectrometry by template matching"}}}

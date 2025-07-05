@@ -1,0 +1,1 @@
+{"tool_name":"r-shinybs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-shinybs","identifiers":[],"license":"Custom License","summary":"shinyBS is a package that adds several additional Twitter Boostrap components to shiny. In January RStudio updated shiny to work with Bootstrap3 which completely broke the original shinyBS."}}}

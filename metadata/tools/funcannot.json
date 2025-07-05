@@ -1,0 +1,1 @@
+{"tool_name":"funcannot","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"funcannot","identifiers":[],"license":"GPL-3.0","summary":"Annotates cDNA, protein, mutation type, and other funcational changes to variants in a VCF file with pre-existing gene annotations"}}}

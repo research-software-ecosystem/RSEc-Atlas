@@ -1,0 +1,1 @@
+{"tool_name":"mypy-extensions","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"mypy-extensions","identifiers":[],"license":"Expat","summary":"Experimental type system extensions for mypy typechecker (python 3)"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"transindel","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"transindel","identifiers":[],"license":"GPL-3.0","summary":"Transindel is used to detect indels (insertions and deletions) from dna-seq or rna-seq data by parsing chimeric alignments from bwa-mem.."}}}

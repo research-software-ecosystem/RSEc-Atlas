@@ -1,0 +1,1 @@
+{"tool_name":"biobb_wf_mutations","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biobb_wf_mutations","identifiers":["doi:10.1038/s41597-019-0177-4"],"license":"Apache-2.0","summary":"Lysozyme plus Mutations workflow built using BioBB Based on the official Gromacs"}}}

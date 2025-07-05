@@ -1,0 +1,1 @@
+{"tool_name":"r-futile.logger","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-futile.logger","identifiers":[],"license":"LGPL-3","summary":"Provides a simple yet powerful logging utility. Based loosely on log4j, futile.logger takes advantage of R idioms to make logging a convenient and easy to use replacement for cat and print statements."}}}

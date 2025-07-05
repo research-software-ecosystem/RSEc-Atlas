@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sctensor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sctensor","identifiers":["doi:10.18129/b9.bioc.sctensor"],"license":"Artistic-2.0","summary":"Detection of cell-cell interaction from single-cell rna-seq dataset by tensor decomposition"}}}

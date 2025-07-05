@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rocpai","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rocpai","identifiers":["doi:10.18129/b9.bioc.rocpai"],"license":"GPL-3","summary":"Receiver Operating Characteristic Partial Area Indexes for evaluating classifiers"}}}

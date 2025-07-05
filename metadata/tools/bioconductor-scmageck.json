@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scmageck","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scmageck","identifiers":["doi:10.18129/b9.bioc.scmageck"],"license":"BSD_2_clause","summary":"Identify genes associated with multiple expression phenotypes in single-cell crispr screening data"}}}

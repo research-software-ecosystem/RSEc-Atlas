@@ -1,0 +1,1 @@
+{"tool_name":"shellescape","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"shellescape","identifiers":[],"license":"MIT","summary":"Shell escape a string to safely use it as a token in a shell command (backport of Python shlex.quote for Python versions 2.x & < 3.3)"}}}

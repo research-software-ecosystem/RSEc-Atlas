@@ -1,0 +1,1 @@
+{"tool_name":"r-yaml","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-yaml","identifiers":[],"license":"BSD_3_clause","summary":"This package implements the libyaml YAML 1.1 parser and emitter (http://pyyaml.org/wiki/LibYAML) for R."}}}

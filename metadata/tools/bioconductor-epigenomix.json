@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-epigenomix","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-epigenomix","identifiers":["biotools:epigenomix","doi:10.1093/bioinformatics/btu003"],"license":"LGPL-3","summary":"Epigenetic and gene transcription data normalization and integration with mixture models"}}}

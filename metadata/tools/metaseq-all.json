@@ -1,0 +1,1 @@
+{"tool_name":"metaseq-all","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"metaseq-all","identifiers":["doi:10.18129/b9.bioc.metaseq"],"license":"Artistic-2.0","summary":"Meta-package for metaseq including bedtools and ucsc tools"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-xbseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-xbseq","identifiers":["biotools:xbseq","doi:10.1186/1471-2164-16-S7-S14"],"license":"GPL (>=3)","summary":"Test for differential expression for RNA-seq data"}}}

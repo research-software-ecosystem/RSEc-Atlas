@@ -1,0 +1,1 @@
+{"tool_name":"consensuscore2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"consensuscore2","identifiers":[],"license":"BSD-3-Clause-PacBio","summary":"Generate consensus sequences for pacbio data -- python 2"}}}

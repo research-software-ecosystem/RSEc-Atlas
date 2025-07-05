@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-metabomxtr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-metabomxtr","identifiers":["doi:10.18129/b9.bioc.metabomxtr"],"license":"GPL-2","summary":"A package to run mixture models for truncated metabolomics data with normal or lognormal distributions"}}}

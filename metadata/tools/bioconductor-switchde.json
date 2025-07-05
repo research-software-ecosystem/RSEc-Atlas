@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-switchde","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-switchde","identifiers":["biotools:switchde","doi:10.1093/bioinformatics/btw798"],"license":"GPL (>= 2)","summary":"Switch-like differential expression across single-cell trajectories"}}}

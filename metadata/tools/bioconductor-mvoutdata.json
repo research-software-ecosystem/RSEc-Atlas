@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mvoutdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mvoutdata","identifiers":["doi:10.18129/b9.bioc.mvoutdata"],"license":"Artistic-2.0","summary":"Affy and illumina raw data for assessing outlier detector performance"}}}

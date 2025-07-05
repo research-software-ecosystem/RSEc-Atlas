@@ -1,0 +1,1 @@
+{"tool_name":"ribodiff","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ribodiff","identifiers":["doi:10.1093/bioinformatics/btw585"],"license":"GPL-3.0","summary":"Ribodiff is a statistical tool that detects the protein translational efficiency change from ribo-seq (ribosome footprinting) and rna-seq data."}}}

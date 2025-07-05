@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-matter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-matter","identifiers":["biotools:matter","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"A framework for rapid prototyping with file-based data structures"}}}

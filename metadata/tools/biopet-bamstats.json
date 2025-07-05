@@ -1,0 +1,1 @@
+{"tool_name":"biopet-bamstats","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-bamstats","identifiers":[],"license":"MIT","summary":"Bamstats is a package that contains tools to generate stats from a bam file, merge those stats for multiple samples, and validate the generated stats files."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bovinecdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bovinecdf","identifiers":["doi:10.18129/b9.bioc.bovinecdf"],"license":"LGPL","summary":"A package containing an environment representing the Bovine.cdf file."}}}

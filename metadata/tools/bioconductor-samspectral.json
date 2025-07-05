@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-samspectral","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-samspectral","identifiers":["doi:10.18129/b9.bioc.samspectral"],"license":"GPL (>= 2)","summary":"Identifies cell population in flow cytometry data."}}}

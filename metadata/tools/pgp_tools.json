@@ -1,0 +1,1 @@
+{"tool_name":"pgp_tools","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"PGP_tools","home":"https://bioweb.pasteur.fr/packages/pack@PGP_tools@0.0.1","summary":"Manipulation,filter and sort NGS data.","addition_date":"2019-02-15T14:24:45Z","last_update_date":"2019-02-15T14:24:45Z","tool_type":["Command-line tool"],"collections":["PGP tools"]}}}

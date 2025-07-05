@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-distinct","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-distinct","identifiers":["doi:10.18129/b9.bioc.distinct"],"license":"GPL (>= 3)","summary":"distinct: a method for differential analyses via hierarchical permutation tests"}}}

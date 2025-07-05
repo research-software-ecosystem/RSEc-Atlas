@@ -1,0 +1,1 @@
+{"tool_name":"efetch_taxon","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"efetch_taxon","home":"http://www.ncbi.nlm.nih.gov/corehtml/query/static/efetchtax_help.html","summary":"Get taxonomy information given taxonomy ID.","addition_date":"2015-08-03T09:36:35Z","last_update_date":"2018-12-10T12:58:53Z","tool_type":["Web service"],"version":["1"]}}}

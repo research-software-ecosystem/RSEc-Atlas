@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowviz","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowviz","identifiers":["biotools:flowviz","doi:10.1093/bioinformatics/btn021"],"license":"Artistic-2.0","summary":"Provides visualization tools for flow cytometry data."}}}

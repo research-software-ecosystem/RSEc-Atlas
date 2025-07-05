@@ -1,0 +1,1 @@
+{"tool_name":"r-skellam","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-skellam","identifiers":[],"license":"GPL (>= 2)","summary":"Functions for the Skellam distribution, including: density (pmf), cdf, quantiles and regression."}}}

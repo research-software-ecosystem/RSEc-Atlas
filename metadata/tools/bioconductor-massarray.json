@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-massarray","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-massarray","identifiers":["biotools:massarray","doi:10.1093/bioinformatics/btp382"],"license":"GPL (>=2)","summary":"Analytical Tools for MassArray Data"}}}

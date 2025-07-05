@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-path2ppi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-path2ppi","identifiers":["biotools:path2ppi","doi:10.1093/bioinformatics/btv765"],"license":"GPL (>= 2)","summary":"Prediction of pathway-related protein-protein interaction networks"}}}

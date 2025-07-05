@@ -1,0 +1,1 @@
+{"tool_name":"edlib-aligner","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"edlib-aligner","identifiers":["doi:10.1093/bioinformatics/btw753"],"license":"custom, see /usr/share/doc/edlib-aligner/copyright","summary":"Edlib sequence alignment tool using edit distance"}}}

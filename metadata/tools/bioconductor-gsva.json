@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gsva","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gsva","identifiers":["biotools:gsva","doi:10.1186/1471-2105-14-7"],"license":"GPL (>= 2)","summary":"Gene Set Variation Analysis for microarray and RNA-seq data"}}}

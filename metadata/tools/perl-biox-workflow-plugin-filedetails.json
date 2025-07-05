@@ -1,0 +1,1 @@
+{"tool_name":"perl-biox-workflow-plugin-filedetails","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-biox-workflow-plugin-filedetails","identifiers":[],"license":"perl_5","summary":"Get metadata for files in directories processed by BioX::Workflow"}}}

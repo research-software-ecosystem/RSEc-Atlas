@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-psygenet2r","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-psygenet2r","identifiers":["biotools:psygenet2r","doi:10.1093/bioinformatics/btv301"],"license":"MIT","summary":"Package to retrieve data from psygenet database and to perform comorbidity studies with psygenet's and user's data."}}}

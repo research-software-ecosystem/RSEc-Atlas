@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bcrank","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bcrank","identifiers":["biotools:bcrank","doi:10.1093/nar/gkp381"],"license":"GPL-2","summary":"Predicting binding site consensus from ranked DNA sequences"}}}

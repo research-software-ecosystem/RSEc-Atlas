@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-spktools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-spktools","identifiers":["biotools:spktools","doi:10.1093/nar/gkn430"],"license":"GPL (>= 2)","summary":"Methods for Spike-in Arrays"}}}

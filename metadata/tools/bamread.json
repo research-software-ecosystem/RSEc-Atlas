@@ -1,0 +1,1 @@
+{"tool_name":"bamread","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bamread","identifiers":[],"license":"MIT","summary":"Read bam files quickly into dataframes in Python"}}}

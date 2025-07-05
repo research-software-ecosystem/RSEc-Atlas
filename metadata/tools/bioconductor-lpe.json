@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-lpe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-lpe","identifiers":["biotools:lpe","doi:10.1093/bioinformatics/btg264"],"license":"LGPL","summary":"Methods for analyzing microarray data using Local Pooled Error (LPE) method"}}}

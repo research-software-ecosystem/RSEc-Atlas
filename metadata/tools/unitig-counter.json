@@ -1,0 +1,1 @@
+{"tool_name":"unitig-counter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"unitig-counter","identifiers":["doi:10.1371/journal.pgen.1007758"],"license":"GNU Affero General Public License","summary":"Uses a compressed de Bruijn graph (implemented in GATB) to count unitigs in bacterial populations."}}}

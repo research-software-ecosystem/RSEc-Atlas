@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-abadata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-abadata","identifiers":["doi:10.18129/b9.bioc.abadata"],"license":"GPL (>= 2)","summary":"Averaged gene expression in human brain regions from Allen Brain Atlas"}}}

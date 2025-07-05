@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-unifiedwmwqpcr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-unifiedwmwqpcr","identifiers":["biotools:unifiedwmwqpcr","doi:10.1093/bioinformatics/btu313"],"license":"GPL (>=2)","summary":"Unified Wilcoxon-Mann Whitney Test for testing differential expression in qPCR data"}}}

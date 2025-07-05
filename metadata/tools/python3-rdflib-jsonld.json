@@ -1,0 +1,1 @@
+{"tool_name":"python3-rdflib-jsonld","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python3-rdflib-jsonld","identifiers":[],"license":"BSD-3-clause","summary":"Rdflib extension adding json-ld parser and serializer in python 3"}}}

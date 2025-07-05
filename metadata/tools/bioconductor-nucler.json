@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-nucler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-nucler","identifiers":["biotools:nucler","doi:10.1093/bioinformatics/btr345"],"license":"LGPL-3.0","summary":"Nucleosome positioning package for R"}}}

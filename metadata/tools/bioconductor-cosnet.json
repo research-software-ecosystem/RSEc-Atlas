@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cosnet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cosnet","identifiers":["doi:10.18129/b9.bioc.cosnet"],"license":"GPL (>= 2)","summary":"Cost Sensitive Network for node label prediction on graphs with highly unbalanced labelings"}}}

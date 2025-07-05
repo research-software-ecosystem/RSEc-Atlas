@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-missmethyl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-missmethyl","identifiers":["biotools:missmethyl","doi:10.1093/bioinformatics/btv560"],"license":"GPL-2","summary":"Analysing Illumina HumanMethylation BeadChip Data"}}}

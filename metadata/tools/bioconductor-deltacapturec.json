@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-deltacapturec","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-deltacapturec","identifiers":["doi:10.18129/b9.bioc.deltacapturec"],"license":"MIT","summary":"This package discovers meso-scale chromatin remodeling from 3c data"}}}

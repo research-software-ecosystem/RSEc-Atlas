@@ -1,0 +1,1 @@
+{"tool_name":"pytest-mpl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pytest-mpl","identifiers":[],"license":"BSD","summary":"Pytest plugin to help with testing figures output."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"fastq-join","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fastq-join","identifiers":[],"license":"MIT","summary":"Similar to audy stitch program, but in C, more efficient and supports some automatic benchmarking and tuning. It uses the same \"squared distance for anchored alignment as other tools."}}}

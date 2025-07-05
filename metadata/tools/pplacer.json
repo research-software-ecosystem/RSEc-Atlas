@@ -1,0 +1,1 @@
+{"tool_name":"pplacer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pplacer","identifiers":[],"license":"GPL-3","summary":"Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment."}}}

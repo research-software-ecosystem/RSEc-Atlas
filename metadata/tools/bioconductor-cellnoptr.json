@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cellnoptr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cellnoptr","identifiers":["biotools:cellnoptr","doi:10.1186/1752-0509-6-133"],"license":"GPL-3","summary":"Training of boolean logic models of signalling networks using prior knowledge networks and perturbation data"}}}

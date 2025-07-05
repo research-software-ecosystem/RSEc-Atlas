@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scgps","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scgps","identifiers":["doi:10.18129/b9.bioc.scgps"],"license":"GPL-3","summary":"A complete analysis of single cell subpopulations, from identifying subpopulations to analysing their relationship (scGPS = single cell Global Predictions of Subpopulation)"}}}

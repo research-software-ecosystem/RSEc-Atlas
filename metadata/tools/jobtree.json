@@ -1,0 +1,1 @@
+{"tool_name":"jobtree","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"jobtree","identifiers":[],"license":"MIT","summary":"Python based pipeline management software for clusters that makes running recursive and dynamically scheduled computations straightforward"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genefu","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genefu","identifiers":["biotools:genefu","doi:10.1093/bioinformatics/btv693"],"license":"Artistic-2.0","summary":"Computation of Gene Expression-Based Signatures in Breast Cancer"}}}

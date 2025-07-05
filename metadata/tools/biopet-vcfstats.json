@@ -1,0 +1,1 @@
+{"tool_name":"biopet-vcfstats","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-vcfstats","identifiers":[],"license":"MIT","summary":"Vcfstats is a tool that can generate metrics from a vcf file."}}}

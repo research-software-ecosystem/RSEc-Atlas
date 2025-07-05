@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-polyfit","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-polyfit","identifiers":["biotools:polyfit","doi:10.7717/peerj.576"],"license":"GPL-3.0","summary":"Add-on to DESeq to improve p-values and q-values"}}}

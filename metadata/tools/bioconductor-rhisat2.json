@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rhisat2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rhisat2","identifiers":["doi:10.18129/b9.bioc.rhisat2"],"license":"GPL-3","summary":"R Wrapper for HISAT2 Aligner"}}}

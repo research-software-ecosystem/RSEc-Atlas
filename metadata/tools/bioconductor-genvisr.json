@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genvisr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genvisr","identifiers":["biotools:genvisr","doi:10.1093/bioinformatics/btw325"],"license":"GPL-3.0","summary":"Produce highly customizable publication quality graphics for genomic data primarily at the cohort level."}}}

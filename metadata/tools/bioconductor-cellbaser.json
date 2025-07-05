@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cellbaser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cellbaser","identifiers":["doi:10.18129/b9.bioc.cellbaser"],"license":"Apache License (== 2.0)","summary":"Querying annotation data from the high performance Cellbase web"}}}

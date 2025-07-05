@@ -1,0 +1,1 @@
+{"tool_name":"l1pred","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"l1pred","home":"http://sysbio.unl.edu/L1pred/","summary":"L1pred is a sequence-based prediction tool for catalytic residues in enzymes with the L1-logreg classifier","addition_date":"2017-12-18T00:08:07Z","last_update_date":"2018-12-10T12:58:57Z","tool_type":["Command-line tool"]}}}

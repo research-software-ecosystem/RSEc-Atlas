@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-iterativebmasurv","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-iterativebmasurv","identifiers":["biotools:iterativebmasurv","doi:10.1186/1471-2105-10-72"],"license":"GPL (>= 2)","summary":"The Iterative Bayesian Model Averaging (BMA) Algorithm For Survival Analysis"}}}

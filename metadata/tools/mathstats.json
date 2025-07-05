@@ -1,0 +1,1 @@
+{"tool_name":"mathstats","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"mathstats","identifiers":[],"license":"GPL-3","summary":"Statistical functions, goodness-of-fit tests and special and special distributions not implemented in scipy/numpy ."}}}

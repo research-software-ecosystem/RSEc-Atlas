@@ -1,0 +1,1 @@
+{"tool_name":"mothul_krona","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"mothul_krona","home":"https://github.com/accaldwell/mothur_krona","license":"BSD-2-Clause","summary":"Converting mothur's taxonomy summaries into Krona-compatible XML files.","addition_date":"2018-11-29T16:20:15Z","last_update_date":"2018-12-10T12:59:01Z","tool_type":["Script"]}}}

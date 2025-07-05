@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-delayeddataframe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-delayeddataframe","identifiers":["doi:10.18129/b9.bioc.delayeddataframe"],"license":"GPL-3","summary":"Delayed operation on DataFrame using standard DataFrame metaphor"}}}

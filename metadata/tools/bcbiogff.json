@@ -1,0 +1,1 @@
+{"tool_name":"bcbiogff","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bcbiogff","identifiers":["biotools:biopython","doi:10.1093/bioinformatics/btp163"],"license":"Biopython License Agreement","summary":"Read and write generic feature format (gff) with biopython integration."}}}

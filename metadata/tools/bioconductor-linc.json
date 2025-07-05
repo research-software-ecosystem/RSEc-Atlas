@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-linc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-linc","identifiers":["biotools:linc","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"co-expression of lincRNAs and protein-coding genes"}}}

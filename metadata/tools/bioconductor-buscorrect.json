@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-buscorrect","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-buscorrect","identifiers":["doi:10.18129/b9.bioc.buscorrect"],"license":"GPL (>= 2)","summary":"Batch Effects Correction with Unknown Subtypes"}}}

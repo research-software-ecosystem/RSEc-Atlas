@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-degraph","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-degraph","identifiers":["biotools:degraph","doi:10.1214/11-AOAS528"],"license":"GPL-3","summary":"Two-sample tests on a graph"}}}

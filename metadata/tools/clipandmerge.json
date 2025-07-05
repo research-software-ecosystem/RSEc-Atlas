@@ -1,0 +1,1 @@
+{"tool_name":"clipandmerge","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"clipandmerge","identifiers":[],"license":"GNU General Public License v3.0","summary":"Clip&merge is a tool to clip off adapters from sequencing reads and merge overlapping paired end reads together."}}}

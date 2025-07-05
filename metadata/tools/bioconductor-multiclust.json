@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-multiclust","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-multiclust","identifiers":["biotools:multiclust","doi:10.4137/cin.s38000"],"license":"GPL (>= 2)","summary":"multiClust: An R-package for Identifying Biologically Relevant Clusters in Cancer Transcriptome Profiles"}}}

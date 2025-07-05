@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-snm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-snm","identifiers":["biotools:snm","doi:10.1093/bioinformatics/btq118"],"license":"LGPL","summary":"Supervised Normalization of Microarrays"}}}

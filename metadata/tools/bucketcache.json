@@ -1,0 +1,1 @@
+{"tool_name":"bucketcache","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bucketcache","identifiers":[],"license":"MIT","summary":"In one sentence, Bucket is a container object with optional lifetime backed by configurable serialisation methods that can also act as a function or method decorator."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-reactomegsa","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-reactomegsa","identifiers":["doi:10.18129/b9.bioc.reactomegsa"],"license":"MIT","summary":"Client for the reactome analysis service for comparative multi-omics gene set analysis"}}}

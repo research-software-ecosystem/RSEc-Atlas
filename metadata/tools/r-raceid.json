@@ -1,0 +1,1 @@
+{"tool_name":"r-raceid","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-raceid","identifiers":["doi:10.1038/nmeth.4662"],"license":"GPL-3","summary":"Application of 'RaceID' allows inference of cell types and prediction of lineage trees by the StemID2 algorithm."}}}

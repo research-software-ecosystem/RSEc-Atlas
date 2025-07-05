@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ppidata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ppidata","identifiers":["doi:10.18129/b9.bioc.ppidata"],"license":"Artistic-2.0","summary":"A package that contains the bait to prey directed graphs for protein-protein interactions."}}}

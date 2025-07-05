@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-multimed","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-multimed","identifiers":["biotools:multimed","doi:10.1093/bioinformatics/btt633"],"license":"GPL-2.0","summary":"Implements permutation method with joint correction for testing multiple mediators."}}}

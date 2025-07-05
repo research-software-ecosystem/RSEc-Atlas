@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-maskbad","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-maskbad","identifiers":["biotools:maskbad","doi:10.1093/bioinformatics/btp492"],"license":"GPL (>= 2)","summary":"Masking probes with binding affinity differences"}}}

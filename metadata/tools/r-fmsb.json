@@ -1,0 +1,1 @@
+{"tool_name":"r-fmsb","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-fmsb","identifiers":[],"license":"GPL (>= 2)","summary":"Several utility functions for the book entitled  \"Practices of Medical and Health Data Analysis using R\" (Pearson Education Japan, 2007) with Japanese demographic data and some demographic analysis related functions."}}}

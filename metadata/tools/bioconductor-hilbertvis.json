@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hilbertvis","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hilbertvis","identifiers":["biotools:hilbertvis","doi:10.1093/bioinformatics/btp152"],"license":"GPL-3.0","summary":"Gnu r package to visualise long vector data"}}}

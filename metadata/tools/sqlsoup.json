@@ -1,0 +1,1 @@
+{"tool_name":"sqlsoup","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sqlsoup","identifiers":[],"license":"Expat","summary":"One step database access tool for python3, built on the sqlalchemy orm"}}}

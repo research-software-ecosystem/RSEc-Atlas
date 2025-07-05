@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cnvgsadata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cnvgsadata","identifiers":["doi:10.18129/b9.bioc.cnvgsadata"],"license":"LGPL","summary":"Data used in the vignette of the cnvGSA package"}}}

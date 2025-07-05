@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-transview","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-transview","identifiers":["biotools:transview","doi:10.1038/nmeth.3252"],"license":"GPL-3","summary":"Read density map construction and accession. Visualization of ChIPSeq and RNASeq data sets"}}}

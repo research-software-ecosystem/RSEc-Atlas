@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-tximportdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-tximportdata","identifiers":["doi:10.18129/b9.bioc.tximportdata"],"license":"GPL-2.0","summary":"This package provides the output of running various transcript abundance quantifiers on a set of 6 RNA-seq samples from the GEUVADIS project"}}}

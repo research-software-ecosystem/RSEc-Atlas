@@ -1,0 +1,1 @@
+{"tool_name":"cromwell","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cromwell","identifiers":["doi:10.7490/f1000research.1114634.1"],"license":"BSD","summary":"A Workflow Management System geared towards scientific workflows described in WDL"}}}

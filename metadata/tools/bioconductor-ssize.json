@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ssize","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ssize","identifiers":["biotools:ssize","doi:10.1038/nmeth.3252"],"license":"LGPL","summary":"Estimate Microarray Sample Size"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mousefm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mousefm","identifiers":["doi:10.18129/b9.bioc.mousefm"],"license":"GPL-3.0","summary":"This package provides methods for genetic finemapping in inbred mice by taking advantage of their very high homozygosity rate (>95%)."}}}

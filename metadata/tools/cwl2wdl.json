@@ -1,0 +1,1 @@
+{"tool_name":"cwl2wdl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cwl2wdl","identifiers":[],"license":"Apache-2.0","summary":"Proof of concept converter from common workflow language (cwl) to the broad institute's workflow definition language (wdl)."}}}

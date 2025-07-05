@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scmap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scmap","identifiers":["doi:10.18129/b9.bioc.scmap"],"license":"GPL-3","summary":"A tool for unsupervised projection of single cell RNA-seq data"}}}

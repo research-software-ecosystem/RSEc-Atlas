@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-annmap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-annmap","identifiers":["biotools:annmap","doi:10.1093/nar/gkm779"],"license":"GPL-2.0","summary":"Genome annotation and visualisation package pertaining to Affymetrix arrays and NGS analysis."}}}

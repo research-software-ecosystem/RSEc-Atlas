@@ -1,0 +1,1 @@
+{"tool_name":"deepsvr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"deepsvr","identifiers":[],"license":"MIT","summary":"Deepsvr stands for deep somatic variant refinement. it uses deep learning to classify real somatic and anomalous variants in paired tumor sequencing data."}}}

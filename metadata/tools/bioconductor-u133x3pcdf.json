@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-u133x3pcdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-u133x3pcdf","identifiers":["doi:10.18129/b9.bioc.u133x3pcdf"],"license":"LGPL","summary":"A package containing an environment representing the U133_X3P.cdf file."}}}

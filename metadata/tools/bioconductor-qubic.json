@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-qubic","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-qubic","identifiers":["doi:10.18129/b9.bioc.qubic"],"license":"CC BY-NC-ND 4.0","summary":"An R package for qualitative biclustering in support of gene co-expression analyses"}}}

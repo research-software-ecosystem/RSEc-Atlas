@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-platecore","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-platecore","identifiers":["doi:10.18129/b9.bioc.platecore"],"license":"Artistic-2.0","summary":"Provides basic S4 data structures and routines for analyzing plate based flow cytometry data."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ctrap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ctrap","identifiers":["doi:10.18129/b9.bioc.ctrap"],"license":"MIT","summary":"Identification of candidate causal perturbations from differential gene expression data"}}}

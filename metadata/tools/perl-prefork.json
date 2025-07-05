@@ -1,0 +1,1 @@
+{"tool_name":"perl-prefork","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-prefork","identifiers":[],"license":"Not available","summary":"Optimized module loading for forking or non-forking processes"}}}

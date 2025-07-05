@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hicrep","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hicrep","identifiers":["doi:10.18129/b9.bioc.hicrep"],"license":"GPL (>= 2.0)","summary":"Measuring the reproducibility of Hi-C data"}}}

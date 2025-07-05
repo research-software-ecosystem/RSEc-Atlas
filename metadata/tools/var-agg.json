@@ -1,0 +1,1 @@
+{"tool_name":"var-agg","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"var-agg","identifiers":[],"license":"MIT","summary":"A simple helper for aggregating multi-sample VCF files into site VCF files."}}}

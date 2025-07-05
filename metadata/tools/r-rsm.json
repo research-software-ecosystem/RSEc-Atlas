@@ -1,0 +1,1 @@
+{"tool_name":"r-rsm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-rsm","identifiers":[],"license":"GPL-2","summary":"Provides functions to generate response-surface designs, fit first- and second-order response-surface models, make surface plots, obtain the path of steepest ascent, and do canonical analysis."}}}

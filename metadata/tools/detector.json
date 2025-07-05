@@ -1,0 +1,1 @@
+{"tool_name":"detector","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"detector","home":"http://detector.bioinformatica.crs4.it/","summary":"Diagnostic tool which return the propensity of a given mRNA to be translated into peptide.","addition_date":"2015-07-02T13:56:47Z","last_update_date":"2019-03-12T13:27:32Z","tool_type":["Web application"],"version":["1.0"]}}}

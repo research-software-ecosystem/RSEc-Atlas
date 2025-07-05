@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-safe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-safe","identifiers":["biotools:safe","doi:10.1093/bioinformatics/bti260"],"license":"GPL (>= 2)","summary":"Significance Analysis of Function and Expression"}}}

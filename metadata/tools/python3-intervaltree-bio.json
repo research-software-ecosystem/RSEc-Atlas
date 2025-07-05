@@ -1,0 +1,1 @@
+{"tool_name":"python3-intervaltree-bio","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python3-intervaltree-bio","identifiers":[],"license":"MIT","summary":"Convenience classes for loading UCSC genomic annotation records into a set of interval tree data structures."}}}

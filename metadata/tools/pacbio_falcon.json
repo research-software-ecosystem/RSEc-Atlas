@@ -1,0 +1,1 @@
+{"tool_name":"pacbio_falcon","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pacbio_falcon","identifiers":[],"license":"Standard PacBio Open Source License","summary":"a set of tools for fast aligning long reads for consensus and assembly."}}}

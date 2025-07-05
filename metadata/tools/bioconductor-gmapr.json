@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gmapr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gmapr","identifiers":["doi:10.18129/b9.bioc.gmapr"],"license":"Artistic-2.0","summary":"An R interface to the GMAP/GSNAP/GSTRUCT suite"}}}

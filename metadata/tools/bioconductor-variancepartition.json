@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-variancepartition","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-variancepartition","identifiers":["biotools:variancepartition","doi:10.1186/s12859-016-1323-z"],"license":"GPL (>= 2)","summary":"Quantify and interpret divers of variation in multilevel gene expression experiments"}}}

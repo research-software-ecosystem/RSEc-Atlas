@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hilda","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hilda","identifiers":["doi:10.18129/b9.bioc.hilda"],"license":"GPL-3","summary":"Conducting statistical inference on comparing the mutational exposures of mutational signatures by using hierarchical latent Dirichlet allocation"}}}

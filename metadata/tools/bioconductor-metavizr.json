@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-metavizr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-metavizr","identifiers":["doi:10.18129/b9.bioc.metavizr"],"license":"MIT","summary":"R interface to the metaviz web app for interactive metagenomics data analysis and visualization"}}}

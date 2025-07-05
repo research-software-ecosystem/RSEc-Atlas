@@ -1,0 +1,1 @@
+{"tool_name":"trim-galore","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"trim-galore","identifiers":[],"license":"GPL-3.0","summary":"Trim galore is a wrapper script to automate quality and adapter trimming as well as quality control"}}}

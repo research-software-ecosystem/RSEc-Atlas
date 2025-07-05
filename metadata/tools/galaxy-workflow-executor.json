@@ -1,0 +1,1 @@
+{"tool_name":"galaxy-workflow-executor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"galaxy-workflow-executor","identifiers":["doi:10.1093/nar/gkw343","doi:10.1093/nar/gky379"],"license":"Not available","summary":"Execute workflows on galaxy through the cli"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-oligodata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-oligodata","identifiers":["doi:10.18129/b9.bioc.oligodata"],"license":"LGPL (>= 2)","summary":"Dataset samples (Affymetrix: Expression, Gene, Exon, SNP; NimbleGen: Expression, Tiling) to be used with the oligo package."}}}

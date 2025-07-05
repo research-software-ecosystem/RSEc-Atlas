@@ -1,0 +1,1 @@
+{"tool_name":"cwl_training","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"cwl_training","home":"https://github.com/EMBL-EBI-TSI/cpa-bioexcel-cwl","summary":"Automatically built VM used for a remote CWL training","addition_date":"2020-04-20T12:30:04Z","last_update_date":"2021-10-20T10:58:37.011846Z","version":["2.0"],"collections":["BioExcel"]}}}

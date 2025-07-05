@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-peco","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-peco","identifiers":["doi:10.18129/b9.bioc.peco"],"license":"GPL (>= 3)","summary":"A Supervised Approach for **P**r**e**dicting **c**ell Cycle Pr**o**gression using scRNA-seq data"}}}

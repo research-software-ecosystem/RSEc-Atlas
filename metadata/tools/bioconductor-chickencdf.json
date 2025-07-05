@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chickencdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chickencdf","identifiers":["doi:10.18129/b9.bioc.chickencdf"],"license":"LGPL","summary":"A package containing an environment representing the Chicken.cdf file."}}}

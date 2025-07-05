@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-snpstats","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-snpstats","identifiers":["biotools:snpstats","doi:10.1038/nmeth.3252"],"license":"GPL-3.0","summary":"SnpMatrix and XSnpMatrix classes and methods"}}}

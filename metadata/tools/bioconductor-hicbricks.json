@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hicbricks","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hicbricks","identifiers":["doi:10.18129/b9.bioc.hicbricks"],"license":"MIT","summary":"Framework for storing and accessing hi-c data through hdf files"}}}

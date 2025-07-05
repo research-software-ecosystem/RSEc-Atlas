@@ -1,0 +1,1 @@
+{"tool_name":"perl-algorithm-diff","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-algorithm-diff","identifiers":[],"license":"perl_5","summary":"Compute intelligent differences between two files / lists but use the old (<=0.59) interface."}}}

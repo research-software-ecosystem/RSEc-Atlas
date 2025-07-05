@@ -1,0 +1,1 @@
+{"tool_name":"perl-bio-bigfile","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-bio-bigfile","identifiers":[],"license":"Apache-2.0","summary":"Low-level interface to BigWig & BigBed files"}}}

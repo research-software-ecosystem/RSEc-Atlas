@@ -1,0 +1,1 @@
+{"tool_name":"perl-readonly","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-readonly","identifiers":[],"license":"perl_5","summary":"Facility for creating read-only scalars, arrays, hashes"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cnorfuzzy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cnorfuzzy","identifiers":["biotools:cnorfuzzy","doi:10.1186/1752-0509-6-133"],"license":"GPL-2","summary":"Addon to CellNOptR: Fuzzy Logic"}}}

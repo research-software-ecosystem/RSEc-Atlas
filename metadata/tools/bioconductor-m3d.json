@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-m3d","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-m3d","identifiers":["biotools:m3d","doi:10.1093/bioinformatics/btu749"],"license":"Artistic License 2.0","summary":"Identifies differentially methylated regions across testing groups"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-anvilbilling","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-anvilbilling","identifiers":["doi:10.18129/b9.bioc.anvilbilling"],"license":"Not available","summary":"Provide functions to retrieve and report on usage expenses in nhgri anvil (anvilproject.org)."}}}

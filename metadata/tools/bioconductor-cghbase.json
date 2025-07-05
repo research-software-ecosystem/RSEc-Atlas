@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cghbase","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cghbase","identifiers":["biotools:cghbase","doi:10.1016/j.ejmg.2005.10.046"],"license":"GPL","summary":"CGHbase: Base functions and classes for arrayCGH data analysis."}}}

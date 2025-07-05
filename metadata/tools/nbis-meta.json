@@ -1,0 +1,1 @@
+{"tool_name":"nbis-meta","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"nbis-meta","home":"https://github.com/NBISweden/nbis-meta","license":"MIT","summary":"A snakemake workflow for metagenomics","addition_date":"2020-06-01T19:47:54Z","last_update_date":"2020-06-16T10:55:28Z","tool_type":["Workflow"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rdavidwebservice","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rdavidwebservice","identifiers":["doi:10.18129/b9.bioc.rdavidwebservice"],"license":"GPL-2.0","summary":"An R Package for retrieving data from DAVID into R objects using Web Services API."}}}

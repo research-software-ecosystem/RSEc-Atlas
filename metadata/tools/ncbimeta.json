@@ -1,0 +1,1 @@
+{"tool_name":"ncbimeta","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ncbimeta","identifiers":["doi:10.21105/joss.01990"],"license":"MIT","summary":"Efficient and comprehensive metadata acquisition from the ncbi databases (includes sra)."}}}

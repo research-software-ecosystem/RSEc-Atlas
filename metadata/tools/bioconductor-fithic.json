@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-fithic","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-fithic","identifiers":["biotools:fithic","doi:10.1101/gr.160374.113","doi:10.1101/gr.160374"],"license":"GPL (>= 2)","summary":"Confidence estimation for intra-chromosomal contact maps"}}}

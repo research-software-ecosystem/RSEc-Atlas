@@ -1,0 +1,1 @@
+{"tool_name":"perl-test-more","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-test-more","identifiers":[],"license":"perl_5","summary":"This scanner will check if a given test is using recent functions from Test."}}}

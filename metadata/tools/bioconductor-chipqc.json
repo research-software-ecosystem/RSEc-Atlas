@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chipqc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chipqc","identifiers":["biotools:chipqc","doi:10.3389/fgene.2014.00075"],"license":"GPL-3.0","summary":"Quality metrics for ChIPseq data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-lbe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-lbe","identifiers":["biotools:lbe","doi:10.1093/bioinformatics/bti063"],"license":"GPL-2","summary":"Estimation of the false discovery rate."}}}

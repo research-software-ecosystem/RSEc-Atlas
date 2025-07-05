@@ -1,0 +1,1 @@
+{"tool_name":"yanagiba","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"yanagiba","identifiers":[],"license":"MIT","summary":"Filter short or low quality oxford nanopore reads which have been basecalled with albacore."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bsgenome","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bsgenome","identifiers":["biotools:bsgenome","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Infrastructure shared by all the biostrings-based genome data packages."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"perl-extutils-constant","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-extutils-constant","identifiers":[],"license":"perl_5","summary":"generate XS code to import C header constants"}}}

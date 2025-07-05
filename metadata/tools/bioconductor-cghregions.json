@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cghregions","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cghregions","identifiers":["biotools:cghregions","doi:10.1002/9783527678679.dg00687"],"license":"GPL","summary":"Dimension Reduction for Array CGH Data with Minimal Information Loss."}}}

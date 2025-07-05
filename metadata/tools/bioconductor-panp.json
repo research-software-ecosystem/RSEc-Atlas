@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-panp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-panp","identifiers":["biotools:panp","doi:10.1109/BIBE.2007.4375552"],"license":"GPL (>= 2)","summary":"Presence-Absence Calls from Negative Strand Matching Probesets"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-spatialexperiment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-spatialexperiment","identifiers":["doi:10.18129/b9.bioc.spatialexperiment"],"license":"GPL-3","summary":"S4 Class for Spatial Experiments handling"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"pacbioeda","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"pacbioeda","home":"https://github.com/TomSkelly/PacBioEDA","license":"GPL-3.0","summary":"Python scripts for Exploratory Data Analysis of Pacific Biosciences sequence data","addition_date":"2021-05-27T08:31:39Z","last_update_date":"2021-08-02T06:30:41Z","tool_type":["Script"]}}}

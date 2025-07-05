@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-egseadata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-egseadata","identifiers":["doi:10.18129/b9.bioc.egseadata"],"license":"file LICENSE","summary":"Gene set collections for the egsea package"}}}

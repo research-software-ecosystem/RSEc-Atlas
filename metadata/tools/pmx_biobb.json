@@ -1,0 +1,1 @@
+{"tool_name":"pmx_biobb","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pmx_biobb","identifiers":["doi:10.1038/s41597-019-0177-4"],"license":"Apache-2.0","summary":"Biobb_pmx is the biobb module collection to perform pmx (http://pmx.mpibpc.mpg.de) executions."}}}

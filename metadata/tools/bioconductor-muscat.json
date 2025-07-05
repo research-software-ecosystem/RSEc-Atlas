@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-muscat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-muscat","identifiers":["doi:10.18129/b9.bioc.muscat"],"license":"GPL (>= 2)","summary":"Multi-sample multi-group scRNA-seq data analysis tools"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowpeaks","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowpeaks","identifiers":["biotools:flowpeaks","doi:10.1093/bioinformatics/bts300"],"license":"Artistic-1.0","summary":"An R package for flow data clustering"}}}

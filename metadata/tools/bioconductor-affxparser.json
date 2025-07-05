@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-affxparser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-affxparser","identifiers":["doi:10.18129/b9.bioc.affxparser"],"license":"LGPL (>= 2)","summary":"Affymetrix File Parsing SDK"}}}

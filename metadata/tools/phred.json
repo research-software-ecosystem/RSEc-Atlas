@@ -1,0 +1,1 @@
+{"tool_name":"phred","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"phred","home":"http://www.phrap.org/phredphrapconsed.html","summary":"The software reads DNA sequencing trace files, calls bases, and assigns a quality value to each called base.","addition_date":"2017-01-13T13:15:51Z","last_update_date":"2018-12-10T12:58:53Z","tool_type":["Command-line tool"]}}}

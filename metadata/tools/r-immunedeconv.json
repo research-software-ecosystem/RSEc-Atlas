@@ -1,0 +1,1 @@
+{"tool_name":"r-immunedeconv","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-immunedeconv","identifiers":["doi:10.1101/463828"],"license":"BSD-3-Cclause","summary":"Collection of methods for immune cell deconvolution of bulk rna-seq samples."}}}

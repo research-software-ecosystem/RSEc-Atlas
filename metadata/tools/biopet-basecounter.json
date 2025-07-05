@@ -1,0 +1,1 @@
+{"tool_name":"biopet-basecounter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-basecounter","identifiers":[],"license":"MIT","summary":"Basecounter counts the bases from genes and transcripts and outputs information on the counts in exonic and intronic regions as well as information on the counts on the sense and antisense strands."}}}

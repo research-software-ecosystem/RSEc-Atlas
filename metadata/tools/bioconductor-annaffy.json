@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-annaffy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-annaffy","identifiers":["biotools:annaffy","doi:10.1038/nmeth.3252"],"license":"LGPL","summary":"Annotation tools for Affymetrix biological metadata"}}}

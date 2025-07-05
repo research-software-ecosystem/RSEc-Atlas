@@ -1,0 +1,1 @@
+{"tool_name":"gmap-fusion","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gmap-fusion","identifiers":[],"license":"BSD 3-Clause \"New\" or \"Revised\" License","summary":"Gmap-fusion is a utility for identifying candidate fusion transcripts based on transcript sequences reconstructed via rna-seq de novo transcriptome assembly."}}}

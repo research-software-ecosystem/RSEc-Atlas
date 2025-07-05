@@ -1,0 +1,1 @@
+{"tool_name":"biosyntax-common","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biosyntax-common","identifiers":[],"license":"GPL-3.0","summary":"Syntax highlighting for computational biology to bring you intuitively close to your data. biosyntax supports .sam, .flagstat, .vcf, .fasta, .fastq, .faidx, .clustal, .pdb, .gtf, .bed files & more."}}}

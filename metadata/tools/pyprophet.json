@@ -1,0 +1,1 @@
+{"tool_name":"pyprophet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pyprophet","identifiers":["doi:10.1038/nbt.3908","doi:10.1038/nmeth.4398"],"license":"BSD","summary":"Python reimplementation of mprophet peak scoring"}}}

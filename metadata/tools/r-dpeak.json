@@ -1,0 +1,1 @@
+{"tool_name":"r-dpeak","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-dpeak","identifiers":["doi:10.5281/zenodo.3687178"],"license":"GPL (>= 2)","summary":"This package provides functions for fitting dPeak, a statistical framework to deconvolve ChIP-seq peaks."}}}

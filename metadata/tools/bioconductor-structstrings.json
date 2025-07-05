@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-structstrings","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-structstrings","identifiers":["doi:10.18129/b9.bioc.structstrings"],"license":"Artistic-2.0","summary":"Implementation of the dot bracket annotations with Biostrings"}}}

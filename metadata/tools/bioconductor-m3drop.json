@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-m3drop","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-m3drop","identifiers":["biotools:m3drop","doi:10.1002/1873-3468.12684"],"license":"GPL (>=2)","summary":"Michaelis-Menten Modelling of Dropouts in single-cell RNASeq"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-svm2crm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-svm2crm","identifiers":["doi:10.18129/b9.bioc.svm2crm"],"license":"GPL-3","summary":"Detection of cis-regulatory elements using svm implemented in LiblineaR."}}}

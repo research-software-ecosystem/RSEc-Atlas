@@ -1,0 +1,1 @@
+{"tool_name":"ctat-mutations","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ctat-mutations","identifiers":[],"license":"Not available","summary":" mutation detection in rna-seq using gatk-v4.0 in rna-seq variant calling, several sources of variant annotation, and filtering based on cravat."}}}

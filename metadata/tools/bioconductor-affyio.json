@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-affyio","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-affyio","identifiers":["biotools:affyio","doi:10.1038/nmeth.3252"],"license":"LGPL-2.1+","summary":"Bioconductor tools for parsing affymetrix data files"}}}

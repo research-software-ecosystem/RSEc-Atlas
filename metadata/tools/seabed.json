@@ -1,0 +1,1 @@
+{"tool_name":"seabed","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"seabed","home":"http://www.bsc.es/SEABED","summary":"A web server that integrates techniques, such as docking and QSAR for structure analysis.","addition_date":"2016-10-03T14:08:37Z","last_update_date":"2018-12-10T12:58:49Z","tool_type":["Web application"],"collections":["BioExcel"]}}}

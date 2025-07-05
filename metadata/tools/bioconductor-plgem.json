@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-plgem","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-plgem","identifiers":["biotools:plgem","doi:10.1186/1471-2105-5-203"],"license":"GPL-2","summary":"Detect differential expression in microarray and proteomics datasets with the Power Law Global Error Model (PLGEM)"}}}

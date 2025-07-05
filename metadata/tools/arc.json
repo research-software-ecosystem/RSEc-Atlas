@@ -1,0 +1,1 @@
+{"tool_name":"arc","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"arc","home":"http://ibest.github.io/ARC/","summary":"ARC is a pipeline which facilitates iterative, reference guided de novo assemblies.","addition_date":"2017-12-18T00:03:18Z","last_update_date":"2018-12-10T12:58:57Z","tool_type":["Command-line tool"],"version":["1.1.4-beta"]}}}

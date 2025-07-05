@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-awfisher","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-awfisher","identifiers":["doi:10.18129/b9.bioc.awfisher"],"license":"GPL-3","summary":"An R package for fast computing for adaptively weighted fisher's method"}}}

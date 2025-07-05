@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-methylkit","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-methylkit","identifiers":["biotools:methylkit","doi:10.1186/gb-2012-13-10-r87"],"license":"Artistic-2.0","summary":"DNA methylation analysis from high-throughput bisulfite sequencing results"}}}

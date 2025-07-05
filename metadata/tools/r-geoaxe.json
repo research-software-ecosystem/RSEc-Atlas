@@ -1,0 +1,1 @@
+{"tool_name":"r-geoaxe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-geoaxe","identifiers":[],"license":"MIT","summary":"Split 'geospatial' objects into pieces. Includes support for some spatial object inputs, 'Well-Known Text', and 'GeoJSON'."}}}

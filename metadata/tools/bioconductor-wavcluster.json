@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-wavcluster","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-wavcluster","identifiers":["biotools:wavcluster","doi:10.1186/s12859-015-0470-y"],"license":"GPL-2","summary":"Sensitive and highly resolved identification of RNA-protein interaction sites in PAR-CLIP data"}}}

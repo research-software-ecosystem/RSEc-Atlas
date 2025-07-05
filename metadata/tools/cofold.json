@@ -1,0 +1,1 @@
+{"tool_name":"cofold","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cofold","identifiers":[],"license":"MIT-like","summary":"An rna secondary structure prediction method that takes co-transcriptional folding into account."}}}

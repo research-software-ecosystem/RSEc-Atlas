@@ -1,0 +1,1 @@
+{"tool_name":"consensusfixer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"consensusfixer","identifiers":[],"license":"GNU GPLv3","summary":"Computes a consensus sequence with wobbles, ambiguous bases, and in-frame insertions, from a ngs read alignment."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"biopet-validatevcf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-validatevcf","identifiers":[],"license":"MIT","summary":"Validatevcf validates a vcf file against a reference genomes."}}}

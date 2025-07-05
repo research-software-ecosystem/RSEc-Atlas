@@ -1,0 +1,1 @@
+{"tool_name":"yamllint","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"yamllint","identifiers":[],"license":"GPL-3.0","summary":"A linter for YAML files."}}}

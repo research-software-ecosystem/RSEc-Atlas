@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ibh","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ibh","identifiers":["biotools:ibh","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"Interaction Based Homogeneity for Evaluating Gene Lists"}}}

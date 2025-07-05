@@ -1,0 +1,1 @@
+{"tool_name":"avro-cwl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"avro-cwl","identifiers":[],"license":"Apache-2.0","summary":"Avro is a serialization and rpc framework. this package is a fork of regular avro made by the cwl team in order to fix some issues (https://github.com/common-workflow-language/cwltool/issues/524)"}}}

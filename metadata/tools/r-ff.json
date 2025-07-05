@@ -1,0 +1,1 @@
+{"tool_name":"r-ff","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-ff","identifiers":[],"license":"GPL-2.0","summary":"The ff package provides data structures that are stored on disk but behave (almost) as if they were in RAM by transparently mapping only a section (pagesize) in main memory - the effective virtual memory consumption per ff object."}}}

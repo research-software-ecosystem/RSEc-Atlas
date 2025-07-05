@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-quaternaryprod","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-quaternaryprod","identifiers":["biotools:quaternaryprod","doi:10.1093/nar/gks1094"],"license":"GPL (>=3)","summary":"Computes the Quaternary Dot Product Scoring Statistic for Signed and Unsigned Causal Graphs"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-convert","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-convert","identifiers":["biotools:convert","doi:10.1038/nmeth.3252"],"license":"LGPL","summary":"Convert Microarray Data Objects"}}}

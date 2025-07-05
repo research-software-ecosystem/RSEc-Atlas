@@ -1,0 +1,1 @@
+{"tool_name":"pubchempy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pubchempy","identifiers":[],"license":"MIT","summary":"A simple python wrapper around the pubchem pug rest api."}}}

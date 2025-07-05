@@ -1,0 +1,1 @@
+{"tool_name":"qridge","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"qridge","home":"http://zhangroup.aporc.org/QRidgeWalker","summary":"Given a set of RNA-Seq data, this tool assembles the short reads into long full-length transcripts.","addition_date":"2017-01-13T13:15:59Z","last_update_date":"2018-12-10T12:58:58Z","tool_type":["Command-line tool"]}}}

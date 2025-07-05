@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-phosphonormalizer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-phosphonormalizer","identifiers":["doi:10.18129/b9.bioc.phosphonormalizer"],"license":"GPL (>= 2)","summary":"Compensates for the bias introduced by median normalization in phosphoproteomics"}}}

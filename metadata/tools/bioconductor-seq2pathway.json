@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-seq2pathway","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-seq2pathway","identifiers":["biotools:seq2pathway","doi:10.1371/journal.pcbi.1002350"],"license":"GPL-2","summary":"a novel tool for functional gene-set (or termed as pathway) analysis of next-generation sequencing data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"sparseassembler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sparseassembler","identifiers":[],"license":"GPL-3.0","summary":"A sparse k-mer graph based, memory-efficient genome assembler"}}}

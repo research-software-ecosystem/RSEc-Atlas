@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gcatest","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gcatest","identifiers":["biotools:gcatest","doi:10.1101/012682"],"license":"GPL-3","summary":"Genotype Conditional Association TEST"}}}

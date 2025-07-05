@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ensembldb","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ensembldb","identifiers":["biotools:ensembldb","doi:10.1038/nmeth.3252"],"license":"LGPL-2.1+","summary":"Gnu r utilities to create and use an ensembl based annotation database"}}}

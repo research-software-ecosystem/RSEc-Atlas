@@ -1,0 +1,1 @@
+{"tool_name":"kneaddata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"kneaddata","identifiers":[],"license":"MIT","summary":"Kneaddata is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data, especially data from microbiome experiments."}}}

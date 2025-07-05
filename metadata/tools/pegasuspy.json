@@ -1,0 +1,1 @@
+{"tool_name":"pegasuspy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pegasuspy","identifiers":[],"license":"BSD","summary":"Pegasus is a tool for analyzing transcriptomes of millions of single cells. It is a command line tool, a python package and a base for Cloud-based analysis workflows."}}}

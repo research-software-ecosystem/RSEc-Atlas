@@ -1,0 +1,1 @@
+{"tool_name":"r-relations","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-relations","identifiers":[],"license":"GPL-2.0","summary":"Data structures and algorithms for k-ary relations with arbitrary domains, featuring relational algebra, predicate functions, and fitters for consensus relations."}}}

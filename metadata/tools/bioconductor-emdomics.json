@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-emdomics","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-emdomics","identifiers":["doi:10.18129/b9.bioc.emdomics"],"license":"MIT","summary":"Earth mover's distance for differential analysis of genomics data"}}}

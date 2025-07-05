@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hpar","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hpar","identifiers":["biotools:hpar","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"A simple interface to and data from the human protein atlas project."}}}

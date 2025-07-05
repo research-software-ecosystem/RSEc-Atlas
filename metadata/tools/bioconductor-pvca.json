@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pvca","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pvca","identifiers":["biotools:pvca","doi:10.1002/9780470685983.ch12"],"license":"LGPL (>= 2.0)","summary":"Principal Variance Component Analysis (PVCA)"}}}

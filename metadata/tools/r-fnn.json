@@ -1,0 +1,1 @@
+{"tool_name":"r-fnn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-fnn","identifiers":[],"license":"GPL-3.0","summary":"Cover-tree and kd-tree fast k-nearest neighbor search algorithms and related applications including KNN classification, regression and information measures are implemented."}}}

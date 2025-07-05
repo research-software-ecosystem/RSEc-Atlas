@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genbankr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genbankr","identifiers":["biotools:genbankr","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Parsing GenBank files into semantically useful objects"}}}

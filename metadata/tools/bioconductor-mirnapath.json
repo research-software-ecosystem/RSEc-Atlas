@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirnapath","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirnapath","identifiers":["biotools:mirnapath","doi:10.3389/fncel.2015.00053"],"license":"LGPL-2.1","summary":"miRNApath: Pathway Enrichment for miRNA Expression Data"}}}

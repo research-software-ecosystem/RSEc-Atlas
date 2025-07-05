@@ -1,0 +1,1 @@
+{"tool_name":"lumpy-sv-minimal","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"lumpy-sv-minimal","identifiers":["doi:10.1186/gb-2014-15-6-r84","doi:10.1093/bioinformatics/btu356"],"license":"MIT","summary":"A general probabilistic framework for structural variant discovery. This package contains only the lumpy executable"}}}

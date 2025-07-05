@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-psltobigpsl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-psltobigpsl","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Converts psl to bigpsl input (bed format with extra fields)"}}}

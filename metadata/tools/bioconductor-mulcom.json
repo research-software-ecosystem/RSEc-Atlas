@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mulcom","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mulcom","identifiers":["biotools:mulcom","doi:10.1186/1471-2105-12-382"],"license":"GPL-2","summary":"Calculates Mulcom test"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"flash2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"flash2","identifiers":[],"license":"GPL-3.0+","summary":"Merge paired-end reads from fragments that are shorter than twice the read length"}}}

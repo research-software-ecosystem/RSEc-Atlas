@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pram","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pram","identifiers":["doi:10.18129/b9.bioc.pram"],"license":"GPL (>= 3)","summary":"Pooling RNA-seq datasets for assembling transcript models"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"r-bbmle","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-bbmle","identifiers":[],"license":"GPL","summary":"Methods and functions for fitting maximum likelihood models in R. This package modifies and extends the mle classes in the stats4 package."}}}

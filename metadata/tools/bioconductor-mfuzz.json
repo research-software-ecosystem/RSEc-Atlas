@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mfuzz","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mfuzz","identifiers":["doi:10.18129/b9.bioc.mfuzz"],"license":"GPL-2","summary":"Soft clustering of time series gene expression data"}}}

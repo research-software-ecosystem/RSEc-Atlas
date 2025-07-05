@@ -1,0 +1,1 @@
+{"tool_name":"r-truncnorm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-truncnorm","identifiers":[],"license":"GPL (>= 2)","summary":"Density, probability, quantile and random number generation functions for the truncated normal distribution."}}}

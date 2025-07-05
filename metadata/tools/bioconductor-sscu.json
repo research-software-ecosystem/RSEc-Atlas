@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sscu","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sscu","identifiers":["biotools:sscu","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"Strength of Selected Codon Usage"}}}

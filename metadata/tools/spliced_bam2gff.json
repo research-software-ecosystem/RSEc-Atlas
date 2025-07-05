@@ -1,0 +1,1 @@
+{"tool_name":"spliced_bam2gff","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"spliced_bam2gff","identifiers":[],"license":"MPL-2","summary":"A tool to convert spliced BAM alignments into GFF2 format"}}}

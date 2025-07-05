@@ -1,0 +1,1 @@
+{"tool_name":"burst","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"burst","identifiers":["doi:10.5281/zenodo.806850"],"license":"Not available","summary":"Burst (formerly known as embalmer) is an optimal, high-speed pairwise sequence aligner specialized in aligning many ngs short reads against large reference databases."}}}

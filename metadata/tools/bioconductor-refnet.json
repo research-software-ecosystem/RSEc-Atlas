@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-refnet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-refnet","identifiers":["biotools:refnet","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Molecular interactions with metadata, some archived, some dynamically obtained."}}}

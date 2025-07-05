@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-trnascanimport","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-trnascanimport","identifiers":["doi:10.18129/b9.bioc.trnascanimport"],"license":"GPL-3","summary":"Importing a trnascan-se result file as granges object"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"r-params","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-params","identifiers":[],"license":"GPL-2","summary":"An interface to simplify organizing parameters used in a package, using external configuration files. This attempts to provide a cleaner alternative to options()."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"gff3sort","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gff3sort","identifiers":["doi:10.1186/s12859-017-1930-3"],"license":"GNU General Public License v3.0","summary":"A Perl Script to sort gff3 files and produce suitable results for tabix tools"}}}

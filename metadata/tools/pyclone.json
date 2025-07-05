@@ -1,0 +1,1 @@
+{"tool_name":"pyclone","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pyclone","identifiers":["doi:10.1038/nmeth.2883","doi:10.1186/s12859-020-03919-2"],"license":"Not available","summary":"Pyclone: a probabilistic model for inferring clonal population structure from deep ngs sequencing."}}}

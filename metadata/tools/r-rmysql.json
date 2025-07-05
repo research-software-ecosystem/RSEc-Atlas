@@ -1,0 +1,1 @@
+{"tool_name":"r-rmysql","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-rmysql","identifiers":[],"license":"GPL-2.0","summary":"Legacy DBI interface to MySQL / MariaDB based on old code ported from S-PLUS. A modern MySQL client based on Rcpp is available from the RMariaDB package."}}}

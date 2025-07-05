@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pubscore","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pubscore","identifiers":["doi:10.18129/b9.bioc.pubscore"],"license":"MIT","summary":"Automatic calculation of literature relevance of genes"}}}

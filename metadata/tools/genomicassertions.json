@@ -1,0 +1,1 @@
+{"tool_name":"genomicassertions","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"genomicassertions","identifiers":[],"license":"MIT","summary":"A package to test common files in genomics (.vcf.gz, .bam)"}}}

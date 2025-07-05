@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-metnet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-metnet","identifiers":["doi:10.18129/b9.bioc.metnet"],"license":"GPL (>= 3)","summary":"Inferring metabolic networks from untargeted high-resolution mass spectrometry data"}}}

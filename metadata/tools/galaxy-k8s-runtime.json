@@ -1,0 +1,1 @@
+{"tool_name":"galaxy-k8s-runtime","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"galaxy-k8s-runtime","identifiers":["doi:10.1093/nar/gkw343","doi:10.1093/nar/gky379"],"license":"Apache-2.0","summary":"First version of a PhenoMeNal runtime for Galaxy running inside a container orchestrator"}}}

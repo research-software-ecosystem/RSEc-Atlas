@@ -1,0 +1,1 @@
+{"tool_name":"group_humann2_uniref_abundances_to_go","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"group_humann2_uniref_abundances_to_go","identifiers":["doi:10.5281/zenodo.50086"],"license":"Apache-2.0","summary":"Group abundances of uniref50 gene families obtained with humann2 to gene ontology (go) slim terms with relative abundances"}}}

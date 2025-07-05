@@ -1,0 +1,1 @@
+{"tool_name":"gatktool","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gatktool","identifiers":[],"license":"MIT","summary":"Functions and classes used to extend a GATK tool with Python"}}}

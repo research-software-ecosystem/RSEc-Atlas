@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mfa","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mfa","identifiers":["doi:10.18129/b9.bioc.mfa"],"license":"GPL (>= 2)","summary":"Bayesian hierarchical mixture of factor analyzers for modelling genomic bifurcations"}}}

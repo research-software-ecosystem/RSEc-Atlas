@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genomeinfodbdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genomeinfodbdata","identifiers":["doi:10.18129/b9.bioc.genomeinfodbdata"],"license":"Artistic-2.0","summary":"Species and taxonomy ID look up tables used by GenomeInfoDb"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"extract-codon-alignment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"extract-codon-alignment","identifiers":["doi:10.1093/bioinformatics/btp163"],"license":"GPL-3.0","summary":"To extract some codon positions (1st, 2nd, 3rd) from a cds alignment."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"r-sparql","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-sparql","identifiers":[],"license":"GPL-3","summary":"Use SPARQL to pose SELECT or UPDATE queries to an end-point. "}}}

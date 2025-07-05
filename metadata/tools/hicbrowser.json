@@ -1,0 +1,1 @@
+{"tool_name":"hicbrowser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"hicbrowser","identifiers":[],"license":"GPL-3.0","summary":"A simple web browser to visualize Hi-C and other genomic tracks (bigwig, bed, interactions)."}}}

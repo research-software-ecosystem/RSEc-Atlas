@@ -1,0 +1,1 @@
+{"tool_name":"illumina-cleanup","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"illumina-cleanup","identifiers":[],"license":"MIT","summary":"Nextflow pipeline for pre-processing illumina fastq files"}}}

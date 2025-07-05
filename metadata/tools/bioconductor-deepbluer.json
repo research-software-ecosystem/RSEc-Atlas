@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-deepbluer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-deepbluer","identifiers":["biotools:deepbluer","doi:10.1093/bioinformatics/btx099"],"license":"GPL (>=2.0)","summary":"DeepBlueR"}}}

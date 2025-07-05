@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-riboprofiling","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-riboprofiling","identifiers":["biotools:riboprofiling","doi:10.12688/f1000research.8964.1"],"license":"GPL-3","summary":"Ribosome Profiling Data Analysis: from BAM to Data Representation and Interpretation"}}}

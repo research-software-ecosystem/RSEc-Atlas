@@ -1,0 +1,1 @@
+{"tool_name":"biowdl-input-converter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biowdl-input-converter","identifiers":[],"license":"MIT","summary":"Converting various input formats into wdl structs for biowdl pipelines."}}}

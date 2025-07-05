@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-widgettools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-widgettools","identifiers":["doi:10.18129/b9.bioc.widgettools"],"license":"LGPL","summary":"Creates an interactive tcltk widget"}}}

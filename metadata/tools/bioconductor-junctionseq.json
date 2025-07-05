@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-junctionseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-junctionseq","identifiers":["biotools:junctionseq","doi:10.1093/nar/gkw501"],"license":"file LICENSE","summary":"JunctionSeq: A Utility for Detection of Differential Exon and Splice-Junction Usage in RNA-Seq data"}}}

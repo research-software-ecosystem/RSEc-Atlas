@@ -1,0 +1,1 @@
+{"tool_name":"discovardenovo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"discovardenovo","identifiers":[],"license":"Not available","summary":"Genome assembler designed for state-of-the-art data. it can generate de novo assemblies for both large and small genomes. it currently does not call variants."}}}

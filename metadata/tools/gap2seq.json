@@ -1,0 +1,1 @@
+{"tool_name":"gap2seq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gap2seq","identifiers":["doi:10.1007/978-3-319-16706-0_29"],"license":"GPL-3.0","summary":"Gap2Seq is a tool for filling gaps between contigs in genome assemblies."}}}

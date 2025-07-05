@@ -1,0 +1,1 @@
+{"tool_name":"transabyss","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"transabyss","identifiers":["biotools:trans-abyss","doi:10.1038/nmeth.1517"],"license":"GPL","summary":"De novo assembly of rna-seq data using abyss"}}}

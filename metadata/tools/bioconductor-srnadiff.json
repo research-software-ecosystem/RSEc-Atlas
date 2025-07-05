@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-srnadiff","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-srnadiff","identifiers":["doi:10.18129/b9.bioc.srnadiff"],"license":"GPL-3","summary":"Finding differentially expressed unannotated genomic regions from RNA-seq data"}}}

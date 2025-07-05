@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-myvariant","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-myvariant","identifiers":["biotools:myvariant","doi:10.1101/035667"],"license":"Artistic-2.0","summary":"Accesses MyVariant.info variant query and annotation services"}}}

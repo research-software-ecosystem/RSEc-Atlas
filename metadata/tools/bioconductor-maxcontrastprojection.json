@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-maxcontrastprojection","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-maxcontrastprojection","identifiers":["doi:10.18129/b9.bioc.maxcontrastprojection"],"license":"Artistic-2.0","summary":"Perform a maximum contrast projection of 3D images along the z-dimension into 2D"}}}

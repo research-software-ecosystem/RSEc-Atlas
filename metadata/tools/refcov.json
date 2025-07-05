@@ -1,0 +1,1 @@
+{"tool_name":"refcov","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"refcov","home":"http://gmt.genome.wustl.edu/packages/refcov/","summary":"WashU Reference Coverage tool for analyzing the depth, breadth, and topology of sequencing coverage.","addition_date":"2017-01-13T13:16:06Z","last_update_date":"2018-12-10T12:58:56Z","tool_type":["Suite"]}}}

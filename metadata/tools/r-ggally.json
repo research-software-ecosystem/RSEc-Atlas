@@ -1,0 +1,1 @@
+{"tool_name":"r-ggally","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-ggally","identifiers":[],"license":"GPL (>= 2.0)","summary":"GGally is designed to be a helper to ggplot2. It contains templates for different plots to be combined into a plot matrix, a parallel coordinate plot function, as well as a function for making a network plot."}}}

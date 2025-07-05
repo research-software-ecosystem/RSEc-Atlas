@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-targetscan.mm.eg.db","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-targetscan.mm.eg.db","identifiers":["doi:10.18129/b9.bioc.targetscan.mm.eg.db"],"license":"file LICENSE","summary":"Targetscan mirna target predictions for mouse"}}}

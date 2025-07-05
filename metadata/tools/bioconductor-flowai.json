@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowai","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowai","identifiers":["biotools:flowai","doi:10.1093/bioinformatics/btw191"],"license":"GPL-2.0","summary":"Automatic and interactive quality control for flow cytometry data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-proper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-proper","identifiers":["biotools:proper","doi:10.1093/bioinformatics/btu640"],"license":"GPL","summary":"PROspective Power Evaluation for RNAseq"}}}

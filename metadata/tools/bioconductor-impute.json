@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-impute","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-impute","identifiers":["biotools:impute","doi:10.1007/978-3-642-57489-4_7"],"license":"GPL-2","summary":"impute: Imputation for microarray data"}}}

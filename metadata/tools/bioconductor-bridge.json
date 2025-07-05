@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bridge","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bridge","identifiers":["biotools:bridge","doi:10.1111/j.1541-0420.2005.00397.x"],"license":"GPL (>= 2)","summary":"Bayesian Robust Inference for Differential Gene Expression"}}}

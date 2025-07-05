@@ -1,0 +1,1 @@
+{"tool_name":"python3-cutadapt","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python3-cutadapt","identifiers":["doi:10.14806/ej.17.1.200"],"license":"MIT","summary":"Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads."}}}

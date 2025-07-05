@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-fafilter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-fafilter","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Filter fa records, selecting ones that match the specified conditions"}}}

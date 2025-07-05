@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pathvar","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pathvar","identifiers":["biotools:pathvar","doi:10.7717/peerj.3334"],"license":"LGPL (>= 2.0)","summary":"Methods to Find Pathways with Significantly Different Variability"}}}

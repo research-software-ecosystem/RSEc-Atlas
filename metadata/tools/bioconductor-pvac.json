@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pvac","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pvac","identifiers":["biotools:pvac","doi:10.1093/nar/gkr241"],"license":"LGPL (>= 2.0)","summary":"PCA-based gene filtering for Affymetrix arrays"}}}

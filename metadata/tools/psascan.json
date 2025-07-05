@@ -1,0 +1,1 @@
+{"tool_name":"psascan","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"psascan","identifiers":["doi:10.1007/978-3-319-19929-0_28"],"license":"MIT","summary":"A parallel external memory suffix array construction algorithm"}}}

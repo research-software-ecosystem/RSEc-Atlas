@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pcpheno","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pcpheno","identifiers":["biotools:pcpheno","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Tools to integrate, annotate, and link phenotypes to cellular organizational units such as protein complexes and pathways."}}}

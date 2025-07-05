@@ -1,0 +1,1 @@
+{"tool_name":"libsequence","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"libsequence","identifiers":["doi:10.1093/bioinformatics/btg316"],"license":"GNU Lesser General Public License v3 or later (LGPLv3+)","summary":"A C++ class library for evolutionary genetics."}}}

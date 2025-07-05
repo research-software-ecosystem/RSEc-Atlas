@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gofuncr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gofuncr","identifiers":["doi:10.18129/b9.bioc.gofuncr"],"license":"GPL (>= 2)","summary":"Gene ontology enrichment using FUNC"}}}

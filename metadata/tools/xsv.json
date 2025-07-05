@@ -1,0 +1,1 @@
+{"tool_name":"xsv","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"xsv","identifiers":[],"license":"MIT","summary":"A fast CSV toolkit written in Rust."}}}

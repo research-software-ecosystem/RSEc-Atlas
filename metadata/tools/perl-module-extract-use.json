@@ -1,0 +1,1 @@
+{"tool_name":"perl-module-extract-use","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-module-extract-use","identifiers":[],"license":"Artistic License 2.0","summary":"Pull out the modules a module explicitly uses"}}}

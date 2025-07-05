@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-snapcount","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-snapcount","identifiers":["doi:10.18129/b9.bioc.snapcount"],"license":"MIT","summary":"R/bioconductor package for interfacing with snaptron for rapid querying of expression counts"}}}

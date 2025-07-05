@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sictools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sictools","identifiers":["doi:10.18129/b9.bioc.sictools"],"license":"GPL (>=2)","summary":"Find SNV/Indel differences between two bam files with near relationship"}}}

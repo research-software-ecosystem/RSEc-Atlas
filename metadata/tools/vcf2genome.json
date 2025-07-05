@@ -1,0 +1,1 @@
+{"tool_name":"vcf2genome","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"vcf2genome","identifiers":[],"license":"GNU General Public License v3.0","summary":"A tool to create a draft genome file out of a gatk vcf file and enabling users to filter the vcf in a single step."}}}

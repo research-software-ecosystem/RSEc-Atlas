@@ -1,0 +1,1 @@
+{"tool_name":"unitig-caller","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"unitig-caller","identifiers":["doi:10.1101/695338"],"license":"Apache-2.0","summary":"Determines presence/absence of sequence elements in bacterial sequence data."}}}

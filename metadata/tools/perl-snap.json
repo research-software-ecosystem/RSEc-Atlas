@@ -1,0 +1,1 @@
+{"tool_name":"perl-snap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-snap","identifiers":[],"license":"Not available","summary":"Snap calculates pairwise synonymous and nonsynonymous distances according to the nei and gojobori method for an alignment in table format."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"toil","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"toil","identifiers":["doi:10.1038/nbt.3772"],"license":"Apache 2.0","summary":"A scalable, efficient, cross-platform and easy-to-use workflow engine in pure Python"}}}

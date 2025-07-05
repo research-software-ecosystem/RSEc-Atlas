@@ -1,0 +1,1 @@
+{"tool_name":"irida-linker","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"irida-linker","identifiers":[],"license":"Apache-2.0","summary":"The ngs archive linker is a perl script used to generate a structure of links for files stored in the irida platform."}}}

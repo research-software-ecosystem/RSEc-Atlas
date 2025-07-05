@@ -1,0 +1,1 @@
+{"tool_name":"r-bcbiobase","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-bcbiobase","identifiers":[],"license":"MIT","summary":"Base functions and generics for bcbio R packages."}}}

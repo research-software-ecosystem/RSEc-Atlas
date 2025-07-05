@@ -1,0 +1,1 @@
+{"tool_name":"biobb_structure_checking","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biobb_structure_checking","identifiers":["doi:10.1038/s41597-019-0177-4"],"license":"Apache-2.0","summary":"Biobb_structure_checking performs mdweb structure checking set as a command line utility."}}}

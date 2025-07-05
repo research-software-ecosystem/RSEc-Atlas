@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-experimentsubset","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-experimentsubset","identifiers":["doi:10.18129/b9.bioc.experimentsubset"],"license":"Not available","summary":"Manages subsets of data with bioconductor experiment objects"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-r3cseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-r3cseq","identifiers":["biotools:r3cseq","doi:10.1093/nar/gkt373"],"license":"GPL-3","summary":"Analysis of Chromosome Conformation Capture and Next-generation Sequencing (3C-seq)"}}}

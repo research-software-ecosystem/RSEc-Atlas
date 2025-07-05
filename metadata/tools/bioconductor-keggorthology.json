@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-keggorthology","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-keggorthology","identifiers":["biotools:keggorthology","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"graph support for KO, KEGG Orthology"}}}

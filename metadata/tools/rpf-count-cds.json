@@ -1,0 +1,1 @@
+{"tool_name":"rpf-count-cds","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rpf-count-cds","identifiers":[],"license":"MIT","summary":"A python script for counting rpf reads map to cds region."}}}

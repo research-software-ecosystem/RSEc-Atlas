@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dupradar","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dupradar","identifiers":["biotools:dupradar","doi:10.1186/s12859-016-1276-2"],"license":"GPL-3.0","summary":"Duplication rate quality control for rna-seq datasets."}}}

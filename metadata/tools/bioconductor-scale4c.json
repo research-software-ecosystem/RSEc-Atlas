@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scale4c","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scale4c","identifiers":["doi:10.18129/b9.bioc.scale4c"],"license":"LGPL-3","summary":"Scale4C: an R/Bioconductor package for scale-space transformation of 4C-seq data"}}}

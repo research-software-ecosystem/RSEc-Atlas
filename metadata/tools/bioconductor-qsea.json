@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-qsea","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-qsea","identifiers":["biotools:qsea","doi:10.1093/nar/gkw1193"],"license":"GPL (>=2)","summary":"IP-seq data analysis and vizualization"}}}

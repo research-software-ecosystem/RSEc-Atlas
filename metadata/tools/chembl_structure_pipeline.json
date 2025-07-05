@@ -1,0 +1,1 @@
+{"tool_name":"chembl_structure_pipeline","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"chembl_structure_pipeline","identifiers":["doi:10.1186/s13321-020-00456-1"],"license":"MIT","summary":"ChEMBL protocols used to standardise and salt strip molecules."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-linestora","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-linestora","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"generate .ra format from lines with pipe-separated fields"}}}

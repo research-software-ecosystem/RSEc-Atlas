@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-yeast2cdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-yeast2cdf","identifiers":["doi:10.18129/b9.bioc.yeast2cdf"],"license":"LGPL","summary":"A package containing an environment representing the Yeast_2.cdf file."}}}

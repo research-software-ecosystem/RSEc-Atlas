@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ctdquerier","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ctdquerier","identifiers":["doi:10.18129/b9.bioc.ctdquerier"],"license":"MIT","summary":"Package for CTDbase data query, visualization and downstream analysis"}}}

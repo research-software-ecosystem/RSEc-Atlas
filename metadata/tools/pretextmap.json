@@ -1,0 +1,1 @@
+{"tool_name":"pretextmap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pretextmap","identifiers":[],"license":"MIT","summary":"Paired REad TEXTure Mapper. Converts SAM formatted read pairs into genome contact maps."}}}

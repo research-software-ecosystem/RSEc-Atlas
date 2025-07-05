@@ -1,0 +1,1 @@
+{"tool_name":"w4mclassfilter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"w4mclassfilter","identifiers":["doi:10.1021/ac051437y","doi:10.1093/bioinformatics/btu813"],"license":"Custom License","summary":"Filter workflow4metabolomics feature list, optionally imputing na values."}}}

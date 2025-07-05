@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pathostat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pathostat","identifiers":["biotools:pathostat","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"PathoStat Statistical Microbiome Analysis Package"}}}

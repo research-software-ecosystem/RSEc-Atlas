@@ -1,0 +1,1 @@
+{"tool_name":"bax2bam","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bax2bam","identifiers":[],"license":"BSD-3-Clause-Clear","summary":"bax2bam converts the legacy PacBio basecall format (bax.h5) into the BAM basecall format"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"requests-mock","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"requests-mock","identifiers":[],"license":"Apache Software License","summary":"Mock out responses from the requests package"}}}

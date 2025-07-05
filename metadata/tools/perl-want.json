@@ -1,0 +1,1 @@
+{"tool_name":"perl-want","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-want","identifiers":[],"license":"Not available","summary":"This module generalises the mechanism of the wantarray function, allowing a function to determine in some detail how its return value is going to be immediately used."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rwikipathways","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rwikipathways","identifiers":["doi:10.18129/b9.bioc.rwikipathways"],"license":"MIT","summary":"Rwikipathways - r client library for the wikipathways api"}}}

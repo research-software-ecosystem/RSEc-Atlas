@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gwasdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gwasdata","identifiers":["doi:10.18129/b9.bioc.gwasdata"],"license":"Artistic-2.0","summary":"Data used in the examples and vignettes of the gwastools package"}}}

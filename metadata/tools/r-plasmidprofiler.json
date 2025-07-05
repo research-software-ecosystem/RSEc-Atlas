@@ -1,0 +1,1 @@
+{"tool_name":"r-plasmidprofiler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-plasmidprofiler","identifiers":[],"license":"Apache-2.0","summary":"Contains functions developed to combine the results of querying a plasmid database using short-read sequence typing with the results of a blast analysis against the query results."}}}

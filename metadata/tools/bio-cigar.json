@@ -1,0 +1,1 @@
+{"tool_name":"bio-cigar","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"bio-cigar","home":"https://github.com/MullinsLab/Bio-Cigar","summary":"Parse CIGAR strings and translate coordinates to/from reference/query.","addition_date":"2017-01-17T15:07:47Z","last_update_date":"2019-03-12T13:08:53Z","tool_type":["Library"],"collections":["EBI Training Tools"]}}}

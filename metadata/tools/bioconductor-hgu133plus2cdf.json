@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hgu133plus2cdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hgu133plus2cdf","identifiers":["doi:10.18129/b9.bioc.hgu133plus2cdf"],"license":"LGPL","summary":"A package containing an environment representing the HG-U133_Plus_2.cdf file."}}}

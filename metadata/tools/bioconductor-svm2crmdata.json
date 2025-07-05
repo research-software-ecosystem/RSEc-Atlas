@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-svm2crmdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-svm2crmdata","identifiers":["doi:10.18129/b9.bioc.svm2crmdata"],"license":"LGPL (>= 2)","summary":"An example dataset for use with the SVM2CRM package"}}}

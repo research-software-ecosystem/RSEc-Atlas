@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-caninecdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-caninecdf","identifiers":["doi:10.18129/b9.bioc.caninecdf"],"license":"LGPL","summary":"A package containing an environment representing the Canine.cdf file."}}}

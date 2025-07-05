@@ -1,0 +1,1 @@
+{"tool_name":"ribocode","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ribocode","identifiers":["doi:10.1093/nar/gky179"],"license":"MIT","summary":"A package for identifying the translated orfs using ribosome-profiling data"}}}

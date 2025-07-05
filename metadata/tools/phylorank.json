@@ -1,0 +1,1 @@
+{"tool_name":"phylorank","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"phylorank","identifiers":[],"license":"GPL-3.0","summary":"Phylorank provides functionality for calculating the relative evolutionary divergence (red) of taxa in a tree and for finding the best placement of taxonomic labels in a tree."}}}

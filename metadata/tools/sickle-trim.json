@@ -1,0 +1,1 @@
+{"tool_name":"sickle-trim","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sickle-trim","identifiers":[],"license":"MIT","summary":"Windowed Adaptive Trimming for fastq files using quality"}}}

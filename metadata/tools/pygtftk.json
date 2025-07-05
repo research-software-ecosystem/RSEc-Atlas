@@ -1,0 +1,1 @@
+{"tool_name":"pygtftk","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pygtftk","identifiers":["doi:10.1093/bioinformatics/btz116","doi:10.1093/bioinformatics/btz810"],"license":"MIT","summary":"The gtftk suite providing facilities to manipulate genomic annotations in gtf format."}}}

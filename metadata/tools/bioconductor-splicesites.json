@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-splicesites","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-splicesites","identifiers":["doi:10.18129/b9.bioc.splicesites"],"license":"GPL-2","summary":"Performs splice centered analysis on RNA-seq data."}}}

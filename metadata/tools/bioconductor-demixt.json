@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-demixt","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-demixt","identifiers":["doi:10.18129/b9.bioc.demixt"],"license":"GPL-3","summary":"Cell type-specific deconvolution of heterogeneous tumor samples with two or three components using expression data from RNAseq or microarray platforms"}}}

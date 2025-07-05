@@ -1,0 +1,1 @@
+{"tool_name":"chunked-scatter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"chunked-scatter","identifiers":[],"license":"MIT","summary":"Chunk and scatter the regions in a bed or sequence dict file"}}}

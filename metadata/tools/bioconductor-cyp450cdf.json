@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cyp450cdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cyp450cdf","identifiers":["doi:10.18129/b9.bioc.cyp450cdf"],"license":"LGPL","summary":"A package containing an environment representing the CYP450.CDF file."}}}

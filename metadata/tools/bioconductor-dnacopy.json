@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dnacopy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dnacopy","identifiers":["biotools:dnacopy","doi:10.1038/nmeth.3252"],"license":"GPL-2.0+","summary":"R package: dna copy number data analysis"}}}

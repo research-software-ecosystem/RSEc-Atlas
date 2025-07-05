@@ -1,0 +1,1 @@
+{"tool_name":"gro2mat","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"gro2mat","home":"http://www.stats.ox.ac.uk/research/proteins/resources","summary":"Package that allows fast and easy access to Gromacs output files from Matlab.","addition_date":"2017-08-03T18:45:39Z","last_update_date":"2018-12-10T12:58:56Z","tool_type":["Command-line tool"]}}}

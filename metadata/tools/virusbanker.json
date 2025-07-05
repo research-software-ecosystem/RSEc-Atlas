@@ -1,0 +1,1 @@
+{"tool_name":"virusbanker","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"virusbanker","home":"http://bioinformatics.org/virusbanker/","summary":"MySQL database of virus sequences and alignments that is accessed via a Java program.","addition_date":"2017-08-03T19:04:11Z","last_update_date":"2018-12-10T12:58:50Z","tool_type":["Desktop application"]}}}

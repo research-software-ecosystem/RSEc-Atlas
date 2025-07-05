@@ -1,0 +1,1 @@
+{"tool_name":"pathogen-profiler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pathogen-profiler","identifiers":[],"license":"GPL-3.0","summary":"Library giving access to classes and functions to create a profiling tool to look for mutations from NGS data."}}}

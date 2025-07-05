@@ -1,0 +1,1 @@
+{"tool_name":"pome","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"pome","home":"http://www.stat.purdue.edu/~yuzhu/pome.html","summary":"Implementation of a novel method specifically designed for quantifying exon-level gene expression in RNA-Seq.","addition_date":"2017-12-18T00:10:23Z","last_update_date":"2018-12-10T12:58:54Z","tool_type":["Command-line tool"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-meshsim","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-meshsim","identifiers":["doi:10.18129/b9.bioc.meshsim"],"license":"GPL-2","summary":"Provide for measuring semantic similarity over MeSH headings and MEDLINE documents"}}}

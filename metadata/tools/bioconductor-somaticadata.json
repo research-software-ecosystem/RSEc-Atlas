@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-somaticadata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-somaticadata","identifiers":["doi:10.18129/b9.bioc.somaticadata"],"license":"Artistic-2.0","summary":"An example cancer whole genome sequencing data for the SomatiCA package"}}}

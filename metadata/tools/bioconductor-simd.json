@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-simd","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-simd","identifiers":["doi:10.18129/b9.bioc.simd"],"license":"GPL-3","summary":"Statistical Inferences with MeDIP-seq Data (SIMD) to infer the methylation level for each CpG site"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"python-pysam-tests","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python-pysam-tests","identifiers":[],"license":"MIT","summary":"Interface for the sam/bam sequence alignment and mapping format (test data)"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chronos","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chronos","identifiers":["biotools:CHRONOS","doi:10.1093/bioinformatics/btv673"],"license":"GPL-2","summary":"CHRONOS: A time-varying method for microRNA-mediated sub-pathway enrichment analysis"}}}

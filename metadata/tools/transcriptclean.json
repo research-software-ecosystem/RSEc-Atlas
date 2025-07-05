@@ -1,0 +1,1 @@
+{"tool_name":"transcriptclean","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"transcriptclean","identifiers":["doi:10.1093/bioinformatics/bty483"],"license":"MIT","summary":"Transcriptclean is a python program that corrects mismatches, microindels, and noncanonical splice junctions in long reads that have been mapped to the genome."}}}

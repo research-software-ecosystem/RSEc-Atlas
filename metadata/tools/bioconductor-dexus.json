@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dexus","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dexus","identifiers":["biotools:dexus","doi:10.1093/nar/gkt834"],"license":"LGPL (>= 2.0)","summary":"DEXUS - Identifying Differential Expression in RNA-Seq Studies with Unknown Conditions or without Replicates"}}}

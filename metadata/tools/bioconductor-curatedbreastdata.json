@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-curatedbreastdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-curatedbreastdata","identifiers":["doi:10.18129/b9.bioc.curatedbreastdata"],"license":"GPL-2.0","summary":"Curated breast cancer gene expression data with survival and treatment information"}}}

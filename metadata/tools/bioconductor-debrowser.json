@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-debrowser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-debrowser","identifiers":["doi:10.18129/b9.bioc.debrowser"],"license":"GPL-3 +GNU GENERAL PUBLIC LICENSE Version 3","summary":"Interactive differential expresion analysis browser"}}}

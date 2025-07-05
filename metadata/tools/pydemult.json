@@ -1,0 +1,1 @@
+{"tool_name":"pydemult","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pydemult","identifiers":[],"license":"MIT","summary":"Streamed and parallel demultiplexing of fastq files in python"}}}

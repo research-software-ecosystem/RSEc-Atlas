@@ -1,0 +1,1 @@
+{"tool_name":"perl-hash-util-fieldhash-compat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-hash-util-fieldhash-compat","identifiers":[],"license":"Not available","summary":"Use hash::util::fieldhash or ties, depending on availability"}}}

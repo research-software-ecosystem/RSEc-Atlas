@@ -1,0 +1,1 @@
+{"tool_name":"fermi-lite","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fermi-lite","identifiers":[],"license":"MIT","summary":"Fermi-lite is a standalone C library as well as a command-line tool for assembling Illumina short reads in regions from 100bp to 10 million bp in size."}}}

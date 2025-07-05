@@ -1,0 +1,1 @@
+{"tool_name":"r-nabor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-nabor","identifiers":[],"license":"BSD_3_clause","summary":"An r wrapper for 'libnabo', an exact or approximate k nearest neighbour library which is optimised for low dimensional spaces (e.g. 3d)"}}}

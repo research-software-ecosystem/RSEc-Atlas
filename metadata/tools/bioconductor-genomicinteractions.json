@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genomicinteractions","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genomicinteractions","identifiers":["biotools:genomicinteractions","doi:10.1186/s12864-015-2140-x"],"license":"GPL-3","summary":"Utilities for handling genomic interaction data"}}}

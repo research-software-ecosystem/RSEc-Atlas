@@ -1,0 +1,1 @@
+{"tool_name":"glob2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"glob2","identifiers":[],"license":"BSD License","summary":"Version of the glob module that can capture patterns and supports recursive wildcards"}}}

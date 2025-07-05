@@ -1,0 +1,1 @@
+{"tool_name":"nf-core","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"nf-core","identifiers":["doi:10.1038/s41587-020-0439-x"],"license":"MIT","summary":"Python package with helper tools for the nf-core community."}}}

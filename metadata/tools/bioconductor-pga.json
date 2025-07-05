@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pga","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pga","identifiers":["doi:10.18129/b9.bioc.pga"],"license":"GPL-2","summary":"An package for identification of novel peptides by customized database derived from RNA-Seq"}}}

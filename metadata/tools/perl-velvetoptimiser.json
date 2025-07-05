@@ -1,0 +1,1 @@
+{"tool_name":"perl-velvetoptimiser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-velvetoptimiser","identifiers":["biotools:velvetoptimiser"],"license":"GPL-2.0","summary":"Automatically optimise three of velvet's assembly parameters."}}}

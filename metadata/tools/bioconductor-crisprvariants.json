@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-crisprvariants","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-crisprvariants","identifiers":["biotools:crisprvariants","doi:10.1038/nbt.3628"],"license":"GPL-2","summary":"Tools for counting and visualising mutations in a target location"}}}

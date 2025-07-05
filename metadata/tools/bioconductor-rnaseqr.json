@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rnaseqr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rnaseqr","identifiers":["doi:10.18129/b9.bioc.rnaseqr"],"license":"Artistic-2.0","summary":"Rnaseqr: an r package for automated two-group rna-seq analysis workflow"}}}

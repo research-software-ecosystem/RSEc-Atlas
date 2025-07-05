@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-celarefdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-celarefdata","identifiers":["doi:10.18129/b9.bioc.celarefdata"],"license":"GPL-3","summary":"Processed scRNA data for celaref Vignette - cell labelling by reference"}}}

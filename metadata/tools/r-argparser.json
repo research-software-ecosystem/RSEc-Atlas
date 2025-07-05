@@ -1,0 +1,1 @@
+{"tool_name":"r-argparser","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-argparser","identifiers":[],"license":"GPL (>= 3)","summary":"Cross-platform command-line argument parser written purely in R with no external dependencies. It is useful with the Rscript front-end and facilitates turning an R script into an executable script."}}}

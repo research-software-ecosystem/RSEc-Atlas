@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-badregionfinder","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-badregionfinder","identifiers":["biotools:badregionfinder","doi:10.1038/nmeth.3252"],"license":"LGPL-3","summary":"BadRegionFinder: an R/Bioconductor package for identifying regions with bad coverage"}}}

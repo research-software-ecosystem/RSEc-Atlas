@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ga4ghclient","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ga4ghclient","identifiers":["doi:10.18129/b9.bioc.ga4ghclient"],"license":"GPL (>= 2)","summary":"A Bioconductor package for accessing GA4GH API data servers"}}}

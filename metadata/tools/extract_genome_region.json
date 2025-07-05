@@ -1,0 +1,1 @@
+{"tool_name":"extract_genome_region","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"extract_genome_region","identifiers":[],"license":"BSD 2-Clause \"Simplified\" License","summary":"Given a csv file of variable information defining the regions of interest, return a file that contains a fasta-formatted representation of these regions."}}}

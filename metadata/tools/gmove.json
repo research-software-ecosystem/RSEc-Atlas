@@ -1,0 +1,1 @@
+{"tool_name":"gmove","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"Gmove","home":"http://www.genoscope.cns.fr/gmove","summary":"Gmove is a genome annotation tool. This combiner takes as input mapping of RNA-seq or protein or ab initio data.","addition_date":"2019-11-06T11:20:47Z","last_update_date":"2021-04-12T09:43:31Z","tool_type":["Command-line tool"]}}}

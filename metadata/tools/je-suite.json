@@ -1,0 +1,1 @@
+{"tool_name":"je-suite","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"je-suite","identifiers":[],"license":"MIT","summary":"Je is a suite to handle barcoded fastq files with (or without) unique molecule identifiers (umis) and filter read duplicates using these umis"}}}

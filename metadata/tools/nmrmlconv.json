@@ -1,0 +1,1 @@
+{"tool_name":"nmrmlconv","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"nmrmlconv","identifiers":[],"license":"MIT","summary":"nmrML is an open mark-up language for NMR data. This project contains files that are needed to use the tools to convert RAW vendor NMR files to nmrML files."}}}

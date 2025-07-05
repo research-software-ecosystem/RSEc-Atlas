@@ -1,0 +1,1 @@
+{"tool_name":"extract_fullseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"extract_fullseq","identifiers":[],"license":"Public Domain","summary":"Extract_fullseq is part of bmtagger aka best match tagger, for removing human reads from metagenomics datasets"}}}

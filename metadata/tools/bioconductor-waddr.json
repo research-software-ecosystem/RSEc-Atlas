@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-waddr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-waddr","identifiers":["doi:10.18129/b9.bioc.waddr"],"license":"MIT","summary":"Statistical tests for detecting differential distributions based on the 2-Wasserstein distance"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-twobitmask","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-twobitmask","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Apply masking to a .2bit file, creating a new .2bit file."}}}

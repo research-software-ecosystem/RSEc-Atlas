@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-parglms","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-parglms","identifiers":["doi:10.18129/b9.bioc.parglms"],"license":"Artistic-2.0","summary":"support for parallelized estimation of GLMs/GEEs"}}}

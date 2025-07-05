@@ -1,0 +1,1 @@
+{"tool_name":"crumble","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"crumble","identifiers":["doi:10.1093/bioinformatics/bty608"],"license":"BSD","summary":"Controllable lossy compression of BAM/CRAM files"}}}

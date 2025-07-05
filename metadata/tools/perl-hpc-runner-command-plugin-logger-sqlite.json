@@ -1,0 +1,1 @@
+{"tool_name":"perl-hpc-runner-command-plugin-logger-sqlite","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-hpc-runner-command-plugin-logger-sqlite","identifiers":[],"license":"free software","summary":"Log hpc::runner workflows to a sqlite db."}}}

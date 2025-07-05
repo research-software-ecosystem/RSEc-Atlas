@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-basilisk","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-basilisk","identifiers":["doi:10.18129/b9.bioc.basilisk"],"license":"GPL-3","summary":"Freezing Python Versions Inside Bioconductor Packages"}}}

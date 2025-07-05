@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowclean","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowclean","identifiers":["biotools:flowclean","doi:10.1002/cyto.a.22837"],"license":"Artistic-2.0","summary":"A quality control tool for flow cytometry data based on compositional data analysis."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-lol","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-lol","identifiers":["doi:10.18129/b9.bioc.lol"],"license":"GPL-2","summary":"Various optimization methods for Lasso inference with matrix warpper"}}}

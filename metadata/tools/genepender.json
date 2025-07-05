@@ -1,0 +1,1 @@
+{"tool_name":"genepender","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"genepender","identifiers":[],"license":"GPL-3.0","summary":"Annotates overlapping BED-defined regions to variants in a VCF file. Used primarily for providing a gene/exon context to variants (see:bedtarget)."}}}

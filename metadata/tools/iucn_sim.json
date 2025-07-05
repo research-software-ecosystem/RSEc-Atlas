@@ -1,0 +1,1 @@
+{"tool_name":"iucn_sim","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"iucn_sim","identifiers":["doi:10.1101/2019.12.16.878249"],"license":"MIT","summary":"Simulate future extinctions and extinction rates for a given set of species, based on iucn threat assessments"}}}

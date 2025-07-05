@@ -1,0 +1,1 @@
+{"tool_name":"aca","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"aca","home":"https://github.com/juntang-zhuang/torch-ACA","summary":"Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE.","addition_date":"2021-11-15T11:33:39.381960Z","last_update_date":"2021-11-15T11:33:39.384564Z","tool_type":["Library"]}}}

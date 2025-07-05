@@ -1,0 +1,1 @@
+{"tool_name":"r-getoptlong","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-getoptlong","identifiers":[],"license":"GPL (>= 2)","summary":"This is yet another command-line argument parser which wraps the  powerful Perl module Getopt::Long and with some adaptation for easier use in R. It also provides a simple way for variable interpolation in R."}}}

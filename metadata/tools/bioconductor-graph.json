@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-graph","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-graph","identifiers":["biotools:graph","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Handle graph data structures for bioconductor"}}}

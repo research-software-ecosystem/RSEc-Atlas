@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bionet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bionet","identifiers":["biotools:bionet","doi:10.1093/bioinformatics/btq089"],"license":"GPL (>= 2)","summary":"Routines for the functional analysis of biological networks"}}}

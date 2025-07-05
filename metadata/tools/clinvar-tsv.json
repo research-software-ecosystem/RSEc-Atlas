@@ -1,0 +1,1 @@
+{"tool_name":"clinvar-tsv","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"clinvar-tsv","identifiers":[],"license":"MIT","summary":"A Snakemake-based program to download ClinVar and convert to easy-to-use TSV files."}}}

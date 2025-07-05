@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gdsarray","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gdsarray","identifiers":["doi:10.18129/b9.bioc.gdsarray"],"license":"GPL-3.0","summary":"Representing GDS files as array-like objects"}}}

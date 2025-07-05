@@ -1,0 +1,1 @@
+{"tool_name":"edlib","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"edlib","identifiers":["doi:10.1093/bioinformatics/btw753"],"license":"MIT","summary":"Library for sequence alignment using edit distance (python3 module)"}}}

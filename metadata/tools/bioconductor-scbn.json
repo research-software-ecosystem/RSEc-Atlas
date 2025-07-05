@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scbn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scbn","identifiers":["doi:10.18129/b9.bioc.scbn"],"license":"GPL-2","summary":"A statistical normalization method and differential expression analysis for RNA-seq data between different species"}}}

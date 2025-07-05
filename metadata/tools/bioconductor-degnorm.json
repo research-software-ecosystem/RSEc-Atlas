@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-degnorm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-degnorm","identifiers":["doi:10.1186/s13059-019-1682-7"],"license":"LGPL (>= 3)","summary":"degradation normalization for RNA-seq data"}}}

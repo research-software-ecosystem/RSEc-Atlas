@@ -1,0 +1,1 @@
+{"tool_name":"illumiprocessor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"illumiprocessor","identifiers":["doi:10.6079/j9ill","doi:10.1093/bioinformatics/btu170"],"license":"Not available","summary":"Illumiprocessor is a tool to batch process illumina sequencing reads using the excellent trimmomatic package."}}}

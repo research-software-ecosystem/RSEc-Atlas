@@ -1,0 +1,1 @@
+{"tool_name":"satsuma2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"satsuma2","identifiers":[],"license":"GPL-3.0","summary":"FFT cross-correlation based synteny aligner, (re)designed to make full use of parallel computing"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"cromshell","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cromshell","identifiers":[],"license":"BSD-3-Clause","summary":"Command-line interface to the cromwell workflow manager"}}}

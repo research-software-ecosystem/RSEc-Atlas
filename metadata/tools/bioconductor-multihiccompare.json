@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-multihiccompare","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-multihiccompare","identifiers":["doi:10.18129/b9.bioc.multihiccompare"],"license":"MIT","summary":"Normalize and detect differences between hi-c datasets when replicates of each experimental condition are available"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-river","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-river","identifiers":["doi:10.18129/b9.bioc.river"],"license":"GPL (>= 2)","summary":"R package for RIVER (RNA-Informed Variant Effect on Regulation)"}}}

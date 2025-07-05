@@ -1,0 +1,1 @@
+{"tool_name":"wise-data","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"wise-data","identifiers":[],"license":"GRL","summary":"Compare a protein sequences or protein hmms to a genomic dna sequence, allowing for introns and frameshifting errors."}}}

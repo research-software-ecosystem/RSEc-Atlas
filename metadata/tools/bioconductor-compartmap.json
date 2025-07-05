@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-compartmap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-compartmap","identifiers":["doi:10.18129/b9.bioc.compartmap"],"license":"GPL-3","summary":"A/B compartment inference from ATAC-seq and methylation array data"}}}

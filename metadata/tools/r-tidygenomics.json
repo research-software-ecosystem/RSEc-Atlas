@@ -1,0 +1,1 @@
+{"tool_name":"r-tidygenomics","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-tidygenomics","identifiers":[],"license":"GPL-3","summary":"Handle genomic data within data frames just as you would with 'GRanges'. This packages"}}}

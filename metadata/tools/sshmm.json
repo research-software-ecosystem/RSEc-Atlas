@@ -1,0 +1,1 @@
+{"tool_name":"sshmm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sshmm","identifiers":["doi:10.1093/nar/gkx756"],"license":"GPL-3.0","summary":"ssHMM is an RNA motif finder that recovers sequence-structure motifs from RNA-binding protein data, such as CLIP-Seq data."}}}

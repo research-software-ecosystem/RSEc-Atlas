@@ -1,0 +1,1 @@
+{"tool_name":"mcsm-ab","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"mcsm-ab","home":"http://bleoberis.bioc.cam.ac.uk/mcsm_ab/","summary":"Web server for predicting antibody-antigen affinity changes upon mutation with graph-based signatures","addition_date":"2017-08-03T19:06:45Z","last_update_date":"2018-12-10T12:58:46Z","tool_type":["Web application"]}}}

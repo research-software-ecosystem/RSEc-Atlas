@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rtracklayer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rtracklayer","identifiers":["biotools:rtracklayer","doi:10.1093/bioinformatics/btp328"],"license":"Artistic-2.0","summary":"Gnu r interface to genome browsers and their annotation tracks"}}}

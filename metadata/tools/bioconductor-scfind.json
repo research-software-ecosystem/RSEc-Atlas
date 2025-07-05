@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scfind","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scfind","identifiers":["doi:10.18129/b9.bioc.scfind"],"license":"GPL-3","summary":"A search tool for single cell RNA-seq data by gene lists"}}}

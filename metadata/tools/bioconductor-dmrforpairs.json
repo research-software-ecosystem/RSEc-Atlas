@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dmrforpairs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dmrforpairs","identifiers":["doi:10.18129/b9.bioc.dmrforpairs"],"license":"GPL (>= 2)","summary":"DMRforPairs: identifying Differentially Methylated Regions between unique samples using array based methylation profiles"}}}

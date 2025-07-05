@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-seqplots","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-seqplots","identifiers":["doi:10.18129/b9.bioc.seqplots"],"license":"GPL-3.0","summary":"An interactive tool for visualizing NGS signals and sequence motif densities along genomic features using average plots and heatmaps"}}}

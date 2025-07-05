@@ -1,0 +1,1 @@
+{"tool_name":"r-rbamtools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-rbamtools","identifiers":[],"license":"Artistic-2.0","summary":"Provides an R interface to functions of the 'SAMtools' C-Library by Heng Li <http://www.htslib.org/>."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"count_constant_sites","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"count_constant_sites","identifiers":[],"license":"MIT","summary":"Compute the count of cases in constant sites in a (FASTA) multiple sequence alignment"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"perl-try-tiny","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-try-tiny","identifiers":[],"license":"MIT","summary":"Minimal try/catch with proper preservation of $@"}}}

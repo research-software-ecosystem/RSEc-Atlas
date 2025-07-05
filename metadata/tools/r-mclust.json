@@ -1,0 +1,1 @@
+{"tool_name":"r-mclust","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-mclust","identifiers":[],"license":"GPL (>= 2)","summary":"Normal Mixture Modelling fitted via EM algorithm for Model-Based Clustering, Classification, and Density Estimation, including Bayesian regularization."}}}

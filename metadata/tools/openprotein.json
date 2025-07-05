@@ -1,0 +1,1 @@
+{"tool_name":"openprotein","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"OpenProtein","home":"https://openprotein.com/","license":"MIT","summary":"A PyTorch framework for tertiary protein structure prediction.","addition_date":"2020-01-17T09:45:37Z","last_update_date":"2020-06-16T10:55:28Z","version":["0.0.1"]}}}

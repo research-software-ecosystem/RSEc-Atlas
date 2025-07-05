@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sangerseqr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sangerseqr","identifiers":["biotools:sangerseqr","doi:10.1002/dvdy.24183"],"license":"GPL-2","summary":"Tools for Sanger Sequencing Data in R"}}}

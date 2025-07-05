@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-pviz","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-pviz","identifiers":["biotools:pviz","doi:10.1007/978-1-4939-3037-1_10"],"license":"Artistic-2.0","summary":"This tool adapts the gviz package for protein sequences and data."}}}

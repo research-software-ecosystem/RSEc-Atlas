@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scfeaturefilter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scfeaturefilter","identifiers":["doi:10.18129/b9.bioc.scfeaturefilter"],"license":"MIT","summary":"A correlation-based method for quality filtering of single-cell rnaseq data"}}}

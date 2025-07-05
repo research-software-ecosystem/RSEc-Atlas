@@ -1,0 +1,1 @@
+{"tool_name":"fit_nbinom","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fit_nbinom","identifiers":[],"license":"GNU General Public License v3.0","summary":"Script to fit negative binomial distributions via maximum likelihood estimation."}}}

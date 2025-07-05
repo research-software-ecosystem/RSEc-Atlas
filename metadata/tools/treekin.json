@@ -1,0 +1,1 @@
+{"tool_name":"treekin","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"treekin","identifiers":["doi:10.1088/0305-4470/37/17/005"],"license":"GPL","summary":"Compute folding dynamics on coarse grained version of an energy landscape by numeric integration of a Markov process"}}}

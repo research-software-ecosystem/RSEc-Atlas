@@ -1,0 +1,1 @@
+{"tool_name":"r-sleuth","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-sleuth","identifiers":[],"license":"GPL-3.0","summary":"Sleuth is an R library for analysis of RNA-Seq experiments for which transcript abundances have been quantified with kallisto."}}}

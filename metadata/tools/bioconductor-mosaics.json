@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mosaics","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mosaics","identifiers":["biotools:mosaics","doi:10.1198/jasa.2011.ap09706"],"license":"GPL (>= 2)","summary":"MOSAiCS (MOdel-based one and two Sample Analysis and Inference for ChIP-Seq)"}}}

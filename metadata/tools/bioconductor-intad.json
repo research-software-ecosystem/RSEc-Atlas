@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-intad","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-intad","identifiers":["doi:10.18129/b9.bioc.intad"],"license":"GPL (>=2)","summary":"Search for correlation between epigenetic signals and gene expression in TADs"}}}

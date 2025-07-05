@@ -1,0 +1,1 @@
+{"tool_name":"dnapi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"dnapi","identifiers":["doi:10.1371/journal.pone.0164228"],"license":"MIT","summary":"De novo adapter prediction (iterative) algorithm for small RNA sequencing data."}}}

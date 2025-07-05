@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirbaseconverter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirbaseconverter","identifiers":["doi:10.18129/b9.bioc.mirbaseconverter"],"license":"GPL (>= 2)","summary":"A comprehensive and high-efficiency tool for converting and retrieving the information of miRNAs in different miRBase versions"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-lumi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-lumi","identifiers":["biotools:lumi","doi:10.1186/1745-6150-2-16"],"license":"LGPL (>= 2)","summary":"BeadArray Specific Methods for Illumina Methylation and Expression Microarrays"}}}

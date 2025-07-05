@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-fdrame","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-fdrame","identifiers":["doi:10.18129/b9.bioc.fdrame"],"license":"GPL (>= 2)","summary":"FDR adjustments of Microarray Experiments (FDR-AME)"}}}

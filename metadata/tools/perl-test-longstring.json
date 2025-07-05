@@ -1,0 +1,1 @@
+{"tool_name":"perl-test-longstring","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-test-longstring","identifiers":[],"license":"perl_5","summary":"Tests strings for equality, with more helpful failures"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"dapt","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"dapt","home":"https://github.com/BenSDuggan/DAPT","license":"BSD-3-Clause","summary":"A library enabling teams to distributed parameter sets between computational resources for faster parameter testing.","addition_date":"2021-03-27T04:07:29Z","last_update_date":"2021-03-27T04:48:13Z"}}}

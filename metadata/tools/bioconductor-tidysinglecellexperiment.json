@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-tidysinglecellexperiment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-tidysinglecellexperiment","identifiers":["doi:10.18129/b9.bioc.tidysinglecellexperiment"],"license":"GPL-3","summary":"Brings SingleCellExperiment to the Tidyverse"}}}

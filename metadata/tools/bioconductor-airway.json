@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-airway","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-airway","identifiers":["doi:10.18129/b9.bioc.airway"],"license":"LGPL","summary":"RangedSummarizedExperiment for RNA-Seq in airway smooth muscle cells, by Himes et al PLoS One 2014"}}}

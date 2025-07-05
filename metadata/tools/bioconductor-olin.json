@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-olin","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-olin","identifiers":["biotools:olin","doi:10.1093/bioinformatics/bti199"],"license":"GPL-2","summary":"Optimized local intensity-dependent normalisation of two-color microarrays"}}}

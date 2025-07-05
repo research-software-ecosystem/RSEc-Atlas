@@ -1,0 +1,1 @@
+{"tool_name":"gwas-fasp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gwas-fasp","identifiers":["doi:10.1186/s13742-015-0047-8"],"license":"SPDX:GPL-3.0-or-later","summary":"Container image for gwas analysis workflow for ga4gh plenary 2020 fasp demonstrator containging plink and custom scripts"}}}

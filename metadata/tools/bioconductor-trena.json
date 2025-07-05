@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-trena","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-trena","identifiers":["doi:10.18129/b9.bioc.trena"],"license":"GPL-3","summary":"Fit transcriptional regulatory networks using gene expression, priors, machine learning"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"ncls","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ncls","identifiers":["doi:10.1093/bioinformatics/btz615"],"license":"BSD","summary":"The Nested Containment List for Python. Basically a static interval-tree that is silly fast for both construction and lookups."}}}

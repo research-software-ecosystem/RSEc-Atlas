@@ -1,0 +1,1 @@
+{"tool_name":"perl-test-nowarnings","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-test-nowarnings","identifiers":[],"license":"Perl","summary":"Make sure you didn't emit any warnings while testing"}}}

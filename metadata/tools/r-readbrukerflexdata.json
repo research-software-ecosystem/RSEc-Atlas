@@ -1,0 +1,1 @@
+{"tool_name":"r-readbrukerflexdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-readbrukerflexdata","identifiers":[],"license":"GPL (>= 3)","summary":"Reads data files acquired by Bruker Daltonics' matrix-assisted laser desorption/ionization-time-of-flight mass spectrometer of the *flex series."}}}

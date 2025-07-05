@@ -1,0 +1,1 @@
+{"tool_name":"pybigwig","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pybigwig","identifiers":["doi:10.5281/zenodo.45238"],"license":"MIT","summary":"A python extension written in C for quick access to bigWig files."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-seqlogo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-seqlogo","identifiers":["biotools:seqlogo","doi:10.1038/nmeth.3252"],"license":"LGPL-2.0","summary":"Sequence logos for DNA sequence alignments"}}}

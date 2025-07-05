@@ -1,0 +1,1 @@
+{"tool_name":"novasplice","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"novasplice","identifiers":[],"license":"MIT","summary":"Novasplice is a python tool to predict novel intronic splice sites from a given vcf file"}}}

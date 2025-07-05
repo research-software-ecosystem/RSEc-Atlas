@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-vega","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-vega","identifiers":["biotools:vega","doi:10.1093/bioinformatics/btq586"],"license":"GPL-2","summary":"An R package for copy number data segmentation"}}}

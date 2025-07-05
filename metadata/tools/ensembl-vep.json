@@ -1,0 +1,1 @@
+{"tool_name":"ensembl-vep","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ensembl-vep","identifiers":["biotools:ensemblvep","doi:10.1186/s13059-016-0974-4"],"license":"Apache-2.0","summary":"The Ensembl Variant Effect Predictor predicts the functional effects of genomic variants"}}}

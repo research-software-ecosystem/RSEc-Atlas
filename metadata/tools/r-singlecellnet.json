@@ -1,0 +1,1 @@
+{"tool_name":"r-singlecellnet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-singlecellnet","identifiers":["doi:10.1016/j.cels.2019.06.004"],"license":"MIT","summary":"Singlecellnet enables the classifcation of single cell rna-seq data across species and platforms."}}}

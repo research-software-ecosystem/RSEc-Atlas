@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cancerinsilico","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cancerinsilico","identifiers":["biotools:cancerinsilico","doi:10.1038/nmeth.3252"],"license":"GPL-2","summary":"An R interface for computational modeling of tumor progression"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-s4vectors","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-s4vectors","identifiers":["biotools:s4vectors","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Bioconductor s4 implementation of vectors and lists"}}}

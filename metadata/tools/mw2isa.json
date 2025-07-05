@@ -1,0 +1,1 @@
+{"tool_name":"mw2isa","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"mw2isa","identifiers":["doi:10.5281/zenodo.163640"],"license":"Custom License","summary":"A repo for a docker container for a microservice converting an MWTab to ISA-Tab format"}}}

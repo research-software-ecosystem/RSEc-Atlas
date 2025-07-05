@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-variantexperiment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-variantexperiment","identifiers":["doi:10.18129/b9.bioc.variantexperiment"],"license":"GPL-3","summary":"A RangedSummarizedExperiment Container for VCF/GDS Data with GDS Backend"}}}

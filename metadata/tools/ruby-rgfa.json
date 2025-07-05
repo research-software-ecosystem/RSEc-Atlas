@@ -1,0 +1,1 @@
+{"tool_name":"ruby-rgfa","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ruby-rgfa","identifiers":["doi:10.7717/peerj.2681"],"license":"ISC","summary":"Parse, edit and write gfa format graphs in ruby"}}}

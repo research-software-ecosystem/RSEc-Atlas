@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-splicer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-splicer","identifiers":["doi:10.18129/b9.bioc.splicer"],"license":"GPL (>=2)","summary":"An R package for classification of alternative splicing and prediction of coding potential from RNA-seq data."}}}

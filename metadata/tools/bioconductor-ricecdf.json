@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ricecdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ricecdf","identifiers":["doi:10.18129/b9.bioc.ricecdf"],"license":"LGPL","summary":"A package containing an environment representing the Rice.cdf file."}}}

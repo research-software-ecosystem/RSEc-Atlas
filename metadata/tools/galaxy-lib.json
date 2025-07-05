@@ -1,0 +1,1 @@
+{"tool_name":"galaxy-lib","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"galaxy-lib","identifiers":["doi:10.1093/nar/gkw343","doi:10.1093/nar/gky379"],"license":"AFL","summary":"Subset of Galaxy (http://galaxyproject.org/) core code base designed to be used a library."}}}

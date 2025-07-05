@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-iseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-iseq","identifiers":["biotools:iseq","doi:10.1111/j.1541-0420.2009.01379.x"],"license":"GPL (>= 2)","summary":"Bayesian Hierarchical Modeling of ChIP-seq Data Through Hidden Ising Models"}}}

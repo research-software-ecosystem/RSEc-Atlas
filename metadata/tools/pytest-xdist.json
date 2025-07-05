@@ -1,0 +1,1 @@
+{"tool_name":"pytest-xdist","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pytest-xdist","identifiers":[],"license":"MIT","summary":"Py.test xdist plugin for distributed testing and loop-on-failing modes"}}}

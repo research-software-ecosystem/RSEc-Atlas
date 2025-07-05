@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mdp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mdp","identifiers":["doi:10.18129/b9.bioc.mdp"],"license":"GPL-3","summary":"Molecular Degree of Perturbation calculates scores for transcriptome data samples based on their perturbation from controls"}}}

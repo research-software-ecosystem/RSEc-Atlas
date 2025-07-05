@@ -1,0 +1,1 @@
+{"tool_name":"check-sort-order","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"check-sort-order","identifiers":[],"license":"MIT","summary":"Check sort-order of genomic files according to a genomefile"}}}

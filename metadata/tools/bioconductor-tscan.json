@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-tscan","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-tscan","identifiers":["biotools:tscan","doi:10.1093/nar/gkw430"],"license":"GPL(>=2)","summary":"TSCAN: Tools for Single-Cell ANalysis"}}}

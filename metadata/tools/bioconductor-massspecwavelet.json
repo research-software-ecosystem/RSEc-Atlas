@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-massspecwavelet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-massspecwavelet","identifiers":["biotools:massspecwavelet","doi:10.1093/bioinformatics/btl355"],"license":"LGPL (>= 2)","summary":"Mass spectrum processing by wavelet-based algorithms"}}}

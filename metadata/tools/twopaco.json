@@ -1,0 +1,1 @@
+{"tool_name":"twopaco","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"twopaco","identifiers":["doi:10.1093/bioinformatics/btw609"],"license":"Custom OSS","summary":"A fast constructor of the compressed de Bruijn graph from many genomes."}}}

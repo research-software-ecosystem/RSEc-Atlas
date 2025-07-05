@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-clusterjudge","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-clusterjudge","identifiers":["doi:10.18129/b9.bioc.clusterjudge"],"license":"Artistic-2.0","summary":"Judging quality of clustering methods using mutual information"}}}

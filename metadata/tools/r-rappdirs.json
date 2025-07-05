@@ -1,0 +1,1 @@
+{"tool_name":"r-rappdirs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-rappdirs","identifiers":[],"license":"MIT","summary":"An easy way to determine which directories on the users computer you should use to save data, caches and logs. A port of Python's Appdirs (\\url{https://github.com/ActiveState/appdirs}) to R."}}}

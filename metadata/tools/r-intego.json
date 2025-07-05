@@ -1,0 +1,1 @@
+{"tool_name":"r-intego","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-intego","identifiers":["doi:10.1186/1471-2105-14-42"],"license":"GPL-3","summary":"An unsupervised gene clustering algorithm based on the integration of external biological knowledge, such as gene ontology annotations, into expression data."}}}

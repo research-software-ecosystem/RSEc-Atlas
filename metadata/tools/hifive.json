@@ -1,0 +1,1 @@
+{"tool_name":"hifive","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"hifive","identifiers":["doi:10.1186/s13059-015-0806-y"],"license":"MIT","summary":"Python library for normalizing and analyzing hic and 5c data."}}}

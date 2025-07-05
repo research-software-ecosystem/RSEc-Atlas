@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-inversion","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-inversion","identifiers":["biotools:inversion","doi:10.1186/1471-2105-13-28"],"license":"GPL (>= 2)","summary":"Inversions in genotype data"}}}

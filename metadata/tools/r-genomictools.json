@@ -1,0 +1,1 @@
+{"tool_name":"r-genomictools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-genomictools","identifiers":[],"license":"GPL-2","summary":"A loose collection of tools for the analysis of expression and genotype data, currently with the main focus on (e)QTL and MDR analysis."}}}

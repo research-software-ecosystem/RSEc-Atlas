@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-farms","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-farms","identifiers":["biotools:farms","doi:10.1093/bioinformatics/btl033"],"license":"LGPL (>= 2.1)","summary":"FARMS - Factor Analysis for Robust Microarray Summarization"}}}

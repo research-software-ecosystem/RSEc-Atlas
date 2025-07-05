@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-xde","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-xde","identifiers":["biotools:xde","doi:10.1198/jasa.2009.ap07611"],"license":"LGPL-2","summary":"XDE: a Bayesian hierarchical model for cross-study analysis of differential gene expression"}}}

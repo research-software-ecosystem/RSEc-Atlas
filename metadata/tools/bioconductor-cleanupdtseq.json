@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cleanupdtseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cleanupdtseq","identifiers":["biotools:cleanupdtseq","doi:10.1002/0471142727.mb0423s110"],"license":"GPL-2","summary":"This package classifies putative polyadenylation sites as true or false/internally oligodT primed"}}}

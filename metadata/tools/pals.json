@@ -1,0 +1,1 @@
+{"tool_name":"pals","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"pals","home":"http://pals.bioinfo.cnio.es","summary":"The tool highlights those members on a user inputted list that share descriptors from PubMed, GO, KEGG and Reactome.","addition_date":"2017-03-25T18:18:14Z","last_update_date":"2018-12-10T12:58:57Z","tool_type":["Web application"]}}}

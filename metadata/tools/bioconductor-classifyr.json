@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-classifyr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-classifyr","identifiers":["biotools:classifyr","doi:10.1093/bioinformatics/btv066"],"license":"GPL-3","summary":"A framework for cross-validated classification problems, with applications to differential variability and differential distribution testing"}}}

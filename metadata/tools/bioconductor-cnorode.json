@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cnorode","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cnorode","identifiers":["biotools:cnorode","doi:10.1186/1752-0509-6-133"],"license":"GPL-2","summary":"ODE add-on to CellNOptR"}}}

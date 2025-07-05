@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rbgl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rbgl","identifiers":["biotools:rbgl","doi:10.1093/bioinformatics/bth458"],"license":"Artistic-2.0","summary":"R interface to the graph algorithms contained in the boost library"}}}

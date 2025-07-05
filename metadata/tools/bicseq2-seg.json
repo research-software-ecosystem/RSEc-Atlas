@@ -1,0 +1,1 @@
+{"tool_name":"bicseq2-seg","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bicseq2-seg","identifiers":["doi:10.1093/nar/gkw491"],"license":"Custom","summary":"BICseq2-seg is for detecting CNVs based on the normalized data given by BICseq2-norm."}}}

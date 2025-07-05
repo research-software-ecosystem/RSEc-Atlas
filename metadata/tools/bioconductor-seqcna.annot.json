@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-seqcna.annot","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-seqcna.annot","identifiers":["doi:10.18129/b9.bioc.seqcna.annot"],"license":"GPL-3","summary":"Annotation for the copy number analysis of deep sequencing cancer data with seqCNA"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"kraken-ea","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"kraken-ea","identifiers":[],"license":"GPL-3.0","summary":"Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. This is a modified version allowing for splitting of fastq files based on read classifications."}}}

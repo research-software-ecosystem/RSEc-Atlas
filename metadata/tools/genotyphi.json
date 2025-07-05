@@ -1,0 +1,1 @@
+{"tool_name":"genotyphi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"genotyphi","identifiers":["doi:10.1038/ncomms12827","doi:10.1371/journal.pntd.0006408","doi:10.1128/mBio.00105-18"],"license":"Not available","summary":"Assign genotypes to salmonella typhi genomes based on vcf files (mapped to typhi ct18 reference genome)"}}}

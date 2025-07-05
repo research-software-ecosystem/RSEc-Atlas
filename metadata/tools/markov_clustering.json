@@ -1,0 +1,1 @@
+{"tool_name":"markov_clustering","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"markov_clustering","identifiers":[],"license":"Not available","summary":"This module implements the mcl algorithm in python."}}}

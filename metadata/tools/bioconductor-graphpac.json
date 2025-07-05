@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-graphpac","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-graphpac","identifiers":["biotools:graphpac","doi:10.1186/1471-2105-15-86"],"license":"GPL-2","summary":"Identification of Mutational Clusters in Proteins via a Graph Theoretical Approach."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"dkfz-bias-filter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"dkfz-bias-filter","identifiers":[],"license":"GNU General Public License v3.0","summary":"The dkfz bias filter flags snvs that appear to be biased based on the variant read support"}}}

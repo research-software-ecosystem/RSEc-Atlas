@@ -1,0 +1,1 @@
+{"tool_name":"r-ks","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-ks","identifiers":[],"license":"GPL-2 | GPL-3","summary":"Kernel smoothers for univariate and multivariate data, including density functions, density derivatives, cumulative distributions, modal clustering, discriminant analysis, and two-sample hypothesis testing.   "}}}

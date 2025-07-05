@@ -1,0 +1,1 @@
+{"tool_name":"r-fastica","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-fastica","identifiers":[],"license":"GPL-3.0","summary":"Implementation of FastICA algorithm to perform Independent Component Analysis (ICA) and Projection Pursuit."}}}

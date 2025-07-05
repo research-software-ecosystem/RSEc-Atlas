@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-methylmnm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-methylmnm","identifiers":["biotools:methylmnm","doi:10.1101/gr.156539.113"],"license":"GPL-3.0","summary":"detect different methylation level (DMR)"}}}

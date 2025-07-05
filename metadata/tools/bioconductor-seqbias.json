@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-seqbias","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-seqbias","identifiers":["doi:10.18129/b9.bioc.seqbias"],"license":"LGPL-3","summary":"Estimation of per-position bias in high-throughput sequencing data"}}}

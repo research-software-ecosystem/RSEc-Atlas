@@ -1,0 +1,1 @@
+{"tool_name":"fastq-anonymous","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fastq-anonymous","identifiers":[],"license":"MIT","summary":"Change the sequence of a fastq file to enable sharing of confidential information, for troubleshooting\ufffc of tools."}}}

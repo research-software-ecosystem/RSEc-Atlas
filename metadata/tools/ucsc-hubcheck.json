@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-hubcheck","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-hubcheck","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom  License","summary":"Check a track data hub for integrity."}}}

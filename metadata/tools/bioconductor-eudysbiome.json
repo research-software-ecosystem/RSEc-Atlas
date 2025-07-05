@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-eudysbiome","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-eudysbiome","identifiers":["biotools:eudysbiome","doi:10.1186/s12918-016-0344-6"],"license":"GPL-2","summary":"Cartesian plot and contingency test on 16S Microbial data"}}}

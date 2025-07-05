@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowmap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowmap","identifiers":["biotools:flowmap","doi:10.1002/cyto.a.22735"],"license":"GPL (>=2)","summary":"Mapping cell populations in flow cytometry data for cross-sample comparisons using the Friedman-Rafsky Test"}}}

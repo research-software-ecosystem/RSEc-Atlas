@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowcore","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowcore","identifiers":["biotools:flowcore","doi:10.1186/1471-2105-10-106"],"license":"Artistic-2.0","summary":"flowCore: Basic structures for flow cytometry data"}}}

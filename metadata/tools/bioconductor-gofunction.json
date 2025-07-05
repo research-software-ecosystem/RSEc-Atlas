@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gofunction","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gofunction","identifiers":["biotools:gofunction","doi:10.1093/bib/bbr041"],"license":"GPL (>= 2)","summary":"GO-function: deriving biologcially relevant functions from statistically significant functions"}}}

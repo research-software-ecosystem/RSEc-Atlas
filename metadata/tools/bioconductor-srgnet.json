@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-srgnet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-srgnet","identifiers":["doi:10.18129/b9.bioc.srgnet"],"license":"GPL-2.0","summary":"SRGnet: An R package for studying synergistic response to gene mutations from transcriptomics data"}}}

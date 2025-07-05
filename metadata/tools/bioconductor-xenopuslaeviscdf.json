@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-xenopuslaeviscdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-xenopuslaeviscdf","identifiers":["doi:10.18129/b9.bioc.xenopuslaeviscdf"],"license":"LGPL","summary":"A package containing an environment representing the Xenopus_laevis.cdf file."}}}

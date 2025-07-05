@@ -1,0 +1,1 @@
+{"tool_name":"r-argparse","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-argparse","identifiers":[],"license":"GPL (>= 2)","summary":"A command line parser to be used with Rscript to write \"#!\" shebang scripts that gracefully accept positional and optional arguments and automatically generate usage."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-fastqcleaner","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-fastqcleaner","identifiers":["doi:10.18129/b9.bioc.fastqcleaner"],"license":"MIT","summary":"A Shiny Application for Quality Control, Filtering and Trimming of FASTQ Files"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-phyloseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-phyloseq","identifiers":["biotools:phyloseq","doi:10.1371/journal.pone.0061217"],"license":"AGPL-3","summary":"Gnu r handling and analysis of high-throughput microbiome census data"}}}

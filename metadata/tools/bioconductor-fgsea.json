@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-fgsea","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-fgsea","identifiers":["biotools:fgsea","doi:10.1101/060012"],"license":"MIT","summary":"Fast Gene Set Enrichment Analysis"}}}

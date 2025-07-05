@@ -1,0 +1,1 @@
+{"tool_name":"clusterpicker","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"clusterpicker","identifiers":[],"license":"GPL-3.0","summary":"The cluster picker identifies clusters in newick-formatted trees containing thousands of sequences within a few minutes."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-calib","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-calib","identifiers":["doi:10.18129/b9.bioc.calib"],"license":"LGPL","summary":"Calibration model for estimating absolute expression levels from microarray data"}}}

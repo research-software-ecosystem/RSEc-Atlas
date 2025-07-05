@@ -1,0 +1,1 @@
+{"tool_name":"popscle","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"popscle","identifiers":[],"license":"MIT","summary":"A suite of population scale analysis tools for single-cell genomics data including implementation of Demuxlet / Freemuxlet methods and auxilary tools"}}}

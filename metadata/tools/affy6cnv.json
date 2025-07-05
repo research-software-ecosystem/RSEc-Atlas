@@ -1,0 +1,1 @@
+{"tool_name":"affy6cnv","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"affy6cnv","home":"http://sourceforge.net/projects/affy6cnv/","summary":"Affy6CNV is a pipeline for calling CNVs from Affymetrix 6.0 genotyping array data.","addition_date":"2017-12-18T00:03:24Z","last_update_date":"2018-12-10T12:58:57Z","tool_type":["Command-line tool"],"version":["0.0.1"]}}}

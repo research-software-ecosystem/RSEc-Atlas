@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rmelting","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rmelting","identifiers":["doi:10.18129/b9.bioc.rmelting"],"license":"GPL-2 | GPL-3","summary":"R Interface to MELTING 5"}}}

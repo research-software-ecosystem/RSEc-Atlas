@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-zebrafishcdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-zebrafishcdf","identifiers":["doi:10.18129/b9.bioc.zebrafishcdf"],"license":"LGPL","summary":"A package containing an environment representing the Zebrafish.cdf file."}}}

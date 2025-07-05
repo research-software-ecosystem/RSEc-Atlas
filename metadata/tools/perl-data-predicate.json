@@ -1,0 +1,1 @@
+{"tool_name":"perl-data-predicate","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-data-predicate","identifiers":[],"license":"BSD","summary":"Predicates are a way of composing logic so it eventually reports a true/false for a given value"}}}

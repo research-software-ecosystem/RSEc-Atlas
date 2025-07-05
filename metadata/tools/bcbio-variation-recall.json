@@ -1,0 +1,1 @@
+{"tool_name":"bcbio-variation-recall","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bcbio-variation-recall","identifiers":[],"license":"MIT","summary":"Parallel merging, squaring off and ensemble calling for genomic variants"}}}

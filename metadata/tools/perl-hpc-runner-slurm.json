@@ -1,0 +1,1 @@
+{"tool_name":"perl-hpc-runner-slurm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-hpc-runner-slurm","identifiers":[],"license":"Perl_5","summary":"Perl-Hpc-Runner-Slurm: Submit bioinformatics hpc workflows with the slurm scheduler"}}}

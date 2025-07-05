@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-quartpac","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-quartpac","identifiers":["biotools:quartpac","doi:10.1186/s12859-016-0963-3"],"license":"GPL-2","summary":"Identification of mutational clusters in protein quaternary structures."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"comet-ms","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"comet-ms","identifiers":["doi:10.1007/s13361-015-1179-x","doi:10.1002/pmic.201200439","biotools:comet"],"license":"Apache-2.0","summary":"Comet is a command line tool that does MS/MS database search."}}}

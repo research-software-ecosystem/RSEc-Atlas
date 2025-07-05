@@ -1,0 +1,1 @@
+{"tool_name":"qgrs-cpp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"qgrs-cpp","identifiers":["doi:10.1093/nar/gks422","doi:10.1186/1479-7364-8-8"],"license":"MIT","summary":"C++ implementation of QGRS mapping."}}}

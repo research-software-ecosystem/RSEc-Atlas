@@ -1,0 +1,1 @@
+{"tool_name":"gvcfgenotyper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gvcfgenotyper","identifiers":[],"license":"Apache-2.0","summary":"A utility for merging and genotyping Illumina-style GVCFs."}}}

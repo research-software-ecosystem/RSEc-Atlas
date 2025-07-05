@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biotmledata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biotmledata","identifiers":["doi:10.18129/b9.bioc.biotmledata"],"license":"MIT","summary":"Example experimental microarray data set for the \"biotmle\" r package"}}}

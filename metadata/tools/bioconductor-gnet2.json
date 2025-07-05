@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gnet2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gnet2","identifiers":["doi:10.18129/b9.bioc.gnet2"],"license":"Apache-2.0","summary":"Constructing gene regulatory networks from expression data through functional module inference"}}}

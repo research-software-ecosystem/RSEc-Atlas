@@ -1,0 +1,1 @@
+{"tool_name":"r-compquadform","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-compquadform","identifiers":[],"license":"GPL (>= 2)","summary":"Computes the distribution function of quadratic forms in normal variables using Imhof's method, Davies's algorithm, Farebrother's algorithm or Liu et al.'s algorithm."}}}

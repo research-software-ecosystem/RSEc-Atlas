@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-plotgrouper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-plotgrouper","identifiers":["doi:10.18129/b9.bioc.plotgrouper"],"license":"GPL-3","summary":"Shiny app GUI wrapper for ggplot with built-in statistical analysis"}}}

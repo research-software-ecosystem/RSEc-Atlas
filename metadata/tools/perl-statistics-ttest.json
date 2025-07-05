@@ -1,0 +1,1 @@
+{"tool_name":"perl-statistics-ttest","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-statistics-ttest","identifiers":[],"license":"Not available","summary":"Perl module to perform t-test on 2 independent samples statistics::ttest::sufficient - perl module to perfrom t-test on 2 indepdent samples using sufficient statistics"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mgfr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mgfr","identifiers":["biotools:mgfr","doi:10.1186/s12864-015-1785-9"],"license":"GPL-3","summary":"Marker Gene Finder in RNA-seq data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowcl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowcl","identifiers":["biotools:flowcl","doi:10.1093/bioinformatics/btu807"],"license":"Artistic-2.0","summary":"Semantic labelling of flow cytometric cell populations."}}}

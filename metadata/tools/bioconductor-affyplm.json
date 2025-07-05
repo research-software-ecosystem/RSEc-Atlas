@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-affyplm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-affyplm","identifiers":["biotools:affyplm","doi:10.1089/omi.2006.10.358"],"license":"GPL (>= 2)","summary":"Methods for fitting probe-level models"}}}

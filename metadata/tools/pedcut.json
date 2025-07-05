@@ -1,0 +1,1 @@
+{"tool_name":"pedcut","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"pedcut","home":"http://mga.bionet.nsc.ru/soft/index.html","summary":"Program for cutting complex pedigree into computable sub-pedigrees with user-specified MaxBit size.","addition_date":"2017-08-03T18:55:22Z","last_update_date":"2021-04-26T09:00:15Z","tool_type":["Command-line tool"]}}}

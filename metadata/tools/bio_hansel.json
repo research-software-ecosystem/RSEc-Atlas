@@ -1,0 +1,1 @@
+{"tool_name":"bio_hansel","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bio_hansel","identifiers":["doi:10.1101/2020.01.10.902056"],"license":"Apache-2.0","summary":"Subtype salmonella enterica genomes using 33bp k-mer typing schemes."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"reparation_blast","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"reparation_blast","identifiers":["doi:10.1093/nar/gkx758"],"license":"GNU General Public License v3.0","summary":"A pipeline that detects novel open reading frames with ribseq data for bacteria."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-inspect","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-inspect","identifiers":["biotools:inspect","doi:10.1093/bioinformatics/btv288"],"license":"GPL-2","summary":"Modeling RNA synthesis, processing and degradation with RNA-seq data"}}}

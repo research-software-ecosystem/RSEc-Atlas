@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-egsea","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-egsea","identifiers":["biotools:egsea","doi:10.1093/bioinformatics/btw623"],"license":"GPL-3","summary":"Ensemble of Gene Set Enrichment Analyses"}}}

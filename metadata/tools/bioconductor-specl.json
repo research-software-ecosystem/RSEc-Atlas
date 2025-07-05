@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-specl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-specl","identifiers":["biotools:specl","doi:10.1093/bioinformatics/btv105"],"license":"GPL-3","summary":"specL - Prepare Peptide Spectrum Matches for Use in Targeted Proteomics"}}}

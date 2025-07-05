@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-impulsede","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-impulsede","identifiers":["biotools:impulsede","doi:10.1093/bioinformatics/btw665"],"license":"GPL-3","summary":"Detection of DE genes in time series data using impulse models"}}}

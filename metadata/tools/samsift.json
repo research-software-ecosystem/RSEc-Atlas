@@ -1,0 +1,1 @@
+{"tool_name":"samsift","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"samsift","identifiers":["doi:10.5281/zenodo.1048211"],"license":"MIT","summary":"Advanced filtering and tagging of sam/bam alignments using python expressions."}}}

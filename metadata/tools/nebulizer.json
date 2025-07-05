@@ -1,0 +1,1 @@
+{"tool_name":"nebulizer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"nebulizer","identifiers":["doi:10.1093/nar/gkw343","doi:10.1093/nar/gky379"],"license":"Academic Free License","summary":"Command-line utilities to help with managing users, data libraries and tools in a galaxy instance"}}}

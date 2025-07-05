@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-acgh","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-acgh","identifiers":["biotools:acgh","doi:10.1093/bioinformatics/bti677"],"license":"GPL-2","summary":"Classes and functions for Array Comparative Genomic Hybridization data"}}}

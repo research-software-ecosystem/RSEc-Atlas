@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biodist","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biodist","identifiers":["biotools:biodist","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"A collection of software tools for calculating distance measures."}}}

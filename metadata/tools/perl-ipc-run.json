@@ -1,0 +1,1 @@
+{"tool_name":"perl-ipc-run","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-ipc-run","identifiers":[],"license":"Not available","summary":"System() and background procs w/ piping, redirs, ptys (unix, win32)"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-blima","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-blima","identifiers":["biotools:blima","doi:10.1038/nmeth.3252"],"license":"GPL-3","summary":"Tools for the preprocessing and analysis of the Illumina microarrays on the detector (bead) level"}}}

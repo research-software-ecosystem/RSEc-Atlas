@@ -1,0 +1,1 @@
+{"tool_name":"cmash","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cmash","identifiers":["doi:10.1016/j.amc.2019.02.018"],"license":"BSD 3-Clause \"New\" or \"Revised\" License","summary":"Fast and accurate set similarity estimation via containment min hash (for genomic datasets)."}}}

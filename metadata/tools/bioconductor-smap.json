@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-smap","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-smap","identifiers":["biotools:smap","doi:10.1093/bioinformatics/btn003"],"license":"GPL-2","summary":"A Segmental Maximum A Posteriori Approach to Array-CGH Copy Number Profiling"}}}

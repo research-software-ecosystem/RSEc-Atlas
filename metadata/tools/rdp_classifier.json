@@ -1,0 +1,1 @@
+{"tool_name":"rdp_classifier","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rdp_classifier","identifiers":[],"license":"GPL","summary":"Naive Bayesian classifier that can rapidly and accurately provide taxonomic assignments from domain to genus"}}}

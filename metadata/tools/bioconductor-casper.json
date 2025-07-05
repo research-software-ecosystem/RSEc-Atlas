@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-casper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-casper","identifiers":["biotools:casper","doi:10.1214/13-AOAS687"],"license":"GPL (>=2)","summary":"Characterization of Alternative Splicing based on Paired-End Reads"}}}

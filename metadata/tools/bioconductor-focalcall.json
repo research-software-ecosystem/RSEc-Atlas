@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-focalcall","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-focalcall","identifiers":["biotools:focalcall","doi:10.4137/cin.s19519"],"license":"GPL-2","summary":"Detection of focal aberrations in DNA copy number data"}}}

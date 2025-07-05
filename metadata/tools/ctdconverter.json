@@ -1,0 +1,1 @@
+{"tool_name":"ctdconverter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ctdconverter","identifiers":[],"license":"custom, see /usr/share/doc/ctdconverter/copyright","summary":"Convert ctd files into galaxy tool and cwl commandlinetool files"}}}

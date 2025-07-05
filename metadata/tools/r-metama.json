@@ -1,0 +1,1 @@
+{"tool_name":"r-metama","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-metama","identifiers":[],"license":"GPL","summary":"Combines either p-values or modified effect sizes from different studies to find differentially expressed genes"}}}

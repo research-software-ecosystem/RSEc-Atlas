@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-topgo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-topgo","identifiers":["biotools:topgo","doi:10.1093/bioinformatics/btl140"],"license":"LGPL","summary":"Enrichment Analysis for Gene Ontology"}}}

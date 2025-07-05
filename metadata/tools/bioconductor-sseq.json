@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sseq","identifiers":["biotools:sseq","doi:10.1093/bioinformatics/btt143"],"license":"GPL-3.0","summary":"Shrinkage estimation of dispersion in Negative Binomial models for RNA-seq experiments with small sample size"}}}

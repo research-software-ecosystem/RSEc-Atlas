@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rgraph2js","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rgraph2js","identifiers":["biotools:rgraph2js","doi:10.1038/nmeth.3252"],"license":"GPL-2","summary":"Convert a Graph into a D3js Script"}}}

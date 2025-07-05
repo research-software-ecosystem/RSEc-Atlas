@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirnatarget","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirnatarget","identifiers":["doi:10.18129/b9.bioc.mirnatarget"],"license":"GPL","summary":"gene target tabale of miRNA for human/mouse used for MiRaGE package"}}}

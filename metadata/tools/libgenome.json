@@ -1,0 +1,1 @@
+{"tool_name":"libgenome","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"libgenome","identifiers":[],"license":"GPL-2.0","summary":"A C++ development library designed to make common operations on DNA and protein sequences easy. libGenome provides functionality to read, write, and manipulate sequence and annotation data in several file formats."}}}

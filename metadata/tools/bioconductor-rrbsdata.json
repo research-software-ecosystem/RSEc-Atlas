@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rrbsdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rrbsdata","identifiers":["doi:10.18129/b9.bioc.rrbsdata"],"license":"LGPL-3","summary":"An RRBS data set with 12 samples and 10,000 simulated DMRs"}}}

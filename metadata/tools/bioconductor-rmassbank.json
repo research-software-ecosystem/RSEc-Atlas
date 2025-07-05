@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rmassbank","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rmassbank","identifiers":["doi:10.18129/b9.bioc.rmassbank"],"license":"Artistic-2.0","summary":"Workflow to process tandem MS files and build MassBank records"}}}

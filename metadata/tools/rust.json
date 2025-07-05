@@ -1,0 +1,1 @@
+{"tool_name":"rust","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rust","identifiers":[],"license":"MIT","summary":"rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety."}}}

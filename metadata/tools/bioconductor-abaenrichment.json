@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-abaenrichment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-abaenrichment","identifiers":["biotools:abaenrichment","doi:10.1093/bioinformatics/btw392"],"license":"GPL (>= 2)","summary":"Gene expression enrichment in human brain regions"}}}

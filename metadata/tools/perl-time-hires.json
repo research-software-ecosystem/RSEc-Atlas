@@ -1,0 +1,1 @@
+{"tool_name":"perl-time-hires","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-time-hires","identifiers":[],"license":"perl_5","summary":"High resolution alarm, sleep, gettimeofday, interval timers"}}}

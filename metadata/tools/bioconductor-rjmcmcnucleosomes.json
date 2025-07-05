@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rjmcmcnucleosomes","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rjmcmcnucleosomes","identifiers":["doi:10.18129/b9.bioc.rjmcmcnucleosomes"],"license":"Artistic-2.0","summary":"Bayesian hierarchical model for genome-wide nucleosome positioning with high-throughput short-read data (MNase-Seq)"}}}

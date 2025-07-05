@@ -1,0 +1,1 @@
+{"tool_name":"multigps","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"multigps","identifiers":[],"license":"MIT","summary":"MultiGPS is a framework for analyzing collections of multi-condition ChIP-seq datasets and characterizing differential binding events between conditions."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chipexoqualexample","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chipexoqualexample","identifiers":["doi:10.18129/b9.bioc.chipexoqualexample"],"license":"GPL (>= 2)","summary":"Example data for the ChIPexoQual package, which implements a quality control pipeline for ChIP-exo data"}}}

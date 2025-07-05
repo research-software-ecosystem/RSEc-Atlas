@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-exomecopy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-exomecopy","identifiers":["biotools:exomecopy","doi:10.2202/1544-6115.1732"],"license":"GPL (>= 2)","summary":"Copy number variant detection from exome sequencing read depth"}}}

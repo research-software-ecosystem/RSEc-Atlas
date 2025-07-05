@@ -1,0 +1,1 @@
+{"tool_name":"coreutils","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"coreutils","identifiers":[],"license":"GNU","summary":"The gnu core utilities are the basic file, shell and text manipulation utilities of the gnu operating system. these are the core utilities which are expected to exist on every operating system."}}}

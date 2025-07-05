@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-decomplexdisease","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-decomplexdisease","identifiers":["doi:10.18129/b9.bioc.decomplexdisease"],"license":"GPL-3","summary":"A tool for differential expression analysis and DEGs based investigation to complex diseases by bi-clustering analysis"}}}

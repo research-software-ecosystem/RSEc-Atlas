@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rsvsim","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rsvsim","identifiers":["biotools:rsvsim","doi:10.1093/bioinformatics/btt198"],"license":"LGPL-3","summary":"RSVSim: an R/Bioconductor package for the simulation of structural variations"}}}

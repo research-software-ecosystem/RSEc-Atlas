@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-readat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-readat","identifiers":["doi:10.18129/b9.bioc.readat"],"license":"GPL-3","summary":"Functionality to Read and Manipulate SomaLogic ADAT files"}}}

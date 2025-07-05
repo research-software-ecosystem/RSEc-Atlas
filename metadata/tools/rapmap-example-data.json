@@ -1,0 +1,1 @@
+{"tool_name":"rapmap-example-data","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rapmap-example-data","identifiers":[],"license":"GPL-3.0","summary":"Rapmap is a tool implementing quasi-mapping and is capable of mapping sequencing reads to a target transcriptome substantially faster than existing alignment tools."}}}

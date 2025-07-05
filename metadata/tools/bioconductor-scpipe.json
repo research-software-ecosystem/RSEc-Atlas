@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-scpipe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-scpipe","identifiers":["doi:10.18129/b9.bioc.scpipe"],"license":"GPL (>= 2)","summary":"pipeline for single cell RNA-seq data analysis"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-flowqbdata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-flowqbdata","identifiers":["doi:10.18129/b9.bioc.flowqbdata"],"license":"Artistic License 2.0","summary":"The flowQBData package provides data files used as examples and for testing of the software provided in the flowQB package."}}}

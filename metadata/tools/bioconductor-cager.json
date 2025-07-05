@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cager","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cager","identifiers":["biotools:cager","doi:10.1093/nar/gkv054"],"license":"GPL-3","summary":"Analysis of CAGE (Cap Analysis of Gene Expression) sequencing data for precise mapping of transcription start sites and promoterome mining"}}}

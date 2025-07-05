@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-breakpointr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-breakpointr","identifiers":["doi:10.18129/b9.bioc.breakpointr"],"license":"MIT","summary":"Find breakpoints in strand-seq data"}}}

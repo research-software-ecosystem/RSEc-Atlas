@@ -1,0 +1,1 @@
+{"tool_name":"r-gam","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-gam","identifiers":[],"license":"GPL-2","summary":"Functions for fitting and working with generalized additive models, as described in chapter 7 of \"Statistical Models in S\" (Chambers and Hastie (eds), 1991), and \"Generalized Additive Models\" (Hastie and Tibshirani, 1990)."}}}

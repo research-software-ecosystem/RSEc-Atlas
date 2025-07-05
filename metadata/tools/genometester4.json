@@ -1,0 +1,1 @@
+{"tool_name":"genometester4","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"genometester4","identifiers":["doi:10.1186/s13742-015-0097-y","biotools:genometester","doi:10.1186/1471-2105-7-172"],"license":"GPL-3.0","summary":"A toolkit for performing set operations - union, intersection and complement - on k-mer lists."}}}

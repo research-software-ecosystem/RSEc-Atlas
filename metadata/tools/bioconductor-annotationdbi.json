@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-annotationdbi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-annotationdbi","identifiers":["biotools:annotationdbi","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Provides user interface and database connection code for annotation data packages using sqlite data storage."}}}

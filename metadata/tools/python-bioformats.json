@@ -1,0 +1,1 @@
+{"tool_name":"python-bioformats","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python-bioformats","identifiers":["doi:10.2144/000112257"],"license":"BSD-3-Clause","summary":"Python-bioformats is a Python wrapper for Bio-Formats, a standalone Java library for reading and writing life sciences image file formats."}}}

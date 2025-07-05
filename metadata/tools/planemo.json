@@ -1,0 +1,1 @@
+{"tool_name":"planemo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"planemo","identifiers":["doi:10.1093/nar/gky379"],"license":"Academic Free License version 3.0","summary":"Command-line utilities to assist in building tools for the galaxy project (http://galaxyproject.org/)."}}}

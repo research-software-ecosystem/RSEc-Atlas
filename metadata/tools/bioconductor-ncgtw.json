@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ncgtw","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ncgtw","identifiers":["doi:10.18129/b9.bioc.ncgtw"],"license":"GPL-2","summary":"Alignment of LC-MS Profiles by Neighbor-wise Compound-specific Graphical Time Warping with Misalignment Detection"}}}

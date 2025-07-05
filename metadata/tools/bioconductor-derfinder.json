@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-derfinder","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-derfinder","identifiers":["biotools:derfinder","doi:10.1093/biostatistics/kxt053"],"license":"Artistic-2.0","summary":"Annotation-agnostic differential expression analysis of rna-seq data at base-pair resolution via the der finder approach"}}}

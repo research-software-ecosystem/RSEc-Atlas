@@ -1,0 +1,1 @@
+{"tool_name":"pgx-pipe-helper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pgx-pipe-helper","identifiers":[],"license":"Not available","summary":"A helper module for wrapping functionality which is common to all pipeline stages."}}}

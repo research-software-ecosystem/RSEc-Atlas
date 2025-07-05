@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-crlmm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-crlmm","identifiers":["biotools:crlmm","pmid:22523482","doi:10.18129/b9.bioc.crlmm"],"license":"Artistic-2.0","summary":"Genotype Calling (CRLMM) and Copy Number Analysis tool for Affymetrix SNP 5.0 and 6.0 and Illumina arrays"}}}

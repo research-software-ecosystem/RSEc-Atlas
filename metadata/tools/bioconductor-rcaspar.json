@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rcaspar","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rcaspar","identifiers":["biotools:rcaspar","doi:10.1038/nmeth.3252"],"license":"GPL (>=3)","summary":"A package for survival time prediction based on a piecewise baseline hazard Cox regression model."}}}

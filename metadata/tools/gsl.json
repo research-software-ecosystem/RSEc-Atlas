@@ -1,0 +1,1 @@
+{"tool_name":"gsl","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"gsl","home":"https://www.gnu.org/software/gsl/","license":"GPL-3.0","summary":"The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.","addition_date":"2021-05-26T20:06:53Z","last_update_date":"2021-06-25T11:56:53Z","tool_type":["Library"]}}}

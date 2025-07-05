@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cnorfeeder","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cnorfeeder","identifiers":["doi:10.18129/b9.bioc.cnorfeeder"],"license":"GPL-3","summary":"Integration of CellNOptR to add missing links"}}}

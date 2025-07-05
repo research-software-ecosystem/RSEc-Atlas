@@ -1,0 +1,1 @@
+{"tool_name":"yahmm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"yahmm","identifiers":[],"license":"MIT","summary":"YAHMM is a HMM package for Python, implemented in Cython for speed."}}}

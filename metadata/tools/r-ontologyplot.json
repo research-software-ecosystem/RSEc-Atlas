@@ -1,0 +1,1 @@
+{"tool_name":"r-ontologyplot","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-ontologyplot","identifiers":[],"license":"GPL (>= 2)","summary":"Functions for visualising sets of ontological terms using the 'graphviz' layout system."}}}

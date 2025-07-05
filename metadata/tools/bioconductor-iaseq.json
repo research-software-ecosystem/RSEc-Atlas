@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-iaseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-iaseq","identifiers":["biotools:iaseq","doi:10.1186/1471-2164-13-681"],"license":"GPL-2","summary":"iASeq: integrating multiple sequencing datasets for detecting allele-specific events"}}}

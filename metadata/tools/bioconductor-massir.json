@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-massir","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-massir","identifiers":["biotools:massir","doi:10.1093/bioinformatics/btu161"],"license":"GPL-3","summary":"massiR: MicroArray Sample Sex Identifier"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"gvcf2coverage","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"gvcf2coverage","identifiers":[],"license":"MIT","summary":"Coverage extractor from gVCF files."}}}

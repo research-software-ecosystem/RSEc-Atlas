@@ -1,0 +1,1 @@
+{"tool_name":"uniprot_id_mapping","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"uniprot_id_mapping","home":"http://www.uniprot.org/mapping/","summary":"Maps identifiers to or from UniProtKB.","addition_date":"2015-01-29T15:46:43Z","last_update_date":"2018-12-10T12:58:55Z","tool_type":["Web application"],"version":["1"],"collections":["UniProt Tools"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"confindr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"confindr","identifiers":["doi:10.7717/peerj.6995"],"license":"MIT","summary":"Detect intra- and inter-species bacterial contamination in ngs reads"}}}

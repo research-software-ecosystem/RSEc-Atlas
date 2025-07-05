@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gcsscore","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gcsscore","identifiers":["doi:10.18129/b9.bioc.gcsscore"],"license":"GPL (>=3)","summary":"GCSscore: an R package for microarray analysis for Affymetrix/Thermo Fisher arrays"}}}

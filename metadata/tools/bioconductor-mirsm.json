@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirsm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirsm","identifiers":["doi:10.18129/b9.bioc.mirsm"],"license":"GPL-3","summary":"Inferring miRNA sponge modules by integrating expression data and miRNA-target binding information"}}}

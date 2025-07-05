@@ -1,0 +1,1 @@
+{"tool_name":"scxa-plots","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"scxa-plots","identifiers":[],"license":"Apache-2.0","summary":"A set of wrappers to produce some bespoke plots used by the team behind single-cell expresion atlas (scxa) in single-cell rna-seq analysis. not to be confused with the plots displayed in scxa itself."}}}

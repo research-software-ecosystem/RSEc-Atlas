@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-madseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-madseq","identifiers":["biotools:madseq","doi:10.1101/142299"],"license":"GPL(>=2)","summary":"Mosaic Aneuploidy Detection and Quantification using Massive Parallel Sequencing Data"}}}

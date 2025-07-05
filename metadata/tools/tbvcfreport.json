@@ -1,0 +1,1 @@
+{"tool_name":"tbvcfreport","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"tbvcfreport","identifiers":[],"license":"GPL-3.0","summary":"Parses snpeff annotated m.tb vcf(s) and generates an interactive html-based report."}}}

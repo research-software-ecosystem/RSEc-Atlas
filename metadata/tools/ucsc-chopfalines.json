@@ -1,0 +1,1 @@
+{"tool_name":"ucsc-chopfalines","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc-chopfalines","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Read in fa file with long lines and rewrite it with shorter lines"}}}

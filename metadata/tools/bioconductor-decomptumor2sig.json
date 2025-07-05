@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-decomptumor2sig","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-decomptumor2sig","identifiers":["doi:10.18129/b9.bioc.decomptumor2sig"],"license":"GPL-2","summary":"Decomposition of individual tumors into mutational signatures by signature refitting"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mircomp","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mircomp","identifiers":["doi:10.18129/b9.bioc.mircomp"],"license":"GPL-3 | GNU GENERAL PUBLIC LICENSE Version 2","summary":"Tools to assess and compare mirna expression estimatation methods"}}}

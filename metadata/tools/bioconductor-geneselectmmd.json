@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-geneselectmmd","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-geneselectmmd","identifiers":["doi:10.18129/b9.bioc.geneselectmmd"],"license":"GPL (>= 2)","summary":"Gene selection based on the marginal distributions of gene profiles that characterized by a mixture of three-component multivariate distributions"}}}

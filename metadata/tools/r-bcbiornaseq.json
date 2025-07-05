@@ -1,0 +1,1 @@
+{"tool_name":"r-bcbiornaseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-bcbiornaseq","identifiers":["biotools:bcbiornaseq","doi:10.12688/f1000research.12093.2"],"license":"GPL-3","summary":"R package for bcbio rna-seq analysis."}}}

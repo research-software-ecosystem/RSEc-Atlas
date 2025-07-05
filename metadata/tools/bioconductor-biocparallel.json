@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biocparallel","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biocparallel","identifiers":["biotools:biocparallel","doi:10.1214/14-STS476"],"license":"GPL-2","summary":"Bioconductor facilities for parallel evaluation"}}}

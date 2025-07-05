@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-seqarray","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-seqarray","identifiers":["doi:10.18129/b9.bioc.seqarray"],"license":"GPL-3","summary":"Data management of large-scale whole-genome sequence variant calls"}}}

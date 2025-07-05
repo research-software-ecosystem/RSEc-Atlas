@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rmir","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rmir","identifiers":["biotools:rmir","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"Package to work with miRNAs and miRNA targets with R"}}}

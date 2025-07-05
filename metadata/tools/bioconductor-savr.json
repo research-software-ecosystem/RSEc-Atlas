@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-savr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-savr","identifiers":["biotools:savr","doi:10.1038/nmeth.3252"],"license":"AGPL-3","summary":"Gnu r parse and analyze illumina sav files"}}}

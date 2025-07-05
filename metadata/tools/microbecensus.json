@@ -1,0 +1,1 @@
+{"tool_name":"microbecensus","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"microbecensus","identifiers":[],"license":"GNU General Public License v3.0","summary":"A command-line tool for estimating average genome size from shotgun sequence data"}}}

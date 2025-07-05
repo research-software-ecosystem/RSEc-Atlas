@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-copywriter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-copywriter","identifiers":["biotools:copywriter","doi:10.1186/s13059-015-0617-1"],"license":"GPL-2","summary":"Copy number information from targeted sequencing using off-target reads"}}}

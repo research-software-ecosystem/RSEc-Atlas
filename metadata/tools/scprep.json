@@ -1,0 +1,1 @@
+{"tool_name":"scprep","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"scprep","identifiers":[],"license":"GPL-3.0","summary":"Tools for loading and preprocessing biological matrices in python."}}}

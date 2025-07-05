@@ -1,0 +1,1 @@
+{"tool_name":"perl-capture-tiny","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-capture-tiny","identifiers":[],"license":"Apache-2.0","summary":"Capture STDOUT and STDERR from Perl, XS or external programs"}}}

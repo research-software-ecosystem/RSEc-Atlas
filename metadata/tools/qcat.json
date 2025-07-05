@@ -1,0 +1,1 @@
+{"tool_name":"qcat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"qcat","identifiers":[],"license":"Mozilla Public License Version 2.0","summary":"Qcat is Python command-line tool for demultiplexing Oxford Nanopore reads from FASTQ files."}}}

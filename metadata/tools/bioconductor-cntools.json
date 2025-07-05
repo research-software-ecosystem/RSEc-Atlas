@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cntools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cntools","identifiers":["biotools:cntools","doi:10.1038/nmeth.3252"],"license":"LGPL","summary":"Convert segment data into a region by sample matrix to allow for other high level computational analyses."}}}

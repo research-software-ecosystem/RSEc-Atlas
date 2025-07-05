@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-multiassayexperiment","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-multiassayexperiment","identifiers":["biotools:multiassayexperiment","doi:10.1101/144774"],"license":"Artistic-2.0","summary":"Develop an integrative environment where multiple assays are managed and preprocessed for genomic data analysis."}}}

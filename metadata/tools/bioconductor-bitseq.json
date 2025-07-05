@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bitseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bitseq","identifiers":["biotools:bitseq","doi:10.1093/bioinformatics/bts260"],"license":"Artistic-2.0","summary":"Transcript expression inference and differential expression analysis for RNA-seq data"}}}

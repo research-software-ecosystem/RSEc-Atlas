@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirna102xgaincdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirna102xgaincdf","identifiers":["doi:10.18129/b9.bioc.mirna102xgaincdf"],"license":"LGPL","summary":"A package containing an environment representing the miRNA-1_0_2Xgain.CDF file."}}}

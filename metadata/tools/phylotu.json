@@ -1,0 +1,1 @@
+{"tool_name":"phylotu","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"phylotu","home":"https://github.com/sharpton/PhylOTU","summary":"Identifies microbial operational taxonomic units (OTUs) from metagenomic data.","addition_date":"2017-12-18T00:10:58Z","last_update_date":"2018-12-10T12:58:52Z","tool_type":["Command-line tool"]}}}

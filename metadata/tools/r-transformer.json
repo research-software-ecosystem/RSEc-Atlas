@@ -1,0 +1,1 @@
+{"tool_name":"r-transformer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-transformer","identifiers":[],"license":"Not available","summary":"Additional s3 and s4 coercion methods for easy interconversion between bioconductor and tidyverse data classes."}}}

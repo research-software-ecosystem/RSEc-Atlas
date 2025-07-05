@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-isocorrector","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-isocorrector","identifiers":["doi:10.18129/b9.bioc.isocorrector"],"license":"GPL-3","summary":"Correction for natural isotope abundance and tracer purity in MS and MS/MS data from stable isotope labeling experiments"}}}

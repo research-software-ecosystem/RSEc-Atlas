@@ -1,0 +1,1 @@
+{"tool_name":"r-rematch2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-rematch2","identifiers":[],"license":"MIT","summary":"Wrappers on 'regexpr' and 'gregexpr' to return the match results in tidy data frames."}}}

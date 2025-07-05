@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-simlr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-simlr","identifiers":["biotools:simlr","doi:10.1101/118901"],"license":"file LICENSE","summary":"Single-cell Interpretation via Multi-kernel LeaRning (SIMLR)"}}}

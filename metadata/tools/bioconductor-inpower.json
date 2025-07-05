@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-inpower","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-inpower","identifiers":["biotools:inpower","doi:10.1038/nmeth.3252"],"license":"GPL-2","summary":"An R package for computing the number of susceptibility SNPs"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ssviz","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ssviz","identifiers":["biotools:ssviz","doi:10.1038/nmeth.3252"],"license":"GPL-2","summary":"A small RNA-seq visualizer and analysis toolkit"}}}

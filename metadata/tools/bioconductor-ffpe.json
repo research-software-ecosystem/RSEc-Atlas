@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ffpe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ffpe","identifiers":["biotools:ffpe","doi:10.1158/1078-0432.CCR-12-1915"],"license":"GPL (>2)","summary":"Quality assessment and control for FFPE microarray expression data"}}}

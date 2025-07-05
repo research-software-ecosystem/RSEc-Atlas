@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dyebias","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dyebias","identifiers":["biotools:dyebias","doi:10.1038/msb.2009.21"],"license":"GPL-3","summary":"The GASSCO method for correcting for slide-dependent gene-specific dye bias"}}}

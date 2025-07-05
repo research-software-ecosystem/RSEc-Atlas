@@ -1,0 +1,1 @@
+{"tool_name":"r-itertools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-itertools","identifiers":[],"license":"GPL-2.0","summary":"Various tools for creating iterators, many patterned after functions in the Python itertools module, and others patterned after functions in the snow package"}}}

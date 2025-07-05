@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-vegamc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-vegamc","identifiers":["biotools:vegamc","doi:10.1093/bioinformatics/bts453"],"license":"GPL-2","summary":"VegaMC: A Package Implementing a Variational Piecewise Smooth Model for Identification of Driver Chromosomal Imbalances in Cancer"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"rgin","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"rgin","home":"http://bioconductor.org/packages/release/bioc/html/Rgin.html","license":"MIT","summary":"C++ implementation of SConES.","addition_date":"2018-07-14T20:31:25Z","last_update_date":"2018-12-10T12:59:00Z","tool_type":["Library"],"version":["1.0.0"],"collections":["BioConductor"]}}}

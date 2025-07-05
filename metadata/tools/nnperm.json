@@ -1,0 +1,1 @@
+{"tool_name":"nnperm","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"nnperm","home":"http://www.davecurtis.net/bvnorth/software.html","summary":"Neural network program for analysing case-control multi-locus genotype data using a permutation test.","addition_date":"2017-08-03T18:52:27Z","last_update_date":"2018-12-10T12:58:49Z","tool_type":["Command-line tool"]}}}

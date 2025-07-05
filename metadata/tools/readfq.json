@@ -1,0 +1,1 @@
+{"tool_name":"readfq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"readfq","identifiers":[],"license":"MIT","summary":"A high-speed tool to calculate reads number and total base count in FASTQ file, forked from Li Heng's original version"}}}

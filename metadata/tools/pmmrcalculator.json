@@ -1,0 +1,1 @@
+{"tool_name":"pmmrcalculator","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pmmrcalculator","identifiers":[],"license":"GNU General Public License v3.0","summary":"A small python tool to calculate pairwise mismatch rate between all individuals in an eigenstrat dataset."}}}

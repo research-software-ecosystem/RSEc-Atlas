@@ -1,0 +1,1 @@
+{"tool_name":"refseq_masher","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"refseq_masher","identifiers":[],"license":"Apache-2.0","summary":"Refseq_masher finds what ncbi refseq genomes match or are contained within your sequence data using mash"}}}

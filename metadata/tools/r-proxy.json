@@ -1,0 +1,1 @@
+{"tool_name":"r-proxy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-proxy","identifiers":[],"license":"GPL-2.0","summary":"Provides an extensible framework for the efficient calculation of auto- and cross-proximities, along with implementations of the most popular ones."}}}

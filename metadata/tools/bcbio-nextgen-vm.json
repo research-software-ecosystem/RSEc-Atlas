@@ -1,0 +1,1 @@
+{"tool_name":"bcbio-nextgen-vm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bcbio-nextgen-vm","identifiers":[],"license":"MIT","summary":"Run bcbio-nextgen genomic sequencing analyses using isolated containers and virtual machines"}}}

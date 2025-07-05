@@ -1,0 +1,1 @@
+{"tool_name":"snvmix","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"snvmix","home":"http://shahlab.ca/projects/snvmix/","license":"MIT","summary":"Detects single nucleotide variants from next generation sequencing data derived from tumor tissues.","addition_date":"2017-01-13T13:16:33Z","last_update_date":"2018-12-10T12:58:54Z","tool_type":["Command-line tool"]}}}

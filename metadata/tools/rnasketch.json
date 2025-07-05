@@ -1,0 +1,1 @@
+{"tool_name":"rnasketch","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rnasketch","identifiers":["doi:10.1093/bioinformatics/btx263"],"license":"GNU General Public License v3.0","summary":"Rnasketch library for designing rna molecules. glue between rnablueprint/rnaredprint and viennarna, nupack, hotknots, pkiss."}}}

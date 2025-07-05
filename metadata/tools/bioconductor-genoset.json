@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genoset","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genoset","identifiers":["biotools:genoset","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"A RangedSummarizedExperiment with methods for copy number analysis"}}}

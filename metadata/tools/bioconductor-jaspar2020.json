@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-jaspar2020","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-jaspar2020","identifiers":["doi:10.18129/b9.bioc.jaspar2020"],"license":"GPL-2.0","summary":"Data package for JASPAR2020. To search this databases, please use the package TFBSTools (>= 1.23.1)."}}}

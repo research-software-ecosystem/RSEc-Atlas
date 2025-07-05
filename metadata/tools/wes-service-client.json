@@ -1,0 +1,1 @@
+{"tool_name":"wes-service-client","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"wes-service-client","identifiers":[],"license":"Apache-2.0","summary":"Implementation of the ga4gh workflow execution service, a rest service for running workflows; client support only"}}}

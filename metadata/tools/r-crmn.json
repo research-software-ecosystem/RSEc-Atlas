@@ -1,0 +1,1 @@
+{"tool_name":"r-crmn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-crmn","identifiers":["doi:10.1021/ac901143w"],"license":"GPL (\u2265 3)","summary":"Implements the Cross-contribution Compensating Multiple standard Normalization (CCMN) method described in Redestig et al. (2009) Analytical Chemistry and other normalization algorithms."}}}

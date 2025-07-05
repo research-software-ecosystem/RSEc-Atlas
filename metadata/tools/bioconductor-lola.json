@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-lola","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-lola","identifiers":["biotools:lola","doi:10.1093/bioinformatics/btv612"],"license":"GPL-3","summary":"Locus overlap analysis for enrichment of genomic ranges"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-acme","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-acme","identifiers":["biotools:acme","doi:10.1016/S0076-6879(06)11014-9"],"license":"GPL (>= 2)","summary":"Algorithms for Calculating Microarray Enrichment (ACME)"}}}

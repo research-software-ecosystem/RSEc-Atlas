@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-sqldataframe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-sqldataframe","identifiers":["doi:10.18129/b9.bioc.sqldataframe"],"license":"GPL-3.0","summary":"Representation of SQL database in DataFrame metaphor"}}}

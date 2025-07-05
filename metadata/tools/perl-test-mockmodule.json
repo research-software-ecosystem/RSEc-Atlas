@@ -1,0 +1,1 @@
+{"tool_name":"perl-test-mockmodule","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-test-mockmodule","identifiers":[],"license":"gpl_3","summary":"Override subroutines in a module for unit testing"}}}

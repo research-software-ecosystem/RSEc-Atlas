@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirintegrator","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirintegrator","identifiers":["biotools:mirintegrator","doi:10.1038/srep29251"],"license":"GPL (>=3)","summary":"Integrating microRNA expression into signaling pathways for pathway analysis"}}}

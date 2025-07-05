@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rbm","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rbm","identifiers":["biotools:rbm","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"RBM: a R package for microarray and RNA-Seq data analysis"}}}

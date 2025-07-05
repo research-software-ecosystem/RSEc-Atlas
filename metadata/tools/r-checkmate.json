@@ -1,0 +1,1 @@
+{"tool_name":"r-checkmate","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-checkmate","identifiers":[],"license":"BSD-3-Clause","summary":"Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-motifcounter","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-motifcounter","identifiers":["doi:10.18129/b9.bioc.motifcounter"],"license":"GPL-2","summary":"R package for analysing TFBSs in DNA sequences"}}}

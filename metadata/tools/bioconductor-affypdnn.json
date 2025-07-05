@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-affypdnn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-affypdnn","identifiers":["doi:10.18129/b9.bioc.affypdnn"],"license":"LGPL","summary":"Probe Dependent Nearest Neighbours (PDNN) for the affy package"}}}

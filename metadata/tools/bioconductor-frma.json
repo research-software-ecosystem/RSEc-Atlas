@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-frma","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-frma","identifiers":["biotools:frma","doi:10.1093/bioinformatics/bts588","doi:10.1186/1471-2105-12-369"],"license":"GPL (>= 2)","summary":"Frozen RMA and Barcode"}}}

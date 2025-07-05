@@ -1,0 +1,1 @@
+{"tool_name":"junit-xml","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"junit-xml","identifiers":[],"license":"MIT","summary":"Creates JUnit XML test result documents that can be read by tools such as Jenkins"}}}

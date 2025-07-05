@@ -1,0 +1,1 @@
+{"tool_name":"pglite","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pglite","identifiers":[],"license":"Apache 2.0","summary":"This a Python module allowing to use a PostgreSQL instance \"as if\" it was a simple SQLite database: no admin privileges, no configuration needed."}}}

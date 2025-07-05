@@ -1,0 +1,1 @@
+{"tool_name":"biopet-sampleconfig","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"biopet-sampleconfig","identifiers":[],"license":"MIT","summary":"extracttsv  this mean can extract samples, libraries and readgroups from a sample config file."}}}

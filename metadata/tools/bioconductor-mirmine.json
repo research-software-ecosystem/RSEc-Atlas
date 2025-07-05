@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mirmine","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mirmine","identifiers":["doi:10.18129/b9.bioc.mirmine"],"license":"GPL-3.0","summary":"Data package with miRNA-seq datasets from miRmine database as RangedSummarizedExperiment"}}}

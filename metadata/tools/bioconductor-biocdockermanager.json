@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biocdockermanager","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biocdockermanager","identifiers":["doi:10.18129/b9.bioc.biocdockermanager"],"license":"Artistic-2.0","summary":"Access bioconductor docker images"}}}

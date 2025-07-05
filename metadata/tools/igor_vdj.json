@@ -1,0 +1,1 @@
+{"tool_name":"igor_vdj","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"igor_vdj","identifiers":[],"license":"GPL-3.0","summary":"IGoR is a C++ software designed to infer V(D)J recombination related processes from sequencing data."}}}

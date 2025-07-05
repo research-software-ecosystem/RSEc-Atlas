@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-heatplus","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-heatplus","identifiers":["biotools:heatplus","doi:10.1038/nmeth.3252"],"license":"GPL (>= 2)","summary":"Heatmaps with row and/or column covariates and colored clusters"}}}

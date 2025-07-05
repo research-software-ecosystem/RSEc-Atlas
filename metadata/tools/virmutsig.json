@@ -1,0 +1,1 @@
+{"tool_name":"virmutsig","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"virmutsig","home":"https://github.com/BIMIB-DISCo/VirMutSig","license":"Apache-2.0","summary":"Discovery and assignment of viral mutational signatures from sequencing data.","addition_date":"2023-01-24T15:50:49.569918Z","last_update_date":"2024-11-24T15:10:26.857481Z","tool_type":["Library"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-expressionview","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-expressionview","identifiers":["doi:10.18129/b9.bioc.expressionview"],"license":"GPL (>= 2)","summary":"Visualize biclusters identified in gene expression data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ebimage","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ebimage","identifiers":["biotools:ebimage","doi:10.1093/bioinformatics/btq046"],"license":"LGPL","summary":"Image processing and analysis toolbox for R"}}}

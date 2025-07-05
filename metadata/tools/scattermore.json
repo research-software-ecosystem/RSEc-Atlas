@@ -1,0 +1,1 @@
+{"tool_name":"scattermore","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"scattermore","home":"https://github.com/exaexa/scattermore","license":"GPL-3.0","summary":"R library for fast plotting of scatterplots with millions of points","addition_date":"2020-01-28T20:50:03Z","last_update_date":"2021-05-11T10:12:30Z","tool_type":["Command-line tool"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"probamconvert","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"probamconvert","identifiers":["doi:10.1021/acs.jproteome.7b00132"],"license":"Apache License, Version 2.0","summary":"Probamconvert is a conversion tool to convert common peptide identification files (mzidentml, pepxml, mztab) to the probam or probed format"}}}

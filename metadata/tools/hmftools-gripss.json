@@ -1,0 +1,1 @@
+{"tool_name":"hmftools-gripss","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"hmftools-gripss","identifiers":[],"license":"Not available","summary":"Gripss applies a set of filtering and post processing steps on gridss paired tumor-normal output to produce a high confidence set of somatic sv for a tumor sample."}}}

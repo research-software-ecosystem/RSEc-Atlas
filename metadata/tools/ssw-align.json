@@ -1,0 +1,1 @@
+{"tool_name":"ssw-align","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ssw-align","identifiers":["doi:10.1371/journal.pone.0082138"],"license":"custom, see /usr/share/doc/ssw-align/copyright","summary":"Smith-waterman aligner based on libssw"}}}

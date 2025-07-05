@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gsalightning","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gsalightning","identifiers":["biotools:gsalightning","doi:10.1093/bioinformatics/btw349"],"license":"GPL (>=2)","summary":"Fast Permutation-based Gene Set Analysis"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"pepr-r-package","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"pepr-R-package","home":"http://code.databio.org/pepr/","summary":"pepr is the official R package for reading Portable Encapsulated Projects or PEPs in R.","addition_date":"2021-04-15T20:10:33Z","last_update_date":"2021-04-15T20:10:33Z","version":["0.4.0"]}}}

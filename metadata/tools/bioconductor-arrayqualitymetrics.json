@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-arrayqualitymetrics","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-arrayqualitymetrics","identifiers":["biotools:arrayqualitymetrics","doi:10.1016/j.ygeno.2010.01.003"],"license":"LGPL (>= 2)","summary":"Quality metrics report for microarray data sets"}}}

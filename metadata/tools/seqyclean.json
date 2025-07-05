@@ -1,0 +1,1 @@
+{"tool_name":"seqyclean","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"seqyclean","identifiers":["doi:10.1145/3107411.3107446"],"license":"MIT","summary":"Main purpose of this software is to pre-process NGS data in order to prepare for downstream analysis."}}}

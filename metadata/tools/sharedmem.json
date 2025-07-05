@@ -1,0 +1,1 @@
+{"tool_name":"sharedmem","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sharedmem","identifiers":[],"license":"GNU General Public License v3.0","summary":"Dispatch your trivially parallizable jobs with sharedmem. "}}}

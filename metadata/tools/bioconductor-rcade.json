@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rcade","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rcade","identifiers":["doi:10.18129/b9.bioc.rcade"],"license":"GPL-2","summary":"R-based analysis of ChIP-seq And Differential Expression - a tool for integrating a count-based ChIP-seq analysis with differential expression summary data"}}}

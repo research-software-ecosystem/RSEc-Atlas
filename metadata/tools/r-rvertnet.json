@@ -1,0 +1,1 @@
+{"tool_name":"r-rvertnet","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-rvertnet","identifiers":[],"license":"MIT","summary":"Retrieve, map and summarize data from the 'VertNet.org'. Functions allow searching by many parameters, including 'taxonomic' names, places, and dates."}}}

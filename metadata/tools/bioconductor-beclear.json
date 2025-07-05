@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-beclear","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-beclear","identifiers":["biotools:beclear","doi:10.1371/journal.pone.0159921"],"license":"GPL-3","summary":"Correction of batch effects in DNA methylation data"}}}

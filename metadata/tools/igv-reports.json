@@ -1,0 +1,1 @@
+{"tool_name":"igv-reports","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"igv-reports","identifiers":[],"license":"MIT","summary":"Creates self-contained html pages for visual variant review with IGV (igv.js)."}}}

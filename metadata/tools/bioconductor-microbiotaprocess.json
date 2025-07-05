@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-microbiotaprocess","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-microbiotaprocess","identifiers":["doi:10.18129/b9.bioc.microbiotaprocess"],"license":"GPL (>= 3.0)","summary":"an R package for analysis, visualization and biomarker discovery of microbiome"}}}

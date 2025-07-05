@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hapfabia","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hapfabia","identifiers":["biotools:hapfabia","doi:10.1093/nar/gkt1013"],"license":"LGPL (>= 2.1)","summary":"hapFabia: Identification of very short segments of identity by descent (IBD) characterized by rare variants in large sequencing data"}}}

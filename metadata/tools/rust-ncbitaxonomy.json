@@ -1,0 +1,1 @@
+{"tool_name":"rust-ncbitaxonomy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rust-ncbitaxonomy","identifiers":[],"license":"MIT","summary":"Read NCBI Taxonomy Database from files and work with NCBI Taxonomy DB"}}}

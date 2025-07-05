@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hdcytodata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hdcytodata","identifiers":["doi:10.18129/b9.bioc.hdcytodata"],"license":"MIT","summary":"Collection of high-dimensional cytometry benchmark datasets in bioconductor object formats"}}}

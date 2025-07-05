@@ -1,0 +1,1 @@
+{"tool_name":"perl-package-stash-xs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-package-stash-xs","identifiers":[],"license":"perl_5","summary":"faster and more correct implementation of the Package::Stash API"}}}

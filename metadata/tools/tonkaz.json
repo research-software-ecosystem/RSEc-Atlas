@@ -1,0 +1,1 @@
+{"tool_name":"tonkaz","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"tonkaz","home":"https://github.com/sapporo-wes/tonkaz","license":"Apache-2.0","summary":"CLI tool to verify workflow reproducibility.","addition_date":"2022-10-03T03:40:56.876125Z","last_update_date":"2022-10-03T03:41:35.086132Z","tool_type":["Command-line tool"],"version":["0.2.3"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"tetranscripts","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"tetranscripts","identifiers":["doi:10.1093/bioinformatics/btv422"],"license":"GPL-3.0","summary":"A package for including transposable elements in differential enrichment analysis of sequencing datasets."}}}

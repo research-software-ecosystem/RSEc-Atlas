@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-ruvnormalize","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-ruvnormalize","identifiers":["biotools:ruvnormalize","doi:10.1093/biostatistics/kxv026"],"license":"GPL-3","summary":"RUV for normalization of expression array data"}}}

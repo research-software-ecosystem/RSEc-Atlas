@@ -1,0 +1,1 @@
+{"tool_name":"cortexpy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"cortexpy","identifiers":["doi:10.3389/fpls.2018.01625"],"license":"Apache Software","summary":"A Python API for manipulating (Mc)Cortex de novo assembly graph and link data"}}}

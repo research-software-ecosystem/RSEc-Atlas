@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-iranges","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-iranges","identifiers":["biotools:iranges","doi:10.1371/journal.pcbi.1003118"],"license":"Artistic-2.0","summary":"Gnu r low-level containers for storing sets of integer ranges"}}}

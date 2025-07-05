@@ -1,0 +1,1 @@
+{"tool_name":"fatotwobit","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"fatotwobit","home":"https://genome.ucsc.edu/goldenPath/help/twoBit.html","summary":"Convert DNA from fasta to 2bit format","addition_date":"2021-04-22T18:55:19Z","last_update_date":"2022-12-20T10:21:51.207595Z","tool_type":["Command-line tool"],"collections":["ucsc-utilities"]}}}

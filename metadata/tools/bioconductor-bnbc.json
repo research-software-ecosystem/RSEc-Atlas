@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bnbc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bnbc","identifiers":["doi:10.18129/b9.bioc.bnbc"],"license":"Artistic-2.0","summary":"Bandwise normalization and batch correction of Hi-C data"}}}

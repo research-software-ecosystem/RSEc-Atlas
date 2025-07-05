@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rnits","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rnits","identifiers":["biotools:rnits","doi:10.1038/nmeth.3252"],"license":"GPL-3","summary":"R Normalization and Inference of Time Series data"}}}

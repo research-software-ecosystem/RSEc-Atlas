@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rdrtoolbox","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rdrtoolbox","identifiers":["doi:10.18129/b9.bioc.rdrtoolbox"],"license":"GPL (>= 2)","summary":"A package for nonlinear dimension reduction with Isomap and LLE."}}}

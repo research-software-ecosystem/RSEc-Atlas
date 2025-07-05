@@ -1,0 +1,1 @@
+{"tool_name":"perl-bundle-bioperl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-bundle-bioperl","identifiers":["biotools:bioperl","doi:10.1007/978-1-59745-535-0_26"],"license":"Not available","summary":"A bundle to install external cpan modules used by bioperl 1.5.2"}}}

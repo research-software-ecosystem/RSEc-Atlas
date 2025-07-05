@@ -1,0 +1,1 @@
+{"tool_name":"ddrage","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ddrage","identifiers":["doi:10.1111/1755-0998.12743"],"license":"MIT","summary":"Simulator for ddradseq (double digest restriction site associated dna sequencing) datasets. generates reads (fastq format) that can be analyzed and validated using a ground truth file (yaml)."}}}

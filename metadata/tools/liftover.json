@@ -1,0 +1,1 @@
+{"tool_name":"liftover","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"liftover","home":"http://api.bioinfo.no/wsdl/LiftOverService.wsdl","summary":"This service converts genome coordinates and genome annotation files between assemblies.","addition_date":"2015-08-03T09:37:13Z","last_update_date":"2018-12-10T12:58:51Z","tool_type":["Web service"],"version":["1"]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-qusage","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-qusage","identifiers":["biotools:qusage","doi:10.1093/nar/gkt660"],"license":"GPL (>= 2)","summary":"qusage: Quantitative Set Analysis for Gene Expression"}}}

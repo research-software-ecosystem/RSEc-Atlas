@@ -1,0 +1,1 @@
+{"tool_name":"tepid","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"tepid","identifiers":["doi:10.7554/elife.20777"],"license":"GNU General Public License v3.0","summary":"Tepid uses paired-end illumina sequencing reads to identify novel te variants."}}}

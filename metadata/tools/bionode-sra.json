@@ -1,0 +1,1 @@
+{"tool_name":"bionode-sra","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"bionode-sra","home":"http://github.com/bionode/bionode-sra","summary":"A Node.js wrapper for SRA Toolkit.","addition_date":"2015-01-22T11:14:52Z","last_update_date":"2018-12-10T12:58:51Z","tool_type":["Library"],"version":["1.0.1"]}}}

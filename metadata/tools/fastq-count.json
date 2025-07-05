@@ -1,0 +1,1 @@
+{"tool_name":"fastq-count","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fastq-count","identifiers":[],"license":"MIT","summary":"Simple fastq read and base counter for paired data."}}}

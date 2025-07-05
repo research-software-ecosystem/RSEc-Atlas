@@ -1,0 +1,1 @@
+{"tool_name":"perl-forks","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-forks","identifiers":[],"license":"perl_5","summary":"drop-in replacement for Perl threads using fork()"}}}

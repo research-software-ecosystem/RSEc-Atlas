@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dchiprep","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dchiprep","identifiers":["biotools:dchiprep","doi:10.7717/peerj.1981"],"license":"MIT","summary":"DChIPRep - Analysis of chromatin modification ChIP-Seq data with replication"}}}

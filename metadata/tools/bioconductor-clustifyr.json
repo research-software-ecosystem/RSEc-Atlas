@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-clustifyr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-clustifyr","identifiers":["doi:10.18129/b9.bioc.clustifyr"],"license":"MIT","summary":"Classifier for single-cell rna-seq using cell clusters"}}}

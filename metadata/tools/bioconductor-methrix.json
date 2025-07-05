@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-methrix","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-methrix","identifiers":["doi:10.18129/b9.bioc.methrix"],"license":"MIT","summary":"Fast and efficient summarization of generic bedgraph files from bisufite sequencing"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-drimseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-drimseq","identifiers":["biotools:drimseq","doi:10.12688/f1000research.8900.2"],"license":"GPL-3.0","summary":"Differential transcript usage and tuQTL analyses with Dirichlet-multinomial model in RNA-seq"}}}

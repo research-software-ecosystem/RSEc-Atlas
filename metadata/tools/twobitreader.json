@@ -1,0 +1,1 @@
+{"tool_name":"twobitreader","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"twobitreader","identifiers":[],"license":"Artistic License","summary":"A fast python package for reading .2bit files (used by the ucsc genome browser)"}}}

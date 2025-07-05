@@ -1,0 +1,1 @@
+{"tool_name":"r-fastbaps","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-fastbaps","identifiers":["doi:10.5281/zenodo.1472299"],"license":"MIT","summary":"A fast approximation to a Dirichlet Process Mixture model (DPM) for clustering genetic data"}}}

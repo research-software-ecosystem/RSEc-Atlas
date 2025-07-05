@@ -1,0 +1,1 @@
+{"tool_name":"taxopy","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"taxopy","identifiers":[],"license":"GPL-3.0","summary":"A python package for obtaining complete lineages and the lowest common ancestor (lca) from a set of taxonomic identifiers."}}}

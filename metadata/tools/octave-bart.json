@@ -1,0 +1,1 @@
+{"tool_name":"octave-bart","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"octave-bart","identifiers":["doi:10.5281/zenodo.3376744","doi:10.5281/zenodo.2149128","doi:10.5281/zenodo.18041"],"license":"BSD-3-clause","summary":"Octave bindings for bart"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"rsidx","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"rsidx","identifiers":[],"license":"BSD","summary":"Library for indexing vcf files for random access searches by rsid"}}}

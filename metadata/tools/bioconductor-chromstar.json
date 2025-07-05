@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chromstar","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chromstar","identifiers":["biotools:chromstar","doi:10.1101/038612"],"license":"Artistic-2.0","summary":"Combinatorial and Differential Chromatin State Analysis for ChIP-Seq Data"}}}

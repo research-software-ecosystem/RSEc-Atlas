@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biocgraph","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biocgraph","identifiers":["biotools:biocgraph","doi:10.1038/nmeth.3252"],"license":"Artistic-2.0","summary":"This package provides examples and code that make use of the different graph related packages produced by bioconductor."}}}

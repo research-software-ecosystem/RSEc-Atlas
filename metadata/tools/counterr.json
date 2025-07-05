@@ -1,0 +1,1 @@
+{"tool_name":"counterr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"counterr","identifiers":[],"license":"GNU General Public License v3.0","summary":"Counterr is a light-weight command line tool that computes errors in sequencing data by comparing the reads to a reference genome."}}}

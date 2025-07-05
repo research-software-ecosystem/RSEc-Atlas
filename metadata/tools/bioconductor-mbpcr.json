@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-mbpcr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-mbpcr","identifiers":["doi:10.18129/b9.bioc.mbpcr"],"license":"GPL (>= 2)","summary":"Bayesian Piecewise Constant Regression for DNA copy number estimation"}}}

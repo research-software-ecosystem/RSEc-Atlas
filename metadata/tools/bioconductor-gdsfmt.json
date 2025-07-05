@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gdsfmt","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gdsfmt","identifiers":["doi:10.18129/b9.bioc.gdsfmt"],"license":"LGPL-3","summary":"R Interface to CoreArray Genomic Data Structure (GDS) Files"}}}

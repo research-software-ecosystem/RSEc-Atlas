@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hspec","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hspec","identifiers":["doi:10.18129/b9.bioc.hspec"],"license":"LGPL","summary":"A package containing an environment representing the HGU133Plus2_Hs_Hspec.cdf file."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"abeona","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"abeona","identifiers":["doi:10.3389/fpls.2018.01625"],"license":"Apache-2.0","summary":"A simple transcriptome assembler based on kallisto and cortex graphs."}}}

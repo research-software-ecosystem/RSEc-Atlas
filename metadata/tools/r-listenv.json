@@ -1,0 +1,1 @@
+{"tool_name":"r-listenv","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-listenv","identifiers":[],"license":"LGPL (>= 2.1)","summary":"List environments are environments that can be indexed similarly to lists, e.g. 'x <- listenv(); x[[2]] <- \"b\"; names(x)[2] <- \"B\"; print(x$B)'."}}}

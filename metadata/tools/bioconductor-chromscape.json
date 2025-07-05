@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chromscape","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chromscape","identifiers":["doi:10.18129/B9.bioc.ChromSCape"],"license":"GPL-3","summary":"Analysis of single-cell epigenomics datasets with a Shiny App"}}}

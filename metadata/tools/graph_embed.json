@@ -1,0 +1,1 @@
+{"tool_name":"graph_embed","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"graph_embed","identifiers":["doi:10.5281/zenodo.825832"],"license":"MIT","summary":"Compute a 2d embedding of a data matrix given supervised class information."}}}

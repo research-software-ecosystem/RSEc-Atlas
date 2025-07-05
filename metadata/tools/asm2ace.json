@@ -1,0 +1,1 @@
+{"tool_name":"asm2ace","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"asm2ace","home":"http://sourceforge.net/projects/asm2ace/","summary":"Cconverts the Celera ASM assembly format to the Consed ACE or the CAF file format.","addition_date":"2017-12-18T00:14:28Z","last_update_date":"2018-12-10T12:58:58Z","tool_type":["Command-line tool"],"version":["0.6"]}}}

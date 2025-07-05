@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-fcscan","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-fcscan","identifiers":["doi:10.18129/b9.bioc.fcscan"],"license":"Artistic-2.0","summary":"Fcscan for detecting clusters of coordinates with user defined options"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"texmed","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"texmed","home":"http://www.bioinformatics.org/texmed/","summary":"Query PubMed and store references in BibTeX format.","addition_date":"2017-12-18T00:13:45Z","last_update_date":"2018-12-10T12:58:58Z","tool_type":["Command-line tool"],"version":["2.0.7"]}}}

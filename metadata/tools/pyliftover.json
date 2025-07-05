@@ -1,0 +1,1 @@
+{"tool_name":"pyliftover","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"pyliftover","identifiers":[],"license":"MIT","summary":"Pure-python implementation of UCSC ``liftOver`` genome coordinate conversion."}}}

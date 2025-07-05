@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hem","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hem","identifiers":["biotools:hem","doi:10.1093/bioinformatics/bth192"],"license":"GPL (>= 2)","summary":"Heterogeneous error model for identification of differentially expressed genes under multiple conditions"}}}

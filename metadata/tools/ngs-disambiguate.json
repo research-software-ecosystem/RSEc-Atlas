@@ -1,0 +1,1 @@
+{"tool_name":"ngs-disambiguate","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ngs-disambiguate","identifiers":["doi:10.5281/zenodo.166017","doi:10.12688/f1000research.10082.1"],"license":"MIT","summary":"Disambiguation algorithm for reads aligned to human and mouse genomes using Tophat or BWA mem"}}}

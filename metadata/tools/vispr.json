@@ -1,0 +1,1 @@
+{"tool_name":"vispr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"vispr","identifiers":[],"license":"MIT","summary":"Vispr is a visualization framework and analysis workflow for crispr/cas9 knockout screens. vispr is designed to display results calculated by mageck."}}}

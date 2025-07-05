@@ -1,0 +1,1 @@
+{"tool_name":"ucsc_tools","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ucsc_tools","identifiers":["doi:10.1093/bioinformatics/btq351","doi:10.1101/gr.229102","biotools:UCSC_Genome_Browser_Utilities"],"license":"Custom License","summary":"Subset of UCSC tools required by tools and converters distributed with Galaxy."}}}

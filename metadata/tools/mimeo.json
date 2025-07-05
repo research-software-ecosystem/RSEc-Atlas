@@ -1,0 +1,1 @@
+{"tool_name":"mimeo","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"mimeo","identifiers":[],"license":"MIT","summary":"Scan genomes for internally repeated sequences, elements which are repetitive in another species, or high-identity hgt candidate regions between species."}}}

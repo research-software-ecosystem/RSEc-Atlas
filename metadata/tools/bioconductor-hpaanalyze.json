@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hpaanalyze","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hpaanalyze","identifiers":["doi:10.18129/b9.bioc.hpaanalyze"],"license":"LGPL-3 +  GNU LESSER GENERAL PUBLIC LICENSE  Version 3","summary":"Retrieve and analyze data from the human protein atlas"}}}

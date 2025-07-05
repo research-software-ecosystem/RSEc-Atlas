@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hireadsprocessor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hireadsprocessor","identifiers":["doi:10.18129/b9.bioc.hireadsprocessor"],"license":"GPL-3","summary":"Functions to process LM-PCR reads from 454/Illumina data"}}}

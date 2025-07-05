@@ -1,0 +1,1 @@
+{"tool_name":"dx-cwl","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"dx-cwl","identifiers":[],"license":"Apache-2.0","summary":"Import and run cwl workflows on dnanexus"}}}

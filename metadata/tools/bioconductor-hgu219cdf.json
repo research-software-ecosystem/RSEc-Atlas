@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-hgu219cdf","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-hgu219cdf","identifiers":["doi:10.18129/b9.bioc.hgu219cdf"],"license":"LGPL","summary":"A package containing an environment representing the HG-U219.cdf file."}}}

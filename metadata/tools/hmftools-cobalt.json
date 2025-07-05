@@ -1,0 +1,1 @@
+{"tool_name":"hmftools-cobalt","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"hmftools-cobalt","identifiers":[],"license":"MIT","summary":"Counts read starts within each 1000 base window to use in PURPLE"}}}

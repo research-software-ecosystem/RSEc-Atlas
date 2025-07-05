@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-basespacer","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-basespacer","identifiers":["biotools:basespacer","doi:10.1038/nmeth.3252"],"license":"Apache-2.0","summary":"A rich r interface to illumina's basespace cloud computing environment, enabling the fast development of data analysis and visualisation tools."}}}

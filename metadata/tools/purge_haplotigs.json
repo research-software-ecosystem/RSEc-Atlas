@@ -1,0 +1,1 @@
+{"tool_name":"purge_haplotigs","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"purge_haplotigs","identifiers":[],"license":"MIT","summary":"Pipeline to help with curating heterozygous diploid genome assemblies."}}}

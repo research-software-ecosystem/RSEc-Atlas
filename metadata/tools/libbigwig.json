@@ -1,0 +1,1 @@
+{"tool_name":"libbigwig","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"libbigwig","identifiers":["doi:10.5281/zenodo.45278"],"license":"MIT","summary":"A C library for handling bigWig files"}}}

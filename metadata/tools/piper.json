@@ -1,0 +1,1 @@
+{"tool_name":"piper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"piper","identifiers":[],"license":"BSD-2-Clause","summary":"A lightweight python toolkit for gluing together restartable, robust command line pipelines"}}}

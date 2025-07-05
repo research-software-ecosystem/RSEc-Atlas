@@ -1,0 +1,1 @@
+{"tool_name":"luigi","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"luigi","identifiers":["doi:10.1186/s13321-016-0179-6"],"license":"Apache-2.0","summary":"It handles dependency resolution, workflow management, visualization, handling failures, command line integration, and much more"}}}

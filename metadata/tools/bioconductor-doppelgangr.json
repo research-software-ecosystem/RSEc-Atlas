@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-doppelgangr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-doppelgangr","identifiers":["biotools:doppelgangr","doi:10.1093/jnci/djw146"],"license":"GPL (>=2.0)","summary":"Identify likely duplicate samples from genomic or meta-data"}}}

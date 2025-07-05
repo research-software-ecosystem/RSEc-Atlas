@@ -1,0 +1,1 @@
+{"tool_name":"r-findpython","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-findpython","identifiers":["cran:findpython"],"license":"MIT","summary":"Package designed to find an acceptable python binary."}}}

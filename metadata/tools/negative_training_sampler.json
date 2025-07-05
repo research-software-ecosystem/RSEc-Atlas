@@ -1,0 +1,1 @@
+{"tool_name":"negative_training_sampler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"negative_training_sampler","identifiers":[],"license":"MIT","summary":"Generates negative samples with the same gc distribution as the positive samples per chromosome."}}}

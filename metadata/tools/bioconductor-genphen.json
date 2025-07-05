@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-genphen","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-genphen","identifiers":["doi:10.18129/b9.bioc.genphen"],"license":"GPL (>= 2)","summary":"A tool for quantification of associations between genotypes and phenotypes in genome wide association studies (GWAS) with Bayesian inference and statistical learning"}}}

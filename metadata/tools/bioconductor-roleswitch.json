@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-roleswitch","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-roleswitch","identifiers":["biotools:roleswitch","doi:10.1093/nar/gku182"],"license":"GPL-2.0","summary":"Infer miRNA-mRNA interactions using paired expression data from a single sample"}}}

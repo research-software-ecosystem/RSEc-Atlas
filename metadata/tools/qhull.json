@@ -1,0 +1,1 @@
+{"tool_name":"qhull","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"qhull","identifiers":["doi:10.1.1.117.405"],"license":"Custom License","summary":"Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram."}}}

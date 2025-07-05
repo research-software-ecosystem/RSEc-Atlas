@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-curatedtcgadata","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-curatedtcgadata","identifiers":["doi:10.18129/b9.bioc.curatedtcgadata"],"license":"Artistic-2.0","summary":"Curated data from the cancer genome atlas (tcga) as multiassayexperiment objects"}}}

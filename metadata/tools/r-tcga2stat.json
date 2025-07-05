@@ -1,0 +1,1 @@
+{"tool_name":"r-tcga2stat","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"r-tcga2stat","identifiers":["doi:10.1093/bioinformatics/btv677"],"license":"GPL-2","summary":"Automatically downloads and processes tcga genomics and clinical data into a format convenient for statistical analyses in the r environment."}}}

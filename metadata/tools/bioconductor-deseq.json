@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-deseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-deseq","identifiers":["biotools:deseq","doi:10.1186/gb-2010-11-10-r106","doi:10.7490/f1000research.1114334.1"],"license":"GPL-3.0","summary":"Differential gene expression analysis based on the negative binomial distribution"}}}

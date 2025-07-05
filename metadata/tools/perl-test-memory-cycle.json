@@ -1,0 +1,1 @@
+{"tool_name":"perl-test-memory-cycle","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"perl-test-memory-cycle","identifiers":[],"license":"Not available","summary":"Verifies code hasn't left circular references"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-dks","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-dks","identifiers":["doi:10.18129/b9.bioc.dks"],"license":"GPL","summary":"The double Kolmogorov-Smirnov package for evaluating multiple testing procedures."}}}

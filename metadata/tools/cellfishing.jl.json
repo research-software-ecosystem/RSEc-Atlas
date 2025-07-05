@@ -1,0 +1,1 @@
+{"tool_name":"cellfishing.jl","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"CellFishing.jl","home":"https://github.com/bicycle1885/CellFishing.jl","license":"MIT","summary":"Ultrafast and scalable cell search method for single-cell RNA-sequencing.","addition_date":"2019-05-19T10:17:32Z","last_update_date":"2020-06-16T10:55:22Z","tool_type":["Command-line tool"]}}}

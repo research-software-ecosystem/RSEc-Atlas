@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-bayseq","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-bayseq","identifiers":["biotools:bayseq","doi:10.1186/1471-2105-11-422"],"license":"GPL-3","summary":"Empirical Bayesian analysis of patterns of differential expression in count data"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-roar","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-roar","identifiers":["biotools:roar","doi:10.1038/nmeth.3252"],"license":"GPL-3","summary":"Identify differential APA usage from RNA-seq alignments"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-chromswitch","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-chromswitch","identifiers":["doi:10.18129/b9.bioc.chromswitch"],"license":"MIT","summary":"An r package to detect chromatin state switches from epigenomic data"}}}

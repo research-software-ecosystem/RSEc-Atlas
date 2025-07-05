@@ -1,0 +1,1 @@
+{"tool_name":"hlaprofiler","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"hlaprofiler","identifiers":[],"license":"Custom non-commercial license","summary":"HLAProfiler uses k-mer profiles to predict HLA types from paired-end RNA-seq data."}}}

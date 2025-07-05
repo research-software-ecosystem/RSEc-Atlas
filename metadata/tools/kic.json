@@ -1,0 +1,1 @@
+{"tool_name":"kic","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"kic","home":"http://www.ysunlab.org/kic.jsp","summary":"FASTQ compressor based on a new integer-mapped k-mer indexing method.","addition_date":"2017-08-03T18:47:35Z","last_update_date":"2018-12-10T12:58:50Z","tool_type":["Desktop application"]}}}

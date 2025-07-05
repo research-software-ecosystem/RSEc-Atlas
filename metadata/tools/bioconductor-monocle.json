@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-monocle","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-monocle","identifiers":["biotools:monocle","doi:10.1038/nmeth.4150","doi:10.1038/nmeth.4402"],"license":"Artistic-2.0","summary":"Clustering, differential expression, and trajectory analysis for single- cell RNA-Seq"}}}

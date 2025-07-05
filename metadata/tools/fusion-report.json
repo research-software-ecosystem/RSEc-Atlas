@@ -1,0 +1,1 @@
+{"tool_name":"fusion-report","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fusion-report","identifiers":["doi:10.5281/zenodo.2609024"],"license":"GPL-3.0","summary":"Tool for parsing outputs from fusion detection tools. part of a nf-core/rnafusion pipeline"}}}

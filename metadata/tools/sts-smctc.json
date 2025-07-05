@@ -1,0 +1,1 @@
+{"tool_name":"sts-smctc","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sts-smctc","identifiers":[],"license":"GPL-3.0","summary":"A C++ template class library for the efficient and convenient implementation of very general Sequential Monte Carlo algorithms."}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rsubread","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rsubread","identifiers":["biotools:rsubread","doi:10.1093/nar/gkt214"],"license":"GPL-3","summary":"Subread Sequence Alignment and Counting for R"}}}

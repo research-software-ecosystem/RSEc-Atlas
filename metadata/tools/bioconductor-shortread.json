@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-shortread","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-shortread","identifiers":["biotools:shortread","doi:10.1093/bioinformatics/btp450"],"license":"Artistic-2.0","summary":"Gnu r classes and methods for high-throughput short-read sequencing data"}}}

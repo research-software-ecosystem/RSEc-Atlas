@@ -1,0 +1,1 @@
+{"tool_name":"python-burrito","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python-burrito","identifiers":["biotools:burrito","doi:10.3389/fmicb.2018.00365"],"license":"BSD-3.0","summary":"Python framework for controlling command-line applications."}}}

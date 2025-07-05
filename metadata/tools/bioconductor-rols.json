@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-rols","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-rols","identifiers":["biotools:rols","doi:10.1038/nmeth.3252"],"license":"GPL-2.0","summary":"An R interface to the Ontology Lookup Service"}}}

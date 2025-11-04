@@ -31,8 +31,7 @@ async function loadData() {
   try {
     loading.value = true;
     const toolName = decodeURIComponent(route.params.id);
-
-    tool.value = await $fetch(`/metadata/tools/${toolName}.json`);
+    tool.value = await fetchToolMetadata(toolName);
   } catch (error) {
     toast.add({
       title: "Error Loading Tool",

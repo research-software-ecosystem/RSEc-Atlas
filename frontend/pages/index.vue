@@ -124,7 +124,7 @@ async function getTools() {
   loading.value = true;
 
   try {
-    tools.value = await $fetch("/metadata/combined_metadata.json");
+    tools.value = await fetchAllToolsMetadata();
 
     listLicenses();
     listTopics();
@@ -306,10 +306,7 @@ onMounted(async () => {
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
       <template v-if="loading">
-        <ItemCardPlaceHolder
-          v-for="i in Number(perPage)"
-          :key="i"
-        />
+        <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
       </template>
       <template v-else-if="!loading && paginatedItems.length > 0">
         <ItemCard

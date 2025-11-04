@@ -1,3 +1,21 @@
+export async function fetchAllToolsMetadata(): Promise<Tool[]> {
+  try {
+    const response = await $fetch("/metadata/combined_metadata.json");
+    return response as Tool[];
+  } catch (error) {
+    throw new Error(`Failed to fetch all tools metadata: ${error}`);
+  }
+}
+
+export async function fetchToolMetadata(toolName: string): Promise<Tool> {
+  try {
+    const response = await $fetch(`/metadata/tools/${toolName}.json`);
+    return response as Tool;
+  } catch (error) {
+    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`);
+  }
+}
+
 export function getToolLicense(tool: Tool): string {
   const { biotools, bioschemas, bioconda, biocontainers } =
     tool.fetched_metadata;

@@ -22,6 +22,9 @@ jobs:
 
     - name: Set up uv
       uses: astral-sh/setup-uv@v7
+      with:
+        enable-cache: true
+        cache-dependency-glob: "backend/requirements.txt"
 
     - name: Set up Node.js
       uses: actions/setup-node@v6
@@ -60,6 +63,17 @@ jobs:
       run: npm ci
       env:
         NUXT_TELEMETRY_DISABLED: 1
+
+    - name: Cache Nuxt build artifacts
+      uses: actions/cache@v4
+      with:
+        path: |
+          frontend/.nuxt
+          frontend/node_modules/.cache
+        key: nuxt-build-${{ runner.os }}-${{ hashFiles('frontend/package-lock.json') }}-${{ hashFiles('frontend/**/*.vue', 'frontend/**/*.ts', 'frontend/**/*.js') }}
+        restore-keys: |
+          nuxt-build-${{ runner.os }}-${{ hashFiles('frontend/package-lock.json') }}-
+          nuxt-build-${{ runner.os }}-
 
     - name: Generate combined metadata JSON file
       run: python backend/merge_data_files.py

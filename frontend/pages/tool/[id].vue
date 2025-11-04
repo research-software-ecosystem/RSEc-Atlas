@@ -89,20 +89,20 @@ onMounted(async () => {
             <div class="flex flex-wrap gap-2">
               <ToolSourceButton :tool="tool" />
 
-            <UTooltip
-              :delay-duration="0"
-              :text="
-                isToolFavorite ? 'Remove from favorites' : 'Add to favorites'
-              "
-            >
-              <UButton
-                :variant="isToolFavorite ? 'solid' : 'outline'"
-                :color="isToolFavorite ? 'warning' : 'secondary'"
-                class="cursor-pointer"
-                icon="uil:star"
-                @click="toggleFavorite"
-              />
-            </UTooltip>
+              <UTooltip
+                :delay-duration="0"
+                :text="
+                  isToolFavorite ? 'Remove from favorites' : 'Add to favorites'
+                "
+              >
+                <UButton
+                  :variant="isToolFavorite ? 'solid' : 'outline'"
+                  :color="isToolFavorite ? 'warning' : 'secondary'"
+                  class="cursor-pointer"
+                  icon="uil:star"
+                  @click="toggleFavorite"
+                />
+              </UTooltip>
             </div>
           </div>
 
@@ -175,7 +175,7 @@ onMounted(async () => {
         <UCard class="mb-3">
           <h3 class="mb-2 flex items-center text-lg font-semibold">
             <Icon name="uil:database" class="mr-2 text-lg" />
-            EDAM Data
+            EDAM
           </h3>
 
           <div class="mb-2">

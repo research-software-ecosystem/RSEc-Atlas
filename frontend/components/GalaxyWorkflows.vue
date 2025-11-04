@@ -37,19 +37,19 @@ watch(searchQueryDebounced, () => {
 
 <template>
   <InfoCard
+    v-if="workflows.length > 0"
     title="Galaxy Workflows"
     title-icon="uil:sitemap"
-    v-if="workflows.length > 0"
   >
     {{ workflows.length }} Galaxy workflows are available for this tool.
 
     <UInput
+      v-model="searchQuery"
       icon="i-lucide-search"
       size="xl"
       class="mb-2 w-full"
       variant="outline"
       placeholder="Search Workflows by name"
-      v-model="searchQuery"
     />
 
     <div v-if="paginatedWorkflows.length > 0">
@@ -96,11 +96,11 @@ watch(searchQueryDebounced, () => {
 
       <UPagination
         v-if="filteredWorkflows.length > Number(perPage)"
+        v-model:page="currentPage"
         class="mt-4 flex w-full justify-center"
         :ui="{ list: 'flex-wrap ' }"
         :total="filteredWorkflows.length"
         :items-per-page="Number(perPage)"
-        v-model:page="currentPage"
         show-edges
       />
     </div>

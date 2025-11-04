@@ -90,7 +90,7 @@ export function searchTools(
 
   const { tagQueries, nonTagQueries, isStarTag } = parseQuery(query);
   let filteredTopics: string[] = [];
-  let prioritizedResults: { item: Tool; matchScore: number }[] = [];
+  const prioritizedResults: { item: Tool; matchScore: number }[] = [];
 
   if (nonTagQueries.length) {
     tools = tools.filter((tool) =>

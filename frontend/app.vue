@@ -40,7 +40,7 @@ const isDark = computed({
                 @click="isDark = !isDark"
               />
 
-              <template #fallback>
+              <template v-slot:fallback>
                 <div class="size-8" />
               </template>
             </ClientOnly>

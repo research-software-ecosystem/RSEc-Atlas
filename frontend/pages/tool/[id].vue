@@ -181,8 +181,8 @@ onMounted(async () => {
             </span>
 
             <span
-              class="text-gray-500 dark:text-gray-400"
               v-if="getToolEDAMOperations(tool).length === 0"
+              class="text-gray-500 dark:text-gray-400"
             >
               No operations info.
             </span>
@@ -203,8 +203,8 @@ onMounted(async () => {
             </span>
 
             <span
-              class="text-gray-500 dark:text-gray-400"
               v-if="getToolEDAMTopics(tool).length === 0"
+              class="text-gray-500 dark:text-gray-400"
             >
               No topics available
             </span>
@@ -246,7 +246,7 @@ onMounted(async () => {
               title="First Commit"
               :info="getToolFirstCommitDate(tool)"
             />
-            <InlineInfo title="Tags" v-if="getToolTags(tool).length > 0">
+            <InlineInfo v-if="getToolTags(tool).length > 0" title="Tags">
               <div class="flex flex-wrap gap-2">
                 <NuxtLink
                   v-for="tag in getToolTags(tool)"
@@ -270,7 +270,6 @@ onMounted(async () => {
         </UCard>
 
         <UCard
-          class="mb-3"
           v-if="
             Object.values(getToolGalaxyUsageStats(tool)?.usage || {}).some(
               (val) => val > 0,
@@ -279,6 +278,7 @@ onMounted(async () => {
               (val) => val > 0,
             )
           "
+          class="mb-3"
         >
           <h3 class="mb-2 flex items-center text-lg font-semibold">
             <Icon name="uil:chart" class="mr-2 text-lg" />
@@ -307,7 +307,7 @@ onMounted(async () => {
       </div>
 
       <div class="w-full lg:w-2/3">
-        <InfoCard title-icon="uil:rocket" v-if="galaxyInstanceTabs.length > 0">
+        <InfoCard v-if="galaxyInstanceTabs.length > 0" title-icon="uil:rocket">
           <template v-slot:title>
             <span>
               Run in
@@ -340,7 +340,7 @@ onMounted(async () => {
               class="w-full"
               :ui="{ label: 'cursor-pointer' }"
             >
-              <template #content="{ item }">
+              <template v-slot:content="{ item }">
                 <div class="flex flex-wrap gap-2 px-1">
                   <UTooltip
                     v-for="toolId in getToolToolIds(tool)"
@@ -375,7 +375,7 @@ onMounted(async () => {
           </div>
         </InfoCard>
 
-        <InfoCard title-icon="uil:box" v-if="getToolBicondaData(tool).name">
+        <InfoCard v-if="getToolBicondaData(tool).name" title-icon="uil:box">
           <template v-slot:title>
             Install with Bioconda
             <NuxtLink
@@ -400,8 +400,8 @@ onMounted(async () => {
         </InfoCard>
 
         <InfoCard
-          title-icon="uil:box"
           v-if="getToolBiocontainersData(tool).name"
+          title-icon="uil:box"
         >
           <template v-slot:title>
             Install with Biocontainers
@@ -427,9 +427,9 @@ onMounted(async () => {
         </InfoCard>
 
         <InfoCard
+          v-if="getToolBicondaData(tool).name"
           title="Install with Singularity"
           title-icon="uil:box"
-          v-if="getToolBicondaData(tool).name"
         >
           <template v-slot:content>
             <div>
@@ -511,8 +511,8 @@ onMounted(async () => {
               :info="getToolToolshedData(tool).categories[0]"
             >
               <div
-                class="flex flex-wrap gap-2"
                 v-if="getToolToolshedData(tool).categories.length > 0"
+                class="flex flex-wrap gap-2"
               >
                 <UBadge
                   v-for="category in getToolToolshedData(tool).categories"
@@ -531,8 +531,8 @@ onMounted(async () => {
             />
             <InlineInfo title="BioTools IDs">
               <div
-                class="flex flex-wrap gap-2"
                 v-if="getToolBioToolsData(tool).ids?.length"
+                class="flex flex-wrap gap-2"
               >
                 <template
                   v-if="typeof getToolBioToolsData(tool).ids === 'string'"

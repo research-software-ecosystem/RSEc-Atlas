@@ -210,18 +210,18 @@ onMounted(async () => {
         class="mb-2 w-full"
       >
         <UInput
+          v-model="searchQuery"
           icon="i-lucide-search"
           size="xl"
           class="w-full"
           variant="outline"
           placeholder="Search Tools and Topics"
-          v-model="searchQuery"
         />
       </UFormField>
 
       <div
-        class="mb-4 flex flex-wrap items-center gap-2"
         v-if="filteredTopics.length > 0"
+        class="mb-4 flex flex-wrap items-center gap-2"
       >
         <UTooltip
           v-for="topic in filteredTopics"
@@ -285,8 +285,8 @@ onMounted(async () => {
             variant="ghost"
             class="cursor-pointer"
             icon="uil:times"
-            @click="onClearFilters"
             title="Clear Filters"
+            @click="onClearFilters"
           >
             Clear Filters
           </UButton>
@@ -306,13 +306,16 @@ onMounted(async () => {
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
       <template v-if="loading">
-        <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
+        <ItemCardPlaceHolder
+          v-for="i in Number(perPage)"
+          :key="i"
+        />
       </template>
       <template v-else-if="!loading && paginatedItems.length > 0">
         <ItemCard
           v-for="tool in paginatedItems"
-          :tool="tool"
           :key="tool.tool_name"
+          :tool="tool"
         />
       </template>
       <template v-else-if="!loading && paginatedItems.length === 0">
@@ -326,11 +329,11 @@ onMounted(async () => {
 
     <UPagination
       v-if="filteredTools.length > Number(perPage)"
+      v-model:page="currentPage"
       class="mt-4 flex justify-center"
       :ui="{ list: 'flex-wrap ' }"
       :total="filteredTools.length"
       :items-per-page="Number(perPage)"
-      v-model:page="currentPage"
       show-edges
     />
   </div>

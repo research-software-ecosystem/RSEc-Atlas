@@ -19,7 +19,7 @@ export function getToolLicense(tool: Tool): string {
 }
 
 export function getToolName(tool: Tool) {
-  const { bioschemas, bioconda, biocontainers } = tool?.fetched_metadata;
+  const { bioschemas, bioconda, biocontainers } = tool?.fetched_metadata || {};
 
   return (
     bioschemas?.name ||
@@ -31,7 +31,7 @@ export function getToolName(tool: Tool) {
 }
 
 export function getToolVersion(tool: Tool): string {
-  const { bioschemas, bioconda, biotools } = tool?.fetched_metadata;
+  const { bioschemas, bioconda, biotools } = tool?.fetched_metadata || {};
 
   return bioschemas?.version ||
     bioconda?.version ||

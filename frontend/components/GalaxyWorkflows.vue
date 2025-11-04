@@ -86,7 +86,11 @@ watch(searchQueryDebounced, () => {
             </UTooltip>
 
             <UTooltip :delay-duration="250" text="Created on">
-              <UBadge icon="uil:calendar-alt" variant="subtle">
+              <UBadge
+                class="text-primary-700 dark:text-primary-400"
+                icon="uil:calendar-alt"
+                variant="subtle"
+              >
                 {{ wf.create_time || "N/A" }}
               </UBadge>
             </UTooltip>

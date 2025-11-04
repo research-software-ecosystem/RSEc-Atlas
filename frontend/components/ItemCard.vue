@@ -74,7 +74,7 @@ function toggleFavorite() {
               icon="uil:balance-scale"
               color="secondary"
               variant="subtle"
-              class="cursor-default"
+              class="text-gray-600 dark:text-gray-300"
             >
               {{ license }}
             </UBadge>
@@ -84,7 +84,7 @@ function toggleFavorite() {
             <UBadge
               icon="uil:calendar-alt"
               variant="subtle"
-              class="cursor-default"
+              class="text-gray-600 dark:text-gray-300"
             >
               {{ lastUpdate }}
             </UBadge>

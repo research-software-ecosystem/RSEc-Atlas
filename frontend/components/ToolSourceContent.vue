@@ -44,7 +44,7 @@ const editorInstance = ref<InstanceType<typeof Editor> | null>(null);
   <div class="h-full overflow-hidden rounded-lg border">
     <div class="border-b bg-gray-50 px-4 py-2 dark:bg-gray-800">
       <div class="flex items-center justify-between">
-        <span class="text-sm font-medium text-gray-700 dark:text-gray-300">
+        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">
           Source Data (JSON)
           <UBadge
             size="sm"

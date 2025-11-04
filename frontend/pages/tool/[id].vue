@@ -79,14 +79,14 @@ onMounted(async () => {
         <Meta name="description" :content="getToolDescription(tool)" />
       </Head>
 
-      <div class="w-full lg:w-1/3">
-        <UCard class="mb-3 break-all">
-          <div class="flex items-start justify-between">
-            <h2 class="mb-1 text-3xl font-bold lg:text-4xl">
+      <div class="flex w-full flex-col gap-4 lg:w-1/3">
+        <UCard :ui="{ body: 'flex flex-col gap-2' }">
+          <div class="mb-2 flex items-start justify-between gap-2">
+            <h2 class="text-3xl font-bold lg:text-4xl">
               {{ getToolName(tool) }}
             </h2>
 
-            <div class="flex flex-wrap gap-2">
+            <div class="flex gap-2">
               <ToolSourceButton :tool="tool" />
 
               <UTooltip
@@ -106,16 +106,28 @@ onMounted(async () => {
           </div>
 
           <div class="flex flex-wrap gap-2">
-            <UBadge icon="uil:box" color="neutral" variant="subtle">
-              {{ getToolVersion(tool) }}
-            </UBadge>
+            <UTooltip :delay-duration="250" text="Current tool version">
+              <UBadge icon="uil:box" color="neutral" variant="subtle">
+                {{ getToolVersion(tool) }}
+              </UBadge>
+            </UTooltip>
 
-            <UBadge icon="uil:balance-scale" color="secondary" variant="subtle">
-              {{ getToolLicense(tool) }}
-            </UBadge>
+            <UTooltip :delay-duration="250" text="License Type">
+              <UBadge
+                icon="uil:balance-scale"
+                color="secondary"
+                variant="subtle"
+              >
+                {{ getToolLicense(tool) }}
+              </UBadge>
+            </UTooltip>
 
             <UTooltip :delay-duration="250" text="Last Updated">
-              <UBadge icon="uil:calendar-alt" variant="subtle">
+              <UBadge
+                class="text-primary-700 dark:text-primary-400"
+                icon="uil:calendar-alt"
+                variant="subtle"
+              >
                 {{ getToolLastUpdateDate(tool) }}
               </UBadge>
             </UTooltip>
@@ -146,6 +158,7 @@ onMounted(async () => {
                 class="font-semibold"
               >
                 <UBadge
+                  class="text-primary-700 dark:text-primary-400"
                   variant="subtle"
                   color="primary"
                   icon="uil:book"
@@ -171,7 +184,7 @@ onMounted(async () => {
           </span>
         </UCard>
 
-        <UCard class="mb-3">
+        <UCard>
           <h3 class="mb-2 flex items-center text-lg font-semibold">
             <Icon name="uil:database" class="mr-2 text-lg" />
             EDAM
@@ -232,7 +245,7 @@ onMounted(async () => {
           </div>
         </UCard>
 
-        <UCard class="mb-3">
+        <UCard>
           <h3 class="mb-2 flex items-center text-lg font-semibold">
             <Icon name="uil:info-circle" class="mr-2 text-lg" />
             Tool Information
@@ -280,7 +293,6 @@ onMounted(async () => {
               (val) => val > 0,
             )
           "
-          class="mb-3"
         >
           <h3 class="mb-2 flex items-center text-lg font-semibold">
             <Icon name="uil:chart" class="mr-2 text-lg" />
@@ -352,11 +364,11 @@ onMounted(async () => {
                       class="text-lg font-semibold"
                     >
                       <UBadge
+                        class="text-primary-700 dark:text-primary-400"
                         variant="subtle"
                         color="primary"
                         trailing-icon="uil:external-link-alt"
                         size="lg"
-                        class="lg:text-md text-sm"
                       >
                         <img
                           class="light:bg-gray-800 light:border light:rounded-sm"

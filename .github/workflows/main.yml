@@ -35,6 +35,8 @@ jobs:
       run: |
         HASH=$(gh api repos/research-software-ecosystem/content/commits/master --jq '.sha')
         echo "hash=$HASH" >> $GITHUB_OUTPUT
+      env:
+        GH_TOKEN: ${{ github.token }}
 
     - name: Restore content from cache
       id: cache-content

@@ -14,59 +14,46 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
-        python-version: '3.12'
+        python-version: '3.13'
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v7
 
     - name: Set up Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
-        node-version: '18'
-
-    - name: Cache Node.js modules
-      uses: actions/cache@v4
-      with:
-        path: frontend/node_modules
-        key: node-modules-${{ hashFiles('frontend/package-lock.json') }}
-        restore-keys: |
-          node-modules-
-
-    - name: Cache Python dependencies
-      uses: actions/cache@v4
-      with:
-        path: ~/.cache/pip
-        key: pip-cache-${{ hashFiles('backend/requirements.txt') }}
-        restore-keys: |
-          pip-cache-
+        node-version: '24'
+        cache: 'npm'
+        cache-dependency-path: 'frontend/package-lock.json'
 
     - name: Get latest commit hash of content repo
       id: content-hash
       run: |
-        HASH=$(curl -s https://api.github.com/repos/research-software-ecosystem/content/commits/master | jq -r .sha)
+        HASH=$(gh api repos/research-software-ecosystem/content/commits/master --jq '.sha')
         echo "hash=$HASH" >> $GITHUB_OUTPUT
 
     - name: Restore content from cache
       id: cache-content
       uses: actions/cache@v4
       with:
-        path: |
-          backend/content
+        path: backend/content
         key: content-${{ steps.content-hash.outputs.hash }}
 
     - name: Checkout content repository
       if: steps.cache-content.outputs.cache-hit != 'true'
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         repository: research-software-ecosystem/content
         path: backend/content
 
     - name: Install Python dependencies
       run: |
-        pip install --upgrade pip
-        pip install -r backend/requirements.txt
+        uv pip install --system -r backend/requirements.txt
 
     - name: Install Node.js dependencies
       working-directory: frontend

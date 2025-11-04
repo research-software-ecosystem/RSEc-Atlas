@@ -87,6 +87,9 @@ onMounted(async () => {
               {{ getToolName(tool) }}
             </h2>
 
+            <div class="flex flex-wrap gap-2">
+              <ToolSourceButton :tool="tool" />
+
             <UTooltip
               :delay-duration="0"
               :text="
@@ -101,6 +104,7 @@ onMounted(async () => {
                 @click="toggleFavorite"
               />
             </UTooltip>
+            </div>
           </div>
 
           <div class="flex flex-wrap gap-2">

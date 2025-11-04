@@ -35,12 +35,9 @@ function copyToClipboard() {
       <slot>> {{ props.code }}</slot>
     </code>
 
-    <UTooltip
-      :delay-duration="0"
-      text="Copy to clipboard"
-    >
+    <UTooltip :delay-duration="0" text="Copy to clipboard">
       <UButton
-        class="h-fit cursor-pointer rounded bg-gray-700 px-2 py-1 text-white hover:bg-gray-600"
+        class="h-fit rounded bg-gray-700 px-2 py-1 text-white hover:bg-gray-600"
         title="Copy to clipboard"
         leading-icon="uil:copy"
         @click="copyToClipboard"

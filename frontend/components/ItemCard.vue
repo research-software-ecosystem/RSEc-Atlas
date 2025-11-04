@@ -51,7 +51,6 @@ function toggleFavorite() {
             <UButton
               :variant="isFavorite ? 'solid' : 'outline'"
               :color="isFavorite ? 'warning' : 'secondary'"
-              class="cursor-pointer"
               icon="uil:star"
               @click="toggleFavorite"
             />
@@ -59,10 +58,7 @@ function toggleFavorite() {
         </div>
 
         <div class="flex flex-wrap gap-2">
-          <UTooltip
-            :delay-duration="250"
-            text="Current tool version"
-          >
+          <UTooltip :delay-duration="250" text="Current tool version">
             <UBadge
               icon="uil:box"
               color="neutral"
@@ -73,10 +69,7 @@ function toggleFavorite() {
             </UBadge>
           </UTooltip>
 
-          <UTooltip
-            :delay-duration="250"
-            text="License type"
-          >
+          <UTooltip :delay-duration="250" text="License type">
             <UBadge
               icon="uil:balance-scale"
               color="secondary"
@@ -87,10 +80,7 @@ function toggleFavorite() {
             </UBadge>
           </UTooltip>
 
-          <UTooltip
-            :delay-duration="250"
-            text="Last updated"
-          >
+          <UTooltip :delay-duration="250" text="Last updated">
             <UBadge
               icon="uil:calendar-alt"
               variant="subtle"
@@ -108,10 +98,7 @@ function toggleFavorite() {
     </div>
 
     <div class="flex justify-end">
-      <UTooltip
-        :delay-duration="0"
-        text="View tool details"
-      >
+      <UTooltip :delay-duration="0" text="View tool details">
         <UButton
           variant="outline"
           color="info"

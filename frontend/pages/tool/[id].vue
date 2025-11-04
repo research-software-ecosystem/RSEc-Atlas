@@ -98,7 +98,6 @@ onMounted(async () => {
                 <UButton
                   :variant="isToolFavorite ? 'solid' : 'outline'"
                   :color="isToolFavorite ? 'warning' : 'secondary'"
-                  class="cursor-pointer"
                   icon="uil:star"
                   @click="toggleFavorite"
                 />
@@ -338,11 +337,7 @@ onMounted(async () => {
               This tool is available on the following Galaxy instances.
             </div>
 
-            <UTabs
-              :items="galaxyInstanceTabs"
-              class="w-full"
-              :ui="{ label: 'cursor-pointer' }"
-            >
+            <UTabs :items="galaxyInstanceTabs" class="w-full">
               <template v-slot:content="{ item }">
                 <div class="flex flex-wrap gap-2 px-1">
                   <UTooltip

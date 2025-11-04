@@ -26,7 +26,6 @@ function toggleToolSourceModal() {
         <UButton
           variant="outline"
           color="primary"
-          class="cursor-pointer"
           icon="uil:code"
           @click="toggleToolSourceModal"
         />

@@ -283,7 +283,6 @@ onMounted(async () => {
             v-if="showClearButton"
             size="lg"
             variant="ghost"
-            class="cursor-pointer"
             icon="uil:times"
             title="Clear Filters"
             @click="onClearFilters"

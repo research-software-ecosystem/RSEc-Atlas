@@ -32,7 +32,7 @@ const isDark = computed({
           </NuxtLink>
 
           <div class="flex items-center justify-end gap-1">
-            <ClientOnly v-if="!colorMode?.forced" class="cursor-pointer">
+            <ClientOnly v-if="!colorMode?.forced">
               <UButton
                 :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
                 color="neutral"
@@ -51,7 +51,6 @@ const isDark = computed({
               to="https://github.com/research-software-ecosystem/content"
               color="neutral"
               variant="subtle"
-              class="cursor-pointer"
             >
               <span class="hidden md:inline-block"> View on Github </span>
             </UButton>

@@ -68,7 +68,7 @@ watch(searchQueryDebounced, () => {
             class="hover:text-secondary text-md flex flex-col justify-between gap-1 font-semibold sm:text-lg"
           >
             <UTooltip :delay-duration="250" text="View Workflow">
-              <span class="break-all">
+              <span class="break-words">
                 <Icon name="uil:sitemap" />
 
                 {{ wf.name }}

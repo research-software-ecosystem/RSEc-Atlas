@@ -66,7 +66,7 @@ const isDark = computed({
     </main>
 
     <footer
-      class="fixed bottom-0 w-full bg-gray-100 p-3 shadow-amber-50 dark:bg-gray-800"
+      class="fixed bottom-0 w-full bg-gray-100 p-2 shadow-amber-50 md:p-2 dark:bg-gray-800"
     >
       <div>
         <p

@@ -81,7 +81,9 @@ onMounted(async () => {
 
       <div class="flex w-full flex-col gap-4 lg:w-1/3">
         <UCard :ui="{ body: 'flex flex-col gap-2' }">
-          <div class="mb-2 flex items-start justify-between gap-2">
+          <div
+            class="mb-2 flex items-center justify-between gap-2 wrap-anywhere"
+          >
             <h2 class="text-3xl font-bold lg:text-4xl">
               {{ getToolName(tool) }}
             </h2>
@@ -105,7 +107,7 @@ onMounted(async () => {
             </div>
           </div>
 
-          <div class="flex flex-wrap gap-2">
+          <div class="wrap-anywhereR flex flex-wrap gap-2">
             <UTooltip :delay-duration="250" text="Current tool version">
               <UBadge icon="uil:box" color="neutral" variant="subtle">
                 {{ getToolVersion(tool) }}
@@ -179,7 +181,7 @@ onMounted(async () => {
             </UTooltip>
           </div>
 
-          <span class="text-md w-full break-normal lg:text-lg">
+          <span class="text-md w-full break-words lg:text-lg">
             {{ getToolDescription(tool) }}
           </span>
         </UCard>
@@ -320,7 +322,7 @@ onMounted(async () => {
         </UCard>
       </div>
 
-      <div class="w-full lg:w-2/3">
+      <div class="flex w-full flex-col gap-4 lg:w-2/3">
         <InfoCard v-if="galaxyInstanceTabs.length > 0" title-icon="uil:rocket">
           <template v-slot:title>
             <span>
@@ -351,7 +353,7 @@ onMounted(async () => {
 
             <UTabs :items="galaxyInstanceTabs" class="w-full">
               <template v-slot:content="{ item }">
-                <div class="flex flex-wrap gap-2 px-1">
+                <div class="flex flex-wrap gap-2 px-1 wrap-anywhere">
                   <UTooltip
                     v-for="toolId in getToolToolIds(tool)"
                     :key="toolId"
@@ -375,7 +377,7 @@ onMounted(async () => {
                           src="/img/galaxy-icon.png"
                         />
 
-                        Run <span class="font-mono">{{ toolId }}</span>
+                        Run {{ toolId }}
                       </UBadge>
                     </NuxtLink>
                   </UTooltip>
@@ -510,7 +512,7 @@ onMounted(async () => {
 
         <GalaxyWorkflows :tool="tool" />
 
-        <UCard class="mb-3 break-words">
+        <UCard class="break-words">
           <div class="flex flex-wrap gap-x-8 gap-y-4">
             <InlineInfo
               title="Galaxy ToolShed ID"

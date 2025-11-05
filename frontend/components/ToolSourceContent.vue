@@ -41,9 +41,25 @@ const editorInstance = ref<InstanceType<typeof Editor> | null>(null);
 </script>
 
 <template>
-  <div class="flex h-full flex-col overflow-hidden rounded-lg border">
-    <div class="flex-shrink-0 border-b bg-gray-50 px-4 py-2 dark:bg-gray-800">
-      <div class="flex items-center justify-between">
+  <div class="flex h-full flex-col overflow-hidden">
+    <div class="flex-1 overflow-hidden">
+      <CodeEditor ref="editorInstance" :value="toolSourceCode" />
+
+      <div v-if="editorInstance?.hasError" class="flex h-full flex-col p-4">
+        <p class="mb-2 text-sm text-gray-600">
+          The editor failed to load. Here's the raw data:
+        </p>
+
+        <pre
+          class="flex-1 overflow-auto rounded bg-gray-100 p-2 text-xs dark:bg-gray-800"
+        >
+        {{ toolSourceCode }}
+        </pre>
+      </div>
+    </div>
+
+    <div class="flex-shrink-0 border-t px-4 py-2">
+      <div class="flex flex-wrap items-center justify-between gap-2">
         <span class="text-sm font-medium text-gray-600 dark:text-gray-300">
           Source Data (JSON)
           <UBadge
@@ -67,6 +83,15 @@ const editorInstance = ref<InstanceType<typeof Editor> | null>(null);
 
           <UButton
             size="sm"
+            icon="uil:external-link-alt"
+            target="_blank"
+            :href="`/metadata/tools/${tool.tool_name}.json`"
+          >
+            Open in New Tab
+          </UButton>
+
+          <UButton
+            size="sm"
             variant="outline"
             icon="uil:copy"
             @click="copyToClipboard"
@@ -74,22 +99,6 @@ const editorInstance = ref<InstanceType<typeof Editor> | null>(null);
             Copy
           </UButton>
         </div>
-      </div>
-    </div>
-
-    <div class="flex-1 overflow-hidden rounded-lg bg-white dark:bg-gray-900">
-      <CodeEditor ref="editorInstance" :value="toolSourceCode" />
-
-      <div v-if="editorInstance?.hasError" class="p-4">
-        <p class="mb-2 text-sm text-gray-600">
-          The editor failed to load. Here's the raw data:
-        </p>
-
-        <pre
-          class="max-h-32 overflow-auto rounded bg-gray-100 p-2 text-xs dark:bg-gray-800"
-        >
-        {{ toolSourceCode }}
-        </pre>
       </div>
     </div>
   </div>

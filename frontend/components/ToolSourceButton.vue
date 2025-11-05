@@ -18,6 +18,7 @@ function toggleToolSourceModal() {
       v-model="isModalOpen"
       :title="`View Source for ${props.tool.tool_name}`"
       :ui="{
+        body: 'p-0 sm:p-0',
         content: 'max-w-(--ui-container) h-(--ui-container)',
         footer: 'justify-end',
       }"
@@ -33,12 +34,6 @@ function toggleToolSourceModal() {
 
       <template v-slot:body>
         <ToolSourceContent :tool="props.tool" />
-      </template>
-
-      <template v-slot:footer>
-        <UButton variant="outline" @click="toggleToolSourceModal">
-          Close
-        </UButton>
       </template>
     </UModal>
   </div>

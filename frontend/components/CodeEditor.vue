@@ -15,6 +15,22 @@ let editor: import("monaco-editor").editor.IStandaloneCodeEditor | null = null;
 
 const colorMode = useColorMode();
 
+const skeletonLines = Array.from(
+  { length: Math.floor(Math.random() * 11) + 20 },
+  () => {
+    const widths = [
+      "w-1/2",
+      "w-2/3",
+      "w-3/4",
+      "w-4/5",
+      "w-5/6",
+      "w-11/12",
+      "w-full",
+    ];
+    return widths[Math.floor(Math.random() * widths.length)];
+  },
+);
+
 onMounted(async () => {
   if (import.meta.client && editorRef.value) {
     try {
@@ -85,5 +101,20 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="editorRef" style="height: 100%" />
+  <div class="relative h-full">
+    <div v-if="isLoading" class="absolute inset-0 overflow-hidden p-2">
+      <div class="space-y-3">
+        <div
+          v-for="(width, index) in skeletonLines"
+          :key="index"
+          class="flex gap-2"
+        >
+          <USkeleton class="h-4 w-8" />
+          <USkeleton class="h-4" :class="width" />
+        </div>
+      </div>
+    </div>
+
+    <div ref="editorRef" style="height: 100%" />
+  </div>
 </template>

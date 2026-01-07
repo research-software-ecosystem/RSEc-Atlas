@@ -48,7 +48,7 @@ const isDark = computed({
             <UButton
               target="_blank"
               icon="i-lucide-github"
-              to="https://github.com/research-software-ecosystem/content"
+              to="https://github.com/research-software-ecosystem/RSEc-Atlas"
               color="neutral"
               variant="subtle"
             >
@@ -72,11 +72,11 @@ const isDark = computed({
         <p
           class="text-center text-xs text-gray-500 md:text-sm dark:text-gray-400"
         >
-          A webapp to browse through all the bio tools and containers in the
+          A webapp to browse through all the entries in the
           <NuxtLink
             target="_blank"
             class="font-bold transition-all hover:text-gray-700 dark:hover:text-gray-300"
-            to="https://github.com/research-software-ecosystem/research-software-ecosystem.github.io?tab=readme-ov-file"
+            to="https://research-software-ecosystem.github.io"
           >
             Research Software Ecosystem
           </NuxtLink>

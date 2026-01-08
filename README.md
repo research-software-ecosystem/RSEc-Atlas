@@ -149,7 +149,7 @@ Navigate to the `frontend` directory and install the required Node.js dependenci
 We have to clone the RSE Content Repository to the directory `backend`, which will be later used by the python script to fetch and combine the metadata.
 This will generate a folder called as `content` in the directory.
 ```bash
-git clone https://github.com/research-software-ecosystem/content.git ../backend/content
+git clone --depth 1 https://github.com/research-software-ecosystem/content.git ../backend/content
 ```
 
 #### 6. ▶️ Run the Python Script

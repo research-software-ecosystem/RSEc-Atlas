@@ -1,5 +1,10 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
+const route = useRoute();
+
+const contentRepoBase = "https://github.com/research-software-ecosystem/content/tree/master/data";
+const sourceRepoBase =
+  "https://github.com/research-software-ecosystem/RSEc-Atlas";
 
 const isDark = computed({
   get() {
@@ -8,6 +13,20 @@ const isDark = computed({
   set(_isDark) {
     colorMode.preference = _isDark ? "dark" : "light";
   },
+});
+
+const toolId = computed(() => {
+  const idParam = route.params.id;
+  if (Array.isArray(idParam)) return idParam[0] || "";
+  return typeof idParam === "string" ? idParam : "";
+});
+
+const githubLink = computed(() => {
+  if (toolId.value) {
+    return `${contentRepoBase}/${encodeURIComponent(toolId.value)}`;
+  }
+
+  return sourceRepoBase;
 });
 </script>
 
@@ -48,7 +67,7 @@ const isDark = computed({
             <UButton
               target="_blank"
               icon="i-lucide-github"
-              to="https://github.com/research-software-ecosystem/content"
+              :to="githubLink"
               color="neutral"
               variant="subtle"
             >
@@ -72,11 +91,11 @@ const isDark = computed({
         <p
           class="text-center text-xs text-gray-500 md:text-sm dark:text-gray-400"
         >
-          A webapp to browse through all the bio tools and containers in the
+          A webapp to browse through all the entries in the
           <NuxtLink
             target="_blank"
             class="font-bold transition-all hover:text-gray-700 dark:hover:text-gray-300"
-            to="https://github.com/research-software-ecosystem/research-software-ecosystem.github.io?tab=readme-ov-file"
+            to="https://research-software-ecosystem.github.io"
           >
             Research Software Ecosystem
           </NuxtLink>

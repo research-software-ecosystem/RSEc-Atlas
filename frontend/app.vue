@@ -1,5 +1,10 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
+const route = useRoute();
+
+const contentRepoBase = "https://github.com/research-software-ecosystem/content/tree/master/data";
+const sourceRepoBase =
+  "https://github.com/research-software-ecosystem/RSEc-Atlas";
 
 const isDark = computed({
   get() {
@@ -8,6 +13,20 @@ const isDark = computed({
   set(_isDark) {
     colorMode.preference = _isDark ? "dark" : "light";
   },
+});
+
+const toolId = computed(() => {
+  const idParam = route.params.id;
+  if (Array.isArray(idParam)) return idParam[0] || "";
+  return typeof idParam === "string" ? idParam : "";
+});
+
+const githubLink = computed(() => {
+  if (toolId.value) {
+    return `${contentRepoBase}/${encodeURIComponent(toolId.value)}`;
+  }
+
+  return sourceRepoBase;
 });
 </script>
 
@@ -48,7 +67,7 @@ const isDark = computed({
             <UButton
               target="_blank"
               icon="i-lucide-github"
-              to="https://github.com/research-software-ecosystem/RSEc-Atlas"
+              :to="githubLink"
               color="neutral"
               variant="subtle"
             >

@@ -48,14 +48,40 @@ export function getToolName(tool: Tool) {
   );
 }
 
-export function getToolVersion(tool: Tool): string {
-  const { bioschemas, bioconda, biotools } = tool?.fetched_metadata || {};
+function normalizeVersion(value?: string | string[]): string[] {
+  if (!value) return [];
+  const entries = Array.isArray(value) ? value : [value];
 
-  return bioschemas?.version ||
-    bioconda?.version ||
-    Array.isArray(biotools?.version)
-    ? biotools?.version?.[0] || "No version data"
-    : biotools?.version || "No version data";
+  return entries
+    .map((entry) => entry?.trim().replace(/^v/i, ""))
+    .filter((entry): entry is string => Boolean(entry));
+}
+
+function pickLatestVersion(versions: string[]): string {
+  if (versions.length === 0) return "";
+
+  const collator = new Intl.Collator("en", {
+    numeric: true,
+    sensitivity: "base",
+  });
+
+  return versions.reduce((latest, current) => {
+    return collator.compare(current, latest) > 0 ? current : latest;
+  });
+}
+
+export function getToolVersion(tool: Tool): string {
+  const fm = tool?.fetched_metadata ?? {};
+  const versions = Object.values(fm).flatMap((meta) => [
+    ...normalizeVersion(
+      (meta as { version?: string | string[] }).version,
+    ),
+    ...normalizeVersion(
+      (meta as { conda_version?: string | string[] }).conda_version,
+    ),
+  ]);
+
+  return pickLatestVersion(versions) || "No version data";
 }
 
 function formateDate(dateStr: string = ""): string {

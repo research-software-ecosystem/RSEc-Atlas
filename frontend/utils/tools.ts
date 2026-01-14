@@ -59,27 +59,52 @@ function normalizeVersion(
     .filter((entry): entry is string => Boolean(entry));
 }
 
+function parseVersion(version: string): { core: number[]; prerelease: string } {
+  const [corePart, ...rest] = version.split("-");
+  const core = corePart.split(".").map((n) => parseInt(n, 10) || 0);
+  return { core, prerelease: rest.join("-") };
+}
+
+function compareVersions(a: string, b: string): number {
+  const parsedA = parseVersion(a);
+  const parsedB = parseVersion(b);
+
+  // Compare core version segments
+  const maxLen = Math.max(parsedA.core.length, parsedB.core.length);
+  for (let i = 0; i < maxLen; i++) {
+    const segA = parsedA.core[i] ?? 0;
+    const segB = parsedB.core[i] ?? 0;
+    if (segA !== segB) return segA - segB;
+  }
+
+  // If core versions are equal, handle pre-release:
+  // - No pre-release > has pre-release (1.0.0 > 1.0.0-alpha)
+  // - Compare pre-release strings lexicographically
+  if (!parsedA.prerelease && parsedB.prerelease) return 1;
+  if (parsedA.prerelease && !parsedB.prerelease) return -1;
+  return parsedA.prerelease.localeCompare(parsedB.prerelease, "en", {
+    numeric: true,
+  });
+}
+
 function pickLatestVersion(versions: string[]): string {
   if (versions.length === 0) return "";
 
-  const collator = new Intl.Collator("en", {
-    numeric: true,
-    sensitivity: "base",
-  });
-
   return versions.reduce((latest, current) => {
-    return collator.compare(current, latest) > 0 ? current : latest;
+    return compareVersions(current, latest) > 0 ? current : latest;
   });
 }
 
 export function getToolVersion(tool: Tool): string {
-  const fm = tool?.fetched_metadata ?? {};
-  const versions = Object.values(fm).flatMap((meta) => [
-    ...normalizeVersion((meta as { version?: string | string[] }).version),
-    ...normalizeVersion(
-      (meta as { conda_version?: string | string[] }).conda_version,
-    ),
-  ]);
+  const fm = tool?.fetched_metadata;
+  if (!fm) return "No version data";
+
+  const versions = [
+    ...normalizeVersion(fm.bioschemas?.version),
+    ...normalizeVersion(fm.bioconda?.version),
+    ...normalizeVersion(fm.biotools?.version),
+    ...normalizeVersion(fm.galaxy?.conda_version),
+  ];
 
   return pickLatestVersion(versions) || "No version data";
 }

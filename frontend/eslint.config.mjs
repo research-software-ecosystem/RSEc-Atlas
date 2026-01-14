@@ -14,6 +14,7 @@ export default withNuxt([
   {
     rules: {
       "@typescript-eslint/unified-signatures": "off",
+      "vue/valid-v-slot": "error",
       "vue/v-slot-style": [
         "error",
         { atComponent: "v-slot", default: "v-slot", named: "longform" },

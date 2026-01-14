@@ -4,16 +4,6 @@ import { refDebounced } from "@vueuse/core";
 const route = useRoute();
 const router = useRouter();
 
-const perPageOptions = ["6", "12", "24", "36", "48"];
-const favoritesOptions = ["All", "Favorites"];
-const sortOptions = ["Name", "Creation Date", "Last Updated"];
-const dataOptions = [
-  "All",
-  "Has Bioconda Package",
-  "Has Containers",
-  "Compatible with Galaxy",
-];
-
 const toast = useToast();
 
 const tools = ref<Tools>([]);
@@ -28,21 +18,11 @@ const searchQuery = ref("");
 const searchQueryDebounced = refDebounced(searchQuery, 500);
 const sortKey = ref("Name");
 const currentPage = ref(1);
-const perPage = ref(perPageOptions[0]);
+const perPage = ref("6");
 const licenseFilter = ref("All");
 const licenseOptions = ref(["All"]);
 const favoritesFilter = ref("All");
 const dataFilter = ref("All");
-
-const showClearButton = computed(() => {
-  return (
-    searchQueryDebounced.value.trim() !== "" ||
-    sortKey.value !== "Name" ||
-    licenseFilter.value !== "All" ||
-    dataFilter.value !== "All" ||
-    favoritesFilter.value !== "All"
-  );
-});
 
 const paginatedItems = computed(() => {
   const start = (currentPage.value - 1) * Number(perPage.value);
@@ -140,31 +120,17 @@ async function getTools() {
   }
 }
 
-function onTopicClick(topic: string) {
-  const topicTag = `tag:'${topic.trim()}'`;
-  const currentQuery = searchQuery.value.trim();
+const { domains } = useDomains();
 
-  const queryParts = currentQuery.split(/\s+/);
-  const normalizedQueryParts = queryParts.map((part) => part.toLowerCase());
-  const topicIndex = normalizedQueryParts.indexOf(topicTag.toLowerCase());
+const handleSearchFromHero = (query: string) => {
+  searchQuery.value = query;
+  router.push("/tools");
+};
 
-  if (topicIndex !== -1) {
-    queryParts.splice(topicIndex, 1); // Remove the topic tag if it exists
-  } else {
-    queryParts.push(topicTag); // Add the topic tag if it doesn't exist
-  }
-
-  searchQuery.value = queryParts.join(" ").trim();
-}
-
-function onClearFilters() {
-  searchQuery.value = "";
-  sortKey.value = "Name";
-  licenseFilter.value = "All";
-  dataFilter.value = "All";
-  favoritesFilter.value = "All";
-  currentPage.value = 1;
-}
+const handleCategoryClick = (category: string) => {
+  searchQuery.value = category;
+  router.push("/tools");
+};
 
 watch(
   [searchQueryDebounced, sortKey, licenseFilter, dataFilter, favoritesFilter],
@@ -202,135 +168,90 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>
-    <div class="mb-4">
-      <UFormField
-        help="Enter a comma-separated search query. Use 'tag:' prefix to search by topics."
-        required
-        class="mb-2 w-full"
-      >
-        <UInput
-          v-model="searchQuery"
-          icon="i-lucide-search"
-          size="xl"
-          class="w-full"
-          variant="outline"
-          placeholder="Search Tools and Topics"
-        />
-      </UFormField>
-
-      <div
-        v-if="filteredTopics.length > 0"
-        class="mb-4 flex flex-wrap items-center gap-2"
-      >
-        <UTooltip
-          v-for="topic in filteredTopics"
-          :key="topic"
-          :delay-duration="250"
-          text="Click to search by topic"
-        >
-          <UBadge
-            class="cursor-pointer text-gray-600 dark:text-gray-300"
-            variant="subtle"
-            color="primary"
-            icon="uil:tag"
-            @click="onTopicClick(topic)"
-          >
-            {{ topic }}
-          </UBadge>
-        </UTooltip>
-      </div>
-
-      <div class="flex flex-wrap items-center gap-4">
-        <div class="flex flex-wrap items-center gap-4">
-          <USelectMenu
-            v-model="licenseFilter"
-            size="lg"
-            class="min-w-40"
-            icon="uil:balance-scale"
-            :highlight="licenseFilter !== 'All'"
-            :items="licenseOptions"
-          />
-
-          <USelectMenu
-            v-model="sortKey"
-            size="lg"
-            class="min-w-40"
-            icon="uil:sort-amount-down"
-            :highlight="sortKey !== 'Name'"
-            :items="sortOptions"
-          />
-
-          <USelectMenu
-            v-model="dataFilter"
-            size="lg"
-            class="min-w-40"
-            icon="uil:database"
-            :highlight="dataFilter !== 'All'"
-            :items="dataOptions"
-          />
-
-          <USelectMenu
-            v-model="favoritesFilter"
-            size="lg"
-            class="min-w-40"
-            icon="uil:star"
-            :highlight="favoritesFilter !== 'All'"
-            :items="favoritesOptions"
-          />
-
-          <UButton
-            v-if="showClearButton"
-            size="lg"
-            variant="ghost"
-            icon="uil:times"
-            title="Clear Filters"
-            @click="onClearFilters"
-          >
-            Clear Filters
-          </UButton>
-        </div>
-
-        <div class="ml-auto flex items-center gap-2">
-          <USelectMenu
-            v-model="perPage"
-            size="lg"
-            class="min-w-40 self-end"
-            icon="uil:apps"
-            :items="perPageOptions.map((i) => i)"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
-      <template v-if="loading">
-        <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
+  <div class="min-h-screen bg-white dark:bg-gray-900">
+    <HeroSection :tool-count="tools.length" :collection-count="558">
+      <template v-slot:search>
+        <SearchBar @search="handleSearchFromHero" />
       </template>
-      <template v-else-if="!loading && paginatedItems.length > 0">
+
+      <template v-slot:actions>
+        <ActionButton
+          label="Browse"
+          description="Tools"
+          icon="i-lucide-layers"
+          to="/tools"
+        />
+        <ActionButton
+          label="Explore"
+          description="Communities and Collections"
+          icon="i-lucide-globe"
+          to="/explore"
+        />
+        <ActionButton
+          label="Register"
+          description="A Tool"
+          icon="i-lucide-plus-circle"
+          to="#register"
+        />
+      </template>
+    </HeroSection>
+
+    <DomainGrid :domains="domains" @category-click="handleCategoryClick" />
+
+    <div
+      v-if="!loading && filteredTools.length > 0"
+      class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8"
+    >
+      <div class="mb-8 text-center">
+        <h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+          Featured Tools
+        </h3>
+        <p class="mt-2 text-gray-600 dark:text-gray-400">
+          Explore some of the most popular research software tools
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <ItemCard
-          v-for="tool in paginatedItems"
+          v-for="tool in paginatedItems.slice(0, 6)"
           :key="tool.tool_name"
           :tool="tool"
         />
-      </template>
-      <template v-else-if="!loading && paginatedItems.length === 0">
-        <div class="col-span-full text-center">
-          <p class="text-lg text-gray-500">
-            No tools found matching your criteria.
-          </p>
-        </div>
-      </template>
+      </div>
+
+      <div class="mt-8 text-center">
+        <UButton
+          label="View All Tools"
+          size="lg"
+          icon="i-lucide-arrow-right"
+          trailing
+          to="/tools"
+        />
+      </div>
     </div>
 
-    <UPagination
-      v-if="filteredTools.length > Number(perPage)"
-      v-model:page="currentPage"
-      class="mt-4 flex justify-center"
-      :ui="{ list: 'flex-wrap ' }"
-      :total="filteredTools.length"
-      :items-per-page="Number(perPage)"
-      show-edges
-    />
+    <div v-if="loading" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <ItemCardPlaceHolder v-for="i in 6" :key="i" />
+      </div>
+    </div>
+
+    <div v-if="error" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <UCard class="text-center">
+        <div class="py-12">
+          <UIcon
+            name="i-lucide-alert-circle"
+            class="mx-auto h-12 w-12 text-red-500"
+          />
+          <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
+            Failed to Load Tools
+          </h3>
+          <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            {{ error }}
+          </p>
+          <UButton label="Retry" class="mt-4" @click="getTools" />
+        </div>
+      </UCard>
+    </div>
   </div>
 </template>

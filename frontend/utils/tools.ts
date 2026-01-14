@@ -48,12 +48,14 @@ export function getToolName(tool: Tool) {
   );
 }
 
-function normalizeVersion(value?: string | string[]): string[] {
-  if (!value) return [];
+function normalizeVersion(
+  value?: string | string[] | number | number[],
+): string[] {
+  if (value === undefined || value === null) return [];
   const entries = Array.isArray(value) ? value : [value];
 
   return entries
-    .map((entry) => entry?.trim().replace(/^v/i, ""))
+    .map((entry) => String(entry).trim().replace(/^v/i, ""))
     .filter((entry): entry is string => Boolean(entry));
 }
 
@@ -73,9 +75,7 @@ function pickLatestVersion(versions: string[]): string {
 export function getToolVersion(tool: Tool): string {
   const fm = tool?.fetched_metadata ?? {};
   const versions = Object.values(fm).flatMap((meta) => [
-    ...normalizeVersion(
-      (meta as { version?: string | string[] }).version,
-    ),
+    ...normalizeVersion((meta as { version?: string | string[] }).version),
     ...normalizeVersion(
       (meta as { conda_version?: string | string[] }).conda_version,
     ),

@@ -48,14 +48,65 @@ export function getToolName(tool: Tool) {
   );
 }
 
-export function getToolVersion(tool: Tool): string {
-  const { bioschemas, bioconda, biotools } = tool?.fetched_metadata || {};
+function normalizeVersion(
+  value?: string | string[] | number | number[],
+): string[] {
+  if (value === undefined || value === null) return [];
+  const entries = Array.isArray(value) ? value : [value];
 
-  return bioschemas?.version ||
-    bioconda?.version ||
-    Array.isArray(biotools?.version)
-    ? biotools?.version?.[0] || "No version data"
-    : biotools?.version || "No version data";
+  return entries
+    .map((entry) => String(entry).trim().replace(/^v/i, ""))
+    .filter((entry): entry is string => Boolean(entry));
+}
+
+function parseVersion(version: string): { core: number[]; prerelease: string } {
+  const [corePart, ...rest] = version.split("-");
+  const core = corePart.split(".").map((n) => parseInt(n, 10) || 0);
+  return { core, prerelease: rest.join("-") };
+}
+
+function compareVersions(a: string, b: string): number {
+  const parsedA = parseVersion(a);
+  const parsedB = parseVersion(b);
+
+  // Compare core version segments
+  const maxLen = Math.max(parsedA.core.length, parsedB.core.length);
+  for (let i = 0; i < maxLen; i++) {
+    const segA = parsedA.core[i] ?? 0;
+    const segB = parsedB.core[i] ?? 0;
+    if (segA !== segB) return segA - segB;
+  }
+
+  // If core versions are equal, handle pre-release:
+  // - No pre-release > has pre-release (1.0.0 > 1.0.0-alpha)
+  // - Compare pre-release strings lexicographically
+  if (!parsedA.prerelease && parsedB.prerelease) return 1;
+  if (parsedA.prerelease && !parsedB.prerelease) return -1;
+  return parsedA.prerelease.localeCompare(parsedB.prerelease, "en", {
+    numeric: true,
+  });
+}
+
+function pickLatestVersion(versions: string[]): string {
+  if (versions.length === 0) return "";
+
+  return versions.reduce((latest, current) => {
+    return compareVersions(current, latest) > 0 ? current : latest;
+  });
+}
+
+export function getToolVersion(tool: Tool): string {
+  const fm = tool?.fetched_metadata;
+  if (!fm) return "No version data";
+
+  const versions = [
+    ...normalizeVersion(fm.bioschemas?.version),
+    ...normalizeVersion(fm.bioconda?.version),
+    ...normalizeVersion(fm.biotools?.version),
+    ...normalizeVersion(fm.galaxy?.conda_version),
+  ];
+
+  return pickLatestVersion(versions) || "No version data";
 }
 
 function formateDate(dateStr: string = ""): string {

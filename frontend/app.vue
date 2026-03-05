@@ -2,7 +2,8 @@
 const colorMode = useColorMode();
 const route = useRoute();
 
-const contentRepoBase = "https://github.com/research-software-ecosystem/content/tree/master/data";
+const contentRepoBase =
+  "https://github.com/research-software-ecosystem/content/tree/master/data";
 const sourceRepoBase =
   "https://github.com/research-software-ecosystem/RSEc-Atlas";
 
@@ -13,6 +14,12 @@ const isDark = computed({
   set(_isDark) {
     colorMode.preference = _isDark ? "dark" : "light";
   },
+});
+
+const logoSrc = computed(() => {
+  return isDark.value
+    ? "https://raw.githubusercontent.com/research-software-ecosystem/graphics/refs/heads/main/RSEc_Logo_FULL_mono.png"
+    : "https://raw.githubusercontent.com/research-software-ecosystem/graphics/refs/heads/main/RSEc_Logo_FULL_RGB.png";
 });
 
 const toolId = computed(() => {
@@ -41,11 +48,7 @@ const githubLink = computed(() => {
             to="/"
             class="text-md flex items-center gap-2 font-bold md:text-2xl"
           >
-            <img
-              class="h-5 w-auto md:h-8"
-              alt="RSE Logo"
-              src="/img/logo-rsec.svg"
-            />
+            <img class="h-8 w-auto" alt="RSEc Logo" :src="logoSrc" />
 
             <span>RSEc Atlas</span>
           </NuxtLink>

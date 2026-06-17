@@ -3,7 +3,7 @@ export async function fetchAllToolsMetadata(): Promise<Tool[]> {
     const response = await $fetch("/metadata/combined_metadata.json");
     return response as Tool[];
   } catch (error) {
-    throw new Error(`Failed to fetch all tools metadata: ${error}`);
+    throw new Error(`Failed to fetch all tools metadata: ${error}`, { cause: error });
   }
 }
 
@@ -12,7 +12,7 @@ export async function fetchToolMetadata(toolName: string): Promise<Tool> {
     const response = await $fetch(`/metadata/tools/${toolName}.json`);
     return response as Tool;
   } catch (error) {
-    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`);
+    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`, { cause: error });
   }
 }
 

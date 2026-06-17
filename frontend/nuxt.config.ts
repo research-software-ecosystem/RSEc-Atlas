@@ -1,16 +1,20 @@
+import monacoEditorPlugin from "vite-plugin-monaco-editor-esm";
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   ssr: false,
 
+  runtimeConfig: {
+    public: {
+      appTitle: process.env.APP_TITLE || "RSEc Atlas",
+    },
+  },
+
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || "/",
     head: {
-      titleTemplate: `%siteName %separator %s`,
-      templateParams: {
-        siteName: process.env.APP_TITLE || "RSEc Atlas",
-        separator: "|",
-      },
+      title: process.env.APP_TITLE || "RSEc Atlas",
       meta: [
         {
           name: "description",
@@ -34,6 +38,7 @@ export default defineNuxtConfig({
   css: ["@/assets/css/main.css"],
 
   vite: {
+    plugins: [monacoEditorPlugin()],
     optimizeDeps: {
       include: ["monaco-editor"],
     },

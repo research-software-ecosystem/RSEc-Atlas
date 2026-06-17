@@ -1,6 +1,14 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
 const route = useRoute();
+const runtimeConfig = useRuntimeConfig();
+
+useHead({
+  titleTemplate: (titleChunk) => {
+    const appTitle = runtimeConfig.public.appTitle;
+    return titleChunk && titleChunk !== appTitle ? `${appTitle} | ${titleChunk}` : appTitle;
+  }
+});
 
 const contentRepoBase =
   "https://github.com/research-software-ecosystem/content/tree/master/data";

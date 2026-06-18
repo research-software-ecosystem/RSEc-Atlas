@@ -3,6 +3,8 @@ name: Deploy Static Site
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
@@ -95,6 +97,7 @@ jobs:
         NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
 
     - name: Deploy
+      if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

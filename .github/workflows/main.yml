@@ -11,93 +11,13 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
-permissions: {}  # deny all at workflow level; each job grants only what it needs
+permissions: {}
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-
+    name: Build & Deploy
     permissions:
-      contents: write  # required by peaceiris/actions-gh-pages to push to gh-pages branch
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v6
-
-    - name: Set up Python
-      uses: actions/setup-python@v6
-      with:
-        python-version: '3.12'
-
-    - name: Set up uv
-      uses: astral-sh/setup-uv@v8.2.0
-      with:
-        enable-cache: true
-        cache-dependency-glob: "backend/requirements.txt"
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v6
-      with:
-        node-version: '22'
-        cache: 'npm'
-        cache-dependency-path: 'frontend/package-lock.json'
-
-    - name: Get latest commit hash of content repo
-      id: content-hash
-      run: |
-        HASH=$(gh api repos/research-software-ecosystem/content/commits/master --jq '.sha')
-        echo "hash=$HASH" >> $GITHUB_OUTPUT
-      env:
-        GH_TOKEN: ${{ github.token }}
-
-    - name: Restore content from cache
-      id: cache-content
-      uses: actions/cache@v5
-      with:
-        path: backend/content
-        key: content-${{ steps.content-hash.outputs.hash }}
-
-    - name: Checkout content repository
-      if: steps.cache-content.outputs.cache-hit != 'true'
-      uses: actions/checkout@v6
-      with:
-        repository: research-software-ecosystem/content
-        path: backend/content
-
-    - name: Install Python dependencies
-      run: uv pip install --system -r backend/requirements.txt
-
-    - name: Install Node.js dependencies
-      working-directory: frontend
-      run: npm ci
-      env:
-        NUXT_TELEMETRY_DISABLED: 1
-
-    - name: Cache Nuxt build artifacts
-      uses: actions/cache@v5
-      with:
-        path: |
-          frontend/.nuxt
-          frontend/node_modules/.cache
-        key: nuxt-build-${{ runner.os }}-${{ hashFiles('frontend/package-lock.json') }}-${{ hashFiles('frontend/**/*.vue', 'frontend/**/*.ts', 'frontend/**/*.js') }}
-        restore-keys: |
-          nuxt-build-${{ runner.os }}-${{ hashFiles('frontend/package-lock.json') }}-
-          nuxt-build-${{ runner.os }}-
-
-    - name: Generate combined metadata JSON file
-      run: python backend/merge_data_files.py
-
-    - name: Generate static site
-      working-directory: frontend
-      run: npm run generate
-      env:
-        NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: frontend/.output/public
-        force_orphan: true
-        keep_files: false
+      contents: write
+    uses: ./.github/workflows/build-and-deploy.yml
+    with:
+      deploy: true

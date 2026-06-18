@@ -1,6 +1,7 @@
 # 🧬 Research Software Ecosystem Atlas
 
 [![Website](https://img.shields.io/badge/Website-RSEc--Atlas-blueviolet?style=for-the-badge&logo=githubpages)](https://research-software-ecosystem.github.io/RSEc-Atlas)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20747312.svg)](https://doi.org/10.5281/zenodo.20747312)
 
 ![RSEc Atlas Screenshot](main-screenshot.png)
 <sub>Example screenshot of the RSEc Atlas main page. The homepage allows users to search, filter, and browse through a large collection of bioinformatics tools and containers. Each tool card displays key metadata, badges, and a quick link to view detailed information. Pagination and advanced search options are available for efficient navigation.</sub>

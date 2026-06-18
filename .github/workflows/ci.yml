@@ -1,25 +1,23 @@
-name: Deploy Static Site
+name: CI
 
 on:
-  push:
+  pull_request:
     branches: [main]
-  workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+  cancel-in-progress: true
 
-permissions: {}  # deny all at workflow level; each job grants only what it needs
+permissions: {}
 
 jobs:
   build:
+    name: Verify Build
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     permissions:
-      contents: write  # required by peaceiris/actions-gh-pages to push to gh-pages branch
+      contents: read  # only needs to checkout code
 
     steps:
     - name: Checkout code
@@ -93,11 +91,3 @@ jobs:
       run: npm run generate
       env:
         NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: frontend/.output/public
-        force_orphan: true
-        keep_files: false

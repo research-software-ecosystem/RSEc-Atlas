@@ -63,7 +63,13 @@ jobs:
 
     - name: Install Node.js dependencies
       working-directory: frontend
-      run: npm ci
+      run: npm ci --ignore-scripts
+      env:
+        NUXT_TELEMETRY_DISABLED: 1
+
+    - name: Prepare Nuxt
+      working-directory: frontend
+      run: npx nuxt prepare
       env:
         NUXT_TELEMETRY_DISABLED: 1
 

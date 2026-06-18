@@ -19,9 +19,7 @@ jobs:
     timeout-minutes: 30
 
     permissions:
-      contents: read   # checkout
-      pages: write     # deploy to GitHub Pages (via peaceiris/actions-gh-pages)
-      id-token: write  # OIDC token (required by actions-gh-pages v4+)
+      contents: write  # required by peaceiris/actions-gh-pages to push to gh-pages branch
 
     steps:
     - name: Checkout code
@@ -33,7 +31,7 @@ jobs:
         python-version: '3.12'
 
     - name: Set up uv
-      uses: astral-sh/setup-uv@v8
+      uses: astral-sh/setup-uv@v8.2.0
       with:
         enable-cache: true
         cache-dependency-glob: "backend/requirements.txt"

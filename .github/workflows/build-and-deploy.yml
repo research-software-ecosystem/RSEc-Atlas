@@ -46,7 +46,7 @@ jobs:
 
     - name: Restore content from cache
       id: cache-content
-      uses: actions/cache@v5
+      uses: actions/cache@v6
       with:
         path: backend/content
         key: content-${{ steps.content-hash.outputs.hash }}
@@ -74,7 +74,7 @@ jobs:
         NUXT_TELEMETRY_DISABLED: 1
 
     - name: Cache Nuxt build artifacts
-      uses: actions/cache@v5
+      uses: actions/cache@v6
       with:
         path: |
           frontend/.nuxt

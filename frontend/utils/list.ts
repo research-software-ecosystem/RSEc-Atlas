@@ -18,21 +18,6 @@ function parseQuery(query: string) {
   return { tagQueries, nonTagQueries, isStarTag };
 }
 
-function filterToolsByTags(
-  tools: Tools,
-  tagQueries: string[],
-  allTopics: string[],
-) {
-  const filteredTopics = allTopics.filter((topic) =>
-    tagQueries.some((query) => topic.toLowerCase().includes(query)),
-  );
-  const filteredTools = tools.filter((tool) => {
-    const itemTags = getToolTopics(tool).map((tag) => tag.toLowerCase());
-    return tagQueries.every((query) => itemTags.includes(query));
-  });
-  return { filteredTools, filteredTopics };
-}
-
 function filterToolsByTagsAndTopics(
   tools: Tools,
   tagQueries: string[],

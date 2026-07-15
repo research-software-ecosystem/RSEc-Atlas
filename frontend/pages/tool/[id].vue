@@ -419,7 +419,7 @@ onMounted(async () => {
             Install with Biocontainers
             <NuxtLink
               target="_blank"
-              :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags&tag=latest`"
+              :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
             >
               <img
                 class="ml-2"
@@ -432,8 +432,19 @@ onMounted(async () => {
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`docker run -i -t --rm quay.io/biocontainers/${getToolName(tool).toLowerCase()}:${getToolVersion(tool).toLowerCase()} bash`"
+                :code="`docker run -i -t --rm quay.io/biocontainers/${getToolName(tool).toLowerCase()}:<tag> bash`"
               />
+              <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                Replace <code>&lt;tag&gt;</code> with a version and build from
+                the
+                <NuxtLink
+                  target="_blank"
+                  class="underline"
+                  :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
+                  >Quay tags page</NuxtLink
+                >
+                (e.g. <code>6.1.0--pyhdfd78af_1</code>).
+              </p>
             </div>
           </template>
         </InfoCard>
@@ -446,8 +457,20 @@ onMounted(async () => {
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`singularity exec https://depot.galaxyproject.org/singularity/${getToolName(tool).toLowerCase()}:${getToolVersion(tool).toLowerCase()} bash`"
+                :code="`singularity exec https://depot.galaxyproject.org/singularity/${getToolName(tool).toLowerCase()}:<tag> bash`"
               />
+              <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                Replace <code>&lt;tag&gt;</code> with a version and build from
+                the
+                <NuxtLink
+                  target="_blank"
+                  class="underline"
+                  :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
+                  >Quay tags page</NuxtLink
+                >
+                (e.g. <code>6.1.0--pyhdfd78af_1</code>). The same tag is used
+                for the Singularity image.
+              </p>
             </div>
           </template>
         </InfoCard>

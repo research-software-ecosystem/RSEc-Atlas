@@ -441,8 +441,9 @@ onMounted(async () => {
                   target="_blank"
                   class="underline"
                   :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
-                  >Quay tags page</NuxtLink
                 >
+                  Quay tags page
+                </NuxtLink>
                 (e.g. <code>6.1.0--pyhdfd78af_1</code>).
               </p>
             </div>
@@ -466,8 +467,9 @@ onMounted(async () => {
                   target="_blank"
                   class="underline"
                   :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
-                  >Quay tags page</NuxtLink
                 >
+                  Quay tags page
+                </NuxtLink>
                 (e.g. <code>6.1.0--pyhdfd78af_1</code>). The same tag is used
                 for the Singularity image.
               </p>

@@ -7,7 +7,7 @@ const toast = useToast();
 const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
 
 const tool = ref(null);
-const loading = ref(false);
+const loading = ref(true);
 
 const galaxyInstanceTabs = computed(() => {
   return Object.entries(getToolInGalaxyAvailability(tool.value))
@@ -610,7 +610,23 @@ onMounted(async () => {
       <ToolPlaceHolder />
     </div>
     <div v-else class="flex h-full w-full items-center justify-center">
-      <p class="text-gray-500">Tool not found or data is unavailable.</p>
+      <UAlert
+        class="max-w-xl"
+        color="warning"
+        variant="subtle"
+        icon="uil:exclamation-triangle"
+        title="Tool not found"
+        description="No metadata is available for this tool. It may have been renamed or removed from the Research Software Ecosystem content."
+        :actions="[
+          {
+            label: 'Back to all tools',
+            icon: 'uil:home',
+            color: 'warning',
+            variant: 'outline',
+            to: '/',
+          },
+        ]"
+      />
     </div>
   </div>
 </template>

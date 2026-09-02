@@ -320,8 +320,9 @@ onMounted(async () => {
       class="mb-4"
       color="neutral"
       variant="subtle"
+      role="status"
       icon="uil:spinner-alt"
-      :ui="{ icon: 'animate-spin' }"
+      :ui="{ icon: 'motion-safe:animate-spin' }"
       title="Loading the tool catalogue…"
       description="The metadata index is a few megabytes, so on a slow connection this can take a while. Your search and filters are applied as soon as it has loaded."
     />
@@ -331,9 +332,10 @@ onMounted(async () => {
       class="mb-4"
       color="error"
       variant="subtle"
+      role="alert"
       icon="uil:exclamation-triangle"
       title="Failed to load the tool catalogue"
-      :description="error"
+      description="The metadata index could not be downloaded. Check your connection and try again."
       :actions="[
         {
           label: 'Retry',
@@ -345,7 +347,10 @@ onMounted(async () => {
       ]"
     />
 
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
+    <div
+      class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3"
+      :aria-busy="isLoading"
+    >
       <template v-if="isLoading">
         <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
       </template>

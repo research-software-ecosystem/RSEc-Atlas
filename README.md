@@ -41,7 +41,8 @@ When a user clicks on a tool from the homepage, they are taken to a detailed pag
 - **Install with Singularity:** Command to run the tool in a Singularity container.
 
 #### 6. 📚 Publications
-- **References:** Links to relevant publications (e.g., DOIs) associated with the tool.
+- **References:** Formatted citations (authors, year, title, journal) for the publications associated with the tool, built from the bio.tools metadata and completed from the Europe PMC API for DOIs that carry no details of their own.
+- **Citation Counts & Links:** How often each publication has been cited, with links to the DOI, PubMed and Europe PMC.
 
 #### 7. 🎓 Galaxy Training Materials
 - **Training Links:** Tags linking to training resources and tutorials relevant to the tool.

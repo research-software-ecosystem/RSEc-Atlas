@@ -222,6 +222,14 @@ function primaryFirst(publication: PublicationRef): number {
   return publication.type?.some((type) => /primary/i.test(type)) ? 0 : 1;
 }
 
+function mergeTypes(
+  ...types: (string[] | null | undefined)[]
+): string[] | undefined {
+  const merged = Array.from(new Set(types.flatMap((type) => type || [])));
+
+  return merged.length > 0 ? merged : undefined;
+}
+
 export function getToolPublications(tool: Tool): PublicationRef[] {
   const { biotools, bioconda, biocontainers } = tool.fetched_metadata;
 
@@ -231,21 +239,26 @@ export function getToolPublications(tool: Tool): PublicationRef[] {
     const doi = publication.doi ? normalizeDOI(publication.doi) : undefined;
     const key = publicationKey(doi, publication.pmid);
 
-    if (!key || publications.has(key)) continue;
+    if (!key) continue;
 
     const { metadata } = publication;
 
+    // bio.tools sometimes lists the same DOI twice, once per publication type,
+    // with the details spread over the records — merge instead of dropping.
+    const existing = publications.get(key);
+
     publications.set(key, {
       key,
-      doi,
-      pmid: publication.pmid,
-      pmcid: publication.pmcid,
-      type: publication.type || undefined,
-      title: metadata?.title,
-      authors: metadata?.authors?.map((author) => author.name),
-      journal: metadata?.journal,
-      year: metadata?.date?.slice(0, 4),
-      citationCount: metadata?.citationCount,
+      doi: existing?.doi ?? doi,
+      pmid: existing?.pmid ?? publication.pmid,
+      pmcid: existing?.pmcid ?? publication.pmcid,
+      type: mergeTypes(existing?.type, publication.type),
+      title: existing?.title ?? metadata?.title,
+      authors:
+        existing?.authors ?? metadata?.authors?.map((author) => author.name),
+      journal: existing?.journal ?? metadata?.journal,
+      year: existing?.year ?? metadata?.date?.slice(0, 4),
+      citationCount: existing?.citationCount ?? metadata?.citationCount,
     });
   }
 

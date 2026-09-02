@@ -5,7 +5,12 @@ const EUROPE_PMC_SEARCH_URL =
 // to stay well inside the URL length limit of the REST endpoint.
 const BATCH_SIZE = 25;
 
+// One DOI can match several records (a preprint and the journal article), so
+// ask for more results than DOIs to keep the surplus from falling off the page.
+const PAGE_SIZE = 100;
+
 interface EuropePMCResult {
+  source?: string;
   doi?: string;
   title?: string;
   authorString?: string;
@@ -68,14 +73,21 @@ export async function fetchPublicationDetails(
           query: batchedDOIs.map((doi) => `DOI:"${doi}"`).join(" OR "),
           format: "json",
           resultType: "lite",
-          pageSize: batchedDOIs.length,
+          pageSize: PAGE_SIZE,
         },
       });
 
       for (const result of response?.resultList?.result || []) {
         if (!result.doi) continue;
 
-        details[result.doi.toLowerCase()] = {
+        const doi = result.doi.toLowerCase();
+
+        // The same DOI can come back as both a preprint (PPR) and the indexed
+        // article (MED); the article carries the citation count and the PubMed
+        // id, so it must not be overwritten by the preprint.
+        if (details[doi] && result.source !== "MED") continue;
+
+        details[doi] = {
           title: result.title,
           authors: parseAuthors(result.authorString),
           journal: result.journalTitle,

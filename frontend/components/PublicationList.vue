@@ -82,9 +82,9 @@ async function loadDetails() {
     .filter((publication) => !publication.title && publication.doi)
     .map((publication) => publication.doi as string);
 
-  if (missing.length === 0) return;
+  loadingDetails.value = missing.length > 0;
 
-  loadingDetails.value = true;
+  if (missing.length === 0) return;
 
   try {
     const fetched = await fetchPublicationDetails(missing);

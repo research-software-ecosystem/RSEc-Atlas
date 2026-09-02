@@ -3,7 +3,9 @@ export async function fetchAllToolsMetadata(): Promise<Tool[]> {
     const response = await $fetch("/metadata/combined_metadata.json");
     return response as Tool[];
   } catch (error) {
-    throw new Error(`Failed to fetch all tools metadata: ${error}`, { cause: error });
+    throw new Error(`Failed to fetch all tools metadata: ${error}`, {
+      cause: error,
+    });
   }
 }
 
@@ -12,7 +14,9 @@ export async function fetchToolMetadata(toolName: string): Promise<Tool> {
     const response = await $fetch(`/metadata/tools/${toolName}.json`);
     return response as Tool;
   } catch (error) {
-    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`, { cause: error });
+    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`, {
+      cause: error,
+    });
   }
 }
 
@@ -191,21 +195,112 @@ export function getToolEDAMTopics(tool: Tool): string[] {
   return galaxy?.edam_topics || [];
 }
 
-export function getToolPublications(tool: Tool): string[] {
-  const { bioconda, biocontainers } = tool.fetched_metadata;
+export function normalizeDOI(doi: string): string {
+  const trimmed = doi.trim();
+  let decoded = trimmed;
 
-  const allPublications = [
+  try {
+    // Some records arrive percent-encoded (10.1038%2Fs41551-021-00770-5).
+    decoded = decodeURIComponent(trimmed);
+  } catch {
+    // A malformed escape is not worth losing the reference over.
+  }
+
+  return decoded
+    .replace(/^doi:/i, "")
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+    .trim();
+}
+
+function publicationKey(doi?: string, pmid?: string): string | undefined {
+  if (doi) return `doi:${doi.toLowerCase()}`;
+  if (pmid) return `pmid:${pmid}`;
+  return undefined;
+}
+
+function primaryFirst(publication: PublicationRef): number {
+  return publication.type?.some((type) => /primary/i.test(type)) ? 0 : 1;
+}
+
+function mergeTypes(
+  ...types: (string[] | null | undefined)[]
+): string[] | undefined {
+  const merged = Array.from(new Set(types.flatMap((type) => type || [])));
+
+  return merged.length > 0 ? merged : undefined;
+}
+
+export function getToolPublications(tool: Tool): PublicationRef[] {
+  const { biotools, bioconda, biocontainers } = tool.fetched_metadata;
+
+  const publications = new Map<string, PublicationRef>();
+
+  for (const publication of biotools?.publication || []) {
+    const doi = publication.doi ? normalizeDOI(publication.doi) : undefined;
+    const key = publicationKey(doi, publication.pmid);
+
+    if (!key) continue;
+
+    const { metadata } = publication;
+
+    // bio.tools sometimes lists the same DOI twice, once per publication type,
+    // with the details spread over the records — merge instead of dropping.
+    const existing = publications.get(key);
+
+    publications.set(key, {
+      key,
+      doi: existing?.doi ?? doi,
+      pmid: existing?.pmid ?? publication.pmid,
+      pmcid: existing?.pmcid ?? publication.pmcid,
+      type: mergeTypes(existing?.type, publication.type),
+      title: existing?.title ?? metadata?.title,
+      authors:
+        existing?.authors ?? metadata?.authors?.map((author) => author.name),
+      journal: existing?.journal ?? metadata?.journal,
+      year: existing?.year ?? metadata?.date?.slice(0, 4),
+      citationCount: existing?.citationCount ?? metadata?.citationCount,
+    });
+  }
+
+  const identifiers = [
     ...(bioconda?.identifiers || []),
     ...(biocontainers?.identifiers || []),
   ];
 
-  const publications = allPublications
-    .map((id) =>
-      id.trim() && id.startsWith("doi:") ? `doi:${id.slice(4)}` : undefined,
-    )
-    .filter((id): id is string => id !== undefined);
+  for (const identifier of identifiers) {
+    if (!identifier.trim().toLowerCase().startsWith("doi:")) continue;
 
-  return Array.from(new Set(publications)).sort();
+    const doi = normalizeDOI(identifier);
+    const key = publicationKey(doi);
+
+    if (!doi || !key || publications.has(key)) continue;
+
+    publications.set(key, { key, doi });
+  }
+
+  return Array.from(publications.values()).sort(
+    (a, b) =>
+      primaryFirst(a) - primaryFirst(b) ||
+      (b.citationCount || 0) - (a.citationCount || 0) ||
+      a.key.localeCompare(b.key),
+  );
+}
+
+export function getPublicationURL(publication: PublicationRef): string {
+  if (publication.doi) {
+    // A DOI may legitimately contain characters that would otherwise be read as
+    // the start of a fragment or a query string.
+    const doi = publication.doi
+      .replace(/#/g, "%23")
+      .replace(/\?/g, "%3F")
+      .replace(/ /g, "%20");
+
+    return `https://doi.org/${doi}`;
+  } else if (publication.pmid) {
+    return `https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`;
+  } else {
+    return `https://europepmc.org/article/PMC/${publication.pmcid}`;
+  }
 }
 
 export function getLinkURL(link: string): string {

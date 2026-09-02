@@ -477,30 +477,7 @@ onMounted(async () => {
           </template>
         </InfoCard>
 
-        <InfoCard
-          v-if="getToolPublications(tool).length > 0"
-          title="Publications"
-          title-icon="uil:book-open"
-        >
-          <UTooltip
-            v-for="publication in getToolPublications(tool)"
-            :key="publication"
-            :delay-duration="500"
-            text="Click to view publication"
-          >
-            <NuxtLink target="_blank" :to="getLinkURL(publication)">
-              <UBadge
-                class="lg:text-md text-sm text-gray-600 dark:text-gray-300"
-                variant="subtle"
-                color="primary"
-                :trailing-icon="`uil:external-link-alt`"
-                icon="uil:book-alt"
-              >
-                {{ publication }}
-              </UBadge>
-            </NuxtLink>
-          </UTooltip>
-        </InfoCard>
+        <PublicationList :tool="tool" />
 
         <InfoCard
           v-if="getToolTrainingMaterials(tool).length > 0"

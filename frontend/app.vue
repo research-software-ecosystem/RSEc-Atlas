@@ -6,8 +6,10 @@ const runtimeConfig = useRuntimeConfig();
 useHead({
   titleTemplate: (titleChunk) => {
     const appTitle = runtimeConfig.public.appTitle;
-    return titleChunk && titleChunk !== appTitle ? `${appTitle} | ${titleChunk}` : appTitle;
-  }
+    return titleChunk && titleChunk !== appTitle
+      ? `${appTitle} | ${titleChunk}`
+      : appTitle;
+  },
 });
 
 const contentRepoBase =
@@ -46,73 +48,75 @@ const githubLink = computed(() => {
 </script>
 
 <template>
-  <UApp class="flex flex-col font-sans">
-    <header
-      class="sticky top-0 z-50 bg-gray-50 px-6 py-2 shadow-md dark:bg-gray-900"
-    >
-      <nav>
-        <div class="flex justify-between">
-          <NuxtLink
-            to="/"
-            class="text-md flex items-center gap-2 font-bold md:text-2xl"
-          >
-            <img class="h-8 w-auto" alt="RSEc Logo" :src="logoSrc" />
-
-            <span>RSEc Atlas</span>
-          </NuxtLink>
-
-          <div class="flex items-center justify-end gap-1">
-            <ClientOnly v-if="!colorMode?.forced">
-              <UButton
-                :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
-                color="neutral"
-                variant="ghost"
-                @click="isDark = !isDark"
-              />
-
-              <template v-slot:fallback>
-                <div class="size-8" />
-              </template>
-            </ClientOnly>
-
-            <UButton
-              target="_blank"
-              icon="i-lucide-github"
-              :to="githubLink"
-              color="neutral"
-              variant="subtle"
+  <UApp>
+    <div class="flex min-h-screen flex-col font-sans">
+      <header
+        class="sticky top-0 z-50 bg-gray-50 px-6 py-2 shadow-md dark:bg-gray-900"
+      >
+        <nav>
+          <div class="flex justify-between">
+            <NuxtLink
+              to="/"
+              class="text-md flex items-center gap-2 font-bold md:text-2xl"
             >
-              <span class="hidden md:inline-block"> View on Github </span>
-            </UButton>
+              <img class="h-8 w-auto" alt="RSEc Logo" :src="logoSrc" />
+
+              <span>RSEc Atlas</span>
+            </NuxtLink>
+
+            <div class="flex items-center justify-end gap-1">
+              <ClientOnly v-if="!colorMode?.forced">
+                <UButton
+                  :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
+                  color="neutral"
+                  variant="ghost"
+                  @click="isDark = !isDark"
+                />
+
+                <template v-slot:fallback>
+                  <div class="size-8" />
+                </template>
+              </ClientOnly>
+
+              <UButton
+                target="_blank"
+                icon="i-lucide-github"
+                :to="githubLink"
+                color="neutral"
+                variant="subtle"
+              >
+                <span class="hidden md:inline-block"> View on Github </span>
+              </UButton>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
-    <main
-      class="overflow-y-auto bg-gray-50 px-2 pt-3 pb-20 lg:px-5 lg:pt-5 dark:bg-gray-900"
-    >
-      <NuxtPage />
-    </main>
+      <main
+        class="grow overflow-y-auto bg-gray-50 px-2 pt-3 pb-20 lg:px-5 lg:pt-5 dark:bg-gray-900"
+      >
+        <NuxtPage />
+      </main>
 
-    <footer
-      class="fixed bottom-0 w-full bg-gray-100 p-2 shadow-amber-50 md:p-2 dark:bg-gray-800"
-    >
-      <div>
-        <p
-          class="text-center text-xs text-gray-500 md:text-sm dark:text-gray-400"
-        >
-          A webapp to browse through all the entries in the
-          <NuxtLink
-            target="_blank"
-            class="font-bold transition-all hover:text-gray-700 dark:hover:text-gray-300"
-            to="https://research-software-ecosystem.github.io"
+      <footer
+        class="fixed bottom-0 w-full bg-gray-100 p-2 shadow-amber-50 md:p-2 dark:bg-gray-800"
+      >
+        <div>
+          <p
+            class="text-center text-xs text-gray-500 md:text-sm dark:text-gray-400"
           >
-            Research Software Ecosystem
-          </NuxtLink>
-          repository.
-        </p>
-      </div>
-    </footer>
+            A webapp to browse through all the entries in the
+            <NuxtLink
+              target="_blank"
+              class="font-bold transition-all hover:text-gray-700 dark:hover:text-gray-300"
+              to="https://research-software-ecosystem.github.io"
+            >
+              Research Software Ecosystem
+            </NuxtLink>
+            repository.
+          </p>
+        </div>
+      </footer>
+    </div>
   </UApp>
 </template>

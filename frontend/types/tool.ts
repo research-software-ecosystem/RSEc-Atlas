@@ -1,4 +1,25 @@
 declare global {
+  interface PublicationAuthor {
+    name: string;
+  }
+
+  interface PublicationMetadata {
+    title?: string;
+    authors?: PublicationAuthor[];
+    journal?: string;
+    date?: string;
+    citationCount?: number;
+    abstract?: string;
+  }
+
+  interface Publication {
+    doi?: string;
+    pmid?: string;
+    pmcid?: string;
+    type?: string[] | null;
+    metadata?: PublicationMetadata;
+  }
+
   interface WorkflowDetails {
     name: string;
     create_time: string;
@@ -34,6 +55,7 @@ declare global {
         addition_date?: string;
         summary?: string;
         collections?: string[];
+        publication?: Publication[];
       };
       biocontainers?: {
         name?: string;

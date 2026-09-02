@@ -612,17 +612,25 @@ onMounted(async () => {
     <div v-else class="flex h-full w-full items-center justify-center">
       <UAlert
         class="max-w-xl"
+        role="alert"
         color="warning"
         variant="subtle"
         icon="uil:exclamation-triangle"
         title="Tool not found"
-        description="No metadata is available for this tool. It may have been renamed or removed from the Research Software Ecosystem content."
+        description="No metadata could be loaded for this tool. It may have been renamed or removed, or the request may have failed."
         :actions="[
+          {
+            label: 'Try again',
+            icon: 'uil:refresh',
+            color: 'warning',
+            variant: 'outline',
+            onClick: loadData,
+          },
           {
             label: 'Back to all tools',
             icon: 'uil:home',
             color: 'warning',
-            variant: 'outline',
+            variant: 'ghost',
             to: '/',
           },
         ]"

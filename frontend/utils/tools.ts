@@ -196,7 +196,17 @@ export function getToolEDAMTopics(tool: Tool): string[] {
 }
 
 export function normalizeDOI(doi: string): string {
-  return decodeURIComponent(doi.trim())
+  const trimmed = doi.trim();
+  let decoded = trimmed;
+
+  try {
+    // Some records arrive percent-encoded (10.1038%2Fs41551-021-00770-5).
+    decoded = decodeURIComponent(trimmed);
+  } catch {
+    // A malformed escape is not worth losing the reference over.
+  }
+
+  return decoded
     .replace(/^doi:/i, "")
     .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
     .trim();

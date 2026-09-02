@@ -163,6 +163,11 @@ function onTopicClick(topic: string) {
   searchQuery.value = queryParts.join(" ").trim();
 }
 
+async function onRetry() {
+  await getTools();
+  await filterTools();
+}
+
 function onClearFilters() {
   searchQuery.value = "";
   sortKey.value = "Name";
@@ -218,6 +223,7 @@ onMounted(async () => {
         <UInput
           v-model="searchQuery"
           icon="i-lucide-search"
+          :loading="loadingTools"
           size="xl"
           class="w-full"
           variant="outline"
@@ -308,6 +314,36 @@ onMounted(async () => {
         </div>
       </div>
     </div>
+
+    <UAlert
+      v-if="loadingTools"
+      class="mb-4"
+      color="neutral"
+      variant="subtle"
+      icon="uil:spinner-alt"
+      :ui="{ icon: 'animate-spin' }"
+      title="Loading the tool catalogue…"
+      description="The metadata index is a few megabytes, so on a slow connection this can take a while. Your search and filters are applied as soon as it has loaded."
+    />
+
+    <UAlert
+      v-else-if="error"
+      class="mb-4"
+      color="error"
+      variant="subtle"
+      icon="uil:exclamation-triangle"
+      title="Failed to load the tool catalogue"
+      :description="error"
+      :actions="[
+        {
+          label: 'Retry',
+          icon: 'uil:refresh',
+          color: 'error',
+          variant: 'outline',
+          onClick: onRetry,
+        },
+      ]"
+    />
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
       <template v-if="isLoading">

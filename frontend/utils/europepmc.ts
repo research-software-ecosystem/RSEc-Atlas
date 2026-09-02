@@ -61,9 +61,12 @@ export async function fetchPublicationDetails(
 ): Promise<Record<string, Partial<PublicationRef>>> {
   const details: Record<string, Partial<PublicationRef>> = {};
 
-  // Quotes would break out of the quoted DOI term in the query.
+  // A quote or a backslash would break out of the quoted DOI term and corrupt
+  // the query for the whole batch.
   const uniqueDOIs = Array.from(
-    new Set(dois.map((doi) => doi.trim().replace(/"/g, "")).filter(Boolean)),
+    new Set(
+      dois.map((doi) => doi.trim().replace(/["\\]/g, "")).filter(Boolean),
+    ),
   );
 
   for (const batchedDOIs of batch(uniqueDOIs, BATCH_SIZE)) {

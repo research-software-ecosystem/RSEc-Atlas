@@ -58,7 +58,7 @@ async function filterTools() {
 
   try {
     filtering.value = true;
-    const query = searchQueryDebounced.value?.toLowerCase().trim() || "";
+    const query = searchQuery.value?.toLowerCase().trim() || "";
 
     const hasMetadata = tools.value.some((tool) => tool.fetched_metadata);
     if (!hasMetadata) {

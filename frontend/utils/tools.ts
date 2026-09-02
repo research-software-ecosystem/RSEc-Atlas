@@ -288,7 +288,14 @@ export function getToolPublications(tool: Tool): PublicationRef[] {
 
 export function getPublicationURL(publication: PublicationRef): string {
   if (publication.doi) {
-    return `https://doi.org/${publication.doi}`;
+    // A DOI may legitimately contain characters that would otherwise be read as
+    // the start of a fragment or a query string.
+    const doi = publication.doi
+      .replace(/#/g, "%23")
+      .replace(/\?/g, "%3F")
+      .replace(/ /g, "%20");
+
+    return `https://doi.org/${doi}`;
   } else if (publication.pmid) {
     return `https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`;
   } else {

@@ -17,7 +17,8 @@ const dataOptions = [
 const toast = useToast();
 
 const tools = ref<Tools>([]);
-const loading = ref(false);
+const loadingTools = ref(true);
+const filtering = ref(false);
 const error = ref("");
 
 const filteredTopics = ref<string[]>([]);
@@ -33,6 +34,8 @@ const licenseFilter = ref("All");
 const licenseOptions = ref(["All"]);
 const favoritesFilter = ref("All");
 const dataFilter = ref("All");
+
+const isLoading = computed(() => loadingTools.value || filtering.value);
 
 const showClearButton = computed(() => {
   return (
@@ -51,8 +54,10 @@ const paginatedItems = computed(() => {
 });
 
 async function filterTools() {
+  if (loadingTools.value) return;
+
   try {
-    loading.value = true;
+    filtering.value = true;
     const query = searchQueryDebounced.value?.toLowerCase().trim() || "";
 
     const hasMetadata = tools.value.some((tool) => tool.fetched_metadata);
@@ -91,7 +96,7 @@ async function filterTools() {
 
     filteredTools.value = [];
   } finally {
-    loading.value = false;
+    filtering.value = false;
   }
 }
 
@@ -121,7 +126,8 @@ function listTopics() {
 }
 
 async function getTools() {
-  loading.value = true;
+  loadingTools.value = true;
+  error.value = "";
 
   try {
     tools.value = await fetchAllToolsMetadata();
@@ -136,7 +142,7 @@ async function getTools() {
       color: "error",
     });
   } finally {
-    loading.value = false;
+    loadingTools.value = false;
   }
 }
 
@@ -304,17 +310,17 @@ onMounted(async () => {
     </div>
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
-      <template v-if="loading">
+      <template v-if="isLoading">
         <ItemCardPlaceHolder v-for="i in Number(perPage)" :key="i" />
       </template>
-      <template v-else-if="!loading && paginatedItems.length > 0">
+      <template v-else-if="paginatedItems.length > 0">
         <ItemCard
           v-for="tool in paginatedItems"
           :key="tool.tool_name"
           :tool="tool"
         />
       </template>
-      <template v-else-if="!loading && paginatedItems.length === 0">
+      <template v-else-if="!error">
         <div class="col-span-full text-center">
           <p class="text-lg text-gray-500">
             No tools found matching your criteria.

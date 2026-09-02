@@ -484,11 +484,11 @@ onMounted(async () => {
         >
           <UTooltip
             v-for="publication in getToolPublications(tool)"
-            :key="publication"
+            :key="publication.key"
             :delay-duration="500"
             text="Click to view publication"
           >
-            <NuxtLink target="_blank" :to="getLinkURL(publication)">
+            <NuxtLink target="_blank" :to="getPublicationURL(publication)">
               <UBadge
                 class="lg:text-md text-sm text-gray-600 dark:text-gray-300"
                 variant="subtle"
@@ -496,7 +496,7 @@ onMounted(async () => {
                 :trailing-icon="`uil:external-link-alt`"
                 icon="uil:book-alt"
               >
-                {{ publication }}
+                {{ publication.doi || `pmid:${publication.pmid}` }}
               </UBadge>
             </NuxtLink>
           </UTooltip>

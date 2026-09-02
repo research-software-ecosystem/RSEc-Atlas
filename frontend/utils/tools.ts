@@ -3,7 +3,9 @@ export async function fetchAllToolsMetadata(): Promise<Tool[]> {
     const response = await $fetch("/metadata/combined_metadata.json");
     return response as Tool[];
   } catch (error) {
-    throw new Error(`Failed to fetch all tools metadata: ${error}`, { cause: error });
+    throw new Error(`Failed to fetch all tools metadata: ${error}`, {
+      cause: error,
+    });
   }
 }
 
@@ -12,7 +14,9 @@ export async function fetchToolMetadata(toolName: string): Promise<Tool> {
     const response = await $fetch(`/metadata/tools/${toolName}.json`);
     return response as Tool;
   } catch (error) {
-    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`, { cause: error });
+    throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`, {
+      cause: error,
+    });
   }
 }
 
@@ -191,21 +195,82 @@ export function getToolEDAMTopics(tool: Tool): string[] {
   return galaxy?.edam_topics || [];
 }
 
-export function getToolPublications(tool: Tool): string[] {
-  const { bioconda, biocontainers } = tool.fetched_metadata;
+export function normalizeDOI(doi: string): string {
+  return decodeURIComponent(doi.trim())
+    .replace(/^doi:/i, "")
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+    .trim();
+}
 
-  const allPublications = [
+function publicationKey(doi?: string, pmid?: string): string | undefined {
+  if (doi) return `doi:${doi.toLowerCase()}`;
+  if (pmid) return `pmid:${pmid}`;
+  return undefined;
+}
+
+function primaryFirst(publication: PublicationRef): number {
+  return publication.type?.some((type) => /primary/i.test(type)) ? 0 : 1;
+}
+
+export function getToolPublications(tool: Tool): PublicationRef[] {
+  const { biotools, bioconda, biocontainers } = tool.fetched_metadata;
+
+  const publications = new Map<string, PublicationRef>();
+
+  for (const publication of biotools?.publication || []) {
+    const doi = publication.doi ? normalizeDOI(publication.doi) : undefined;
+    const key = publicationKey(doi, publication.pmid);
+
+    if (!key || publications.has(key)) continue;
+
+    const { metadata } = publication;
+
+    publications.set(key, {
+      key,
+      doi,
+      pmid: publication.pmid,
+      pmcid: publication.pmcid,
+      type: publication.type || undefined,
+      title: metadata?.title,
+      authors: metadata?.authors?.map((author) => author.name),
+      journal: metadata?.journal,
+      year: metadata?.date?.slice(0, 4),
+      citationCount: metadata?.citationCount,
+    });
+  }
+
+  const identifiers = [
     ...(bioconda?.identifiers || []),
     ...(biocontainers?.identifiers || []),
   ];
 
-  const publications = allPublications
-    .map((id) =>
-      id.trim() && id.startsWith("doi:") ? `doi:${id.slice(4)}` : undefined,
-    )
-    .filter((id): id is string => id !== undefined);
+  for (const identifier of identifiers) {
+    if (!identifier.trim().toLowerCase().startsWith("doi:")) continue;
 
-  return Array.from(new Set(publications)).sort();
+    const doi = normalizeDOI(identifier);
+    const key = publicationKey(doi);
+
+    if (!doi || !key || publications.has(key)) continue;
+
+    publications.set(key, { key, doi });
+  }
+
+  return Array.from(publications.values()).sort(
+    (a, b) =>
+      primaryFirst(a) - primaryFirst(b) ||
+      (b.citationCount || 0) - (a.citationCount || 0) ||
+      a.key.localeCompare(b.key),
+  );
+}
+
+export function getPublicationURL(publication: PublicationRef): string {
+  if (publication.doi) {
+    return `https://doi.org/${publication.doi}`;
+  } else if (publication.pmid) {
+    return `https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`;
+  } else {
+    return `https://europepmc.org/article/PMC/${publication.pmcid}`;
+  }
 }
 
 export function getLinkURL(link: string): string {

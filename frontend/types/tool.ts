@@ -20,6 +20,19 @@ declare global {
     metadata?: PublicationMetadata;
   }
 
+  interface PublicationRef {
+    key: string;
+    doi?: string;
+    pmid?: string;
+    pmcid?: string;
+    type?: string[];
+    title?: string;
+    authors?: string[];
+    journal?: string;
+    year?: string;
+    citationCount?: number;
+  }
+
   interface WorkflowDetails {
     name: string;
     create_time: string;

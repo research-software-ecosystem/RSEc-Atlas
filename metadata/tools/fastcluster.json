@@ -1,0 +1,1 @@
+{"tool_name":"fastcluster","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"fastcluster","identifiers":[],"license":"BSDlike","summary":"Fast hierarchical clustering routines for python 3","home_url":"https://cran.r-project.org/package=fastcluster","keywords":["Clustering"],"manually_check":true,"total_pulls":0}}}

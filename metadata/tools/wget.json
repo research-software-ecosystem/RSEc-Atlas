@@ -1,0 +1,1 @@
+{"tool_name":"wget","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"wget","identifiers":[],"license":"GPL-3.0","summary":"utility for non-interactive download of files from the Web","home_url":"https://www.gnu.org/software/wget/","keywords":[],"manually_check":true,"total_pulls":4}}}

@@ -1,0 +1,1 @@
+{"tool_name":"bedtools-test","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bedtools-test","identifiers":[],"license":"GPL-2","summary":"Test data for the bedtools package","home_url":"https://github.com/arq5x/bedtools2","keywords":["Genomics"],"manually_check":true,"total_pulls":0}}}

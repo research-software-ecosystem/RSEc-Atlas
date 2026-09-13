@@ -1,0 +1,1 @@
+{"tool_name":"orthanc-mysql","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"orthanc-mysql","identifiers":[],"license":"AGPL-3","summary":"Plugins to use mysql or mariadb as a database back-end to orthanc","home_url":"https://www.orthanc-server.com/static.php?page=mysql","keywords":[],"manually_check":true,"total_pulls":0}}}

@@ -1,0 +1,1 @@
+{"tool_name":"python-tifffile","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python-tifffile","identifiers":[],"license":"BSD-3-clause","summary":"Read and write image data from and to tiff files","home_url":"https://github.com/cgohlke/tifffile","keywords":["Molecular Dynamics"],"manually_check":true,"total_pulls":0}}}

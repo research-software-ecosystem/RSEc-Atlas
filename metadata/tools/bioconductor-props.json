@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-props","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-props","identifiers":["doi:10.18129/b9.bioc.props"],"license":"GPL-2","summary":"PRObabilistic Pathway Score (PROPS)","home_url":"https://bioconductor.org/packages/3.8/bioc/html/PROPS.html","keywords":["Gene Expression"],"manually_check":true,"total_pulls":3}}}

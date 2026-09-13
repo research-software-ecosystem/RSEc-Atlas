@@ -1,0 +1,1 @@
+{"tool_name":"python-mne","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"python-mne","identifiers":["doi:10.5281/zenodo.592483"],"license":"BSD-3-Clause","summary":"Python modules for meg and eeg data analysis","home_url":"https://github.com/mne-tools/mne-python","keywords":[],"manually_check":true,"total_pulls":0}}}

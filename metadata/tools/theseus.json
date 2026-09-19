@@ -1,0 +1,1 @@
+{"tool_name":"theseus","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"theseus","identifiers":["doi:10.1093/bioinformatics/btl332"],"license":"GPL-3.0+","summary":"Superimpose macromolecules using maximum likelihood","home_url":"http://www.theseus3d.org","keywords":["Sequence Alignment","Protein Sequences"],"manually_check":true,"total_pulls":0}}}

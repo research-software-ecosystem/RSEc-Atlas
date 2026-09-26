@@ -1,0 +1,1 @@
+{"tool_name":"lambda-align2","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"lambda-align2","identifiers":[],"license":"AGPL-3.0+","summary":"Local aligner for massive biological data - v2","home_url":"https://github.com/seqan/lambda","keywords":["Genomics","Metagenomics"],"manually_check":true,"total_pulls":0}}}

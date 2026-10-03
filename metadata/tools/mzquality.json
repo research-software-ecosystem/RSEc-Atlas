@@ -1,0 +1,1 @@
+{"tool_name":"mzquality","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"mzquality","identifiers":[],"license":"Apache-2.0","summary":"A tool to assess the quality of targeted mass spectrometry measurements.","home_url":"https://github.com/phnmnl/container-mzquality","keywords":["Mass spectrometry","Metabolomics"],"manually_check":true,"total_pulls":0}}}

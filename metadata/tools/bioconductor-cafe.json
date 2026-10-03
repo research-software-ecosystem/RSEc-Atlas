@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-cafe","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-cafe","identifiers":["doi:10.18129/b9.bioc.cafe"],"license":"GPL-3","summary":"Chromosmal Aberrations Finder in Expression data","home_url":"https://bioconductor.org/packages/3.8/bioc/html/CAFE.html","keywords":[],"manually_check":true,"total_pulls":3}}}

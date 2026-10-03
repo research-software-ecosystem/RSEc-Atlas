@@ -1,0 +1,1 @@
+import{at as e,rt as t}from"./-laB903k.js";import"#entry";var n={__name:`[search]`,setup(n){let r=e().params.search||``;return t(`/?search=${r}`),()=>{}}};export{n as default};

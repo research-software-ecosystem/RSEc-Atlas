@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-vulcan","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-vulcan","identifiers":["doi:10.18129/b9.bioc.vulcan"],"license":"LGPL-3","summary":"VirtUaL ChIP-Seq data Analysis using Networks","home_url":"https://bioconductor.org/packages/3.8/bioc/html/vulcan.html","keywords":[],"manually_check":true,"total_pulls":3}}}

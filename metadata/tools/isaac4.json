@@ -1,0 +1,1 @@
+{"tool_name":"isaac4","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"isaac4","identifiers":[],"license":"GPL-3.0-only","summary":"Ultra-fast whole-genome alignment for Illumina sequencing platforms.","home_url":"https://github.com/Illumina/Isaac4","keywords":[],"manually_check":true,"total_pulls":921}}}

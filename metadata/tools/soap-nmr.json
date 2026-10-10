@@ -1,0 +1,1 @@
+{"tool_name":"soap-nmr","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"soap-nmr","identifiers":[],"license":"Custom License","summary":"Dockerify SOAP-NMR - an R package for 1H-NMR data pre-treatment.","home_url":"https://github.com/phnmnl/container-soap-nmr","keywords":[],"manually_check":true,"total_pulls":0}}}

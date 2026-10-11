@@ -7,7 +7,7 @@
 <sub>Example screenshot of the RSEc Atlas main page. The homepage allows users to search, filter, and browse through a large collection of bioinformatics tools and containers. Each tool card displays key metadata, badges, and a quick link to view detailed information. Pagination and advanced search options are available for efficient navigation.</sub>
 
 ## 🚀 Overview
-With this static site web application we want to demonstrate the possibilities of the RSEc. Communities can take inspiration or fork this project to create subsets of tool and service repositories.
+With this static site web application hosted on GitHub Pages we want to demonstrate the possibilities of the RSEc. Communities can take inspiration or fork this project to create subsets of tool and service repositories.
 The website is designed to help researchers and scientists explore the metadata of various scientific tools and their associated containers, packages ... you name it, with the final aim of improving
 findability. The application retrieves RAW metadata from the Git repository of the [Research Software Ecosystem Content](https://github.com/research-software-ecosystem/content), "compiles" them to be compact as possible and provides a user-friendly interface to view, search, and filter them along with their metadata.
 

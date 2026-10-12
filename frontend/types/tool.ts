@@ -61,6 +61,8 @@ declare global {
         identifiers?: string[];
       };
       biotools?: {
+        id?: string;
+        name?: string;
         home?: string;
         version?: string | string[];
         license?: string;

@@ -367,11 +367,11 @@ export function getToolBioToolsData(tool: Tool): {
   name: string;
   ids: string[];
 } {
-  const { galaxy } = tool.fetched_metadata;
+  const { biotools, galaxy } = tool.fetched_metadata;
 
   return {
-    name: galaxy?.bio_tools_name || "",
-    ids: galaxy?.bio_tools_ids || [],
+    name: biotools?.name || galaxy?.bio_tools_name || "",
+    ids: biotools?.id ? [biotools.id] : galaxy?.bio_tools_ids || [],
   };
 }
 

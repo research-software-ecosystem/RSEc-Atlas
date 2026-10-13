@@ -10,6 +10,8 @@ script_dir = os.path.dirname(__file__)
 output_folder = os.path.join(script_dir, "..", "frontend", "public", "metadata")
 data_dir = os.path.join(script_dir, "content", "data")
 galaxy_data_dir = os.path.join(script_dir, "content", "imports", "galaxy")
+tess_data_dir = os.path.join(script_dir, "content", "imports", "tess")
+workflowhub_data_dir = os.path.join(script_dir, "content", "imports", "workflowhub")
 
 
 logging.basicConfig(
@@ -30,6 +32,93 @@ def parse_yaml(file_path):
 def parse_json(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_lookup(data_dir, suffix):
+    """Load every `<id><suffix>` file in data_dir into {str(id) -> record}."""
+    lookup = {}
+    if not os.path.isdir(data_dir):
+        return lookup
+    for file_name in os.listdir(data_dir):
+        if not file_name.endswith(suffix):
+            continue
+        record = parse_json(os.path.join(data_dir, file_name))
+        if not isinstance(record, dict):
+            continue
+        lookup[str(record.get("id", file_name[: -len(suffix)]))] = record
+    return lookup
+
+
+def _safe_record_id(record):
+    """Return a filesystem-safe str id for a record, or None if unusable.
+
+    Guards against missing/malformed ids and path-traversal via the id field
+    (ids originate from external TESS/WorkflowHub API feeds).
+    """
+    raw = record.get("id")
+    if raw is None:
+        return None
+    sid = str(raw).strip()
+    if not sid or "/" in sid or "\\" in sid or sid in (".", ".."):
+        return None
+    return sid
+
+
+def resolve_id_list(ids, lookup):
+    """Resolve a list of ids to deduplicated full records, skipping misses."""
+    resolved = []
+    seen = set()
+    for raw_id in ids:
+        key = str(raw_id)
+        if key in seen or key not in lookup:
+            continue
+        seen.add(key)
+        resolved.append(lookup[key])
+    return resolved
+
+
+def _index_entry(record, title_key, link_key):
+    """Build a lightweight index entry from a full record."""
+    return {
+        "source": record.get("source"),
+        "id": str(record.get("id")),
+        "title": record.get(title_key),
+        "link": record.get(link_key),
+        "mapped_tools": record.get("mapped_tools", []),
+    }
+
+
+def emit_catalogue(tess_lookup, workflowhub_lookup):
+    """Write trainings/workflows indexes + per-record detail files.
+
+    Only records with a non-empty mapped_tools list (in-catalogue) are emitted.
+    Indexes are sorted by id for reproducible output.
+    """
+    trainings = []
+    for record in tess_lookup.values():
+        if not record.get("mapped_tools"):
+            continue
+        rid = _safe_record_id(record)
+        if rid is None:
+            continue
+        trainings.append(_index_entry(record, "title", "url"))
+        save_metadata(f"trainings/{rid}.json", record)
+    trainings.sort(key=lambda e: e["id"])
+
+    workflows = []
+    for record in workflowhub_lookup.values():
+        if not record.get("mapped_tools"):
+            continue
+        rid = _safe_record_id(record)
+        if rid is None:
+            continue
+        workflows.append(_index_entry(record, "name", "link"))
+        save_metadata(f"workflows/{rid}.json", record)
+    workflows.sort(key=lambda e: e["id"])
+
+    save_metadata("trainings.json", trainings)
+    save_metadata("workflows.json", workflows)
+    log_message(f"Emitted {len(trainings)} trainings and {len(workflows)} workflows")
 
 
 SUMMARY_DATA_KEY_MAPPINGS = {
@@ -340,7 +429,7 @@ def build_metadata(tool_name, contents, fetched, page):
     )
 
 
-def process_files_in_folder(folder_path):
+def process_files_in_folder(folder_path, tess_lookup, workflowhub_lookup):
     folder_name = os.path.basename(folder_path)
     log_message(f"Extracting data for: {folder_name}")
 
@@ -351,6 +440,8 @@ def process_files_in_folder(folder_path):
         (f"{folder_name}.biotools.json", "biotools"),
         (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
         (f"{folder_name}.galaxy.json", "galaxy"),
+        (f"{folder_name}.tess.json", "tess"),
+        (f"{folder_name}.workflowhub.json", "workflowhub"),
     ]
 
     # Glob-based patterns for sources where filename may not match folder slug
@@ -369,6 +460,19 @@ def process_files_in_folder(folder_path):
     for file_name, tool_type in file_patterns:
         file_path = os.path.join(folder_path, file_name)
         if not os.path.exists(file_path):
+            continue
+
+        if tool_type == "tess":
+            ids = parse_json(file_path) or []
+            fetched_metadata["tess"] = resolve_id_list(ids, tess_lookup)
+            extracted_page_metadata["tess"] = fetched_metadata["tess"]
+            contents.add("tess")
+            continue
+        if tool_type == "workflowhub":
+            ids = parse_json(file_path) or []
+            fetched_metadata["workflowhub"] = resolve_id_list(ids, workflowhub_lookup)
+            extracted_page_metadata["workflowhub"] = fetched_metadata["workflowhub"]
+            contents.add("workflowhub")
             continue
 
         fetched, page = parse_metadata(tool_type, file_path)
@@ -407,12 +511,20 @@ def process_files_in_folder(folder_path):
 
 
 def main():
+    tess_lookup = load_lookup(tess_data_dir, ".tess.json")
+    workflowhub_lookup = load_lookup(workflowhub_data_dir, ".workflowhub.json")
+    log_message(
+        f"Loaded {len(tess_lookup)} TESS and {len(workflowhub_lookup)} WorkflowHub records"
+    )
+
     combined_metadata = []
 
     for root, _, _ in os.walk(data_dir):
         if root == data_dir:
             continue
-        metadata, page_metadata = process_files_in_folder(root)
+        metadata, page_metadata = process_files_in_folder(
+            root, tess_lookup, workflowhub_lookup
+        )
         if not metadata or not page_metadata:
             continue
         combined_metadata.append(metadata)
@@ -436,6 +548,8 @@ def main():
         log_message(f"Adding Galaxy tool: {tool_name}")
         combined_metadata.append(metadata)
         save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
+
+    emit_catalogue(tess_lookup, workflowhub_lookup)
 
     save_metadata("combined_metadata.json", combined_metadata)
 

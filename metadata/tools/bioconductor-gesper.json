@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-gesper","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-gesper","identifiers":["doi:10.18129/b9.bioc.gesper"],"license":"GPL-3","summary":"Gene-Specific Phenotype EstimatoR","home_url":"https://bioconductor.org/packages/3.8/bioc/html/gespeR.html","keywords":[],"manually_check":true,"total_pulls":3}}}

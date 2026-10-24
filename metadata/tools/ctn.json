@@ -1,0 +1,1 @@
+{"tool_name":"ctn","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"ctn","identifiers":[],"license":"custom, see /usr/share/doc/ctn/copyright","summary":"Central test node, a dicom implementation for medical imaging","home_url":"http://sourceforge.net/projects/mirctn","keywords":["RNA-Seq"],"manually_check":true,"total_pulls":0}}}

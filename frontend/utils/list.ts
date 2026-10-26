@@ -165,7 +165,7 @@ export function applyFilters(
 
     const { isFavoriteTool } = useToolsStore();
 
-    if (favoritesFilter === "Favorites" && !isFavoriteTool(getToolName(tool))) {
+    if (favoritesFilter === "Favorites" && !isFavoriteTool(tool)) {
       return false;
     }
 

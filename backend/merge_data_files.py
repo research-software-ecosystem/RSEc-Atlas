@@ -732,9 +732,10 @@ def main():
         for source, record_id in identifiers:
             if source != "biotools" and (source, record_id) not in ambiguous:
                 aliases[f"{source}/{record_id}"] = tool_name
-        # Galaxy suites outside data/ used to be published under their bare ID.
-        for source, record_id in records:
-            if source == "galaxy":
+        # Galaxy suites outside data/ used to be published under their bare
+        # ID, which must keep working once a suite moves into a data/ folder.
+        for source, record_id in identifiers:
+            if source == "galaxy" and (source, record_id) not in ambiguous:
                 aliases.setdefault(record_id, tool_name)
 
     related_tools = {}

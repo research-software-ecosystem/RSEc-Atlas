@@ -20,14 +20,14 @@ const license = computed(() => {
   return getToolLicense(props.tool);
 });
 const isFavorite = computed(() => {
-  return isFavoriteTool(getToolName(props.tool));
+  return isFavoriteTool(props.tool);
 });
 const lastUpdate = computed(() => {
   return getToolLastUpdateDate(props.tool);
 });
 
 function toggleFavorite() {
-  toggleFavoriteTool(getToolName(props.tool));
+  toggleFavoriteTool(props.tool);
 }
 </script>
 

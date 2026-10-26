@@ -25,46 +25,53 @@ const galaxyInstanceTabs = computed(() => {
 });
 
 const isToolFavorite = computed(() => {
-  return isFavoriteTool(getToolName(tool.value));
+  return isFavoriteTool(tool.value);
 });
 
+// Incremented by each load, so that a load superseded by a later navigation
+// does not show its tool.
+let latestLoad = 0;
+
 async function loadData() {
+  const routeName = [route.params.id].flat().join("/");
   // /tool/biotools/<id> is the same page as /tool/<id>.
-  const toolName = [route.params.id]
-    .flat()
-    .join("/")
-    .replace(/^biotools\//, "");
+  const toolName = routeName.replace(/^biotools\//, "");
   if (tool.value?.tool_name === toolName) return;
 
+  const load = ++latestLoad;
   try {
     loading.value = true;
     tool.value = null;
+    let loadedTool;
     try {
-      tool.value = await fetchToolMetadata(toolName);
-      if (toolName !== [route.params.id].flat().join("/")) {
-        await router.replace(`/tool/${toolName}`);
-      }
+      loadedTool = await fetchToolMetadata(toolName);
     } catch (error) {
       // An identifier from another source, or a former URL, leads to the page
       // the tool has now.
       const canonicalName = await fetchToolAlias(toolName);
       if (!canonicalName) throw error;
-      tool.value = await fetchToolMetadata(canonicalName);
-      await router.replace(`/tool/${canonicalName}`);
+      if (load !== latestLoad) return;
+      loadedTool = await fetchToolMetadata(canonicalName);
+    }
+    if (load !== latestLoad) return;
+    tool.value = loadedTool;
+    if (loadedTool.tool_name !== routeName) {
+      await router.replace(`/tool/${loadedTool.tool_name}`);
     }
   } catch (error) {
+    if (load !== latestLoad) return;
     toast.add({
       title: "Error Loading Tool",
       description: `Failed to load tool: ${error.message}`,
       variant: "danger",
     });
   } finally {
-    loading.value = false;
+    if (load === latestLoad) loading.value = false;
   }
 }
 
 function toggleFavorite() {
-  toggleFavoriteTool(getToolName(tool.value));
+  toggleFavoriteTool(tool.value);
 }
 
 onMounted(async () => {
@@ -455,7 +462,7 @@ watch(() => route.params.id, loadData);
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`conda install -c conda-forge -c bioconda ${getToolName(tool).toLowerCase()}`"
+                :code="`conda install -c conda-forge -c bioconda ${getToolBicondaData(tool).name.toLowerCase()}`"
               />
             </div>
           </template>
@@ -482,7 +489,7 @@ watch(() => route.params.id, loadData);
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`docker run -i -t --rm quay.io/biocontainers/${getToolName(tool).toLowerCase()}:<tag> bash`"
+                :code="`docker run -i -t --rm quay.io/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}:<tag> bash`"
               />
               <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                 Replace <code>&lt;tag&gt;</code> with a version and build from
@@ -508,7 +515,7 @@ watch(() => route.params.id, loadData);
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`singularity exec https://depot.galaxyproject.org/singularity/${getToolName(tool).toLowerCase()}:<tag> bash`"
+                :code="`singularity exec https://depot.galaxyproject.org/singularity/${getToolBicondaData(tool).name.toLowerCase()}:<tag> bash`"
               />
               <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                 Replace <code>&lt;tag&gt;</code> with a version and build from

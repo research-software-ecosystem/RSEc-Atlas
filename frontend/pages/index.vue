@@ -131,6 +131,7 @@ async function getTools() {
 
   try {
     tools.value = await fetchAllToolsMetadata();
+    useToolsStore().migrateFavoriteTools(tools.value);
 
     listLicenses();
     listTopics();

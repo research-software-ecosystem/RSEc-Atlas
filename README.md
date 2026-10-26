@@ -107,6 +107,11 @@ If users want to share a link to a tool, they can directly share the URL availab
    - https://research-software-ecosystem.github.io/RSEc-Atlas/tool/1000genomes_id_history_converter
    - https://research-software-ecosystem.github.io/RSEc-Atlas/tool/fargene
 
+A tool with a bio.tools entry is published under its bio.tools ID. A tool known only to other sources is published under `<source>/<identifier>`, taking the first source available among Bioconductor, Bioconda, Galaxy and Debian Med, e.g. `/tool/bioconda/fgbio`. Any identifier of a tool in a source also leads to its page, so these links keep working when the tool later gets a bio.tools entry:
+   - https://research-software-ecosystem.github.io/RSEc-Atlas/tool/bioconda/samtools `(redirects to /tool/samtools)`
+   - https://research-software-ecosystem.github.io/RSEc-Atlas/tool/galaxy/deseq2 `(redirects to /tool/deseq2)`
+   - https://research-software-ecosystem.github.io/RSEc-Atlas/tool/biotools/deseq2 `(redirects to /tool/deseq2)`
+
 
 ## 🛠️ Setup and Installation
 
@@ -190,7 +195,9 @@ The Python script is responsible for processing, merging metadata files and crea
   ├── merge_data_files.py     # Python script to merge the metadata from the RCS Content repository
   ```
 - Working:
-  1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool.
+  1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool, then loads the records of `backend/content/imports` (Bioconductor, Bioconda, Galaxy, Debian Med) that no folder holds.
+     Records are grouped with the cross-links documented in the [RSEc documentation](https://research-software-ecosystem.org/docs) (bio.tools IDs in Bioconda, Galaxy and Debian Med records, Bioconda packages in Galaxy and Debian Med records, Bioconda and Debian downloads in bio.tools entries), plus the `bioconductor-<package>` naming of Bioconda. A group never holds two `data` folders, nor two records of Bioconductor, Bioconda or Galaxy: such links, and Galaxy suites whose Bioconda package bears another name (a requirement rather than the tool itself), are listed as `related_tools` instead.
+     Each group is saved as one tool, named after its `data` folder if it has one, and under `<source>/<identifier>` otherwise. Every identifier of the tool in a source is saved in `metadata/aliases/<source>/<identifier>.json`, pointing to the tool name, which the tool page follows.
   2. Each folder has metadata of several files either in JSON or YAML format.
   3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to retrieve the information, one must modify this variable:
       ```python

@@ -2,6 +2,7 @@ import glob
 import json
 import logging
 import os
+import re
 import shutil
 
 import yaml
@@ -9,7 +10,23 @@ import yaml
 script_dir = os.path.dirname(__file__)
 output_folder = os.path.join(script_dir, "..", "frontend", "public", "metadata")
 data_dir = os.path.join(script_dir, "content", "data")
-galaxy_data_dir = os.path.join(script_dir, "content", "imports", "galaxy")
+imports_dir = os.path.join(script_dir, "content", "imports")
+
+# Sources whose records can describe a tool on their own: metadata type, folder
+# in imports/ and file name pattern capturing the identifier in that source.
+# The order decides which identifier names a group of linked records that has
+# no data/ folder, i.e. no bio.tools entry.
+IMPORT_SOURCES = [
+    ("bioconductor", "bioconductor", re.compile(r"^(.+)\.bioconductor\.json$")),
+    ("bioconda", "bioconda", re.compile(r"^bioconda_(.+)\.yaml$")),
+    ("galaxy", "galaxy", re.compile(r"^(.+)\.galaxy\.json$")),
+    ("debian", "debian-med", re.compile(r"^(.+)\.debian\.yaml$")),
+]
+SOURCE_PRIORITY = {source: rank for rank, (source, _, _) in enumerate(IMPORT_SOURCES)}
+
+# A tool page shows a single record of these sources, so two groups both
+# holding one are never merged. Debian packages are listed, so they can pile up.
+SINGLE_RECORD_SOURCES = {"biotools", "bioconductor", "bioconda", "galaxy"}
 
 
 logging.basicConfig(
@@ -80,6 +97,12 @@ SUMMARY_DATA_KEY_MAPPINGS = {
     },
     "neubias": {
         "name": ("title", "value"),
+    },
+    "bioconductor": {
+        "name": ("Package",),
+        "version": ("Version",),
+        "license": ("License",),
+        "summary": ("Title",),
     },
 }
 
@@ -277,6 +300,19 @@ PAGE_DATA_KEY_MAPPINGS = {
         "workflow_steps": ("field_workflow_steps",),
         "title": ("title",),
     },
+    "bioconductor": {
+        "name": ("Package",),
+        "version": ("Version",),
+        "license": ("License",),
+        "summary": ("Title",),
+        "description": ("Description",),
+        "home": ("URL",),
+        "author": ("Author",),
+        "maintainer": ("Maintainer",),
+        "bioc_views": ("biocViews",),
+        "git_url": ("git_url",),
+        "last_commit_date": ("git_last_commit_date",),
+    },
 }
 
 
@@ -315,14 +351,18 @@ def extract_data(tool_type, data, key_mappings):
         return {tool_type: extract(data, mappings)}
 
 
-def parse_metadata(tool_type, file_path):
+def load_data(file_path):
     ext = os.path.splitext(file_path)[1].lower()
     if ext in [".yaml", ".yml"]:
-        data = parse_yaml(file_path)
+        return parse_yaml(file_path)
     elif ext in [".json", ".jsonld"]:
-        data = parse_json(file_path)
-    else:
-        return None, None
+        return parse_json(file_path)
+    return None
+
+
+def parse_metadata(tool_type, file_path, data=None):
+    if data is None:
+        data = load_data(file_path)
     if not data:
         return None, None
 
@@ -332,12 +372,29 @@ def parse_metadata(tool_type, file_path):
     )
 
 
-def build_metadata(tool_name, contents, fetched, page):
-    meta = {"tool_name": tool_name, "contents": list(contents)}
+def build_metadata(tool_name, contents, fetched, page, identifiers):
+    meta = {"tool_name": tool_name, "contents": sorted(contents)}
     return (
         {**meta, "fetched_metadata": fetched},
-        {**meta, "fetched_metadata": page},
+        {**meta, "identifiers": identifiers, "fetched_metadata": page},
     )
+
+
+def add_record(metadata, tool_type, fetched, page):
+    """Merge one parsed record into the (contents, fetched, page) of a tool.
+
+    Debian packages pile up into a list, other sources keep the last record.
+    """
+    contents, fetched_metadata, page_metadata = metadata
+    contents.add(tool_type)
+    for target, record in ((fetched_metadata, fetched), (page_metadata, page)):
+        value = record.get(tool_type)
+        if tool_type == "debian" and tool_type in target:
+            previous = target[tool_type]
+            previous = previous if isinstance(previous, list) else [previous]
+            target[tool_type] = previous + [value]
+        else:
+            target[tool_type] = value
 
 
 def process_files_in_folder(folder_path):
@@ -351,7 +408,19 @@ def process_files_in_folder(folder_path):
         (f"{folder_name}.biotools.json", "biotools"),
         (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
         (f"{folder_name}.galaxy.json", "galaxy"),
+        (f"{folder_name}.bioconductor.json", "bioconductor"),
     ]
+
+    # The Bioconda package may be named differently from the folder slug,
+    # e.g. bioconda_r-wgcna.yaml in wgcna.
+    if not any(
+        os.path.exists(os.path.join(folder_path, f))
+        for f, tool_type in file_patterns
+        if tool_type == "bioconda"
+    ):
+        bioconda_files = sorted(glob.glob(os.path.join(folder_path, "bioconda_*.yaml")))
+        if bioconda_files:
+            file_patterns.append((os.path.basename(bioconda_files[0]), "bioconda"))
 
     # Glob-based patterns for sources where filename may not match folder slug
     glob_patterns = [
@@ -360,11 +429,11 @@ def process_files_in_folder(folder_path):
         ("*.neubias.raw.json", "neubias"),
     ]
 
-    contents, fetched_metadata, extracted_page_metadata = set(), {}, {}
-
     if not any(os.path.exists(os.path.join(folder_path, f)) for f, _ in file_patterns):
         if not any(glob.glob(os.path.join(folder_path, pattern)) for pattern, _ in glob_patterns):
-            return {}, {}
+            return None
+
+    metadata = (set(), {}, {})
 
     for file_name, tool_type in file_patterns:
         file_path = os.path.join(folder_path, file_name)
@@ -373,70 +442,319 @@ def process_files_in_folder(folder_path):
 
         fetched, page = parse_metadata(tool_type, file_path)
         if fetched and page:
-            contents.add(tool_type)
-            fetched_metadata.update(fetched)
-            extracted_page_metadata.update(page)
+            add_record(metadata, tool_type, fetched, page)
 
-    # Track all glob-found files per tool type for proper merging.
-    glob_file_map = {}
     for pattern, tool_type in glob_patterns:
         for file_path in sorted(glob.glob(os.path.join(folder_path, pattern))):
             fetched, page = parse_metadata(tool_type, file_path)
-            if not (fetched and page):
+            if fetched and page:
+                add_record(metadata, tool_type, fetched, page)
+
+    return metadata
+
+
+def match_record(file_name):
+    """Return the (source, identifier) of a source file, or None."""
+    for source, _, pattern in IMPORT_SOURCES:
+        match = pattern.match(file_name)
+        if match:
+            return source, match.group(1)
+    return None
+
+
+def scan_data_folders():
+    """Map each data/ folder to the (source, identifier) records it holds,
+    and each of these records to its file."""
+    folders, record_files = {}, {}
+    for folder_name in sorted(os.listdir(data_dir)):
+        folder_path = os.path.join(data_dir, folder_name)
+        if not os.path.isdir(folder_path):
+            continue
+        records = []
+        biotools_file = os.path.join(folder_path, f"{folder_name}.biotools.json")
+        if os.path.exists(biotools_file):
+            records.append(("biotools", folder_name))
+            record_files[(folder_name, records[0])] = biotools_file
+        for file_name in sorted(os.listdir(folder_path)):
+            record = match_record(file_name)
+            if record is None:
                 continue
-            contents.add(tool_type)
-            glob_file_map.setdefault(tool_type, []).append((fetched, page))
+            # Bioconductor files are named after the folder, which may carry
+            # the bioconductor- prefix of the bio.tools ID, not after the package.
+            if record[0] == "bioconductor":
+                record = (record[0], record[1].removeprefix("bioconductor-"))
+            records.append(record)
+            record_files[(folder_name, record)] = os.path.join(folder_path, file_name)
+        folders[folder_name] = records
+    return folders, record_files
 
-    # Merge glob results: multiple Debian packages become lists.
-    for tool_type, entries in glob_file_map.items():
-        if tool_type == "debian" and len(entries) > 1:
-            fetched_metadata[tool_type] = [
-                entry[0].get(tool_type) for entry in entries
-            ]
-            extracted_page_metadata[tool_type] = [
-                entry[1].get(tool_type) for entry in entries
-            ]
-        else:
-            for fetched, page in entries:
-                fetched_metadata.update(fetched)
-                extracted_page_metadata.update(page)
 
-    return build_metadata(
-        folder_name, contents, fetched_metadata, extracted_page_metadata
+def scan_imports(held):
+    """Load the imports/ records that no data/ folder holds."""
+    records = {}
+    for source, folder, pattern in IMPORT_SOURCES:
+        for file_name in sorted(os.listdir(os.path.join(imports_dir, folder))):
+            match = pattern.match(file_name)
+            if not match or (source, match.group(1)) in held:
+                continue
+            file_path = os.path.join(imports_dir, folder, file_name)
+            try:
+                data = load_data(file_path)
+            except (ValueError, yaml.YAMLError) as e:
+                log_message(f"Skipping {file_path}: {e}")
+                continue
+            if isinstance(data, dict):
+                records[(source, match.group(1))] = (file_path, data)
+    return records
+
+
+def as_list(value):
+    if value is None:
+        return []
+    return value if isinstance(value, list) else [value]
+
+
+def record_links(source, record_id, data):
+    """List the (source, identifier) records a record points to.
+
+    These are the cross-links documented at
+    https://research-software-ecosystem.org/docs, plus the bioconductor-<name>
+    naming convention of Bioconda for Bioconductor packages.
+    """
+    links = []
+    if source == "biotools":
+        for download in as_list(data.get("download")):
+            url = (download or {}).get("url") or ""
+            for prefix, target in (
+                ("https://anaconda.org/bioconda/", "bioconda"),
+                ("https://tracker.debian.org/pkg/", "debian"),
+            ):
+                if url.startswith(prefix):
+                    links.append((target, url[len(prefix):].strip("/")))
+    elif source == "bioconda":
+        for identifier in as_list((data.get("extra") or {}).get("identifiers")):
+            if isinstance(identifier, str) and identifier.startswith("biotools:"):
+                links.append(("biotools", identifier[len("biotools:"):]))
+    elif source == "galaxy":
+        links += [("biotools", i) for i in as_list(data.get("bio.tool_ID"))]
+        links += [("bioconda", i) for i in as_list(data.get("Suite_conda_package"))]
+    elif source == "debian":
+        for registry in as_list(data.get("registries")):
+            name = (registry or {}).get("name")
+            if name == "bio.tools":
+                links.append(("biotools", registry.get("entry")))
+            elif name == "conda:bioconda":
+                links.append(("bioconda", registry.get("entry")))
+    elif source == "bioconductor":
+        links.append(("bioconda", f"bioconductor-{record_id.lower()}"))
+    return [(target, str(i).strip()) for target, i in links if i and str(i).strip()]
+
+
+def is_loose_link(node, target):
+    """Tell whether a link only relates two tools rather than identifying one.
+
+    The Bioconda package of a Galaxy suite is its main requirement, which is
+    the same tool only when the names agree (abyss), not for a wrapper suite
+    (artbio_bam_cleaning requires samtools).
+    """
+    def simplify(name):
+        return re.sub(r"[-_.]", "", name.lower())
+
+    return (
+        node[0] == "galaxy"
+        and target[0] == "bioconda"
+        and simplify(node[1]) != simplify(target[1])
     )
 
 
+class Groups:
+    """Union-find over the records of the Atlas.
+
+    A merge is refused when both groups hold a data/ folder or a record of the
+    same single-record source, so that one page never hides another tool.
+    """
+
+    def __init__(self):
+        self.parent = {}
+        self.sources = {}
+
+    def add(self, node, sources):
+        self.parent[node] = node
+        self.sources[node] = set(sources) & (SINGLE_RECORD_SOURCES | {"data"})
+
+    def find(self, node):
+        while self.parent[node] != node:
+            self.parent[node] = self.parent[self.parent[node]]
+            node = self.parent[node]
+        return node
+
+    def union(self, a, b):
+        root_a, root_b = self.find(a), self.find(b)
+        if root_a == root_b:
+            return True
+        if self.sources[root_a] & self.sources[root_b]:
+            return False
+        self.parent[root_b] = root_a
+        self.sources[root_a] |= self.sources.pop(root_b)
+        return True
+
+
+def link_records(folders, record_files, orphans):
+    """Group the data/ folders and orphan import records that link to each other."""
+    groups = Groups()
+    exact, lower, ambiguous = {}, {}, set()
+
+    def index(record, node):
+        source, record_id = record
+        for table, key in ((exact, record), (lower, (source, record_id.lower()))):
+            if table.get(key, node) != node:
+                table[key] = None
+                if table is exact:
+                    ambiguous.add(record)
+            else:
+                table.setdefault(key, node)
+
+    for folder_name, records in folders.items():
+        node = ("data", folder_name)
+        groups.add(node, ["data"] + [source for source, _ in records])
+        for record in records:
+            index(record, node)
+    for record in orphans:
+        groups.add(record, [record[0]])
+        index(record, record)
+
+    def resolve(target):
+        source, record_id = target
+        if target in exact:
+            return exact[target]
+        return lower.get((source, record_id.lower()))
+
+    # (node, record, target): the record of the node links to the target.
+    edges = set()
+    for record, (_, data) in orphans.items():
+        for target in record_links(*record, data):
+            edges.add((record, record, target))
+    for folder_name, records in folders.items():
+        for record in records:
+            file_path = record_files[(folder_name, record)]
+            if record[0] == "biotools":
+                # Few bio.tools entries list downloads from Bioconda or Debian.
+                with open(file_path, "r", encoding="utf-8") as f:
+                    text = f.read()
+                if "anaconda.org/bioconda/" not in text and "tracker.debian.org/pkg/" not in text:
+                    continue
+                data = json.loads(text)
+            elif record[0] == "bioconductor":
+                data = {}
+            else:
+                try:
+                    data = load_data(file_path)
+                except (ValueError, yaml.YAMLError):
+                    continue
+            if isinstance(data, dict):
+                for target in record_links(*record, data):
+                    edges.add((("data", folder_name), record, target))
+
+    # Links to bio.tools go first: they are curated and anchor the groups.
+    refused, loose = [], []
+    for node, record, target in sorted(edges, key=lambda e: (e[2][0] != "biotools", e)):
+        target_node = resolve(target)
+        if target_node is None:
+            continue
+        if is_loose_link(record, target):
+            loose.append((node, target_node))
+        elif not groups.union(node, target_node):
+            refused.append((node, target_node))
+    log_message(f"Refused {len(refused)} links joining two tools already distinct")
+
+    members = {}
+    for node in groups.parent:
+        members.setdefault(groups.find(node), []).append(node)
+    # Tools linked without being merged still point to each other.
+    related = [(groups.find(a), groups.find(b)) for a, b in refused + loose]
+    return list(members.items()), related, ambiguous
+
+
 def main():
-    combined_metadata = []
+    combined_metadata, aliases = [], {}
 
-    for root, _, _ in os.walk(data_dir):
-        if root == data_dir:
-            continue
-        metadata, page_metadata = process_files_in_folder(root)
-        if not metadata or not page_metadata:
-            continue
-        combined_metadata.append(metadata)
-        save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
+    folders, record_files = scan_data_folders()
+    held = {record for records in folders.values() for record in records}
+    orphans = scan_imports(held)
+    log_message(f"Found {len(folders)} data folders, {len(orphans)} import records outside them")
 
-    for file_name in os.listdir(galaxy_data_dir):
-        if not file_name.endswith(".galaxy.json"):
-            continue
-        file_path = os.path.join(galaxy_data_dir, file_name)
-        tool_name = os.path.basename(file_path).replace(".galaxy.json", "")
-        if any(tool_name == m["tool_name"] for m in combined_metadata):
-            log_message(f"Skipping {tool_name}: already processed.")
-            continue
-        fetched, page = parse_metadata("galaxy", file_path)
-        if not fetched or not page:
-            log_message(f"Skipping {tool_name}: failed to parse metadata.")
-            continue
-        metadata, page_metadata = build_metadata(
-            tool_name, fetched.keys(), fetched, page
+    groups, related, ambiguous = link_records(folders, record_files, orphans)
+    group_tool_names = {}
+
+    for root, members in groups:
+        folder_name = next((n[1] for n in members if n[0] == "data"), None)
+        records = sorted(
+            (n for n in members if n[0] != "data"),
+            key=lambda n: (SOURCE_PRIORITY[n[0]], n[1]),
         )
-        log_message(f"Adding Galaxy tool: {tool_name}")
-        combined_metadata.append(metadata)
-        save_metadata(f"tools/{page_metadata['tool_name']}.json", page_metadata)
 
+        # The data/ folder keeps naming the tool so that existing links stay
+        # valid; otherwise the identifier from the preferred source does.
+        metadata = None
+        if folder_name is not None:
+            metadata = process_files_in_folder(os.path.join(data_dir, folder_name))
+        if metadata is not None:
+            tool_name = folder_name
+            identifiers = list(folders[folder_name])
+        elif records:
+            tool_name = "/".join(records[0])
+            metadata = (set(), {}, {})
+            identifiers = []
+        else:
+            continue
+
+        for record in records:
+            file_path, data = orphans[record]
+            fetched, page = parse_metadata(record[0], file_path, data)
+            if fetched and page:
+                add_record(metadata, record[0], fetched, page)
+            identifiers.append(record)
+
+        if not metadata[0] and tool_name != folder_name:
+            continue
+
+        summary, page_metadata = build_metadata(
+            tool_name,
+            *metadata,
+            [f"{source}:{record_id}" for source, record_id in identifiers],
+        )
+        combined_metadata.append(summary)
+        save_metadata(f"tools/{tool_name}.json", page_metadata)
+        group_tool_names[root] = tool_name
+
+        # Every identifier of the tool in another source leads to its page, so
+        # a URL stays valid when the tool later gets a better identifier.
+        for source, record_id in identifiers:
+            if source != "biotools" and (source, record_id) not in ambiguous:
+                aliases[f"{source}/{record_id}"] = tool_name
+        # Galaxy suites outside data/ used to be published under their bare ID.
+        for source, record_id in records:
+            if source == "galaxy":
+                aliases.setdefault(record_id, tool_name)
+
+    related_tools = {}
+    for a, b in related:
+        a, b = group_tool_names.get(a), group_tool_names.get(b)
+        if a and b and a != b:
+            related_tools.setdefault(a, set()).add(b)
+            related_tools.setdefault(b, set()).add(a)
+    for tool_name, others in related_tools.items():
+        file_path = os.path.join(output_folder, f"tools/{tool_name}.json")
+        page_metadata = parse_json(file_path)
+        page_metadata["related_tools"] = sorted(others)
+        save_metadata(f"tools/{tool_name}.json", page_metadata)
+
+    tool_names = {tool["tool_name"] for tool in combined_metadata}
+    aliases = {a: t for a, t in aliases.items() if a not in tool_names}
+    for alias, tool_name in sorted(aliases.items()):
+        save_metadata(f"aliases/{alias}.json", {"tool_name": tool_name})
+
+    log_message(f"Saved {len(combined_metadata)} tools and {len(aliases)} aliases")
     save_metadata("combined_metadata.json", combined_metadata)
 
 

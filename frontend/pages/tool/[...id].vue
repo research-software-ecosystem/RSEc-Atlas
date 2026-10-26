@@ -2,6 +2,7 @@
 import { useRoute } from "vue-router";
 
 const route = useRoute();
+const router = useRouter();
 const toast = useToast();
 
 const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
@@ -28,10 +29,29 @@ const isToolFavorite = computed(() => {
 });
 
 async function loadData() {
+  // /tool/biotools/<id> is the same page as /tool/<id>.
+  const toolName = [route.params.id]
+    .flat()
+    .join("/")
+    .replace(/^biotools\//, "");
+  if (tool.value?.tool_name === toolName) return;
+
   try {
     loading.value = true;
-    const toolName = decodeURIComponent(route.params.id);
-    tool.value = await fetchToolMetadata(toolName);
+    tool.value = null;
+    try {
+      tool.value = await fetchToolMetadata(toolName);
+      if (toolName !== [route.params.id].flat().join("/")) {
+        await router.replace(`/tool/${toolName}`);
+      }
+    } catch (error) {
+      // An identifier from another source, or a former URL, leads to the page
+      // the tool has now.
+      const canonicalName = await fetchToolAlias(toolName);
+      if (!canonicalName) throw error;
+      tool.value = await fetchToolMetadata(canonicalName);
+      await router.replace(`/tool/${canonicalName}`);
+    }
   } catch (error) {
     toast.add({
       title: "Error Loading Tool",
@@ -50,6 +70,8 @@ function toggleFavorite() {
 onMounted(async () => {
   await loadData();
 });
+
+watch(() => route.params.id, loadData);
 </script>
 
 <template>
@@ -263,6 +285,34 @@ onMounted(async () => {
               title="First Commit"
               :info="getToolFirstCommitDate(tool)"
             />
+            <InlineInfo v-if="tool.identifiers?.length > 0" title="Identifiers">
+              <div class="flex flex-wrap gap-2">
+                <UBadge
+                  v-for="identifier in tool.identifiers"
+                  :key="identifier"
+                  variant="subtle"
+                  color="neutral"
+                >
+                  {{ identifier }}
+                </UBadge>
+              </div>
+            </InlineInfo>
+            <InlineInfo
+              v-if="tool.related_tools?.length > 0"
+              title="Related tools"
+            >
+              <div class="flex flex-wrap gap-2">
+                <NuxtLink
+                  v-for="relatedTool in tool.related_tools"
+                  :key="relatedTool"
+                  :to="`/tool/${relatedTool}`"
+                >
+                  <UBadge variant="subtle" color="primary" icon="uil:wrench">
+                    {{ relatedTool }}
+                  </UBadge>
+                </NuxtLink>
+              </div>
+            </InlineInfo>
             <InlineInfo v-if="getToolTags(tool).length > 0" title="Tags">
               <div class="flex flex-wrap gap-2">
                 <NuxtLink

@@ -197,6 +197,7 @@ export function getToolDescription(tool: Tool): string {
     biocontainers?.summary ||
     galaxy?.summary ||
     bioconductor?.summary ||
+    getToolDebianPackage(tool)?.summary ||
     "No description"
   );
 }

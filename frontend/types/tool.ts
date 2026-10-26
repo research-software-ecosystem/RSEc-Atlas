@@ -46,6 +46,7 @@ declare global {
     version?: string;
     license?: string;
     homepage?: string;
+    summary?: string;
   }
 
   interface Tool {

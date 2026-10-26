@@ -94,6 +94,7 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "version": ("version",),
         "license": ("license",),
         "blend": ("blend",),
+        "summary": ("descr", "description"),
     },
     "neubias": {
         "name": ("title", "value"),
@@ -265,6 +266,7 @@ PAGE_DATA_KEY_MAPPINGS = {
         "tags": ("tags",),
         "popcon": ("popcon",),
         "descr": ("descr",),
+        "summary": ("descr", "description"),
     },
     "neubias": {
         "body": ("body",),

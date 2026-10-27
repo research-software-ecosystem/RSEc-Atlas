@@ -513,7 +513,7 @@ onUnmounted(() => {
 
         <InfoCard
           v-if="getToolBicondaData(tool).name"
-          title="Install with Singularity"
+          title="Install with Singularity (BioContainers)"
           title-icon="uil:box"
         >
           <template v-slot:content>
@@ -527,7 +527,7 @@ onUnmounted(() => {
                 <NuxtLink
                   target="_blank"
                   class="underline"
-                  :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
+                  :to="`https://quay.io/repository/biocontainers/${getToolBicondaData(tool).name.toLowerCase()}?tab=tags`"
                 >
                   Quay tags page
                 </NuxtLink>

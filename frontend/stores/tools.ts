@@ -4,52 +4,48 @@ export const useToolsStore = defineStore(
   "tools",
   () => {
     // Favorites are keyed by tool_name, unique to each page. They used to be
-    // keyed by display name, which homonyms from different sources share.
+    // kept in favoriteTools by display name, which homonyms from different
+    // sources share; these move to favoriteToolNames once the tools load.
     const favoriteTools = ref<string[]>([]);
-    const favoritesByToolName = ref(false);
-
-    function isLegacyFavorite(tool: Tool): boolean {
-      return (
-        !favoritesByToolName.value &&
-        favoriteTools.value.includes(getToolName(tool))
-      );
-    }
+    const favoriteToolNames = ref<string[]>([]);
 
     const isFavoriteTool = computed(() => {
       return (tool: Tool) => {
         return (
-          favoriteTools.value.includes(tool.tool_name) || isLegacyFavorite(tool)
+          favoriteToolNames.value.includes(tool.tool_name) ||
+          favoriteTools.value.includes(getToolName(tool))
         );
       };
     });
 
     function toggleFavoriteTool(tool: Tool): void {
       if (isFavoriteTool.value(tool)) {
-        const legacyName = isLegacyFavorite(tool) ? getToolName(tool) : null;
+        favoriteToolNames.value = favoriteToolNames.value.filter(
+          (name) => name !== tool.tool_name,
+        );
         favoriteTools.value = favoriteTools.value.filter(
-          (name) => name !== tool.tool_name && name !== legacyName,
+          (name) => name !== getToolName(tool),
         );
       } else {
-        favoriteTools.value.push(tool.tool_name);
+        favoriteToolNames.value.push(tool.tool_name);
       }
     }
 
     function migrateFavoriteTools(tools: Tools): void {
-      if (favoritesByToolName.value) return;
+      if (favoriteTools.value.length === 0) return;
 
-      const favorites = new Set(favoriteTools.value);
-      favoriteTools.value = tools
-        .filter(
-          (tool) =>
-            favorites.has(tool.tool_name) || favorites.has(getToolName(tool)),
-        )
-        .map((tool) => tool.tool_name);
-      favoritesByToolName.value = true;
+      const legacyNames = new Set(favoriteTools.value);
+      const toolNames = new Set(favoriteToolNames.value);
+      for (const tool of tools) {
+        if (legacyNames.has(getToolName(tool))) toolNames.add(tool.tool_name);
+      }
+      favoriteToolNames.value = [...toolNames];
+      favoriteTools.value = [];
     }
 
     return {
       favoriteTools,
-      favoritesByToolName,
+      favoriteToolNames,
       isFavoriteTool,
       toggleFavoriteTool,
       migrateFavoriteTools,

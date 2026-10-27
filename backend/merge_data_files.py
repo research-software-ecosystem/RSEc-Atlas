@@ -485,8 +485,16 @@ def scan_data_folders():
             # the bioconductor- prefix of the bio.tools ID, not after the package.
             if record[0] == "bioconductor":
                 record = (record[0], record[1].removeprefix("bioconductor-"))
+            file_path = os.path.join(folder_path, file_name)
+            # Galaxy files are renamed after the folder too (mapdamage.galaxy.json
+            # holds the map_damage suite); imports/ names them after the
+            # lowercased Suite_ID.
+            if record[0] == "galaxy":
+                suite_id = parse_json(file_path).get("Suite_ID")
+                if suite_id:
+                    record = (record[0], str(suite_id).lower())
             records.append(record)
-            record_files[(folder_name, record)] = os.path.join(folder_path, file_name)
+            record_files[(folder_name, record)] = file_path
         folders[folder_name] = records
     return folders, record_files
 

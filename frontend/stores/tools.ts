@@ -57,20 +57,27 @@ export const useToolsStore = defineStore(
     async function migrateFavoriteTools(tools: Tools): Promise<void> {
       const toolNames = new Set(tools.map((tool) => tool.tool_name));
       const displayNames = new Set(tools.map((tool) => getToolName(tool)));
-      const legacyNames = [...favoriteTools.value];
-
-      const migrated = tools
-        .filter((tool) => legacyNames.includes(getToolName(tool)))
-        .map((tool) => tool.tool_name);
       // Galaxy suites used to have pages named after their ID, which their
       // display name no longer matches once merged into another tool.
-      const unmatched = legacyNames.filter((name) => !displayNames.has(name));
-      const keys = [...new Set([...favoriteToolNames.value, ...unmatched])];
+      const unmatchedNames = favoriteTools.value.filter(
+        (name) => !displayNames.has(name),
+      );
+      const keys = [
+        ...new Set([...favoriteToolNames.value, ...unmatchedNames]),
+      ];
       const resolved = await Promise.all(
         keys.map((key) => resolveToolName(key, toolNames)),
       );
       // Names resolving to no page are kept, in case their page comes back.
       const renamed = new Map(keys.map((key, i) => [key, resolved[i] ?? key]));
+
+      // Read after the lookups, so that a favorite removed meanwhile stays
+      // removed.
+      const legacyNames = [...favoriteTools.value];
+      const migrated = tools
+        .filter((tool) => legacyNames.includes(getToolName(tool)))
+        .map((tool) => tool.tool_name);
+      const unmatched = legacyNames.filter((name) => !displayNames.has(name));
 
       favoriteToolNames.value = [
         ...new Set([

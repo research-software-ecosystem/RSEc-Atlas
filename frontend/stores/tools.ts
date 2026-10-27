@@ -9,10 +9,19 @@ export const useToolsStore = defineStore(
     const favoriteTools = ref<string[]>([]);
     const favoriteToolNames = ref<string[]>([]);
 
+    // A page merged into this one may have been saved under its own name,
+    // which is now one of the identifiers of this one (bioconda/samtools).
+    function toolKeys(tool: Tool): string[] {
+      return [
+        tool.tool_name,
+        ...(tool.identifiers || []).map((id) => id.replace(":", "/")),
+      ];
+    }
+
     const isFavoriteTool = computed(() => {
       return (tool: Tool) => {
         return (
-          favoriteToolNames.value.includes(tool.tool_name) ||
+          toolKeys(tool).some((key) => favoriteToolNames.value.includes(key)) ||
           favoriteTools.value.includes(getToolName(tool))
         );
       };
@@ -20,8 +29,9 @@ export const useToolsStore = defineStore(
 
     function toggleFavoriteTool(tool: Tool): void {
       if (isFavoriteTool.value(tool)) {
+        const keys = toolKeys(tool);
         favoriteToolNames.value = favoriteToolNames.value.filter(
-          (name) => name !== tool.tool_name,
+          (name) => !keys.includes(name),
         );
         favoriteTools.value = favoriteTools.value.filter(
           (name) => name !== getToolName(tool),
@@ -31,16 +41,48 @@ export const useToolsStore = defineStore(
       }
     }
 
-    function migrateFavoriteTools(tools: Tools): void {
-      if (favoriteTools.value.length === 0) return;
+    // Saved names that are no longer a page, because their page was merged
+    // into another one, resolve through the aliases of the Atlas.
+    async function resolveToolName(
+      name: string,
+      toolNames: Set<string>,
+    ): Promise<string | undefined> {
+      if (toolNames.has(name)) return name;
+      const canonicalName = await fetchToolAlias(name);
+      return canonicalName && toolNames.has(canonicalName)
+        ? canonicalName
+        : undefined;
+    }
 
-      const legacyNames = new Set(favoriteTools.value);
-      const toolNames = new Set(favoriteToolNames.value);
-      for (const tool of tools) {
-        if (legacyNames.has(getToolName(tool))) toolNames.add(tool.tool_name);
-      }
-      favoriteToolNames.value = [...toolNames];
-      favoriteTools.value = [];
+    async function migrateFavoriteTools(tools: Tools): Promise<void> {
+      const toolNames = new Set(tools.map((tool) => tool.tool_name));
+      const displayNames = new Set(tools.map((tool) => getToolName(tool)));
+      const legacyNames = [...favoriteTools.value];
+
+      const migrated = tools
+        .filter((tool) => legacyNames.includes(getToolName(tool)))
+        .map((tool) => tool.tool_name);
+      // Galaxy suites used to have pages named after their ID, which their
+      // display name no longer matches once merged into another tool.
+      const unmatched = legacyNames.filter((name) => !displayNames.has(name));
+      const keys = [...new Set([...favoriteToolNames.value, ...unmatched])];
+      const resolved = await Promise.all(
+        keys.map((key) => resolveToolName(key, toolNames)),
+      );
+      // Names resolving to no page are kept, in case their page comes back.
+      const renamed = new Map(keys.map((key, i) => [key, resolved[i] ?? key]));
+
+      favoriteToolNames.value = [
+        ...new Set([
+          ...migrated,
+          ...[...favoriteToolNames.value, ...unmatched].map(
+            (key) => renamed.get(key) ?? key,
+          ),
+        ]),
+      ];
+      favoriteTools.value = favoriteTools.value.filter(
+        (name) => !legacyNames.includes(name),
+      );
     }
 
     return {

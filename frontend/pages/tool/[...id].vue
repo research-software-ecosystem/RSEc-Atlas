@@ -28,8 +28,8 @@ const isToolFavorite = computed(() => {
   return isFavoriteTool(tool.value);
 });
 
-// Incremented by each load, so that a load superseded by a later navigation
-// does not show its tool.
+// Incremented by each load, and when leaving the page, so that a load
+// superseded by a later navigation neither shows its tool nor redirects.
 let latestLoad = 0;
 
 async function loadData() {
@@ -79,6 +79,10 @@ onMounted(async () => {
 });
 
 watch(() => route.params.id, loadData);
+
+onUnmounted(() => {
+  latestLoad++;
+});
 </script>
 
 <template>

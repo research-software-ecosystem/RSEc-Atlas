@@ -51,9 +51,9 @@ const githubLink = computed(() => {
   const [first, ...rest] = toolPath.value;
   if (!first) return sourceRepoBase;
 
-  const importFile = importFiles[first];
-  if (importFile && rest.length > 0) {
-    const [before, after] = importFile;
+  // Own properties only: /tool/constructor/... must not match Object methods.
+  if (Object.hasOwn(importFiles, first) && rest.length > 0) {
+    const [before, after] = importFiles[first];
     const id = encodeURIComponent(rest.join("/"));
     return `${contentRepoBase}/blob/master/${before}${id}${after}`;
   }

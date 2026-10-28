@@ -33,7 +33,8 @@ const isToolFavorite = computed(() => {
 let latestLoad = 0;
 
 async function loadData() {
-  const routeName = [route.params.id].flat().join("/");
+  // A trailing slash gives an empty last segment: /tool/samtools/.
+  const routeName = [route.params.id].flat().filter(Boolean).join("/");
   // /tool/biotools/<id> is the same page as /tool/<id>.
   const toolName = routeName.replace(/^biotools\//, "");
   if (tool.value?.tool_name === toolName) return;

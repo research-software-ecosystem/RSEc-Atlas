@@ -43,7 +43,8 @@ const logoSrc = computed(() => {
 
 const toolPath = computed(() => {
   const idParam = route.params.id;
-  if (Array.isArray(idParam)) return idParam;
+  // A trailing slash gives an empty last segment: /tool/samtools/.
+  if (Array.isArray(idParam)) return idParam.filter(Boolean);
   return typeof idParam === "string" ? [idParam] : [];
 });
 

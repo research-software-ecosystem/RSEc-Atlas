@@ -75,7 +75,11 @@ export const useToolsStore = defineStore(
       // removed.
       const legacyNames = [...favoriteTools.value];
       const migrated = tools
-        .filter((tool) => legacyNames.includes(getToolName(tool)))
+        .filter(
+          (tool) =>
+            legacyNames.includes(getToolName(tool)) ||
+            legacyNames.includes(tool.tool_name),
+        )
         .map((tool) => tool.tool_name);
       const unmatched = legacyNames.filter((name) => !displayNames.has(name));
 

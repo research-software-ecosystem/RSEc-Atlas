@@ -24,8 +24,9 @@ IMPORT_SOURCES = [
 ]
 SOURCE_PRIORITY = {source: rank for rank, (source, _, _) in enumerate(IMPORT_SOURCES)}
 
-# A tool page shows a single record of these sources, so two groups both
-# holding one are never merged. Debian packages are listed, so they can pile up.
+# Two groups each holding a record of these sources are never merged, so linking
+# never adds a second one to a page; a data/ folder may still hold several
+# Bioconda packages. Debian packages are listed, so they can pile up.
 SINGLE_RECORD_SOURCES = {"biotools", "bioconductor", "bioconda", "galaxy"}
 
 

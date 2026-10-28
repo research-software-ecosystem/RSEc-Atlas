@@ -413,15 +413,21 @@ def process_files_in_folder(folder_path):
         (f"{folder_name}.bioconductor.json", "bioconductor"),
     ]
 
+    # Bioconda packages use dashes where bio.tools IDs use underscores, e.g.
+    # bioconda_rtg-core.yaml in rtg_core.
+    if "_" in folder_name:
+        file_patterns.append((f"bioconda_{folder_name.replace('_', '-')}.yaml", "bioconda"))
+
     # The Bioconda package may be named differently from the folder slug,
-    # e.g. bioconda_r-wgcna.yaml in wgcna.
+    # e.g. bioconda_r-wgcna.yaml in wgcna. When several packages are linked
+    # to the folder (macs2 and macs3 in macs), none of them is the tool.
     if not any(
         os.path.exists(os.path.join(folder_path, f))
         for f, tool_type in file_patterns
         if tool_type == "bioconda"
     ):
-        bioconda_files = sorted(glob.glob(os.path.join(folder_path, "bioconda_*.yaml")))
-        if bioconda_files:
+        bioconda_files = glob.glob(os.path.join(folder_path, "bioconda_*.yaml"))
+        if len(bioconda_files) == 1:
             file_patterns.append((os.path.basename(bioconda_files[0]), "bioconda"))
 
     # Glob-based patterns for sources where filename may not match folder slug

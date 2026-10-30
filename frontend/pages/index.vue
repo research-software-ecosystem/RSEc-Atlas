@@ -101,12 +101,10 @@ async function filterTools() {
 }
 
 function listLicenses() {
-  const allLicenses = tools.value.flatMap((tool) => {
-    const { bioschemas, bioconda, biotools } = tool.fetched_metadata;
-    return [bioschemas?.license, bioconda?.license, biotools?.license].filter(
-      (lic) => lic && lic.trim() && lic.toLowerCase() !== "not available",
-    );
-  });
+  // The filter compares the license each tool displays, so offer those.
+  const allLicenses = tools.value
+    .map((tool) => getToolLicense(tool))
+    .filter((lic) => lic !== "No License Info");
 
   licenseOptions.value = [
     "All",
@@ -131,6 +129,7 @@ async function getTools() {
 
   try {
     tools.value = await fetchAllToolsMetadata();
+    await useToolsStore().migrateFavoriteTools(tools.value);
 
     listLicenses();
     listTopics();

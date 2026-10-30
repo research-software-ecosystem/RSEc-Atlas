@@ -40,10 +40,21 @@ declare global {
     link: string;
   }
 
+  interface DebianPackage {
+    name?: string;
+    package?: string;
+    version?: string;
+    license?: string;
+    homepage?: string;
+    summary?: string;
+  }
+
   interface Tool {
     tool_name: string;
     description?: string;
     contents?: string[];
+    identifiers?: string[];
+    related_tools?: string[];
     fetched_metadata: {
       bioschemas?: {
         name?: string;
@@ -78,6 +89,14 @@ declare global {
         summary?: string;
         identifiers?: string[];
       };
+      bioconductor?: {
+        name?: string;
+        version?: string;
+        license?: string;
+        summary?: string;
+        home?: string;
+      };
+      debian?: DebianPackage | DebianPackage[];
       galaxy?: {
         summary?: string;
         source?: string;

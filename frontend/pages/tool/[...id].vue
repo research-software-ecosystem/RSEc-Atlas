@@ -2,6 +2,7 @@
 import { useRoute } from "vue-router";
 
 const route = useRoute();
+const router = useRouter();
 const toast = useToast();
 
 const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
@@ -24,31 +25,64 @@ const galaxyInstanceTabs = computed(() => {
 });
 
 const isToolFavorite = computed(() => {
-  return isFavoriteTool(getToolName(tool.value));
+  return isFavoriteTool(tool.value);
 });
 
+// Incremented by each load, and when leaving the page, so that a load
+// superseded by a later navigation neither shows its tool nor redirects.
+let latestLoad = 0;
+
 async function loadData() {
+  // A trailing slash gives an empty last segment: /tool/samtools/.
+  const routeName = [route.params.id].flat().filter(Boolean).join("/");
+  // /tool/biotools/<id> is the same page as /tool/<id>.
+  const toolName = routeName.replace(/^biotools\//, "");
+  if (tool.value?.tool_name === toolName) return;
+
+  const load = ++latestLoad;
   try {
     loading.value = true;
-    const toolName = decodeURIComponent(route.params.id);
-    tool.value = await fetchToolMetadata(toolName);
+    tool.value = null;
+    let loadedTool;
+    try {
+      loadedTool = await fetchToolMetadata(toolName);
+    } catch (error) {
+      // An identifier from another source, or a former URL, leads to the page
+      // the tool has now.
+      const canonicalName = await fetchToolAlias(toolName);
+      if (!canonicalName) throw error;
+      if (load !== latestLoad) return;
+      loadedTool = await fetchToolMetadata(canonicalName);
+    }
+    if (load !== latestLoad) return;
+    tool.value = loadedTool;
+    if (loadedTool.tool_name !== routeName) {
+      await router.replace(`/tool/${loadedTool.tool_name}`);
+    }
   } catch (error) {
+    if (load !== latestLoad) return;
     toast.add({
       title: "Error Loading Tool",
       description: `Failed to load tool: ${error.message}`,
       variant: "danger",
     });
   } finally {
-    loading.value = false;
+    if (load === latestLoad) loading.value = false;
   }
 }
 
 function toggleFavorite() {
-  toggleFavoriteTool(getToolName(tool.value));
+  toggleFavoriteTool(tool.value);
 }
 
 onMounted(async () => {
   await loadData();
+});
+
+watch(() => route.params.id, loadData);
+
+onUnmounted(() => {
+  latestLoad++;
 });
 </script>
 
@@ -263,6 +297,34 @@ onMounted(async () => {
               title="First Commit"
               :info="getToolFirstCommitDate(tool)"
             />
+            <InlineInfo v-if="tool.identifiers?.length > 0" title="Identifiers">
+              <div class="flex flex-wrap gap-2">
+                <UBadge
+                  v-for="identifier in tool.identifiers"
+                  :key="identifier"
+                  variant="subtle"
+                  color="neutral"
+                >
+                  {{ identifier }}
+                </UBadge>
+              </div>
+            </InlineInfo>
+            <InlineInfo
+              v-if="tool.related_tools?.length > 0"
+              title="Related tools"
+            >
+              <div class="flex flex-wrap gap-2">
+                <NuxtLink
+                  v-for="relatedTool in tool.related_tools"
+                  :key="relatedTool"
+                  :to="`/tool/${relatedTool}`"
+                >
+                  <UBadge variant="subtle" color="primary" icon="uil:wrench">
+                    {{ relatedTool }}
+                  </UBadge>
+                </NuxtLink>
+              </div>
+            </InlineInfo>
             <InlineInfo v-if="getToolTags(tool).length > 0" title="Tags">
               <div class="flex flex-wrap gap-2">
                 <NuxtLink
@@ -405,7 +467,7 @@ onMounted(async () => {
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`conda install -c conda-forge -c bioconda ${getToolName(tool).toLowerCase()}`"
+                :code="`conda install -c conda-forge -c bioconda ${getToolBicondaData(tool).name.toLowerCase()}`"
               />
             </div>
           </template>
@@ -432,7 +494,7 @@ onMounted(async () => {
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`docker run -i -t --rm quay.io/biocontainers/${getToolName(tool).toLowerCase()}:<tag> bash`"
+                :code="`docker run -i -t --rm quay.io/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}:<tag> bash`"
               />
               <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                 Replace <code>&lt;tag&gt;</code> with a version and build from
@@ -452,13 +514,13 @@ onMounted(async () => {
 
         <InfoCard
           v-if="getToolBicondaData(tool).name"
-          title="Install with Singularity"
+          title="Install with Singularity (BioContainers)"
           title-icon="uil:box"
         >
           <template v-slot:content>
             <div>
               <CodBlock
-                :code="`singularity exec https://depot.galaxyproject.org/singularity/${getToolName(tool).toLowerCase()}:<tag> bash`"
+                :code="`singularity exec https://depot.galaxyproject.org/singularity/${getToolBicondaData(tool).name.toLowerCase()}:<tag> bash`"
               />
               <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                 Replace <code>&lt;tag&gt;</code> with a version and build from
@@ -466,7 +528,7 @@ onMounted(async () => {
                 <NuxtLink
                   target="_blank"
                   class="underline"
-                  :to="`https://quay.io/repository/biocontainers/${getToolBiocontainersData(tool).name.toLowerCase()}?tab=tags`"
+                  :to="`https://quay.io/repository/biocontainers/${getToolBicondaData(tool).name.toLowerCase()}?tab=tags`"
                 >
                   Quay tags page
                 </NuxtLink>

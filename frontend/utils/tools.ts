@@ -11,8 +11,12 @@ export async function fetchAllToolsMetadata(): Promise<Tool[]> {
 
 export async function fetchToolMetadata(toolName: string): Promise<Tool> {
   try {
-    const response = await $fetch(`/metadata/tools/${toolName}.json`);
-    return response as Tool;
+    const response = await $fetch<Tool>(`/metadata/tools/${toolName}.json`);
+    // A dev server answers unknown files with the app shell instead of a 404.
+    if (typeof response !== "object" || !response?.tool_name) {
+      throw new Error("not a tool metadata file");
+    }
+    return response;
   } catch (error) {
     throw new Error(`Failed to fetch tool metadata: ${toolName}: ${error}`, {
       cause: error,
@@ -20,8 +24,29 @@ export async function fetchToolMetadata(toolName: string): Promise<Tool> {
   }
 }
 
+// Identifiers of a tool in other sources (bioconda/<package>, galaxy/<suite>...)
+// and former URLs resolve to the name of its page.
+export async function fetchToolAlias(
+  alias: string,
+): Promise<string | undefined> {
+  try {
+    const response = await $fetch<{ tool_name?: string }>(
+      `/metadata/aliases/${alias}.json`,
+    );
+    return typeof response === "object" ? response?.tool_name : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+function getToolDebianPackage(tool: Tool) {
+  const { debian } = tool.fetched_metadata;
+
+  return Array.isArray(debian) ? debian[0] : debian;
+}
+
 export function getToolLicense(tool: Tool): string {
-  const { biotools, bioschemas, bioconda, biocontainers } =
+  const { biotools, bioschemas, bioconda, biocontainers, bioconductor } =
     tool.fetched_metadata;
 
   const possibleLicenses = [
@@ -29,6 +54,8 @@ export function getToolLicense(tool: Tool): string {
     bioschemas?.license,
     bioconda?.license,
     biocontainers?.license,
+    bioconductor?.license,
+    getToolDebianPackage(tool)?.license,
   ].map((l) => l?.trim());
 
   for (const lic of possibleLicenses) {
@@ -41,13 +68,18 @@ export function getToolLicense(tool: Tool): string {
 }
 
 export function getToolName(tool: Tool) {
-  const { bioschemas, bioconda, biocontainers } = tool?.fetched_metadata || {};
+  const { bioschemas, bioconda, biocontainers, bioconductor } =
+    tool?.fetched_metadata || {};
 
   return (
     bioschemas?.name ||
     bioconda?.name ||
     biocontainers?.name ||
-    tool.tool_name ||
+    bioconductor?.name ||
+    (tool?.fetched_metadata &&
+      (getToolDebianPackage(tool)?.name ||
+        getToolDebianPackage(tool)?.package)) ||
+    tool?.tool_name?.split("/").pop() ||
     "Unknown Tool"
   );
 }
@@ -108,6 +140,8 @@ export function getToolVersion(tool: Tool): string {
     ...normalizeVersion(fm.bioconda?.version),
     ...normalizeVersion(fm.biotools?.version),
     ...normalizeVersion(fm.galaxy?.conda_version),
+    ...normalizeVersion(fm.bioconductor?.version),
+    ...normalizeVersion(getToolDebianPackage(tool)?.version),
   ];
 
   return pickLatestVersion(versions) || "No version data";
@@ -154,13 +188,16 @@ export function getToolDescription(tool: Tool): string {
     return "No description";
   }
 
-  const { biotools, bioconda, biocontainers, galaxy } = tool.fetched_metadata;
+  const { biotools, bioconda, biocontainers, galaxy, bioconductor } =
+    tool.fetched_metadata;
 
   return (
     biotools?.summary ||
     bioconda?.summary ||
     biocontainers?.summary ||
     galaxy?.summary ||
+    bioconductor?.summary ||
+    getToolDebianPackage(tool)?.summary ||
     "No description"
   );
 }
@@ -172,9 +209,16 @@ export function getToolTopics(tool: Tool): string[] {
 }
 
 export function getToolHomePage(tool: Tool): string {
-  const { biotools, bioconda, galaxy } = tool.fetched_metadata;
+  const { biotools, bioconda, galaxy, bioconductor } = tool.fetched_metadata;
 
-  return biotools?.home || bioconda?.home || galaxy?.source || "";
+  return (
+    biotools?.home ||
+    bioconda?.home ||
+    galaxy?.source ||
+    bioconductor?.home ||
+    getToolDebianPackage(tool)?.homepage ||
+    ""
+  );
 }
 
 export function getToolDocumentation(tool: Tool): string | undefined {

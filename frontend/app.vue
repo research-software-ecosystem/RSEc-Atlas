@@ -13,7 +13,16 @@ useHead({
 });
 
 const contentRepoBase =
-  "https://github.com/research-software-ecosystem/content/tree/master/data";
+  "https://github.com/research-software-ecosystem/content";
+
+// File of a tool known only to one source, in imports/ (see /tool/<source>/<id>):
+// path before and after its identifier.
+const importFiles: Record<string, [string, string]> = {
+  bioconda: ["imports/bioconda/bioconda_", ".yaml"],
+  bioconductor: ["imports/bioconductor/", ".bioconductor.json"],
+  galaxy: ["imports/galaxy/", ".galaxy.json"],
+  debian: ["imports/debian-med/", ".debian.yaml"],
+};
 const sourceRepoBase =
   "https://github.com/research-software-ecosystem/RSEc-Atlas";
 
@@ -32,18 +41,27 @@ const logoSrc = computed(() => {
     : "https://raw.githubusercontent.com/research-software-ecosystem/graphics/refs/heads/main/RSEc_Logo_FULL_RGB.png";
 });
 
-const toolId = computed(() => {
+const toolPath = computed(() => {
   const idParam = route.params.id;
-  if (Array.isArray(idParam)) return idParam[0] || "";
-  return typeof idParam === "string" ? idParam : "";
+  // A trailing slash gives an empty last segment: /tool/samtools/.
+  if (Array.isArray(idParam)) return idParam.filter(Boolean);
+  return typeof idParam === "string" ? [idParam] : [];
 });
 
 const githubLink = computed(() => {
-  if (toolId.value) {
-    return `${contentRepoBase}/${encodeURIComponent(toolId.value)}`;
+  const [first, ...rest] = toolPath.value;
+  if (!first) return sourceRepoBase;
+
+  // Own properties only: /tool/constructor/... must not match Object methods.
+  if (Object.hasOwn(importFiles, first) && rest.length > 0) {
+    const [before, after] = importFiles[first];
+    const id = encodeURIComponent(rest.join("/"));
+    return `${contentRepoBase}/blob/master/${before}${id}${after}`;
   }
 
-  return sourceRepoBase;
+  const folder =
+    first === "biotools" && rest.length > 0 ? rest.join("/") : first;
+  return `${contentRepoBase}/tree/master/data/${encodeURIComponent(folder)}`;
 });
 </script>
 

@@ -497,9 +497,10 @@ def scan_data_folders():
             # holds the map_damage suite); imports/ names them after the
             # lowercased Suite_ID.
             if record[0] == "galaxy":
-                suite_id = parse_json(file_path).get("Suite_ID")
-                if suite_id:
-                    record = (record[0], str(suite_id).lower())
+                suite_id = str(parse_json(file_path).get("Suite_ID") or "").lower()
+                # The ID names alias files, which must stay inside aliases/.
+                if suite_id and "/" not in suite_id and suite_id not in (".", ".."):
+                    record = (record[0], suite_id)
             records.append(record)
             record_files[(folder_name, record)] = file_path
         folders[folder_name] = records
@@ -671,10 +672,38 @@ def link_records(folders, record_files, orphans):
             if isinstance(data, dict):
                 for target in record_links(*record, data):
                     edges.add((("data", folder_name), record, target))
+        # BioContainers images are built from the Bioconda package they are
+        # named after, so the BioContainers record of a folder names its package.
+        biocontainers_file = os.path.join(
+            data_dir, folder_name, f"{folder_name}.biocontainers.yaml"
+        )
+        if os.path.exists(biocontainers_file):
+            try:
+                data = parse_yaml(biocontainers_file)
+            except yaml.YAMLError:
+                data = None
+            name = data.get("name") if isinstance(data, dict) else None
+            if name and str(name).strip():
+                edges.add((
+                    ("data", folder_name),
+                    ("biocontainers", folder_name),
+                    ("bioconda", str(name).strip()),
+                ))
 
-    # Links to bio.tools go first: they are curated and anchor the groups.
+    def rank(edge):
+        # Links to bio.tools go first: they are curated and anchor the groups.
+        # BioContainers names go last, so that a package another record links
+        # to stays there (bioconda_bioconductor-biocor in biocor, not in
+        # bioconductor-biocor), and a folder whose BioContainers record names
+        # another package (beepmod holds deepmod) yields it to the folder named
+        # after it.
+        _, record, target = edge
+        from_biocontainers = record[0] == "biocontainers"
+        misnamed = from_biocontainers and record[1].lower() != target[1].lower()
+        return (target[0] != "biotools", from_biocontainers, misnamed, edge)
+
     refused, loose = [], []
-    for node, record, target in sorted(edges, key=lambda e: (e[2][0] != "biotools", e)):
+    for node, record, target in sorted(edges, key=rank):
         target_node = resolve(target)
         if target_node is None:
             continue

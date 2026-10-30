@@ -74,13 +74,20 @@ export const useToolsStore = defineStore(
       // Read after the lookups, so that a favorite removed meanwhile stays
       // removed.
       const legacyNames = [...favoriteTools.value];
-      const migrated = tools
-        .filter(
-          (tool) =>
-            legacyNames.includes(getToolName(tool)) ||
-            legacyNames.includes(tool.tool_name),
-        )
-        .map((tool) => tool.tool_name);
+      // Some pages changed display name (biolib is now shown as pybiolib), and
+      // a new imports page may now bear their old one: match the page name too,
+      // and prefer the pages that existed then, whose name has no source prefix.
+      const migrated = legacyNames.flatMap((name) => {
+        const matches = tools
+          .filter(
+            (tool) => getToolName(tool) === name || tool.tool_name === name,
+          )
+          .map((tool) => tool.tool_name);
+        const unprefixed = matches.filter(
+          (toolName) => !toolName.includes("/"),
+        );
+        return unprefixed.length > 0 ? unprefixed : matches;
+      });
       const unmatched = legacyNames.filter((name) => !displayNames.has(name));
 
       favoriteToolNames.value = [

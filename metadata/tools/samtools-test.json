@@ -1,0 +1,1 @@
+{"tool_name":"samtools-test","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"samtools-test","identifiers":[],"license":"Expat","summary":"Test files for the samtools package","home_url":"https://github.com/samtools/","keywords":["Genomics","Sequence Alignment"],"manually_check":true,"total_pulls":0}}}

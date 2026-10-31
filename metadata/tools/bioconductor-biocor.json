@@ -1,0 +1,1 @@
+{"tool_name":"bioconductor-biocor","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"bioconductor-biocor","identifiers":["doi:10.18129/b9.bioc.biocor"],"license":"MIT","summary":"Functional similarities","home_url":"https://bioconductor.org/packages/3.11/bioc/html/BioCor.html","keywords":["Clustering"],"manually_check":true,"total_pulls":3}}}

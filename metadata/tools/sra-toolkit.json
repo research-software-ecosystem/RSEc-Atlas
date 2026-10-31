@@ -1,0 +1,1 @@
+{"tool_name":"sra-toolkit","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"sra-toolkit","identifiers":[],"license":"custom, see /usr/share/doc/sra-toolkit/copyright","summary":"Utilities for the ncbi sequence read archive","home_url":"https://github.com/ncbi/sra-tools/","keywords":[],"manually_check":true,"total_pulls":0}}}

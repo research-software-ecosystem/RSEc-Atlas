@@ -1,0 +1,1 @@
+{"tool_name":"orthanc-postgresql","contents":["biocontainers"],"fetched_metadata":{"biocontainers":{"name":"orthanc-postgresql","identifiers":[],"license":"AGPL-3","summary":"Plugins to use postgresql as a database back-end to orthanc","home_url":"https://www.orthanc-server.com/static.php?page=postgresql","keywords":[],"manually_check":true,"total_pulls":0}}}

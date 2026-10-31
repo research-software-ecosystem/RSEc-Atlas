@@ -1,0 +1,1 @@
+import{lt as e,st as t}from"./Bt5RaRqC.js";import"#entry";var n={__name:`[search]`,setup(n){let r=e().params.search||``;return t(`/?search=${r}`),()=>{}}};export{n as default};

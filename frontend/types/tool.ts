@@ -1,4 +1,9 @@
 declare global {
+  interface EDAMTerm {
+    term?: string;
+    uri?: string;
+  }
+
   interface PublicationAuthor {
     name: string;
   }
@@ -71,6 +76,8 @@ declare global {
         summary?: string;
         collections?: string[];
         publication?: Publication[];
+        topic?: EDAMTerm[];
+        function?: { operation?: EDAMTerm[] }[];
       };
       biocontainers?: {
         name?: string;

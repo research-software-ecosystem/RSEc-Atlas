@@ -64,6 +64,7 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "last_update_date": ("lastUpdate",),
         "version": ("version",),
         "collections": ("collectionID",),
+        "topic": ("topic",),
     },
     "bioschemas": {
         "name": ("sc:name",),

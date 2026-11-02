@@ -203,9 +203,7 @@ export function getToolDescription(tool: Tool): string {
 }
 
 export function getToolTopics(tool: Tool): string[] {
-  const { galaxy } = tool.fetched_metadata;
-
-  return galaxy?.edam_topics || [];
+  return getToolEDAMTopics(tool);
 }
 
 export function getToolHomePage(tool: Tool): string {
@@ -228,15 +226,33 @@ export function getToolDocumentation(tool: Tool): string | undefined {
 }
 
 export function getToolEDAMOperations(tool: Tool): string[] {
-  const { galaxy } = tool.fetched_metadata;
+  const { biotools, galaxy } = tool.fetched_metadata;
 
-  return galaxy?.edam_operations || [];
+  return uniqueTerms([
+    ...(biotools?.function || []).flatMap((fn) =>
+      (fn.operation || []).map((operation) => operation.term),
+    ),
+    ...(galaxy?.edam_operations || []),
+  ]);
 }
 
 export function getToolEDAMTopics(tool: Tool): string[] {
-  const { galaxy } = tool.fetched_metadata;
+  const { biotools, galaxy } = tool.fetched_metadata;
 
-  return galaxy?.edam_topics || [];
+  return uniqueTerms([
+    ...(biotools?.topic || []).map((topic) => topic.term),
+    ...(galaxy?.edam_topics || []),
+  ]);
+}
+
+function uniqueTerms(terms: (string | undefined)[]): string[] {
+  return [
+    ...new Set(
+      terms
+        .map((term) => term?.trim())
+        .filter((term): term is string => Boolean(term)),
+    ),
+  ];
 }
 
 export function normalizeDOI(doi: string): string {

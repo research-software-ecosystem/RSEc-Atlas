@@ -117,11 +117,7 @@ function listLicenses() {
 }
 
 function listTopics() {
-  const allTopics = tools.value.flatMap((tool) => {
-    const { galaxy } = tool.fetched_metadata;
-    return galaxy?.edam_topics || [];
-  });
-
+  const allTopics = tools.value.flatMap((tool) => getToolTopics(tool));
   topics.value = Array.from(new Set(allTopics));
 }
 

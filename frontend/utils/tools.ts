@@ -10,6 +10,20 @@ export async function fetchSearchIndex(): Promise<ToolIndexEntry[]> {
   }
 }
 
+// Descriptions by tool name; tools without one are left out.
+export async function fetchSearchDescriptions(): Promise<
+  Record<string, string>
+> {
+  try {
+    const response = await $fetch("/metadata/search_descriptions.json");
+    return response as Record<string, string>;
+  } catch (error) {
+    throw new Error(`Failed to fetch the tool descriptions: ${error}`, {
+      cause: error,
+    });
+  }
+}
+
 export async function fetchToolMetadata(toolName: string): Promise<Tool> {
   try {
     const response = await $fetch<Tool>(`/metadata/tools/${toolName}.json`);

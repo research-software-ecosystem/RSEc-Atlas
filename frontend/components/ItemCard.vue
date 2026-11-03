@@ -1,6 +1,8 @@
 <script setup lang="ts">
 interface Props {
   tool: ToolIndexEntry;
+  // The descriptions load after the index.
+  descriptionLoading?: boolean;
 }
 
 const props = defineProps<Props>();
@@ -85,9 +87,13 @@ function toggleFavorite() {
         </div>
       </div>
 
-      <span>
+      <span v-if="description !== undefined">
         {{ description }}
       </span>
+      <div v-else-if="descriptionLoading" aria-hidden="true">
+        <USkeleton class="mt-2 h-4 w-4/5" />
+        <USkeleton class="mt-2 h-4 w-7/12" />
+      </div>
     </div>
 
     <div class="flex justify-end">

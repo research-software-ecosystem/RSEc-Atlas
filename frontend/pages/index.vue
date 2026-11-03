@@ -21,6 +21,7 @@ const toolsStore = useToolsStore();
 const tools = shallowRef<ToolIndexEntry[]>([]);
 const loadingTools = ref(true);
 const filtering = ref(false);
+const loadingDescriptions = ref(false);
 const error = ref("");
 
 const filteredTopics = ref<string[]>([]);
@@ -55,11 +56,12 @@ const paginatedItems = computed(() => {
   return filteredTools.value.slice(start, end);
 });
 
-async function filterTools() {
+// Quiet: keep the current results on screen while they are recomputed.
+async function filterTools({ quiet = false } = {}) {
   if (loadingTools.value) return;
 
   try {
-    filtering.value = true;
+    if (!quiet) filtering.value = true;
     const query = searchQuery.value?.toLowerCase().trim() || "";
 
     let filtered: ToolIndexEntry[];
@@ -139,6 +141,34 @@ async function getTools() {
   }
 }
 
+// The descriptions are the larger part of the catalogue: fetched once the first
+// results show, they then fill the cards and take part in the search.
+async function loadDescriptions() {
+  if (error.value || tools.value.length === 0) return;
+
+  loadingDescriptions.value = true;
+
+  try {
+    const descriptions = await fetchSearchDescriptions();
+    tools.value = tools.value.map((tool) => ({
+      ...tool,
+      // Own keys only: a tool named "constructor" must not read Object's.
+      description: Object.hasOwn(descriptions, tool.tool_name)
+        ? descriptions[tool.tool_name]
+        : NO_DESCRIPTION,
+    }));
+    await filterTools({ quiet: true });
+  } catch (err) {
+    toast.add({
+      title: "Failed to Fetch Descriptions",
+      description: `Error: ${String(err)}`,
+      color: "warning",
+    });
+  } finally {
+    loadingDescriptions.value = false;
+  }
+}
+
 function onTopicClick(topic: string) {
   const topicName = topic.trim();
   const currentQuery = searchQuery.value.trim();
@@ -153,6 +183,7 @@ function onTopicClick(topic: string) {
 async function onRetry() {
   await getTools();
   await filterTools();
+  loadDescriptions();
 }
 
 function onClearFilters() {
@@ -196,6 +227,7 @@ onMounted(async () => {
 
   await getTools();
   await filterTools();
+  loadDescriptions();
 });
 </script>
 
@@ -346,6 +378,7 @@ onMounted(async () => {
           v-for="tool in paginatedItems"
           :key="tool.tool_name"
           :tool="tool"
+          :description-loading="loadingDescriptions"
         />
       </template>
       <template v-else-if="!error">

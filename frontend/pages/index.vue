@@ -17,7 +17,8 @@ const dataOptions = [
 const toast = useToast();
 const toolsStore = useToolsStore();
 
-const tools = ref<ToolIndexEntry[]>([]);
+// Tens of thousands of entries, replaced as a whole: no deep reactivity.
+const tools = shallowRef<ToolIndexEntry[]>([]);
 const loadingTools = ref(true);
 const filtering = ref(false);
 const error = ref("");
@@ -25,7 +26,7 @@ const error = ref("");
 const filteredTopics = ref<string[]>([]);
 const topics = ref<string[]>([]);
 
-const filteredTools = ref<ToolIndexEntry[]>([]);
+const filteredTools = shallowRef<ToolIndexEntry[]>([]);
 const searchQuery = ref("");
 const searchQueryDebounced = refDebounced(searchQuery, 500);
 const sortKey = ref("Name");
@@ -121,7 +122,7 @@ async function getTools() {
   error.value = "";
 
   try {
-    tools.value = (await fetchAllToolsMetadata()).map(toIndexEntry);
+    tools.value = await fetchSearchIndex();
     await toolsStore.migrateFavoriteTools(tools.value);
 
     listLicenses();
@@ -310,7 +311,7 @@ onMounted(async () => {
       icon="uil:spinner-alt"
       :ui="{ icon: 'motion-safe:animate-spin' }"
       title="Loading the tool catalogue…"
-      description="The metadata index is a few megabytes, so on a slow connection this can take a while. Your search and filters are applied as soon as it has loaded."
+      description="The search index is over a megabyte, so on a slow connection this can take a while. Your search and filters are applied as soon as it has loaded."
     />
 
     <UAlert
@@ -321,7 +322,7 @@ onMounted(async () => {
       role="alert"
       icon="uil:exclamation-triangle"
       title="Failed to load the tool catalogue"
-      description="The metadata index could not be downloaded. Check your connection and try again."
+      description="The search index could not be downloaded. Check your connection and try again."
       :actions="[
         {
           label: 'Retry',

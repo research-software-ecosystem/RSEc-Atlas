@@ -1,9 +1,10 @@
-export async function fetchAllToolsMetadata(): Promise<Tool[]> {
+// Built at generate by modules/search-index.ts.
+export async function fetchSearchIndex(): Promise<ToolIndexEntry[]> {
   try {
-    const response = await $fetch("/metadata/combined_metadata.json");
-    return response as Tool[];
+    const response = await $fetch("/metadata/search_index.json");
+    return response as ToolIndexEntry[];
   } catch (error) {
-    throw new Error(`Failed to fetch all tools metadata: ${error}`, {
+    throw new Error(`Failed to fetch the search index: ${error}`, {
       cause: error,
     });
   }

@@ -16,6 +16,7 @@ const dataOptions = [
 
 const toast = useToast();
 const toolsStore = useToolsStore();
+const toolIndex = useToolIndex();
 
 // Tens of thousands of entries, replaced as a whole: no deep reactivity.
 const tools = shallowRef<ToolIndexEntry[]>([]);
@@ -124,7 +125,7 @@ async function getTools() {
   error.value = "";
 
   try {
-    tools.value = await fetchSearchIndex();
+    tools.value = await toolIndex.loadIndex();
     await toolsStore.migrateFavoriteTools(tools.value);
 
     listLicenses();
@@ -149,15 +150,12 @@ async function loadDescriptions() {
   loadingDescriptions.value = true;
 
   try {
-    const descriptions = await fetchSearchDescriptions();
-    tools.value = tools.value.map((tool) => ({
-      ...tool,
-      // Own keys only: a tool named "constructor" must not read Object's.
-      description: Object.hasOwn(descriptions, tool.tool_name)
-        ? descriptions[tool.tool_name]
-        : NO_DESCRIPTION,
-    }));
-    await filterTools({ quiet: true });
+    const described = await toolIndex.loadDescriptions();
+    // Back on this page, the index came with them already.
+    if (described !== tools.value) {
+      tools.value = described;
+      await filterTools({ quiet: true });
+    }
   } catch (err) {
     toast.add({
       title: "Failed to Fetch Descriptions",

@@ -15,8 +15,9 @@ const dataOptions = [
 ];
 
 const toast = useToast();
+const toolsStore = useToolsStore();
 
-const tools = ref<Tools>([]);
+const tools = ref<ToolIndexEntry[]>([]);
 const loadingTools = ref(true);
 const filtering = ref(false);
 const error = ref("");
@@ -24,7 +25,7 @@ const error = ref("");
 const filteredTopics = ref<string[]>([]);
 const topics = ref<string[]>([]);
 
-const filteredTools = ref<Tools>([]);
+const filteredTools = ref<ToolIndexEntry[]>([]);
 const searchQuery = ref("");
 const searchQueryDebounced = refDebounced(searchQuery, 500);
 const sortKey = ref("Name");
@@ -60,12 +61,7 @@ async function filterTools() {
     filtering.value = true;
     const query = searchQuery.value?.toLowerCase().trim() || "";
 
-    const hasMetadata = tools.value.some((tool) => tool.fetched_metadata);
-    if (!hasMetadata) {
-      filteredTools.value = [];
-    }
-
-    let filtered: Tools;
+    let filtered: ToolIndexEntry[];
 
     await new Promise((resolve) => {
       setTimeout(() => {
@@ -74,6 +70,7 @@ async function filterTools() {
           licenseFilter.value,
           dataFilter.value,
           favoritesFilter.value,
+          (tool) => toolsStore.isFavoriteTool(tool),
         );
 
         filtered = sortByKey(filtered, sortKey.value);
@@ -103,7 +100,7 @@ async function filterTools() {
 function listLicenses() {
   // The filter compares the license each tool displays, so offer those.
   const allLicenses = tools.value
-    .map((tool) => getToolLicense(tool))
+    .map((tool) => tool.license)
     .filter((lic) => lic !== "No License Info");
 
   licenseOptions.value = [
@@ -115,7 +112,7 @@ function listLicenses() {
 }
 
 function listTopics() {
-  const allTopics = tools.value.flatMap((tool) => getToolTopics(tool));
+  const allTopics = tools.value.flatMap((tool) => tool.topics ?? []);
   topics.value = Array.from(new Set(allTopics));
 }
 
@@ -124,8 +121,8 @@ async function getTools() {
   error.value = "";
 
   try {
-    tools.value = await fetchAllToolsMetadata();
-    await useToolsStore().migrateFavoriteTools(tools.value);
+    tools.value = (await fetchAllToolsMetadata()).map(toIndexEntry);
+    await toolsStore.migrateFavoriteTools(tools.value);
 
     listLicenses();
     listTopics();

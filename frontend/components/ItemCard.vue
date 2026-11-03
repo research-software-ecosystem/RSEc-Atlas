@@ -1,29 +1,22 @@
 <script setup lang="ts">
 interface Props {
-  tool: Tool;
+  tool: ToolIndexEntry;
 }
 
 const props = defineProps<Props>();
 
 const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
 
-const toolName = computed(() => {
-  return getToolName(props.tool);
-});
-const version = computed(() => {
-  return getToolVersion(props.tool);
-});
-const description = computed(() => {
-  return getToolDescription(props.tool);
-});
-const license = computed(() => {
-  return getToolLicense(props.tool);
-});
+const toolName = computed(() => props.tool.name);
+const version = computed(() => props.tool.version);
+const description = computed(() => props.tool.description);
+const license = computed(() => props.tool.license);
 const isFavorite = computed(() => {
   return isFavoriteTool(props.tool);
 });
 const lastUpdate = computed(() => {
-  return getToolLastUpdateDate(props.tool);
+  const { updated } = props.tool;
+  return formateDate(updated === undefined ? "" : updated * 1000);
 });
 
 function toggleFavorite() {

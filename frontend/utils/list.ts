@@ -34,8 +34,21 @@ export function removeTagQuery(query: string, tag: string): string {
     .trim();
 }
 
+function topicsOf(tool: ToolIndexEntry): string[] {
+  return tool.topics ?? [];
+}
+
+function tagsOf(tool: ToolIndexEntry): string[] {
+  return tool.tags ?? [];
+}
+
+// Until the descriptions have loaded, tools match on the rest only.
+function descriptionOf(tool: ToolIndexEntry): string {
+  return tool.description ?? "";
+}
+
 function filterToolsByTagsAndTopics(
-  tools: Tools,
+  tools: ToolIndexEntry[],
   tagQueries: string[],
   allTopics: string[],
 ) {
@@ -44,8 +57,8 @@ function filterToolsByTagsAndTopics(
   );
   const filteredTools = tools.filter((tool) => {
     const itemTags = [
-      ...getToolTopics(tool).map((tag) => tag.toLowerCase()),
-      ...getToolTags(tool).map((tag) => tag.toLowerCase()),
+      ...topicsOf(tool).map((tag) => tag.toLowerCase()),
+      ...tagsOf(tool).map((tag) => tag.toLowerCase()),
     ];
 
     return tagQueries.every((query) => itemTags.includes(query));
@@ -55,16 +68,16 @@ function filterToolsByTagsAndTopics(
 }
 
 function calculateMatchScore(
-  tool: Tool,
+  tool: ToolIndexEntry,
   tagQueries: string[],
   nonTagQueries: string[],
 ) {
-  const nameMatch = getToolName(tool).toLowerCase();
+  const nameMatch = tool.name.toLowerCase();
   const slugMatch = getToolSlug(tool).toLowerCase();
-  const descriptionMatch = getToolDescription(tool).toLowerCase();
+  const descriptionMatch = descriptionOf(tool).toLowerCase();
   const tagsMatch = [
-    ...getToolTopics(tool).map((tag) => tag.toLowerCase()),
-    ...getToolTags(tool).map((tag) => tag.toLowerCase()),
+    ...topicsOf(tool).map((tag) => tag.toLowerCase()),
+    ...tagsOf(tool).map((tag) => tag.toLowerCase()),
   ];
   let matchScore = 0;
 
@@ -88,24 +101,24 @@ function calculateMatchScore(
 }
 
 export function searchTools(
-  tools: Tools,
+  tools: ToolIndexEntry[],
   query: string,
   allTopics: string[],
-): { tools: Tools; filteredTopics: string[] } {
+): { tools: ToolIndexEntry[]; filteredTopics: string[] } {
   if (!query) return { tools, filteredTopics: [] };
 
   const { tagQueries, nonTagQueries, isStarTag } = parseQuery(query);
   let filteredTopics: string[];
-  const prioritizedResults: { item: Tool; matchScore: number }[] = [];
+  const prioritizedResults: { item: ToolIndexEntry; matchScore: number }[] = [];
 
   if (nonTagQueries.length) {
     tools = tools.filter((tool) =>
       nonTagQueries.some(
         (query) =>
-          getToolName(tool).toLowerCase() === query ||
-          getToolName(tool).toLowerCase().includes(query) ||
+          tool.name.toLowerCase() === query ||
+          tool.name.toLowerCase().includes(query) ||
           getToolSlug(tool).toLowerCase().includes(query) ||
-          getToolDescription(tool).toLowerCase().includes(query),
+          descriptionOf(tool).toLowerCase().includes(query),
       ),
     );
   }
@@ -128,14 +141,14 @@ export function searchTools(
 
     const matchesTags = tagQueries.every(
       (query) =>
-        getToolTopics(tool).some((tag) => tag.toLowerCase().includes(query)) ||
-        getToolTags(tool).some((tag) => tag.toLowerCase().includes(query)),
+        topicsOf(tool).some((tag) => tag.toLowerCase().includes(query)) ||
+        tagsOf(tool).some((tag) => tag.toLowerCase().includes(query)),
     );
 
     const matchesNonTags = nonTagQueries.some((query) => {
-      const nameMatch = getToolName(tool).toLowerCase();
+      const nameMatch = tool.name.toLowerCase();
       const slugMatch = getToolSlug(tool).toLowerCase();
-      const descriptionMatch = getToolDescription(tool).toLowerCase();
+      const descriptionMatch = descriptionOf(tool).toLowerCase();
       return (
         nameMatch.includes(query) ||
         slugMatch.includes(query) ||
@@ -153,18 +166,21 @@ export function searchTools(
     prioritizedResults.map((result) => [result.item, result.matchScore]),
   );
 
-  return { tools: Array.from(uniqueResults.keys()) as Tools, filteredTopics };
+  return { tools: Array.from(uniqueResults.keys()), filteredTopics };
 }
 
 export function applyFilters(
-  tools: Tools,
+  tools: ToolIndexEntry[],
   licenseFilter: string,
   dataFilter: string,
   favoritesFilter: string,
-): Tools {
+  // The base rule reads a parameter of a function type as an unused variable.
+  // eslint-disable-next-line no-unused-vars
+  isFavorite: (tool: ToolIndexEntry) => boolean,
+): ToolIndexEntry[] {
   return tools.filter((tool) => {
     if (licenseFilter && licenseFilter !== "All") {
-      const toolLicense = getToolLicense(tool);
+      const toolLicense = tool.license;
       if (toolLicense !== licenseFilter) return false;
     }
 
@@ -190,9 +206,7 @@ export function applyFilters(
       }
     }
 
-    const { isFavoriteTool } = useToolsStore();
-
-    if (favoritesFilter === "Favorites" && !isFavoriteTool(tool)) {
+    if (favoritesFilter === "Favorites" && !isFavorite(tool)) {
       return false;
     }
 
@@ -200,21 +214,16 @@ export function applyFilters(
   });
 }
 
-export function sortByKey(tools: Tools, sortKey: string): Tools {
+export function sortByKey(
+  tools: ToolIndexEntry[],
+  sortKey: string,
+): ToolIndexEntry[] {
   if (sortKey === "Name") {
-    tools.sort((a, b) => getToolName(a).localeCompare(getToolName(b)));
+    tools.sort((a, b) => a.name.localeCompare(b.name));
   } else if (sortKey === "Creation Date") {
-    tools.sort(
-      (a, b) =>
-        new Date(a.fetched_metadata.biotools?.addition_date || 0).getTime() -
-        new Date(b.fetched_metadata.biotools?.addition_date || 0).getTime(),
-    );
+    tools.sort((a, b) => (a.added ?? 0) - (b.added ?? 0));
   } else if (sortKey === "Last Updated") {
-    tools.sort(
-      (a, b) =>
-        new Date(a.fetched_metadata.biotools?.last_update_date || 0).getTime() -
-        new Date(b.fetched_metadata.biotools?.last_update_date || 0).getTime(),
-    );
+    tools.sort((a, b) => (a.updated ?? 0) - (b.updated ?? 0));
   }
 
   return tools;

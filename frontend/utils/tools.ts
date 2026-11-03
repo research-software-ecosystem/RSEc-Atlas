@@ -87,8 +87,8 @@ export function getToolName(tool: Tool) {
 }
 
 // The ID part of tool_name (biotools/t2t_report => t2t_report), which a bio.tools
-// name in getToolName may hide.
-export function getToolSlug(tool: Tool): string {
+// name in getToolName may hide. Takes a full record or a search index entry.
+export function getToolSlug(tool: Pick<Tool, "tool_name">): string {
   return tool?.tool_name?.split("/").pop() || "";
 }
 
@@ -155,7 +155,8 @@ export function getToolVersion(tool: Tool): string {
   return pickLatestVersion(versions) || "No version data";
 }
 
-function formateDate(dateStr: string = ""): string {
+// Takes a date string or milliseconds since the epoch.
+export function formateDate(dateStr: string | number = ""): string {
   const date = new Date(dateStr);
 
   if (isNaN(date.getTime())) {

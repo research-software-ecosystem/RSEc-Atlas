@@ -86,6 +86,12 @@ export function getToolName(tool: Tool) {
   );
 }
 
+// The ID part of tool_name (biotools/t2t_report => t2t_report), which a bio.tools
+// name in getToolName may hide.
+export function getToolSlug(tool: Tool): string {
+  return tool?.tool_name?.split("/").pop() || "";
+}
+
 function normalizeVersion(
   value?: string | string[] | number | number[],
 ): string[] {

@@ -60,6 +60,7 @@ function calculateMatchScore(
   nonTagQueries: string[],
 ) {
   const nameMatch = getToolName(tool).toLowerCase();
+  const slugMatch = getToolSlug(tool).toLowerCase();
   const descriptionMatch = getToolDescription(tool).toLowerCase();
   const tagsMatch = [
     ...getToolTopics(tool).map((tag) => tag.toLowerCase()),
@@ -73,8 +74,12 @@ function calculateMatchScore(
 
   nonTagQueries.forEach((query) => {
     if (nameMatch === query) matchScore += 100;
+    // An exact ID beats partial names; a tool named after the query still wins.
+    else if (slugMatch === query) matchScore += 90;
     else if (nameMatch.startsWith(query)) matchScore += 70;
     else if (nameMatch.includes(query)) matchScore += 50;
+    else if (slugMatch.startsWith(query)) matchScore += 40;
+    else if (slugMatch.includes(query)) matchScore += 30;
     else if (tagsMatch.some((tag) => tag.includes(query))) matchScore += 20;
     else if (descriptionMatch.includes(query)) matchScore += 10;
   });
@@ -99,6 +104,7 @@ export function searchTools(
         (query) =>
           getToolName(tool).toLowerCase() === query ||
           getToolName(tool).toLowerCase().includes(query) ||
+          getToolSlug(tool).toLowerCase().includes(query) ||
           getToolDescription(tool).toLowerCase().includes(query),
       ),
     );
@@ -128,8 +134,13 @@ export function searchTools(
 
     const matchesNonTags = nonTagQueries.some((query) => {
       const nameMatch = getToolName(tool).toLowerCase();
+      const slugMatch = getToolSlug(tool).toLowerCase();
       const descriptionMatch = getToolDescription(tool).toLowerCase();
-      return nameMatch.includes(query) || descriptionMatch.includes(query);
+      return (
+        nameMatch.includes(query) ||
+        slugMatch.includes(query) ||
+        descriptionMatch.includes(query)
+      );
     });
 
     if (matchScore > 0 && (matchesTags || matchesNonTags)) {

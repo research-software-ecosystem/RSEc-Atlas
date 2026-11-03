@@ -1,13 +1,14 @@
-function parseQuery(query: string) {
-  const tagRegex = /tag:(?:["']?(.*?)["']?)(?=\s|$)/g;
-  const tagQueries: string[] = [];
-  let match;
+// A quoted value may hold spaces; an unquoted one (or an unclosed quote) ends at whitespace.
+const TAG_REGEX = /tag:(?:"([^"]*)"|'([^']*)'|["']?(\S*))/gi;
 
-  while ((match = tagRegex.exec(query)) !== null) {
-    tagQueries.push(match[1]);
-  }
+function tagValue(match: RegExpMatchArray): string {
+  return (match[1] ?? match[2] ?? match[3] ?? "").trim();
+}
 
-  const nonTagQueryString = query.replace(tagRegex, "").trim();
+export function parseQuery(query: string) {
+  const tagQueries = [...query.matchAll(TAG_REGEX)].map(tagValue);
+
+  const nonTagQueryString = query.replace(TAG_REGEX, "").trim();
   const nonTagQueries = nonTagQueryString
     .split(/[\s,]+/)
     .map((part) => part.trim().toLowerCase())

@@ -1,5 +1,17 @@
 import { defineStore } from "pinia";
 
+// The home page lists the entries of the search index, a tool page the full
+// record of its tool.
+function isFullRecord(tool: Tool | ToolIndexEntry): tool is Tool {
+  return "fetched_metadata" in tool;
+}
+
+// Favorites used to be saved by display name: an entry carries the one its
+// record shows.
+function displayName(tool: Tool | ToolIndexEntry): string {
+  return isFullRecord(tool) ? getToolName(tool) : tool.name;
+}
+
 export const useToolsStore = defineStore(
   "tools",
   () => {
@@ -11,30 +23,31 @@ export const useToolsStore = defineStore(
 
     // A page merged into this one may have been saved under its own name,
     // which is now one of the identifiers of this one (bioconda/samtools).
-    function toolKeys(tool: Tool): string[] {
+    function toolKeys(tool: Tool | ToolIndexEntry): string[] {
+      const identifiers = isFullRecord(tool) ? tool.identifiers : undefined;
       return [
         tool.tool_name,
-        ...(tool.identifiers || []).map((id) => id.replace(":", "/")),
+        ...(identifiers || []).map((id) => id.replace(":", "/")),
       ];
     }
 
     const isFavoriteTool = computed(() => {
-      return (tool: Tool) => {
+      return (tool: Tool | ToolIndexEntry) => {
         return (
           toolKeys(tool).some((key) => favoriteToolNames.value.includes(key)) ||
-          favoriteTools.value.includes(getToolName(tool))
+          favoriteTools.value.includes(displayName(tool))
         );
       };
     });
 
-    function toggleFavoriteTool(tool: Tool): void {
+    function toggleFavoriteTool(tool: Tool | ToolIndexEntry): void {
       if (isFavoriteTool.value(tool)) {
         const keys = toolKeys(tool);
         favoriteToolNames.value = favoriteToolNames.value.filter(
           (name) => !keys.includes(name),
         );
         favoriteTools.value = favoriteTools.value.filter(
-          (name) => name !== getToolName(tool),
+          (name) => name !== displayName(tool),
         );
       } else {
         favoriteToolNames.value.push(tool.tool_name);
@@ -54,9 +67,11 @@ export const useToolsStore = defineStore(
         : undefined;
     }
 
-    async function migrateFavoriteTools(tools: Tools): Promise<void> {
+    async function migrateFavoriteTools(
+      tools: (Tool | ToolIndexEntry)[],
+    ): Promise<void> {
       const toolNames = new Set(tools.map((tool) => tool.tool_name));
-      const displayNames = new Set(tools.map((tool) => getToolName(tool)));
+      const displayNames = new Set(tools.map((tool) => displayName(tool)));
       // Galaxy suites used to have pages named after their ID, which their
       // display name no longer matches once merged into another tool.
       const unmatchedNames = favoriteTools.value.filter(
@@ -80,7 +95,7 @@ export const useToolsStore = defineStore(
       const migrated = legacyNames.flatMap((name) => {
         const matches = tools
           .filter(
-            (tool) => getToolName(tool) === name || tool.tool_name === name,
+            (tool) => displayName(tool) === name || tool.tool_name === name,
           )
           .map((tool) => tool.tool_name);
         const unprefixed = matches.filter(

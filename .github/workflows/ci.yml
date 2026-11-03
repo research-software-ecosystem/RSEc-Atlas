@@ -18,3 +18,37 @@ jobs:
     uses: ./.github/workflows/build-and-deploy.yml
     with:
       deploy: false
+
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v7
+      with:
+        persist-credentials: false
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version-file: 'frontend/.nvmrc'
+        cache: 'npm'
+        cache-dependency-path: 'frontend/package-lock.json'
+
+    - name: Install Node.js dependencies
+      working-directory: frontend
+      run: npm ci --ignore-scripts
+
+    - name: Prepare Nuxt
+      working-directory: frontend
+      run: npx nuxt prepare
+      env:
+        NUXT_TELEMETRY_DISABLED: 1
+
+    - name: Run unit tests
+      working-directory: frontend
+      run: npm test

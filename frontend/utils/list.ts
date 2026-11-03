@@ -1,12 +1,14 @@
 // A quoted value may hold spaces; an unquoted one (or an unclosed quote) ends at whitespace.
 const TAG_REGEX = /tag:(?:"([^"]*)"|'([^']*)'|["']?(\S*))/gi;
 
-function tagValue(match: RegExpMatchArray): string {
-  return (match[1] ?? match[2] ?? match[3] ?? "").trim();
+function tagValue(double?: string, single?: string, bare?: string): string {
+  return (double ?? single ?? bare ?? "").trim();
 }
 
 export function parseQuery(query: string) {
-  const tagQueries = [...query.matchAll(TAG_REGEX)].map(tagValue);
+  const tagQueries = [...query.matchAll(TAG_REGEX)].map((match) =>
+    tagValue(match[1], match[2], match[3]),
+  );
 
   const nonTagQueryString = query.replace(TAG_REGEX, "").trim();
   const nonTagQueries = nonTagQueryString
@@ -17,6 +19,19 @@ export function parseQuery(query: string) {
   const isStarTag = tagQueries.includes("*");
 
   return { tagQueries, nonTagQueries, isStarTag };
+}
+
+export function removeTagQuery(query: string, tag: string): string {
+  const target = tag.trim().toLowerCase();
+
+  return query
+    .replace(
+      TAG_REGEX,
+      (token: string, double?: string, single?: string, bare?: string) =>
+        tagValue(double, single, bare).toLowerCase() === target ? "" : token,
+    )
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function filterToolsByTagsAndTopics(

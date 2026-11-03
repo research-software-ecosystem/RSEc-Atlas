@@ -142,20 +142,14 @@ async function getTools() {
 }
 
 function onTopicClick(topic: string) {
-  const topicTag = `tag:'${topic.trim()}'`;
+  const topicName = topic.trim();
   const currentQuery = searchQuery.value.trim();
+  // Match the search, which lowercases the query before parsing it.
+  const { tagQueries } = parseQuery(currentQuery.toLowerCase());
 
-  const queryParts = currentQuery.split(/\s+/);
-  const normalizedQueryParts = queryParts.map((part) => part.toLowerCase());
-  const topicIndex = normalizedQueryParts.indexOf(topicTag.toLowerCase());
-
-  if (topicIndex !== -1) {
-    queryParts.splice(topicIndex, 1); // Remove the topic tag if it exists
-  } else {
-    queryParts.push(topicTag); // Add the topic tag if it doesn't exist
-  }
-
-  searchQuery.value = queryParts.join(" ").trim();
+  searchQuery.value = tagQueries.includes(topicName.toLowerCase())
+    ? removeTagQuery(currentQuery, topicName)
+    : `${currentQuery} tag:'${topicName}'`.trim();
 }
 
 async function onRetry() {

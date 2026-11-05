@@ -265,7 +265,7 @@ onUnmounted(() => {
                 v-for="topic in getToolEDAMTopics(tool)"
                 :key="topic"
                 target="_blank"
-                :to="`/search/tag:'${topic.trim()}'`"
+                :to="getTagSearchPath(topic)"
               >
                 <UBadge
                   class="text-gray-600 dark:text-gray-300"
@@ -331,7 +331,7 @@ onUnmounted(() => {
                   v-for="tag in getToolTags(tool)"
                   :key="tag"
                   target="_blank"
-                  :to="`/search/tag:'${tag.trim()}'`"
+                  :to="getTagSearchPath(tag)"
                 >
                   <UBadge
                     class="text-gray-600 dark:text-gray-300"

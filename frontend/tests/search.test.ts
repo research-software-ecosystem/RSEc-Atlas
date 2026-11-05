@@ -1,10 +1,13 @@
 import { describe, expect, it } from "vitest";
 import { createMemoryHistory, createRouter } from "vue-router";
-import { getSearchRedirect } from "../utils/search";
+import { getSearchRedirect, getTagSearchPath } from "../utils/search";
 
 const router = createRouter({
   history: createMemoryHistory(),
-  routes: [{ path: "/", component: {} }],
+  routes: [
+    { path: "/", component: {} },
+    { path: "/search/:search", component: {} },
+  ],
 });
 
 const queries = [
@@ -28,5 +31,26 @@ describe("getSearchRedirect", () => {
     expect([...parsed.searchParams.keys()]).toEqual(["search"]);
     expect(parsed.searchParams.get("search")).toBe(query);
     expect(router.resolve(fullPath).query.search).toBe(query);
+  });
+});
+
+const tags = [
+  "Sequence analysis",
+  "RNA-Seq & ChIP-seq",
+  "C++ / C#",
+  "100% pure?",
+  "50%25",
+  "über naïve 日本語",
+  " padded ",
+];
+
+describe("getTagSearchPath", () => {
+  it.each(tags)("links %j to the search route and back", (tag) => {
+    const resolved = router.resolve(getTagSearchPath(tag));
+    expect(resolved.name).toBeUndefined();
+    expect(resolved.matched).toHaveLength(1);
+    expect(resolved.params.search).toBe(`tag:'${tag.trim()}'`);
+    expect(resolved.hash).toBe("");
+    expect(resolved.query).toEqual({});
   });
 });

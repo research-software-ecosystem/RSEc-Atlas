@@ -15,16 +15,20 @@ const dataOptions = [
 ];
 
 const toast = useToast();
+const toolsStore = useToolsStore();
+const toolIndex = useToolIndex();
 
-const tools = ref<Tools>([]);
+// Tens of thousands of entries, replaced as a whole: no deep reactivity.
+const tools = shallowRef<ToolIndexEntry[]>([]);
 const loadingTools = ref(true);
 const filtering = ref(false);
+const loadingDescriptions = ref(false);
 const error = ref("");
 
 const filteredTopics = ref<string[]>([]);
 const topics = ref<string[]>([]);
 
-const filteredTools = ref<Tools>([]);
+const filteredTools = shallowRef<ToolIndexEntry[]>([]);
 const searchQuery = ref("");
 const searchQueryDebounced = refDebounced(searchQuery, 500);
 const sortKey = ref("Name");
@@ -53,19 +57,15 @@ const paginatedItems = computed(() => {
   return filteredTools.value.slice(start, end);
 });
 
-async function filterTools() {
+// Quiet: keep the current results on screen while they are recomputed.
+async function filterTools({ quiet = false } = {}) {
   if (loadingTools.value) return;
 
   try {
-    filtering.value = true;
+    if (!quiet) filtering.value = true;
     const query = searchQuery.value?.toLowerCase().trim() || "";
 
-    const hasMetadata = tools.value.some((tool) => tool.fetched_metadata);
-    if (!hasMetadata) {
-      filteredTools.value = [];
-    }
-
-    let filtered: Tools;
+    let filtered: ToolIndexEntry[];
 
     await new Promise((resolve) => {
       setTimeout(() => {
@@ -74,6 +74,7 @@ async function filterTools() {
           licenseFilter.value,
           dataFilter.value,
           favoritesFilter.value,
+          (tool) => toolsStore.isFavoriteTool(tool),
         );
 
         filtered = sortByKey(filtered, sortKey.value);
@@ -103,7 +104,7 @@ async function filterTools() {
 function listLicenses() {
   // The filter compares the license each tool displays, so offer those.
   const allLicenses = tools.value
-    .map((tool) => getToolLicense(tool))
+    .map((tool) => tool.license)
     .filter((lic) => lic !== "No License Info");
 
   licenseOptions.value = [
@@ -115,7 +116,7 @@ function listLicenses() {
 }
 
 function listTopics() {
-  const allTopics = tools.value.flatMap((tool) => getToolTopics(tool));
+  const allTopics = tools.value.flatMap((tool) => tool.topics ?? []);
   topics.value = Array.from(new Set(allTopics));
 }
 
@@ -124,8 +125,8 @@ async function getTools() {
   error.value = "";
 
   try {
-    tools.value = await fetchAllToolsMetadata();
-    await useToolsStore().migrateFavoriteTools(tools.value);
+    tools.value = await toolIndex.loadIndex();
+    await toolsStore.migrateFavoriteTools(tools.value);
 
     listLicenses();
     listTopics();
@@ -138,6 +139,31 @@ async function getTools() {
     });
   } finally {
     loadingTools.value = false;
+  }
+}
+
+// The descriptions are the larger part of the catalogue: fetched once the first
+// results show, they then fill the cards and take part in the search.
+async function loadDescriptions() {
+  if (error.value || tools.value.length === 0) return;
+
+  loadingDescriptions.value = true;
+
+  try {
+    const described = await toolIndex.loadDescriptions();
+    // Back on this page, the index came with them already.
+    if (described !== tools.value) {
+      tools.value = described;
+      await filterTools({ quiet: true });
+    }
+  } catch (err) {
+    toast.add({
+      title: "Failed to Fetch Descriptions",
+      description: `Error: ${String(err)}`,
+      color: "warning",
+    });
+  } finally {
+    loadingDescriptions.value = false;
   }
 }
 
@@ -155,6 +181,7 @@ function onTopicClick(topic: string) {
 async function onRetry() {
   await getTools();
   await filterTools();
+  loadDescriptions();
 }
 
 function onClearFilters() {
@@ -198,6 +225,7 @@ onMounted(async () => {
 
   await getTools();
   await filterTools();
+  loadDescriptions();
 });
 </script>
 
@@ -313,7 +341,7 @@ onMounted(async () => {
       icon="uil:spinner-alt"
       :ui="{ icon: 'motion-safe:animate-spin' }"
       title="Loading the tool catalogue…"
-      description="The metadata index is a few megabytes, so on a slow connection this can take a while. Your search and filters are applied as soon as it has loaded."
+      description="The search index is over a megabyte, so on a slow connection this can take a while. Your search and filters are applied as soon as it has loaded."
     />
 
     <UAlert
@@ -324,7 +352,7 @@ onMounted(async () => {
       role="alert"
       icon="uil:exclamation-triangle"
       title="Failed to load the tool catalogue"
-      description="The metadata index could not be downloaded. Check your connection and try again."
+      description="The search index could not be downloaded. Check your connection and try again."
       :actions="[
         {
           label: 'Retry',
@@ -348,6 +376,7 @@ onMounted(async () => {
           v-for="tool in paginatedItems"
           :key="tool.tool_name"
           :tool="tool"
+          :description-loading="loadingDescriptions"
         />
       </template>
       <template v-else-if="!error">

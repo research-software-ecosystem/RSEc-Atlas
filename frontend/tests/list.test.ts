@@ -1,28 +1,22 @@
 import { beforeAll, describe, expect, it, vi } from "vitest";
 import { parseQuery, removeTagQuery, searchTools } from "../utils/list";
-import * as toolGetters from "../utils/tools";
+import { toIndexEntry } from "../utils/search-index";
+import { getToolSlug } from "../utils/tools";
 
-// Nuxt auto-imports these getters into list.ts at build time.
+// Nuxt auto-imports this getter into list.ts at build time.
 beforeAll(() => {
-  for (const name of [
-    "getToolName",
-    "getToolSlug",
-    "getToolDescription",
-    "getToolTopics",
-    "getToolTags",
-  ] as const) {
-    vi.stubGlobal(name, toolGetters[name]);
-  }
+  vi.stubGlobal("getToolSlug", getToolSlug);
 });
 
+// The home page searches index entries, built from the full records.
 function makeTool(
   tool_name: string,
   fetched_metadata: Partial<Tool["fetched_metadata"]> = {},
-): Tool {
-  return { tool_name, fetched_metadata } as Tool;
+): ToolIndexEntry {
+  return toIndexEntry({ tool_name, fetched_metadata } as Tool);
 }
 
-function searchNames(tools: Tools, query: string): string[] {
+function searchNames(tools: ToolIndexEntry[], query: string): string[] {
   return searchTools(tools, query, []).tools.map((tool) => tool.tool_name);
 }
 
@@ -207,6 +201,16 @@ describe("searchTools", () => {
   it("ranks a partial name match above a partial ID match", () => {
     expect(searchNames([t2tReport, t2tFasta], "t2t")).toEqual([
       "bioconda/t2t_fasta",
+      "biotools/t2t_report",
+    ]);
+  });
+
+  it("matches descriptions only once they have loaded", () => {
+    const { description, ...withoutDescription } = t2tReport;
+
+    expect(description).toBe("Reports taxa.");
+    expect(searchNames([withoutDescription, taxonomy], "taxa")).toEqual([]);
+    expect(searchNames([t2tReport, taxonomy], "taxa")).toEqual([
       "biotools/t2t_report",
     ]);
   });

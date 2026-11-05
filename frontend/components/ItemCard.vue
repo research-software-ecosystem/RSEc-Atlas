@@ -1,29 +1,24 @@
 <script setup lang="ts">
 interface Props {
-  tool: Tool;
+  tool: ToolIndexEntry;
+  // The descriptions load after the index.
+  descriptionLoading?: boolean;
 }
 
 const props = defineProps<Props>();
 
 const { isFavoriteTool, toggleFavoriteTool } = useToolsStore();
 
-const toolName = computed(() => {
-  return getToolName(props.tool);
-});
-const version = computed(() => {
-  return getToolVersion(props.tool);
-});
-const description = computed(() => {
-  return getToolDescription(props.tool);
-});
-const license = computed(() => {
-  return getToolLicense(props.tool);
-});
+const toolName = computed(() => props.tool.name);
+const version = computed(() => props.tool.version);
+const description = computed(() => props.tool.description);
+const license = computed(() => props.tool.license);
 const isFavorite = computed(() => {
   return isFavoriteTool(props.tool);
 });
 const lastUpdate = computed(() => {
-  return getToolLastUpdateDate(props.tool);
+  const { updated } = props.tool;
+  return formateDate(updated === undefined ? "" : updated * 1000);
 });
 
 function toggleFavorite() {
@@ -92,9 +87,13 @@ function toggleFavorite() {
         </div>
       </div>
 
-      <span>
+      <span v-if="description !== undefined">
         {{ description }}
       </span>
+      <div v-else-if="descriptionLoading" aria-hidden="true">
+        <USkeleton class="mt-2 h-4 w-4/5" />
+        <USkeleton class="mt-2 h-4 w-7/12" />
+      </div>
     </div>
 
     <div class="flex justify-end">

@@ -131,4 +131,21 @@ declare global {
   }
 
   type Tools = Tool[];
+
+  // What the home page needs of a tool to list, search, filter and sort it,
+  // as the getters of the full record return it.
+  interface ToolIndexEntry {
+    tool_name: string;
+    name: string;
+    // Shipped in a file of its own and filled in once that has loaded.
+    description?: string;
+    license: string;
+    version: string;
+    // Seconds since the epoch.
+    added?: number;
+    updated?: number;
+    topics?: string[];
+    tags?: string[];
+    contents?: string[];
+  }
 }

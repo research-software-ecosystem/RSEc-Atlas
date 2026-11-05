@@ -1,9 +1,24 @@
-export async function fetchAllToolsMetadata(): Promise<Tool[]> {
+// Built at generate by modules/search-index.ts.
+export async function fetchSearchIndex(): Promise<ToolIndexEntry[]> {
   try {
-    const response = await $fetch("/metadata/combined_metadata.json");
-    return response as Tool[];
+    const response = await $fetch("/metadata/search_index.json");
+    return response as ToolIndexEntry[];
   } catch (error) {
-    throw new Error(`Failed to fetch all tools metadata: ${error}`, {
+    throw new Error(`Failed to fetch the search index: ${error}`, {
+      cause: error,
+    });
+  }
+}
+
+// Descriptions by tool name; tools without one are left out.
+export async function fetchSearchDescriptions(): Promise<
+  Record<string, string>
+> {
+  try {
+    const response = await $fetch("/metadata/search_descriptions.json");
+    return response as Record<string, string>;
+  } catch (error) {
+    throw new Error(`Failed to fetch the tool descriptions: ${error}`, {
       cause: error,
     });
   }
@@ -87,8 +102,8 @@ export function getToolName(tool: Tool) {
 }
 
 // The ID part of tool_name (biotools/t2t_report => t2t_report), which a bio.tools
-// name in getToolName may hide.
-export function getToolSlug(tool: Tool): string {
+// name in getToolName may hide. Takes a full record or a search index entry.
+export function getToolSlug(tool: Pick<Tool, "tool_name">): string {
   return tool?.tool_name?.split("/").pop() || "";
 }
 
@@ -155,7 +170,8 @@ export function getToolVersion(tool: Tool): string {
   return pickLatestVersion(versions) || "No version data";
 }
 
-function formateDate(dateStr: string = ""): string {
+// Takes a date string or milliseconds since the epoch.
+export function formateDate(dateStr: string | number = ""): string {
   const date = new Date(dateStr);
 
   if (isNaN(date.getTime())) {

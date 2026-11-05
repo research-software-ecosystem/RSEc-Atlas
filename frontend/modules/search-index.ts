@@ -2,7 +2,7 @@ import { existsSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { defineNuxtModule, useLogger } from "nuxt/kit";
-import { NO_DESCRIPTION, toIndexEntry } from "../utils/search-index";
+import { buildSearchFiles } from "../utils/search-index";
 // The global types of the app, which the build does not see by itself.
 import type {} from "../types/tool";
 
@@ -43,18 +43,7 @@ export default defineNuxtModule({
       }
 
       const tools: Tool[] = JSON.parse(await readFile(combinedFile, "utf8"));
-      const index: ToolIndexEntry[] = [];
-      // No prototype, so a tool named "__proto__" is kept as a key.
-      const descriptions: Record<string, string> = Object.create(null);
-
-      for (const tool of tools) {
-        const { description, ...entry } = toIndexEntry(tool);
-        index.push(entry);
-        // Tools without one read the default, as their pages do.
-        if (description && description !== NO_DESCRIPTION) {
-          descriptions[tool.tool_name] = description;
-        }
-      }
+      const { index, descriptions } = buildSearchFiles(tools);
 
       await writeFile(
         join(outputDir, "search_index.json"),

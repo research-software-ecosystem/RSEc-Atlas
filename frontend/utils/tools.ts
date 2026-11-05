@@ -68,7 +68,7 @@ export function getToolLicense(tool: Tool): string {
 }
 
 export function getToolName(tool: Tool) {
-  const { bioschemas, bioconda, biocontainers, bioconductor } =
+  const { bioschemas, bioconda, biocontainers, bioconductor, biotools } =
     tool?.fetched_metadata || {};
 
   return (
@@ -79,9 +79,17 @@ export function getToolName(tool: Tool) {
     (tool?.fetched_metadata &&
       (getToolDebianPackage(tool)?.name ||
         getToolDebianPackage(tool)?.package)) ||
+    // After the other sources, so tools they already name keep that name.
+    biotools?.name?.trim() ||
     tool?.tool_name?.split("/").pop() ||
     "Unknown Tool"
   );
+}
+
+// The ID part of tool_name (biotools/t2t_report => t2t_report), which a bio.tools
+// name in getToolName may hide.
+export function getToolSlug(tool: Tool): string {
+  return tool?.tool_name?.split("/").pop() || "";
 }
 
 function normalizeVersion(

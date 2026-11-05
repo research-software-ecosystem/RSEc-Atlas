@@ -58,6 +58,7 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "summary": ("about", "summary"),
     },
     "biotools": {
+        "name": ("name",),
         "license": ("license",),
         "summary": ("description",),
         "addition_date": ("additionDate",),

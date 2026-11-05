@@ -204,4 +204,14 @@ describe("searchTools", () => {
       "biotools/t2t_report",
     ]);
   });
+
+  it("matches descriptions only once they have loaded", () => {
+    const { description, ...withoutDescription } = t2tReport;
+
+    expect(description).toBe("Reports taxa.");
+    expect(searchNames([withoutDescription, taxonomy], "taxa")).toEqual([]);
+    expect(searchNames([t2tReport, taxonomy], "taxa")).toEqual([
+      "biotools/t2t_report",
+    ]);
+  });
 });

@@ -1,0 +1,1 @@
+{"tool_name":"debian/genomicsdb-tools","contents":["debian"],"identifiers":["debian:genomicsdb-tools"],"fetched_metadata":{"debian":{"package":"genomicsdb-tools","distribution":"debian","release":"sid","component":"main","version":"1.5.5","source":"genomicsdb","homepage":"https://www.genomicsdb.org/","license":"unknown","blend":"debian-med","popcon":[{"insts":8,"olde":8}]}}}

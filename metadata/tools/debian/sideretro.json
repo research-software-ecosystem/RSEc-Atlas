@@ -1,0 +1,1 @@
+{"tool_name":"debian/sideretro","contents":["debian"],"identifiers":["debian:sideretro"],"fetched_metadata":{"debian":{"package":"sideretro","distribution":"debian","release":"sid","component":"main","version":"1.1.6","source":"sideretro","homepage":"https://github.com/galantelab/sideRETRO","license":"unknown","blend":"debian-med"}}}

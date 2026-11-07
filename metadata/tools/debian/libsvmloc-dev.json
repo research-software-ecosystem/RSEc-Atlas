@@ -1,0 +1,1 @@
+{"tool_name":"debian/libsvmloc-dev","contents":["debian"],"identifiers":["debian:libsvmloc-dev"],"fetched_metadata":{"debian":{"package":"libsvmloc-dev","distribution":"debian","release":"sid","component":"main","version":"1.0","source":"libpsortb","homepage":"https://www.psort.org/","license":"unknown","blend":"debian-med","popcon":[{"insts":6,"nofiles":6}]}}}

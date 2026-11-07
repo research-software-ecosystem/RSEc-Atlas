@@ -1,0 +1,1 @@
+{"tool_name":"debian/pyfai","contents":["debian"],"identifiers":["debian:pyfai"],"fetched_metadata":{"debian":{"package":"pyfai","distribution":"debian","release":"sid","component":"main","version":"2026.02","source":"pyfai","homepage":"https://github.com/silx-kit/pyFAI","license":"unknown","blend":"debian-med","popcon":[{"insts":168,"olde":126,"recent":27,"vote":15}]}}}

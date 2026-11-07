@@ -1,0 +1,1 @@
+{"tool_name":"debian/unikmer","contents":["debian"],"identifiers":["debian:unikmer"],"fetched_metadata":{"debian":{"package":"unikmer","distribution":"debian","release":"sid","component":"main","version":"0.20.0","source":"unikmer","homepage":"https://github.com/shenwei356/unikmer","license":"unknown","blend":"debian-med","popcon":[{"insts":118,"olde":88,"recent":25,"vote":5}]}}}

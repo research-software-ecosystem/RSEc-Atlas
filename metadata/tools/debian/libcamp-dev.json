@@ -1,0 +1,1 @@
+{"tool_name":"debian/libcamp-dev","contents":["debian"],"identifiers":["debian:libcamp-dev"],"fetched_metadata":{"debian":{"package":"libcamp-dev","distribution":"debian","release":"sid","component":"main","version":"0.8.4","source":"camp","homepage":"https://github.com/IRCAD/camp","license":"unknown","blend":"debian-med","popcon":[{"insts":2,"nofiles":2}]}}}

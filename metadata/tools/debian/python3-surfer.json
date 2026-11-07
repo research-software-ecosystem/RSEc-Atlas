@@ -1,0 +1,1 @@
+{"tool_name":"debian/python3-surfer","contents":["debian"],"identifiers":["debian:python3-surfer"],"fetched_metadata":{"debian":{"package":"python3-surfer","distribution":"debian","release":"sid","component":"main","version":"0.11.2","source":"pysurfer","homepage":"https://pysurfer.github.io","license":"unknown","blend":"debian-med","popcon":[{"insts":20,"olde":19,"vote":1}]}}}

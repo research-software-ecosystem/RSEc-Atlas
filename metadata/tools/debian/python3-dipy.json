@@ -1,0 +1,1 @@
+{"tool_name":"debian/python3-dipy","contents":["debian"],"identifiers":["debian:python3-dipy"],"fetched_metadata":{"debian":{"package":"python3-dipy","distribution":"debian","release":"sid","component":"main","version":"1.12.1","source":"dipy","homepage":"https://dipy.org","license":"unknown","blend":"debian-med","popcon":[{"insts":499,"olde":360,"recent":86,"vote":53}]}}}

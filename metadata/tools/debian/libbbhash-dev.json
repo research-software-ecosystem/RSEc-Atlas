@@ -1,0 +1,1 @@
+{"tool_name":"debian/libbbhash-dev","contents":["debian"],"identifiers":["debian:libbbhash-dev"],"fetched_metadata":{"debian":{"package":"libbbhash-dev","distribution":"debian","release":"sid","component":"main","version":"1.0.0","source":"bbhash","homepage":"https://github.com/rizkg/BBHash","license":"unknown","blend":"debian-med","popcon":[{"insts":3,"olde":3}]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"debian/king","contents":["debian"],"identifiers":["debian:king"],"fetched_metadata":{"debian":{"package":"king","distribution":"debian","release":"sid","component":"main","version":"2.24","source":"king","homepage":"http://kinemage.biochem.duke.edu/software/king/","license":"unknown","blend":"debian-med","popcon":[{"insts":101,"olde":88,"recent":7,"vote":6}]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"debian/fastani","contents":["debian"],"identifiers":["debian:fastani"],"fetched_metadata":{"debian":{"package":"fastani","distribution":"debian","release":"sid","component":"main","version":"1.34+ds","source":"fastani","homepage":"https://github.com/ParBLiSS/FastANI","license":"unknown","blend":"debian-med","popcon":[{"insts":121,"olde":90,"recent":26,"vote":5}]}}}

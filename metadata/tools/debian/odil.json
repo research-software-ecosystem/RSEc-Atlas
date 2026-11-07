@@ -1,0 +1,1 @@
+{"tool_name":"debian/odil","contents":["debian"],"identifiers":["debian:odil"],"fetched_metadata":{"debian":{"package":"odil","distribution":"debian","release":"sid","component":"main","version":"0.13.0","source":"odil","homepage":"https://github.com/lamyj/odil","license":"unknown","blend":"debian-med","popcon":[{"insts":89,"olde":80,"recent":3,"vote":6}]}}}

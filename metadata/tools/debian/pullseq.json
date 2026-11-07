@@ -1,0 +1,1 @@
+{"tool_name":"debian/pullseq","contents":["debian"],"identifiers":["debian:pullseq"],"fetched_metadata":{"debian":{"package":"pullseq","distribution":"debian","release":"sid","component":"main","version":"1.0.2","source":"pullseq","homepage":"https://github.com/bcthomas/pullseq","license":"unknown","blend":"debian-med","popcon":[{"insts":120,"olde":90,"recent":25,"vote":5}]}}}

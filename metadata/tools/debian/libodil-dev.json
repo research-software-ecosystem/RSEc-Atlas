@@ -1,0 +1,1 @@
+{"tool_name":"debian/libodil-dev","contents":["debian"],"identifiers":["debian:libodil-dev"],"fetched_metadata":{"debian":{"package":"libodil-dev","distribution":"debian","release":"sid","component":"main","version":"0.13.0","source":"odil","homepage":"https://github.com/lamyj/odil","license":"unknown","blend":"debian-med","popcon":[{"insts":5,"olde":5}]}}}

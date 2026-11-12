@@ -197,9 +197,9 @@ The Python script is responsible for processing, merging metadata files and crea
 - Directory Structure:
   ```
   backend/
-  ├── content/                # Created after pulling the RSC Content repository
+  ├── content/                # Created after pulling the RSE Content repository
   ├── requirements.txt        # File with python dependencies, which are to be installed before running the Python script
-  ├── merge_data_files.py     # Python script to merge the metadata from the RCS Content repository
+  ├── merge_data_files.py     # Python script to merge the metadata from the RSE Content repository
   ```
 - Working:
   1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool, then loads the records of `backend/content/imports` (Bioconductor, Bioconda, Galaxy, Debian Med) that no folder holds.

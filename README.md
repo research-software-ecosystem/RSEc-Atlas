@@ -172,7 +172,7 @@ Navigate to the `frontend` directory and run the following command to generate t
 npm run generate
 ```
 This will create a fully static site in the `.output/public` directory.
-It also builds, from `combined_metadata.json`, the files the home page searches: `metadata/search_index.json` (name, version, license, dates, topics and sources of each tool) and `metadata/search_descriptions.json` (descriptions by tool name, loaded after the first results). Without `combined_metadata.json`, the build skips them with a warning.
+It also builds, from `combined_metadata.json`, the files the home page searches: `metadata/search_index.json` (name, version, license, dates, topics and sources of each tool) and `metadata/search_descriptions.json` (descriptions by tool name, cut to 300 characters, so the home page's description search matches only that part; the tool page shows the full text; loaded after the first results). Without `combined_metadata.json`, the build skips them with a warning.
 
 #### 9. 👀 Preview the Site
 To preview the generated static site, run:

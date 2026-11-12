@@ -119,7 +119,7 @@ To set up and run the project locally, we can follow the below procedure:
 
 #### 1. 📦 Install the prerequisites
 Before setting up the project, ensure you have the following installed on your local machine:
-- **Node.js** (v18 or higher): Required for running the Nuxt.js frontend.
+- **Node.js** (v24 or higher, see `frontend/.nvmrc`): Required for running the Nuxt.js frontend.
 - **Python** (v3.x): Required for running the Python scripts to process and merge metadata files.
 - **Git**: For version control and managing repository changes.
 
@@ -164,9 +164,9 @@ The Python script `merge_data_files.py` in `backend` processes and merges the me
 ```bash
 python ../backend/merge_data_files.py
 ```
-This will generate the metadata files in the `frontend/public/metadata` directory.
+This will generate the metadata files in the `frontend/public/metadata` directory. Every run first deletes that directory, so the files are always rebuilt from scratch.
 
-#### 8. 🏗️ Generate the Static Site
+#### 7. 🏗️ Generate the Static Site
 Navigate to the `frontend` directory and run the following command to generate the static site:
 ```bash
 npm run generate
@@ -174,12 +174,18 @@ npm run generate
 This will create a fully static site in the `.output/public` directory.
 It also builds, from `combined_metadata.json`, the files the home page searches: `metadata/search_index.json` (name, version, license, dates, topics and sources of each tool) and `metadata/search_descriptions.json` (descriptions by tool name, loaded after the first results). Without `combined_metadata.json`, the build skips them with a warning.
 
-#### 9. 👀 Preview the Site
+#### 8. 👀 Preview the Site
 To preview the generated static site, run:
 ```bash
 npm run preview
 ```
 You should now be able to access the site locally at `http://localhost:3000`.
+
+#### 9. 🧪 Other Scripts
+These scripts are also available in the `frontend` directory:
+- `npm run dev`: Start the Nuxt development server.
+- `npm run lint` (`npm run lint:fix` to fix what it can): Lint the code with ESLint.
+- `npm test`: Run the unit tests with Vitest. The CI runs them on every pull request.
 
 
 ## 🏗️ Implementation

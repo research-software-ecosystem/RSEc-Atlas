@@ -18,9 +18,9 @@ findability. The application retrieves RAW metadata from the Git repository of t
 When a user clicks on a tool from the homepage, they are taken to a detailed page that provides comprehensive information and actionable links for that tool. The page is organized into several sections for clarity and ease of use:
 
 #### 1. 🏷️ Header Section
-- **Tool Name & Badges:** The tool name (e.g., "DESeq2") is prominently displayed, along with badges for license, last update, and Bioconda availability.
+- **Tool Name & Badges:** The tool name (e.g., "DESeq2") is prominently displayed, along with badges for version, license, last update and home page.
 - **Short Description:** A concise summary of the tool’s purpose and functionality.
-- **Documentation Link:** If available, a badge links directly to the tool’s documentation.
+- **Documentation Link:** A badge links directly to the tool’s documentation, or reads "No documentation available".
 
 #### 2. 🧬 EDAM Data
 - **Operations:** Lists the main operations or analyses the tool performs.
@@ -33,7 +33,7 @@ When a user clicks on a tool from the homepage, they are taken to a detailed pag
 - **Tags:** Additional tags for categorization.
 
 #### 4. 🌌 Galaxy Usage
-- **Usage Statistics:** Displays usage metrics such as total runs, unique users, and usage over the past year.
+- **Usage Statistics:** Displays usage metrics such as runs and unique users, both over the last 5 years and of all time.
 
 #### 5. ⚙️ Installation & Usage
 - **Run in Galaxy:** Quick links to launch the tool on various Galaxy instances.
@@ -57,7 +57,7 @@ When a user clicks on a tool from the homepage, they are taken to a detailed pag
 #### 9. 🗂️ Tool Metadata
 - **Identifiers:** Lists various IDs (e.g., Galaxy ToolShed ID, BioTools ID).
 - **Categories:** Shows categories and tags relevant to the tool.
-- **Conda Version:** Displays the current version available via Bioconda.
+- **Conda Name & Version:** Displays the conda package of the Galaxy suite and its latest version.
 
 This detailed layout ensures that users can quickly access all relevant information, installation instructions, usage statistics, and resources for each tool, making it easy to evaluate and use tools in their research workflows.
 
@@ -66,12 +66,12 @@ This detailed layout ensures that users can quickly access all relevant informat
 ## ✨ Features
 - **Search:** Query by tool name, tags, or description (case-insensitive, supports advanced queries).
 - **Filter:** By data availability (Bioconda, Biocontainers, Galaxy), license, or favorites.
-- **Sort:** By name, creation date, or last modified date.
+- **Sort:** By name, creation date, or last updated date.
 - **Favorites:** Mark tools for quick access (stored in your browser).
 - **Shareable URLs:** Share search results or tool pages via direct links.
 
 ## 🔍 Searching
-The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description.
+The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description. Descriptions are loaded after the first results are shown, so matches on a description can appear a moment later.
 
 - **Simple Search:**  
   `BWA`, `DeepTools`, `tag:'mapping'`
@@ -93,13 +93,13 @@ The application provides various filtering options to narrow down search results
 These filters are available on the home page of the application.
 
 ### 🔃 Sorting
-The tools on the homepage can be sorted by Name, Creation Date, and Last Modified Date. A drop-down on the home page of the application provides this functionality. By default, the tools are sorted by their Names.
+The tools on the homepage can be sorted by Name, Creation Date, and Last Updated. A drop-down on the home page of the application provides this functionality. By default, the tools are sorted by their Names.
 
 ### ⭐ Favourites
 Users can mark bio tools and containers as favorites for quick access in the future. The favorites functionality ensures that users can maintain a personalized list of frequently used tools, stored in the browser. To mark a tool as a favourite, Users must go to the tool's details page by clicking on the tool name and then toggling the star in the top-right corner.
 
 ### 🔗 URLs Sharing
-If users want to share the URL with a search query, it can be done by sharing the URL and appending `/?search=SEARCH QUERY`, which will be automatically converted to `/?search=SEARCH+QUERY`. Following are some of the examples of the URLs with the search query:
+If users want to share the URL with a search query, it can be done by sharing the URL and appending `/?search=SEARCH QUERY`, which is encoded for you, e.g. to `/?search=SEARCH+QUERY`. A link of the form `/search/SEARCH QUERY` (used by the tag links of a tool page) redirects to the same search. Following are some of the examples of the URLs with the search query:
    - https://research-software-ecosystem.github.io/RSEc-Atlas/?search=1000Genomes+ID+history+converter `(Gives the tools with search string as 1000Genomes ID history converter)`
    - https://research-software-ecosystem.github.io/RSEc-Atlas/?search=tag:'de.NBI'+tag:'RNA-Seq' `(Gives the tools with result consisting Tag de.NBI collection and tag RNA-Seq)`
 

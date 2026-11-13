@@ -76,6 +76,7 @@ SUMMARY_DATA_KEY_MAPPINGS = {
         "toolshed_id": ("Suite_ID",),
         "summary": ("Description",),
         "version": ("Suite_version",),
+        "conda_version": ("Latest_suite_conda_package_version",),
         "first_commit": ("Suite_first_commit_date",),
         "edam_topics": ("EDAM_topics",),
         "users_5_years": ("Suite_users_(last_5_years)_on_main_servers",),

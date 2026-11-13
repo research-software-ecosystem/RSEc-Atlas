@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getToolName } from "../utils/tools";
+import { getToolName, getToolVersion } from "../utils/tools";
 
 function makeTool(
   tool_name: string,
@@ -68,5 +68,38 @@ describe("getToolName", () => {
 
   it("returns Unknown Tool when nothing names the tool", () => {
     expect(getToolName({} as Tool)).toBe("Unknown Tool");
+  });
+});
+
+describe("getToolVersion", () => {
+  const macroVersion = "@TOOL_VERSION@+galaxy@VERSION_SUFFIX@";
+
+  it("uses the Galaxy conda version of a Galaxy-only tool", () => {
+    expect(
+      getToolVersion(
+        makeTool("galaxy/anndata2ri", {
+          galaxy: { version: macroVersion, conda_version: "2.0.1" },
+        }),
+      ),
+    ).toBe("2.0.1");
+  });
+
+  it("picks the highest version when Bioconda also has one", () => {
+    expect(
+      getToolVersion(
+        makeTool("bioconda/tool", {
+          bioconda: { version: "1.0" },
+          galaxy: { version: macroVersion, conda_version: "2.0.1" },
+        }),
+      ),
+    ).toBe("2.0.1");
+  });
+
+  it("returns No version data without a Galaxy conda version", () => {
+    expect(
+      getToolVersion(
+        makeTool("galaxy/ete", { galaxy: { version: macroVersion } }),
+      ),
+    ).toBe("No version data");
   });
 });

@@ -18,9 +18,9 @@ findability. The application retrieves RAW metadata from the Git repository of t
 When a user clicks on a tool from the homepage, they are taken to a detailed page that provides comprehensive information and actionable links for that tool. The page is organized into several sections for clarity and ease of use:
 
 #### 1. 🏷️ Header Section
-- **Tool Name & Badges:** The tool name (e.g., "DESeq2") is prominently displayed, along with badges for license, last update, and Bioconda availability.
+- **Tool Name & Badges:** The tool name (e.g., "DESeq2") is prominently displayed, along with badges for version, license, last update and home page.
 - **Short Description:** A concise summary of the tool’s purpose and functionality.
-- **Documentation Link:** If available, a badge links directly to the tool’s documentation.
+- **Documentation Link:** A badge links directly to the tool’s documentation, or reads "No documentation available".
 
 #### 2. 🧬 EDAM Data
 - **Operations:** Lists the main operations or analyses the tool performs.
@@ -33,7 +33,7 @@ When a user clicks on a tool from the homepage, they are taken to a detailed pag
 - **Tags:** Additional tags for categorization.
 
 #### 4. 🌌 Galaxy Usage
-- **Usage Statistics:** Displays usage metrics such as total runs, unique users, and usage over the past year.
+- **Usage Statistics:** Displays usage metrics such as runs and unique users, both over the last 5 years and of all time.
 
 #### 5. ⚙️ Installation & Usage
 - **Run in Galaxy:** Quick links to launch the tool on various Galaxy instances.
@@ -57,7 +57,7 @@ When a user clicks on a tool from the homepage, they are taken to a detailed pag
 #### 9. 🗂️ Tool Metadata
 - **Identifiers:** Lists various IDs (e.g., Galaxy ToolShed ID, BioTools ID).
 - **Categories:** Shows categories and tags relevant to the tool.
-- **Conda Version:** Displays the current version available via Bioconda.
+- **Conda Name & Version:** Displays the conda package of the Galaxy suite and its latest version.
 
 This detailed layout ensures that users can quickly access all relevant information, installation instructions, usage statistics, and resources for each tool, making it easy to evaluate and use tools in their research workflows.
 
@@ -66,12 +66,12 @@ This detailed layout ensures that users can quickly access all relevant informat
 ## ✨ Features
 - **Search:** Query by tool name, tags, or description (case-insensitive, supports advanced queries).
 - **Filter:** By data availability (Bioconda, Biocontainers, Galaxy), license, or favorites.
-- **Sort:** By name, creation date, or last modified date.
+- **Sort:** By name, creation date, or last updated date.
 - **Favorites:** Mark tools for quick access (stored in your browser).
 - **Shareable URLs:** Share search results or tool pages via direct links.
 
 ## 🔍 Searching
-The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description.
+The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description. Descriptions are loaded after the first results are shown, so matches on a description can appear a moment later.
 
 - **Simple Search:**  
   `BWA`, `DeepTools`, `tag:'mapping'`
@@ -93,13 +93,13 @@ The application provides various filtering options to narrow down search results
 These filters are available on the home page of the application.
 
 ### 🔃 Sorting
-The tools on the homepage can be sorted by Name, Creation Date, and Last Modified Date. A drop-down on the home page of the application provides this functionality. By default, the tools are sorted by their Names.
+The tools on the homepage can be sorted by Name, Creation Date, and Last Updated. A drop-down on the home page of the application provides this functionality. By default, the tools are sorted by their Names.
 
 ### ⭐ Favourites
 Users can mark bio tools and containers as favorites for quick access in the future. The favorites functionality ensures that users can maintain a personalized list of frequently used tools, stored in the browser. To mark a tool as a favourite, Users must go to the tool's details page by clicking on the tool name and then toggling the star in the top-right corner.
 
 ### 🔗 URLs Sharing
-If users want to share the URL with a search query, it can be done by sharing the URL and appending `/?search=SEARCH QUERY`, which will be automatically converted to `/?search=SEARCH+QUERY`. Following are some of the examples of the URLs with the search query:
+If users want to share the URL with a search query, it can be done by sharing the URL and appending `/?search=SEARCH QUERY`, which is encoded for you, e.g. to `/?search=SEARCH+QUERY`. A link of the form `/search/SEARCH QUERY` (used by the tag links of a tool page) redirects to the same search. Following are some of the examples of the URLs with the search query:
    - https://research-software-ecosystem.github.io/RSEc-Atlas/?search=1000Genomes+ID+history+converter `(Gives the tools with search string as 1000Genomes ID history converter)`
    - https://research-software-ecosystem.github.io/RSEc-Atlas/?search=tag:'de.NBI'+tag:'RNA-Seq' `(Gives the tools with result consisting Tag de.NBI collection and tag RNA-Seq)`
 
@@ -119,7 +119,7 @@ To set up and run the project locally, we can follow the below procedure:
 
 #### 1. 📦 Install the prerequisites
 Before setting up the project, ensure you have the following installed on your local machine:
-- **Node.js** (v18 or higher): Required for running the Nuxt.js frontend.
+- **Node.js** (v24 or higher, see `frontend/.nvmrc`): Required for running the Nuxt.js frontend.
 - **Python** (v3.x): Required for running the Python scripts to process and merge metadata files.
 - **Git**: For version control and managing repository changes.
 
@@ -164,9 +164,9 @@ The Python script `merge_data_files.py` in `backend` processes and merges the me
 ```bash
 python ../backend/merge_data_files.py
 ```
-This will generate the metadata files in the `frontend/public/metadata` directory.
+This will generate the metadata files in the `frontend/public/metadata` directory. Every run first deletes that directory, so the files are always rebuilt from scratch.
 
-#### 8. 🏗️ Generate the Static Site
+#### 7. 🏗️ Generate the Static Site
 Navigate to the `frontend` directory and run the following command to generate the static site:
 ```bash
 npm run generate
@@ -174,12 +174,18 @@ npm run generate
 This will create a fully static site in the `.output/public` directory.
 It also builds, from `combined_metadata.json`, the files the home page searches: `metadata/search_index.json` (name, version, license, dates, topics and sources of each tool) and `metadata/search_descriptions.json` (descriptions by tool name, loaded after the first results). Without `combined_metadata.json`, the build skips them with a warning.
 
-#### 9. 👀 Preview the Site
+#### 8. 👀 Preview the Site
 To preview the generated static site, run:
 ```bash
 npm run preview
 ```
 You should now be able to access the site locally at `http://localhost:3000`.
+
+#### 9. 🧪 Other Scripts
+These scripts are also available in the `frontend` directory:
+- `npm run dev`: Start the Nuxt development server.
+- `npm run lint` (`npm run lint:fix` to fix what it can): Lint the code with ESLint.
+- `npm test`: Run the unit tests with Vitest. The CI runs them on every pull request.
 
 
 ## 🏗️ Implementation
@@ -191,16 +197,16 @@ The Python script is responsible for processing, merging metadata files and crea
 - Directory Structure:
   ```
   backend/
-  ├── content/                # Created after pulling the RSC Content repository
+  ├── content/                # Created after pulling the RSE Content repository
   ├── requirements.txt        # File with python dependencies, which are to be installed before running the Python script
-  ├── merge_data_files.py     # Python script to merge the metadata from the RCS Content repository
+  ├── merge_data_files.py     # Python script to merge the metadata from the RSE Content repository
   ```
 - Working:
   1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool, then loads the records of `backend/content/imports` (Bioconductor, Bioconda, Galaxy, Debian Med) that no folder holds.
      Records are grouped with the cross-links documented in the [RSEc documentation](https://research-software-ecosystem.org/docs) (bio.tools IDs in Bioconda, Galaxy and Debian Med records, Bioconda packages in Galaxy and Debian Med records, Bioconda and Debian downloads in bio.tools entries), plus the `bioconductor-<package>` naming of Bioconda and the Bioconda package that names the BioContainers record of a `data` folder (BioContainers images are built from Bioconda packages; these links come last, so they never take a package another record links to). Two groups are never merged when each holds a `data` folder, or a record of Bioconductor, Bioconda or Galaxy: such links, and Galaxy suites whose Bioconda package bears another name (a requirement rather than the tool itself), are listed as `related_tools` instead. A `data` folder may itself hold several Bioconda packages: all of them are identifiers of the tool, and its page shows one only when it is named after the folder or is the only one.
      Each group is saved as one tool, named after its `data` folder if it has one, and under `<source>/<identifier>` otherwise. Every identifier of the tool in a source is saved in `metadata/aliases/<source>/<identifier>.json`, pointing to the tool name, which the tool page follows.
   2. Each folder has metadata of several files either in JSON or YAML format.
-  3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to retrieve the information, one must modify this variable:
+  3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to retrieve the information, one must modify this variable (shortened here, the script also covers other spellings of the Bioconda file name):
       ```python
       file_patterns = [
         (f"bioconda_{folder_name}.yaml", "bioconda"),
@@ -208,22 +214,23 @@ The Python script is responsible for processing, merging metadata files and crea
         (f"{folder_name}.biotools.json", "biotools"),
         (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
         (f"{folder_name}.galaxy.json", "galaxy"),
+        (f"{folder_name}.bioconductor.json", "bioconductor"),
        ]
       ```
-      If none of these files exist, the tool is skipped.
+      Files for OEB, Debian Med and NeuBIAS are found with glob patterns (`*.oeb.metrics.json`, `*.debian.yaml`, `*.neubias.raw.json`) instead. If none of these files exist, the folder is skipped.
 
-  4. The next step is to define which data is to be fetched from each file. We use a variable called `SUMMARY_DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file:
-      ```json
+  4. The next step is to define which data is to be fetched from each file. We use a variable called `SUMMARY_DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file. It maps each source to its own keys:
+      ```python
       SUMMARY_DATA_KEY_MAPPINGS = {
        "bioconda": {
-           "bioconda__name": ("package", "name"),
-           "bioconda__version": ("package", "version"),
+           "name": ("package", "name"),
+           "version": ("package", "version"),
            .
            .
        },
       "biocontainers": {
-           "biocontainers__name": ("name",),
-           "biocontainers__identifiers": ("identifiers",),
+           "name": ("name",),
+           "summary": ("description",),
            .
            .
        },
@@ -235,69 +242,50 @@ The Python script is responsible for processing, merging metadata files and crea
 
       For `bioschemas.jsonld`, special parsing of the `@graph` array is handled to extract `"@type": "sc:SoftwareApplication"` entries.
 
-  5. Finally, we have the combined JSON file with the structure shown in the following example, which would be later used by the frontend of our application:
+  5. Finally, we have the combined JSON file with the structure shown in the following example, which would be later used by the frontend of our application (shortened: the real records hold more keys and sources). The data of each tool is nested under the source it comes from:
       ```json
       [
         {
            "tool_name": "1000genomes",
            "contents": [
-               "biotools",
-               "bioschemas"
+               "bioschemas",
+               "biotools"
            ],
            "fetched_metadata": {
-               "biotools__home": "http://www.internationalgenome.org",
-               "biotools__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
-               "biotools__addition_date": "2017-07-04T12:28:57Z",
-               "biotools__last_update_date": "2022-06-30T08:53:55.709797Z",
-               "biotools__tool_type": [
-                   "Database portal",
-                   "Web application"
-               ],
-               "bioschemas__name": "1000Genomes",
-               "bioschemas__home": "https://bio.tools/1000genomes",
-               "bioschemas__summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
-               "bioschemas__tool_type": "sc:SoftwareApplication"
+               "biotools": {
+                   "name": "1000Genomes",
+                   "summary": "The 1000 Genomes Project ran between 2008 and 2015, creating a deep catalogue of human genetic variation.",
+                   "addition_date": "2017-07-04T12:28:57Z",
+                   "last_update_date": "2022-06-30T08:53:55.709797Z"
+               },
+               "bioschemas": {
+                   "name": "1000Genomes"
+               }
            }
         },
-        {
-           "tool_name": "1000genomes_assembly_converter",
-           "contents": [
-               "biotools",
-               "bioschemas"
-           ],
-           "fetched_metadata": {
-               "biotools__home": "http://browser.1000genomes.org/tools.html",
-               "biotools__summary": "Map your data to the current assembly.",
-               "biotools__addition_date": "2015-01-29T15:47:08Z",
-               "biotools__last_update_date": "2018-12-10T12:58:50Z",
-               "biotools__tool_type": [
-                   "Web application"
-               ],
-               "bioschemas__name": "1000Genomes assembly converter",
-               "bioschemas__home": "https://bio.tools/1000genomes_assembly_converter",
-               "bioschemas__summary": "Map your data to the current assembly.",
-               "bioschemas__tool_type": "sc:SoftwareApplication"
-           }
-        },
-      .
-      .
+        .
+        .
       ]
       ```
+      The page of each tool is saved apart in `metadata/tools/<tool_name>.json`. It has the same structure, plus the `identifiers` of the tool, and its `fetched_metadata` holds the keys of `PAGE_DATA_KEY_MAPPINGS`.
 
 ### 🖥️ Frontend Project:
-The user interface of the application, i.e. frontend of the project, is built using Nuxt.js and includes the following components:
+The user interface of the application, i.e. frontend of the project, is built using Nuxt.js, with Nuxt UI (`@nuxt/ui`) and Tailwind CSS for the components, and includes the following components:
 
 - **Directory Structure**:
   ```
   frontend/
   ├── modules/             # Local Nuxt.js modules: search-index.ts builds the search index of the home page from combined_metadata.json
-  ├── pages/               # Consists of web pages in our frontend application, like the home page to list and search tools (index.vue), and the tool description page with all the metadata of the tool (/tool/[id].vue)
-  ├── plugins/             # Consists of Nuxt.js plugins used in the application. One used by our application is Vuetify, an open source UI library which provides Material UI components used in the application
+  ├── pages/               # Consists of web pages in our frontend application, like the home page to list and search tools (index.vue), and the tool description page with all the metadata of the tool (tool/[...id].vue). search/[search].vue redirects a /search/<query> link to the home page search
+  ├── components/          # Vue components used by the pages, like the tool card of the home page
+  ├── composables/         # useToolIndex.ts loads the search index and descriptions once and shares them between the pages
+  ├── utils/               # Helpers to fetch the JSON files (index, descriptions, aliases), read the metadata of a tool, and search, filter and sort the tools
+  ├── tests/               # Unit tests, run with npm test
   ├── public/              # Consists of metadata generated by our Python script, and the logo used in the application (logo-rsec.svg)
   ├── server/              # Consists of tsconfig.json, which specifies the root files and the compiler options for the Nuxt.js project
-  ├── stores/              # We are using a Pinia store defined in tools.js, which helps to fetch the data from the JSON file and access the frontend of the application 
+  ├── stores/              # We are using a Pinia store defined in tools.ts, which keeps the favorite tools in the browser and resolves saved tool names through the aliases
   ├── app.vue              # The web page which wraps our home page, it consists of header and footer for the application
-  ├── nuxt.config.js       # Nuxt.js config file, which helps us to configure Vuetify, base URL of the project, and Pinia store for the project
+  ├── nuxt.config.ts       # Nuxt.js config file, which helps us to configure the modules (Nuxt UI, Tailwind CSS, Pinia), base URL of the project, and page title
   └── package.json         # Node.js configuration file used to manage different packages or dependencies used in our frontend application
   ```
 - Working:

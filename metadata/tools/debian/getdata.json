@@ -1,0 +1,1 @@
+{"tool_name":"debian/getdata","contents":["debian"],"identifiers":["debian:getdata"],"fetched_metadata":{"debian":{"package":"getdata","distribution":"debian","release":"sid","component":"main","version":"0.2","source":"getdata","homepage":"http://debian-med.alioth.debian.org","license":"unknown","blend":"debian-med","popcon":[{"insts":8,"olde":6,"vote":2}]}}}

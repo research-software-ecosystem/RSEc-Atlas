@@ -1,0 +1,1 @@
+{"tool_name":"debian/catfishq","contents":["debian"],"identifiers":["debian:catfishq"],"fetched_metadata":{"debian":{"package":"catfishq","distribution":"debian","release":"sid","component":"main","version":"1.4.0+ds","source":"catfishq","homepage":"https://github.com/philres/catfishq","license":"unknown","blend":"debian-med","popcon":[{"insts":8,"olde":4,"vote":4}]}}}

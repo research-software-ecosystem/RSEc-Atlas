@@ -1,0 +1,1 @@
+{"tool_name":"debian/lucy","contents":["debian"],"identifiers":["debian:lucy"],"fetched_metadata":{"debian":{"package":"lucy","distribution":"debian","release":"sid","component":"main","version":"1.20","source":"lucy","homepage":"https://lucy.sourceforge.net","license":"unknown","blend":"debian-med","popcon":[{"insts":122,"olde":92,"recent":25,"vote":5}]}}}

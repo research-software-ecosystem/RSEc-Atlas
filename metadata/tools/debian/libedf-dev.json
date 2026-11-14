@@ -1,0 +1,1 @@
+{"tool_name":"debian/libedf-dev","contents":["debian"],"identifiers":["debian:libedf-dev"],"fetched_metadata":{"debian":{"package":"libedf-dev","distribution":"debian","release":"sid","component":"main","version":"1.27","source":"edflib","homepage":"https://www.teuniz.net/edflib/","license":"unknown","blend":"debian-med","popcon":[{"insts":7,"olde":7}]}}}

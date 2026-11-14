@@ -1,0 +1,1 @@
+{"tool_name":"debian/umap-learn","contents":["debian"],"identifiers":["debian:umap-learn"],"fetched_metadata":{"debian":{"package":"umap-learn","distribution":"debian","release":"sid","component":"main","version":"0.5.12","source":"umap-learn","homepage":"https://github.com/lmcinnes/umap","license":"unknown","blend":"debian-med","popcon":[{"insts":27,"olde":25,"vote":2}]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"debian/python3-mne","contents":["debian"],"identifiers":["debian:python3-mne"],"fetched_metadata":{"debian":{"package":"python3-mne","distribution":"debian","release":"sid","component":"main","version":"1.13.2","source":"python-mne","homepage":"https://martinos.org/mne","license":"unknown","blend":"debian-med","popcon":[{"insts":13,"olde":7,"recent":1,"vote":5}]}}}

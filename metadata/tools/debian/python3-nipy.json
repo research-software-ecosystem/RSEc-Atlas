@@ -1,0 +1,1 @@
+{"tool_name":"debian/python3-nipy","contents":["debian"],"identifiers":["debian:python3-nipy"],"fetched_metadata":{"debian":{"package":"python3-nipy","distribution":"debian","release":"sid","component":"main","version":"0.6.1","source":"nipy","homepage":"https://nipy.org/nipy/","license":"unknown","blend":"debian-med","popcon":[{"insts":98,"olde":81,"recent":5,"vote":12}]}}}

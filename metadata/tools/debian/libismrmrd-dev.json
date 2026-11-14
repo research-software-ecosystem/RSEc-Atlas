@@ -1,0 +1,1 @@
+{"tool_name":"debian/libismrmrd-dev","contents":["debian"],"identifiers":["debian:libismrmrd-dev"],"fetched_metadata":{"debian":{"package":"libismrmrd-dev","distribution":"debian","release":"sid","component":"main","version":"1.15.0","source":"ismrmrd","homepage":"https://ismrmrd.github.io/","license":"unknown","blend":"debian-med","popcon":[{"insts":8,"olde":6,"recent":2}]}}}

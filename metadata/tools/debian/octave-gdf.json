@@ -1,0 +1,1 @@
+{"tool_name":"debian/octave-gdf","contents":["debian"],"identifiers":["debian:octave-gdf"],"fetched_metadata":{"debian":{"package":"octave-gdf","distribution":"debian","release":"sid","component":"main","version":"0.1.3","source":"libgdf","homepage":"https://github.com/mbillingr/libgdf","license":"unknown","blend":"debian-med","popcon":[{"insts":59,"nofiles":59}]}}}

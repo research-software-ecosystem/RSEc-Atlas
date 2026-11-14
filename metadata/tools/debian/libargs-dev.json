@@ -1,0 +1,1 @@
+{"tool_name":"debian/libargs-dev","contents":["debian"],"identifiers":["debian:libargs-dev"],"fetched_metadata":{"debian":{"package":"libargs-dev","distribution":"debian","release":"sid","component":"main","version":"6.4.1","source":"libargs","homepage":"https://github.com/Taywee/args","license":"unknown","blend":"debian-med","popcon":[{"insts":10,"nofiles":8,"olde":2}]}}}

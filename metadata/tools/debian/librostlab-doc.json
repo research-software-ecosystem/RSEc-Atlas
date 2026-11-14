@@ -1,0 +1,1 @@
+{"tool_name":"debian/librostlab-doc","contents":["debian"],"identifiers":["debian:librostlab-doc"],"fetched_metadata":{"debian":{"package":"librostlab-doc","distribution":"debian","release":"sid","component":"main","version":"1.0.20","source":"librostlab","homepage":"https://rostlab.org/","license":"unknown","blend":"debian-med","popcon":[{"insts":5,"nofiles":5}]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"debian/libsuma-dev","contents":["debian"],"identifiers":["debian:libsuma-dev"],"fetched_metadata":{"debian":{"package":"libsuma-dev","distribution":"debian","release":"sid","component":"main","version":"1.0.36","source":"sumalibs","homepage":"https://git.metabarcoding.org/obitools/sumalibs","license":"unknown","blend":"debian-med","popcon":[{"insts":3,"olde":3}]}}}

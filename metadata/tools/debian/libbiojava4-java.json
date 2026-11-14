@@ -1,0 +1,1 @@
+{"tool_name":"debian/libbiojava4-java","contents":["debian"],"identifiers":["debian:libbiojava4-java"],"fetched_metadata":{"debian":{"package":"libbiojava4-java","distribution":"debian","release":"sid","component":"main","version":"4.2.12","source":"biojava4-live","homepage":"https://www.biojava.org","license":"unknown","blend":"debian-med","popcon":[{"insts":9,"nofiles":9}]}}}

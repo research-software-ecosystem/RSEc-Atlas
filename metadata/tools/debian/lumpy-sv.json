@@ -1,0 +1,1 @@
+{"tool_name":"debian/lumpy-sv","contents":["debian"],"identifiers":["debian:lumpy-sv"],"fetched_metadata":{"debian":{"package":"lumpy-sv","distribution":"debian","release":"sid","component":"main","version":"0.3.1","source":"lumpy-sv","homepage":"https://github.com/arq5x/lumpy-sv","license":"unknown","blend":"debian-med","popcon":[{"insts":124,"olde":94,"recent":25,"vote":5}]}}}

@@ -1,0 +1,1 @@
+{"tool_name":"debian/nutsqlite","contents":["debian"],"identifiers":["debian:nutsqlite"],"fetched_metadata":{"debian":{"package":"nutsqlite","distribution":"debian","release":"sid","component":"main","version":"2.0.6","source":"nutsqlite","homepage":"http://nut.sourceforge.net/","license":"unknown","blend":"debian-med","popcon":[{"insts":28,"olde":26,"recent":1,"vote":1}]}}}

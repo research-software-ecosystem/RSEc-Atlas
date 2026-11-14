@@ -1,0 +1,1 @@
+{"tool_name":"debian/python3-pynn","contents":["debian"],"identifiers":["debian:python3-pynn"],"fetched_metadata":{"debian":{"package":"python3-pynn","distribution":"debian","release":"sid","component":"main","version":"0.10.1","source":"pynn","homepage":"https://neuralensemble.org/trac/PyNN","license":"unknown","blend":"debian-med","popcon":[{"insts":1,"olde":1}]}}}

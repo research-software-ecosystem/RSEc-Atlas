@@ -1,0 +1,1 @@
+{"tool_name":"debian/python3-mia","contents":["debian"],"identifiers":["debian:python3-mia"],"fetched_metadata":{"debian":{"package":"python3-mia","distribution":"debian","release":"sid","component":"main","version":"0.1.9","source":"pymia","homepage":"http://mia.sourceforge.net","license":"unknown","blend":"debian-med","bib":[{"key":"doi","value":"10.1186/1751-0473-8-20"}]}}}

@@ -1,0 +1,1 @@
+function e(e){return{path:`/`,query:{search:e}}}function t(e){return`/search/${encodeURIComponent(`tag:'${e.trim()}'`)}`}export{t as n,e as t};

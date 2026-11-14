@@ -1,0 +1,1 @@
+{"tool_name":"debian/libvtk9-dev","contents":["debian"],"identifiers":["debian:libvtk9-dev"],"fetched_metadata":{"debian":{"package":"libvtk9-dev","distribution":"debian","release":"sid","component":"main","version":"9.6.2+ds","source":"vtk9","homepage":"https://www.vtk.org/","license":"unknown","blend":"debian-med","popcon":[{"insts":771,"olde":609,"recent":132,"vote":30}]}}}

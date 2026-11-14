@@ -1,0 +1,1 @@
+{"tool_name":"debian/shovill","contents":["debian"],"identifiers":["debian:shovill"],"fetched_metadata":{"debian":{"package":"shovill","distribution":"debian","release":"sid","component":"main","version":"1.1.0","source":"shovill","homepage":"https://github.com/tseemann/shovill","license":"unknown","blend":"debian-med","popcon":[{"insts":112,"olde":83,"recent":25,"vote":4}]}}}

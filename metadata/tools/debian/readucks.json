@@ -1,0 +1,1 @@
+{"tool_name":"debian/readucks","contents":["debian"],"identifiers":["debian:readucks"],"fetched_metadata":{"debian":{"package":"readucks","distribution":"debian","release":"sid","component":"main","version":"0.0.3","source":"readucks","homepage":"https://github.com/artic-network/readucks","license":"unknown","blend":"debian-med","popcon":[{"insts":11,"olde":11}]}}}

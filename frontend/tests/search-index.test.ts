@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   buildSearchFiles,
+  MAX_DESCRIPTION_LENGTH,
   NO_DESCRIPTION,
   toIndexEntry,
 } from "../utils/search-index";
@@ -112,5 +113,73 @@ describe("buildSearchFiles", () => {
     expect(Object.hasOwn(parsed, "__proto__")).toBe(true);
     expect(parsed["__proto__"]).toBe("Proto.");
     expect(parsed.constructor).toBe("Built.");
+  });
+});
+
+describe("buildSearchFiles description length", () => {
+  function describedAs(summary: string): string | undefined {
+    const tool = makeTool("biotools/long", { biotools: { id: "x", summary } });
+    return buildSearchFiles([tool]).descriptions["biotools/long"];
+  }
+
+  it("leaves a short description unchanged", () => {
+    expect(describedAs("A short one.")).toBe("A short one.");
+  });
+
+  it("leaves a description of exactly the limit unchanged", () => {
+    const text = "a".repeat(MAX_DESCRIPTION_LENGTH);
+
+    expect(describedAs(text)).toBe(text);
+  });
+
+  it("cuts a long description at the last word boundary and adds an ellipsis", () => {
+    // 8-char words plus a space take 9 chars each: char 300 is the 4th of the 34th word.
+    const words = Array.from({ length: 60 }, () => "abcdefgh");
+
+    expect(describedAs(words.join(" "))).toBe(`${words.slice(0, 33).join(" ")}…`);
+  });
+
+  it("keeps the whole word that ends at the limit", () => {
+    const text = `${"a".repeat(MAX_DESCRIPTION_LENGTH - 5)} word more`;
+
+    expect(describedAs(text)).toBe(
+      `${"a".repeat(MAX_DESCRIPTION_LENGTH - 5)} word…`,
+    );
+  });
+
+  it("drops trailing whitespace and punctuation before the ellipsis", () => {
+    const text = `${"a".repeat(MAX_DESCRIPTION_LENGTH - 10)}, ; . ${"b".repeat(20)}`;
+
+    expect(describedAs(text)).toBe(
+      `${"a".repeat(MAX_DESCRIPTION_LENGTH - 10)}…`,
+    );
+  });
+
+  it("cuts a long string without whitespace at the limit", () => {
+    const cut = describedAs("a".repeat(MAX_DESCRIPTION_LENGTH + 50));
+
+    expect(cut).toBe(`${"a".repeat(MAX_DESCRIPTION_LENGTH)}…`);
+  });
+
+  it("does not split a surrogate pair", () => {
+    // The pair straddles the limit: its high half is the 300th char.
+    const text = `${"a".repeat(MAX_DESCRIPTION_LENGTH - 1)}😀${"a".repeat(10)}`;
+    const cut = describedAs(text)!;
+
+    expect(cut).toBe(`${"a".repeat(MAX_DESCRIPTION_LENGTH - 1)}…`);
+    expect(cut.isWellFormed()).toBe(true);
+  });
+
+  it("still skips the default description", () => {
+    expect(describedAs(NO_DESCRIPTION)).toBeUndefined();
+  });
+
+  it("leaves the entry from toIndexEntry with the full description", () => {
+    const text = "word ".repeat(100).trim();
+    const tool = makeTool("biotools/long", {
+      biotools: { id: "x", summary: text },
+    });
+
+    expect(toIndexEntry(tool).description).toBe(text);
   });
 });

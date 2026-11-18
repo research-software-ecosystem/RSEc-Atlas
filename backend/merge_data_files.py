@@ -11,6 +11,8 @@ script_dir = os.path.dirname(__file__)
 output_folder = os.path.join(script_dir, "..", "frontend", "public", "metadata")
 data_dir = os.path.join(script_dir, "content", "data")
 imports_dir = os.path.join(script_dir, "content", "imports")
+tess_data_dir = os.path.join(imports_dir, "tess")
+workflowhub_data_dir = os.path.join(imports_dir, "workflowhub")
 
 # Sources whose records can describe a tool on their own: metadata type, folder
 # in imports/ and file name pattern capturing the identifier in that source.
@@ -48,6 +50,98 @@ def parse_yaml(file_path):
 def parse_json(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_lookup(data_dir, suffix):
+    """Load every `<id><suffix>` file in data_dir into {str(id) -> record}."""
+    lookup = {}
+    if not os.path.isdir(data_dir):
+        return lookup
+    for file_name in os.listdir(data_dir):
+        if not file_name.endswith(suffix):
+            continue
+        file_path = os.path.join(data_dir, file_name)
+        try:
+            record = parse_json(file_path)
+        except ValueError as e:
+            log_message(f"Skipping {file_path}: {e}")
+            continue
+        if not isinstance(record, dict):
+            continue
+        lookup[str(record.get("id", file_name[: -len(suffix)]))] = record
+    return lookup
+
+
+def _safe_record_id(record):
+    """Return a filesystem-safe str id for a record, or None if unusable.
+
+    Guards against missing/malformed ids and path-traversal via the id field
+    (ids originate from external TESS/WorkflowHub API feeds).
+    """
+    raw = record.get("id")
+    if raw is None:
+        return None
+    sid = str(raw).strip()
+    if not sid or "/" in sid or "\\" in sid or sid in (".", ".."):
+        return None
+    return sid
+
+
+def resolve_id_list(ids, lookup):
+    """Resolve a list of ids to deduplicated full records, skipping misses."""
+    resolved = []
+    seen = set()
+    for raw_id in ids:
+        key = str(raw_id)
+        if key in seen or key not in lookup:
+            continue
+        seen.add(key)
+        resolved.append(lookup[key])
+    return resolved
+
+
+# Catalogue sources: detail folder under metadata/ and the record keys holding
+# the title and link.
+CATALOGUES = {
+    "tess": ("trainings", "title", "url"),
+    "workflowhub": ("workflows", "name", "link"),
+}
+
+
+def _in_catalogue(record):
+    """Records with a usable id and at least one mapped tool get a detail file."""
+    return bool(record.get("mapped_tools")) and _safe_record_id(record) is not None
+
+
+def _index_entry(record, source_type):
+    """Build a lightweight index entry from a full record."""
+    _, title_key, link_key = CATALOGUES[source_type]
+    return {
+        "source": record.get("source"),
+        "id": _safe_record_id(record),
+        "title": record.get(title_key),
+        "link": record.get(link_key),
+        "mapped_tools": record.get("mapped_tools", []),
+    }
+
+
+def emit_catalogue(catalogues):
+    """Write trainings/workflows indexes + per-record detail files.
+
+    Indexes are sorted by id for reproducible output.
+    """
+    for source_type, lookup in catalogues.items():
+        folder = CATALOGUES[source_type][0]
+        entries = []
+        for record in lookup.values():
+            if not _in_catalogue(record):
+                continue
+            entry = _index_entry(record, source_type)
+            entries.append(entry)
+            save_metadata(f"{folder}/{entry['id']}.json", record)
+        entries.sort(key=lambda e: e["id"])
+        save_metadata(f"{folder}.json", entries)
+        log_message(f"Emitted {len(entries)} {folder}")
 
 
 SUMMARY_DATA_KEY_MAPPINGS = {
@@ -403,7 +497,8 @@ def add_record(metadata, tool_type, fetched, page):
             target[tool_type] = value
 
 
-def process_files_in_folder(folder_path):
+def process_files_in_folder(folder_path, catalogues):
+    """catalogues maps "tess"/"workflowhub" to their {id -> record} lookup."""
     folder_name = os.path.basename(folder_path)
     log_message(f"Extracting data for: {folder_name}")
 
@@ -415,6 +510,8 @@ def process_files_in_folder(folder_path):
         (f"{folder_name}.bioschemas.jsonld", "bioschemas"),
         (f"{folder_name}.galaxy.json", "galaxy"),
         (f"{folder_name}.bioconductor.json", "bioconductor"),
+        (f"{folder_name}.tess.json", "tess"),
+        (f"{folder_name}.workflowhub.json", "workflowhub"),
     ]
 
     # Bioconda packages use dashes where bio.tools IDs use underscores, e.g.
@@ -450,6 +547,17 @@ def process_files_in_folder(folder_path):
     for file_name, tool_type in file_patterns:
         file_path = os.path.join(folder_path, file_name)
         if not os.path.exists(file_path):
+            continue
+
+        # These files list record IDs. To keep pages light, the tool page gets
+        # index entries (full records are in <folder>/<id>.json) and the
+        # summary only the IDs.
+        if tool_type in catalogues:
+            records = resolve_id_list(parse_json(file_path) or [], catalogues[tool_type])
+            entries = [_index_entry(r, tool_type) for r in records if _in_catalogue(r)]
+            if entries:
+                ids = [entry["id"] for entry in entries]
+                add_record(metadata, tool_type, {tool_type: ids}, {tool_type: entries})
             continue
 
         fetched, page = parse_metadata(tool_type, file_path)
@@ -727,6 +835,15 @@ def link_records(folders, record_files, orphans):
 def main():
     combined_metadata, aliases = [], {}
 
+    catalogues = {
+        "tess": load_lookup(tess_data_dir, ".tess.json"),
+        "workflowhub": load_lookup(workflowhub_data_dir, ".workflowhub.json"),
+    }
+    log_message(
+        f"Loaded {len(catalogues['tess'])} TESS and "
+        f"{len(catalogues['workflowhub'])} WorkflowHub records"
+    )
+
     folders, record_files = scan_data_folders()
     held = {record for records in folders.values() for record in records}
     orphans = scan_imports(held)
@@ -746,7 +863,7 @@ def main():
         # valid; otherwise the identifier from the preferred source does.
         metadata = None
         if folder_name is not None:
-            metadata = process_files_in_folder(os.path.join(data_dir, folder_name))
+            metadata = process_files_in_folder(os.path.join(data_dir, folder_name), catalogues)
         if metadata is not None:
             tool_name = folder_name
             identifiers = list(folders[folder_name])
@@ -803,6 +920,8 @@ def main():
     aliases = {a: t for a, t in aliases.items() if a not in tool_names}
     for alias, tool_name in sorted(aliases.items()):
         save_metadata(f"aliases/{alias}.json", {"tool_name": tool_name})
+
+    emit_catalogue(catalogues)
 
     log_message(f"Saved {len(combined_metadata)} tools and {len(aliases)} aliases")
     save_metadata("combined_metadata.json", combined_metadata)

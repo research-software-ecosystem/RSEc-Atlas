@@ -1,0 +1,1 @@
+{"tool_name":"debian/nim-hts-dev","contents":["debian"],"identifiers":["debian:nim-hts-dev"],"fetched_metadata":{"debian":{"package":"nim-hts-dev","distribution":"debian","release":"sid","component":"main","version":"0.3.25+ds","source":"nim-hts","homepage":"https://github.com/brentp/hts-nim","license":"unknown","blend":"debian-med","popcon":[{"insts":8,"olde":8}]}}}

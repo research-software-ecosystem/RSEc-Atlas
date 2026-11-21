@@ -1,0 +1,1 @@
+{"tool_name":"debian/libmmblib-dev","contents":["debian"],"identifiers":["debian:libmmblib-dev"],"fetched_metadata":{"debian":{"package":"libmmblib-dev","distribution":"debian","release":"bullseye","component":"main","version":"3.2","source":"macromoleculebuilder","homepage":"https://simtk.org/projects/rnatoolbox","license":"unknown","blend":"debian-med"}}}

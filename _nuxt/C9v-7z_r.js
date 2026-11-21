@@ -1,0 +1,1 @@
+import{lt as e,st as t}from"./BqT4-kHk.js";import"#entry";import{t as n}from"./BLSrSwbA.js";var r={__name:`[search]`,setup(r){let i=e(),a=String(i.params.search||``);return t(n(a),{replace:!0}),()=>{}}};export{r as default};

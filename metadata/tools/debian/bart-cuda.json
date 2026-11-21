@@ -1,0 +1,1 @@
+{"tool_name":"debian/bart-cuda","contents":["debian"],"identifiers":["debian:bart-cuda"],"fetched_metadata":{"debian":{"package":"bart-cuda","distribution":"debian","release":"sid","component":"contrib","version":"0.8.00","source":"bart-cuda","homepage":"https://mrirecon.github.io/bart/","license":"unknown","blend":"debian-med"}}}

@@ -1,0 +1,1 @@
+{"tool_name":"debian/xpore","contents":["debian"],"identifiers":["debian:xpore"],"fetched_metadata":{"debian":{"package":"xpore","distribution":"debian","release":"sid","component":"main","version":"2.1","source":"xpore","homepage":"https://github.com/GoekeLab/xpore/","license":"unknown","blend":"debian-med","popcon":[{"insts":121,"olde":81,"recent":31,"vote":9}]}}}

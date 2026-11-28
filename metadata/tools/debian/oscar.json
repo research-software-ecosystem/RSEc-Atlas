@@ -1,0 +1,1 @@
+{"tool_name":"debian/oscar","contents":["debian"],"identifiers":["debian:oscar"],"fetched_metadata":{"debian":{"package":"oscar","distribution":"debian","release":"sid","component":"main","version":"2.1.1+ds","source":"oscar","homepage":"https://www.sleepfiles.com/OSCAR/","license":"unknown","blend":"debian-med","popcon":[{"insts":75,"olde":51,"recent":12,"vote":12}]}}}
